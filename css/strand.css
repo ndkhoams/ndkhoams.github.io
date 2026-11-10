@@ -1,0 +1,149 @@
+:root {
+  --bg: #000000;
+  --bg-raised: #0c0c0f;
+  --bg-card: rgba(22, 22, 26, 0.72);
+  --cell: #1c1c1e;
+  --cell-hover: rgba(255, 255, 255, 0.06);
+  --cell-active: rgba(255, 255, 255, 0.12);
+  --label: #f5f5f7;
+  --label-2: rgba(235, 235, 245, 0.65);
+  --label-3: rgba(235, 235, 245, 0.4);
+  --separator: rgba(255, 255, 255, 0.08);
+  --accent: #ff6500;
+  --accent-glow: rgba(255, 101, 0, 0.28);
+  --blue: #0a84ff;
+  --orange: #ff9f0a;
+  --green: #30d158;
+  --red: #ff453a;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--label);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow-x: hidden;
+}
+
+/* Safe Area Insets for iPhone notch & Home Indicator */
+body {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 72px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 2rem;
+  }
+}
+
+/* Glassmorphism Tokens */
+.glass-pill {
+  background: rgba(28, 28, 30, 0.78);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+}
+
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.glass-modal {
+  background: rgba(18, 18, 22, 0.88);
+  backdrop-filter: blur(32px) saturate(190%);
+  -webkit-backdrop-filter: blur(32px) saturate(190%);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Ambient Dynamic Glow */
+.ambient-glow {
+  position: absolute;
+  width: 700px;
+  max-width: 90vw;
+  height: 400px;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse at center, rgba(255, 101, 0, 0.16) 0%, rgba(10, 132, 255, 0.1) 45%, transparent 70%);
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  transition: background 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-sport {
+  background: radial-gradient(ellipse at center, rgba(48, 209, 88, 0.18) 0%, rgba(10, 132, 255, 0.14) 45%, transparent 70%);
+}
+
+.glow-news {
+  background: radial-gradient(ellipse at center, rgba(255, 69, 58, 0.18) 0%, rgba(255, 159, 10, 0.12) 45%, transparent 70%);
+}
+
+.glow-movie {
+  background: radial-gradient(ellipse at center, rgba(168, 85, 247, 0.2) 0%, rgba(59, 130, 246, 0.12) 45%, transparent 70%);
+}
+
+/* Stadium Vector Graphic Background */
+.stadium-bg {
+  background: radial-gradient(circle at 50% 35%, #182234 0%, #080c14 65%, #000000 100%);
+}
+
+/* Interactive Channel Items */
+.channel-row {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.channel-row:hover {
+  background: var(--cell-hover);
+}
+
+.channel-row:active {
+  background: var(--cell-active);
+  transform: scale(0.995);
+}
+
+.channel-row.active {
+  background: rgba(255, 101, 0, 0.12);
+  border-left: 3.5px solid var(--accent);
+}
+
+/* Custom Scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle Shimmer Animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 25%, rgba(255, 255, 255, 0.09) 50%, rgba(255, 255, 255, 0.04) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
