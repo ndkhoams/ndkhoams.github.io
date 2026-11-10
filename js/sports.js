@@ -1,6 +1,10 @@
 /**
  * TV Play Strand Edition — Live Sports & Fixtures Engine
- * Matches are compact by default; tapping a match expands its stream channels list.
+ * Features:
+ * - Real club and national team logos displayed at both ends of each match card
+ * - Automatic fallback to 3-letter initials badge if logo is unavailable
+ * - Instant logo resolution via Standings, Country Flags, Pre-mapped Clubs, and ESPN database
+ * - Matches are compact by default; tapping a match expands its stream channels list.
  */
 
 class SportsManager {
@@ -8,12 +12,322 @@ class SportsManager {
     this.player = player;
     this.sportsData = null;
     this.liveEvents = [];
-    this.expandedEventIdx = -1; // -1 means none expanded by default
+    this.expandedEventIdx = -1;
     this.activeEventIdx = -1;
     this.activeSourceIdx = -1;
     this.defaultSportsUrl = 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json';
     this.armbianHubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
     this.useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
+
+    // Logo Resolution Caches & Registries
+    this.teamLogosCache = {};
+    this.standingsLogoMap = {};
+    this.fetchingLogos = new Set();
+
+    this.initCountryFlags();
+    this.initPremappedClubs();
+  }
+
+  normalizeName(str) {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[đĐ]/g, 'd')
+      .replace(/[^a-z0-9]/g, '')
+      .trim();
+  }
+
+  initCountryFlags() {
+    const FLAGS = {
+      vn: ['vietnam', 'viet nam'],
+      tw: ['chinese taipei', 'dai loan', 'taiwan'],
+      be: ['belgium', 'bi', 'belgium indoor soccer'],
+      si: ['slovenia', 'slovenia indoor soccer'],
+      in: ['india', 'an do'],
+      mv: ['maldives'],
+      bd: ['bangladesh'],
+      lk: ['sri lanka'],
+      gh: ['ghana'],
+      so: ['somalia'],
+      uz: ['uzbekistan'],
+      ru: ['russia', 'nga'],
+      al: ['albania'],
+      fi: ['finland', 'phan lan'],
+      kw: ['kuwait'],
+      sy: ['syria'],
+      th: ['thailand', 'thai lan'],
+      id: ['indonesia'],
+      my: ['malaysia'],
+      sg: ['singapore'],
+      ph: ['philippines'],
+      la: ['laos', 'lao'],
+      kh: ['cambodia', 'campuchia'],
+      mm: ['myanmar'],
+      cn: ['china', 'trung quoc'],
+      jp: ['japan', 'nhat ban'],
+      kr: ['korea', 'south korea', 'han quoc'],
+      kp: ['north korea', 'trieu tien'],
+      gb: ['england', 'anh'],
+      fr: ['france', 'phap'],
+      de: ['germany', 'duc'],
+      es: ['spain', 'tay ban nha'],
+      it: ['italy', 'y'],
+      pt: ['portugal', 'bo dao nha'],
+      nl: ['netherlands', 'ha lan'],
+      ar: ['argentina'],
+      br: ['brazil'],
+      co: ['colombia'],
+      uy: ['uruguay'],
+      sx: ['sint maarten'],
+      ai: ['anguilla'],
+      au: ['australia', 'uc'],
+      hr: ['croatia'],
+      ch: ['switzerland', 'thuy si'],
+      se: ['sweden', 'thuy dien'],
+      dk: ['denmark', 'dan mach'],
+      no: ['norway', 'na uy'],
+      pl: ['poland', 'ba lan'],
+      tr: ['turkey', 'tho nhi ky'],
+      ro: ['romania'],
+      gr: ['greece', 'hy lap'],
+      at: ['austria', 'ao'],
+      cz: ['czech republic', 'sec'],
+      sk: ['slovakia'],
+      hu: ['hungary'],
+      bg: ['bulgaria'],
+      rs: ['serbia'],
+      ua: ['ukraine'],
+      ma: ['morocco', 'maroc'],
+      sn: ['senegal'],
+      ng: ['nigeria'],
+      eg: ['egypt', 'ai cap'],
+      cm: ['cameroon'],
+      za: ['south africa', 'nam phi'],
+      sa: ['saudi arabia', 'a rap xe ut'],
+      qa: ['qatar'],
+      ae: ['uae', 'cac tieu vuong quoc'],
+      iq: ['iraq'],
+      ir: ['iran'],
+      us: ['usa', 'united states', 'my']
+    };
+
+    this.countryFlagsMap = {};
+    for (const [code, aliases] of Object.entries(FLAGS)) {
+      const url = `https://flagcdn.com/w80/${code}.png`;
+      aliases.forEach(a => {
+        this.countryFlagsMap[this.normalizeName(a)] = url;
+      });
+    }
+  }
+
+  initPremappedClubs() {
+    this.premappedClubs = {
+      // English Football
+      leicester: 'https://a.espncdn.com/i/teamlogos/soccer/500/375.png',
+      leicestercity: 'https://a.espncdn.com/i/teamlogos/soccer/500/375.png',
+      walsall: 'https://a.espncdn.com/i/teamlogos/soccer/500/401.png',
+      crewe: 'https://a.espncdn.com/i/teamlogos/soccer/500/396.png',
+      crewealexandra: 'https://a.espncdn.com/i/teamlogos/soccer/500/396.png',
+      wigan: 'https://a.espncdn.com/i/teamlogos/soccer/500/350.png',
+      wiganathletic: 'https://a.espncdn.com/i/teamlogos/soccer/500/350.png',
+      mansfield: 'https://a.espncdn.com/i/teamlogos/soccer/500/354.png',
+      mansfieldtown: 'https://a.espncdn.com/i/teamlogos/soccer/500/354.png',
+      chesterfield: 'https://a.espncdn.com/i/teamlogos/soccer/500/358.png',
+      burtonalbion: 'https://a.espncdn.com/i/teamlogos/soccer/500/446.png',
+      nottscounty: 'https://a.espncdn.com/i/teamlogos/soccer/500/349.png',
+      bristolrovers: 'https://a.espncdn.com/i/teamlogos/soccer/500/342.png',
+      reading: 'https://a.espncdn.com/i/teamlogos/soccer/500/338.png',
+      northampton: 'https://a.espncdn.com/i/teamlogos/soccer/500/355.png',
+      northamptontown: 'https://a.espncdn.com/i/teamlogos/soccer/500/355.png',
+      gillingham: 'https://a.espncdn.com/i/teamlogos/soccer/500/397.png',
+      leedsunited: 'https://a.espncdn.com/i/teamlogos/soccer/500/357.png',
+      southampton: 'https://a.espncdn.com/i/teamlogos/soccer/500/376.png',
+      sunderland: 'https://a.espncdn.com/i/teamlogos/soccer/500/366.png',
+      norwich: 'https://a.espncdn.com/i/teamlogos/soccer/500/381.png',
+      westbrom: 'https://a.espncdn.com/i/teamlogos/soccer/500/383.png',
+      middlesbrough: 'https://a.espncdn.com/i/teamlogos/soccer/500/368.png',
+      sheffieldunited: 'https://a.espncdn.com/i/teamlogos/soccer/500/398.png',
+      sheffieldwednesday: 'https://a.espncdn.com/i/teamlogos/soccer/500/380.png',
+      watford: 'https://a.espncdn.com/i/teamlogos/soccer/500/395.png',
+      burnley: 'https://a.espncdn.com/i/teamlogos/soccer/500/379.png',
+      stoke: 'https://a.espncdn.com/i/teamlogos/soccer/500/336.png',
+      swansea: 'https://a.espncdn.com/i/teamlogos/soccer/500/318.png',
+      cardiff: 'https://a.espncdn.com/i/teamlogos/soccer/500/347.png',
+      blackburn: 'https://a.espncdn.com/i/teamlogos/soccer/500/365.png',
+      qpr: 'https://a.espncdn.com/i/teamlogos/soccer/500/334.png',
+      derby: 'https://a.espncdn.com/i/teamlogos/soccer/500/364.png',
+      preston: 'https://a.espncdn.com/i/teamlogos/soccer/500/390.png',
+      millwall: 'https://a.espncdn.com/i/teamlogos/soccer/500/385.png',
+      coventry: 'https://a.espncdn.com/i/teamlogos/soccer/500/377.png',
+      hull: 'https://a.espncdn.com/i/teamlogos/soccer/500/306.png',
+      luton: 'https://a.espncdn.com/i/teamlogos/soccer/500/356.png',
+      plymouth: 'https://a.espncdn.com/i/teamlogos/soccer/500/345.png',
+      portsmouth: 'https://a.espncdn.com/i/teamlogos/soccer/500/384.png',
+      oxford: 'https://a.espncdn.com/i/teamlogos/soccer/500/328.png',
+
+      // Spanish Football
+      valencia: 'https://a.espncdn.com/i/teamlogos/soccer/500/94.png',
+      alaves: 'https://a.espncdn.com/i/teamlogos/soccer/500/96.png',
+      deportivoalaves: 'https://a.espncdn.com/i/teamlogos/soccer/500/96.png',
+      anaitasuna: 'https://imgts.sportpulseapiz.com/football/team/vjxm8ghj4e3r6od/image/small',
+      uetavernes: 'https://cdn.imgts.com/uploads/images/1784649818862-gr6fqgbhsx8.png',
+
+      // Romanian Football
+      metalulbuzau: 'https://img.cltvap.cc/football/team/f5564d465c79e1d82f69a3cd887c50b8.png!w80',
+      steauabucuresti: 'https://a.espncdn.com/i/teamlogos/soccer/500/484.png',
+      fcsb: 'https://a.espncdn.com/i/teamlogos/soccer/500/484.png',
+
+      // Japanese J-League
+      visselkobe: 'https://a.espncdn.com/i/teamlogos/soccer/500/7477.png',
+      machidazelvia: 'https://a.espncdn.com/i/teamlogos/soccer/500/18165.png',
+      kawasakifrontale: 'https://a.espncdn.com/i/teamlogos/soccer/500/7464.png',
+      kashiwareysol: 'https://a.espncdn.com/i/teamlogos/soccer/500/7463.png',
+      yokohamafmarinos: 'https://a.espncdn.com/i/teamlogos/soccer/500/7480.png',
+      yokohamamarinos: 'https://a.espncdn.com/i/teamlogos/soccer/500/7480.png',
+      kashimaantlers: 'https://a.espncdn.com/i/teamlogos/soccer/500/7462.png',
+      urawa: 'https://a.espncdn.com/i/teamlogos/soccer/500/7476.png',
+      urawareds: 'https://a.espncdn.com/i/teamlogos/soccer/500/7476.png',
+      cerezoosaka: 'https://a.espncdn.com/i/teamlogos/soccer/500/7458.png',
+
+      // South American Football
+      americadecali: 'https://a.espncdn.com/i/teamlogos/soccer/500/5283.png',
+      atleticonacional: 'https://a.espncdn.com/i/teamlogos/soccer/500/5280.png',
+      oncecaldas: 'https://a.espncdn.com/i/teamlogos/soccer/500/5296.png',
+      interbogota: 'https://media.chuoichientv.net/media/20260611_225909_8715fbcf.jpg',
+
+      // American College Football / NCAA
+      akron: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png',
+      westernmichigan: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png',
+      bowlinggreen: 'https://a.espncdn.com/i/teamlogos/ncaa/500/189.png',
+      kentstate: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png',
+
+      // NBA
+      philadelphia76ers: 'https://a.espncdn.com/i/teamlogos/nba/500/phi.png',
+      bostonceltics: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
+      losangeleslakers: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
+      goldenstatewarriors: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png'
+    };
+  }
+
+  buildStandingsMap() {
+    if (!this.sportsData || !this.sportsData.standings) return;
+    const standings = this.sportsData.standings;
+
+    for (const [leagueKey, teams] of Object.entries(standings)) {
+      if (!Array.isArray(teams)) continue;
+      teams.forEach(t => {
+        const logo = t.logoUrl;
+        if (!logo) return;
+
+        const nameNorm = this.normalizeName(t.teamName);
+        const shortNorm = this.normalizeName(t.shortName);
+
+        if (nameNorm) this.standingsLogoMap[nameNorm] = logo;
+        if (shortNorm) this.standingsLogoMap[shortNorm] = logo;
+
+        // Strip common prefixes/suffixes for looser matching
+        const simplified = nameNorm
+          .replace(/(fc|cf|club|the|city|town|united|athletic|hotspur)$/g, '')
+          .replace(/^(fc|cf|club|the)/g, '')
+          .trim();
+        if (simplified && simplified.length >= 4) {
+          this.standingsLogoMap[simplified] = logo;
+        }
+      });
+    }
+  }
+
+  getTeamLogo(teamName, evt, side, idx) {
+    if (!teamName) return '';
+    const norm = this.normalizeName(teamName);
+    const cNorm = this.normalizeName(side === 'home' ? evt.c_home : evt.c_away);
+
+    // 1. Check direct event logo properties
+    if (side === 'home' && evt.homeLogo) return evt.homeLogo;
+    if (side === 'away' && evt.awayLogo) return evt.awayLogo;
+
+    // 2. Check source item logos if source contains team logo
+    if (side === 'home' && evt.sources && evt.sources.length > 0) {
+      const srcLogo = evt.sources[0]?.logo;
+      if (srcLogo && (srcLogo.includes('/team/') || srcLogo.includes('/teams/') || srcLogo.includes('badges/') || srcLogo.includes('teamlogos'))) {
+        return srcLogo;
+      }
+    }
+
+    // 3. Check memory cache
+    if (this.teamLogosCache[norm]) return this.teamLogosCache[norm];
+    if (cNorm && this.teamLogosCache[cNorm]) return this.teamLogosCache[cNorm];
+
+    // 4. Check Standings Map (EPL, LaLiga, Serie A, Bundesliga, Ligue 1, UCL, NBA, V-League)
+    if (this.standingsLogoMap[norm]) return this.standingsLogoMap[norm];
+    if (cNorm && this.standingsLogoMap[cNorm]) return this.standingsLogoMap[cNorm];
+
+    // 5. Check Country Flags
+    if (this.countryFlagsMap[norm]) return this.countryFlagsMap[norm];
+    if (cNorm && this.countryFlagsMap[cNorm]) return this.countryFlagsMap[cNorm];
+
+    // 6. Check Pre-mapped Clubs
+    if (this.premappedClubs[norm]) return this.premappedClubs[norm];
+    if (cNorm && this.premappedClubs[cNorm]) return this.premappedClubs[cNorm];
+
+    // 7. Check LocalStorage Cache
+    try {
+      const localLogo = localStorage.getItem('tvplay_logo_' + norm);
+      if (localLogo) {
+        this.teamLogosCache[norm] = localLogo;
+        return localLogo;
+      }
+    } catch (e) {}
+
+    // 8. Trigger background asynchronous search from ESPN Global Database
+    if (idx !== undefined && side) {
+      this.asyncFetchTeamLogo(teamName, norm, idx, side);
+    }
+
+    return '';
+  }
+
+  async asyncFetchTeamLogo(rawName, normKey, idx, side) {
+    if (this.fetchingLogos.has(normKey)) return;
+    this.fetchingLogos.add(normKey);
+
+    const cleanQuery = rawName
+      .replace(/indoor soccer/gi, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    try {
+      const url = `https://site.web.api.espn.com/apis/search/v2?query=${encodeURIComponent(cleanQuery)}&type=team`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(3500) });
+      if (!res.ok) return;
+      const data = await res.json();
+      const results = data.results || [];
+      if (results.length > 0 && results[0].contents && results[0].contents.length > 0) {
+        const item = results[0].contents[0];
+        const logoUrl = item.image?.default || item.image?.defaultDark || '';
+        if (logoUrl) {
+          this.teamLogosCache[normKey] = logoUrl;
+          try {
+            localStorage.setItem('tvplay_logo_' + normKey, logoUrl);
+          } catch (e) {}
+
+          // Dynamically replace fallback initials with the newly discovered logo
+          const imgEl = document.getElementById(`team-logo-${idx}-${side}`);
+          const fbEl = document.getElementById(`team-fb-${idx}-${side}`);
+          if (imgEl) {
+            imgEl.src = logoUrl;
+            imgEl.classList.remove('hidden');
+            if (fbEl) fbEl.classList.add('hidden');
+          }
+        }
+      }
+    } catch (e) {
+      // Graceful timeout
+    } finally {
+      this.fetchingLogos.delete(normKey);
+    }
   }
 
   async loadSports() {
@@ -42,6 +356,7 @@ class SportsManager {
 
       this.sportsData = data;
       this.liveEvents = data.live_events || [];
+      this.buildStandingsMap();
       this.renderSports(container);
 
     } catch (err) {
@@ -79,6 +394,9 @@ class SportsManager {
       const homeInitial = home.substring(0, 3).toUpperCase();
       const awayInitial = away.substring(0, 3).toUpperCase();
 
+      const homeLogo = this.getTeamLogo(home, evt, 'home', idx);
+      const awayLogo = this.getTeamLogo(away, evt, 'away', idx);
+
       const sources = evt.sources || [];
       const isExpanded = this.expandedEventIdx === idx;
       const isEventActive = this.activeEventIdx === idx;
@@ -100,22 +418,42 @@ class SportsManager {
             </span>
           </div>
 
-          <!-- Middle Row: Teams VS -->
+          <!-- Middle Row: Teams VS with Official Club Logos -->
           <div class="flex items-center justify-between py-1">
+            <!-- Home Team with Logo -->
             <div class="flex items-center gap-2.5 min-w-0">
-              <div class="w-9 h-9 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0 shadow-inner">
-                ${homeInitial}
+              <div class="w-10 h-10 rounded-xl bg-white/[0.08] border border-white/15 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden relative backdrop-blur-sm">
+                <img id="team-logo-${idx}-home" 
+                     src="${homeLogo || ''}" 
+                     alt="${home}" 
+                     class="w-full h-full object-contain filter drop-shadow transition-opacity duration-200 ${homeLogo ? '' : 'hidden'}" 
+                     loading="lazy"
+                     onerror="this.classList.add('hidden'); const fb=document.getElementById('team-fb-${idx}-home'); if(fb) fb.classList.remove('hidden');" 
+                     onload="this.classList.remove('hidden');" />
+                <span id="team-fb-${idx}-home" class="${homeLogo ? 'hidden' : 'flex'} items-center justify-center font-bold text-xs text-white/90 tracking-wider">
+                  ${homeInitial}
+                </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[130px]">${home}</span>
+              <span class="text-sm font-bold text-white truncate max-w-[125px] sm:max-w-[180px]">${home}</span>
             </div>
 
             <span class="text-xs font-mono text-[var(--label-3)] px-2 font-bold shrink-0">VS</span>
 
+            <!-- Away Team with Logo -->
             <div class="flex items-center gap-2.5 flex-row-reverse min-w-0">
-              <div class="w-9 h-9 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0 shadow-inner">
-                ${awayInitial}
+              <div class="w-10 h-10 rounded-xl bg-white/[0.08] border border-white/15 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden relative backdrop-blur-sm">
+                <img id="team-logo-${idx}-away" 
+                     src="${awayLogo || ''}" 
+                     alt="${away}" 
+                     class="w-full h-full object-contain filter drop-shadow transition-opacity duration-200 ${awayLogo ? '' : 'hidden'}" 
+                     loading="lazy"
+                     onerror="this.classList.add('hidden'); const fb=document.getElementById('team-fb-${idx}-away'); if(fb) fb.classList.remove('hidden');" 
+                     onload="this.classList.remove('hidden');" />
+                <span id="team-fb-${idx}-away" class="${awayLogo ? 'hidden' : 'flex'} items-center justify-center font-bold text-xs text-white/90 tracking-wider">
+                  ${awayInitial}
+                </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[130px] text-right">${away}</span>
+              <span class="text-sm font-bold text-white truncate max-w-[125px] sm:max-w-[180px] text-right">${away}</span>
             </div>
           </div>
 
@@ -190,7 +528,6 @@ class SportsManager {
   formatStreamButtonLabel(rawName, index) {
     if (!rawName) return `Luồng ${index + 1}`;
 
-    // Extract commentator name e.g. (BLV Anh Quân) or (LÝ LÊN LỬA) or (HD2)
     const parenMatches = rawName.match(/\(([^)]+)\)/g);
     if (parenMatches && parenMatches.length > 0) {
       const cleanCommentator = parenMatches[parenMatches.length - 1].replace(/[()]/g, '').trim();
