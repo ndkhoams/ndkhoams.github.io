@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-strand-v3';
+const CACHE_NAME = 'tvplay-strand-v4';
 const STATIC_ASSETS = [
   './',
   './index.html',

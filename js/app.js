@@ -1,6 +1,6 @@
 /**
  * TV Play Strand Edition — Main Application Coordinator
- * Standalone PWA player with multi-playlist management.
+ * Liquid Glass Dock & Multi-playlist management.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -86,14 +86,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Tab navigation handler (Strand Bottom Dock)
+// Tab navigation handler (Strand Bottom Liquid Dock)
 function switchTab(tabId) {
-  const tabs = ['live', 'sports', 'channels', 'settings'];
-  
-  if (tabId === 'settings') {
-    openSettingsModal();
-    return;
-  }
+  const tabs = ['live', 'sports', 'channels'];
 
   tabs.forEach(t => {
     // Desktop Nav Pills
@@ -106,7 +101,7 @@ function switchTab(tabId) {
       }
     }
 
-    // Wide Strand Bottom Dock Tabs
+    // Strand Liquid Glass Dock Tabs
     const dockTab = document.getElementById(`dock-tab-${t}`);
     if (dockTab) {
       if (t === tabId) {
@@ -142,33 +137,16 @@ function openSettingsModal() {
     if (window.channelManager) {
       window.channelManager.renderPlaylistsUI();
     }
+    const nameInput = document.getElementById('newPlaylistName');
+    if (nameInput) {
+      setTimeout(() => nameInput.focus(), 150);
+    }
   }
 }
 
 function closeSettingsModal() {
   const modal = document.getElementById('settingsModal');
   if (modal) modal.classList.add('hidden');
-  hideAddPlaylistForm();
-}
-
-function toggleAddPlaylistForm() {
-  const form = document.getElementById('addPlaylistForm');
-  if (form) {
-    form.classList.toggle('hidden');
-    if (!form.classList.contains('hidden')) {
-      const nameInput = document.getElementById('newPlaylistName');
-      if (nameInput) nameInput.focus();
-    }
-  }
-}
-
-function hideAddPlaylistForm() {
-  const form = document.getElementById('addPlaylistForm');
-  if (form) form.classList.add('hidden');
-  const nameInput = document.getElementById('newPlaylistName');
-  const urlInput = document.getElementById('newPlaylistUrl');
-  if (nameInput) nameInput.value = '';
-  if (urlInput) urlInput.value = '';
 }
 
 function submitNewPlaylist() {
@@ -179,6 +157,14 @@ function submitNewPlaylist() {
 
   const success = window.channelManager.addPlaylist(nameInput.value, urlInput.value);
   if (success) {
-    hideAddPlaylistForm();
+    nameInput.value = '';
+    urlInput.value = '';
+    alert('Đã thêm nguồn phát mới thành công và nạp danh sách kênh!');
   }
 }
+
+// Expose globally
+window.switchTab = switchTab;
+window.openSettingsModal = openSettingsModal;
+window.closeSettingsModal = closeSettingsModal;
+window.submitNewPlaylist = submitNewPlaylist;
