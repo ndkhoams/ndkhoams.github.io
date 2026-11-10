@@ -1,5 +1,6 @@
 /**
- * TV Play Strand Edition — Channels & M3U Engine
+ * TV Play Strand Edition — Channels & Multiple Playlists Engine
+ * Supports managing multiple M3U playlist sources with instant switching.
  */
 
 class ChannelManager {
@@ -11,53 +12,115 @@ class ChannelManager {
     this.currentIndex = -1;
     this.searchQuery = '';
     
-    // Default online M3U from ndkhoams repository
-    this.defaultM3uUrl = 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u';
-    this.armbianHubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
-    this.useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
+    // Default system playlists
+    this.defaultPlaylists = [
+      {
+        id: 'ktv_main',
+        name: 'KTV Chuẩn (VTV, Thể Thao, Tin Tức)',
+        url: 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u',
+        isDefault: true
+      }
+    ];
+
+    this.initPlaylists();
+  }
+
+  initPlaylists() {
+    let saved = null;
+    try {
+      saved = JSON.parse(localStorage.getItem('tvplay_playlists'));
+    } catch (e) {}
+
+    if (!Array.isArray(saved) || saved.length === 0) {
+      this.playlists = [...this.defaultPlaylists];
+      this.savePlaylists();
+    } else {
+      this.playlists = saved;
+    }
+
+    this.activePlaylistId = localStorage.getItem('tvplay_active_playlist_id') || this.playlists[0].id;
+  }
+
+  savePlaylists() {
+    localStorage.setItem('tvplay_playlists', JSON.stringify(this.playlists));
+    localStorage.setItem('tvplay_active_playlist_id', this.activePlaylistId);
+  }
+
+  getActivePlaylist() {
+    return this.playlists.find(p => p.id === this.activePlaylistId) || this.playlists[0];
+  }
+
+  addPlaylist(name, url) {
+    const cleanName = (name || '').trim();
+    const cleanUrl = (url || '').trim();
+
+    if (!cleanName || !cleanUrl) {
+      alert('Vui lòng nhập đầy đủ tên nguồn và đường dẫn M3U.');
+      return false;
+    }
+
+    if (!cleanUrl.startsWith('http://') && !cleanUrl.startsWith('https://')) {
+      alert('Đường dẫn M3U phải bắt đầu bằng http:// hoặc https://');
+      return false;
+    }
+
+    const newPl = {
+      id: 'pl_' + Date.now(),
+      name: cleanName,
+      url: cleanUrl,
+      isDefault: false
+    };
+
+    this.playlists.push(newPl);
+    this.activePlaylistId = newPl.id;
+    this.savePlaylists();
+    this.renderPlaylistsUI();
+    this.loadChannels();
+    return true;
+  }
+
+  deletePlaylist(id) {
+    const pl = this.playlists.find(p => p.id === id);
+    if (!pl) return;
+
+    if (pl.isDefault) {
+      alert('Không thể xóa nguồn mặc định của hệ thống.');
+      return;
+    }
+
+    if (!confirm(`Bạn có chắc chắn muốn xóa nguồn "${pl.name}"?`)) return;
+
+    this.playlists = this.playlists.filter(p => p.id !== id);
+    if (this.activePlaylistId === id) {
+      this.activePlaylistId = this.playlists[0].id;
+    }
+    this.savePlaylists();
+    this.renderPlaylistsUI();
+    this.loadChannels();
+  }
+
+  selectPlaylist(id) {
+    if (this.activePlaylistId === id) return;
+    this.activePlaylistId = id;
+    this.savePlaylists();
+    this.renderPlaylistsUI();
+    this.loadChannels();
   }
 
   async loadChannels() {
     this.renderSkeleton();
+    const activePl = this.getActivePlaylist();
 
     try {
-      let m3uText = '';
-      
-      // If user configured to fetch from Armbian LAN hub directly
-      if (this.useArmbian) {
-        try {
-          const res = await fetch(`${this.armbianHubUrl}/api/channels`, { signal: AbortSignal.timeout(3000) });
-          if (res.ok) {
-            const jsonChannels = await res.json();
-            if (Array.isArray(jsonChannels) && jsonChannels.length > 0) {
-              this.channels = jsonChannels.map((ch, idx) => ({
-                id: idx,
-                name: ch.name || `Kênh ${idx + 1}`,
-                url: ch.url,
-                logo: ch.logo || '',
-                group: ch.group || 'Khác',
-                epgId: ch.epg_id || ''
-              }));
-              this.onChannelsReady();
-              return;
-            }
-          }
-        } catch (hubErr) {
-          console.warn('[Channels] Armbian Hub offline or blocked by mixed-content, falling back to CDN M3U:', hubErr);
-        }
-      }
-
-      // Fetch from fastly jsdelivr CDN
-      const m3uUrl = localStorage.getItem('tvplay_custom_m3u') || this.defaultM3uUrl;
-      const res = await fetch(m3uUrl);
+      const res = await fetch(activePl.url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      m3uText = await res.text();
+      const m3uText = await res.text();
       this.channels = this.parseM3U(m3uText);
       this.onChannelsReady();
 
     } catch (err) {
-      console.error('[Channels] Error loading M3U:', err);
-      this.renderError('Không thể tải danh sách kênh. Vui lòng kiểm tra kết nối mạng.');
+      console.error('[Channels] Error loading M3U from', activePl.url, err);
+      this.renderError(`Không thể tải nguồn "${activePl.name}". Vui lòng kiểm tra lại đường dẫn mạng.`);
     }
   }
 
@@ -117,6 +180,9 @@ class ChannelManager {
       const vtv1Idx = this.channels.findIndex(c => c.name.toLowerCase().includes('vtv1'));
       this.selectChannel(vtv1Idx !== -1 ? vtv1Idx : 0, false);
     }
+
+    // Update active playlist label in settings modal
+    this.renderPlaylistsUI();
   }
 
   extractCategories() {
@@ -244,6 +310,9 @@ class ChannelManager {
     const rowEl = document.getElementById(`chan-row-${channelId}`);
     if (rowEl) rowEl.classList.add('active');
 
+    // Update timeline cells visual
+    document.querySelectorAll('.timeline-channel-cell').forEach(cell => cell.classList.remove('active'));
+
     // Inform player
     if (this.player && autoPlay) {
       this.player.playStream(ch.url, {
@@ -290,14 +359,51 @@ class ChannelManager {
 
   renderError(msg) {
     const container = document.getElementById('channelContainer');
-    if (!container) return;
-    container.innerHTML = `
-      <div class="p-8 text-center text-sm text-[var(--red)]">
-        ${msg}
-      </div>
-    `;
+    if (container) {
+      container.innerHTML = `<div class="p-8 text-center text-sm text-[var(--red)]">${msg}</div>`;
+    }
+  }
+
+  renderPlaylistsUI() {
+    const listContainer = document.getElementById('savedPlaylistsList');
+    if (!listContainer) return;
+
+    let html = '';
+    this.playlists.forEach(pl => {
+      const isSelected = pl.id === this.activePlaylistId;
+
+      html += `
+        <div class="p-3.5 rounded-2xl glass-card flex items-center justify-between gap-3 border ${
+          isSelected ? 'border-[var(--accent)] bg-orange-500/10' : 'border-white/10 hover:border-white/20'
+        } transition-all">
+          <div onclick="window.channelManager.selectPlaylist('${pl.id}')" class="min-w-0 flex-1 cursor-pointer">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full ${isSelected ? 'bg-[var(--accent)] ring-4 ring-orange-500/20' : 'bg-white/30'} shrink-0"></span>
+              <span class="text-xs font-bold text-white truncate">${pl.name}</span>
+              ${isSelected ? '<span class="px-1.5 py-0.2 rounded bg-orange-500/20 text-orange-400 text-[9px] font-bold">ĐANG DÙNG</span>' : ''}
+              ${pl.isDefault ? '<span class="px-1.5 py-0.2 rounded bg-white/10 text-white/60 text-[9px]">Hệ thống</span>' : ''}
+            </div>
+            <p class="text-[11px] text-[var(--label-3)] font-mono truncate mt-1 pl-4.5">${pl.url}</p>
+          </div>
+
+          <div class="flex items-center gap-1 shrink-0">
+            ${!isSelected ? `
+              <button onclick="window.channelManager.selectPlaylist('${pl.id}')" class="px-3 py-1 rounded-xl glass-pill text-[11px] font-semibold text-white/90 hover:text-white hover:bg-white/20 transition">
+                Chọn
+              </button>
+            ` : ''}
+            ${!pl.isDefault ? `
+              <button onclick="window.channelManager.deletePlaylist('${pl.id}')" title="Xóa nguồn này" class="w-7 h-7 rounded-full hover:bg-red-500/20 text-white/60 hover:text-red-400 flex items-center justify-center transition">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+              </button>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    });
+
+    listContainer.innerHTML = html;
   }
 }
 
 window.ChannelManager = ChannelManager;
-

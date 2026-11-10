@@ -1,5 +1,6 @@
 /**
  * TV Play Strand Edition — Main Application Coordinator
+ * Standalone PWA player with multi-playlist management.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -29,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sportsManager.loadSports();
   timelineManager.init();
 
-  // 5. Auto refresh sports & now indicator
+  // 5. Auto refresh sports
   setInterval(() => {
     sportsManager.loadSports();
   }, 5 * 60 * 1000);
@@ -83,15 +84,17 @@ document.addEventListener('DOMContentLoaded', () => {
       channelManager.setSearchQuery(e.target.value);
     });
   }
-
-  // 9. Load settings values
-  loadSettingsUI();
 });
 
 // Tab navigation handler (Strand Bottom Dock)
 function switchTab(tabId) {
-  const tabs = ['live', 'sports', 'channels', 'remote'];
+  const tabs = ['live', 'sports', 'channels', 'settings'];
   
+  if (tabId === 'settings') {
+    openSettingsModal();
+    return;
+  }
+
   tabs.forEach(t => {
     // Desktop Nav Pills
     const btn = document.getElementById(`tab-${t}`);
@@ -131,55 +134,51 @@ function switchTab(tabId) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Settings modal
+// Settings modal & Playlists Manager
 function openSettingsModal() {
   const modal = document.getElementById('settingsModal');
-  if (modal) modal.classList.remove('hidden');
+  if (modal) {
+    modal.classList.remove('hidden');
+    if (window.channelManager) {
+      window.channelManager.renderPlaylistsUI();
+    }
+  }
 }
 
 function closeSettingsModal() {
   const modal = document.getElementById('settingsModal');
   if (modal) modal.classList.add('hidden');
+  hideAddPlaylistForm();
 }
 
-function loadSettingsUI() {
-  const customM3uInput = document.getElementById('settingCustomM3u');
-  const hubUrlInput = document.getElementById('settingHubUrl');
-  const useArmbianCheckbox = document.getElementById('settingUseArmbian');
-
-  if (customM3uInput) customM3uInput.value = localStorage.getItem('tvplay_custom_m3u') || '';
-  if (hubUrlInput) hubUrlInput.value = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
-  if (useArmbianCheckbox) useArmbianCheckbox.checked = localStorage.getItem('tvplay_use_armbian') === 'true';
-}
-
-function saveSettings() {
-  const customM3uInput = document.getElementById('settingCustomM3u');
-  const hubUrlInput = document.getElementById('settingHubUrl');
-  const useArmbianCheckbox = document.getElementById('settingUseArmbian');
-
-  if (customM3uInput) localStorage.setItem('tvplay_custom_m3u', customM3uInput.value.trim());
-  if (hubUrlInput) localStorage.setItem('tvplay_hub_url', hubUrlInput.value.trim());
-  if (useArmbianCheckbox) localStorage.setItem('tvplay_use_armbian', useArmbianCheckbox.checked ? 'true' : 'false');
-
-  closeSettingsModal();
-  alert('Đã lưu cấu hình. Đang tải lại danh sách kênh...');
-  if (window.channelManager) window.channelManager.loadChannels();
-  if (window.sportsManager) window.sportsManager.loadSports();
-}
-
-// Remote TV command dispatcher (via Armbian Hub)
-async function sendRemoteKey(key) {
-  const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
-  try {
-    const res = await fetch(`${hubUrl}/api/key`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ key: key })
-    });
-    if (res.ok) {
-      console.log(`[Remote] Key '${key}' sent successfully`);
+function toggleAddPlaylistForm() {
+  const form = document.getElementById('addPlaylistForm');
+  if (form) {
+    form.classList.toggle('hidden');
+    if (!form.classList.contains('hidden')) {
+      const nameInput = document.getElementById('newPlaylistName');
+      if (nameInput) nameInput.focus();
     }
-  } catch (err) {
-    console.warn(`[Remote] Failed to send key '${key}':`, err);
+  }
+}
+
+function hideAddPlaylistForm() {
+  const form = document.getElementById('addPlaylistForm');
+  if (form) form.classList.add('hidden');
+  const nameInput = document.getElementById('newPlaylistName');
+  const urlInput = document.getElementById('newPlaylistUrl');
+  if (nameInput) nameInput.value = '';
+  if (urlInput) urlInput.value = '';
+}
+
+function submitNewPlaylist() {
+  const nameInput = document.getElementById('newPlaylistName');
+  const urlInput = document.getElementById('newPlaylistUrl');
+
+  if (!nameInput || !urlInput) return;
+
+  const success = window.channelManager.addPlaylist(nameInput.value, urlInput.value);
+  if (success) {
+    hideAddPlaylistForm();
   }
 }
