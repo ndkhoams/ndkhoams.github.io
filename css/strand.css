@@ -34,7 +34,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Safe Area Insets for iPhone notch & Home Indicator */
@@ -103,6 +103,19 @@ body {
 
 .glow-movie {
   background: radial-gradient(ellipse at center, rgba(168, 85, 247, 0.22) 0%, rgba(59, 130, 246, 0.14) 45%, transparent 70%);
+}
+
+/* ========================================================================= */
+/* STICKY CINEMA VIDEO PLAYER (Giữ cố định khi cuộn trang)                   */
+/* ========================================================================= */
+.player-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: max(env(safe-area-inset-top, 0px), 6px) !important;
+  z-index: 45 !important;
+  box-shadow: 0 16px 48px -4px rgba(0, 0, 0, 0.95), 0 0 24px rgba(255, 101, 0, 0.18) !important;
+  background: #000000 !important;
+  transition: box-shadow 0.25s ease !important;
 }
 
 /* ========================================================================= */
