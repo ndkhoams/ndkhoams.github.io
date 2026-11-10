@@ -3,34 +3,45 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Initialize Video Player
+  // 1. Initialize Video Player Engine
   const player = new StrandPlayer();
   window.player = player;
 
-  // 2. Initialize Channels & Sports Managers
+  // 2. Initialize Channels, Timeline & Sports Managers
   const channelManager = new ChannelManager(player);
   window.channelManager = channelManager;
+
+  const timelineManager = new TimelineManager(channelManager, player);
+  window.timelineManager = timelineManager;
 
   const sportsManager = new SportsManager(player);
   window.sportsManager = sportsManager;
 
-  // 3. Load initial data
+  // 3. Chain channel load -> timeline render
+  const originalOnChannelsReady = channelManager.onChannelsReady.bind(channelManager);
+  channelManager.onChannelsReady = function() {
+    originalOnChannelsReady();
+    timelineManager.onChannelsLoaded();
+  };
+
+  // 4. Load initial data
   channelManager.loadChannels();
   sportsManager.loadSports();
+  timelineManager.init();
 
-  // 4. Auto refresh sports every 5 minutes
+  // 5. Auto refresh sports & now indicator
   setInterval(() => {
     sportsManager.loadSports();
   }, 5 * 60 * 1000);
 
-  // 5. Register Service Worker for PWA
+  // 6. Register Service Worker for PWA
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
       .then(reg => console.log('[PWA] Service Worker registered:', reg.scope))
       .catch(err => console.warn('[PWA] Service Worker registration failed:', err));
   }
 
-  // 6. Keyboard Shortcuts
+  // 7. Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
@@ -47,6 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         channelManager.playNextChannel();
         break;
+      case 'ArrowLeft':
+        timelineManager.prevCategory();
+        break;
+      case 'ArrowRight':
+        timelineManager.nextCategory();
+        break;
       case 'KeyM':
         player.toggleMute();
         break;
@@ -59,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 7. Search Input listener
+  // 8. Search Input listener
   const searchInput = document.getElementById('channelSearchInput');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
@@ -67,13 +84,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 8. Load settings values
+  // 9. Load settings values
   loadSettingsUI();
 });
 
-// Tab navigation handler
+// Tab navigation handler (Strand Bottom Dock)
 function switchTab(tabId) {
-  const tabs = ['live', 'sports', 'remote', 'settings'];
+  const tabs = ['live', 'sports', 'channels', 'remote'];
   
   tabs.forEach(t => {
     // Desktop Nav Pills
@@ -86,17 +103,13 @@ function switchTab(tabId) {
       }
     }
 
-    // Mobile Bottom Island Nav
-    const mBtn = document.getElementById(`m-tab-${t}`);
-    if (mBtn) {
-      const text = mBtn.querySelector('span');
-      const icon = mBtn.querySelector('svg');
+    // Wide Strand Bottom Dock Tabs
+    const dockTab = document.getElementById(`dock-tab-${t}`);
+    if (dockTab) {
       if (t === tabId) {
-        if (text) text.className = 'text-[9px] font-semibold mt-0.5 text-white';
-        if (icon) icon.classList.add('text-[var(--accent)]');
+        dockTab.classList.add('active');
       } else {
-        if (text) text.className = 'text-[9px] font-medium mt-0.5 text-[var(--label-2)]';
-        if (icon) icon.classList.remove('text-[var(--accent)]');
+        dockTab.classList.remove('active');
       }
     }
 
@@ -107,6 +120,13 @@ function switchTab(tabId) {
       else sec.classList.add('hidden');
     }
   });
+
+  // Re-render timeline if switching to live
+  if (tabId === 'live' && window.timelineManager) {
+    setTimeout(() => {
+      window.timelineManager.scrollToNow();
+    }, 100);
+  }
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }

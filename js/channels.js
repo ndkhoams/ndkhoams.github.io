@@ -300,3 +300,4 @@ class ChannelManager {
 }
 
 window.ChannelManager = ChannelManager;
+

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-strand-v1';
+const CACHE_NAME = 'tvplay-strand-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const STATIC_ASSETS = [
   './js/app.js',
   './js/player.js',
   './js/channels.js',
+  './js/timeline.js',
   './js/sports.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
@@ -67,3 +68,4 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+

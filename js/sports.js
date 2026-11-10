@@ -1,5 +1,6 @@
 /**
  * TV Play Strand Edition — Live Sports & Fixtures Engine
+ * Enhanced with interactive stream selector buttons for all match sources.
  */
 
 class SportsManager {
@@ -7,6 +8,8 @@ class SportsManager {
     this.player = player;
     this.sportsData = null;
     this.liveEvents = [];
+    this.activeEventIdx = -1;
+    this.activeSourceIdx = -1;
     this.defaultSportsUrl = 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json';
     this.armbianHubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
     this.useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
@@ -73,23 +76,26 @@ class SportsManager {
       const awayInitial = away.substring(0, 3).toUpperCase();
 
       const sources = evt.sources || [];
-      const primarySource = sources[0] || {};
-      const streamUrl = primarySource.url || '';
-      const blvName = primarySource.name || 'Bình luận Tiếng Việt';
+      const isEventActive = this.activeEventIdx === idx;
 
       html += `
-        <div onclick="window.sportsManager.playMatch(${idx})" 
-             class="glass-card rounded-2xl p-4 space-y-3 hover:border-white/25 transition-all duration-200 cursor-pointer relative overflow-hidden group">
+        <div class="glass-card rounded-2xl p-4 space-y-3.5 border ${isEventActive ? 'border-[var(--accent)]' : 'border-white/10'} hover:border-white/25 transition-all duration-200 relative overflow-hidden group">
+          
+          <!-- Top Row: League & Status Badge -->
           <div class="flex items-center justify-between text-xs text-[var(--label-2)]">
-            <span class="font-bold text-[var(--blue)] truncate max-w-[200px]">${league}</span>
-            <span class="px-2 py-0.5 rounded-full ${isLive ? 'bg-red-500/20 text-red-400' : 'bg-white/10 text-white/70'} font-bold text-[10px] flex items-center gap-1 shrink-0">
+            <span class="font-bold text-[var(--blue)] truncate max-w-[200px] flex items-center gap-1.5">
+              <span class="text-sm">⚽</span>
+              <span>${league}</span>
+            </span>
+            <span class="px-2 py-0.5 rounded-full ${isLive ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-white/10 text-white/70'} font-bold text-[10px] flex items-center gap-1 shrink-0">
               ${isLive ? '<span class="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse"></span> LIVE' : `${time} ${date}`}
             </span>
           </div>
 
+          <!-- Middle Row: Teams VS -->
           <div class="flex items-center justify-between py-1">
             <div class="flex items-center gap-2.5 min-w-0">
-              <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0">
+              <div class="w-9 h-9 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0 shadow-inner">
                 ${homeInitial}
               </div>
               <span class="text-sm font-bold text-white truncate max-w-[130px]">${home}</span>
@@ -98,22 +104,41 @@ class SportsManager {
             <span class="text-xs font-mono text-[var(--label-3)] px-2 font-bold shrink-0">VS</span>
 
             <div class="flex items-center gap-2.5 flex-row-reverse min-w-0">
-              <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0">
+              <div class="w-9 h-9 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center font-bold text-xs text-white shrink-0 shadow-inner">
                 ${awayInitial}
               </div>
               <span class="text-sm font-bold text-white truncate max-w-[130px] text-right">${away}</span>
             </div>
           </div>
 
-          <div class="flex items-center justify-between text-[11px] text-[var(--label-3)] pt-2 border-t border-[var(--separator)]">
-            <span class="flex items-center gap-1 truncate max-w-[180px]">
-              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
-              ${sources.length > 0 ? `${sources.length} luồng phát` : 'Sẵn sàng'}
-            </span>
-            <span class="text-white/80 font-medium truncate max-w-[170px] text-right">
-              ${blvName}
-            </span>
+          <!-- Bottom Row: Interactive Stream Selector Buttons -->
+          <div class="pt-2 border-t border-[var(--separator)] space-y-2">
+            <div class="flex items-center justify-between text-[11px] text-[var(--label-3)]">
+              <span class="font-medium text-white/70">Chọn luồng xem trực tiếp:</span>
+              <span>${sources.length} nguồn phát</span>
+            </div>
+
+            <!-- Buttons Grid for each stream -->
+            <div class="flex items-center gap-2 flex-wrap">
+              ${sources.map((src, sIdx) => {
+                const isSelected = isEventActive && this.activeSourceIdx === sIdx;
+                const label = this.formatStreamButtonLabel(src.name, sIdx);
+
+                return `
+                  <button onclick="window.sportsManager.playSpecificStream(${idx}, ${sIdx}, event)" 
+                          class="px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all duration-150 active:scale-95 ${
+                            isSelected 
+                              ? 'bg-gradient-to-r from-[#ff6500] to-[#ff9f0a] text-white shadow-lg shadow-orange-500/30 border border-white/30' 
+                              : 'glass-pill text-white/90 hover:bg-white/20 hover:text-white border border-white/10'
+                          }">
+                    <span class="w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-white animate-ping' : 'bg-emerald-400'}"></span>
+                    <span>${label}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
           </div>
+
         </div>
       `;
     });
@@ -124,27 +149,52 @@ class SportsManager {
     if (countBadge) countBadge.textContent = `${this.liveEvents.length} trận đấu`;
   }
 
-  playMatch(index) {
-    const evt = this.liveEvents[index];
+  formatStreamButtonLabel(rawName, index) {
+    if (!rawName) return `Luồng ${index + 1}`;
+
+    // Extract commentator name e.g. (BLV Anh Quân) or (LÝ LÊN LỬA) or (HD2)
+    const parenMatches = rawName.match(/\(([^)]+)\)/g);
+    if (parenMatches && parenMatches.length > 0) {
+      // Get the last or second parenthesized segment
+      const cleanCommentator = parenMatches[parenMatches.length - 1].replace(/[()]/g, '').trim();
+      return `Luồng ${index + 1}: ${cleanCommentator}`;
+    }
+
+    return `Luồng ${index + 1}`;
+  }
+
+  playSpecificStream(eventIdx, sourceIdx, event) {
+    if (event) event.stopPropagation();
+
+    const evt = this.liveEvents[eventIdx];
     if (!evt) return;
 
     const sources = evt.sources || [];
-    if (sources.length === 0) {
-      alert('Trận đấu này chưa có luồng phát trực tiếp.');
+    const stream = sources[sourceIdx];
+    if (!stream || !stream.url) {
+      alert('Luồng phát này tạm thời không khả dụng.');
       return;
     }
 
-    // Play primary source
-    const stream = sources[0];
-    if (this.player && stream.url) {
+    this.activeEventIdx = eventIdx;
+    this.activeSourceIdx = sourceIdx;
+
+    const streamLabel = this.formatStreamButtonLabel(stream.name, sourceIdx);
+
+    // Play in player
+    if (this.player) {
       this.player.playStream(stream.url, {
         name: evt.leagueName || 'Thể Thao Trực Tiếp',
         title: `${evt.homeTeam} vs ${evt.awayTeam}`,
-        subtitle: `${stream.name || 'Bình luận tiếng Việt'} • Chất lượng Full HD`,
+        subtitle: `${streamLabel} • ${stream.name || 'Bình luận tiếng Việt'}`,
         group: 'Thể Thao'
       });
 
-      // Scroll smoothly to player
+      // Update button visual states
+      const container = document.getElementById('sportsContainer');
+      if (container) this.renderSports(container);
+
+      // Scroll smoothly to top player
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
@@ -160,7 +210,7 @@ class SportsManager {
             <div class="w-8 h-4 rounded skeleton"></div>
             <div class="w-28 h-5 rounded skeleton"></div>
           </div>
-          <div class="w-full h-3 rounded skeleton"></div>
+          <div class="w-full h-8 rounded-xl skeleton"></div>
         </div>
       `;
     }

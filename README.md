@@ -26,3 +26,4 @@
 - **Chuẩn Progressive Web App (PWA):**
   - Hỗ trợ cài đặt trực tiếp lên Màn hình chính iPhone (Add to Home Screen) chạy độc lập toàn màn hình không có thanh địa chỉ Safari.
   - Hoạt động offline app-shell nhờ Service Worker.
+

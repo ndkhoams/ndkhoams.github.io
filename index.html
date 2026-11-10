@@ -28,9 +28,9 @@
   <!-- Ambient Dynamic Glow (Strand Backdrop Lighting) -->
   <div id="ambientGlow" class="ambient-glow"></div>
 
-  <div class="max-w-5xl mx-auto relative z-10 space-y-6">
+  <div class="max-w-5xl mx-auto relative z-10 space-y-5">
 
-    <!-- 1. Strand Header & Island Nav -->
+    <!-- 1. Strand Header & Island Nav (Desktop) -->
     <header class="flex items-center justify-between gap-3 pt-1">
       
       <!-- Brand Logo & Platform Title -->
@@ -42,17 +42,18 @@
         </div>
         <div>
           <div class="flex items-center gap-2">
-            <h1 class="text-xl font-bold tracking-tight text-white">TV Play</h1>
+            <h1 class="text-xl font-bold tracking-tight text-white font-[var(--font-display)]">TV Play</h1>
             <span class="text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-white/10 text-white/90 border border-white/15">Strand PWA</span>
           </div>
-          <p class="text-xs text-[var(--label-2)]">Apple Screens &amp; Web Experience</p>
+          <p class="text-xs text-[var(--label-2)]">Apple Screens &amp; Timeline EPG</p>
         </div>
       </div>
 
       <!-- Desktop Translucent Pill Bar (Strand Tabbar) -->
       <nav class="hidden md:flex items-center p-1 rounded-full glass-pill text-xs font-medium">
-        <button onclick="switchTab('live')" id="tab-live" class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold transition">Trực Tiếp</button>
+        <button onclick="switchTab('live')" id="tab-live" class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold transition">Trực Tiếp (Timeline)</button>
         <button onclick="switchTab('sports')" id="tab-sports" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Thể Thao</button>
+        <button onclick="switchTab('channels')" id="tab-channels" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Tìm Kênh</button>
         <button onclick="switchTab('remote')" id="tab-remote" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Điều Khiển TV</button>
         <button onclick="openSettingsModal()" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Cài Đặt</button>
       </nav>
@@ -63,14 +64,14 @@
           <span class="w-2 h-2 rounded-full bg-[var(--green)] animate-pulse"></span>
           <span class="text-white/80 font-medium hidden sm:inline">Trực Tuyến</span>
         </div>
-        <button onclick="openSettingsModal()" title="Cài đặt nguồn phát M3U" class="w-8 h-8 rounded-full glass-pill flex items-center justify-center text-[var(--label-2)] hover:text-white transition">
+        <button onclick="openSettingsModal()" title="Cài đặt nguồn phát M3U" class="w-9 h-9 rounded-full glass-pill flex items-center justify-center text-[var(--label-2)] hover:text-white transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
         </button>
       </div>
 
     </header>
 
-    <!-- 2. Hero Cinema Video Player -->
+    <!-- 2. Hero Cinema Video Player (Strand Live TV Style - Image 3) -->
     <section id="playerSection" class="glass-card rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group">
       
       <!-- Video Screen Surface Container -->
@@ -128,24 +129,49 @@
           </button>
         </div>
 
-        <!-- Bottom Stream HUD & Title -->
-        <div class="absolute bottom-3 left-3 right-3 sm:bottom-5 sm:left-6 sm:right-6 z-20 space-y-1">
-          <h2 id="playerProgramTitle" class="text-base sm:text-2xl font-bold text-white tracking-tight truncate">
+        <!-- Bottom Stream HUD & Title (Strand Image 3) -->
+        <div class="absolute bottom-3 left-3 right-3 sm:bottom-5 sm:left-6 sm:right-6 z-20 space-y-1.5">
+          <h2 id="playerProgramTitle" class="text-base sm:text-2xl font-bold text-white tracking-tight truncate font-[var(--font-display)]">
             Đang tải kênh...
           </h2>
-          <p id="playerProgramSubtitle" class="text-xs sm:text-sm text-[var(--label-2)] truncate">
-            Kênh truyền hình trực tuyến • Vuốt ngang để đổi kênh
-          </p>
+          <!-- Strand Program Subtitle Pill -->
+          <div class="flex items-center gap-2">
+            <div class="px-3 py-1 rounded-full glass-pill flex items-center gap-2 max-w-[85%] truncate">
+              <svg class="w-3.5 h-3.5 text-[var(--orange)] shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5.636 18.364a9 9 0 010-12.728m12.728 0a9 9 0 010 12.728m-9.9-2.829a5 5 0 010-7.07m7.072 0a5 5 0 010 7.07M13 12a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+              <span id="playerProgramSubtitle" class="text-xs text-[var(--label-2)] truncate">
+                Truyền hình trực tuyến Full HD • Vuốt ngang để đổi kênh
+              </span>
+            </div>
+            <span class="px-2 py-0.5 rounded-md bg-white/10 text-[10px] font-bold text-white/80 uppercase">HD</span>
+          </div>
         </div>
 
       </div>
 
     </section>
 
-    <!-- SECTION 1: LIVE TV GUIDE (Mặc định) -->
-    <div id="section-live" class="space-y-4">
-      
-      <!-- Search & Category Filters -->
+    <!-- SECTION 1: LIVE TV TIMELINE EPG GUIDE (Chuẩn Strand Image 3) -->
+    <div id="section-live" class="space-y-3">
+      <!-- Populated by TimelineManager -->
+      <div id="timelineContainer"></div>
+    </div>
+
+    <!-- SECTION 2: SPORTS & FIXTURES (Có nút chọn từng luồng phát - Image 1) -->
+    <div id="section-sports" class="space-y-4 hidden">
+      <div class="flex items-center justify-between">
+        <div>
+          <h3 class="text-base font-bold text-white tracking-tight">Trực Tiếp Thể Thao</h3>
+          <p class="text-xs text-[var(--label-2)]">Chọn từng luồng phát và bình luận viên theo ý bạn</p>
+        </div>
+        <span id="sportsCountBadge" class="text-xs font-semibold text-[var(--orange)] px-2.5 py-1 rounded-full glass-pill">Đang tải...</span>
+      </div>
+
+      <!-- Sports Cards Grid (Populated by SportsManager with Stream Buttons) -->
+      <div id="sportsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3.5"></div>
+    </div>
+
+    <!-- SECTION 3: SEARCH & CHANNELS LIST -->
+    <div id="section-channels" class="space-y-4 hidden">
       <div class="space-y-3">
         <!-- Search Input -->
         <div class="relative">
@@ -158,35 +184,14 @@
         </div>
 
         <!-- Categories Pill Bar -->
-        <div id="categoryFilters" class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
-          <!-- Populated by ChannelManager -->
-        </div>
+        <div id="categoryFilters" class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5"></div>
       </div>
 
       <!-- Channel Rows Container -->
-      <div id="channelContainer" class="glass-card rounded-2xl divide-y divide-[var(--separator)] overflow-hidden shadow-xl">
-        <!-- Populated by ChannelManager -->
-      </div>
-
+      <div id="channelContainer" class="glass-card rounded-2xl divide-y divide-[var(--separator)] overflow-hidden shadow-xl"></div>
     </div>
 
-    <!-- SECTION 2: SPORTS & FIXTURES -->
-    <div id="section-sports" class="space-y-4 hidden">
-      <div class="flex items-center justify-between">
-        <div>
-          <h3 class="text-base font-bold text-white tracking-tight">Trực Tiếp Thể Thao</h3>
-          <p class="text-xs text-[var(--label-2)]">Đồng bộ lịch thi đấu từ bóng đá, bóng rổ, tennis</p>
-        </div>
-        <span id="sportsCountBadge" class="text-xs font-semibold text-[var(--orange)] px-2.5 py-1 rounded-full glass-pill">Đang tải...</span>
-      </div>
-
-      <!-- Sports Cards Grid -->
-      <div id="sportsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
-        <!-- Populated by SportsManager -->
-      </div>
-    </div>
-
-    <!-- SECTION 3: WEB REMOTE FOR SAMSUNG & ANDROID TV -->
+    <!-- SECTION 4: WEB REMOTE FOR SAMSUNG & ANDROID TV -->
     <div id="section-remote" class="space-y-4 hidden">
       <div class="glass-card rounded-2xl p-6 text-center max-w-sm mx-auto space-y-6">
         <div>
@@ -220,7 +225,7 @@
           </div>
         </div>
 
-        <!-- Navigation Buttons: Back, Home, Menu -->
+        <!-- Navigation Buttons: Back, Home -->
         <div class="flex items-center justify-center gap-4">
           <button onclick="sendRemoteKey('back')" class="px-5 py-2.5 rounded-full glass-pill text-xs font-semibold text-white/90 active:scale-95 transition">
             Quay lại
@@ -283,33 +288,50 @@
       </div>
     </div>
 
-    <!-- 5. Floating Bottom Navigation Island for Mobile (iPhone Safari PWA) -->
-    <div class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
-      <nav class="flex items-center gap-2 px-5 py-2.5 rounded-full glass-pill shadow-2xl border border-white/20">
-        <button onclick="switchTab('live')" id="m-tab-live" class="p-2 text-white flex flex-col items-center">
-          <svg class="w-5 h-5 text-[var(--accent)]" viewBox="0 0 24 24" fill="currentColor"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
-          <span class="text-[9px] font-semibold mt-0.5 text-white">Xem TV</span>
-        </button>
-        <button onclick="switchTab('sports')" id="m-tab-sports" class="p-2 text-[var(--label-2)] hover:text-white flex flex-col items-center">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20M2 12h20"/></svg>
-          <span class="text-[9px] font-medium mt-0.5">Thể Thao</span>
-        </button>
-        <button onclick="switchTab('remote')" id="m-tab-remote" class="p-2 text-[var(--label-2)] hover:text-white flex flex-col items-center">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
-          <span class="text-[9px] font-medium mt-0.5">Điều Khiển</span>
-        </button>
-        <button onclick="openSettingsModal()" class="p-2 text-[var(--label-2)] hover:text-white flex flex-col items-center">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          <span class="text-[9px] font-medium mt-0.5">Cài Đặt</span>
-        </button>
-      </nav>
-    </div>
+  </div>
 
+  <!-- ========================================================================= -->
+  <!-- 5. STRAND BOTTOM DOCK BAR (Tràn ra hết chiều ngang như app Strand Image 2) -->
+  <!-- ========================================================================= -->
+  <div class="strand-dock-container">
+    <nav class="strand-dock">
+      
+      <!-- Tab 1: Live TV (Timeline EPG) -->
+      <button onclick="switchTab('live')" id="dock-tab-live" class="dock-tab active">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
+        <span class="text-[10px] font-semibold mt-1">Trực Tiếp</span>
+      </button>
+
+      <!-- Tab 2: Sports (Trận đấu & Luồng phát) -->
+      <button onclick="switchTab('sports')" id="dock-tab-sports" class="dock-tab">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20M2 12h20"/></svg>
+        <span class="text-[10px] font-semibold mt-1">Thể Thao</span>
+      </button>
+
+      <!-- Tab 3: Channel List & Search -->
+      <button onclick="switchTab('channels')" id="dock-tab-channels" class="dock-tab">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+        <span class="text-[10px] font-semibold mt-1">Tìm Kênh</span>
+      </button>
+
+      <!-- Tab 4: Web Remote for TV -->
+      <button onclick="switchTab('remote')" id="dock-tab-remote" class="dock-tab">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+        <span class="text-[10px] font-semibold mt-1">Điều Khiển</span>
+      </button>
+
+      <!-- Action Button Right: Settings / Search -->
+      <button onclick="openSettingsModal()" class="dock-circle-btn ml-1" title="Cài đặt">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      </button>
+
+    </nav>
   </div>
 
   <!-- Application Logic Modules -->
   <script src="js/player.js"></script>
   <script src="js/channels.js"></script>
+  <script src="js/timeline.js"></script>
   <script src="js/sports.js"></script>
   <script src="js/app.js"></script>
 </body>
