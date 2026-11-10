@@ -106,109 +106,107 @@ body {
 }
 
 /* ========================================================================= */
-/* STRAND LIQUID GLASS BOTTOM DOCK (Chuẩn Liquid Glass như Strand Image 2)    */
+/* STRAND LIQUID GLASS BOTTOM DOCK (BẮT BUỘC PHƯƠNG NGANG / HORIZONTAL)      */
 /* ========================================================================= */
 .strand-dock-container {
-  position: fixed;
-  bottom: calc(env(safe-area-inset-bottom, 8px) + 8px);
-  left: 12px;
-  right: 12px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 90;
-  pointer-events: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  position: fixed !important;
+  bottom: calc(env(safe-area-inset-bottom, 8px) + 8px) !important;
+  left: 12px !important;
+  right: 12px !important;
+  max-width: 560px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  z-index: 90 !important;
+  pointer-events: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
 }
 
-/* Liquid Glass Main Capsule */
+/* Liquid Glass Main Capsule (Thanh nằm ngang chứa các tab) */
 .strand-liquid-dock {
-  pointer-events: auto;
-  flex: 1;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.04) 100%), rgba(20, 20, 25, 0.72);
-  backdrop-filter: blur(40px) saturate(210%);
-  -webkit-backdrop-filter: blur(40px) saturate(210%);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-top: 1px solid rgba(255, 255, 255, 0.38);
+  pointer-events: auto !important;
+  flex: 1 1 auto !important;
+  height: 60px !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 100%), rgba(20, 20, 26, 0.75) !important;
+  backdrop-filter: blur(40px) saturate(210%) !important;
+  -webkit-backdrop-filter: blur(40px) saturate(210%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.42) !important;
   box-shadow: 
-    inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.4),
     inset 0 -1px 1px 0 rgba(0, 0, 0, 0.4),
-    0 16px 44px -8px rgba(0, 0, 0, 0.75),
-    0 0 20px 0 rgba(255, 101, 0, 0.12);
-  border-radius: 34px;
-  padding: 6px 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-/* Liquid Glass Separate Orb Button (Right side - Image 2) */
-.strand-liquid-orb {
-  pointer-events: auto;
-  width: 56px;
-  height: 56px;
-  border-radius: 28px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.05) 100%), rgba(24, 24, 30, 0.76);
-  backdrop-filter: blur(40px) saturate(210%);
-  -webkit-backdrop-filter: blur(40px) saturate(210%);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-top: 1px solid rgba(255, 255, 255, 0.48);
-  box-shadow: 
-    inset 0 1px 1px 0 rgba(255, 255, 255, 0.45),
-    0 16px 44px -8px rgba(0, 0, 0, 0.75),
-    0 0 20px 0 rgba(255, 101, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: transform 0.15s, background 0.2s, box-shadow 0.2s;
-  outline: none;
-}
-
-.strand-liquid-orb:hover {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.08) 100%), rgba(28, 28, 36, 0.85);
-  box-shadow: 
-    inset 0 1px 1px 0 rgba(255, 255, 255, 0.55),
     0 16px 44px -8px rgba(0, 0, 0, 0.8),
-    0 0 24px 0 rgba(255, 101, 0, 0.4);
+    0 0 20px 0 rgba(255, 101, 0, 0.15) !important;
+  border-radius: 30px !important;
+  padding: 4px 8px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+
+/* Liquid Glass Separate Orb Button (Quả cầu tròn bên phải) */
+.strand-liquid-orb {
+  pointer-events: auto !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 30px !important;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.06) 100%), rgba(24, 24, 32, 0.8) !important;
+  backdrop-filter: blur(40px) saturate(210%) !important;
+  -webkit-backdrop-filter: blur(40px) saturate(210%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.5),
+    0 16px 44px -8px rgba(0, 0, 0, 0.8),
+    0 0 24px 0 rgba(255, 101, 0, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  transition: transform 0.15s, background 0.2s, box-shadow 0.2s !important;
+  outline: none !important;
 }
 
 .strand-liquid-orb:active {
-  transform: scale(0.92);
+  transform: scale(0.92) !important;
 }
 
+/* Dock Tab Buttons (Nằm ngang trong thanh dock) */
 .dock-tab {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 12px;
-  border-radius: 20px;
-  color: var(--label-2);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  flex: 1;
-  outline: none;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 1 1 0% !important;
+  height: 100% !important;
+  padding: 4px 6px !important;
+  border-radius: 22px !important;
+  color: var(--label-2) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
 }
 
 .dock-tab:hover {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .dock-tab.active {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.16) !important;
 }
 
 .dock-tab.active svg {
-  color: var(--accent);
-  filter: drop-shadow(0 0 8px var(--accent-glow));
+  color: var(--accent) !important;
+  filter: drop-shadow(0 0 8px var(--accent-glow)) !important;
 }
 
 /* ========================================================================= */

@@ -12,13 +12,13 @@
   <meta name="theme-color" content="#000000">
   <meta name="description" content="Strand Edition IPTV Streaming PWA for Apple Screens & Web">
   
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="manifest.json?v=5">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=5) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css">
+  <link rel="stylesheet" href="css/strand.css?v=5">
 
   <!-- Hls.js for desktop browsers -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -264,27 +264,27 @@
   </div>
 
   <!-- ========================================================================= -->
-  <!-- 5. STRAND LIQUID GLASS BOTTOM DOCK (Chuẩn Liquid Glass như Strand Image 2) -->
+  <!-- 5. STRAND LIQUID GLASS BOTTOM DOCK (BẮT BUỘC PHƯƠNG NGANG / HORIZONTAL)  -->
   <!-- ========================================================================= -->
-  <div class="strand-dock-container">
+  <div class="strand-dock-container flex flex-row items-center justify-between w-full">
     
-    <!-- Main Liquid Glass Capsule (Tabs bên trái) -->
-    <nav class="strand-liquid-dock">
+    <!-- Main Liquid Glass Capsule (Tabs nằm ngang bên trái) -->
+    <nav class="strand-liquid-dock flex flex-row items-center justify-around flex-1">
       
       <!-- Tab 1: Live TV (Timeline EPG) -->
-      <button onclick="switchTab('live')" id="dock-tab-live" class="dock-tab active">
+      <button onclick="switchTab('live')" id="dock-tab-live" class="dock-tab active flex flex-col items-center justify-center flex-1">
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
         <span class="text-[10px] font-semibold mt-1">Trực Tiếp</span>
       </button>
 
       <!-- Tab 2: Sports (Trận đấu & Nút chọn luồng) -->
-      <button onclick="switchTab('sports')" id="dock-tab-sports" class="dock-tab">
+      <button onclick="switchTab('sports')" id="dock-tab-sports" class="dock-tab flex flex-col items-center justify-center flex-1">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20M2 12h20"/></svg>
         <span class="text-[10px] font-semibold mt-1">Thể Thao</span>
       </button>
 
       <!-- Tab 3: Channel List & Search -->
-      <button onclick="switchTab('channels')" id="dock-tab-channels" class="dock-tab">
+      <button onclick="switchTab('channels')" id="dock-tab-channels" class="dock-tab flex flex-col items-center justify-center flex-1">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
         <span class="text-[10px] font-semibold mt-1">Tìm Kênh</span>
       </button>
@@ -292,17 +292,17 @@
     </nav>
 
     <!-- Liquid Glass Separate Circular Orb Button (Bên phải - Image 2) -->
-    <button onclick="openSettingsModal()" class="strand-liquid-orb" title="Quản lý &amp; Thêm nguồn phát M3U">
-      <svg class="w-5 h-5 text-[var(--orange)]" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+    <button onclick="openSettingsModal()" class="strand-liquid-orb flex items-center justify-center shrink-0" title="Quản lý &amp; Thêm nguồn phát M3U">
+      <svg class="w-5 h-5 text-[var(--orange)]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
     </button>
 
   </div>
 
-  <!-- Application Logic Modules -->
-  <script src="js/player.js"></script>
-  <script src="js/channels.js"></script>
-  <script src="js/timeline.js"></script>
-  <script src="js/sports.js"></script>
-  <script src="js/app.js"></script>
+  <!-- Application Logic Modules (Cache busted ?v=5) -->
+  <script src="js/player.js?v=5"></script>
+  <script src="js/channels.js?v=5"></script>
+  <script src="js/timeline.js?v=5"></script>
+  <script src="js/sports.js?v=5"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

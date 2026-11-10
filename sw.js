@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-strand-v4';
+const CACHE_NAME = 'tvplay-strand-v5';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -51,21 +51,36 @@ self.addEventListener('fetch', event => {
     return event.respondWith(fetch(event.request));
   }
 
-  // Stale-while-revalidate for static files
+  // Network-First for HTML, CSS, JS so updates reflect immediately
+  if (
+    url.pathname.endsWith('.html') ||
+    url.pathname.endsWith('.css') ||
+    url.pathname.endsWith('.js') ||
+    url.pathname === '/' ||
+    url.pathname.endsWith('/')
+  ) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Cache-first for images / icons
   event.respondWith(
     caches.match(event.request).then(cachedResponse => {
-      const fetchPromise = fetch(event.request).then(networkResponse => {
-        if (networkResponse && networkResponse.status === 200) {
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, responseToCache);
-          });
+      return cachedResponse || fetch(event.request).then(response => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         }
-        return networkResponse;
-      }).catch(() => cachedResponse);
-
-      return cachedResponse || fetchPromise;
+        return response;
+      });
     })
   );
 });
-
