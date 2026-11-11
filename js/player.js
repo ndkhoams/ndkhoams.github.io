@@ -217,6 +217,14 @@ class StrandPlayer {
     if (badge && info.name) badge.textContent = info.name;
     if (title && info.title) title.textContent = info.title;
     if (subtitle && info.subtitle) subtitle.textContent = info.subtitle;
+
+    // Desktop player info card
+    const dName = document.getElementById('desktopChannelName');
+    const dSub = document.getElementById('desktopChannelSub');
+    const dBadge = document.getElementById('desktopChannelBadge');
+    if (dName && (info.title || info.name)) dName.textContent = info.title || info.name;
+    if (dSub && (info.subtitle || info.name)) dSub.textContent = info.subtitle || info.name;
+    if (dBadge && info.group) dBadge.textContent = info.group.toUpperCase();
   }
 
   updateAmbientGlow(info) {

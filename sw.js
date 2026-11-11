@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-strand-v8';
+const CACHE_NAME = 'tvplay-strand-v9';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -40,12 +40,13 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
 
-  // Bypass cache for video streams, m3u8 chunks, and dynamic json apis
+  // Bypass cache for video streams, m3u8 chunks, sports data, and dynamic json apis
   if (
     url.pathname.endsWith('.m3u8') ||
     url.pathname.endsWith('.ts') ||
     url.pathname.endsWith('.m4s') ||
     url.pathname.includes('/api/') ||
+    url.pathname.includes('thethao-data') ||
     event.request.method !== 'GET'
   ) {
     return event.respondWith(fetch(event.request));

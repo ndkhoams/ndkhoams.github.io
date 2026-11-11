@@ -15,6 +15,7 @@ class SportsManager {
     this.expandedEventIdx = -1;
     this.activeEventIdx = -1;
     this.activeSourceIdx = -1;
+    this.rawGithubUrl = 'https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao-data.json';
     this.defaultSportsUrl = 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json';
     this.armbianHubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
     this.useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
@@ -330,26 +331,76 @@ class SportsManager {
     }
   }
 
-  async loadSports() {
+  async refreshSports() {
+    const btn = document.getElementById('btnRefreshSports');
+    const icon = document.getElementById('refreshIcon');
+    const text = document.getElementById('refreshBtnText');
+
+    if (icon) icon.classList.add('animate-spin');
+    if (text) text.textContent = 'Đang tải...';
+    if (btn) btn.disabled = true;
+
+    try {
+      await this.loadSports(true);
+      if (text) text.textContent = 'Đã cập nhật';
+      setTimeout(() => {
+        if (text) text.textContent = 'Tải lại';
+      }, 1500);
+    } catch (e) {
+      if (text) text.textContent = 'Lỗi';
+      setTimeout(() => {
+        if (text) text.textContent = 'Tải lại';
+      }, 2000);
+    } finally {
+      if (icon) icon.classList.remove('animate-spin');
+      if (btn) btn.disabled = false;
+    }
+  }
+
+  async loadSports(forceFresh = false) {
     const container = document.getElementById('sportsContainer');
     if (!container) return;
 
-    this.renderSkeleton(container);
+    if (forceFresh || !this.sportsData) {
+      this.renderSkeleton(container);
+    }
+
+    const cacheBuster = `?t=${Date.now()}`;
 
     try {
       let data = null;
 
+      // 1. Armbian LAN Hub (nếu được bật và trong mạng nội bộ)
       if (this.useArmbian) {
         try {
-          const res = await fetch(`${this.armbianHubUrl}/api/sports/categories`, { signal: AbortSignal.timeout(3000) });
+          const res = await fetch(`${this.armbianHubUrl}/api/sports/categories${cacheBuster}`, { 
+            signal: AbortSignal.timeout(2500),
+            cache: 'no-store'
+          });
           if (res.ok) data = await res.json();
         } catch (hubErr) {
-          console.warn('[Sports] Armbian Hub offline or blocked, falling back to CDN:', hubErr);
+          console.warn('[Sports] Armbian Hub offline or blocked, falling back to GitHub:', hubErr);
         }
       }
 
+      // 2. Tải trực tiếp từ Raw GitHub (Luôn luôn mới nhất ngay khi sports-updater đẩy lên)
       if (!data) {
-        const res = await fetch(this.defaultSportsUrl);
+        try {
+          const res = await fetch(`${this.rawGithubUrl}${cacheBuster}`, {
+            signal: AbortSignal.timeout(6000),
+            cache: 'no-store'
+          });
+          if (res.ok) data = await res.json();
+        } catch (rawErr) {
+          console.warn('[Sports] Raw GitHub error, falling back to CDN:', rawErr);
+        }
+      }
+
+      // 3. Dự phòng tải qua CDN jsDelivr có cache buster
+      if (!data) {
+        const res = await fetch(`${this.defaultSportsUrl}${cacheBuster}`, {
+          cache: 'no-store'
+        });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         data = await res.json();
       }
@@ -359,11 +410,17 @@ class SportsManager {
       this.buildStandingsMap();
       this.renderSports(container);
 
+      // Cập nhật số lượng trận đấu lên badge
+      const countBadge = document.getElementById('sportsCountBadge');
+      if (countBadge) {
+        countBadge.textContent = `${this.liveEvents.length} trận đấu`;
+      }
+
     } catch (err) {
       console.error('[Sports] Error loading sports data:', err);
       container.innerHTML = `
-        <div class="p-6 text-center text-xs text-[var(--label-2)] col-span-2">
-          Chưa có lịch phát trực tiếp hoặc không tải được dữ liệu thể thao.
+        <div class="p-6 text-center text-xs text-[var(--label-2)] col-span-full">
+          Không tải được dữ liệu thể thao. Bấm nút <b>"Tải lại"</b> ở trên để thử lại.
         </div>
       `;
     }
@@ -570,8 +627,10 @@ class SportsManager {
       // Update button visual states
       this.renderSports();
 
-      // Scroll smoothly to top player
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Chỉ cuộn lên trên nếu là màn hình di động (< 1024px) do khung phát nằm ở trên danh sách
+      if (window.innerWidth < 1024) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     }
   }
 

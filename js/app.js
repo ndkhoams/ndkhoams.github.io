@@ -30,10 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
   sportsManager.loadSports();
   timelineManager.init();
 
-  // 5. Auto refresh sports
+  // On desktop (width >= 1024), default to sports tab so matches list is visible in right column
+  if (window.innerWidth >= 1024) {
+    switchTab('sports');
+  }
+
+  // 5. Auto refresh sports every 3 minutes with fresh cache buster
   setInterval(() => {
-    sportsManager.loadSports();
-  }, 5 * 60 * 1000);
+    sportsManager.loadSports(true);
+  }, 3 * 60 * 1000);
 
   // 6. Register Service Worker for PWA
   if ('serviceWorker' in navigator) {
@@ -86,12 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Tab navigation handler (Strand Bottom Liquid Dock)
+// Tab navigation handler (Strand Bottom Liquid Dock & Desktop Sidebar)
 function switchTab(tabId) {
   const tabs = ['live', 'sports', 'channels'];
 
   tabs.forEach(t => {
-    // Desktop Nav Pills
+    // 1. Desktop Top Nav Pills
     const btn = document.getElementById(`tab-${t}`);
     if (btn) {
       if (t === tabId) {
@@ -101,7 +106,17 @@ function switchTab(tabId) {
       }
     }
 
-    // Strand Liquid Glass Dock Tabs
+    // 2. Desktop Sidebar Tabs
+    const sideBtn = document.getElementById(`side-tab-${t}`);
+    if (sideBtn) {
+      if (t === tabId) {
+        sideBtn.className = 'flex-1 py-1.5 rounded-lg bg-white/20 text-white font-semibold transition text-center flex items-center justify-center gap-1.5';
+      } else {
+        sideBtn.className = 'flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5';
+      }
+    }
+
+    // 3. Strand Liquid Glass Dock Tabs (Mobile)
     const dockTab = document.getElementById(`dock-tab-${t}`);
     if (dockTab) {
       if (t === tabId) {
@@ -111,13 +126,25 @@ function switchTab(tabId) {
       }
     }
 
-    // Section Visibility
+    // 4. Section Visibility
     const sec = document.getElementById(`section-${t}`);
     if (sec) {
       if (t === tabId) sec.classList.remove('hidden');
       else sec.classList.add('hidden');
     }
   });
+
+  // Update Sidebar Header Title & Refresh Button
+  const sidebarTitle = document.getElementById('sidebarSectionTitle');
+  const btnRefresh = document.getElementById('btnRefreshSports');
+  if (sidebarTitle) {
+    if (tabId === 'sports') sidebarTitle.textContent = 'Trực Tiếp Thể Thao';
+    else if (tabId === 'live') sidebarTitle.textContent = 'Lịch Kênh (Timeline)';
+    else if (tabId === 'channels') sidebarTitle.textContent = 'Danh Sách Kênh TV';
+  }
+  if (btnRefresh) {
+    btnRefresh.style.display = tabId === 'sports' ? 'inline-flex' : 'none';
+  }
 
   // Re-render timeline if switching to live
   if (tabId === 'live' && window.timelineManager) {
@@ -126,7 +153,10 @@ function switchTab(tabId) {
     }, 100);
   }
 
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  // Only scroll top on mobile (< 1024px)
+  if (window.innerWidth < 1024) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
 // Settings modal & Playlists Manager
