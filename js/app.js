@@ -123,7 +123,7 @@ function switchTab(tabId) {
       }
     }
 
-    // 2. Desktop Sidebar Tabs
+    // 2. Desktop & Mobile Content Sub-Tabs
     const sideBtn = document.getElementById(`side-tab-${t}`);
     if (sideBtn) {
       if (t === tabId) {
@@ -133,17 +133,7 @@ function switchTab(tabId) {
       }
     }
 
-    // 3. Strand Liquid Glass Dock Tabs (Mobile)
-    const dockTab = document.getElementById(`dock-tab-${t}`);
-    if (dockTab) {
-      if (t === tabId) {
-        dockTab.classList.add('active');
-      } else {
-        dockTab.classList.remove('active');
-      }
-    }
-
-    // 4. Section Visibility
+    // 3. Section Visibility
     const sec = document.getElementById(`section-${t}`);
     if (sec) {
       if (t === tabId) sec.classList.remove('hidden');

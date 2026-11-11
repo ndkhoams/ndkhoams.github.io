@@ -40,14 +40,14 @@ html, body {
 /* Safe Area Insets for iPhone notch & Home Indicator */
 body {
   padding-top: 0;
-  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 95px);
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
   padding-left: env(safe-area-inset-left, 0px);
   padding-right: env(safe-area-inset-right, 0px);
 }
 
 @media (min-width: 768px) {
   body {
-    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 95px);
+    padding-bottom: 24px;
   }
 }
 
