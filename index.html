@@ -16,22 +16,21 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=10) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=11) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=10">
+  <link rel="stylesheet" href="css/strand.css?v=11">
 
   <!-- Hls.js for desktop browsers -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
 </head>
-<body class="p-3 sm:p-6 md:p-8 min-h-screen relative selection:bg-[#ff6500] selection:text-white">
+<body class="min-h-screen relative selection:bg-[#ff6500] selection:text-white">
 
   <!-- Ambient Dynamic Glow (Strand Backdrop Lighting) -->
   <div id="ambientGlow" class="ambient-glow"></div>
 
-  <div class="w-full max-w-[1720px] mx-auto px-2 sm:px-4 md:px-6 relative z-10 space-y-4">
-
-    <!-- 1. Strand Header & Island Nav (Desktop) -->
-    <header class="flex items-center justify-between gap-3 pt-1">
+  <!-- 1. Strand Header & Island Nav (Sticky on Mobile, iOS Notch Safe) -->
+  <header id="mainHeader" class="app-header-sticky w-full">
+    <div class="w-full max-w-[1720px] mx-auto px-3 sm:px-4 md:px-6 flex items-center justify-between gap-3">
       
       <!-- Brand Logo & Platform Title -->
       <div class="flex items-center gap-3">
@@ -69,7 +68,10 @@
         </button>
       </div>
 
-    </header>
+    </div>
+  </header>
+
+  <div class="w-full max-w-[1720px] mx-auto px-2 sm:px-4 md:px-6 relative z-10 space-y-4 pt-1 sm:pt-2">
 
     <!-- Main Content Area: Block on Mobile (Sticky Player), 2-Column Grid on Desktop -->
     <main class="block lg:grid lg:grid-cols-12 gap-5 items-start space-y-4 lg:space-y-0">
@@ -224,7 +226,7 @@
         </div>
 
         <!-- Scrollable Container for Tab Contents (Matches, EPG Timeline, Channels) -->
-        <div class="lg:max-h-[calc(100vh-210px)] lg:overflow-y-auto custom-scrollbar pr-0.5 space-y-3.5">
+        <div id="sidebarContentScroll" class="desktop-sidebar-scroll custom-scrollbar pr-1 space-y-3.5">
           
           <!-- SECTION 2: SPORTS & FIXTURES (Trực Tiếp Thể Thao - Khung Phải) -->
           <div id="section-sports" class="space-y-3">
@@ -365,11 +367,11 @@
 
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=10) -->
-  <script src="js/player.js?v=10"></script>
-  <script src="js/channels.js?v=10"></script>
-  <script src="js/timeline.js?v=10"></script>
-  <script src="js/sports.js?v=10"></script>
-  <script src="js/app.js?v=10"></script>
+  <!-- Application Logic Modules (Cache busted ?v=11) -->
+  <script src="js/player.js?v=11"></script>
+  <script src="js/channels.js?v=11"></script>
+  <script src="js/timeline.js?v=11"></script>
+  <script src="js/sports.js?v=11"></script>
+  <script src="js/app.js?v=11"></script>
 </body>
 </html>

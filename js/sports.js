@@ -445,8 +445,19 @@ class SportsManager {
       const league = evt.leagueName || evt.league || 'BÓNG ĐÁ TRỰC TIẾP';
       const home = evt.homeTeam || 'Đội nhà';
       const away = evt.awayTeam || 'Đội khách';
-      const time = evt.time || 'Trực tiếp';
-      const date = evt.date || '';
+
+      // 1. Trích xuất giờ thi đấu và ngày thi đấu (Kick-off Time & Date)
+      let time = evt.time || '';
+      let date = evt.date || '';
+
+      if (!time && evt.displayTitle) {
+        const m = evt.displayTitle.match(/\[(\d{1,2}:\d{2})(?:\s+([^\]]+))?\]/);
+        if (m) {
+          time = m[1];
+          if (!date && m[2]) date = m[2];
+        }
+      }
+      if (time === 'Trực tiếp') time = '';
 
       const homeInitial = home.substring(0, 3).toUpperCase();
       const awayInitial = away.substring(0, 3).toUpperCase();
@@ -464,18 +475,29 @@ class SportsManager {
                isEventActive ? 'border-[var(--accent)] bg-orange-500/[0.04]' : isExpanded ? 'border-white/25 bg-white/[0.04]' : 'border-white/10 hover:border-white/20'
              } transition-all duration-200 cursor-pointer relative overflow-hidden select-none">
           
-          <!-- Top Row: League & Status Badge -->
-          <div class="flex items-center justify-between text-xs text-[var(--label-2)]">
-            <span class="font-bold text-[var(--blue)] truncate max-w-[210px] flex items-center gap-1.5">
+          <!-- Top Row: League, Kick-off Time & Status Badge -->
+          <div class="flex items-center justify-between gap-2 text-xs text-[var(--label-2)]">
+            <span class="font-bold text-[var(--blue)] truncate max-w-[130px] sm:max-w-[170px] flex items-center gap-1.5 shrink-0">
               <span class="text-sm">⚽</span>
-              <span>${league}</span>
+              <span class="truncate">${league}</span>
             </span>
-            <span class="px-2 py-0.5 rounded-full ${isLive ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-white/10 text-white/70'} font-bold text-[10px] flex items-center gap-1 shrink-0">
-              ${isLive ? '<span class="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse"></span> LIVE' : `${time} ${date}`}
-            </span>
+
+            <div class="flex items-center gap-1.5 shrink-0">
+              ${time ? `
+                <span class="px-2 py-0.5 rounded-md bg-amber-500/15 border border-amber-500/35 text-amber-300 font-mono font-bold text-[11px] flex items-center gap-1 shadow-sm">
+                  <svg class="w-3 h-3 text-amber-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/><path stroke-linecap="round" d="M12 6v6l4 2"/>
+                  </svg>
+                  <span>${time}${date ? ` (${date})` : ''}</span>
+                </span>
+              ` : ''}
+              <span class="px-2 py-0.5 rounded-full ${isLive ? 'bg-red-500/20 text-red-400 border border-red-500/30' : 'bg-white/10 text-white/70'} font-bold text-[10px] flex items-center gap-1 shrink-0">
+                ${isLive ? '<span class="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse"></span> LIVE' : 'Sắp đấu'}
+              </span>
+            </div>
           </div>
 
-          <!-- Middle Row: Teams VS with Official Club Logos -->
+          <!-- Middle Row: Teams VS with Official Club Logos & Kick-off Time -->
           <div class="flex items-center justify-between py-1">
             <!-- Home Team with Logo -->
             <div class="flex items-center gap-2.5 min-w-0">
@@ -491,10 +513,14 @@ class SportsManager {
                   ${homeInitial}
                 </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[125px] sm:max-w-[180px]">${home}</span>
+              <span class="text-sm font-bold text-white truncate max-w-[120px] sm:max-w-[170px]">${home}</span>
             </div>
 
-            <span class="text-xs font-mono text-[var(--label-3)] px-2 font-bold shrink-0">VS</span>
+            <!-- VS & Kick-off Time Center Pillar -->
+            <div class="flex flex-col items-center justify-center px-1.5 shrink-0">
+              <span class="text-xs font-mono text-[var(--label-3)] font-bold">VS</span>
+              ${time ? `<span class="text-[10px] font-mono text-amber-400 font-bold tracking-wider mt-0.5">${time}</span>` : ''}
+            </div>
 
             <!-- Away Team with Logo -->
             <div class="flex items-center gap-2.5 flex-row-reverse min-w-0">
@@ -510,7 +536,7 @@ class SportsManager {
                   ${awayInitial}
                 </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[125px] sm:max-w-[180px] text-right">${away}</span>
+              <span class="text-sm font-bold text-white truncate max-w-[120px] sm:max-w-[170px] text-right">${away}</span>
             </div>
           </div>
 

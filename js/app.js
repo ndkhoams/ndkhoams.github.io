@@ -3,7 +3,24 @@
  * Liquid Glass Dock & Multi-playlist management.
  */
 
+// Dynamic header height measurement for iOS notch & sticky player positioning
+function updateAppHeaderHeight() {
+  const header = document.getElementById('mainHeader');
+  if (header) {
+    const h = header.offsetHeight;
+    if (window.innerWidth < 1024) {
+      document.documentElement.style.setProperty('--app-header-height', `${h}px`);
+    } else {
+      document.documentElement.style.setProperty('--app-header-height', '0px');
+    }
+  }
+}
+window.addEventListener('resize', updateAppHeaderHeight);
+window.addEventListener('orientationchange', updateAppHeaderHeight);
+
 document.addEventListener('DOMContentLoaded', () => {
+  updateAppHeaderHeight();
+
   // 1. Initialize Video Player Engine
   const player = new StrandPlayer();
   window.player = player;
