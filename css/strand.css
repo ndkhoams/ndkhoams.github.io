@@ -112,13 +112,23 @@ body {
 }
 
 /* ========================================================================= */
-/* STICKY CINEMA VIDEO PLAYER (Giữ cố định khi cuộn trang)                   */
+/* STICKY CINEMA VIDEO PLAYER (Giữ cố định khi cuộn trang trên mọi thiết bị) */
 /* ========================================================================= */
-.player-sticky {
+.player-sticky-wrapper {
   position: -webkit-sticky !important;
   position: sticky !important;
   top: max(env(safe-area-inset-top, 0px), 6px) !important;
   z-index: 45 !important;
+}
+
+@media (min-width: 1024px) {
+  .player-sticky-wrapper {
+    top: 12px !important;
+    z-index: 30 !important;
+  }
+}
+
+.player-sticky {
   box-shadow: 0 16px 48px -4px rgba(0, 0, 0, 0.95), 0 0 24px rgba(255, 101, 0, 0.18) !important;
   background: #000000 !important;
   transition: box-shadow 0.25s ease !important;

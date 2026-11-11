@@ -16,9 +16,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=9) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=10) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=9">
+  <link rel="stylesheet" href="css/strand.css?v=10">
 
   <!-- Hls.js for desktop browsers -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -71,11 +71,11 @@
 
     </header>
 
-    <!-- Main Content Area: Split 2-Column on Desktop (Khung phát Trái, Danh sách trận đấu Phải) -->
-    <main class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+    <!-- Main Content Area: Block on Mobile (Sticky Player), 2-Column Grid on Desktop -->
+    <main class="block lg:grid lg:grid-cols-12 gap-5 items-start space-y-4 lg:space-y-0">
 
       <!-- CỘT TRÁI: Khung Phát Video & Thông Tin Kênh (lg:col-span-7 xl:col-span-8) -->
-      <div class="lg:col-span-7 xl:col-span-8 space-y-3.5 lg:sticky lg:top-3 z-20">
+      <div class="lg:col-span-7 xl:col-span-8 space-y-3.5 player-sticky-wrapper">
 
     <!-- 2. Hero Cinema Video Player (Strand Live TV Style - Image 3) -->
     <section id="playerSection" class="glass-card rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group player-sticky">
@@ -365,11 +365,11 @@
 
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=9) -->
-  <script src="js/player.js?v=9"></script>
-  <script src="js/channels.js?v=9"></script>
-  <script src="js/timeline.js?v=9"></script>
-  <script src="js/sports.js?v=9"></script>
-  <script src="js/app.js?v=9"></script>
+  <!-- Application Logic Modules (Cache busted ?v=10) -->
+  <script src="js/player.js?v=10"></script>
+  <script src="js/channels.js?v=10"></script>
+  <script src="js/timeline.js?v=10"></script>
+  <script src="js/sports.js?v=10"></script>
+  <script src="js/app.js?v=10"></script>
 </body>
 </html>
