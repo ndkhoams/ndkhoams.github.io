@@ -498,9 +498,9 @@ class SportsManager {
           </div>
 
           <!-- Middle Row: Teams VS with Official Club Logos & Kick-off Time -->
-          <div class="flex items-center justify-between py-1">
-            <!-- Home Team with Logo -->
-            <div class="flex items-center gap-2.5 min-w-0">
+          <div class="flex items-center justify-between py-1 gap-2">
+            <!-- Home Team with Logo (Hiển thị tối đa 2 dòng nếu thiếu chiều ngang) -->
+            <div class="flex items-center gap-2.5 min-w-0 flex-1">
               <div class="w-10 h-10 rounded-xl bg-white/[0.08] border border-white/15 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden relative backdrop-blur-sm">
                 <img id="team-logo-${idx}-home" 
                      src="${homeLogo || ''}" 
@@ -513,7 +513,7 @@ class SportsManager {
                   ${homeInitial}
                 </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[120px] sm:max-w-[170px]">${home}</span>
+              <span class="text-xs sm:text-sm font-bold text-white club-name-2line">${home}</span>
             </div>
 
             <!-- VS & Kick-off Time Center Pillar -->
@@ -522,8 +522,8 @@ class SportsManager {
               ${time ? `<span class="text-[10px] font-mono text-amber-400 font-bold tracking-wider mt-0.5">${time}</span>` : ''}
             </div>
 
-            <!-- Away Team with Logo -->
-            <div class="flex items-center gap-2.5 flex-row-reverse min-w-0">
+            <!-- Away Team with Logo (Hiển thị tối đa 2 dòng nếu thiếu chiều ngang) -->
+            <div class="flex items-center gap-2.5 flex-row-reverse min-w-0 flex-1 text-right">
               <div class="w-10 h-10 rounded-xl bg-white/[0.08] border border-white/15 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden relative backdrop-blur-sm">
                 <img id="team-logo-${idx}-away" 
                      src="${awayLogo || ''}" 
@@ -536,7 +536,7 @@ class SportsManager {
                   ${awayInitial}
                 </span>
               </div>
-              <span class="text-sm font-bold text-white truncate max-w-[120px] sm:max-w-[170px] text-right">${away}</span>
+              <span class="text-xs sm:text-sm font-bold text-white club-name-2line text-right">${away}</span>
             </div>
           </div>
 

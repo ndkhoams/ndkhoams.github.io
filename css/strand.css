@@ -179,6 +179,17 @@ body {
   pointer-events: none !important;
 }
 
+/* Multi-line Club Name Clamping (Tối đa 2 dòng khi không đủ chiều ngang) */
+.club-name-2line {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  word-break: break-word !important;
+  line-height: 1.25 !important;
+}
+
 /* ========================================================================= */
 /* 3. DESKTOP SIDEBAR SCROLL (Cuộn chuột qua lịch thi đấu mượt mà)          */
 /* ========================================================================= */
