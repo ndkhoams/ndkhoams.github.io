@@ -373,7 +373,7 @@ class SportsManager {
       // 1. Armbian LAN Hub (nếu được bật và trong mạng nội bộ)
       if (this.useArmbian) {
         try {
-          const res = await fetch(`${this.armbianHubUrl}/api/sports/categories${cacheBuster}`, { 
+          const res = await fetch(`${this.armbianHubUrl}/data/thethao-data.json${cacheBuster}`, { 
             signal: AbortSignal.timeout(2500),
             cache: 'no-store'
           });
