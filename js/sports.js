@@ -652,11 +652,6 @@ class SportsManager {
 
       // Update button visual states
       this.renderSports();
-
-      // Chỉ cuộn lên trên nếu là màn hình di động (< 1024px) do khung phát nằm ở trên danh sách
-      if (window.innerWidth < 1024) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
     }
   }
 

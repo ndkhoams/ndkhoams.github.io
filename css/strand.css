@@ -166,6 +166,20 @@ body {
 }
 
 /* ========================================================================= */
+/* 2b. PLAYER HUD AUTO-HIDE (Tự động ẩn sau 5s không thao tác)              */
+/* ========================================================================= */
+.player-hud-overlay {
+  opacity: 1;
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.player-hud-hidden {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* ========================================================================= */
 /* 3. DESKTOP SIDEBAR SCROLL (Cuộn chuột qua lịch thi đấu mượt mà)          */
 /* ========================================================================= */
 @media (min-width: 1024px) {

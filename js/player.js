@@ -27,11 +27,15 @@ class StrandPlayer {
 
     // Check AirPlay availability
     this.initAirPlay();
+
+    // Auto-hide Top HUD after 5s
+    this.initHUDAutoHide();
   }
 
   playStream(streamUrl, channelInfo = {}) {
     if (!this.video || !streamUrl) return;
 
+    if (this.showHUD) this.showHUD();
     this.currentChannel = channelInfo;
     this.updateHUD(channelInfo);
     this.showBuffering(true);
@@ -191,6 +195,45 @@ class StrandPlayer {
       }
     }
     this.showPlayButtonOverlay(!playing);
+
+    if (playing) {
+      if (this.resetHUDTimer) this.resetHUDTimer();
+    } else {
+      if (this.showHUD) this.showHUD();
+    }
+  }
+
+  initHUDAutoHide() {
+    this.hudTimer = null;
+    const surface = document.getElementById('playerSurface');
+    const overlay = document.getElementById('playerHUDOverlay');
+    if (!surface || !overlay) return;
+
+    this.showHUD = () => {
+      overlay.classList.remove('player-hud-hidden');
+      surface.style.cursor = 'default';
+      this.resetHUDTimer();
+    };
+
+    this.hideHUD = () => {
+      // Giữ nguyên hiển thị điều khiển nếu video đang tạm dừng
+      if (this.video && this.video.paused) return;
+      overlay.classList.add('player-hud-hidden');
+      surface.style.cursor = 'none';
+    };
+
+    this.resetHUDTimer = () => {
+      clearTimeout(this.hudTimer);
+      this.hudTimer = setTimeout(this.hideHUD, 5000);
+    };
+
+    surface.addEventListener('mousemove', this.showHUD);
+    surface.addEventListener('mouseenter', this.showHUD);
+    surface.addEventListener('touchstart', this.showHUD, { passive: true });
+    surface.addEventListener('click', this.showHUD);
+
+    // Bắt đầu đếm ngược 5 giây khi vừa khởi tạo
+    this.resetHUDTimer();
   }
 
   showBuffering(loading) {
