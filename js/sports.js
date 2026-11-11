@@ -406,7 +406,7 @@ class SportsManager {
       }
 
       this.sportsData = data;
-      this.liveEvents = data.live_events || [];
+      this.liveEvents = this.deduplicateEvents(data.live_events || []);
       this.buildStandingsMap();
       this.renderSports(container);
 
@@ -424,6 +424,125 @@ class SportsManager {
         </div>
       `;
     }
+  }
+
+  deduplicateEvents(events) {
+    if (!Array.isArray(events) || events.length === 0) return [];
+
+    const ALIAS_MAP = {
+      'vietnam': 'vietnam', 'viet nam': 'vietnam', 'vn': 'vietnam',
+      'chinese taipei': 'taiwan', 'dai loan': 'taiwan', 'taiwan': 'taiwan', 'dai bac trung hoa': 'taiwan', 'dai bac': 'taiwan',
+      'india': 'india', 'an do': 'india', 'ando': 'india',
+      'maldives': 'maldives',
+      'thailand': 'thailand', 'thai lan': 'thailand',
+      'indonesia': 'indonesia', 'indo': 'indonesia',
+      'malaysia': 'malaysia', 'malay': 'malaysia',
+      'singapore': 'singapore', 'sing': 'singapore',
+      'philippines': 'philippines', 'philip': 'philippines',
+      'myanmar': 'myanmar', 'mien dien': 'myanmar',
+      'cambodia': 'cambodia', 'campuchia': 'cambodia',
+      'laos': 'laos', 'lao': 'laos',
+      'japan': 'japan', 'nhat ban': 'japan', 'nhat': 'japan',
+      'korea': 'korea', 'south korea': 'korea', 'han quoc': 'korea', 'han': 'korea',
+      'north korea': 'northkorea', 'trieu tien': 'northkorea', 'bac trieu tien': 'northkorea',
+      'china': 'china', 'trung quoc': 'china', 'trung': 'china',
+      'australia': 'australia', 'uc': 'australia',
+      'saudi arabia': 'saudiarabia', 'saudi': 'saudiarabia', 'a rap xe ut': 'saudiarabia', 'a rap saudi': 'saudiarabia',
+      'qatar': 'qatar',
+      'uae': 'uae', 'cac tieu vuong quoc a rap thong nhat': 'uae',
+      'iran': 'iran', 'iraq': 'iraq', 'uzbekistan': 'uzbekistan',
+      'russia': 'russia', 'nga': 'russia',
+      'belgium': 'belgium', 'bi': 'belgium', 'belgium indoor soccer': 'belgium',
+      'slovenia': 'slovenia', 'slovenia indoor soccer': 'slovenia',
+      'england': 'england', 'anh': 'england',
+      'france': 'france', 'phap': 'france',
+      'germany': 'germany', 'duc': 'germany',
+      'spain': 'spain', 'tay ban nha': 'spain',
+      'italy': 'italy', 'italia': 'italy', 'y': 'italy',
+      'portugal': 'portugal', 'bo dao nha': 'portugal',
+      'netherlands': 'netherlands', 'ha lan': 'netherlands',
+      'usa': 'usa', 'united states': 'usa', 'my': 'usa', 'hoa ky': 'usa'
+    };
+
+    const getCanonical = (name) => {
+      if (!name) return '';
+      let norm = name
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[đĐ]/g, 'd')
+        .replace(/\b(doi tuyen quoc gia|doi tuyen|dtqg|dt|tuyen qg|tuyen|national team|clb|fc|cf|sc|ac|as|rc|ca|indoor soccer|indoor football)\b/g, '')
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      if (ALIAS_MAP[norm]) return ALIAS_MAP[norm];
+      for (const [alias, canon] of Object.entries(ALIAS_MAP)) {
+        if (norm === alias || (alias.length >= 4 && norm.includes(alias))) {
+          return canon;
+        }
+      }
+      return norm.replace(/\s+/g, '');
+    };
+
+    const hasVietnamese = (str) => /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ]/.test(str || '');
+    const cleanDisplay = (str) => (str || '').replace(/^(?:đội tuyển quốc gia|đội tuyển|đtqg|đt|tuyển)\s+/i, '').trim();
+
+    const merged = [];
+    for (const evt of events) {
+      const cHome = getCanonical(evt.homeTeam || evt.c_home);
+      const cAway = getCanonical(evt.awayTeam || evt.c_away);
+      const evtDate = evt.date || '';
+      const evtTime = evt.time || '';
+      const evtTs = evt.timestamp || 0;
+
+      let found = null;
+      for (const m of merged) {
+        const mHome = getCanonical(m.homeTeam || m.c_home);
+        const mAway = getCanonical(m.awayTeam || m.c_away);
+
+        const teamsMatch = (cHome && mHome && cHome === mHome && cAway === mAway) ||
+                           (cHome && mHome && cHome === mAway && cAway === mHome);
+
+        if (teamsMatch) {
+          const sameDate = !evtDate || !m.date || evtDate === m.date;
+          const sameTime = evtTime === m.time || evtTime === 'LIVE' || m.time === 'LIVE';
+          const timeClose = evtTs > 0 && m.timestamp > 0 && Math.abs(evtTs - m.timestamp) <= 90 * 60 * 1000;
+
+          if (sameDate && (sameTime || timeClose)) {
+            found = m;
+            break;
+          }
+        }
+      }
+
+      if (found) {
+        const existingUrls = new Set((found.sources || []).map(s => s.url));
+        if (evt.sources && Array.isArray(evt.sources)) {
+          for (const s of evt.sources) {
+            if (!s.url || !existingUrls.has(s.url)) {
+              found.sources.push(s);
+              if (s.url) existingUrls.add(s.url);
+            }
+          }
+        }
+        if (hasVietnamese(evt.homeTeam) && !hasVietnamese(found.homeTeam)) {
+          found.homeTeam = cleanDisplay(evt.homeTeam);
+        }
+        if (hasVietnamese(evt.awayTeam) && !hasVietnamese(found.awayTeam)) {
+          found.awayTeam = cleanDisplay(evt.awayTeam);
+        }
+        if (evt.isOngoing) found.isOngoing = true;
+      } else {
+        merged.push({
+          ...evt,
+          homeTeam: cleanDisplay(evt.homeTeam),
+          awayTeam: cleanDisplay(evt.awayTeam),
+          sources: [...(evt.sources || [])]
+        });
+      }
+    }
+    return merged;
   }
 
   renderSports(container) {
