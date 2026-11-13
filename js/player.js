@@ -7,6 +7,7 @@ class StrandPlayer {
   constructor() {
     this.video = document.getElementById('mainVideo');
     this.hls = null;
+    this.shakaPlayer = null;
     this.currentChannel = null;
     this.isPlaying = false;
     this.init();
@@ -46,16 +47,46 @@ class StrandPlayer {
     this.updateHUD(channelInfo);
     this.showBuffering(true);
 
+    const isDash = targetUrl.includes('.mpd') || !!channelInfo.dash || !!channelInfo.clearKey;
     const isHls = targetUrl.includes('.m3u8') || targetUrl.includes('play.m3u8');
 
-    // Clean up previous HLS instance
+    // Clean up previous player instances
     if (this.hls) {
       this.hls.destroy();
       this.hls = null;
     }
+    if (this.shakaPlayer) {
+      this.shakaPlayer.destroy().catch(() => {});
+      this.shakaPlayer = null;
+    }
 
-    // 1. Native iOS Safari support (Preferred on Apple screens)
-    if (this.video.canPlayType('application/vnd.apple.mpegurl')) {
+    // 1. DASH with ClearKey (Shaka Player)
+    if (isDash && window.shaka && window.shaka.Player && window.shaka.Player.isBrowserSupported()) {
+      window.shaka.polyfill.installAll();
+      const shakaInstance = new window.shaka.Player();
+      this.shakaPlayer = shakaInstance;
+
+      shakaInstance.attach(this.video).then(() => {
+        if (channelInfo.clearKey && channelInfo.clearKey.keyId && channelInfo.clearKey.key) {
+          shakaInstance.configure({
+            drm: {
+              clearKeys: {
+                [channelInfo.clearKey.keyId]: channelInfo.clearKey.key
+              }
+            }
+          });
+        }
+        return shakaInstance.load(targetUrl);
+      }).then(() => {
+        this.video.play().catch(e => console.warn('[Player] Shaka play catch:', e));
+      }).catch(err => {
+        console.error('[Player] Shaka error, falling back:', err);
+        this.video.src = targetUrl;
+        this.video.play().catch(() => {});
+      });
+    }
+    // 2. Native iOS Safari support (Preferred on Apple screens for HLS)
+    else if (!isDash && this.video.canPlayType('application/vnd.apple.mpegurl')) {
       this.video.src = targetUrl;
       const playPromise = this.video.play();
       if (playPromise !== undefined) {
@@ -65,7 +96,7 @@ class StrandPlayer {
         });
       }
     } 
-    // 2. Hls.js fallback for Desktop Chrome, Firefox, Edge
+    // 3. Hls.js fallback for Desktop Chrome, Firefox, Edge
     else if (window.Hls && window.Hls.isSupported() && isHls) {
       this.hls = new window.Hls({
         enableWorker: true,

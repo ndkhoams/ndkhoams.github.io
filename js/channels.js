@@ -468,7 +468,9 @@ class ChannelManager {
         name: ch.name,
         title: ch.isSports ? ch.name : `${ch.name} (Trực tiếp)`,
         subtitle: ch.isSports ? `Trực tiếp thể thao • ${ch.group}` : `Phát từ nguồn: ${ch.group} • Nền tảng Apple Screens & Web`,
-        group: ch.group
+        group: ch.group,
+        dash: ch.dash,
+        clearKey: ch.clearKey
       });
     }
   }

@@ -766,7 +766,9 @@ class SportsManager {
         name: evt.leagueName || 'Thể Thao Trực Tiếp',
         title: `${evt.homeTeam} vs ${evt.awayTeam}`,
         subtitle: `${streamLabel} • ${stream.name || 'Bình luận tiếng Việt'}`,
-        group: 'Thể Thao'
+        group: 'Thể Thao',
+        dash: stream.dash,
+        clearKey: stream.clearKey
       });
 
       // Update button visual states
