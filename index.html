@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="vi" class="dark">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
   <title>TV Play — Strand Edition</title>
-  
+
   <!-- Apple Web App & PWA Meta -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="TV Play">
   <meta name="theme-color" content="#000000">
-  <meta name="description" content="Strand Edition IPTV Streaming PWA for Apple Screens & Web">
-  
+  <meta name="description" content="IPTV Streaming PWA for Apple Screens & Web">
+
   <link rel="manifest" href="manifest.json?v=7">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
@@ -23,6 +25,7 @@
   <!-- Hls.js for desktop browsers -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
 </head>
+
 <body class="min-h-screen relative selection:bg-[#ff6500] selection:text-white">
 
   <!-- Ambient Dynamic Glow (Strand Backdrop Lighting) -->
@@ -31,12 +34,14 @@
   <!-- 1. Strand Header & Island Nav (Sticky on Mobile, iOS Notch Safe) -->
   <header id="mainHeader" class="app-header-sticky w-full">
     <div class="w-full max-w-[1720px] mx-auto px-3 sm:px-4 md:px-6 flex items-center justify-between gap-3">
-      
+
       <!-- Brand Logo & Platform Title -->
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#ff6500] via-[#ff8800] to-[#ffaa00] flex items-center justify-center shadow-lg shadow-orange-500/25 shrink-0">
+        <div
+          class="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#ff6500] via-[#ff8800] to-[#ffaa00] flex items-center justify-center shadow-lg shadow-orange-500/25 shrink-0">
           <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/>
+            <path
+              d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" />
           </svg>
         </div>
         <div class="flex items-center">
@@ -46,21 +51,33 @@
 
       <!-- Desktop Translucent Pill Bar (Strand Tabbar) -->
       <nav class="hidden md:flex items-center p-1 rounded-full glass-pill text-xs font-medium">
-        <button onclick="switchTab('sports')" id="tab-sports" class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold transition">Thể Thao</button>
-        <button onclick="switchTab('live')" id="tab-live" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Trực Tiếp (Timeline)</button>
-        <button onclick="switchTab('channels')" id="tab-channels" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Tìm Kênh</button>
-        <button onclick="openSettingsModal()" class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition flex items-center gap-1.5">
-          <svg class="w-3.5 h-3.5 text-[var(--orange)]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+        <button onclick="switchTab('sports')" id="tab-sports"
+          class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold transition">Thể Thao</button>
+        <button onclick="switchTab('live')" id="tab-live"
+          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Trực Tiếp
+          (Timeline)</button>
+        <button onclick="switchTab('channels')" id="tab-channels"
+          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Tìm Kênh</button>
+        <button onclick="openSettingsModal()"
+          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-[var(--orange)]" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          </svg>
           <span>Nguồn Phát M3U</span>
         </button>
       </nav>
 
       <!-- Status Indicator & Settings Trigger -->
       <div class="flex items-center gap-2">
-        <button onclick="openSettingsModal()" title="Quản lý nguồn phát M3U" class="flex items-center gap-2 px-3 py-1.5 rounded-full glass-pill text-xs hover:bg-white/15 transition cursor-pointer">
+        <button onclick="openSettingsModal()" title="Quản lý nguồn phát M3U"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-full glass-pill text-xs hover:bg-white/15 transition cursor-pointer">
           <span class="w-2 h-2 rounded-full bg-[var(--green)] animate-pulse"></span>
           <span class="text-white/90 font-medium">Nguồn Phát</span>
-          <svg class="w-3.5 h-3.5 text-white/60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          <svg class="w-3.5 h-3.5 text-white/60" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
         </button>
       </div>
 
@@ -75,95 +92,137 @@
       <!-- CỘT TRÁI: Khung Phát Video & Thông Tin Kênh (lg:col-span-7 xl:col-span-8) -->
       <div class="lg:col-span-7 xl:col-span-8 space-y-3.5 player-sticky-wrapper">
 
-    <!-- 2. Hero Cinema Video Player (Strand Live TV Style - Image 3) -->
-    <section id="playerSection" class="glass-card rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group player-sticky">
-      
-      <!-- Video Screen Surface Container -->
-      <div id="playerSurface" class="relative aspect-[16/9] w-full bg-black flex items-center justify-center overflow-hidden select-none">
-        
-        <!-- Native Video Element -->
-        <video id="mainVideo" 
-               class="w-full h-full object-contain" 
-               playsinline 
-               webkit-playsinline 
-               x-webkit-airplay="allow"
-               preload="auto"></video>
+        <!-- 2. Hero Cinema Video Player (Strand Live TV Style - Image 3) -->
+        <section id="playerSection"
+          class="glass-card rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group player-sticky">
 
-        <!-- Buffering Loading Spinner -->
-        <div id="bufferingSpinner" class="absolute z-20 hidden">
-          <div class="w-12 h-12 rounded-full border-4 border-white/20 border-t-[var(--accent)] animate-spin"></div>
-        </div>
+          <!-- Video Screen Surface Container -->
+          <div id="playerSurface"
+            class="relative aspect-[16/9] w-full bg-black flex items-center justify-center overflow-hidden select-none">
 
-        <!-- Center Frosted Play/Pause Button Overlay -->
-        <button id="centerPlayBtn" onclick="window.player.togglePlay()" 
-                class="absolute z-10 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/15 backdrop-blur-2xl border border-white/30 flex items-center justify-center text-white shadow-2xl hover:scale-110 active:scale-95 transition-transform duration-200">
-          <svg id="playIcon" class="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          <svg id="pauseIcon" class="w-8 h-8 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
-        </button>
+            <!-- Native Video Element -->
+            <video id="mainVideo" class="w-full h-full object-contain" playsinline webkit-playsinline
+              x-webkit-airplay="allow" preload="auto"></video>
 
-        <!-- Auto-Hide Overlay for Top HUD Controls (Tự động ẩn sau 5s) -->
-        <div id="playerHUDOverlay" class="player-hud-overlay pointer-events-none">
-          
-          <!-- Top-Left Live HUD Badge -->
-          <div class="absolute top-3 left-3 sm:top-5 sm:left-5 z-20 flex items-center gap-2 pointer-events-auto">
-            <span class="px-2.5 py-1 rounded-md bg-[var(--red)] text-white text-[11px] font-black tracking-wider uppercase flex items-center gap-1.5 shadow-lg shadow-red-500/30">
-              <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
-              LIVE
-            </span>
-            <span id="playerBadgeChannel" class="px-2.5 py-1 rounded-md glass-pill text-white font-semibold text-xs">
-              VTV1 HD
-            </span>
+            <!-- Buffering Loading Spinner -->
+            <div id="bufferingSpinner" class="absolute z-20 hidden">
+              <div class="w-12 h-12 rounded-full border-4 border-white/20 border-t-[var(--accent)] animate-spin"></div>
+            </div>
+
+            <!-- Center Frosted Play/Pause Button Overlay -->
+            <button id="centerPlayBtn" onclick="window.player.togglePlay()"
+              class="absolute z-10 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/15 backdrop-blur-2xl border border-white/30 flex items-center justify-center text-white shadow-2xl hover:scale-110 active:scale-95 transition-transform duration-200">
+              <svg id="playIcon" class="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <svg id="pauseIcon" class="w-8 h-8 hidden" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+              </svg>
+            </button>
+
+            <!-- Auto-Hide Overlay for Top HUD Controls (Tự động ẩn sau 5s) -->
+            <div id="playerHUDOverlay" class="player-hud-overlay pointer-events-none">
+
+              <!-- Top-Left Live HUD Badge -->
+              <div class="absolute top-3 left-3 sm:top-5 sm:left-5 z-20 flex items-center gap-2 pointer-events-auto">
+                <span
+                  class="px-2.5 py-1 rounded-md bg-[var(--red)] text-white text-[11px] font-black tracking-wider uppercase flex items-center gap-1.5 shadow-lg shadow-red-500/30">
+                  <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+                  LIVE
+                </span>
+                <span id="playerBadgeChannel"
+                  class="px-2.5 py-1 rounded-md glass-pill text-white font-semibold text-xs">
+                  VTV1 HD
+                </span>
+              </div>
+
+              <!-- Top-Right Action Controls (Mute, PiP, AirPlay, Fullscreen) -->
+              <div
+                class="absolute top-3 right-3 sm:top-5 sm:right-5 z-20 flex items-center gap-1.5 sm:gap-2 pointer-events-auto">
+                <!-- Mute/Unmute -->
+                <button onclick="window.player.toggleMute()" title="Tắt / Bật tiếng (M)"
+                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
+                  <svg id="unmuteIcon" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                  </svg>
+                  <svg id="muteIcon" class="w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+                  </svg>
+                </button>
+                <!-- Picture-in-Picture -->
+                <button onclick="window.player.requestPiP()" title="Picture in Picture (P)"
+                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M19 11V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h4m8-6v6m0 0h-6m6 0l-7-7" />
+                  </svg>
+                </button>
+                <!-- AirPlay -->
+                <button id="airplayBtn" onclick="window.player.triggerAirPlay()" title="AirPlay to Apple TV"
+                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M6 22h12l-6-6-6 6zM21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V5h18v12h-4v2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
+                  </svg>
+                </button>
+                <!-- Fullscreen -->
+                <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)"
+                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+                  </svg>
+                </button>
+              </div>
+
+            </div>
+
           </div>
 
-          <!-- Top-Right Action Controls (Mute, PiP, AirPlay, Fullscreen) -->
-          <div class="absolute top-3 right-3 sm:top-5 sm:right-5 z-20 flex items-center gap-1.5 sm:gap-2 pointer-events-auto">
-            <!-- Mute/Unmute -->
-            <button onclick="window.player.toggleMute()" title="Tắt / Bật tiếng (M)" class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
-              <svg id="unmuteIcon" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-              <svg id="muteIcon" class="w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/><path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2"/></svg>
-            </button>
-            <!-- Picture-in-Picture -->
-            <button onclick="window.player.requestPiP()" title="Picture in Picture (P)" class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h4m8-6v6m0 0h-6m6 0l-7-7"/></svg>
-            </button>
-            <!-- AirPlay -->
-            <button id="airplayBtn" onclick="window.player.triggerAirPlay()" title="AirPlay to Apple TV" class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 22h12l-6-6-6 6zM21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V5h18v12h-4v2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/></svg>
-            </button>
-            <!-- Fullscreen -->
-            <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)" class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/></svg>
-            </button>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
+        </section>
 
         <!-- Desktop Channel Details Card -->
-        <div id="playerDetailsCard" class="glass-card rounded-2xl p-3.5 hidden lg:flex items-center justify-between border border-white/10 shadow-lg">
+        <div id="playerDetailsCard"
+          class="glass-card rounded-2xl p-3.5 hidden lg:flex items-center justify-between border border-white/10 shadow-lg">
           <div class="flex items-center gap-3 min-w-0">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#ff6500]/20 to-[#ff9f0a]/10 border border-orange-500/30 flex items-center justify-center shrink-0 text-[var(--orange)] shadow-inner">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
+            <div
+              class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#ff6500]/20 to-[#ff9f0a]/10 border border-orange-500/30 flex items-center justify-center shrink-0 text-[var(--orange)] shadow-inner">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" />
+              </svg>
             </div>
             <div class="min-w-0">
               <div class="flex items-center gap-2">
                 <h3 id="desktopChannelName" class="text-sm font-bold text-white truncate">TV Play Live</h3>
-                <span id="desktopChannelBadge" class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-[var(--red)] text-white uppercase tracking-wider">LIVE</span>
+                <span id="desktopChannelBadge"
+                  class="text-[10px] font-bold px-2 py-0.5 rounded-md bg-[var(--red)] text-white uppercase tracking-wider">LIVE</span>
               </div>
-              <p id="desktopChannelSub" class="text-xs text-[var(--label-2)] truncate">Truyền hình trực tuyến &amp; Sự kiện thể thao đỉnh cao</p>
+              <p id="desktopChannelSub" class="text-xs text-[var(--label-2)] truncate">Truyền hình trực tuyến &amp; Sự
+                kiện thể thao đỉnh cao</p>
             </div>
           </div>
 
           <div class="flex items-center gap-2 shrink-0">
-            <button onclick="window.player.requestPiP()" title="Picture in Picture (P)" class="px-3 py-1.5 rounded-xl glass-pill text-white/80 hover:text-white hover:bg-white/20 transition flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h4m8-6v6m0 0h-6m6 0l-7-7"/></svg>
+            <button onclick="window.player.requestPiP()" title="Picture in Picture (P)"
+              class="px-3 py-1.5 rounded-xl glass-pill text-white/80 hover:text-white hover:bg-white/20 transition flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M19 11V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h4m8-6v6m0 0h-6m6 0l-7-7" />
+              </svg>
               <span class="hidden xl:inline">Thu nhỏ (PiP)</span>
             </button>
-            <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)" class="px-3 py-1.5 rounded-xl glass-pill text-white/80 hover:text-white hover:bg-white/20 transition flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/></svg>
+            <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)"
+              class="px-3 py-1.5 rounded-xl glass-pill text-white/80 hover:text-white hover:bg-white/20 transition flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+              </svg>
               <span class="hidden xl:inline">Toàn màn hình</span>
             </button>
           </div>
@@ -173,23 +232,26 @@
 
       <!-- CỘT PHẢI: Danh Sách Trận Đấu & Các Tab Nội Dung (lg:col-span-5 xl:col-span-4) -->
       <div class="lg:col-span-5 xl:col-span-4 space-y-3.5">
-        
+
         <!-- Sidebar Header with Quick Tabs & Nút Tải lại trận đấu -->
         <div class="glass-card rounded-2xl p-3 sm:p-4 border border-white/10 space-y-3 shadow-lg">
           <div class="flex items-center justify-between gap-2">
             <div class="flex items-center gap-2 min-w-0">
               <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
               <h3 id="sidebarSectionTitle" class="text-sm font-bold text-white truncate">Trực Tiếp Thể Thao</h3>
-              <span id="sportsCountBadge" class="text-[11px] font-semibold text-[var(--orange)] px-2.5 py-0.5 rounded-full glass-pill shrink-0">Đang tải...</span>
+              <span id="sportsCountBadge"
+                class="text-[11px] font-semibold text-[var(--orange)] px-2.5 py-0.5 rounded-full glass-pill shrink-0">Đang
+                tải...</span>
             </div>
 
             <!-- NÚT TẢI LẠI TRẬN ĐẤU MỚI (Refresh Matches Button) -->
-            <button id="btnRefreshSports" 
-                    onclick="window.sportsManager.refreshSports()" 
-                    title="Tải lại các trận đấu và luồng phát mới nhất từ máy chủ"
-                    class="px-3 py-1.5 rounded-xl bg-gradient-to-r from-orange-500/20 to-amber-500/20 hover:from-orange-500/30 hover:to-amber-500/30 active:scale-95 border border-orange-500/40 text-orange-300 hover:text-white text-xs font-bold flex items-center gap-1.5 transition cursor-pointer shadow-md shrink-0">
-              <svg id="refreshIcon" class="w-3.5 h-3.5 text-[var(--orange)] transition-transform duration-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            <button id="btnRefreshSports" onclick="window.sportsManager.refreshSports()"
+              title="Tải lại các trận đấu và luồng phát mới nhất từ máy chủ"
+              class="px-3 py-1.5 rounded-xl bg-gradient-to-r from-orange-500/20 to-amber-500/20 hover:from-orange-500/30 hover:to-amber-500/30 active:scale-95 border border-orange-500/40 text-orange-300 hover:text-white text-xs font-bold flex items-center gap-1.5 transition cursor-pointer shadow-md shrink-0">
+              <svg id="refreshIcon" class="w-3.5 h-3.5 text-[var(--orange)] transition-transform duration-500"
+                fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
               </svg>
               <span id="refreshBtnText">Tải lại</span>
             </button>
@@ -197,13 +259,16 @@
 
           <!-- Desktop Quick Sub-Tabs -->
           <div class="flex items-center p-1 rounded-xl glass-pill text-xs font-medium gap-1">
-            <button onclick="switchTab('sports')" id="side-tab-sports" class="flex-1 py-1.5 rounded-lg bg-white/20 text-white font-semibold transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
+            <button onclick="switchTab('sports')" id="side-tab-sports"
+              class="flex-1 py-1.5 rounded-lg bg-white/20 text-white font-semibold transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
               <span>⚽ Thể Thao</span>
             </button>
-            <button onclick="switchTab('live')" id="side-tab-live" class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
+            <button onclick="switchTab('live')" id="side-tab-live"
+              class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
               <span>📺 Lịch Kênh</span>
             </button>
-            <button onclick="switchTab('channels')" id="side-tab-channels" class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
+            <button onclick="switchTab('channels')" id="side-tab-channels"
+              class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
               <span>🔍 Tìm Kênh</span>
             </button>
           </div>
@@ -211,7 +276,7 @@
 
         <!-- Scrollable Container for Tab Contents (Matches, EPG Timeline, Channels) -->
         <div id="sidebarContentScroll" class="desktop-sidebar-scroll custom-scrollbar pr-1 space-y-3.5">
-          
+
           <!-- SECTION 2: SPORTS & FIXTURES (Trực Tiếp Thể Thao - Khung Phải) -->
           <div id="section-sports" class="space-y-3">
             <div id="sportsContainer" class="grid grid-cols-1 gap-3"></div>
@@ -226,16 +291,19 @@
           <div id="section-channels" class="space-y-3 hidden">
             <div class="space-y-3">
               <div class="relative">
-                <input type="text" id="channelSearchInput" 
-                       placeholder="Tìm kiếm kênh TV hoặc trận đấu (VTV, Thể thao, Ngoại hạng, BLV...)" 
-                       class="w-full px-4 py-2.5 pl-10 rounded-2xl glass-card text-white text-xs placeholder:text-[var(--label-3)] focus:outline-none focus:border-white/30 transition">
-                <svg class="w-4 h-4 absolute left-3.5 top-3 text-[var(--label-3)]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                <input type="text" id="channelSearchInput"
+                  placeholder="Tìm kiếm kênh TV hoặc trận đấu (VTV, Thể thao, Ngoại hạng, BLV...)"
+                  class="w-full px-4 py-2.5 pl-10 rounded-2xl glass-card text-white text-xs placeholder:text-[var(--label-3)] focus:outline-none focus:border-white/30 transition">
+                <svg class="w-4 h-4 absolute left-3.5 top-3 text-[var(--label-3)]" fill="none" stroke="currentColor"
+                  stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
               <div id="categoryFilters" class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5"></div>
             </div>
-            <div id="channelContainer" class="glass-card rounded-2xl divide-y divide-[var(--separator)] overflow-hidden shadow-xl"></div>
+            <div id="channelContainer"
+              class="glass-card rounded-2xl divide-y divide-[var(--separator)] overflow-hidden shadow-xl"></div>
           </div>
 
         </div>
@@ -249,21 +317,28 @@
   <!-- ========================================================================= -->
   <!-- 4. QUẢN LÝ NGUỒN PHÁT MODAL (Đặt ngoài body, z-100, Form luôn sẵn sàng) -->
   <!-- ========================================================================= -->
-  <div id="settingsModal" class="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-5 bg-black/80 backdrop-blur-xl hidden">
-    <div class="glass-modal rounded-3xl p-5 sm:p-6 max-w-lg w-full space-y-4.5 max-h-[92vh] flex flex-col relative z-[101]">
-      
+  <div id="settingsModal"
+    class="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-5 bg-black/80 backdrop-blur-xl hidden">
+    <div
+      class="glass-modal rounded-3xl p-5 sm:p-6 max-w-lg w-full space-y-4.5 max-h-[92vh] flex flex-col relative z-[101]">
+
       <!-- Modal Header -->
       <div class="flex items-center justify-between shrink-0">
         <div class="flex items-center gap-2.5">
-          <div class="w-9 h-9 rounded-2xl bg-gradient-to-br from-[#ff6500] via-[#ff8800] to-[#ffaa00] flex items-center justify-center shadow-lg shadow-orange-500/30">
-            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          <div
+            class="w-9 h-9 rounded-2xl bg-gradient-to-br from-[#ff6500] via-[#ff8800] to-[#ffaa00] flex items-center justify-center shadow-lg shadow-orange-500/30">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
           </div>
           <div>
             <h3 class="text-base font-bold text-white tracking-tight">Quản Lý Nguồn Phát M3U</h3>
             <p class="text-xs text-[var(--label-2)]">Lưu trữ nhiều nguồn phát &amp; chuyển đổi tức thời</p>
           </div>
         </div>
-        <button onclick="closeSettingsModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white/80 hover:text-white transition">✕</button>
+        <button onclick="closeSettingsModal()"
+          class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white/80 hover:text-white transition">✕</button>
       </div>
 
       <!-- Add Playlist Form Section (Luôn hiển thị sẵn sàng, không cần toggle) -->
@@ -279,19 +354,21 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
           <div>
             <label class="block text-[var(--label-2)] mb-1 font-medium">Tên nguồn</label>
-            <input type="text" id="newPlaylistName" placeholder="Ví dụ: K+ Thể Thao, FPT Play..." 
-                   class="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-[var(--label-3)] focus:outline-none focus:border-[var(--accent)] text-xs">
+            <input type="text" id="newPlaylistName" placeholder="Ví dụ: K+ Thể Thao, FPT Play..."
+              class="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-[var(--label-3)] focus:outline-none focus:border-[var(--accent)] text-xs">
           </div>
           <div>
             <label class="block text-[var(--label-2)] mb-1 font-medium">Đường dẫn M3U</label>
-            <input type="text" id="newPlaylistUrl" placeholder="https://domain.com/list.m3u" 
-                   class="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-[var(--label-3)] focus:outline-none focus:border-[var(--accent)] text-xs font-mono">
+            <input type="text" id="newPlaylistUrl" placeholder="https://domain.com/list.m3u"
+              class="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/15 text-white placeholder:text-[var(--label-3)] focus:outline-none focus:border-[var(--accent)] text-xs font-mono">
           </div>
         </div>
 
-        <button type="button" onclick="submitNewPlaylist()" 
-                class="w-full py-2.5 rounded-xl bg-gradient-to-r from-[#ff6500] to-[#ff9f0a] text-white text-xs font-bold shadow-lg shadow-orange-500/25 active:scale-98 transition flex items-center justify-center gap-1.5 cursor-pointer">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        <button type="button" onclick="submitNewPlaylist()"
+          class="w-full py-2.5 rounded-xl bg-gradient-to-r from-[#ff6500] to-[#ff9f0a] text-white text-xs font-bold shadow-lg shadow-orange-500/25 active:scale-98 transition flex items-center justify-center gap-1.5 cursor-pointer">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+          </svg>
           <span>Lưu &amp; Kích Hoạt Nguồn Này</span>
         </button>
       </div>
@@ -308,9 +385,12 @@
       </div>
 
       <!-- Modal Footer -->
-      <div class="pt-3 border-t border-[var(--separator)] flex justify-between items-center shrink-0 text-[11px] text-[var(--label-3)]">
+      <div
+        class="pt-3 border-t border-[var(--separator)] flex justify-between items-center shrink-0 text-[11px] text-[var(--label-3)]">
         <span>Tự động ghi nhớ trên trình duyệt iPhone</span>
-        <button onclick="closeSettingsModal()" class="px-5 py-2 rounded-xl glass-pill text-xs font-semibold text-white hover:bg-white/20 transition">Hoàn Tất</button>
+        <button onclick="closeSettingsModal()"
+          class="px-5 py-2 rounded-xl glass-pill text-xs font-semibold text-white hover:bg-white/20 transition">Hoàn
+          Tất</button>
       </div>
 
     </div>
@@ -323,4 +403,5 @@
   <script src="js/sports.js?v=16"></script>
   <script src="js/app.js?v=16"></script>
 </body>
+
 </html>
