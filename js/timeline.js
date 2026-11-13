@@ -43,9 +43,12 @@ class TimelineManager {
   }
 
   onChannelsLoaded() {
-    // Extract unique categories from channels
+    // Extract unique categories from TV channels (ưu tiên các kênh truyền hình có lịch phát sóng EPG)
     const catSet = new Set();
-    this.channelManager.channels.forEach(ch => {
+    const list = (this.channelManager.tvChannels && this.channelManager.tvChannels.length > 0) 
+      ? this.channelManager.tvChannels 
+      : this.channelManager.channels;
+    list.forEach(ch => {
       if (ch.group) catSet.add(ch.group);
     });
 
@@ -82,7 +85,10 @@ class TimelineManager {
     if (!container) return;
 
     const currentCat = this.getCurrentCategory();
-    const channelsInCat = this.channelManager.channels.filter(ch => ch.group === currentCat);
+    const channelSource = (this.channelManager.tvChannels && this.channelManager.tvChannels.length > 0) 
+      ? this.channelManager.tvChannels 
+      : this.channelManager.channels;
+    const channelsInCat = channelSource.filter(ch => ch.group === currentCat);
 
     // 1. Category Switcher Bar (< VTV >)
     let html = `

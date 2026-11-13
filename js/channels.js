@@ -7,6 +7,8 @@ class ChannelManager {
   constructor(player) {
     this.player = player;
     this.channels = [];
+    this.tvChannels = [];
+    this.sportsChannels = [];
     this.filteredChannels = [];
     this.currentCategory = 'all';
     this.currentIndex = -1;
@@ -107,15 +109,80 @@ class ChannelManager {
     this.loadChannels();
   }
 
+  async loadSportsM3U() {
+    const cacheBuster = `?t=${Date.now()}`;
+    const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
+    const useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
+
+    let text = null;
+
+    // 1. Armbian LAN Hub (nếu được bật và trong mạng nội bộ)
+    if (useArmbian) {
+      try {
+        const res = await fetch(`${hubUrl}/data/thethao.m3u${cacheBuster}`, {
+          signal: AbortSignal.timeout(2500),
+          cache: 'no-store'
+        });
+        if (res.ok) text = await res.text();
+      } catch (e) {
+        console.warn('[Channels] Armbian thethao.m3u offline, fallback to GitHub');
+      }
+    }
+
+    // 2. Raw GitHub (luôn cập nhật mới nhất ngay khi updater đẩy lên)
+    if (!text) {
+      try {
+        const res = await fetch(`https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao.m3u${cacheBuster}`, {
+          signal: AbortSignal.timeout(6000),
+          cache: 'no-store'
+        });
+        if (res.ok) text = await res.text();
+      } catch (e) {
+        console.warn('[Channels] Raw GitHub thethao.m3u error, fallback to CDN');
+      }
+    }
+
+    // 3. Dự phòng qua jsDelivr CDN
+    if (!text) {
+      try {
+        const res = await fetch(`https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`, {
+          cache: 'no-store'
+        });
+        if (res.ok) text = await res.text();
+      } catch (e) {}
+    }
+
+    return text;
+  }
+
   async loadChannels() {
     this.renderSkeleton();
     const activePl = this.getActivePlaylist();
 
     try {
+      // 1. Tải danh sách kênh TV từ playlist hiện tại
       const res = await fetch(activePl.url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const m3uText = await res.text();
-      this.channels = this.parseM3U(m3uText);
+      this.tvChannels = this.parseM3U(m3uText, false);
+
+      // 2. Tải toàn bộ danh sách các trận đấu từ thethao.m3u (nếu nguồn đang dùng chưa phải là thethao.m3u)
+      this.sportsChannels = [];
+      if (!activePl.url.includes('thethao.m3u')) {
+        try {
+          const sportsText = await this.loadSportsM3U();
+          if (sportsText) {
+            this.sportsChannels = this.parseM3U(sportsText, true);
+          }
+        } catch (sErr) {
+          console.warn('[Channels] Không tải được thethao.m3u:', sErr);
+        }
+      }
+
+      // 3. Hợp nhất cả kênh TV và các trận đấu thể thao
+      this.channels = [...this.tvChannels, ...this.sportsChannels];
+      this.channels.forEach((ch, idx) => { ch.id = idx; });
+
       this.onChannelsReady();
 
     } catch (err) {
@@ -124,7 +191,37 @@ class ChannelManager {
     }
   }
 
-  parseM3U(text) {
+  async reloadSportsChannels() {
+    const activePl = this.getActivePlaylist();
+    if (activePl.url.includes('thethao.m3u')) return;
+
+    try {
+      const sportsText = await this.loadSportsM3U();
+      if (!sportsText) return;
+      this.sportsChannels = this.parseM3U(sportsText, true);
+
+      // Lưu lại channel đang chọn hiện tại để duy trì trạng thái
+      const currentSelectedUrl = this.currentIndex >= 0 && this.channels[this.currentIndex] 
+        ? this.channels[this.currentIndex].url 
+        : null;
+
+      this.channels = [...this.tvChannels, ...this.sportsChannels];
+      this.channels.forEach((ch, idx) => { ch.id = idx; });
+
+      if (currentSelectedUrl) {
+        const newIdx = this.channels.findIndex(c => c.url === currentSelectedUrl);
+        if (newIdx !== -1) this.currentIndex = newIdx;
+      }
+
+      this.extractCategories();
+      this.filterChannels();
+    } catch (e) {
+      console.warn('[Channels] Error reloading sports channels:', e);
+    }
+  }
+
+  parseM3U(text, isSports = false) {
+    if (!text) return [];
     const lines = text.split('\n');
     const channels = [];
     let currentChannel = null;
@@ -135,11 +232,12 @@ class ChannelManager {
 
       if (line.startsWith('#EXTINF:')) {
         currentChannel = {
-          id: channels.length,
+          id: 0,
           name: 'Kênh',
           logo: '',
-          group: 'Khác',
-          epgId: ''
+          group: isSports ? '⚽ Thể Thao' : 'Khác',
+          epgId: '',
+          isSports: isSports
         };
 
         // Extract tvg-logo
@@ -148,7 +246,9 @@ class ChannelManager {
 
         // Extract group-title
         const groupMatch = line.match(/group-title="([^"]*)"/i);
-        if (groupMatch) currentChannel.group = groupMatch[1];
+        if (groupMatch && groupMatch[1]) {
+          currentChannel.group = groupMatch[1].trim();
+        }
 
         // Extract tvg-id
         const epgMatch = line.match(/tvg-id="([^"]*)"/i);
@@ -161,8 +261,11 @@ class ChannelManager {
         }
       } else if (line.startsWith('http://') || line.startsWith('https://')) {
         if (currentChannel) {
-          currentChannel.url = line;
-          channels.push(currentChannel);
+          // Bỏ qua luồng refresh ảo của playlist
+          if (!line.includes('127.0.0.1/refresh')) {
+            currentChannel.url = line;
+            channels.push(currentChannel);
+          }
           currentChannel = null;
         }
       }
@@ -197,15 +300,38 @@ class ChannelManager {
 
     let html = `
       <button onclick="window.channelManager.setCategory('all')" id="cat-btn-all" 
-              class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition bg-white/20 text-white">
+              class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition ${this.currentCategory === 'all' ? 'bg-white/20 text-white' : 'text-[var(--label-2)] hover:text-white'}">
         Tất cả (${this.channels.length})
       </button>
     `;
 
+    // Filter pill riêng cho toàn bộ trận đấu trong thethao.m3u
+    if (this.sportsChannels && this.sportsChannels.length > 0) {
+      const isSportsSelected = this.currentCategory === 'sports_all';
+      html += `
+        <button onclick="window.channelManager.setCategory('sports_all')" id="cat-btn-sports_all" 
+                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 ${isSportsSelected ? 'bg-orange-500/25 text-orange-400 border border-orange-500/40' : 'text-orange-400/80 hover:text-orange-300'}">
+          <span>⚽ Thể Thao (${this.sportsChannels.length})</span>
+        </button>
+      `;
+    }
+
+    // Filter pill riêng cho các kênh TV chuẩn
+    if (this.tvChannels && this.tvChannels.length > 0) {
+      const isTvSelected = this.currentCategory === 'tv_all';
+      html += `
+        <button onclick="window.channelManager.setCategory('tv_all')" id="cat-btn-tv_all" 
+                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 transition ${isTvSelected ? 'bg-white/20 text-white font-semibold' : 'text-[var(--label-2)] hover:text-white'}">
+          📺 Kênh TV (${this.tvChannels.length})
+        </button>
+      `;
+    }
+
     categoryList.forEach(grp => {
+      const isSelected = this.currentCategory === grp;
       html += `
         <button onclick="window.channelManager.setCategory('${encodeURIComponent(grp)}')" id="cat-btn-${encodeURIComponent(grp)}" 
-                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 text-[var(--label-2)] hover:text-white transition">
+                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 transition ${isSelected ? 'bg-white/20 text-white font-semibold' : 'text-[var(--label-2)] hover:text-white'}">
           ${grp}
         </button>
       `;
@@ -215,17 +341,29 @@ class ChannelManager {
   }
 
   setCategory(category) {
-    this.currentCategory = decodeURIComponent(category);
+    if (category === 'all' || category === 'sports_all' || category === 'tv_all') {
+      this.currentCategory = category;
+    } else {
+      this.currentCategory = decodeURIComponent(category);
+    }
     
     // Update button states
     const buttons = document.querySelectorAll('#categoryFilters button');
     buttons.forEach(b => {
-      b.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 text-[var(--label-2)] hover:text-white transition';
+      if (b.id === 'cat-btn-sports_all') {
+        b.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 text-orange-400/80 hover:text-orange-300';
+      } else {
+        b.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 text-[var(--label-2)] hover:text-white transition';
+      }
     });
 
     const activeBtn = document.getElementById(`cat-btn-${encodeURIComponent(category)}`);
     if (activeBtn) {
-      activeBtn.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 bg-white/20 text-white transition';
+      if (category === 'sports_all') {
+        activeBtn.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 bg-orange-500/25 text-orange-400 border border-orange-500/40';
+      } else {
+        activeBtn.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 bg-white/20 text-white transition';
+      }
     }
 
     this.filterChannels();
@@ -238,10 +376,21 @@ class ChannelManager {
 
   filterChannels() {
     this.filteredChannels = this.channels.filter(ch => {
-      const matchesCategory = this.currentCategory === 'all' || ch.group === this.currentCategory;
+      let matchesCategory = false;
+      if (this.currentCategory === 'all') {
+        matchesCategory = true;
+      } else if (this.currentCategory === 'sports_all') {
+        matchesCategory = !!ch.isSports || (ch.group && ch.group.toLowerCase().includes('thể thao'));
+      } else if (this.currentCategory === 'tv_all') {
+        matchesCategory = !ch.isSports;
+      } else {
+        matchesCategory = ch.group === this.currentCategory;
+      }
+
       const matchesSearch = !this.searchQuery || 
         ch.name.toLowerCase().includes(this.searchQuery) ||
         (ch.group && ch.group.toLowerCase().includes(this.searchQuery));
+
       return matchesCategory && matchesSearch;
     });
 
@@ -255,7 +404,7 @@ class ChannelManager {
     if (this.filteredChannels.length === 0) {
       container.innerHTML = `
         <div class="p-8 text-center text-sm text-[var(--label-2)]">
-          Không tìm thấy kênh phù hợp với tìm kiếm.
+          Không tìm thấy kênh hoặc trận đấu phù hợp với tìm kiếm.
         </div>
       `;
       return;
@@ -266,31 +415,31 @@ class ChannelManager {
       const isActive = this.currentIndex === ch.id;
       const logoHtml = ch.logo
         ? `<img src="${ch.logo}" alt="${ch.name}" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-           <span style="display:none;" class="text-xs font-black text-[var(--orange)]">${ch.name.substring(0, 4)}</span>`
-        : `<span class="text-xs font-black text-[var(--orange)]">${ch.name.substring(0, 4)}</span>`;
+           <span style="display:none;" class="text-xs font-black text-[var(--orange)]">${ch.isSports ? '⚽' : ch.name.substring(0, 4)}</span>`
+        : `<span class="text-xs font-black text-[var(--orange)]">${ch.isSports ? '⚽' : ch.name.substring(0, 4)}</span>`;
 
       html += `
         <div onclick="window.channelManager.selectChannel(${ch.id}, true)" 
              id="chan-row-${ch.id}" 
              class="channel-row p-3.5 sm:p-4 flex items-center justify-between gap-4 cursor-pointer ${isActive ? 'active' : ''}">
-          <div class="flex items-center gap-3.5 min-w-0">
+          <div class="flex items-center gap-3.5 min-w-0 flex-1">
             <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-zinc-800 to-zinc-900 border border-white/10 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden">
               ${logoHtml}
             </div>
-            <div class="min-w-0">
-              <div class="flex items-center gap-2">
-                <span class="text-sm font-semibold text-white truncate">${ch.name}</span>
-                ${isActive ? '<span class="w-2 h-2 rounded-full bg-[var(--green)]"></span>' : ''}
-                <span class="text-[10px] font-mono text-[var(--label-3)]">${ch.group}</span>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 flex-wrap sm:flex-nowrap">
+                <span class="text-sm font-semibold text-white truncate ${ch.isSports ? 'text-amber-100' : ''}">${ch.name}</span>
+                ${isActive ? '<span class="w-2 h-2 rounded-full bg-[var(--green)] shrink-0"></span>' : ''}
+                <span class="text-[10px] font-mono text-[var(--label-3)] shrink-0 px-1.5 py-0.5 rounded bg-white/5 border border-white/5">${ch.group}</span>
               </div>
               <p class="text-xs text-[var(--label-2)] truncate mt-0.5">
-                ● Trực tiếp HD • Chạm để phát
+                ${ch.isSports ? '🔥 Trực tiếp trận đấu • Chạm để phát' : '● Trực tiếp HD • Chạm để phát'}
               </p>
             </div>
           </div>
           <div class="hidden sm:block text-right shrink-0">
             <span class="text-[11px] text-[var(--label-3)]">#${ch.id + 1}</span>
-            <p class="text-xs text-[var(--label-2)] font-mono">1080p</p>
+            <p class="text-xs font-mono ${ch.isSports ? 'text-orange-400 font-bold' : 'text-[var(--label-2)]'}">${ch.isSports ? 'LIVE ⚽' : '1080p'}</p>
           </div>
         </div>
       `;
@@ -317,8 +466,8 @@ class ChannelManager {
     if (this.player && autoPlay) {
       this.player.playStream(ch.url, {
         name: ch.name,
-        title: `${ch.name} (Trực tiếp)`,
-        subtitle: `Phát từ nguồn: ${ch.group} • Nền tảng Apple Screens & Web`,
+        title: ch.isSports ? ch.name : `${ch.name} (Trực tiếp)`,
+        subtitle: ch.isSports ? `Trực tiếp thể thao • ${ch.group}` : `Phát từ nguồn: ${ch.group} • Nền tảng Apple Screens & Web`,
         group: ch.group
       });
     }

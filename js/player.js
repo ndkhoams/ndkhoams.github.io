@@ -35,12 +35,18 @@ class StrandPlayer {
   playStream(streamUrl, channelInfo = {}) {
     if (!this.video || !streamUrl) return;
 
+    // Chuẩn hóa stream URL nếu chứa cờ header (ví dụ |Referer=...)
+    let targetUrl = streamUrl;
+    if (typeof streamUrl === 'string' && streamUrl.includes('|')) {
+      targetUrl = streamUrl.split('|')[0].trim();
+    }
+
     if (this.showHUD) this.showHUD();
     this.currentChannel = channelInfo;
     this.updateHUD(channelInfo);
     this.showBuffering(true);
 
-    const isHls = streamUrl.includes('.m3u8') || streamUrl.includes('play.m3u8');
+    const isHls = targetUrl.includes('.m3u8') || targetUrl.includes('play.m3u8');
 
     // Clean up previous HLS instance
     if (this.hls) {
@@ -50,7 +56,7 @@ class StrandPlayer {
 
     // 1. Native iOS Safari support (Preferred on Apple screens)
     if (this.video.canPlayType('application/vnd.apple.mpegurl')) {
-      this.video.src = streamUrl;
+      this.video.src = targetUrl;
       const playPromise = this.video.play();
       if (playPromise !== undefined) {
         playPromise.catch(err => {
@@ -66,7 +72,7 @@ class StrandPlayer {
         lowLatencyMode: true,
         backBufferLength: 60
       });
-      this.hls.loadSource(streamUrl);
+      this.hls.loadSource(targetUrl);
       this.hls.attachMedia(this.video);
       this.hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
         this.video.play().catch(e => console.warn('[Player] HLS play catch:', e));
@@ -92,7 +98,7 @@ class StrandPlayer {
     } 
     // 3. Fallback direct src
     else {
-      this.video.src = streamUrl;
+      this.video.src = targetUrl;
       this.video.play().catch(() => {});
     }
 

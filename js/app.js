@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // 5. Auto refresh sports every 3 minutes with fresh cache buster
   setInterval(() => {
     sportsManager.loadSports(true);
+    if (channelManager && channelManager.reloadSportsChannels) {
+      channelManager.reloadSportsChannels();
+    }
   }, 3 * 60 * 1000);
 
   // 6. Register Service Worker for PWA
@@ -143,11 +146,25 @@ function switchTab(tabId) {
 
   // Update Sidebar Header Title & Refresh Button
   const sidebarTitle = document.getElementById('sidebarSectionTitle');
+  const countBadge = document.getElementById('sportsCountBadge');
   const btnRefresh = document.getElementById('btnRefreshSports');
   if (sidebarTitle) {
-    if (tabId === 'sports') sidebarTitle.textContent = 'Trực Tiếp Thể Thao';
-    else if (tabId === 'live') sidebarTitle.textContent = 'Lịch Kênh (Timeline)';
-    else if (tabId === 'channels') sidebarTitle.textContent = 'Danh Sách Kênh TV';
+    if (tabId === 'sports') {
+      sidebarTitle.textContent = 'Trực Tiếp Thể Thao';
+      if (countBadge && window.sportsManager) {
+        countBadge.textContent = `${window.sportsManager.liveEvents ? window.sportsManager.liveEvents.length : 0} trận đấu`;
+      }
+    } else if (tabId === 'live') {
+      sidebarTitle.textContent = 'Lịch Kênh (Timeline)';
+      if (countBadge) {
+        countBadge.textContent = '24/7 EPG';
+      }
+    } else if (tabId === 'channels') {
+      sidebarTitle.textContent = 'Danh Sách Kênh TV & Trận Đấu';
+      if (countBadge && window.channelManager) {
+        countBadge.textContent = `${window.channelManager.channels.length} kênh & trận`;
+      }
+    }
   }
   if (btnRefresh) {
     btnRefresh.style.display = tabId === 'sports' ? 'inline-flex' : 'none';
