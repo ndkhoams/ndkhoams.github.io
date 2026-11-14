@@ -1,5 +1,5 @@
 /**
- * TV Play Strand Edition — Player Engine
+ * TV Play — Player Engine
  * Supports Native Safari HLS (iOS) and Hls.js fallback for desktop/other browsers.
  */
 

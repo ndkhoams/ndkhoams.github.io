@@ -1,5 +1,5 @@
 /**
- * TV Play Strand Edition — Live Sports & Fixtures Engine
+ * TV Play — Live Sports & Fixtures Engine
  * Features:
  * - Real club and national team logos displayed at both ends of each match card
  * - Automatic fallback to 3-letter initials badge if logo is unavailable

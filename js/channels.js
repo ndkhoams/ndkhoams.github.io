@@ -1,5 +1,5 @@
 /**
- * TV Play Strand Edition — Channels & Multiple Playlists Engine
+ * TV Play — Channels & Multiple Playlists Engine
  * Supports managing multiple M3U playlist sources with instant switching.
  */
 

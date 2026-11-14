@@ -1,4 +1,4 @@
-# TV Play — Strand Edition (PWA)
+# TV Play (PWA)
 
 Ứng dụng xem truyền hình trực tuyến và thể thao cao cấp chuẩn Apple screens & Web, phong cách thiết kế lấy cảm hứng từ [Strand](https://watchstrand.app/).
 

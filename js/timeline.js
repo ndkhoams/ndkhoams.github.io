@@ -1,5 +1,5 @@
 /**
- * TV Play Strand Edition — Timeline EPG Engine
+ * TV Play — Timeline EPG Engine
  * Replicates the Strand Apple TV / iOS EPG Guide layout (Now & Next Matrix).
  */
 

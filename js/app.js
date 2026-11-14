@@ -1,5 +1,5 @@
 /**
- * TV Play Strand Edition — Main Application Coordinator
+ * TV Play — Main Application Coordinator
  * Liquid Glass Dock & Multi-playlist management.
  */
 
