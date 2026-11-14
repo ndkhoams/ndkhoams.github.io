@@ -10,6 +10,7 @@ class StrandPlayer {
     this.shakaPlayer = null;
     this.currentChannel = null;
     this.isPlaying = false;
+    this.isPseudoFullscreen = false;
     this.init();
   }
 
@@ -35,15 +36,32 @@ class StrandPlayer {
     // Initialize volume from localStorage or default
     this.initVolume();
 
-    // Orientation unlock on fullscreen exit
+    // Pseudo-fullscreen & standard fullscreen listeners
     const onFsChange = () => {
-      const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement);
+      const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement) || this.isPseudoFullscreen;
+      this.updateFullscreenIcon(isFs);
       if (!isFs && screen.orientation && screen.orientation.unlock) {
         try { screen.orientation.unlock(); } catch (e) {}
       }
     };
     document.addEventListener('fullscreenchange', onFsChange);
     document.addEventListener('webkitfullscreenchange', onFsChange);
+
+    window.addEventListener('resize', () => {
+      if (this.isPseudoFullscreen) {
+        this.updatePseudoFullscreenLayout();
+      }
+    });
+    window.addEventListener('orientationchange', () => {
+      if (this.isPseudoFullscreen) {
+        setTimeout(() => this.updatePseudoFullscreenLayout(), 150);
+      }
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && this.isPseudoFullscreen) {
+        this.exitPseudoFullscreen();
+      }
+    });
   }
 
   playStream(streamUrl, channelInfo = {}) {
@@ -308,58 +326,102 @@ class StrandPlayer {
     }
   }
 
+  isIOSDevice() {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  }
+
+  updateFullscreenIcon(isFullscreen) {
+    const enterIcons = document.querySelectorAll('.fullscreen-enter-icon');
+    const exitIcons = document.querySelectorAll('.fullscreen-exit-icon');
+    enterIcons.forEach(el => el.classList.toggle('hidden', isFullscreen));
+    exitIcons.forEach(el => el.classList.toggle('hidden', !isFullscreen));
+  }
+
+  updatePseudoFullscreenLayout() {
+    const surface = document.getElementById('playerSurface');
+    if (!surface || !this.isPseudoFullscreen) return;
+
+    const isLandscape = window.innerWidth > window.innerHeight;
+    if (isLandscape) {
+      surface.classList.remove('pseudo-fullscreen-landscape');
+      surface.classList.add('pseudo-fullscreen-normal');
+    } else {
+      surface.classList.remove('pseudo-fullscreen-normal');
+      surface.classList.add('pseudo-fullscreen-landscape');
+    }
+    document.body.classList.add('has-pseudo-fullscreen');
+  }
+
+  exitPseudoFullscreen() {
+    const surface = document.getElementById('playerSurface');
+    this.isPseudoFullscreen = false;
+    if (surface) {
+      surface.classList.remove('pseudo-fullscreen-landscape', 'pseudo-fullscreen-normal');
+    }
+    document.body.classList.remove('has-pseudo-fullscreen');
+    this.updateFullscreenIcon(false);
+  }
+
   async toggleFullscreen() {
     if (!this.video) return;
-    const isIPhone = /iPhone|iPod/.test(navigator.userAgent);
-    const container = document.getElementById('playerSection') || this.video;
 
-    // 1. Trên iPhone: Dùng native iOS Video Fullscreen (tự động xoay ngang theo chiều video 16:9)
-    if (isIPhone && this.video.webkitEnterFullscreen) {
-      this.video.webkitEnterFullscreen();
+    // 1. Nếu đang ở chế độ pseudo-fullscreen (iOS / Mobile fallback) -> Thoát
+    if (this.isPseudoFullscreen) {
+      this.exitPseudoFullscreen();
       return;
     }
 
-    const isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
-
-    if (!isFullscreen) {
+    // 2. Kiểm tra chế độ Native Fullscreen chuẩn -> Thoát nếu đang bật
+    const isNativeFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    if (isNativeFullscreen) {
       try {
-        if (container.requestFullscreen) {
-          await container.requestFullscreen();
-        } else if (container.webkitRequestFullscreen) {
-          await container.webkitRequestFullscreen();
-        } else if (this.video.webkitEnterFullscreen) {
-          this.video.webkitEnterFullscreen();
-          return;
-        }
-
-        // Trên điện thoại Android / Web: Tự động khóa xoay màn hình theo hướng video (ngang landscape)
-        if (screen.orientation && screen.orientation.lock) {
-          const isLandscape = (this.video.videoWidth && this.video.videoHeight)
-            ? this.video.videoWidth >= this.video.videoHeight
-            : true;
-          screen.orientation.lock(isLandscape ? 'landscape' : 'portrait').catch(() => {});
-        }
-      } catch (err) {
-        console.warn('[Player] Fullscreen request error:', err);
-        if (this.video.requestFullscreen) {
-          this.video.requestFullscreen().catch(() => {});
-        } else if (this.video.webkitEnterFullscreen) {
-          this.video.webkitEnterFullscreen();
-        }
-      }
-    } else {
-      try {
-        if (document.exitFullscreen) {
-          await document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-          await document.webkitExitFullscreen();
-        }
+        if (document.exitFullscreen) await document.exitFullscreen();
+        else if (document.webkitExitFullscreen) await document.webkitExitFullscreen();
       } catch (err) {
         console.warn('[Player] Exit fullscreen error:', err);
       }
       if (screen.orientation && screen.orientation.unlock) {
         try { screen.orientation.unlock(); } catch (e) {}
       }
+      this.updateFullscreenIcon(false);
+      return;
+    }
+
+    // 3. Xử lý riêng cho iPhone / iOS hoặc trình duyệt không hỗ trợ Element.requestFullscreen:
+    // Tự động xoay ngang 90 độ lấp đầy toàn bộ màn hình (bất kể iOS bật Khóa xoay màn hình)
+    const container = document.getElementById('playerSection') || this.video;
+    const canNativeRequest = !!(container && (container.requestFullscreen || container.webkitRequestFullscreen));
+    const isIOS = this.isIOSDevice();
+
+    if (isIOS || !canNativeRequest) {
+      this.isPseudoFullscreen = true;
+      this.updatePseudoFullscreenLayout();
+      this.updateFullscreenIcon(true);
+      return;
+    }
+
+    // 4. Trình duyệt chuẩn (Desktop, Android) -> Dùng Fullscreen API gốc và lock landscape
+    try {
+      if (container.requestFullscreen) {
+        await container.requestFullscreen();
+      } else if (container.webkitRequestFullscreen) {
+        await container.webkitRequestFullscreen();
+      }
+      this.updateFullscreenIcon(true);
+
+      // Khóa xoay ngang màn hình trên Android khi vào fullscreen
+      if (screen.orientation && screen.orientation.lock) {
+        const isLandscape = (this.video.videoWidth && this.video.videoHeight)
+          ? this.video.videoWidth >= this.video.videoHeight
+          : true;
+        screen.orientation.lock(isLandscape ? 'landscape' : 'portrait').catch(() => {});
+      }
+    } catch (err) {
+      console.warn('[Player] Standard fullscreen failed, falling back to pseudo-fullscreen:', err);
+      this.isPseudoFullscreen = true;
+      this.updatePseudoFullscreenLayout();
+      this.updateFullscreenIcon(true);
     }
   }
 

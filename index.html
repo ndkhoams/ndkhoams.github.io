@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=26) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=27) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=26">
+  <link rel="stylesheet" href="css/strand.css?v=27">
 
   <!-- Hls.js & Shaka Player for HLS & DASH ClearKey streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -192,11 +192,17 @@
                   </svg>
                 </button>
                 <!-- Fullscreen -->
-                <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)"
-                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <button id="playerSurfaceFsBtn" onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)"
+                  class="p-2 sm:p-2.5 rounded-full glass-pill text-white/80 hover:text-white transition cursor-pointer">
+                  <!-- Enter Fullscreen -->
+                  <svg class="fullscreen-enter-icon w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
+                  </svg>
+                  <!-- Exit Fullscreen -->
+                  <svg class="fullscreen-exit-icon w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 4v4m0 0H5m4 0L4 3m11 5h4m-4 0V4m0 4l5-5M9 20v-4m0 0H5m4 0l-5 5m11-5h4m-4 0v4m0-4l5 5" />
                   </svg>
                 </button>
               </div>
@@ -240,11 +246,18 @@
             </button>
             <button onclick="window.player.toggleFullscreen()" title="Toàn màn hình (F)"
               class="px-3 py-1.5 rounded-xl glass-pill text-white/80 hover:text-white hover:bg-white/20 transition flex items-center gap-1.5 text-xs font-semibold cursor-pointer">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <!-- Enter Fullscreen -->
+              <svg class="fullscreen-enter-icon w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5" />
               </svg>
-              <span class="hidden xl:inline">Toàn màn hình</span>
+              <!-- Exit Fullscreen -->
+              <svg class="fullscreen-exit-icon w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 4v4m0 0H5m4 0L4 3m11 5h4m-4 0V4m0 4l5-5M9 20v-4m0 0H5m4 0l-5 5m11-5h4m-4 0v4m0-4l5 5" />
+              </svg>
+              <span class="fullscreen-enter-icon hidden xl:inline">Toàn màn hình</span>
+              <span class="fullscreen-exit-icon hidden xl:inline">Thu nhỏ</span>
             </button>
           </div>
         </div>
@@ -442,12 +455,12 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=26) -->
-  <script src="js/player.js?v=26"></script>
-  <script src="js/channels.js?v=26"></script>
-  <script src="js/timeline.js?v=26"></script>
-  <script src="js/sports.js?v=26"></script>
-  <script src="js/app.js?v=26"></script>
+  <!-- Application Logic Modules (Cache busted ?v=27) -->
+  <script src="js/player.js?v=27"></script>
+  <script src="js/channels.js?v=27"></script>
+  <script src="js/timeline.js?v=27"></script>
+  <script src="js/sports.js?v=27"></script>
+  <script src="js/app.js?v=27"></script>
 </body>
 
 </html>
