@@ -85,12 +85,7 @@ class StrandPlayer {
         this.safePlay();
       });
     }
-    // 2. Native iOS Safari support (Preferred on Apple screens for HLS)
-    else if (!isDash && this.video.canPlayType('application/vnd.apple.mpegurl')) {
-      this.video.src = targetUrl;
-      this.safePlay();
-    } 
-    // 3. Hls.js fallback for Desktop Chrome, Firefox, Edge
+    // 2. Hls.js for Desktop Chrome, Firefox, Edge, Android (MSE supported)
     else if (window.Hls && window.Hls.isSupported() && isHls) {
       this.hls = new window.Hls({
         enableWorker: true,
@@ -135,6 +130,11 @@ class StrandPlayer {
         }
       });
     } 
+    // 3. Native iOS Safari support (Preferred on Apple screens where MSE HLS is not supported)
+    else if (!isDash && this.video.canPlayType('application/vnd.apple.mpegurl')) {
+      this.video.src = targetUrl;
+      this.safePlay();
+    } 
     // 4. Fallback direct src
     else {
       this.video.src = targetUrl;
@@ -177,9 +177,17 @@ class StrandPlayer {
   togglePlay() {
     if (!this.video) return;
     if (this.video.paused) {
-      this.video.play().catch(() => {});
+      this.video.muted = false;
+      this.updateMuteUI(false);
+      this.video.play().catch(() => {
+        this.video.muted = true;
+        this.updateMuteUI(true);
+        this.video.play().catch(() => {});
+      });
+      this.showPlayButtonOverlay(false);
     } else {
       this.video.pause();
+      this.showPlayButtonOverlay(true);
     }
   }
 
