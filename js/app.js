@@ -78,11 +78,29 @@ document.addEventListener('DOMContentLoaded', () => {
         break;
       case 'ArrowUp':
         e.preventDefault();
-        channelManager.playPrevChannel();
+        if (e.shiftKey) {
+          player.setVolume((player.video?.volume || 1) + 0.05);
+        } else {
+          channelManager.playPrevChannel();
+        }
         break;
       case 'ArrowDown':
         e.preventDefault();
-        channelManager.playNextChannel();
+        if (e.shiftKey) {
+          player.setVolume((player.video?.volume || 1) - 0.05);
+        } else {
+          channelManager.playNextChannel();
+        }
+        break;
+      case 'Equal':
+      case 'NumpadAdd':
+        e.preventDefault();
+        player.setVolume((player.video?.volume || 1) + 0.05);
+        break;
+      case 'Minus':
+      case 'NumpadSubtract':
+        e.preventDefault();
+        player.setVolume((player.video?.volume || 1) - 0.05);
         break;
       case 'ArrowLeft':
         timelineManager.prevCategory();

@@ -31,6 +31,19 @@ class StrandPlayer {
 
     // Auto-hide Top HUD after 5s
     this.initHUDAutoHide();
+
+    // Initialize volume from localStorage or default
+    this.initVolume();
+
+    // Orientation unlock on fullscreen exit
+    const onFsChange = () => {
+      const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement);
+      if (!isFs && screen.orientation && screen.orientation.unlock) {
+        try { screen.orientation.unlock(); } catch (e) {}
+      }
+    };
+    document.addEventListener('fullscreenchange', onFsChange);
+    document.addEventListener('webkitfullscreenchange', onFsChange);
   }
 
   playStream(streamUrl, channelInfo = {}) {
@@ -191,13 +204,80 @@ class StrandPlayer {
     }
   }
 
+  initVolume() {
+    if (!this.video) return;
+    const saved = localStorage.getItem('tvplay_volume');
+    this.currentVolume = (saved !== null) ? parseFloat(saved) : 1.0;
+    this.video.volume = this.currentVolume;
+    this.updateVolumeUI();
+  }
+
+  setVolume(val) {
+    if (!this.video) return;
+    const num = Math.max(0, Math.min(1, parseFloat(val)));
+    this.currentVolume = num;
+    this.video.volume = num;
+    if (num > 0 && this.video.muted) {
+      this.video.muted = false;
+    } else if (num === 0) {
+      this.video.muted = true;
+    }
+    try {
+      localStorage.setItem('tvplay_volume', num.toString());
+    } catch (e) {}
+    this.updateVolumeUI();
+  }
+
   toggleMute() {
     if (!this.video) return;
-    this.video.muted = !this.video.muted;
-    this.updateMuteUI(this.video.muted);
+    if (this.video.muted || this.video.volume === 0) {
+      this.video.muted = false;
+      if (this.video.volume === 0) {
+        const restoreVol = (this.currentVolume > 0) ? this.currentVolume : 1.0;
+        this.video.volume = restoreVol;
+      }
+    } else {
+      this.video.muted = true;
+    }
+    this.updateVolumeUI();
   }
 
   updateMuteUI(isMuted) {
+    this.updateVolumeUI();
+  }
+
+  updateVolumeUI() {
+    if (!this.video) return;
+    const isMuted = this.video.muted || this.video.volume === 0;
+    const vol = isMuted ? 0 : this.video.volume;
+
+    const slider = document.getElementById('volumeSlider');
+    if (slider) {
+      slider.value = vol;
+      slider.style.background = `linear-gradient(to right, var(--accent) ${vol * 100}%, rgba(255,255,255,0.2) ${vol * 100}%)`;
+    }
+
+    const volHigh = document.getElementById('volHighIcon');
+    const volLow = document.getElementById('volLowIcon');
+    const volMute = document.getElementById('volMuteIcon');
+
+    if (volHigh && volLow && volMute) {
+      if (isMuted || vol === 0) {
+        volMute.classList.remove('hidden');
+        volLow.classList.add('hidden');
+        volHigh.classList.add('hidden');
+      } else if (vol <= 0.5) {
+        volMute.classList.add('hidden');
+        volLow.classList.remove('hidden');
+        volHigh.classList.add('hidden');
+      } else {
+        volMute.classList.add('hidden');
+        volLow.classList.add('hidden');
+        volHigh.classList.remove('hidden');
+      }
+    }
+
+    // Legacy IDs
     const muteIcon = document.getElementById('muteIcon');
     const unmuteIcon = document.getElementById('unmuteIcon');
     if (muteIcon && unmuteIcon) {
@@ -228,22 +308,57 @@ class StrandPlayer {
     }
   }
 
-  toggleFullscreen() {
+  async toggleFullscreen() {
+    if (!this.video) return;
+    const isIPhone = /iPhone|iPod/.test(navigator.userAgent);
     const container = document.getElementById('playerSection') || this.video;
-    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-      if (container.requestFullscreen) {
-        container.requestFullscreen().catch(() => {});
-      } else if (container.webkitRequestFullscreen) {
-        container.webkitRequestFullscreen();
-      } else if (this.video.webkitEnterFullscreen) {
-        // Safari iOS native fullscreen video
-        this.video.webkitEnterFullscreen();
+
+    // 1. Trên iPhone: Dùng native iOS Video Fullscreen (tự động xoay ngang theo chiều video 16:9)
+    if (isIPhone && this.video.webkitEnterFullscreen) {
+      this.video.webkitEnterFullscreen();
+      return;
+    }
+
+    const isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+
+    if (!isFullscreen) {
+      try {
+        if (container.requestFullscreen) {
+          await container.requestFullscreen();
+        } else if (container.webkitRequestFullscreen) {
+          await container.webkitRequestFullscreen();
+        } else if (this.video.webkitEnterFullscreen) {
+          this.video.webkitEnterFullscreen();
+          return;
+        }
+
+        // Trên điện thoại Android / Web: Tự động khóa xoay màn hình theo hướng video (ngang landscape)
+        if (screen.orientation && screen.orientation.lock) {
+          const isLandscape = (this.video.videoWidth && this.video.videoHeight)
+            ? this.video.videoWidth >= this.video.videoHeight
+            : true;
+          screen.orientation.lock(isLandscape ? 'landscape' : 'portrait').catch(() => {});
+        }
+      } catch (err) {
+        console.warn('[Player] Fullscreen request error:', err);
+        if (this.video.requestFullscreen) {
+          this.video.requestFullscreen().catch(() => {});
+        } else if (this.video.webkitEnterFullscreen) {
+          this.video.webkitEnterFullscreen();
+        }
       }
     } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen().catch(() => {});
-      } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
+      try {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          await document.webkitExitFullscreen();
+        }
+      } catch (err) {
+        console.warn('[Player] Exit fullscreen error:', err);
+      }
+      if (screen.orientation && screen.orientation.unlock) {
+        try { screen.orientation.unlock(); } catch (e) {}
       }
     }
   }

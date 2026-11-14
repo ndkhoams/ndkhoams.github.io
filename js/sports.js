@@ -429,6 +429,19 @@ class SportsManager {
   deduplicateEvents(events) {
     if (!Array.isArray(events) || events.length === 0) return [];
 
+    // Lọc bỏ các card không phải trận đấu (ví dụ TV360+ 1 vs TV360 hoặc kênh truyền hình)
+    events = events.filter(ev => {
+      const h = (ev.homeTeam || '').toLowerCase().trim();
+      const a = (ev.awayTeam || '').toLowerCase().trim();
+      if (!h || !a) return false;
+      const hClean = h.replace(/[^a-z0-9]/g, '');
+      const aClean = a.replace(/[^a-z0-9]/g, '');
+      if (hClean === aClean) return false;
+      if (hClean.includes('tv360') && aClean.includes('tv360')) return false;
+      if (['tv360', 'film4k', 'antsports', 'gavang', 'xoiche'].includes(aClean)) return false;
+      return true;
+    });
+
     const ALIAS_MAP = {
       'vietnam': 'vietnam', 'viet nam': 'vietnam', 'vn': 'vietnam',
       'chinese taipei': 'taiwan', 'dai loan': 'taiwan', 'taiwan': 'taiwan', 'dai bac trung hoa': 'taiwan', 'dai bac': 'taiwan',
