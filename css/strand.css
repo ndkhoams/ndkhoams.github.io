@@ -589,29 +589,90 @@ body.has-pseudo-fullscreen {
   touch-action: none !important;
 }
 
+body.has-pseudo-fullscreen #mainHeader {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+body.has-pseudo-fullscreen .player-sticky-wrapper {
+  position: static !important;
+  z-index: 9999998 !important;
+}
+
 body.has-pseudo-fullscreen #playerSection {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   transform: none !important;
   filter: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+@keyframes pseudoRotateInLandscape {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.7);
+    opacity: 0.6;
+    border-radius: 20px;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(90deg) scale(1);
+    opacity: 1;
+    border-radius: 0px;
+  }
+}
+
+@keyframes pseudoRotateOutLandscape {
+  0% {
+    transform: translate(-50%, -50%) rotate(90deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.7);
+    opacity: 0;
+  }
+}
+
+@keyframes pseudoExpandNormal {
+  0% {
+    transform: translate(-50%, -50%) scale(0.85);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
 }
 
 #playerSurface.pseudo-fullscreen-landscape {
   position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
+  top: 50% !important;
+  left: 50% !important;
   width: 100vh !important;
   width: 100dvh !important;
   height: 100vw !important;
   height: 100dvw !important;
-  transform-origin: top left !important;
-  transform: rotate(90deg) translateY(-100%) !important;
+  transform-origin: center center !important;
+  transform: translate(-50%, -50%) rotate(90deg) !important;
+  animation: pseudoRotateInLandscape 0.32s cubic-bezier(0.2, 0.9, 0.3, 1) forwards !important;
   z-index: 9999999 !important;
   background: #000000 !important;
   border-radius: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
   aspect-ratio: auto !important;
+}
+
+#playerSurface.pseudo-fullscreen-landscape.pseudo-fullscreen-exit {
+  animation: pseudoRotateOutLandscape 0.24s cubic-bezier(0.4, 0, 0.2, 1) forwards !important;
+}
+
+#playerSurface.pseudo-fullscreen-landscape #playerHUDOverlay {
+  padding-left: max(env(safe-area-inset-top, 0px), 16px) !important;
+  padding-right: max(env(safe-area-inset-bottom, 0px), 16px) !important;
 }
 
 #playerSurface.pseudo-fullscreen-landscape #mainVideo {
@@ -623,19 +684,25 @@ body.has-pseudo-fullscreen #playerSection {
 
 #playerSurface.pseudo-fullscreen-normal {
   position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
+  top: 50% !important;
+  left: 50% !important;
   width: 100vw !important;
   width: 100dvw !important;
   height: 100vh !important;
   height: 100dvh !important;
-  transform: none !important;
+  transform-origin: center center !important;
+  transform: translate(-50%, -50%) rotate(0deg) !important;
+  animation: pseudoExpandNormal 0.28s cubic-bezier(0.2, 0.9, 0.3, 1) forwards !important;
   z-index: 9999999 !important;
   background: #000000 !important;
   border-radius: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
   aspect-ratio: auto !important;
+}
+
+#playerSurface.pseudo-fullscreen-normal.pseudo-fullscreen-exit {
+  animation: pseudoRotateOutLandscape 0.24s cubic-bezier(0.4, 0, 0.2, 1) forwards !important;
 }
 
 #playerSurface.pseudo-fullscreen-normal #mainVideo {

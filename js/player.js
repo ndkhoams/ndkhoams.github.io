@@ -342,6 +342,12 @@ class StrandPlayer {
     const surface = document.getElementById('playerSurface');
     if (!surface || !this.isPseudoFullscreen) return;
 
+    if (this._exitTimeout) {
+      clearTimeout(this._exitTimeout);
+      this._exitTimeout = null;
+    }
+    surface.classList.remove('pseudo-fullscreen-exit');
+
     const isLandscape = window.innerWidth > window.innerHeight;
     if (isLandscape) {
       surface.classList.remove('pseudo-fullscreen-landscape');
@@ -355,16 +361,32 @@ class StrandPlayer {
 
   exitPseudoFullscreen() {
     const surface = document.getElementById('playerSurface');
+    if (!this.isPseudoFullscreen || !surface) return;
     this.isPseudoFullscreen = false;
-    if (surface) {
-      surface.classList.remove('pseudo-fullscreen-landscape', 'pseudo-fullscreen-normal');
-    }
-    document.body.classList.remove('has-pseudo-fullscreen');
     this.updateFullscreenIcon(false);
+
+    // Kích hoạt hiệu ứng xoay mượt mà trở lại khung phát
+    surface.classList.add('pseudo-fullscreen-exit');
+    if (this._exitTimeout) clearTimeout(this._exitTimeout);
+
+    this._exitTimeout = setTimeout(() => {
+      surface.classList.remove(
+        'pseudo-fullscreen-landscape',
+        'pseudo-fullscreen-normal',
+        'pseudo-fullscreen-exit'
+      );
+      document.body.classList.remove('has-pseudo-fullscreen');
+      this._exitTimeout = null;
+    }, 240);
   }
 
   async toggleFullscreen() {
     if (!this.video) return;
+
+    if (this._exitTimeout) {
+      clearTimeout(this._exitTimeout);
+      this._exitTimeout = null;
+    }
 
     // 1. Nếu đang ở chế độ pseudo-fullscreen (iOS / Mobile fallback) -> Thoát
     if (this.isPseudoFullscreen) {
