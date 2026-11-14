@@ -25,6 +25,14 @@ class ChannelManager {
     ];
 
     this.initPlaylists();
+
+    // Close category dropdown on outside click
+    document.addEventListener('click', (e) => {
+      const container = document.getElementById('categoryDropdownContainer');
+      if (container && !container.contains(e.target)) {
+        this.closeCategoryDropdown();
+      }
+    });
   }
 
   initPlaylists() {
@@ -247,7 +255,11 @@ class ChannelManager {
         // Extract group-title
         const groupMatch = line.match(/group-title="([^"]*)"/i);
         if (groupMatch && groupMatch[1]) {
-          currentChannel.group = groupMatch[1].trim();
+          let grp = groupMatch[1].trim();
+          if (grp.includes('Sự Kiện Trực Tiếp / TV360') || grp.includes('Live Events (Film4k)') || grp.toLowerCase().includes('live events')) {
+            grp = '🔴 Live Events (Film4k)';
+          }
+          currentChannel.group = grp;
         }
 
         // Extract tvg-id
@@ -259,11 +271,27 @@ class ChannelManager {
         if (commaIdx !== -1) {
           currentChannel.name = line.substring(commaIdx + 1).trim();
         }
+      } else if (line.startsWith('#KODIPROP:inputstream.adaptive.license_key=')) {
+        if (currentChannel) {
+          const val = line.replace('#KODIPROP:inputstream.adaptive.license_key=', '').trim();
+          const parts = val.split(':');
+          if (parts.length === 2) {
+            currentChannel.clearKey = { keyId: parts[0], key: parts[1] };
+            currentChannel.dash = true;
+          }
+        }
+      } else if (line.startsWith('#KODIPROP:inputstream.adaptive.manifest_type=mpd')) {
+        if (currentChannel) {
+          currentChannel.dash = true;
+        }
       } else if (line.startsWith('http://') || line.startsWith('https://')) {
         if (currentChannel) {
           // Bỏ qua luồng refresh ảo của playlist
           if (!line.includes('127.0.0.1/refresh')) {
             currentChannel.url = line;
+            if (currentChannel.group === '🔴 Live Events (Film4k)') {
+              currentChannel.isSports = true;
+            }
             channels.push(currentChannel);
           }
           currentChannel = null;
@@ -288,56 +316,132 @@ class ChannelManager {
     this.renderPlaylistsUI();
   }
 
+  toggleCategoryDropdown(e) {
+    if (e) e.stopPropagation();
+    const menu = document.getElementById('categoryDropdownMenu');
+    const arrow = document.getElementById('categoryDropdownArrow');
+    if (!menu) return;
+
+    const isHidden = menu.classList.contains('hidden');
+    if (isHidden) {
+      menu.classList.remove('hidden');
+      if (arrow) arrow.classList.add('rotate-180');
+    } else {
+      menu.classList.add('hidden');
+      if (arrow) arrow.classList.remove('rotate-180');
+    }
+  }
+
+  closeCategoryDropdown() {
+    const menu = document.getElementById('categoryDropdownMenu');
+    const arrow = document.getElementById('categoryDropdownArrow');
+    if (menu) menu.classList.add('hidden');
+    if (arrow) arrow.classList.remove('rotate-180');
+  }
+
+  updateDropdownButton() {
+    const labelEl = document.getElementById('categoryDropdownLabel');
+    const badgeEl = document.getElementById('categoryDropdownBadge');
+    if (!labelEl || !badgeEl) return;
+
+    if (this.currentCategory === 'all') {
+      labelEl.textContent = 'Tất cả';
+      badgeEl.textContent = this.channels.length;
+    } else if (this.currentCategory === 'sports_all') {
+      labelEl.textContent = '⚽ Thể Thao';
+      badgeEl.textContent = this.sportsChannels.length;
+    } else if (this.currentCategory === 'tv_all') {
+      labelEl.textContent = '📺 Kênh TV';
+      badgeEl.textContent = this.tvChannels.length;
+    } else {
+      labelEl.textContent = this.currentCategory;
+      const count = this.channels.filter(c => c.group === this.currentCategory).length;
+      badgeEl.textContent = count;
+    }
+  }
+
   extractCategories() {
-    const groupSet = new Set();
+    const groupCounts = {};
     this.channels.forEach(ch => {
-      if (ch.group) groupSet.add(ch.group);
+      const g = ch.group || 'Khác';
+      groupCounts[g] = (groupCounts[g] || 0) + 1;
     });
 
-    const categoryList = Array.from(groupSet);
-    const filterContainer = document.getElementById('categoryFilters');
-    if (!filterContainer) return;
+    const menu = document.getElementById('categoryDropdownMenu');
+    if (!menu) return;
 
-    let html = `
-      <button onclick="window.channelManager.setCategory('all')" id="cat-btn-all" 
-              class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition ${this.currentCategory === 'all' ? 'bg-white/20 text-white' : 'text-[var(--label-2)] hover:text-white'}">
-        Tất cả (${this.channels.length})
-      </button>
-    `;
+    const renderItem = (id, label, count, icon, isHighlighted = false) => {
+      const isSelected = this.currentCategory === id;
+      const highlightClasses = isHighlighted ? 'text-amber-300 font-semibold' : 'text-white/90 font-medium';
+      const activeBg = isSelected ? 'bg-white/15 text-white font-bold' : 'hover:bg-white/10 text-white/80';
+      return `
+        <button type="button" onclick="window.channelManager.setCategory('${encodeURIComponent(id)}')"
+          class="w-full px-3 py-2 rounded-xl flex items-center justify-between text-xs transition cursor-pointer text-left ${activeBg}">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="text-sm shrink-0">${icon}</span>
+            <span class="truncate ${highlightClasses}">${label}</span>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <span class="text-[10px] px-1.5 py-0.5 rounded-md bg-white/10 text-[var(--label-3)] font-mono">${count}</span>
+            ${isSelected ? '<span class="text-[var(--accent)] font-bold text-xs">✓</span>' : '<span class="w-3"></span>'}
+          </div>
+        </button>
+      `;
+    };
 
-    // Filter pill riêng cho toàn bộ trận đấu trong thethao.m3u
+    let html = '';
+
+    // 1. Tất cả kênh
+    html += renderItem('all', 'Tất cả kênh & sự kiện', this.channels.length, '📁');
+
+    // 2. Thư mục dành riêng: 🔴 Live Events (Film4k)
+    const film4kKey = Object.keys(groupCounts).find(k => k === '🔴 Live Events (Film4k)' || k.includes('Live Events') || k.includes('Sự Kiện Trực Tiếp / TV360'));
+    if (film4kKey && groupCounts[film4kKey] > 0) {
+      html += renderItem(film4kKey, '🔴 Live Events (Film4k)', groupCounts[film4kKey], '🔴', true);
+    }
+
+    // 3. Tổng hợp Thể thao & TV
     if (this.sportsChannels && this.sportsChannels.length > 0) {
-      const isSportsSelected = this.currentCategory === 'sports_all';
-      html += `
-        <button onclick="window.channelManager.setCategory('sports_all')" id="cat-btn-sports_all" 
-                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 ${isSportsSelected ? 'bg-orange-500/25 text-orange-400 border border-orange-500/40' : 'text-orange-400/80 hover:text-orange-300'}">
-          <span>⚽ Thể Thao (${this.sportsChannels.length})</span>
-        </button>
-      `;
+      html += renderItem('sports_all', '⚽ Tất cả Thể Thao', this.sportsChannels.length, '⚽');
     }
-
-    // Filter pill riêng cho các kênh TV chuẩn
     if (this.tvChannels && this.tvChannels.length > 0) {
-      const isTvSelected = this.currentCategory === 'tv_all';
-      html += `
-        <button onclick="window.channelManager.setCategory('tv_all')" id="cat-btn-tv_all" 
-                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 transition ${isTvSelected ? 'bg-white/20 text-white font-semibold' : 'text-[var(--label-2)] hover:text-white'}">
-          📺 Kênh TV (${this.tvChannels.length})
-        </button>
-      `;
+      html += renderItem('tv_all', '📺 Tất cả Kênh TV Chuẩn', this.tvChannels.length, '📺');
     }
 
-    categoryList.forEach(grp => {
-      const isSelected = this.currentCategory === grp;
-      html += `
-        <button onclick="window.channelManager.setCategory('${encodeURIComponent(grp)}')" id="cat-btn-${encodeURIComponent(grp)}" 
-                class="px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 transition ${isSelected ? 'bg-white/20 text-white font-semibold' : 'text-[var(--label-2)] hover:text-white'}">
-          ${grp}
-        </button>
-      `;
-    });
+    // Đường phân cách
+    html += `<div class="my-1 border-t border-white/10"></div>`;
 
-    filterContainer.innerHTML = html;
+    // Nhóm Thể Thao chi tiết (trừ Live Events đã đưa lên đầu)
+    const sportsGroups = Object.keys(groupCounts).filter(g => 
+      g !== film4kKey && (g.includes('⚽') || g.includes('Cola') || g.includes('Chuối') || g.includes('Gà Vàng') || g.includes('Xôi Chè') || g.includes('SPORT') || g.toLowerCase().includes('thể thao'))
+    );
+    if (sportsGroups.length > 0) {
+      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--orange)] uppercase">Kênh & Trận Đấu Thể Thao</div>`;
+      sportsGroups.forEach(grp => {
+        let icon = '⚽';
+        if (grp.includes('🍌') || grp.includes('Chuối')) icon = '🍌';
+        else if (grp.includes('🐔') || grp.includes('Gà')) icon = '🐔';
+        else if (grp.includes('🍵') || grp.includes('Xôi')) icon = '🍵';
+        else if (grp.includes('🥤') || grp.includes('Cola')) icon = '🥤';
+        else if (grp.includes('🏀') || grp.includes('Bóng rổ')) icon = '🏀';
+        html += renderItem(grp, grp, groupCounts[grp], icon);
+      });
+      html += `<div class="my-1 border-t border-white/10"></div>`;
+    }
+
+    // Nhóm Truyền Hình chi tiết
+    const tvGroups = Object.keys(groupCounts).filter(g => 
+      g !== film4kKey && !sportsGroups.includes(g)
+    );
+    if (tvGroups.length > 0) {
+      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--label-3)] uppercase">Nhóm Kênh Truyền Hình</div>`;
+      tvGroups.forEach(grp => {
+        html += renderItem(grp, grp, groupCounts[grp], '📺');
+      });
+    }
+
+    menu.innerHTML = html;
+    this.updateDropdownButton();
   }
 
   setCategory(category) {
@@ -347,25 +451,9 @@ class ChannelManager {
       this.currentCategory = decodeURIComponent(category);
     }
     
-    // Update button states
-    const buttons = document.querySelectorAll('#categoryFilters button');
-    buttons.forEach(b => {
-      if (b.id === 'cat-btn-sports_all') {
-        b.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 text-orange-400/80 hover:text-orange-300';
-      } else {
-        b.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-medium shrink-0 text-[var(--label-2)] hover:text-white transition';
-      }
-    });
-
-    const activeBtn = document.getElementById(`cat-btn-${encodeURIComponent(category)}`);
-    if (activeBtn) {
-      if (category === 'sports_all') {
-        activeBtn.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 transition flex items-center gap-1.5 bg-orange-500/25 text-orange-400 border border-orange-500/40';
-      } else {
-        activeBtn.className = 'px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold shrink-0 bg-white/20 text-white transition';
-      }
-    }
-
+    this.closeCategoryDropdown();
+    this.updateDropdownButton();
+    this.extractCategories();
     this.filterChannels();
   }
 
