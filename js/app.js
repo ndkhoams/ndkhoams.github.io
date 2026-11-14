@@ -173,7 +173,7 @@ function switchTab(tabId) {
         countBadge.textContent = `${window.sportsManager.liveEvents ? window.sportsManager.liveEvents.length : 0} trận đấu`;
       }
     } else if (tabId === 'live') {
-      sidebarTitle.textContent = 'Lịch Kênh (Timeline)';
+      sidebarTitle.textContent = 'Truyền Hình (Timeline)';
       if (countBadge) {
         countBadge.textContent = '24/7 EPG';
       }

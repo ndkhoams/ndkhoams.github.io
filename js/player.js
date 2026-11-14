@@ -336,6 +336,10 @@ class StrandPlayer {
     const exitIcons = document.querySelectorAll('.fullscreen-exit-icon');
     enterIcons.forEach(el => el.classList.toggle('hidden', isFullscreen));
     exitIcons.forEach(el => el.classList.toggle('hidden', !isFullscreen));
+    const label = document.getElementById('desktopFsLabel');
+    if (label) {
+      label.textContent = isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình';
+    }
   }
 
   updatePseudoFullscreenLayout() {

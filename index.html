@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=28) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=29) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=28">
+  <link rel="stylesheet" href="css/strand.css?v=29">
 
   <!-- Hls.js & Shaka Player for HLS & DASH ClearKey streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -50,26 +50,6 @@
           <h1 class="text-xl font-bold tracking-tight text-white font-[var(--font-display)]">TV Play</h1>
         </div>
       </div>
-
-      <!-- Desktop Translucent Pill Bar (Strand Tabbar) -->
-      <nav class="hidden md:flex items-center p-1 rounded-full glass-pill text-xs font-medium">
-        <button onclick="switchTab('sports')" id="tab-sports"
-          class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold transition">Thể Thao</button>
-        <button onclick="switchTab('live')" id="tab-live"
-          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Trực Tiếp
-          (Timeline)</button>
-        <button onclick="switchTab('channels')" id="tab-channels"
-          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition">Tìm Kênh</button>
-        <button onclick="openSettingsModal()"
-          class="px-4 py-1.5 rounded-full text-[var(--label-2)] hover:text-white transition flex items-center gap-1.5">
-          <svg class="w-3.5 h-3.5 text-[var(--orange)]" fill="none" stroke="currentColor" stroke-width="2"
-            viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-          </svg>
-          <span>Nguồn Phát M3U</span>
-        </button>
-      </nav>
 
       <!-- Status Indicator & Settings Trigger -->
       <div class="flex items-center gap-2">
@@ -256,8 +236,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M9 4v4m0 0H5m4 0L4 3m11 5h4m-4 0V4m0 4l5-5M9 20v-4m0 0H5m4 0l-5 5m11-5h4m-4 0v4m0-4l5 5" />
               </svg>
-              <span class="fullscreen-enter-icon hidden xl:inline">Toàn màn hình</span>
-              <span class="fullscreen-exit-icon hidden xl:inline">Thu nhỏ</span>
+              <span id="desktopFsLabel" class="hidden xl:inline">Toàn màn hình</span>
             </button>
           </div>
         </div>
@@ -299,7 +278,7 @@
             </button>
             <button onclick="switchTab('live')" id="side-tab-live"
               class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
-              <span>📺 Lịch Kênh</span>
+              <span>📺 Truyền Hình</span>
             </button>
             <button onclick="switchTab('channels')" id="side-tab-channels"
               class="flex-1 py-1.5 rounded-lg text-[var(--label-2)] hover:text-white transition text-center flex items-center justify-center gap-1.5 cursor-pointer">
@@ -455,12 +434,12 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=28) -->
-  <script src="js/player.js?v=28"></script>
-  <script src="js/channels.js?v=28"></script>
-  <script src="js/timeline.js?v=28"></script>
-  <script src="js/sports.js?v=28"></script>
-  <script src="js/app.js?v=28"></script>
+  <!-- Application Logic Modules (Cache busted ?v=29) -->
+  <script src="js/player.js?v=29"></script>
+  <script src="js/channels.js?v=29"></script>
+  <script src="js/timeline.js?v=29"></script>
+  <script src="js/sports.js?v=29"></script>
+  <script src="js/app.js?v=29"></script>
 </body>
 
 </html>
