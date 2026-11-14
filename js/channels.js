@@ -424,11 +424,13 @@ class ChannelManager {
       const count = this.channels.filter(c => c.isSports && c.group === '🔴 Live Events (Film4k)').length;
       badgeEl.textContent = count;
     } else if (this.currentCategory === 'sports_all') {
-      labelEl.textContent = '⚽ Thể Thao';
-      badgeEl.textContent = this.sportsChannels.length;
+      labelEl.textContent = '⚽ Trận Đấu & Sự Kiện';
+      const count = this.channels.filter(c => c.isSports).length;
+      badgeEl.textContent = count;
     } else if (this.currentCategory === 'tv_all') {
-      labelEl.textContent = '📺 Kênh TV';
-      badgeEl.textContent = this.tvChannels.length;
+      labelEl.textContent = '📺 Kênh Truyền Hình';
+      const count = this.channels.filter(c => !c.isSports).length;
+      badgeEl.textContent = count;
     } else {
       labelEl.textContent = this.currentCategory;
       const count = this.channels.filter(c => c.group === this.currentCategory).length;
@@ -475,30 +477,33 @@ class ChannelManager {
     // 1. Tất cả kênh
     html += renderItem('all', 'Tất cả kênh & sự kiện', this.channels.length, '📁');
 
-    // 2. Thư mục dành riêng: 🔴 Live Events (Film4k) - CHỈ tính luồng sự kiện thể thao từ Film4k / TV360
+    // 2. Thư mục dành riêng: 🔴 Live Events (Film4k) - CHỈ tính luồng sự kiện trực tiếp từ Film4k / TV360
     const film4kCount = this.channels.filter(c => c.isSports && c.group === '🔴 Live Events (Film4k)').length;
     if (film4kCount > 0) {
       html += renderItem('film4k_live_events', '🔴 Live Events (Film4k)', film4kCount, '🔴', true);
     }
 
-    // 3. Tổng hợp Thể thao & TV
-    if (this.sportsChannels && this.sportsChannels.length > 0) {
-      html += renderItem('sports_all', '⚽ Tất cả Thể Thao', this.sportsChannels.length, '⚽');
+    // 3. Tổng hợp Trận Đấu Trực Tiếp & Kênh Truyền Hình
+    const sportsLiveCount = this.channels.filter(c => c.isSports).length;
+    if (sportsLiveCount > 0) {
+      html += renderItem('sports_all', '⚽ Trực Tiếp Trận Đấu', sportsLiveCount, '⚽');
     }
-    if (this.tvChannels && this.tvChannels.length > 0) {
-      html += renderItem('tv_all', '📺 Tất cả Kênh TV Chuẩn', this.tvChannels.length, '📺');
+    const tvCount = this.channels.filter(c => !c.isSports).length;
+    if (tvCount > 0) {
+      html += renderItem('tv_all', '📺 Tất Cả Kênh Truyền Hình', tvCount, '📺');
     }
 
     // Đường phân cách
     html += `<div class="my-1 border-t border-white/10"></div>`;
 
-    // Nhóm Thể Thao chi tiết (trừ Film4k Live Events đã đưa lên đầu)
-    const sportsGroups = Object.keys(groupCounts).filter(g => 
-      g !== '🔴 Live Events (Film4k)' && (g.includes('⚽') || g.includes('Cola') || g.includes('Chuối') || g.includes('Gà Vàng') || g.includes('Xôi Chè') || g.includes('SPORT') || g.toLowerCase().includes('thể thao'))
+    // Nhóm Trận Đấu Thể Thao Trực Tiếp (CHỈ gồm các nhóm luồng trận đấu từ thethao.m3u)
+    const sportsMatchGroups = Object.keys(groupCounts).filter(g => 
+      g !== '🔴 Live Events (Film4k)' && 
+      this.channels.some(c => c.isSports && c.group === g)
     );
-    if (sportsGroups.length > 0) {
-      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--orange)] uppercase">Kênh & Trận Đấu Thể Thao</div>`;
-      sportsGroups.forEach(grp => {
+    if (sportsMatchGroups.length > 0) {
+      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--orange)] uppercase">Trận Đấu &amp; Sự Kiện Trực Tiếp</div>`;
+      sportsMatchGroups.forEach(grp => {
         let icon = '⚽';
         if (grp.includes('🍌') || grp.includes('Chuối')) icon = '🍌';
         else if (grp.includes('🐔') || grp.includes('Gà')) icon = '🐔';
@@ -510,15 +515,18 @@ class ChannelManager {
       html += `<div class="my-1 border-t border-white/10"></div>`;
     }
 
-    // Nhóm Truyền Hình & Phim chi tiết (giữ nguyên nhóm phim VOD của playlist nếu có)
+    // Nhóm Kênh Truyền Hình (bao gồm cả các kênh TV thể thao 24/7 như Sky Sport, TNT Sports, Canal+...)
     const tvGroups = Object.keys(groupCounts).filter(g => 
-      g !== '🔴 Live Events (Film4k)' && !sportsGroups.includes(g)
+      g !== '🔴 Live Events (Film4k)' && !sportsMatchGroups.includes(g)
     );
     if (tvGroups.length > 0) {
-      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--label-3)] uppercase">Nhóm Kênh Truyền Hình &amp; Phim</div>`;
+      html += `<div class="px-3 py-1 text-[10px] font-semibold tracking-wider text-[var(--label-3)] uppercase">Nhóm Kênh Truyền Hình</div>`;
       tvGroups.forEach(grp => {
         let icon = '📺';
-        if (grp.toLowerCase().includes('phim') || grp.includes('LIVE EVENTS')) icon = '🎬';
+        if (grp.toLowerCase().includes('phim')) icon = '🎬';
+        else if (grp.includes('Thể Thao') || grp.includes('SPORT')) icon = '⚽';
+        else if (grp.includes('Quốc Tế') || grp.includes('Thiết yếu')) icon = '🌐';
+        else if (grp.includes('Radio')) icon = '📻';
         html += renderItem(grp, grp, groupCounts[grp], icon);
       });
     }
@@ -553,7 +561,8 @@ class ChannelManager {
       } else if (this.currentCategory === 'film4k_live_events') {
         matchesCategory = !!ch.isSports && ch.group === '🔴 Live Events (Film4k)';
       } else if (this.currentCategory === 'sports_all') {
-        matchesCategory = !!ch.isSports || (ch.group && ch.group.toLowerCase().includes('thể thao'));
+        // CHỈ giữ lại các sự kiện & trận đấu trực tiếp, TUYỆT ĐỐI không đưa kênh truyền hình vào đây
+        matchesCategory = !!ch.isSports;
       } else if (this.currentCategory === 'tv_all') {
         matchesCategory = !ch.isSports;
       } else {
