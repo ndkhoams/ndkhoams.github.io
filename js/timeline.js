@@ -1,6 +1,11 @@
 /**
  * TV Play — Timeline EPG Engine
- * Replicates the Strand Apple TV / iOS EPG Guide layout (Now & Next Matrix).
+ * Replicates the Apple TV / iOS EPG Guide layout (Now & Next Matrix).
+ * Features:
+ * - Dropdown category selector matching the Channels tab design
+ * - Pixel-accurate absolute time positioning for all broadcast programs
+ * - Full multi-channel EPG matching from lichphatsong.io.vn (VTV, VTVcab, SCTV, HTV, TV360, Local TV)
+ * - Dynamic real-time "HIỆN TẠI" time indicator with 1-click smooth jump
  */
 
 class TimelineManager {
@@ -8,6 +13,7 @@ class TimelineManager {
     this.channelManager = channelManager;
     this.player = player;
     this.epgData = {}; // channelId -> array of { start, stop, title, desc }
+    this.epgMap = {};  // normalizedKey -> array of programmes
     this.pxPerMinute = 5.333; // 160px per 30 minutes
     this.slotMinutes = 30;
     this.totalSlots = 14; // 7 hours of timeline
@@ -31,6 +37,14 @@ class TimelineManager {
     this.nowTimer = setInterval(() => {
       this.updateNowIndicator();
     }, 60000);
+
+    // Close timeline category dropdown on outside click
+    document.addEventListener('click', (e) => {
+      const container = document.getElementById('timelineCategoryDropdownContainer');
+      if (container && !container.contains(e.target)) {
+        this.closeCategoryDropdown();
+      }
+    });
   }
 
   initTimelineTimeRange() {
@@ -42,12 +56,22 @@ class TimelineManager {
     this.startTime = start;
   }
 
+  normalizeKey(str) {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .replace(/plus/g, '')
+      .replace(/hd/g, '')
+      .replace(/[^a-z0-9]/g, '')
+      .trim();
+  }
+
   onChannelsLoaded() {
-    // Extract unique categories from TV channels (ưu tiên các kênh truyền hình có lịch phát sóng EPG)
     const catSet = new Set();
     const list = (this.channelManager.tvChannels && this.channelManager.tvChannels.length > 0) 
       ? this.channelManager.tvChannels 
       : this.channelManager.channels;
+    
     list.forEach(ch => {
       if (ch.group) catSet.add(ch.group);
     });
@@ -68,16 +92,75 @@ class TimelineManager {
     return this.categories[this.currentCatIndex] || 'VTV';
   }
 
-  nextCategory() {
-    if (this.categories.length === 0) return;
-    this.currentCatIndex = (this.currentCatIndex + 1) % this.categories.length;
+  toggleCategoryDropdown(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    const menu = document.getElementById('timelineCategoryDropdownMenu');
+    const arrow = document.getElementById('timelineCategoryDropdownArrow');
+    if (!menu) return;
+
+    const isHidden = menu.classList.contains('hidden');
+    if (isHidden) {
+      this.renderTimelineCategoryDropdownItems();
+      menu.classList.remove('hidden');
+      if (arrow) arrow.classList.add('rotate-180');
+    } else {
+      this.closeCategoryDropdown();
+    }
+  }
+
+  closeCategoryDropdown() {
+    const menu = document.getElementById('timelineCategoryDropdownMenu');
+    const arrow = document.getElementById('timelineCategoryDropdownArrow');
+    if (menu) menu.classList.add('hidden');
+    if (arrow) arrow.classList.remove('rotate-180');
+  }
+
+  selectCategory(catName, e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    const idx = this.categories.indexOf(catName);
+    if (idx !== -1) {
+      this.currentCatIndex = idx;
+    }
+    this.closeCategoryDropdown();
     this.render();
   }
 
-  prevCategory() {
-    if (this.categories.length === 0) return;
-    this.currentCatIndex = (this.currentCatIndex - 1 + this.categories.length) % this.categories.length;
-    this.render();
+  renderTimelineCategoryDropdownItems() {
+    const menu = document.getElementById('timelineCategoryDropdownMenu');
+    if (!menu) return;
+
+    const channelSource = (this.channelManager.tvChannels && this.channelManager.tvChannels.length > 0) 
+      ? this.channelManager.tvChannels 
+      : this.channelManager.channels;
+
+    const currentCat = this.getCurrentCategory();
+
+    let html = '';
+    this.categories.forEach(cat => {
+      const count = channelSource.filter(ch => ch.group === cat).length;
+      const isSelected = (cat === currentCat);
+      const safeCat = cat.replace(/'/g, "\\'");
+      html += `
+        <button type="button" onclick="window.timelineManager.selectCategory('${safeCat}', event)"
+          class="w-full px-3 py-2 rounded-xl text-left text-xs flex items-center justify-between transition cursor-pointer ${isSelected ? 'bg-white/20 text-white font-bold' : 'text-white/80 hover:bg-white/10 hover:text-white'}">
+          <div class="flex items-center gap-2 truncate">
+            <span class="truncate">${cat}</span>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <span class="text-[10px] px-1.5 py-0.5 rounded-md bg-white/10 text-white/70 font-mono">${count}</span>
+            ${isSelected ? '<svg class="w-3.5 h-3.5 text-[var(--orange)] shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>' : ''}
+          </div>
+        </button>
+      `;
+    });
+
+    menu.innerHTML = html;
   }
 
   render() {
@@ -89,29 +172,42 @@ class TimelineManager {
       ? this.channelManager.tvChannels 
       : this.channelManager.channels;
     const channelsInCat = channelSource.filter(ch => ch.group === currentCat);
+    const gridWidth = this.totalSlots * 160;
 
-    // 1. Category Switcher Bar (< VTV >)
     let html = `
       <div class="strand-timeline-wrapper">
         
-        <!-- Header Category Switcher -->
+        <!-- Header Category Dropdown Bar -->
         <div class="timeline-cat-bar">
-          <div class="flex items-center gap-2">
-            <button onclick="window.timelineManager.prevCategory()" class="w-7 h-7 rounded-full glass-pill flex items-center justify-center text-white/80 hover:text-white active:scale-90 transition">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+          
+          <!-- Category Dropdown Selector -->
+          <div id="timelineCategoryDropdownContainer" class="relative z-40 min-w-[200px] sm:min-w-[260px]">
+            <button id="timelineCategoryDropdownBtn" type="button" onclick="window.timelineManager.toggleCategoryDropdown(event)"
+              class="px-3.5 py-2 rounded-2xl glass-card border border-white/10 hover:border-white/20 text-white flex items-center justify-between gap-3 text-xs transition active:scale-[0.98] cursor-pointer shadow-lg">
+              <div class="flex items-center gap-2 overflow-hidden">
+                <svg class="w-4 h-4 text-[var(--orange)] shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>
+                </svg>
+                <span class="text-[var(--label-3)] shrink-0 hidden sm:inline">Nhóm:</span>
+                <span id="timelineCategoryDropdownLabel" class="font-bold text-white truncate">${currentCat}</span>
+                <span class="text-[10px] px-2 py-0.5 rounded-md bg-white/10 text-white/80 shrink-0 font-mono">${channelsInCat.length} kênh</span>
+              </div>
+              <div class="flex items-center gap-1 text-[var(--label-2)] shrink-0">
+                <svg id="timelineCategoryDropdownArrow" class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </div>
             </button>
-            <span class="text-sm font-bold text-white px-2 tracking-wide flex items-center gap-2">
-              <span>${currentCat}</span>
-              <span class="text-[10px] font-mono font-normal px-2 py-0.5 rounded-full bg-white/10 text-white/70">${channelsInCat.length} kênh</span>
-            </span>
-            <button onclick="window.timelineManager.nextCategory()" class="w-7 h-7 rounded-full glass-pill flex items-center justify-center text-white/80 hover:text-white active:scale-90 transition">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-            </button>
+
+            <!-- Dropdown Menu Items -->
+            <div id="timelineCategoryDropdownMenu"
+              class="absolute left-0 top-full mt-1.5 w-64 sm:w-72 p-1.5 rounded-2xl glass-modal border border-white/15 shadow-2xl backdrop-blur-2xl max-h-[380px] overflow-y-auto no-scrollbar space-y-1 hidden z-50">
+            </div>
           </div>
 
           <div class="flex items-center gap-2">
             <span class="text-[11px] text-[var(--label-2)] hidden sm:inline">Vuốt ngang xem lịch</span>
-            <button onclick="window.timelineManager.scrollToNow()" title="Nhảy tới hiện tại" class="px-2.5 py-1 rounded-full glass-pill text-[11px] font-bold text-[var(--orange)] hover:text-white transition flex items-center gap-1">
+            <button onclick="window.timelineManager.scrollToNow()" title="Nhảy tới giờ hiện tại" class="px-3 py-1.5 rounded-full glass-pill text-[11px] font-bold text-[var(--orange)] hover:text-white transition flex items-center gap-1.5 cursor-pointer">
               <span class="w-1.5 h-1.5 rounded-full bg-[var(--red)] animate-ping"></span>
               HIỆN TẠI
             </button>
@@ -123,12 +219,12 @@ class TimelineManager {
           
           <!-- Sticky Left Channel Logos Column -->
           <div class="timeline-channel-col">
-            <div class="timeline-corner-cell">Hôm nay</div>
+            <div class="timeline-corner-cell">Kênh</div>
             ${channelsInCat.map(ch => this.renderChannelLogoCell(ch)).join('')}
           </div>
 
           <!-- Schedule Matrix with Top Time Ruler -->
-          <div class="timeline-schedule-grid" style="width: ${this.totalSlots * 160}px;">
+          <div class="timeline-schedule-grid" style="width: ${gridWidth}px; min-width: ${gridWidth}px;">
             
             <!-- Top Time Ruler -->
             <div class="timeline-ruler">
@@ -194,9 +290,10 @@ class TimelineManager {
 
   renderChannelProgramRow(ch) {
     const programmes = this.getProgrammesForChannel(ch);
+    const rowWidth = this.totalSlots * 160;
 
     return `
-      <div class="timeline-row">
+      <div class="timeline-row" style="position: relative; width: ${rowWidth}px; min-width: ${rowWidth}px;">
         ${programmes.map(p => this.renderProgramBlock(ch, p)).join('')}
       </div>
     `;
@@ -204,18 +301,18 @@ class TimelineManager {
 
   renderProgramBlock(ch, p) {
     const isNow = p.isCurrent;
-    const widthPx = Math.max(70, Math.round(p.durationMinutes * this.pxPerMinute));
     const startTimeStr = this.formatTime(p.startDate);
+    const stopTimeStr = this.formatTime(p.stopDate);
 
     return `
       <div onclick="window.timelineManager.onProgramClick(${ch.id}, '${encodeURIComponent(p.title)}', '${encodeURIComponent(ch.name)}')" 
            class="program-block ${isNow ? 'active' : ''}" 
-           style="width: ${widthPx}px;"
-           title="${ch.name} - ${p.title} (${startTimeStr})">
+           style="left: ${p.leftPx}px; width: ${p.widthPx}px;"
+           title="${ch.name} - ${p.title} (${startTimeStr} - ${stopTimeStr})">
         <div class="p-top">
           <span class="truncate">${ch.name}</span>
-          <span class="px-1 py-0.2 rounded bg-white/10 text-[9px] font-bold">HD</span>
-          <span class="font-mono text-[var(--orange)]">${startTimeStr}</span>
+          <span class="px-1 py-0.2 rounded bg-white/10 text-[9px] font-bold shrink-0">HD</span>
+          <span class="font-mono text-[var(--orange)] shrink-0">${startTimeStr}</span>
         </div>
         <div class="p-title">${p.title}</div>
       </div>
@@ -224,8 +321,6 @@ class TimelineManager {
 
   onProgramClick(channelId, encodedTitle, encodedChannelName) {
     const title = decodeURIComponent(encodedTitle);
-    const channelName = decodeURIComponent(encodedChannelName);
-
     this.channelManager.selectChannel(channelId, true);
 
     // Update Player HUD subtitle to reflect clicked program
@@ -236,14 +331,25 @@ class TimelineManager {
   }
 
   getProgrammesForChannel(ch) {
-    const channelEpg = this.epgData[ch.epgId];
+    const rawId = (ch.epgId || '').toLowerCase().trim();
+    const normId = this.normalizeKey(ch.epgId);
+    const normName = this.normalizeKey(ch.name);
+
+    let channelEpg = null;
+    if (rawId && this.epgData[rawId]) {
+      channelEpg = this.epgData[rawId];
+    } else if (normId && this.epgMap[normId]) {
+      channelEpg = this.epgMap[normId];
+    } else if (normName && this.epgMap[normName]) {
+      channelEpg = this.epgMap[normName];
+    }
+
     const now = new Date();
+    const windowStart = this.startTime.getTime();
+    const windowEnd = windowStart + this.totalSlots * this.slotMinutes * 60 * 1000;
 
     // 1. If real EPG data is available from lichphatsong.io.vn
     if (channelEpg && channelEpg.length > 0) {
-      const windowStart = this.startTime.getTime();
-      const windowEnd = windowStart + this.totalSlots * this.slotMinutes * 60 * 1000;
-
       const filtered = channelEpg.filter(p => {
         const pStart = p.startDate.getTime();
         const pEnd = p.stopDate.getTime();
@@ -252,51 +358,71 @@ class TimelineManager {
 
       if (filtered.length > 0) {
         return filtered.map(p => {
-          const durMinutes = (p.stopDate.getTime() - p.startDate.getTime()) / (60 * 1000);
+          const effectiveStart = Math.max(windowStart, p.startDate.getTime());
+          const effectiveEnd = Math.min(windowEnd, p.stopDate.getTime());
+          const leftPx = Math.max(0, Math.round((effectiveStart - windowStart) / (60 * 1000) * this.pxPerMinute));
+          const widthPx = Math.max(28, Math.round((effectiveEnd - effectiveStart) / (60 * 1000) * this.pxPerMinute) - 4);
+
           return {
             title: p.title,
             desc: p.desc || '',
             startDate: p.startDate,
             stopDate: p.stopDate,
-            durationMinutes: Math.max(15, durMinutes),
+            leftPx: leftPx,
+            widthPx: widthPx,
             isCurrent: now >= p.startDate && now < p.stopDate
           };
         });
       }
     }
 
-    // 2. Realistic Dynamic Schedule fallback so timeline is always populated
-    return this.generateMockSchedule(ch);
+    // 2. Realistic Dynamic Schedule fallback so timeline is properly aligned
+    return this.generateMockSchedule(ch, windowStart, windowEnd);
   }
 
-  generateMockSchedule(ch) {
-    const programmes = [];
-    const now = new Date();
-    const cursor = new Date(this.startTime.getTime());
-    const windowEnd = new Date(this.startTime.getTime() + this.totalSlots * this.slotMinutes * 60 * 1000);
-
+  generateMockSchedule(ch, windowStart, windowEnd) {
+    const isTv360 = (ch.group || '').toLowerCase().includes('tv360') || ch.name.toLowerCase().includes('tv360');
     const isSport = (ch.group || '').toLowerCase().includes('thể thao');
-    const isVtv1 = ch.name.toLowerCase().includes('vtv1');
+
+    // TV360 channels in standby
+    if (isTv360) {
+      return [{
+        title: 'Tiếp sóng sự kiện TV360',
+        desc: `${ch.name} phát sóng trực tiếp sự kiện thể thao và giải trí`,
+        startDate: new Date(windowStart),
+        stopDate: new Date(windowEnd),
+        leftPx: 0,
+        widthPx: this.totalSlots * 160 - 6,
+        isCurrent: true
+      }];
+    }
 
     const sampleTitles = isSport 
       ? ['Trực tiếp Ngoại Hạng Anh', 'Bản tin Thể thao 24/7', 'Tổng hợp Champions League', 'Tạp chí Tennis', 'Bóng đá Thế giới']
-      : isVtv1
-      ? ['Thời sự 19h00 (Trực tiếp)', 'Dự báo Thời tiết', 'Báo chí toàn cảnh', 'Phim tài liệu', 'Việt Nam Hôm Nay']
-      : ['Ai Là Triệu Phú', 'Phim truyện Giờ Vàng', 'Gặp nhau cuối tuần', 'Ca nhạc quốc tế', 'Chuyển động 24h'];
+      : ['Thời sự & Tin tức', 'Phim truyện đặc sắc', 'Giai điệu âm nhạc', 'Chuyển động 24h', 'Khám phá thế giới'];
 
-    let titleIdx = Math.abs(ch.id) % sampleTitles.length;
+    const programmes = [];
+    const now = new Date();
+    let cursor = new Date(windowStart);
+    let titleIdx = Math.abs(ch.id || 0) % sampleTitles.length;
 
-    while (cursor < windowEnd) {
-      const duration = (titleIdx % 2 === 0) ? 45 : 30; // 45 or 30 minutes
+    while (cursor.getTime() < windowEnd) {
+      const duration = 60; // 60 mins blocks for clean grid alignment
       const pStart = new Date(cursor.getTime());
       const pEnd = new Date(cursor.getTime() + duration * 60 * 1000);
+
+      const effectiveStart = Math.max(windowStart, pStart.getTime());
+      const effectiveEnd = Math.min(windowEnd, pEnd.getTime());
+      const leftPx = Math.max(0, Math.round((effectiveStart - windowStart) / (60 * 1000) * this.pxPerMinute));
+      const widthPx = Math.max(28, Math.round((effectiveEnd - effectiveStart) / (60 * 1000) * this.pxPerMinute) - 4);
 
       programmes.push({
         title: sampleTitles[titleIdx % sampleTitles.length],
         desc: `${ch.name} phát sóng chất lượng Full HD`,
         startDate: pStart,
         stopDate: pEnd,
-        durationMinutes: duration,
+        leftPx: leftPx,
+        widthPx: widthPx,
         isCurrent: now >= pStart && now < pEnd
       });
 
@@ -344,10 +470,10 @@ class TimelineManager {
 
   async loadEpgDataInBackground() {
     try {
-      // Check cached EPG in sessionStorage
-      const cached = sessionStorage.getItem('tvplay_epg_cache');
-      if (cached) {
-        this.parseEpgXml(cached);
+      // Check memory cache first
+      if (window.tvplay_epgData && Object.keys(window.tvplay_epgData).length > 0) {
+        this.epgData = window.tvplay_epgData;
+        this.epgMap = window.tvplay_epgMap || {};
         this.render();
         return;
       }
@@ -356,13 +482,10 @@ class TimelineManager {
       const res = await fetch(this.epgUrl);
       if (!res.ok) return;
       const xmlText = await res.text();
-      
-      // Cache for session
-      try {
-        sessionStorage.setItem('tvplay_epg_cache', xmlText.substring(0, 1000000)); // cache first 1MB
-      } catch (e) {}
 
       this.parseEpgXml(xmlText);
+      window.tvplay_epgData = this.epgData;
+      window.tvplay_epgMap = this.epgMap;
       this.render();
     } catch (err) {
       console.warn('[Timeline] EPG fetch background warning:', err);
@@ -370,26 +493,35 @@ class TimelineManager {
   }
 
   parseEpgXml(xmlText) {
-    // Fast regex extraction for programme tags to keep main thread butter-smooth
     const progRegex = /<programme start="(\d{14}) \+0700" stop="(\d{14}) \+0700" channel="([^"]+)">\s*<title[^>]*>([^<]+)<\/title>(?:\s*<desc[^>]*>([^<]*)<\/desc>)?/g;
     let match;
     const epg = {};
+    const map = {};
 
     while ((match = progRegex.exec(xmlText)) !== null) {
       const startStr = match[1];
       const stopStr = match[2];
-      const channelId = match[3];
+      const rawChannelId = match[3].toLowerCase();
       const title = match[4].trim();
       const desc = (match[5] || '').trim();
 
       const startDate = this.parseXmlDate(startStr);
       const stopDate = this.parseXmlDate(stopStr);
 
-      if (!epg[channelId]) epg[channelId] = [];
-      epg[channelId].push({ startDate, stopDate, title, desc });
+      const item = { startDate, stopDate, title, desc };
+
+      if (!epg[rawChannelId]) epg[rawChannelId] = [];
+      epg[rawChannelId].push(item);
+
+      const norm = this.normalizeKey(rawChannelId);
+      if (norm) {
+        if (!map[norm]) map[norm] = [];
+        map[norm].push(item);
+      }
     }
 
     this.epgData = epg;
+    this.epgMap = map;
     console.log('[Timeline] EPG parsed successfully for', Object.keys(epg).length, 'channels');
   }
 
@@ -406,4 +538,3 @@ class TimelineManager {
 }
 
 window.TimelineManager = TimelineManager;
-

@@ -316,12 +316,11 @@ body {
   -webkit-backdrop-filter: blur(28px);
   border: 0.5px solid rgba(255, 255, 255, 0.12);
   border-radius: 24px;
-  overflow: hidden;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
   position: relative;
 }
 
-/* Category Switcher Bar (< VTV >) */
+/* Category Switcher Bar (Dropdown List & Current Time Jump) */
 .timeline-cat-bar {
   display: flex;
   align-items: center;
@@ -329,6 +328,9 @@ body {
   padding: 10px 16px;
   border-bottom: 0.5px solid var(--separator);
   background: rgba(24, 24, 28, 0.6);
+  position: relative;
+  z-index: 40;
+  border-radius: 24px 24px 0 0;
 }
 
 /* Timeline Scroll Area */
@@ -338,6 +340,7 @@ body {
   overflow-y: hidden;
   position: relative;
   -webkit-overflow-scrolling: touch;
+  border-radius: 0 0 24px 24px;
 }
 
 /* Left Pinned Channel Column */
@@ -463,28 +466,29 @@ body {
 /* Channel Schedule Row */
 .timeline-row {
   height: 64px;
-  display: flex;
-  align-items: center;
+  position: relative;
   border-bottom: 0.5px solid var(--separator);
   padding: 6px 0;
-  position: relative;
+  box-sizing: border-box;
 }
 
 /* Program Card Block (Khối chương trình EPG bo tròn chuẩn Strand) */
 .program-block {
+  position: absolute;
+  top: 6px;
   height: 52px;
   border-radius: 14px;
   background: rgba(38, 38, 42, 0.7);
   border: 0.5px solid rgba(255, 255, 255, 0.1);
   padding: 6px 10px;
-  margin-right: 6px;
-  flex-shrink: 0;
+  box-sizing: border-box;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .program-block:hover {
