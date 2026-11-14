@@ -563,7 +563,8 @@ class SportsManager {
     const leagueStr = (evt.leagueName || '').toLowerCase();
     const homeStr = (evt.homeTeam || '').toLowerCase();
     const awayStr = (evt.awayTeam || '').toLowerCase();
-    const combined = `${rawLeague} ${leagueStr} ${homeStr} ${awayStr}`.toLowerCase();
+    const sourcesStr = (evt.sources || []).map(s => `${s.name || ''} ${s.url || ''}`).join(' ').toLowerCase();
+    const combined = `${rawLeague} ${leagueStr} ${homeStr} ${awayStr} ${sourcesStr}`.toLowerCase();
 
     // 1. Khắc phục nhầm lẫn: AFC Wimbledon & các CLB bóng đá bị gán nhầm thành giải Tennis
     const isWimbledonFootball = combined.includes('afc wimbledon') || combined.includes('wimbledon fc') ||
@@ -574,7 +575,7 @@ class SportsManager {
         name: 'Bóng đá',
         icon: '⚽',
         badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300',
-        cleanLeague: '🌐 Trực tiếp'
+        cleanLeague: 'League Two'
       };
     }
 
@@ -621,13 +622,16 @@ class SportsManager {
       };
     }
 
-    // 6. American Football / NFL / Bóng bầu dục Mỹ
-    if (rawLeague === 'NFL' || combined.includes('nfl') || combined.includes('ncaaf') || combined.includes('american football')) {
+    // 6. American Football / NFL / NCAAF / Bóng bầu dục Mỹ
+    if (rawLeague === 'NFL' || rawLeague === 'NCAAF' ||
+        combined.includes('nfl') || combined.includes('ncaaf') || combined.includes('american football') ||
+        combined.includes('bóng bầu dục mỹ') || combined.includes('cfl') || combined.includes('🏈') ||
+        (combined.includes('ncaa') && !combined.includes('soccer') && !combined.includes('bóng đá') && !combined.includes('basketball'))) {
       return {
         name: 'Bóng bầu dục Mỹ',
         icon: '🏈',
         badgeColor: 'bg-orange-500/15 border-orange-500/35 text-orange-300',
-        cleanLeague: evt.leagueName || 'Bóng bầu dục Mỹ'
+        cleanLeague: (evt.leagueName && evt.leagueName !== 'OTHER' && evt.leagueName !== 'Bóng đá Quốc tế') ? evt.leagueName : (rawLeague === 'NFL' ? 'NFL' : 'NCAA Football')
       };
     }
 
@@ -662,17 +666,71 @@ class SportsManager {
     }
 
     // 10. Mặc định là Bóng đá (Football)
-    let cleanLeague = evt.leagueName || evt.league || 'Bóng đá Trực tiếp';
-    if (cleanLeague.includes('Tennis')) {
-      cleanLeague = '🌐 Trực tiếp';
+    let cleanLeague = (evt.leagueName || evt.league || '').replace(/🌐\s*/g, '').replace(/Trực tiếp/g, '').trim();
+    if (!cleanLeague || cleanLeague.toUpperCase() === 'OTHER' || cleanLeague.includes('Tennis')) {
+      cleanLeague = this.detectSoccerLeague(combined, homeStr, awayStr);
     }
 
     return {
       name: 'Bóng đá',
       icon: '⚽',
       badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300',
-      cleanLeague: cleanLeague
+      cleanLeague: cleanLeague || 'Bóng đá Quốc tế'
     };
+  }
+
+  detectSoccerLeague(combined, homeStr, awayStr) {
+    if (combined.includes('uefa champions') || combined.includes('champions league') || combined.includes('cúp c1')) return 'Champions League';
+    if (combined.includes('europa league') || combined.includes('cúp c2') || combined.includes('uel')) return 'Europa League';
+    if (combined.includes('conference league') || combined.includes('cúp c3') || combined.includes('uecl')) return 'Conference League';
+    if (combined.includes('premier league') || combined.includes('ngoại hạng anh') || /\bepl\b/.test(combined)) return 'EPL';
+    if (combined.includes('nations league') || combined.includes('uefa nations')) return 'UEFA Nations League';
+    if (combined.includes('world cup') || combined.includes('wcq') || combined.includes('vòng loại world cup') || combined.includes('vòng loại wc')) return 'World Cup Qualifiers';
+    if (combined.includes('giao hữu') || combined.includes('friendly')) return 'Friendly';
+    if (combined.includes('fa cup') || combined.includes('cúp fa')) return 'FA Cup';
+    if (combined.includes('carabao') || combined.includes('efl cup') || combined.includes('cúp liên đoàn')) return 'Carabao Cup';
+    if (combined.includes('championship') || combined.includes('hạng nhất anh')) return 'EFL Championship';
+    if (combined.includes('league two') || combined.includes('league 2') || combined.includes('hạng 4 anh')) return 'League Two';
+    if (combined.includes('league one') || combined.includes('league 1') || combined.includes('hạng 3 anh')) return 'League One';
+    if (combined.includes('national league')) return 'National League';
+    if (combined.includes('la liga 2') || combined.includes('laliga 2') || combined.includes('segunda') || combined.includes('hypermotion')) return 'La Liga 2';
+    if (combined.includes('la liga') || combined.includes('laliga')) return 'La Liga';
+    if (combined.includes('serie b')) return 'Serie B';
+    if (combined.includes('serie a')) return 'Serie A';
+    if (combined.includes('bundesliga 2') || combined.includes('2. bundesliga')) return '2. Bundesliga';
+    if (combined.includes('bundesliga')) return 'Bundesliga';
+    if (combined.includes('ligue 2')) return 'Ligue 2';
+    if (combined.includes('ligue 1')) return 'Ligue 1';
+    if (combined.includes('v.league 2') || combined.includes('v-league 2')) return 'V-League 2';
+    if (combined.includes('v.league') || combined.includes('v-league') || combined.includes('vleague')) return 'V-League 1';
+    if (combined.includes('copa del rey') || combined.includes('cúp nhà vua')) return 'Copa del Rey';
+    if (combined.includes('coppa italia')) return 'Coppa Italia';
+    if (combined.includes('dfb-pokal') || combined.includes('dfb pokal')) return 'DFB-Pokal';
+    if (combined.includes('afc champions') || combined.includes('cúp c1 châu á')) return 'AFC Champions League';
+    if (combined.includes('asian cup') || combined.includes('cúp châu á')) return 'AFC Asian Cup';
+    if (combined.includes('saudi') || combined.includes('roshn')) return 'Saudi Pro League';
+    if (combined.includes('mls')) return 'MLS';
+    if (combined.includes('eredivisie')) return 'Eredivisie';
+    if (combined.includes('eerste divisie')) return 'Eerste Divisie';
+
+    // English lower tier clubs
+    const lowerClubs = ['bristol', 'chesterfield', 'colchester', 'gillingham', 'crewe', 'newport', 'port vale', 'accrington', 'rochdale', 'york', 'salford', 'northampton', 'wimbledon', 'blackpool', 'bolton', 'reading', 'wrexham', 'stockport', 'mansfield', 'notts county', 'doncaster', 'bradford'];
+    if (lowerClubs.some(c => homeStr.includes(c)) || lowerClubs.some(c => awayStr.includes(c))) {
+      return 'League Two';
+    }
+
+    // National teams check
+    const euroNations = ['norway', 'na uy', 'wales', 'xứ wales', 'georgia', 'hungary', 'england', 'anh', 'france', 'pháp', 'germany', 'đức', 'italy', 'ý', 'spain', 'tây ban nha', 'portugal', 'bồ đào nha', 'netherlands', 'hà lan', 'belgium', 'bỉ', 'croatia', 'switzerland', 'thụy sĩ', 'denmark', 'đan mạch', 'sweden', 'thụy điển', 'poland', 'ba lan', 'czech', 'séc', 'austria', 'áo', 'serbia', 'scotland', 'turkey', 'thổ nhĩ kỳ', 'ukraine', 'romania', 'slovakia', 'slovenia', 'albania', 'ireland', 'greece', 'hy lạp'];
+    if (euroNations.some(c => homeStr.includes(c)) && euroNations.some(c => awayStr.includes(c))) {
+      return 'UEFA Nations League';
+    }
+
+    const otherNations = ['palestine', 'iran', 'iraq', 'vietnam', 'việt nam', 'thái lan', 'thailand', 'indonesia', 'malaysia', 'china', 'trung quốc', 'japan', 'nhật bản', 'korea', 'hàn quốc', 'qatar', 'saudi', 'uae', 'uzbekistan', 'jordan', 'uganda', 'botswana', 'brazil', 'argentina', 'uruguay', 'colombia', 'chile', 'mỹ', 'usa', 'mexico', 'senegal', 'morocco', 'nigeria', 'cameroon'];
+    if (otherNations.some(c => homeStr.includes(c)) || otherNations.some(c => awayStr.includes(c))) {
+      return 'World Cup Qualifiers';
+    }
+
+    return 'Bóng đá Quốc tế';
   }
 
   renderSports(container) {
