@@ -711,9 +711,17 @@ class ChannelManager {
     this.filteredChannels.forEach(ch => {
       const isActive = this.currentIndex === ch.id;
       const sport = ch.isSports ? this.getChannelSportInfo(ch) : null;
-      let displayName = ch.name;
-      if (sport) {
-        displayName = displayName.replace(/^[⚽🎾🏀🏎️🏉🏈🥊🏒🚴🏐🎱🏸🎵🔴]\uFE0F?\s*/, '').trim();
+      
+      // 1. Luôn loại bỏ triệt để các emoji thể thao / biểu tượng ở đầu chuỗi (hỗ trợ Unicode surrogate pairs)
+      let displayName = (ch.name || '').replace(/^[\p{Extended_Pictographic}\uFE0F\s]+/u, '').trim();
+
+      // 2. Tách thẻ thời gian dạng [HH:MM DD/MM] hoặc [24/7] để hiển thị badge nổi bật, nhường toàn bộ bề ngang cho tên trận
+      const timeMatch = displayName.match(/^(\[(?:\d{1,2}:\d{2}(?:\s+\d{1,2}\/\d{1,2})?|24\/7)\])\s*(.*)$/);
+      let timeTag = '';
+      let matchTitle = displayName;
+      if (timeMatch) {
+        timeTag = timeMatch[1];
+        matchTitle = timeMatch[2];
       }
 
       const logoHtml = ch.logo
@@ -728,21 +736,24 @@ class ChannelManager {
       html += `
         <div onclick="window.channelManager.selectChannel(${ch.id}, true)" 
              id="chan-row-${ch.id}" 
-             class="channel-row p-3.5 sm:p-4 flex items-center justify-between gap-4 cursor-pointer ${isActive ? 'active' : ''}">
-          <div class="flex items-center gap-3.5 min-w-0 flex-1">
-            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-zinc-800 to-zinc-900 border border-white/10 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden">
+             class="channel-row p-3 sm:p-3.5 flex items-center justify-between gap-3 sm:gap-4 cursor-pointer ${isActive ? 'active' : ''}">
+          <div class="flex items-center gap-3 min-w-0 flex-1">
+            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-zinc-800 to-zinc-900 border border-white/10 flex items-center justify-center p-1.5 shrink-0 shadow-inner overflow-hidden">
               ${logoHtml}
             </div>
             <div class="min-w-0 flex-1">
-              <div class="flex items-center gap-1.5 flex-wrap sm:flex-nowrap min-w-0">
-                ${sportBadgeHtml}
-                <span class="text-sm font-semibold text-white truncate ${ch.isSports ? 'text-amber-100' : ''}">${displayName}</span>
-                ${isActive ? '<span class="w-2 h-2 rounded-full bg-[var(--green)] shrink-0"></span>' : ''}
-                <span class="text-[10px] font-mono text-[var(--label-3)] shrink-0 px-1.5 py-0.5 rounded bg-white/5 border border-white/5">${ch.group}</span>
+              <!-- Dòng 1: Toàn bộ bề ngang dành cho thẻ thời gian và tên trận đấu / kênh TV -->
+              <div class="flex items-center gap-1.5 min-w-0">
+                ${timeTag ? `<span class="text-[10px] sm:text-[11px] font-mono font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-1.5 py-0.5 rounded shrink-0">${timeTag}</span>` : ''}
+                <span class="text-xs sm:text-sm font-semibold text-white leading-snug line-clamp-2 ${ch.isSports ? 'text-amber-100' : ''}" title="${displayName}">${matchTitle}</span>
+                ${isActive ? '<span class="w-2 h-2 rounded-full bg-[var(--green)] shrink-0 self-center"></span>' : ''}
               </div>
-              <p class="text-xs text-[var(--label-2)] truncate mt-0.5">
-                ${ch.isSports ? (sport ? `🔥 Trực tiếp ${sport.name} • Chạm để phát` : '🔥 Trực tiếp trận đấu • Chạm để phát') : '● Trực tiếp HD • Chạm để phát'}
-              </p>
+              <!-- Dòng 2: Phân loại môn thể thao và nhóm nguồn phát -->
+              <div class="flex items-center gap-1.5 mt-1 min-w-0 flex-wrap">
+                ${sportBadgeHtml}
+                <span class="text-[10px] font-mono text-[var(--label-3)] px-1.5 py-0.5 rounded bg-white/5 border border-white/5 truncate max-w-[160px]">${ch.group}</span>
+                ${!ch.isSports ? '<span class="text-[11px] text-[var(--label-2)] truncate">● Trực tiếp HD</span>' : ''}
+              </div>
             </div>
           </div>
           <div class="hidden sm:block text-right shrink-0">
@@ -773,10 +784,7 @@ class ChannelManager {
     // Inform player
     if (this.player && autoPlay) {
       const sport = ch.isSports ? this.getChannelSportInfo(ch) : null;
-      let cleanTitle = ch.name;
-      if (sport) {
-        cleanTitle = cleanTitle.replace(/^[⚽🎾🏀🏎️🏉🏈🥊🏒🚴🏐🎱🏸🎵🔴]\uFE0F?\s*/, '').trim();
-      }
+      let cleanTitle = (ch.name || '').replace(/^[\p{Extended_Pictographic}\uFE0F\s]+/u, '').trim();
 
       this.player.playStream(ch.url, {
         name: ch.name,
