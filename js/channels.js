@@ -19,7 +19,7 @@ class ChannelManager {
       {
         id: 'ktv_main',
         name: 'KTV Chuẩn (VTV, Thể Thao, Tin Tức)',
-        url: 'https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u',
+        url: 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u',
         isDefault: true
       }
     ];
@@ -46,6 +46,15 @@ class ChannelManager {
       this.savePlaylists();
     } else {
       this.playlists = saved;
+      // Tự động nâng cấp link CDN jsDelivr cũ sang Raw GitHub để luôn phản ánh thay đổi tức thời
+      let updated = false;
+      this.playlists.forEach(p => {
+        if (p.url && p.url.includes('jsdelivr.net/gh/ndkhoams/iptv')) {
+          p.url = 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u';
+          updated = true;
+        }
+      });
+      if (updated) this.savePlaylists();
     }
 
     this.activePlaylistId = localStorage.getItem('tvplay_active_playlist_id') || this.playlists[0].id;
@@ -168,10 +177,38 @@ class ChannelManager {
     const activePl = this.getActivePlaylist();
 
     try {
-      // 1. Tải danh sách kênh TV từ playlist hiện tại
-      const res = await fetch(activePl.url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const m3uText = await res.text();
+      // 1. Tải danh sách kênh TV từ playlist hiện tại (thêm cache-buster & no-store để luôn có dữ liệu mới nhất)
+      let targetUrl = activePl.url;
+      if (targetUrl.includes('jsdelivr.net/gh/ndkhoams/iptv')) {
+        targetUrl = 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u';
+        activePl.url = targetUrl;
+        this.savePlaylists();
+      }
+
+      const cacheBuster = targetUrl.includes('?') ? `&t=${Date.now()}` : `?t=${Date.now()}`;
+      let m3uText = null;
+
+      try {
+        const res = await fetch(`${targetUrl}${cacheBuster}`, {
+          signal: AbortSignal.timeout(6000),
+          cache: 'no-store'
+        });
+        if (res.ok) m3uText = await res.text();
+      } catch (fErr) {
+        console.warn('[Channels] Fetch targetUrl error, fallback:', fErr);
+      }
+
+      // Dự phòng nếu không tải được từ URL chính
+      if (!m3uText) {
+        const fallbackUrl = targetUrl.includes('raw.githubusercontent.com')
+          ? targetUrl.replace('raw.githubusercontent.com/ndkhoams/iptv/main', 'fastly.jsdelivr.net/gh/ndkhoams/iptv@main')
+          : `https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u`;
+        const resFb = await fetch(`${fallbackUrl}${cacheBuster}`, { cache: 'no-store' });
+        if (resFb.ok) m3uText = await resFb.text();
+      }
+
+      if (!m3uText) throw new Error('Không thể tải dữ liệu M3U');
+
       this.tvChannels = this.parseM3U(m3uText, false);
 
       // 2. Tải toàn bộ danh sách các trận đấu từ thethao.m3u (nếu nguồn đang dùng chưa phải là thethao.m3u)
