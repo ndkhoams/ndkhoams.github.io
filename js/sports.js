@@ -558,6 +558,70 @@ class SportsManager {
     return merged;
   }
 
+  getSportInfo(evt) {
+    const rawLeague = (evt.league || '').toUpperCase();
+    const leagueStr = (evt.leagueName || '').toLowerCase();
+    const homeStr = (evt.homeTeam || '').toLowerCase();
+    const awayStr = (evt.awayTeam || '').toLowerCase();
+    const combined = `${rawLeague} ${leagueStr} ${homeStr} ${awayStr}`.toLowerCase();
+
+    // 1. Khắc phục nhầm lẫn: AFC Wimbledon & các CLB bóng đá bị gán nhầm thành giải Tennis
+    const isWimbledonFootball = combined.includes('afc wimbledon') || combined.includes('wimbledon fc') ||
+      (combined.includes('wimbledon') && (combined.includes('blackpool') || combined.includes('efl') || combined.includes('fa cup') || combined.includes('league two') || combined.includes('league 2')));
+
+    if (isWimbledonFootball) {
+      return {
+        name: 'Bóng đá',
+        icon: '⚽',
+        badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300',
+        cleanLeague: '🌐 Trực tiếp'
+      };
+    }
+
+    // 2. F1 / Đua xe công thức 1
+    if (rawLeague === 'F1' || combined.includes('formula 1') || combined.includes('f1') || combined.includes('grand prix') || combined.includes('đua xe')) {
+      return {
+        name: 'Đua xe F1',
+        icon: '🏎️',
+        badgeColor: 'bg-rose-500/15 border-rose-500/35 text-rose-300',
+        cleanLeague: 'Formula 1'
+      };
+    }
+
+    // 3. Tennis / Quần vợt
+    if (rawLeague === 'TENNIS' || combined.includes('tennis') || combined.includes('quần vợt') || combined.includes('atp') || combined.includes('wta') || combined.includes('grand slam') || (combined.includes('wimbledon') && !combined.includes('afc'))) {
+      return {
+        name: 'Quần vợt',
+        icon: '🎾',
+        badgeColor: 'bg-yellow-500/15 border-yellow-500/35 text-yellow-300',
+        cleanLeague: 'Tennis ATP / Grand Slam'
+      };
+    }
+
+    // 4. Basketball / Bóng rổ
+    if (rawLeague === 'NBA' || combined.includes('nba') || combined.includes('bóng rổ') || combined.includes('basketball')) {
+      return {
+        name: 'Bóng rổ',
+        icon: '🏀',
+        badgeColor: 'bg-amber-500/15 border-amber-500/35 text-amber-300',
+        cleanLeague: 'Bóng rổ NBA'
+      };
+    }
+
+    // 5. Mặc định là Bóng đá (Football)
+    let cleanLeague = evt.leagueName || evt.league || 'Bóng đá Trực tiếp';
+    if (cleanLeague.includes('Tennis')) {
+      cleanLeague = '🌐 Trực tiếp';
+    }
+
+    return {
+      name: 'Bóng đá',
+      icon: '⚽',
+      badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300',
+      cleanLeague: cleanLeague
+    };
+  }
+
   renderSports(container) {
     if (!container) container = document.getElementById('sportsContainer');
     if (!container) return;
@@ -574,7 +638,8 @@ class SportsManager {
     let html = '';
     this.liveEvents.forEach((evt, idx) => {
       const isLive = evt.isOngoing !== false;
-      const league = evt.leagueName || evt.league || 'BÓNG ĐÁ TRỰC TIẾP';
+      const sport = this.getSportInfo(evt);
+      const league = sport.cleanLeague;
       const home = evt.homeTeam || 'Đội nhà';
       const away = evt.awayTeam || 'Đội khách';
 
@@ -607,12 +672,19 @@ class SportsManager {
                isEventActive ? 'border-[var(--accent)] bg-orange-500/[0.04]' : isExpanded ? 'border-white/25 bg-white/[0.04]' : 'border-white/10 hover:border-white/20'
              } transition-all duration-200 cursor-pointer relative overflow-hidden select-none">
           
-          <!-- Top Row: League, Kick-off Time & Status Badge -->
+          <!-- Top Row: Sport Name & League, Kick-off Time & Status Badge -->
           <div class="flex items-center justify-between gap-2 text-xs text-[var(--label-2)]">
-            <span class="font-bold text-[var(--blue)] truncate max-w-[130px] sm:max-w-[170px] flex items-center gap-1.5 shrink-0">
-              <span class="text-sm">⚽</span>
-              <span class="truncate">${league}</span>
-            </span>
+            <div class="flex items-center gap-1.5 min-w-0 flex-1">
+              <!-- Sport Name Badge (Hiện tên môn thể thao thay vì logo quả bóng ở đầu tiên) -->
+              <span class="px-2 py-0.5 rounded-md font-bold text-[11px] flex items-center gap-1 border ${sport.badgeColor} shrink-0 shadow-sm">
+                <span>${sport.icon}</span>
+                <span>${sport.name}</span>
+              </span>
+              <!-- League Name -->
+              <span class="font-bold text-[var(--blue)] truncate">
+                ${league}
+              </span>
+            </div>
 
             <div class="flex items-center gap-1.5 shrink-0">
               ${time ? `
