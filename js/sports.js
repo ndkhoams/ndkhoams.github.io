@@ -578,7 +578,20 @@ class SportsManager {
       };
     }
 
-    // 2. F1 / Đua xe công thức 1
+    // 2. Rugby / Bóng bầu dục (Autumn Nations, Nations Championship, Six Nations, NRL...)
+    if (rawLeague === 'RUGBY' || combined.includes('rugby') || combined.includes('bóng bầu dục') || combined.includes('nations championship') || 
+        combined.includes('autumn nations') || combined.includes('six nations') || combined.includes('all blacks') ||
+        (combined.includes('italy') && combined.includes('argentina') && (combined.includes('nations') || combined.includes('rugby'))) ||
+        (combined.includes('wales') && combined.includes('new zealand') && (combined.includes('nations') || combined.includes('rugby')))) {
+      return {
+        name: 'Bóng bầu dục',
+        icon: '🏉',
+        badgeColor: 'bg-emerald-500/15 border-emerald-500/35 text-emerald-300',
+        cleanLeague: evt.leagueName || 'Bóng bầu dục Quốc tế'
+      };
+    }
+
+    // 3. F1 / Đua xe công thức 1
     if (rawLeague === 'F1' || combined.includes('formula 1') || combined.includes('f1') || combined.includes('grand prix') || combined.includes('đua xe')) {
       return {
         name: 'Đua xe F1',
@@ -588,7 +601,7 @@ class SportsManager {
       };
     }
 
-    // 3. Tennis / Quần vợt
+    // 4. Tennis / Quần vợt
     if (rawLeague === 'TENNIS' || combined.includes('tennis') || combined.includes('quần vợt') || combined.includes('atp') || combined.includes('wta') || combined.includes('grand slam') || (combined.includes('wimbledon') && !combined.includes('afc'))) {
       return {
         name: 'Quần vợt',
@@ -598,7 +611,7 @@ class SportsManager {
       };
     }
 
-    // 4. Basketball / Bóng rổ
+    // 5. Basketball / Bóng rổ
     if (rawLeague === 'NBA' || combined.includes('nba') || combined.includes('bóng rổ') || combined.includes('basketball')) {
       return {
         name: 'Bóng rổ',
@@ -608,7 +621,47 @@ class SportsManager {
       };
     }
 
-    // 5. Mặc định là Bóng đá (Football)
+    // 6. American Football / NFL / Bóng bầu dục Mỹ
+    if (rawLeague === 'NFL' || combined.includes('nfl') || combined.includes('ncaaf') || combined.includes('american football')) {
+      return {
+        name: 'Bóng bầu dục Mỹ',
+        icon: '🏈',
+        badgeColor: 'bg-orange-500/15 border-orange-500/35 text-orange-300',
+        cleanLeague: evt.leagueName || 'Bóng bầu dục Mỹ'
+      };
+    }
+
+    // 7. Ice Hockey / Khúc côn cầu
+    if (rawLeague === 'NHL' || combined.includes('nhl') || combined.includes('khúc côn cầu') || combined.includes('hockey')) {
+      return {
+        name: 'Khúc côn cầu',
+        icon: '🏒',
+        badgeColor: 'bg-cyan-500/15 border-cyan-500/35 text-cyan-300',
+        cleanLeague: evt.leagueName || 'Khúc côn cầu'
+      };
+    }
+
+    // 8. Võ thuật / UFC / Boxing / MMA
+    if (combined.includes('ufc') || combined.includes('boxing') || combined.includes('mma') || combined.includes('one championship') || combined.includes('võ thuật')) {
+      return {
+        name: 'Võ thuật',
+        icon: '🥊',
+        badgeColor: 'bg-red-500/15 border-red-500/35 text-red-300',
+        cleanLeague: evt.leagueName || 'Võ thuật'
+      };
+    }
+
+    // 9. Volleyball / Bóng chuyền
+    if (combined.includes('volleyball') || combined.includes('bóng chuyền')) {
+      return {
+        name: 'Bóng chuyền',
+        icon: '🏐',
+        badgeColor: 'bg-blue-500/15 border-blue-500/35 text-blue-300',
+        cleanLeague: evt.leagueName || 'Bóng chuyền'
+      };
+    }
+
+    // 10. Mặc định là Bóng đá (Football)
     let cleanLeague = evt.leagueName || evt.league || 'Bóng đá Trực tiếp';
     if (cleanLeague.includes('Tennis')) {
       cleanLeague = '🌐 Trực tiếp';

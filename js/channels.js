@@ -579,6 +579,121 @@ class ChannelManager {
     this.renderChannelList();
   }
 
+  getChannelSportInfo(ch) {
+    if (!ch) return null;
+    if (!ch.isSports && !ch.group?.includes('Thể Thao') && !ch.group?.includes('Live Events') && !ch.group?.includes('SPORT')) {
+      return null;
+    }
+
+    const name = (ch.name || '').toLowerCase();
+    const group = (ch.group || '').toLowerCase();
+    const logo = (ch.logo || '').toLowerCase();
+    const combined = `${name} ${group} ${logo}`;
+
+    // 1. Khắc phục nhầm lẫn: AFC Wimbledon & các CLB bóng đá bị gán nhầm thành giải Tennis
+    const isWimbledonFootball = combined.includes('afc wimbledon') || combined.includes('wimbledon fc') ||
+      (combined.includes('wimbledon') && (combined.includes('blackpool') || combined.includes('efl') || combined.includes('fa cup') || combined.includes('league two') || combined.includes('league 2')));
+
+    if (isWimbledonFootball) {
+      return {
+        name: 'Bóng đá',
+        icon: '⚽',
+        badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300'
+      };
+    }
+
+    // 2. Rugby / Bóng bầu dục (Nations Championship, Autumn Nations, Six Nations, All Blacks, Springboks...)
+    if (logo.includes('/rugby/') || combined.includes('rugby') || combined.includes('bóng bầu dục') || combined.includes('nations championship') || 
+        combined.includes('autumn nations') || combined.includes('six nations') || combined.includes('all blacks') ||
+        (combined.includes('italy') && combined.includes('argentina') && (combined.includes('nations') || combined.includes('rugby') || combined.includes('18:40'))) ||
+        (combined.includes('wales') && combined.includes('new zealand') && (combined.includes('nations') || combined.includes('rugby') || combined.includes('21:10')))) {
+      return {
+        name: 'Bóng bầu dục',
+        icon: '🏉',
+        badgeColor: 'bg-emerald-500/15 border-emerald-500/35 text-emerald-300'
+      };
+    }
+
+    // 3. F1 / Đua xe tốc độ
+    if (combined.includes('f1') || combined.includes('formula 1') || combined.includes('grand prix') || combined.includes('motogp') || combined.includes('đua xe')) {
+      return {
+        name: 'Đua xe F1',
+        icon: '🏎️',
+        badgeColor: 'bg-rose-500/15 border-rose-500/35 text-rose-300'
+      };
+    }
+
+    // 4. Tennis / Quần vợt
+    if (logo.includes('/tennis/') || combined.includes('tennis') || combined.includes('quần vợt') || combined.includes('atp') || combined.includes('wta') || combined.includes('grand slam') || (combined.includes('wimbledon') && !combined.includes('afc'))) {
+      return {
+        name: 'Quần vợt',
+        icon: '🎾',
+        badgeColor: 'bg-yellow-500/15 border-yellow-500/35 text-yellow-300'
+      };
+    }
+
+    // 5. Basketball / Bóng rổ
+    if (logo.includes('/basketball/') || combined.includes('nba') || combined.includes('bóng rổ') || combined.includes('basketball')) {
+      return {
+        name: 'Bóng rổ',
+        icon: '🏀',
+        badgeColor: 'bg-amber-500/15 border-amber-500/35 text-amber-300'
+      };
+    }
+
+    // 6. American football / NFL / NCAA Football
+    if (logo.includes('/american-football/') || combined.includes('nfl') || combined.includes('ncaaf') || combined.includes('american football') || combined.includes('bóng bầu dục mỹ')) {
+      return {
+        name: 'Bóng bầu dục Mỹ',
+        icon: '🏈',
+        badgeColor: 'bg-orange-500/15 border-orange-500/35 text-orange-300'
+      };
+    }
+
+    // 7. Ice Hockey / Khúc côn cầu
+    if (logo.includes('/hockey/') || combined.includes('nhl') || combined.includes('khúc côn cầu') || combined.includes('hockey')) {
+      return {
+        name: 'Khúc côn cầu',
+        icon: '🏒',
+        badgeColor: 'bg-cyan-500/15 border-cyan-500/35 text-cyan-300'
+      };
+    }
+
+    // 8. Võ thuật / UFC / Boxing / MMA
+    if (logo.includes('/mma/') || combined.includes('ufc') || combined.includes('boxing') || combined.includes('mma') || combined.includes('one championship') || combined.includes('võ thuật')) {
+      return {
+        name: 'Võ thuật',
+        icon: '🥊',
+        badgeColor: 'bg-red-500/15 border-red-500/35 text-red-300'
+      };
+    }
+
+    // 9. Volleyball / Bóng chuyền
+    if (logo.includes('/volleyball/') || combined.includes('volleyball') || combined.includes('bóng chuyền')) {
+      return {
+        name: 'Bóng chuyền',
+        icon: '🏐',
+        badgeColor: 'bg-blue-500/15 border-blue-500/35 text-blue-300'
+      };
+    }
+
+    // 10. Sự kiện âm nhạc / ca nhạc / giải trí
+    if (combined.includes('y - fest') || combined.includes('y fest') || combined.includes('ca nhạc') || combined.includes('concert') || combined.includes('liveshow')) {
+      return {
+        name: 'Sự kiện âm nhạc',
+        icon: '🎵',
+        badgeColor: 'bg-purple-500/15 border-purple-500/35 text-purple-300'
+      };
+    }
+
+    // 11. Mặc định là Bóng đá
+    return {
+      name: 'Bóng đá',
+      icon: '⚽',
+      badgeColor: 'bg-sky-500/15 border-sky-500/35 text-sky-300'
+    };
+  }
+
   renderChannelList() {
     const container = document.getElementById('channelContainer');
     if (!container) return;
@@ -595,10 +710,20 @@ class ChannelManager {
     let html = '';
     this.filteredChannels.forEach(ch => {
       const isActive = this.currentIndex === ch.id;
+      const sport = ch.isSports ? this.getChannelSportInfo(ch) : null;
+      let displayName = ch.name;
+      if (sport) {
+        displayName = displayName.replace(/^[⚽🎾🏀🏎️🏉🏈🥊🏒🚴🏐🎱🏸🎵🔴]\uFE0F?\s*/, '').trim();
+      }
+
       const logoHtml = ch.logo
-        ? `<img src="${ch.logo}" alt="${ch.name}" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-           <span style="display:none;" class="text-xs font-black text-[var(--orange)]">${ch.isSports ? '⚽' : ch.name.substring(0, 4)}</span>`
-        : `<span class="text-xs font-black text-[var(--orange)]">${ch.isSports ? '⚽' : ch.name.substring(0, 4)}</span>`;
+        ? `<img src="${ch.logo}" alt="${displayName}" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+           <span style="display:none;" class="text-xs font-black text-[var(--orange)]">${sport ? sport.icon : displayName.substring(0, 4)}</span>`
+        : `<span class="text-xs font-black text-[var(--orange)]">${sport ? sport.icon : displayName.substring(0, 4)}</span>`;
+
+      const sportBadgeHtml = sport
+        ? `<span class="px-1.5 py-0.5 rounded text-[10px] font-bold border ${sport.badgeColor} shrink-0">${sport.icon} ${sport.name}</span>`
+        : '';
 
       html += `
         <div onclick="window.channelManager.selectChannel(${ch.id}, true)" 
@@ -609,19 +734,20 @@ class ChannelManager {
               ${logoHtml}
             </div>
             <div class="min-w-0 flex-1">
-              <div class="flex items-center gap-2 flex-wrap sm:flex-nowrap">
-                <span class="text-sm font-semibold text-white truncate ${ch.isSports ? 'text-amber-100' : ''}">${ch.name}</span>
+              <div class="flex items-center gap-1.5 flex-wrap sm:flex-nowrap min-w-0">
+                ${sportBadgeHtml}
+                <span class="text-sm font-semibold text-white truncate ${ch.isSports ? 'text-amber-100' : ''}">${displayName}</span>
                 ${isActive ? '<span class="w-2 h-2 rounded-full bg-[var(--green)] shrink-0"></span>' : ''}
                 <span class="text-[10px] font-mono text-[var(--label-3)] shrink-0 px-1.5 py-0.5 rounded bg-white/5 border border-white/5">${ch.group}</span>
               </div>
               <p class="text-xs text-[var(--label-2)] truncate mt-0.5">
-                ${ch.isSports ? '🔥 Trực tiếp trận đấu • Chạm để phát' : '● Trực tiếp HD • Chạm để phát'}
+                ${ch.isSports ? (sport ? `🔥 Trực tiếp ${sport.name} • Chạm để phát` : '🔥 Trực tiếp trận đấu • Chạm để phát') : '● Trực tiếp HD • Chạm để phát'}
               </p>
             </div>
           </div>
           <div class="hidden sm:block text-right shrink-0">
             <span class="text-[11px] text-[var(--label-3)]">#${ch.id + 1}</span>
-            <p class="text-xs font-mono ${ch.isSports ? 'text-orange-400 font-bold' : 'text-[var(--label-2)]'}">${ch.isSports ? 'LIVE ⚽' : '1080p'}</p>
+            <p class="text-xs font-mono ${ch.isSports ? 'text-orange-400 font-bold' : 'text-[var(--label-2)]'}">${sport ? `${sport.icon} LIVE` : (ch.isSports ? 'LIVE' : '1080p')}</p>
           </div>
         </div>
       `;
@@ -646,10 +772,16 @@ class ChannelManager {
 
     // Inform player
     if (this.player && autoPlay) {
+      const sport = ch.isSports ? this.getChannelSportInfo(ch) : null;
+      let cleanTitle = ch.name;
+      if (sport) {
+        cleanTitle = cleanTitle.replace(/^[⚽🎾🏀🏎️🏉🏈🥊🏒🚴🏐🎱🏸🎵🔴]\uFE0F?\s*/, '').trim();
+      }
+
       this.player.playStream(ch.url, {
         name: ch.name,
-        title: ch.isSports ? ch.name : `${ch.name} (Trực tiếp)`,
-        subtitle: ch.isSports ? `Trực tiếp thể thao • ${ch.group}` : `Phát từ nguồn: ${ch.group} • Nền tảng Apple Screens & Web`,
+        title: ch.isSports ? (sport ? `${sport.icon} ${cleanTitle}` : cleanTitle) : `${ch.name} (Trực tiếp)`,
+        subtitle: ch.isSports ? `Trực tiếp ${sport ? sport.name : 'thể thao'} • ${ch.group}` : `Phát từ nguồn: ${ch.group} • Nền tảng Apple Screens & Web`,
         group: ch.group,
         dash: ch.dash,
         clearKey: ch.clearKey
