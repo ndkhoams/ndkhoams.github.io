@@ -78,35 +78,32 @@ class StrandPlayer {
         }
         return shakaInstance.load(targetUrl);
       }).then(() => {
-        this.video.play().catch(e => console.warn('[Player] Shaka play catch:', e));
+        this.safePlay();
       }).catch(err => {
         console.error('[Player] Shaka error, falling back:', err);
         this.video.src = targetUrl;
-        this.video.play().catch(() => {});
+        this.safePlay();
       });
     }
     // 2. Native iOS Safari support (Preferred on Apple screens for HLS)
     else if (!isDash && this.video.canPlayType('application/vnd.apple.mpegurl')) {
       this.video.src = targetUrl;
-      const playPromise = this.video.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(err => {
-          console.warn('[Player] Autoplay prevented, waiting for user tap:', err);
-          this.showPlayButtonOverlay(true);
-        });
-      }
+      this.safePlay();
     } 
     // 3. Hls.js fallback for Desktop Chrome, Firefox, Edge
     else if (window.Hls && window.Hls.isSupported() && isHls) {
       this.hls = new window.Hls({
         enableWorker: true,
-        lowLatencyMode: true,
-        backBufferLength: 60
+        lowLatencyMode: false,
+        backBufferLength: 60,
+        xhrSetup: function(xhr, url) {
+          xhr.withCredentials = false;
+        }
       });
       this.hls.loadSource(targetUrl);
       this.hls.attachMedia(this.video);
       this.hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
-        this.video.play().catch(e => console.warn('[Player] HLS play catch:', e));
+        this.safePlay();
       });
       this.hls.on(window.Hls.Events.ERROR, (event, data) => {
         if (data.fatal) {
@@ -120,21 +117,61 @@ class StrandPlayer {
               this.hls.recoverMediaError();
               break;
             default:
-              console.error('[Player] Unrecoverable HLS error');
+              console.error('[Player] Unrecoverable HLS error, falling back to Shaka Player / Native...');
               this.hls.destroy();
+              if (window.shaka && window.shaka.Player && window.shaka.Player.isBrowserSupported()) {
+                const sp = new window.shaka.Player();
+                this.shakaPlayer = sp;
+                sp.attach(this.video).then(() => sp.load(targetUrl)).then(() => this.safePlay()).catch(() => {
+                  this.video.src = targetUrl;
+                  this.safePlay();
+                });
+              } else {
+                this.video.src = targetUrl;
+                this.safePlay();
+              }
               break;
           }
         }
       });
     } 
-    // 3. Fallback direct src
+    // 4. Fallback direct src
     else {
       this.video.src = targetUrl;
-      this.video.play().catch(() => {});
+      this.safePlay();
     }
 
     // Update Ambient Glow based on group or title
     this.updateAmbientGlow(channelInfo);
+  }
+
+  safePlay() {
+    if (!this.video) return;
+    const playPromise = this.video.play();
+    if (playPromise !== undefined) {
+      playPromise.then(() => {
+        this.showPlayButtonOverlay(false);
+        this.showBuffering(false);
+      }).catch(err => {
+        console.warn('[Player] Unmuted autoplay blocked by browser policy, retrying muted...', err);
+        // Trình duyệt máy tính (Chrome/Edge) chặn phát kèm tiếng nếu chưa click trực tiếp vào video
+        // Tự động chuyển sang muted để video bắt đầu phát ngay lập tức
+        this.video.muted = true;
+        this.updateMuteUI(true);
+
+        const retryPromise = this.video.play();
+        if (retryPromise !== undefined) {
+          retryPromise.then(() => {
+            this.showPlayButtonOverlay(false);
+            this.showBuffering(false);
+          }).catch(err2 => {
+            console.warn('[Player] Autoplay completely blocked, showing play button:', err2);
+            this.showPlayButtonOverlay(true);
+            this.showBuffering(false);
+          });
+        }
+      });
+    }
   }
 
   togglePlay() {
@@ -149,10 +186,14 @@ class StrandPlayer {
   toggleMute() {
     if (!this.video) return;
     this.video.muted = !this.video.muted;
+    this.updateMuteUI(this.video.muted);
+  }
+
+  updateMuteUI(isMuted) {
     const muteIcon = document.getElementById('muteIcon');
     const unmuteIcon = document.getElementById('unmuteIcon');
     if (muteIcon && unmuteIcon) {
-      if (this.video.muted) {
+      if (isMuted) {
         muteIcon.classList.remove('hidden');
         unmuteIcon.classList.add('hidden');
       } else {
