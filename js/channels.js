@@ -293,11 +293,47 @@ class ChannelManager {
         const groupMatch = line.match(/group-title="([^"]*)"/i);
         if (groupMatch && groupMatch[1]) {
           let grp = groupMatch[1].trim();
-          // CHỈ chuẩn hóa sang 🔴 Live Events (Film4k) khi đây là file thể thao (thethao.m3u)
-          // TUYỆT ĐỐI không gộp nhầm nhóm phim VOD ("LIVE EVENTS 🔴") trong ktv.m3u
-          if (isSports && (grp.includes('Sự Kiện Trực Tiếp / TV360') || grp.includes('Live Events (Film4k)'))) {
+
+          // 1. Gộp Film4k / Antsports và các sự kiện trực tiếp vào chung 🔴 Live Events (Film4k)
+          if (isSports && (
+            grp.includes('Film4k') ||
+            grp.includes('Antsports') ||
+            grp.includes('Sự Kiện Trực Tiếp / TV360') ||
+            grp.includes('Live Events (Film4k)')
+          )) {
             grp = '🔴 Live Events (Film4k)';
           }
+
+          // 2. Gộp các thư mục kênh thể thao quốc tế
+          if (
+            grp === 'THỂ THAO QUỐC TẾ' ||
+            grp === '⚽| Thể thao quốc tế' ||
+            grp === 'Thể Thao' ||
+            grp === '📺 SPORT 24/7 TV' ||
+            grp === 'SPORT 24/7 TV' ||
+            grp === '⚽ Thể Thao Quốc Tế'
+          ) {
+            grp = '⚽ Thể Thao Quốc Tế';
+          }
+
+          // 3. Gộp các thư mục kênh truyền hình quốc tế
+          const grpLower = grp.toLowerCase();
+          if (
+            grp === 'Quốc Tế' ||
+            grp === '🌐 Kênh Quốc Tế' ||
+            grpLower.includes('trung quốc') ||
+            grpLower.includes('hàn quốc') ||
+            grpLower.includes('thái lan') ||
+            grpLower.includes('israel') ||
+            grpLower.includes('tvb')
+          ) {
+            grp = '🌐 Kênh Quốc Tế';
+          }
+
+          if (grp === '🇬🇧 UK Radio') {
+            grp = 'Radio';
+          }
+
           currentChannel.group = grp;
         }
 
