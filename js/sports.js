@@ -40,6 +40,31 @@ class SportsManager {
       .trim();
   }
 
+  toEnglishTeam(name) {
+    if (!name) return '';
+    const clean = name.replace(/^(?:đội tuyển quốc gia|đội tuyển|đtqg|đt|tuyển|clb|fc)\s+/i, '').trim();
+    const unacc = clean
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[đĐ]/g, 'd')
+      .replace(/[^a-zA-Z0-9\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+
+    if (VN_TO_ENG_TEAMS[unacc]) return VN_TO_ENG_TEAMS[unacc];
+    for (const k in VN_TO_ENG_TEAMS) {
+      if (unacc === k || (' ' + unacc + ' ').includes(' ' + k + ' ')) {
+        return VN_TO_ENG_TEAMS[k];
+      }
+    }
+    return unacc.split(' ').map(w => {
+      if (/^\d+[a-zA-Z]+$/.test(w)) return w.toLowerCase();
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    }).join(' ');
+  }
+
+
   initCountryFlags() {
     const FLAGS = {
       vn: ['vietnam', 'viet nam'],
@@ -539,18 +564,16 @@ class SportsManager {
             }
           }
         }
-        if (hasVietnamese(evt.homeTeam) && !hasVietnamese(found.homeTeam)) {
-          found.homeTeam = cleanDisplay(evt.homeTeam);
-        }
-        if (hasVietnamese(evt.awayTeam) && !hasVietnamese(found.awayTeam)) {
-          found.awayTeam = cleanDisplay(evt.awayTeam);
-        }
+        const hEng = this.toEnglishTeam(evt.homeTeam);
+        const aEng = this.toEnglishTeam(evt.awayTeam);
+        if (hEng) found.homeTeam = hEng;
+        if (aEng) found.awayTeam = aEng;
         if (evt.isOngoing) found.isOngoing = true;
       } else {
         merged.push({
           ...evt,
-          homeTeam: cleanDisplay(evt.homeTeam),
-          awayTeam: cleanDisplay(evt.awayTeam),
+          homeTeam: this.toEnglishTeam(evt.homeTeam) || 'Home Team',
+          awayTeam: this.toEnglishTeam(evt.awayTeam) || 'Away Team',
           sources: [...(evt.sources || [])]
         });
       }
@@ -751,8 +774,8 @@ class SportsManager {
       const isLive = evt.isOngoing !== false;
       const sport = this.getSportInfo(evt);
       const league = sport.cleanLeague;
-      const home = evt.homeTeam || 'Đội nhà';
-      const away = evt.awayTeam || 'Đội khách';
+      const home = this.toEnglishTeam(evt.homeTeam) || 'Home Team';
+      const away = this.toEnglishTeam(evt.awayTeam) || 'Away Team';
 
       // 1. Trích xuất giờ thi đấu và ngày thi đấu (Kick-off Time & Date)
       let time = evt.time || '';
@@ -960,7 +983,7 @@ class SportsManager {
     if (this.player) {
       this.player.playStream(stream.url, {
         name: evt.leagueName || 'Thể Thao Trực Tiếp',
-        title: `${evt.homeTeam} vs ${evt.awayTeam}`,
+        title: `${this.toEnglishTeam(evt.homeTeam)} vs ${this.toEnglishTeam(evt.awayTeam)}`,
         subtitle: `${streamLabel} • ${stream.name || 'Bình luận tiếng Việt'}`,
         group: 'Thể Thao',
         dash: stream.dash,
