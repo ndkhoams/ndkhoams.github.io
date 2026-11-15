@@ -7,6 +7,32 @@
  * - Matches are compact by default; tapping a match expands its stream channels list.
  */
 
+const VN_TO_ENG_TEAMS = {
+  "phap": "France", "tho nhi ky": "Turkey", "sip": "Cyprus", "tay ban nha": "Spain",
+  "y": "Italy", "duc": "Germany", "anh": "England", "bo dao nha": "Portugal",
+  "ha lan": "Netherlands", "bi": "Belgium", "thuy si": "Switzerland", "dan mach": "Denmark",
+  "na uy": "Norway", "thuy dien": "Sweden", "ba lan": "Poland", "sec": "Czech Republic",
+  "cong hoa sec": "Czech Republic", "ao": "Austria", "hy lap": "Greece", "my": "USA",
+  "uc": "Australia", "nhat ban": "Japan", "nhat": "Japan", "han quoc": "South Korea",
+  "han": "South Korea", "trung quoc": "China", "trung": "China", "trieu tien": "North Korea",
+  "thai lan": "Thailand", "viet nam": "Vietnam", "vietnam": "Vietnam", "lao": "Laos",
+  "campuchia": "Cambodia", "bo bien nga": "Ivory Coast", "nam phi": "South Africa",
+  "a rap xe ut": "Saudi Arabia", "a rap saudi": "Saudi Arabia", "xu wales": "Wales",
+  "wales": "Wales", "bac ireland": "Northern Ireland", "cong hoa ireland": "Ireland",
+  "ireland": "Ireland", "nga": "Russia", "phan lan": "Finland", "dai loan": "Chinese Taipei",
+  "dai bac": "Chinese Taipei", "an do": "India", "maroc": "Morocco", "ai cap": "Egypt",
+  "mon-te-ne-gro": "Montenegro", "montenegro": "Montenegro", "armenia": "Armenia",
+  "latvia": "Latvia", "finland": "Finland", "belarus": "Belarus", "albania": "Albania",
+  "san marino": "San Marino", "kazakhstan": "Kazakhstan", "slovakia": "Slovakia",
+  "hungary": "Hungary", "serbia": "Serbia", "georgia": "Georgia", "croatia": "Croatia",
+  "scotland": "Scotland", "romania": "Romania", "slovenia": "Slovenia", "iceland": "Iceland",
+  "luxembourg": "Luxembourg", "estonia": "Estonia", "bulgaria": "Bulgaria",
+  "lithuania": "Lithuania", "liechtenstein": "Liechtenstein", "gibraltar": "Gibraltar",
+  "malta": "Malta", "faroe islands": "Faroe Islands", "faroe": "Faroe Islands",
+  "moldova": "Moldova", "north macedonia": "North Macedonia", "macedonia": "North Macedonia",
+  "venezuela": "Venezuela", "turkiye": "Turkey"
+};
+
 class SportsManager {
   constructor(player) {
     this.player = player;
