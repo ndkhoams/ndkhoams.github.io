@@ -1,6 +1,278 @@
 {
-  "updated_at": "2026-11-17 06:33:26",
+  "updated_at": "2026-11-17 06:48:47",
   "live_events": [
+    {
+      "key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
+      "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
+      "c_home": "washingtonwizards",
+      "c_away": "memphisgrizzlies",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Memphis Grizzlies",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "17/11",
+      "timestamp": 1794873600000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [07:00 17/11] Washington Wizards vs Memphis Grizzlies (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18611/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/161.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Washington Wizards vs Memphis Grizzlies (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794876428-0-0-282dc30782113cee0c01311feabe55db",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Washington Wizards vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794876428-0-0-cfbfe05501a6283c21b7ce4ebd3c826b",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
+        }
+      ],
+      "displayTitle": "🏀 [07:00 17/11] Washington Wizards vs Memphis Grizzlies",
+      "number": 1
+    },
+    {
+      "key": "17/11_07:00_chicagobulls_clevelandcavaliers",
+      "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers",
+      "c_home": "clevelandcavaliers",
+      "c_away": "chicagobulls",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Chicago Bulls",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "17/11",
+      "timestamp": 1794873600000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [07:00 17/11] Cleveland Cavaliers vs Chicago Bulls (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18614/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/137.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794876428-0-0-0c5e6387f3faaecc27318e1092bbd996",
+          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794876428-0-0-33717acab37cf4f422e126233566d67c",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
+        }
+      ],
+      "displayTitle": "🏀 [07:00 17/11] Cleveland Cavaliers vs Chicago Bulls",
+      "number": 2
+    },
+    {
+      "key": "17/11_07:00_bostonceltics_orlandomagic",
+      "match_key": "17/11_07:00_bostonceltics_orlandomagic",
+      "c_home": "bostonceltics",
+      "c_away": "orlandomagic",
+      "homeTeam": "Boston Celtics",
+      "awayTeam": "Orlando Magic",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "17/11",
+      "timestamp": 1794873600000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [07:00 17/11] Boston Celtics vs Orlando Magic (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18617/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/133.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "17/11_07:00_bostonceltics_orlandomagic"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Boston Celtics vs Orlando Magic (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794876428-0-0-2ce008aabe9c71da1a4ed745b97e0172",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_bostonceltics_orlandomagic"
+        }
+      ],
+      "displayTitle": "🏀 [07:00 17/11] Boston Celtics vs Orlando Magic",
+      "number": 3
+    },
+    {
+      "key": "17/11_07:00_aruba_martinique",
+      "match_key": "17/11_07:00_aruba_martinique",
+      "c_home": "martinique",
+      "c_away": "aruba",
+      "homeTeam": "Martinique",
+      "awayTeam": "Aruba",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "17/11",
+      "timestamp": 1794873600000,
+      "league": "CONCACAF_NL",
+      "leagueName": "CONCACAF Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [07:00 17/11] Martinique Vs Aruba (BLV Gà Siêu Tốc) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5fa8174c859d9a2ca7c3fdfd333b0d13.png",
+          "competition": "CONCACAF Nations League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1794876428-0-0-190e0fc24f100deea6acacc7f952bd68",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=7fa6531c0808e975b942040369016045&txTime=6afbea62",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=a21210ca861f8bded27c2c7bd3238af4&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1794876428-0-0-573fee014baa7e2bb6e4e1323c05979f",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_aruba_martinique"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 17/11] Martinique vs Aruba",
+      "number": 4
+    },
+    {
+      "key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago",
+      "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago",
+      "c_home": "trinidadandtobago",
+      "c_away": "antiguaandbarbuda",
+      "homeTeam": "Trinidad And Tobago",
+      "awayTeam": "Antigua And Barbuda",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "17/11",
+      "timestamp": 1794873600000,
+      "league": "CONCACAF_NL",
+      "leagueName": "CONCACAF Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [07:00 17/11] Trinidad And Tobago Vs Antigua And Barbuda (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5fa8174c859d9a2ca7c3fdfd333b0d13.png",
+          "competition": "CONCACAF Nations League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=05e310aeffc5172b2f57052456f07dc7&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1794876428-0-0-c5d4a462d88e3a62d4753283c220f68c",
+          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=a822ac390714ee27acd8fe015db74db6&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1794876428-0-0-e71079574e487085e84bedae5a3a5fce",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 17/11] Trinidad And Tobago vs Antigua And Barbuda",
+      "number": 5
+    },
     {
       "key": "17/11_LIVE_juventud_montevideowanderers",
       "match_key": "17/11_LIVE_juventud_montevideowanderers",
@@ -20,26 +292,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=c3360ee15c50f4a24f347be121e333b5&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794875528-0-0-d328af550e6bb46519196d5df101f92c",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794875528-0-0-919b4e7493b8b482efa4bc635b41143d",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794876428-0-0-513247970e239743bd871be7b7ca0253",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
@@ -48,8 +302,26 @@
         },
         {
           "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c87de8fb9b8db43c3e79f373567e26f1&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=0a1442dfc92a8bf7155ab2899af9508f&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=53d0ad8fe12541c4b7c66f2b7b7188a8&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794876428-0-0-8adcce62717a51477ddd5fdc3613a8df",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -66,118 +338,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 17/11] Montevideo Wanderers vs Juventud",
-      "number": 1
-    },
-    {
-      "key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
-      "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
-      "c_home": "washingtonwizards",
-      "c_away": "memphisgrizzlies",
-      "homeTeam": "Washington Wizards",
-      "awayTeam": "Memphis Grizzlies",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "17/11",
-      "timestamp": 1794873600000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:00 17/11] Washington Wizards vs Memphis Grizzlies (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18611/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/161.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Washington Wizards vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794875528-0-0-77b46521e383eaa851bbec813883c4c3",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 17/11] Washington Wizards vs Memphis Grizzlies",
-      "number": 2
-    },
-    {
-      "key": "17/11_07:00_chicagobulls_clevelandcavaliers",
-      "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers",
-      "c_home": "clevelandcavaliers",
-      "c_away": "chicagobulls",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Chicago Bulls",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "17/11",
-      "timestamp": 1794873600000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:00 17/11] Cleveland Cavaliers vs Chicago Bulls (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18614/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/137.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794875528-0-0-26677be41d257fa024c5437a3a8fc1aa",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 17/11] Cleveland Cavaliers vs Chicago Bulls",
-      "number": 3
-    },
-    {
-      "key": "17/11_07:00_bostonceltics_orlandomagic",
-      "match_key": "17/11_07:00_bostonceltics_orlandomagic",
-      "c_home": "bostonceltics",
-      "c_away": "orlandomagic",
-      "homeTeam": "Boston Celtics",
-      "awayTeam": "Orlando Magic",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "17/11",
-      "timestamp": 1794873600000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:00 17/11] Boston Celtics vs Orlando Magic (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18617/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/133.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "17/11_07:00_bostonceltics_orlandomagic"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 17/11] Boston Celtics vs Orlando Magic",
-      "number": 4
+      "number": 6
     },
     {
       "key": "17/11_07:30_brooklynnets_philadelphia76ers",
@@ -208,7 +369,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 17/11] Brooklyn Nets vs Philadelphia 76ers",
-      "number": 5
+      "number": 7
     },
     {
       "key": "17/11_07:30_houstonrockets_intermiami",
@@ -239,7 +400,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 17/11] Inter Miami vs Houston Rockets",
-      "number": 6
+      "number": 8
     },
     {
       "key": "17/11_08:00_minnesotatimberwolves_portlandtrailblazers",
@@ -270,7 +431,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 17/11] Minnesota Timberwolves vs Portland Trail Blazers",
-      "number": 7
+      "number": 9
     },
     {
       "key": "17/11_08:00_goldenstatewarriors_neworleanspelicans",
@@ -301,7 +462,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 17/11] New Orleans Pelicans vs Golden State Warriors",
-      "number": 8
+      "number": 10
     },
     {
       "key": "17/11_08:15_baltimoreravens_losangeleschargers",
@@ -341,7 +502,7 @@
         }
       ],
       "displayTitle": "🏈 [08:15 17/11] Baltimore Ravens vs Los Angeles Chargers",
-      "number": 9
+      "number": 11
     },
     {
       "key": "17/11_09:00_denvernuggets_phoenixsuns",
@@ -381,38 +542,7 @@
         }
       ],
       "displayTitle": "🏀 [09:00 17/11] Denver Nuggets vs Phoenix Suns 24h Tv",
-      "number": 10
-    },
-    {
-      "key": "17/11_LIVE_austria_ireland",
-      "match_key": "17/11_LIVE_austria_ireland",
-      "c_home": "austria",
-      "c_away": "ireland",
-      "homeTeam": "Austria",
-      "awayTeam": "Ireland",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=20a2bd78083655dff3b8968b7ac02004&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_austria_ireland"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Austria vs Ireland",
-      "number": 11
+      "number": 12
     },
     {
       "key": "17/11_LIVE_bosnia_sweden",
@@ -434,7 +564,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=15fd68802decf3c696f793e6e96b3ffa&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=503e202e5447d3a997d24bd92e649066&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -443,7 +573,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Sweden vs Bosnia and Herzegovina",
-      "number": 12
+      "number": 13
     },
     {
       "key": "17/11_LIVE_denmark_portugal",
@@ -465,7 +595,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=005fecc98f2b8f8f1da7820f1abd178e&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=60bd036c7a605a072f0531abec5f4cf6&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -474,7 +604,38 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Portugal vs Denmark",
-      "number": 13
+      "number": 14
+    },
+    {
+      "key": "17/11_LIVE_austria_ireland",
+      "match_key": "17/11_LIVE_austria_ireland",
+      "c_home": "austria",
+      "c_away": "ireland",
+      "homeTeam": "Austria",
+      "awayTeam": "Ireland",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=69d028ddba0bcabcfcbaae911562f9fa&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_austria_ireland"
+        }
+      ],
+      "displayTitle": "⚽ [LIVE 17/11] Austria vs Ireland",
+      "number": 15
     },
     {
       "key": "17/11_LIVE_norway_wales",
@@ -496,7 +657,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=71f04bbf26fe25d69852c6506438b9fa&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=8176e65b219c6b2efdb97b08cddf2000&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -505,7 +666,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Norway vs Wales",
-      "number": 14
+      "number": 16
     },
     {
       "key": "17/11_LIVE_georgia_hungary",
@@ -527,7 +688,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=24d280028b649d4b8b8345f214135f51&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=5ac09d2f577f133c92dadf5d8fec076d&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -536,7 +697,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Georgia vs Hungary",
-      "number": 15
+      "number": 17
     },
     {
       "key": "17/11_23:00_russia_venezuela",
@@ -578,7 +739,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 17/11] Russia vs Venezuela",
-      "number": 16
+      "number": 18
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -634,7 +795,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 17
+      "number": 19
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -690,7 +851,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 18
+      "number": 20
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -721,7 +882,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 19
+      "number": 21
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -763,7 +924,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 20
+      "number": 22
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -794,7 +955,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 21
+      "number": 23
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -825,7 +986,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 22
+      "number": 24
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -881,7 +1042,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 23
+      "number": 25
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -914,7 +1075,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 24
+      "number": 26
     }
   ],
   "source_groups": [
@@ -938,8 +1099,8 @@
           "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
         },
         {
-          "name": "⚽ [08:00 17/11] Canada Vs Guatemala (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "name": "⚽ [08:00 17/11] Canada Vs Guatemala (BLV Gà Siêu Bệu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/5fa8174c859d9a2ca7c3fdfd333b0d13.png",
           "competition": "CONCACAF Nations League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
@@ -1827,96 +1988,144 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=c3360ee15c50f4a24f347be121e333b5&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794875528-0-0-26677be41d257fa024c5437a3a8fc1aa",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794875528-0-0-d328af550e6bb46519196d5df101f92c",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794875528-0-0-919b4e7493b8b482efa4bc635b41143d",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794876428-0-0-513247970e239743bd871be7b7ca0253",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_juventud_montevideowanderers"
         },
         {
-          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1794875528-0-0-00906b38a83769f2b99ab58400842e1d",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "Gold Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_07:00_aruba_martinique"
-        },
-        {
-          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c87de8fb9b8db43c3e79f373567e26f1&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1794875528-0-0-2f6b0beb790493a9f88edba64b045043",
-          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
-          "competition": "Gold Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1794875528-0-0-e64a4ed3a0c305c8cb8df004a7f1b255",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1794876428-0-0-190e0fc24f100deea6acacc7f952bd68",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "Gold Cup",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_07:00_aruba_martinique"
         },
         {
+          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=0a1442dfc92a8bf7155ab2899af9508f&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=53d0ad8fe12541c4b7c66f2b7b7188a8&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=7fa6531c0808e975b942040369016045&txTime=6afbea62",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=05e310aeffc5172b2f57052456f07dc7&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1794876428-0-0-c5d4a462d88e3a62d4753283c220f68c",
+          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=a21210ca861f8bded27c2c7bd3238af4&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=1c40416651f5293ab305a62553eddc20&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=a822ac390714ee27acd8fe015db74db6&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "Gold Cup",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
         },
         {
+          "name": "⚽ [LIVE 17/11] Washington Wizards vs Memphis Grizzlies (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794876428-0-0-282dc30782113cee0c01311feabe55db",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Martinique vs Aruba (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1794876428-0-0-573fee014baa7e2bb6e4e1323c05979f",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_aruba_martinique"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794876428-0-0-8adcce62717a51477ddd5fdc3613a8df",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794876428-0-0-0c5e6387f3faaecc27318e1092bbd996",
+          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1794876428-0-0-e71079574e487085e84bedae5a3a5fce",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Washington Wizards vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794875528-0-0-77b46521e383eaa851bbec813883c4c3",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794876428-0-0-cfbfe05501a6283c21b7ce4ebd3c826b",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards"
         },
         {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=20a2bd78083655dff3b8968b7ac02004&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 17/11] Cleveland Cavaliers vs Chicago Bulls (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794876428-0-0-33717acab37cf4f422e126233566d67c",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
           "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_austria_ireland"
+          "match_key": "17/11_07:00_chicagobulls_clevelandcavaliers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Boston Celtics vs Orlando Magic (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794876428-0-0-2ce008aabe9c71da1a4ed745b97e0172",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_bostonceltics_orlandomagic"
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=15fd68802decf3c696f793e6e96b3ffa&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=503e202e5447d3a997d24bd92e649066&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1924,35 +2133,43 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=005fecc98f2b8f8f1da7820f1abd178e&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=60bd036c7a605a072f0531abec5f4cf6&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_denmark_portugal"
         },
         {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=69d028ddba0bcabcfcbaae911562f9fa&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_austria_ireland"
+        },
+        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=71f04bbf26fe25d69852c6506438b9fa&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=8176e65b219c6b2efdb97b08cddf2000&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_norway_wales"
         },
         {
-          "name": "⚽ [LIVE 17/11] INTERF - Japan vs Brazil (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=38ab6d0d6366ccf38cb1989e92d11aa9&txTime=6afbe6d8",
-          "logo": "https://sta.vnres.co/file/common/20261115/6ba3776ae12d26d553e61e3e07e01fb9.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_brazil_japan"
-        },
-        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=24d280028b649d4b8b8345f214135f51&txTime=6afbe6d8",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=5ac09d2f577f133c92dadf5d8fec076d&txTime=6afbea5c",
           "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_georgia_hungary"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] INTERF - Japan vs Brazil (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6c45498cce111a962345a1e853d2f1de&txTime=6afbea5c",
+          "logo": "https://sta.vnres.co/file/common/20261115/6ba3776ae12d26d553e61e3e07e01fb9.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_brazil_japan"
         }
       ]
     },
