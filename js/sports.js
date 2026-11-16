@@ -663,7 +663,7 @@ class SportsManager {
     const leagueStr = (evt.leagueName || '').toLowerCase();
     const homeStr = (evt.homeTeam || '').toLowerCase();
     const awayStr = (evt.awayTeam || '').toLowerCase();
-    const sourcesStr = (evt.sources || []).map(s => `${s.name || ''} ${s.url || ''}`).join(' ').toLowerCase();
+    const sourcesStr = (evt.sources || []).map(s => s.name || '').join(' ').toLowerCase();
     const combined = `${rawLeague} ${leagueStr} ${homeStr} ${awayStr} ${sourcesStr}`.toLowerCase();
 
     // 1. Khắc phục nhầm lẫn: AFC Wimbledon & các CLB bóng đá bị gán nhầm thành giải Tennis
@@ -693,12 +693,13 @@ class SportsManager {
     }
 
     // 3. F1 / Đua xe công thức 1
-    if (rawLeague === 'F1' || combined.includes('formula 1') || combined.includes('f1') || combined.includes('grand prix') || combined.includes('đua xe')) {
+    const isF1 = rawLeague === 'F1' || /\b(formula\s*1|formula\s*one|grand\s*prix|công\s*thức\s*1|motogp|đua\s*xe)\b/i.test(combined) || /\bf1\b/i.test(combined);
+    if (isF1) {
       return {
         name: 'Đua xe F1',
         icon: '🏎️',
         badgeColor: 'bg-rose-500/15 border-rose-500/35 text-rose-300',
-        cleanLeague: 'Formula 1'
+        cleanLeague: evt.leagueName || 'Formula 1'
       };
     }
 
@@ -784,9 +785,9 @@ class SportsManager {
     if (combined.includes('europa league') || combined.includes('cúp c2') || combined.includes('uel')) return 'Europa League';
     if (combined.includes('conference league') || combined.includes('cúp c3') || combined.includes('uecl')) return 'Conference League';
     if (combined.includes('premier league') || combined.includes('ngoại hạng anh') || /\bepl\b/.test(combined)) return 'EPL';
-    if (combined.includes('nations league') || combined.includes('uefa nations')) return 'UEFA Nations League';
+    if (combined.includes('nations league') || combined.includes('uefa nations') || combined.includes('uefa nl')) return 'UEFA Nations League';
     if (combined.includes('world cup') || combined.includes('wcq') || combined.includes('vòng loại world cup') || combined.includes('vòng loại wc')) return 'World Cup Qualifiers';
-    if (combined.includes('giao hữu') || combined.includes('friendly')) return 'Friendly';
+    if (combined.includes('giao hữu') || combined.includes('friendly') || combined.includes('interf')) return 'Giao hữu quốc tế';
     if (combined.includes('fa cup') || combined.includes('cúp fa')) return 'FA Cup';
     if (combined.includes('carabao') || combined.includes('efl cup') || combined.includes('cúp liên đoàn')) return 'Carabao Cup';
     if (combined.includes('championship') || combined.includes('hạng nhất anh')) return 'EFL Championship';

@@ -616,7 +616,7 @@ class ChannelManager {
     }
 
     // 3. F1 / Đua xe tốc độ
-    if (combined.includes('f1') || combined.includes('formula 1') || combined.includes('grand prix') || combined.includes('motogp') || combined.includes('đua xe')) {
+    if (/\b(f1|formula\s*1|formula\s*one|grand\s*prix|motogp|đua\s*xe)\b/i.test(combined)) {
       return {
         name: 'Đua xe F1',
         icon: '🏎️',
