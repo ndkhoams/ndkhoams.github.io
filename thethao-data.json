@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 06:03:14",
+  "updated_at": "2026-11-17 06:18:27",
   "live_events": [
     {
       "key": "17/11_LIVE_juventud_montevideowanderers",
@@ -20,26 +20,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=56e7ebdec6300895734fa19ea9db77f1&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
-          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=bffc374ddcfb39a2852798bc410cb15e&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794873728-0-0-158f0220d6e4f2ac2bee108f055ea82e",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794874628-0-0-7eb879f68be91788658ab5a7cfc9dcc1",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
@@ -47,8 +29,26 @@
           "match_key": "17/11_LIVE_juventud_montevideowanderers"
         },
         {
+          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=156732575112b51f773d3b184e19fd83&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=5474be466b56ee0dbd8bc0a60352f268&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794873728-0-0-3c820b8b1f115ffff85e101b70779e76",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794874628-0-0-01f5120bbb301934f61c7eea47f9763f",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
@@ -366,6 +366,37 @@
       "number": 10
     },
     {
+      "key": "17/11_LIVE_bosnia_sweden",
+      "match_key": "17/11_LIVE_bosnia_sweden",
+      "c_home": "sweden",
+      "c_away": "bosnia",
+      "homeTeam": "Sweden",
+      "awayTeam": "Bosnia and Herzegovina",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=2c7d1a374b195b0534bb2f7129dd964b&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_bosnia_sweden"
+        }
+      ],
+      "displayTitle": "⚽ [LIVE 17/11] Sweden vs Bosnia and Herzegovina",
+      "number": 11
+    },
+    {
       "key": "17/11_LIVE_denmark_portugal",
       "match_key": "17/11_LIVE_denmark_portugal",
       "c_home": "portugal",
@@ -385,7 +416,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=8b133d469ef0b0ec3014e46ca8148914&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=06621db6b30a911c597c6eafc351301f&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -394,7 +425,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Portugal vs Denmark",
-      "number": 11
+      "number": 12
     },
     {
       "key": "17/11_LIVE_austria_ireland",
@@ -416,7 +447,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=9160eef27c8ef65cff13c75f93712b55&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=e1faa2edcbb5356e7668ff82105a8302&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -425,37 +456,6 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Austria vs Ireland",
-      "number": 12
-    },
-    {
-      "key": "17/11_LIVE_bosnia_sweden",
-      "match_key": "17/11_LIVE_bosnia_sweden",
-      "c_home": "sweden",
-      "c_away": "bosnia",
-      "homeTeam": "Sweden",
-      "awayTeam": "Bosnia and Herzegovina",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=919850d18f93eca3f20a80871ff0cd5d&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_bosnia_sweden"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Sweden vs Bosnia and Herzegovina",
       "number": 13
     },
     {
@@ -478,7 +478,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b672d07a2c644669f3cd2a3aa99b2748&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=d8a70fdf7fdb4c4337ca2ca054f59396&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -509,7 +509,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=509406b7aa1954614ca6f83e36c1f01b&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=20a00701d04b35d31cf25136cebcef1f&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -599,6 +599,20 @@
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
           "match_key": "18/11_02:45_denmark_norway"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Đan Mạch vs Na Uy (TV360+ 4) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDg4Njk4Nn0.BHySg-kbIZpFL-v4TtzdmHRbz9xnLJdnBcgRtlxmWOxrEifeRVMjCddhqZEdJLoyHc7-vqOHBm8HY32OaCgsSw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398462959/4a3be318a93f_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
+          },
+          "match_key": "18/11_02:45_denmark_norway"
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
@@ -640,6 +654,20 @@
           "competition": "UEFA Nations League",
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
+          "match_key": "18/11_02:45_portugal_wales"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Xứ Wales vs Bồ Đào Nha (TV360+ 5) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.VqBVN3kJJy8-m6x-2EidR6OxaI5VAeSwjh3ULHrCM2A&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398690874/75f8a0e72d59_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
+            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
+          },
           "match_key": "18/11_02:45_portugal_wales"
         }
       ],
@@ -817,6 +845,20 @@
           "competition": "UEFA Nations League",
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
+          "match_key": "18/11_02:45_poland_sweden"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Ba Lan vs Thụy Điển (TV360+ 6) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.LaTdg9VdxXEX6KrutPxnBv7lSLaz65meyRIZ9aD6qQA&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794399176732/a891527c6cf9_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
+            "key": "b1e8e45770999a9207e2dbd69c71e653"
+          },
           "match_key": "18/11_02:45_poland_sweden"
         }
       ],
@@ -1582,6 +1624,55 @@
           "match_key": "17/11_09:30_utahmammoth_vancouvercanucks"
         },
         {
+          "name": "⚽ [18:20 17/11] Kyrgyzstan vs Việt Nam (TV360+ 9) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDg4Njk4Nn0.ZUESMeqLJ77mUVXMZ-L3ffwzPPEj3tG-ne5sjeC4SpczZZPToRrfE5ruFVVdZIjF-uhrm6B_kKgOWLRpXAZ4Og&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/09/09/1794192636324/be5dc26007ec_1280_720.jpg",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null,
+          "match_key": "17/11_19:00_kyrgyzstan_vietnam"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Xứ Wales vs Bồ Đào Nha (TV360+ 5) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.VqBVN3kJJy8-m6x-2EidR6OxaI5VAeSwjh3ULHrCM2A&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398690874/75f8a0e72d59_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
+            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
+          },
+          "match_key": "18/11_02:45_portugal_wales"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Đan Mạch vs Na Uy (TV360+ 4) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDg4Njk4Nn0.BHySg-kbIZpFL-v4TtzdmHRbz9xnLJdnBcgRtlxmWOxrEifeRVMjCddhqZEdJLoyHc7-vqOHBm8HY32OaCgsSw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398462959/4a3be318a93f_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
+          },
+          "match_key": "18/11_02:45_denmark_norway"
+        },
+        {
+          "name": "⚽ [02:35 18/11] Ba Lan vs Thụy Điển (TV360+ 6) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.LaTdg9VdxXEX6KrutPxnBv7lSLaz65meyRIZ9aD6qQA&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794399176732/a891527c6cf9_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
+            "key": "b1e8e45770999a9207e2dbd69c71e653"
+          },
+          "match_key": "18/11_02:45_poland_sweden"
+        },
+        {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.a8Bfrb5aD-cm_kUf-35kIYe6i68oSQR96Ohz6aNa5MA&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
@@ -1615,39 +1706,6 @@
           }
         },
         {
-          "name": "📺 TV360+ 4 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDg4Njk4Nn0.BHySg-kbIZpFL-v4TtzdmHRbz9xnLJdnBcgRtlxmWOxrEifeRVMjCddhqZEdJLoyHc7-vqOHBm8HY32OaCgsSw&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266956801/9a85754a5bd9_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
-            "key": "9e1eda8e6c4405c3751300309eb5822c"
-          }
-        },
-        {
-          "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.VqBVN3kJJy8-m6x-2EidR6OxaI5VAeSwjh3ULHrCM2A&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
-            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
-          }
-        },
-        {
-          "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ4ODY5ODYsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.LaTdg9VdxXEX6KrutPxnBv7lSLaz65meyRIZ9aD6qQA&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
-            "key": "b1e8e45770999a9207e2dbd69c71e653"
-          }
-        },
-        {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
           "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDg4ODA3Mn0.A7w058DUr_XX6l0Rma6IgcQH4mMdySuObe8S57bAotKVuT9E1KSOH4TDH_ie3_cLCr7LmSsNbap--csdBJQYZQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
@@ -1668,14 +1726,6 @@
             "keyId": "61ad3fc7fc925b7db48270e2b0165669",
             "key": "c397368031e9c215d86412fa0a14a565"
           }
-        },
-        {
-          "name": "📺 TV360+ 9 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDg4Njk4Nn0.ZUESMeqLJ77mUVXMZ-L3ffwzPPEj3tG-ne5sjeC4SpczZZPToRrfE5ruFVVdZIjF-uhrm6B_kKgOWLRpXAZ4Og&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267283364/c30a206da84a_480_270.png",
-          "group": "F4K Sport",
-          "dash": false,
-          "clearKey": null
         },
         {
           "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
@@ -1759,40 +1809,56 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=56e7ebdec6300895734fa19ea9db77f1&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
-          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=bffc374ddcfb39a2852798bc410cb15e&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794873728-0-0-158f0220d6e4f2ac2bee108f055ea82e",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794874628-0-0-7eb879f68be91788658ab5a7cfc9dcc1",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_juventud_montevideowanderers"
         },
         {
+          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=156732575112b51f773d3b184e19fd83&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=5474be466b56ee0dbd8bc0a60352f268&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794873728-0-0-3c820b8b1f115ffff85e101b70779e76",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794874628-0-0-01f5120bbb301934f61c7eea47f9763f",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_juventud_montevideowanderers"
         },
         {
+          "name": "⚽ [LIVE 17/11] Trinidad and Tobago vs Antigua and Barbuda (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1794874628-0-0-ffa0eb7555b9e7013bdee6da1a5fd4c9",
+          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
+          "competition": "Gold Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_07:00_antiguaandbarbuda_trinidadandtobago"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=2c7d1a374b195b0534bb2f7129dd964b&txTime=6afbe354",
+          "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_bosnia_sweden"
+        },
+        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=8b133d469ef0b0ec3014e46ca8148914&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=06621db6b30a911c597c6eafc351301f&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1800,23 +1866,15 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=9160eef27c8ef65cff13c75f93712b55&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=e1faa2edcbb5356e7668ff82105a8302&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_austria_ireland"
         },
         {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=919850d18f93eca3f20a80871ff0cd5d&txTime=6afbdfd0",
-          "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_bosnia_sweden"
-        },
-        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b672d07a2c644669f3cd2a3aa99b2748&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=d8a70fdf7fdb4c4337ca2ca054f59396&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1824,7 +1882,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=509406b7aa1954614ca6f83e36c1f01b&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=20a00701d04b35d31cf25136cebcef1f&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1832,7 +1890,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] INTERF - Japan vs Brazil (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=0cd347d832201172c4dde11559b4238c&txTime=6afbdfd0",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=c02a4dadc4532006adbb044ba40d26d0&txTime=6afbe354",
           "logo": "https://sta.vnres.co/file/common/20261115/6ba3776ae12d26d553e61e3e07e01fb9.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
