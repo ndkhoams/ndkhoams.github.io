@@ -115,7 +115,21 @@ document.addEventListener('DOMContentLoaded', () => {
         timelineManager.nextCategory();
         break;
       case 'KeyM':
-        player.toggleMute();
+        if (multiStreamManager && multiStreamManager.isActive) {
+          multiStreamManager.muteAll();
+        } else {
+          player.toggleMute();
+        }
+        break;
+      case 'KeyW':
+        if (multiStreamManager && multiStreamManager.isActive) {
+          multiStreamManager.toggleWindowFill();
+        }
+        break;
+      case 'Escape':
+        if (multiStreamManager && multiStreamManager.isActive && multiStreamManager.isWindowFill) {
+          multiStreamManager.toggleWindowFill(false);
+        }
         break;
       case 'KeyK':
         player.togglePlay();
@@ -124,7 +138,11 @@ document.addEventListener('DOMContentLoaded', () => {
         player.toggleTheaterMode();
         break;
       case 'KeyF':
-        player.toggleFullscreen();
+        if (multiStreamManager && multiStreamManager.isActive) {
+          multiStreamManager.toggleFullscreen();
+        } else {
+          player.toggleFullscreen();
+        }
         break;
       case 'KeyP':
       case 'KeyI':

@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=33) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=38) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=33">
+  <link rel="stylesheet" href="css/strand.css?v=38">
 
   <!-- Hls.js & Shaka Player for HLS & DASH ClearKey streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -323,8 +323,9 @@
 
               <!-- Right: Audio / Fullscreen / Close Actions -->
               <div class="flex items-center gap-1.5 sm:gap-2">
+                <!-- Mute All Button -->
                 <button type="button" onclick="window.multiStreamManager.muteAll()" title="Tắt tiếng tất cả màn hình"
-                  class="px-2.5 py-1.5 rounded-xl glass-pill text-xs font-medium text-white/80 hover:text-white hover:bg-white/10 transition flex items-center gap-1.5">
+                  class="px-2.5 py-1.5 rounded-xl glass-pill text-xs font-medium text-white/80 hover:text-white hover:bg-white/10 transition flex items-center gap-1.5 cursor-pointer">
                   <svg class="w-3.5 h-3.5 text-red-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l4-4m0 4l-4-4" />
@@ -332,16 +333,32 @@
                   <span class="hidden md:inline">Tắt tiếng hết</span>
                 </button>
 
-                <button type="button" onclick="window.multiStreamManager.toggleFullscreen()" title="Toàn màn hình Multi-View"
-                  class="px-2.5 py-1.5 rounded-xl glass-pill text-xs font-medium text-white/80 hover:text-white hover:bg-white/10 transition flex items-center gap-1.5">
+                <!-- Full Window / Mở Rộng Toàn Cửa Sổ -->
+                <button id="msWindowFillBtn" type="button" onclick="window.multiStreamManager.toggleWindowFill()" title="Mở rộng khung xem tràn toàn bộ cửa sổ (W)"
+                  class="px-2.5 py-1.5 rounded-xl glass-pill text-xs font-medium text-white/80 hover:text-white hover:bg-white/10 transition flex items-center gap-1.5 cursor-pointer">
+                  <!-- Expand Icon -->
+                  <svg id="msWindowExpandIcon" class="w-3.5 h-3.5 text-sky-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"/>
+                  </svg>
+                  <!-- Collapse Icon -->
+                  <svg id="msWindowCollapseIcon" class="w-3.5 h-3.5 text-sky-400 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 4v4H5m0 0l5-5m10 5h-4V4m0 0l5 5M9 20v-4H5m0 0l5 5m10-5h-4v4m0 0l5-5"/>
+                  </svg>
+                  <span id="msWindowFillText" class="hidden md:inline">Toàn cửa sổ</span>
+                </button>
+
+                <!-- Fullscreen Button -->
+                <button type="button" onclick="window.multiStreamManager.toggleFullscreen()" title="Toàn màn hình Multi-View (F)"
+                  class="px-2.5 py-1.5 rounded-xl glass-pill text-xs font-medium text-white/80 hover:text-white hover:bg-white/10 transition flex items-center gap-1.5 cursor-pointer">
                   <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
                   </svg>
                   <span class="hidden md:inline">Toàn màn hình</span>
                 </button>
 
+                <!-- Close Multi-View Button -->
                 <button type="button" onclick="window.multiStreamManager.exitMultiView()" title="Quay lại phát đơn"
-                  class="px-3 py-1.5 rounded-xl bg-red-600/80 hover:bg-red-600 text-white text-xs font-bold transition flex items-center gap-1 shadow-lg shadow-red-600/20">
+                  class="px-3 py-1.5 rounded-xl bg-red-600/80 hover:bg-red-600 text-white text-xs font-bold transition flex items-center gap-1 shadow-lg shadow-red-600/20 cursor-pointer">
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
                   </svg>
@@ -364,7 +381,7 @@
                 <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                 <span>Màn hình có viền xanh là màn hình đang phát âm thanh (Click vào màn bất kỳ để nghe tiếng màn đó)</span>
               </span>
-              <span class="hidden sm:inline">Phím tắt: F (Toàn màn hình), M (Tắt tiếng)</span>
+              <span class="hidden sm:inline">Phím tắt: W (Toàn cửa sổ), F (Toàn màn hình), M (Tắt tiếng), Esc (Thoát)</span>
             </div>
           </div>
         </section>
@@ -673,13 +690,13 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=37) -->
-  <script src="js/player.js?v=37"></script>
-  <script src="js/channels.js?v=37"></script>
-  <script src="js/timeline.js?v=37"></script>
-  <script src="js/sports.js?v=37"></script>
-  <script src="js/multistream.js?v=37"></script>
-  <script src="js/app.js?v=37"></script>
+  <!-- Application Logic Modules (Cache busted ?v=38) -->
+  <script src="js/player.js?v=38"></script>
+  <script src="js/channels.js?v=38"></script>
+  <script src="js/timeline.js?v=38"></script>
+  <script src="js/sports.js?v=38"></script>
+  <script src="js/multistream.js?v=38"></script>
+  <script src="js/app.js?v=38"></script>
 </body>
 
 </html>

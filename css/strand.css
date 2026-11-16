@@ -984,3 +984,104 @@ body.is-theater-mode #playerStickyWrapper {
 body.is-theater-mode #playerSurface {
   max-height: 80vh !important;
 }
+
+/* ========================================================================= */
+/* 6. MULTI-VIEW FULL WINDOW (FILL TOÀN BỘ CỬA SỔ TRÌNH DUYỆT)              */
+/* ========================================================================= */
+body.ms-window-fill {
+  overflow: hidden !important;
+}
+
+#multiViewSection.is-window-fill {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 50 !important;
+  width: 100vw !important;
+  width: 100dvw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding: 6px !important;
+  background: #000000 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#multiViewSection.is-window-fill > div {
+  height: 100% !important;
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 6px 8px !important;
+  border-radius: 10px !important;
+  gap: 6px !important;
+  background: rgba(14, 16, 22, 0.98) !important;
+}
+
+#multiViewSection.is-window-fill #multiViewGrid {
+  flex: 1 1 0% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  aspect-ratio: unset !important;
+  padding: 4px !important;
+  gap: 6px !important;
+}
+
+#multiViewSection.is-window-fill .ms-frame {
+  height: 100% !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  aspect-ratio: unset !important;
+}
+
+#multiViewSection.is-window-fill .ms-video-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#multiViewSection.is-window-fill .ms-video-container video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+#multiViewSection.is-window-fill #multiViewGrid.layout-1x1 {
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+}
+
+@media (min-width: 768px) {
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1x2 {
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+}
+@media (max-width: 767px) {
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1x2 {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1\+2,
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1plus2 {
+    grid-template-columns: 2fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
+}
+@media (max-width: 767px) {
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1\+2,
+  #multiViewSection.is-window-fill #multiViewGrid.layout-1plus2 {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 2fr 1fr 1fr !important;
+  }
+}
+
+#multiViewSection.is-window-fill #multiViewGrid.layout-2x2 {
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr !important;
+}

@@ -13,6 +13,7 @@ class MultiStreamManager {
   constructor() {
     this.isActive = false;
     this.currentLayout = '1x2';
+    this.isWindowFill = false;
     this.slots = {
       1: { stream: null, hls: null, isMuted: false },
       2: { stream: null, hls: null, isMuted: true },
@@ -71,6 +72,9 @@ class MultiStreamManager {
 
   exitMultiView() {
     this.isActive = false;
+    if (this.isWindowFill) {
+      this.toggleWindowFill(false);
+    }
     const playerSection = document.getElementById('playerSection');
     const multiViewSection = document.getElementById('multiViewSection');
     const playerDetailsCard = document.getElementById('playerDetailsCard');
@@ -394,6 +398,44 @@ class MultiStreamManager {
       else if (grid.webkitRequestFullscreen) grid.webkitRequestFullscreen();
     } else {
       if (document.exitFullscreen) document.exitFullscreen();
+    }
+  }
+
+  // Mở rộng toàn bộ diện tích cửa sổ trình duyệt (Window Fill Mode)
+  toggleWindowFill(forceState) {
+    if (typeof forceState === 'boolean') {
+      this.isWindowFill = forceState;
+    } else {
+      this.isWindowFill = !this.isWindowFill;
+    }
+
+    const section = document.getElementById('multiViewSection');
+    const body = document.body;
+    const btn = document.getElementById('msWindowFillBtn');
+    const expandIcon = document.getElementById('msWindowExpandIcon');
+    const collapseIcon = document.getElementById('msWindowCollapseIcon');
+    const textSpan = document.getElementById('msWindowFillText');
+
+    if (this.isWindowFill) {
+      if (section) section.classList.add('is-window-fill');
+      body.classList.add('ms-window-fill');
+      if (btn) {
+        btn.classList.add('bg-sky-500/25', 'border-sky-400/60', 'text-sky-300', 'shadow-[0_0_12px_rgba(56,189,248,0.3)]');
+        btn.title = 'Thu nhỏ về khung thường (W hoặc Esc)';
+      }
+      if (expandIcon) expandIcon.classList.add('hidden');
+      if (collapseIcon) collapseIcon.classList.remove('hidden');
+      if (textSpan) textSpan.textContent = 'Thu nhỏ cửa sổ';
+    } else {
+      if (section) section.classList.remove('is-window-fill');
+      body.classList.remove('ms-window-fill');
+      if (btn) {
+        btn.classList.remove('bg-sky-500/25', 'border-sky-400/60', 'text-sky-300', 'shadow-[0_0_12px_rgba(56,189,248,0.3)]');
+        btn.title = 'Mở rộng tràn toàn bộ cửa sổ (W)';
+      }
+      if (expandIcon) expandIcon.classList.remove('hidden');
+      if (collapseIcon) collapseIcon.classList.add('hidden');
+      if (textSpan) textSpan.textContent = 'Toàn cửa sổ';
     }
   }
 
