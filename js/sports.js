@@ -457,7 +457,8 @@ class SportsManager {
       }
 
       this.sportsData = data;
-      this.liveEvents = this.deduplicateEvents(data.live_events || []);
+      const deduplicated = this.deduplicateEvents(data.live_events || []);
+      this.liveEvents = this.sortLiveEvents(deduplicated);
       this.buildStandingsMap();
       this.renderSports(container);
 
@@ -605,6 +606,56 @@ class SportsManager {
       }
     }
     return merged;
+  }
+
+  sortLiveEvents(events) {
+    if (!events || !Array.isArray(events)) return [];
+
+    const ALL_TOP_LEAGUES = [
+      'UCL', 'EPL', 'VLEAGUE', 'LALIGA', 'SERIE_A', 'BUNDESLIGA', 'LIGUE1',
+      'WORLD_CUP', 'EURO', 'COPA_AMERICA', 'ASIAN_CUP', 'WC_QUAL', 'NATIONS_LEAGUE', 'UEL', 'UECL', 'AFC_CL',
+      'F1', 'NBA', 'TENNIS', 'RUGBY', 'NFL', 'NCAAF', 'MMA',
+      'FA_CUP', 'EFL_CUP', 'COPA_DEL_REY'
+    ];
+
+    const getPrioIdx = (evt) => {
+      const lg = (evt.league || '').toUpperCase();
+      const idx = ALL_TOP_LEAGUES.indexOf(lg);
+      return idx >= 0 ? idx : 999;
+    };
+
+    const getTimestamp = (evt) => {
+      if (typeof evt.timestamp === 'number' && evt.timestamp > 0) return evt.timestamp;
+      return 0;
+    };
+
+    return [...events].sort((a, b) => {
+      const aLive = a.isOngoing === true;
+      const bLive = b.isOngoing === true;
+
+      // 1. ƯU TIÊN HÀNG ĐẦU: Các trận đang LIVE luôn luôn đứng trước
+      if (aLive && !bLive) return -1;
+      if (!aLive && bLive) return 1;
+
+      // 2. Trong danh sách các trận LIVE: Ưu tiên các giải đấu hàng đầu lên trước
+      if (aLive && bLive) {
+        const prioA = getPrioIdx(a);
+        const prioB = getPrioIdx(b);
+        if (prioA !== prioB) return prioA - prioB;
+        return getTimestamp(a) - getTimestamp(b);
+      }
+
+      // 3. Trong danh sách các trận CHƯA ĐÁ (Sắp đấu):
+      // Ưu tiên trận diễn ra sớm nhất theo ngày/giờ (hôm nay trước ngày mai)
+      const tsA = getTimestamp(a);
+      const tsB = getTimestamp(b);
+      if (tsA !== tsB && tsA > 0 && tsB > 0) return tsA - tsB;
+
+      // Cùng khung thời gian: Ưu tiên giải đấu hàng đầu
+      const prioA = getPrioIdx(a);
+      const prioB = getPrioIdx(b);
+      return prioA - prioB;
+    });
   }
 
   getSportInfo(evt) {
