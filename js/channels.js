@@ -3,6 +3,23 @@
  * Supports managing multiple M3U playlist sources with instant switching.
  */
 
+// Safe fetch helper with timeout fallback across all browser engines
+function fetchWithSafeTimeout(url, options = {}, timeoutMs = 4500) {
+  let controller = null;
+  let timer = null;
+  if (typeof AbortController !== 'undefined' && timeoutMs > 0) {
+    controller = new AbortController();
+    timer = setTimeout(() => {
+      try { controller.abort(); } catch (e) {}
+    }, timeoutMs);
+  }
+  const fetchOpts = { ...options };
+  if (controller) fetchOpts.signal = controller.signal;
+  return fetch(url, fetchOpts).finally(() => {
+    if (timer) clearTimeout(timer);
+  });
+}
+
 class ChannelManager {
   constructor(player) {
     this.player = player;
@@ -131,41 +148,38 @@ class ChannelManager {
     const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
     const useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
 
+    // Danh sách máy chủ mirror CDN dự phòng cho thethao.m3u
+    const mirrorUrls = [
+      ...(useArmbian ? [`${hubUrl}/data/thethao.m3u${cacheBuster}`] : []),
+      `https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao.m3u${cacheBuster}`,
+      `https://cdn.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`,
+      `https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`,
+      `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`,
+      `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`
+    ];
+
     let text = null;
 
-    // 1. Armbian LAN Hub (nếu được bật và trong mạng nội bộ)
-    if (useArmbian) {
+    for (const url of mirrorUrls) {
       try {
-        const res = await fetch(`${hubUrl}/data/thethao.m3u${cacheBuster}`, {
-          signal: AbortSignal.timeout(2500),
-          cache: 'no-store'
-        });
-        if (res.ok) text = await res.text();
-      } catch (e) {
-        console.warn('[Channels] Armbian thethao.m3u offline, fallback to GitHub');
-      }
+        const res = await fetchWithSafeTimeout(url, { cache: 'no-store' }, 4500);
+        if (res && res.ok) {
+          const t = await res.text();
+          if (t && t.includes('#EXTM3U')) {
+            text = t;
+            try {
+              localStorage.setItem('tvplay_thethao_m3u_cache', text);
+            } catch (e) {}
+            break;
+          }
+        }
+      } catch (e) {}
     }
 
-    // 2. Raw GitHub (luôn cập nhật mới nhất ngay khi updater đẩy lên)
+    // Nếu toàn bộ mirror mạng lỗi, dùng cache cũ nếu có
     if (!text) {
       try {
-        const res = await fetch(`https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao.m3u${cacheBuster}`, {
-          signal: AbortSignal.timeout(6000),
-          cache: 'no-store'
-        });
-        if (res.ok) text = await res.text();
-      } catch (e) {
-        console.warn('[Channels] Raw GitHub thethao.m3u error, fallback to CDN');
-      }
-    }
-
-    // 3. Dự phòng qua jsDelivr CDN
-    if (!text) {
-      try {
-        const res = await fetch(`https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao.m3u${cacheBuster}`, {
-          cache: 'no-store'
-        });
-        if (res.ok) text = await res.text();
+        text = localStorage.getItem('tvplay_thethao_m3u_cache');
       } catch (e) {}
     }
 
@@ -188,23 +202,46 @@ class ChannelManager {
       const cacheBuster = targetUrl.includes('?') ? `&t=${Date.now()}` : `?t=${Date.now()}`;
       let m3uText = null;
 
-      try {
-        const res = await fetch(`${targetUrl}${cacheBuster}`, {
-          signal: AbortSignal.timeout(6000),
-          cache: 'no-store'
-        });
-        if (res.ok) m3uText = await res.text();
-      } catch (fErr) {
-        console.warn('[Channels] Fetch targetUrl error, fallback:', fErr);
+      // Xây dựng danh sách mirror cho playlist hiện tại
+      let mirrorUrls = [];
+      if (targetUrl.includes('ktv.m3u')) {
+        const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
+        const useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
+        mirrorUrls = [
+          ...(useArmbian ? [`${hubUrl}/data/ktv.m3u${cacheBuster}`] : []),
+          `https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u${cacheBuster}`,
+          `https://cdn.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
+          `https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
+          `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
+          `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`
+        ];
+      } else {
+        mirrorUrls = [`${targetUrl}${cacheBuster}`];
       }
 
-      // Dự phòng nếu không tải được từ URL chính
-      if (!m3uText) {
-        const fallbackUrl = targetUrl.includes('raw.githubusercontent.com')
-          ? targetUrl.replace('raw.githubusercontent.com/ndkhoams/iptv/main', 'fastly.jsdelivr.net/gh/ndkhoams/iptv@main')
-          : `https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u`;
-        const resFb = await fetch(`${fallbackUrl}${cacheBuster}`, { cache: 'no-store' });
-        if (resFb.ok) m3uText = await resFb.text();
+      for (const url of mirrorUrls) {
+        try {
+          const res = await fetchWithSafeTimeout(url, { cache: 'no-store' }, 4500);
+          if (res && res.ok) {
+            const t = await res.text();
+            if (t && t.includes('#EXTM3U')) {
+              m3uText = t;
+              if (targetUrl.includes('ktv.m3u')) {
+                try {
+                  localStorage.setItem('tvplay_ktv_m3u_cache', m3uText);
+                } catch (e) {}
+              }
+              break;
+            }
+          }
+        } catch (fErr) {}
+      }
+
+      // Dự phòng cache nếu toàn bộ mạng rớt
+      if (!m3uText && targetUrl.includes('ktv.m3u')) {
+        try {
+          m3uText = localStorage.getItem('tvplay_ktv_m3u_cache');
+        } catch (e) {}
       }
 
       if (!m3uText) throw new Error('Không thể tải dữ liệu M3U');

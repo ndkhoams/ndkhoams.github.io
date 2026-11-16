@@ -33,6 +33,23 @@ const VN_TO_ENG_TEAMS = {
   "venezuela": "Venezuela", "turkiye": "Turkey"
 };
 
+// Safe fetch helper with timeout fallback across all browser engines
+function fetchWithSafeTimeout(url, options = {}, timeoutMs = 4500) {
+  let controller = null;
+  let timer = null;
+  if (typeof AbortController !== 'undefined' && timeoutMs > 0) {
+    controller = new AbortController();
+    timer = setTimeout(() => {
+      try { controller.abort(); } catch (e) {}
+    }, timeoutMs);
+  }
+  const fetchOpts = { ...options };
+  if (controller) fetchOpts.signal = controller.signal;
+  return fetch(url, fetchOpts).finally(() => {
+    if (timer) clearTimeout(timer);
+  });
+}
+
 class SportsManager {
   constructor(player) {
     this.player = player;
@@ -352,8 +369,8 @@ class SportsManager {
 
     try {
       const url = `https://site.web.api.espn.com/apis/search/v2?query=${encodeURIComponent(cleanQuery)}&type=team`;
-      const res = await fetch(url, { signal: AbortSignal.timeout(3500) });
-      if (!res.ok) return;
+      const res = await fetchWithSafeTimeout(url, {}, 3500);
+      if (!res || !res.ok) return;
       const data = await res.json();
       const results = data.results || [];
       if (results.length > 0 && results[0].contents && results[0].contents.length > 0) {
@@ -412,7 +429,30 @@ class SportsManager {
     const container = document.getElementById('sportsContainer');
     if (!container) return;
 
-    if (forceFresh || !this.sportsData) {
+    // 0. Nạp tức thì từ cache LocalStorage nếu có (Instant UI, không bao giờ để trắng màn hình)
+    if (!this.sportsData) {
+      try {
+        const cached = localStorage.getItem('tvplay_sports_cache');
+        if (cached) {
+          const parsed = JSON.parse(cached);
+          if (parsed && (parsed.live_events || Array.isArray(parsed))) {
+            this.sportsData = parsed;
+            const deduplicated = this.deduplicateEvents(parsed.live_events || []);
+            this.liveEvents = this.sortLiveEvents(deduplicated);
+            this.buildStandingsMap();
+            this.renderSports(container);
+            const countBadge = document.getElementById('sportsCountBadge');
+            if (countBadge) {
+              countBadge.textContent = `${this.liveEvents.length} trận đấu`;
+            }
+          }
+        }
+      } catch (cErr) {
+        console.warn('[Sports] Cache error:', cErr);
+      }
+    }
+
+    if (forceFresh || (!this.sportsData && (!this.liveEvents || this.liveEvents.length === 0))) {
       this.renderSkeleton(container);
     }
 
@@ -420,61 +460,82 @@ class SportsManager {
 
     try {
       let data = null;
+      let lastErr = null;
 
-      // 1. Armbian LAN Hub (nếu được bật và trong mạng nội bộ)
-      if (this.useArmbian) {
+      // Danh sách các máy chủ mirror CDN dự phòng (chống nhà mạng VN chặn GitHub / CDN)
+      const mirrorUrls = [
+        // 1. Armbian LAN Hub (nếu bật tùy chọn và đang trong mạng nội bộ)
+        ...(this.useArmbian ? [`${this.armbianHubUrl}/data/thethao-data.json${cacheBuster}`] : []),
+        // 2. Raw GitHub (luôn nóng nhất ngay khi updater đẩy lên)
+        `https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao-data.json${cacheBuster}`,
+        // 3. jsDelivr Cloudflare CDN
+        `https://cdn.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
+        // 4. jsDelivr Fastly CDN
+        `https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
+        // 5. jsDelivr GCore CDN
+        `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
+        // 6. jsDelivr TestingCF CDN
+        `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`
+      ];
+
+      for (const url of mirrorUrls) {
         try {
-          const res = await fetch(`${this.armbianHubUrl}/data/thethao-data.json${cacheBuster}`, { 
-            signal: AbortSignal.timeout(2500),
-            cache: 'no-store'
-          });
-          if (res.ok) data = await res.json();
-        } catch (hubErr) {
-          console.warn('[Sports] Armbian Hub offline or blocked, falling back to GitHub:', hubErr);
+          const res = await fetchWithSafeTimeout(url, { cache: 'no-store' }, 4500);
+          if (res && res.ok) {
+            const text = await res.text();
+            if (text && text.trim().startsWith('{')) {
+              const parsed = JSON.parse(text);
+              if (parsed && (parsed.live_events || parsed.fixtures)) {
+                data = parsed;
+                break;
+              }
+            }
+          }
+        } catch (mErr) {
+          lastErr = mErr;
         }
       }
 
-      // 2. Tải trực tiếp từ Raw GitHub (Luôn luôn mới nhất ngay khi sports-updater đẩy lên)
-      if (!data) {
+      if (data) {
+        this.sportsData = data;
         try {
-          const res = await fetch(`${this.rawGithubUrl}${cacheBuster}`, {
-            signal: AbortSignal.timeout(6000),
-            cache: 'no-store'
-          });
-          if (res.ok) data = await res.json();
-        } catch (rawErr) {
-          console.warn('[Sports] Raw GitHub error, falling back to CDN:', rawErr);
+          localStorage.setItem('tvplay_sports_cache', JSON.stringify(data));
+        } catch (e) {}
+
+        const deduplicated = this.deduplicateEvents(data.live_events || []);
+        this.liveEvents = this.sortLiveEvents(deduplicated);
+        this.buildStandingsMap();
+        this.renderSports(container);
+
+        // Cập nhật số lượng trận đấu lên badge
+        const countBadge = document.getElementById('sportsCountBadge');
+        if (countBadge) {
+          countBadge.textContent = `${this.liveEvents.length} trận đấu`;
         }
-      }
-
-      // 3. Dự phòng tải qua CDN jsDelivr có cache buster
-      if (!data) {
-        const res = await fetch(`${this.defaultSportsUrl}${cacheBuster}`, {
-          cache: 'no-store'
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        data = await res.json();
-      }
-
-      this.sportsData = data;
-      const deduplicated = this.deduplicateEvents(data.live_events || []);
-      this.liveEvents = this.sortLiveEvents(deduplicated);
-      this.buildStandingsMap();
-      this.renderSports(container);
-
-      // Cập nhật số lượng trận đấu lên badge
-      const countBadge = document.getElementById('sportsCountBadge');
-      if (countBadge) {
-        countBadge.textContent = `${this.liveEvents.length} trận đấu`;
+      } else {
+        // Nếu không tải được qua mạng nhưng đã hiển thị từ cache, giữ nguyên giao diện
+        if (this.liveEvents && this.liveEvents.length > 0) {
+          console.warn('[Sports] Network fetch failed on all mirrors, keeping cached events:', lastErr);
+        } else {
+          throw (lastErr || new Error('Không thể kết nối đến máy chủ thể thao'));
+        }
       }
 
     } catch (err) {
       console.error('[Sports] Error loading sports data:', err);
-      container.innerHTML = `
-        <div class="p-6 text-center text-xs text-[var(--label-2)] col-span-full">
-          Không tải được dữ liệu thể thao. Bấm nút <b>"Tải lại"</b> ở trên để thử lại.
-        </div>
-      `;
+      // Chỉ hiện thông báo lỗi nếu không có dữ liệu nào (kể cả cache)
+      if (!this.liveEvents || this.liveEvents.length === 0) {
+        container.innerHTML = `
+          <div class="p-6 text-center text-xs text-[var(--label-2)] col-span-full space-y-3">
+            <div>Không tải được dữ liệu thể thao từ các máy chủ dự phòng.</div>
+            <div>
+              <button onclick="window.sportsManager.refreshSports()" class="px-4 py-1.5 text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30 rounded-lg hover:bg-amber-500/30 transition-all cursor-pointer">
+                Tải lại
+              </button>
+            </div>
+          </div>
+        `;
+      }
     }
   }
 
