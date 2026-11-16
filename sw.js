@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-v36';
+const CACHE_NAME = 'tvplay-v37';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   './js/channels.js',
   './js/timeline.js',
   './js/sports.js',
+  './js/multistream.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png',

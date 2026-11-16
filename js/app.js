@@ -35,6 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const sportsManager = new SportsManager(player);
   window.sportsManager = sportsManager;
 
+  const multiStreamManager = new MultiStreamManager();
+  window.multiStreamManager = multiStreamManager;
+
   // 3. Chain channel load -> timeline render
   const originalOnChannelsReady = channelManager.onChannelsReady.bind(channelManager);
   channelManager.onChannelsReady = function() {
@@ -114,10 +117,17 @@ document.addEventListener('DOMContentLoaded', () => {
       case 'KeyM':
         player.toggleMute();
         break;
+      case 'KeyK':
+        player.togglePlay();
+        break;
+      case 'KeyT':
+        player.toggleTheaterMode();
+        break;
       case 'KeyF':
         player.toggleFullscreen();
         break;
       case 'KeyP':
+      case 'KeyI':
         player.requestPiP();
         break;
     }

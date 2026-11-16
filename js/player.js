@@ -1,6 +1,12 @@
 /**
- * TV Play — Player Engine
- * Supports Native Safari HLS (iOS) and Hls.js fallback for desktop/other browsers.
+ * TV Play — Player Engine (YouTube-Style Controls & Cinema Experience)
+ * Features:
+ * - YouTube-Style Bottom Control Bar (Play/Pause, Next, Volume Slider, Live Badge, Quality Gear, Multi-View, PiP, Theater, Fullscreen)
+ * - Auto-hiding HUD (3s timeout while playing)
+ * - Single click toggle play/pause, double click toggle fullscreen
+ * - Native Safari HLS + Desktop Hls.js + Shaka Player ClearKey DASH
+ * - Dynamic HLS quality switching (Auto / 1080p / 720p / 540p)
+ * - Theater Mode (Full width layout)
  */
 
 class StrandPlayer {
@@ -11,32 +17,58 @@ class StrandPlayer {
     this.currentChannel = null;
     this.isPlaying = false;
     this.isPseudoFullscreen = false;
+    this.currentVolume = 1.0;
+    this.clickTimer = null;
     this.init();
   }
 
   init() {
     if (!this.video) return;
 
-    // Listen to video events
+    // 1. Listen to video playback events
     this.video.addEventListener('play', () => this.onPlayStateChange(true));
     this.video.addEventListener('pause', () => this.onPlayStateChange(false));
     this.video.addEventListener('waiting', () => this.showBuffering(true));
     this.video.addEventListener('playing', () => this.showBuffering(false));
     this.video.addEventListener('error', (e) => this.onError(e));
+    this.video.addEventListener('timeupdate', () => this.onTimeUpdate());
 
-    // Touch swipe gestures on video screen
+    // 2. Click & Double-click on Video Surface
+    const surface = document.getElementById('playerSurface');
+    if (surface) {
+      surface.addEventListener('click', (e) => {
+        // Tránh kích hoạt khi click vào các nút điều khiển
+        if (e.target.closest('.yt-control-bar') || e.target.closest('#centerPlayBtn') || e.target.closest('#ytSettingsMenu')) {
+          return;
+        }
+        if (this.clickTimer) {
+          clearTimeout(this.clickTimer);
+          this.clickTimer = null;
+          // Double click -> Toggle Fullscreen
+          this.toggleFullscreen();
+        } else {
+          this.clickTimer = setTimeout(() => {
+            this.clickTimer = null;
+            // Single click -> Toggle Play/Pause
+            this.togglePlay();
+          }, 240);
+        }
+      });
+    }
+
+    // 3. Touch swipe gestures for mobile (chuyển kênh)
     this.initTouchGestures();
 
-    // Check AirPlay availability
+    // 4. AirPlay availability
     this.initAirPlay();
 
-    // Auto-hide Top HUD after 5s
+    // 5. YouTube Controls Auto-Hide
     this.initHUDAutoHide();
 
-    // Initialize volume from localStorage or default
+    // 6. Volume
     this.initVolume();
 
-    // Pseudo-fullscreen & standard fullscreen listeners
+    // 7. Fullscreen change listeners
     const onFsChange = () => {
       const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement) || this.isPseudoFullscreen;
       this.updateFullscreenIcon(isFs);
@@ -48,26 +80,40 @@ class StrandPlayer {
     document.addEventListener('webkitfullscreenchange', onFsChange);
 
     window.addEventListener('resize', () => {
-      if (this.isPseudoFullscreen) {
-        this.updatePseudoFullscreenLayout();
-      }
+      if (this.isPseudoFullscreen) this.updatePseudoFullscreenLayout();
     });
     window.addEventListener('orientationchange', () => {
-      if (this.isPseudoFullscreen) {
-        setTimeout(() => this.updatePseudoFullscreenLayout(), 150);
-      }
+      if (this.isPseudoFullscreen) setTimeout(() => this.updatePseudoFullscreenLayout(), 150);
     });
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && this.isPseudoFullscreen) {
         this.exitPseudoFullscreen();
       }
     });
+
+    // 8. Close settings menu on outside click
+    document.addEventListener('click', (e) => {
+      const menu = document.getElementById('ytSettingsMenu');
+      const btn = document.getElementById('ytSettingsBtn');
+      if (menu && !menu.classList.contains('hidden')) {
+        if (!menu.contains(e.target) && !btn?.contains(e.target)) {
+          menu.classList.add('hidden');
+        }
+      }
+    });
+
+    // Restore Theater Mode preference
+    try {
+      if (localStorage.getItem('tvplay_theater_mode') === 'true') {
+        document.body.classList.add('is-theater-mode');
+        this.updateTheaterUI(true);
+      }
+    } catch (e) {}
   }
 
   playStream(streamUrl, channelInfo = {}) {
     if (!this.video || !streamUrl) return;
 
-    // Chuẩn hóa stream URL nếu chứa cờ header (ví dụ |Referer=...)
     let targetUrl = streamUrl;
     if (typeof streamUrl === 'string' && streamUrl.includes('|')) {
       targetUrl = streamUrl.split('|')[0].trim();
@@ -81,7 +127,6 @@ class StrandPlayer {
     const isDash = targetUrl.includes('.mpd') || !!channelInfo.dash || !!channelInfo.clearKey;
     const isHls = targetUrl.includes('.m3u8') || targetUrl.includes('play.m3u8');
 
-    // Clean up previous player instances
     if (this.hls) {
       this.hls.destroy();
       this.hls = null;
@@ -116,7 +161,7 @@ class StrandPlayer {
         this.safePlay();
       });
     }
-    // 2. Hls.js for Desktop Chrome, Firefox, Edge, Android (MSE supported)
+    // 2. Hls.js for Desktop & Android browsers
     else if (window.Hls && window.Hls.isSupported() && isHls) {
       this.hls = new window.Hls({
         enableWorker: true,
@@ -128,8 +173,12 @@ class StrandPlayer {
       });
       this.hls.loadSource(targetUrl);
       this.hls.attachMedia(this.video);
-      this.hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
+      this.hls.on(window.Hls.Events.MANIFEST_PARSED, (event, data) => {
+        this.updateQualityMenu();
         this.safePlay();
+      });
+      this.hls.on(window.Hls.Events.LEVEL_SWITCHED, (event, data) => {
+        this.onLevelSwitched(data.level);
       });
       this.hls.on(window.Hls.Events.ERROR, (event, data) => {
         if (data.fatal) {
@@ -143,36 +192,26 @@ class StrandPlayer {
               this.hls.recoverMediaError();
               break;
             default:
-              console.error('[Player] Unrecoverable HLS error, falling back to Shaka Player / Native...');
+              console.error('[Player] Unrecoverable HLS error, falling back...');
               this.hls.destroy();
-              if (window.shaka && window.shaka.Player && window.shaka.Player.isBrowserSupported()) {
-                const sp = new window.shaka.Player();
-                this.shakaPlayer = sp;
-                sp.attach(this.video).then(() => sp.load(targetUrl)).then(() => this.safePlay()).catch(() => {
-                  this.video.src = targetUrl;
-                  this.safePlay();
-                });
-              } else {
-                this.video.src = targetUrl;
-                this.safePlay();
-              }
+              this.video.src = targetUrl;
+              this.safePlay();
               break;
           }
         }
       });
-    } 
-    // 3. Native iOS Safari support (Preferred on Apple screens where MSE HLS is not supported)
+    }
+    // 3. Native iOS Safari support
     else if (!isDash && this.video.canPlayType('application/vnd.apple.mpegurl')) {
       this.video.src = targetUrl;
       this.safePlay();
-    } 
-    // 4. Fallback direct src
+    }
+    // 4. Direct src fallback
     else {
       this.video.src = targetUrl;
       this.safePlay();
     }
 
-    // Update Ambient Glow based on group or title
     this.updateAmbientGlow(channelInfo);
   }
 
@@ -184,9 +223,7 @@ class StrandPlayer {
         this.showPlayButtonOverlay(false);
         this.showBuffering(false);
       }).catch(err => {
-        console.warn('[Player] Unmuted autoplay blocked by browser policy, retrying muted...', err);
-        // Trình duyệt máy tính (Chrome/Edge) chặn phát kèm tiếng nếu chưa click trực tiếp vào video
-        // Tự động chuyển sang muted để video bắt đầu phát ngay lập tức
+        console.warn('[Player] Autoplay unmuted blocked, falling back to muted...', err);
         this.video.muted = true;
         this.updateMuteUI(true);
 
@@ -196,7 +233,7 @@ class StrandPlayer {
             this.showPlayButtonOverlay(false);
             this.showBuffering(false);
           }).catch(err2 => {
-            console.warn('[Player] Autoplay completely blocked, showing play button:', err2);
+            console.warn('[Player] Autoplay blocked, showing center play button:', err2);
             this.showPlayButtonOverlay(true);
             this.showBuffering(false);
           });
@@ -222,6 +259,30 @@ class StrandPlayer {
     }
   }
 
+  onTimeUpdate() {
+    if (!this.video) return;
+    // For live streams with finite duration, or VOD
+    const cur = this.video.currentTime;
+    const dur = this.video.duration;
+    const playLine = document.getElementById('ytProgressPlay');
+    if (playLine && dur && !isNaN(dur) && isFinite(dur) && dur > 0) {
+      const pct = Math.min(100, (cur / dur) * 100);
+      playLine.style.width = `${pct}%`;
+    }
+  }
+
+  seek(event) {
+    if (!this.video) return;
+    const bar = document.getElementById('ytProgressBar');
+    if (!bar) return;
+    const rect = bar.getBoundingClientRect();
+    const pos = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
+    if (this.video.duration && isFinite(this.video.duration)) {
+      this.video.currentTime = pos * this.video.duration;
+    }
+  }
+
+  // ================= VOLUME & AUDIO =================
   initVolume() {
     if (!this.video) return;
     const saved = localStorage.getItem('tvplay_volume');
@@ -251,8 +312,7 @@ class StrandPlayer {
     if (this.video.muted || this.video.volume === 0) {
       this.video.muted = false;
       if (this.video.volume === 0) {
-        const restoreVol = (this.currentVolume > 0) ? this.currentVolume : 1.0;
-        this.video.volume = restoreVol;
+        this.video.volume = (this.currentVolume > 0) ? this.currentVolume : 1.0;
       }
     } else {
       this.video.muted = true;
@@ -269,43 +329,58 @@ class StrandPlayer {
     const isMuted = this.video.muted || this.video.volume === 0;
     const vol = isMuted ? 0 : this.video.volume;
 
-    const slider = document.getElementById('volumeSlider');
-    if (slider) {
-      slider.value = vol;
-      slider.style.background = `linear-gradient(to right, var(--accent) ${vol * 100}%, rgba(255,255,255,0.2) ${vol * 100}%)`;
-    }
-
-    const volHigh = document.getElementById('volHighIcon');
-    const volLow = document.getElementById('volLowIcon');
-    const volMute = document.getElementById('volMuteIcon');
-
-    if (volHigh && volLow && volMute) {
-      if (isMuted || vol === 0) {
-        volMute.classList.remove('hidden');
-        volLow.classList.add('hidden');
-        volHigh.classList.add('hidden');
-      } else if (vol <= 0.5) {
-        volMute.classList.add('hidden');
-        volLow.classList.remove('hidden');
-        volHigh.classList.add('hidden');
-      } else {
-        volMute.classList.add('hidden');
-        volLow.classList.add('hidden');
-        volHigh.classList.remove('hidden');
+    // Cập nhật cả 2 slider (thanh YouTube mới và thanh cũ nếu có)
+    const sliders = [
+      document.getElementById('ytVolSlider'),
+      document.getElementById('volumeSlider')
+    ];
+    sliders.forEach(slider => {
+      if (slider) {
+        slider.value = vol;
+        slider.style.background = `linear-gradient(to right, #ffffff ${vol * 100}%, rgba(255,255,255,0.2) ${vol * 100}%)`;
       }
-    }
+    });
 
-    // Legacy IDs
-    const muteIcon = document.getElementById('muteIcon');
-    const unmuteIcon = document.getElementById('unmuteIcon');
-    if (muteIcon && unmuteIcon) {
-      if (isMuted) {
-        muteIcon.classList.remove('hidden');
-        unmuteIcon.classList.add('hidden');
-      } else {
-        muteIcon.classList.add('hidden');
-        unmuteIcon.classList.remove('hidden');
+    const updateIcons = (highId, lowId, muteId) => {
+      const h = document.getElementById(highId);
+      const l = document.getElementById(lowId);
+      const m = document.getElementById(muteId);
+      if (h && l && m) {
+        if (isMuted || vol === 0) {
+          m.classList.remove('hidden');
+          l.classList.add('hidden');
+          h.classList.add('hidden');
+        } else if (vol <= 0.5) {
+          m.classList.add('hidden');
+          l.classList.remove('hidden');
+          h.classList.add('hidden');
+        } else {
+          m.classList.add('hidden');
+          l.classList.add('hidden');
+          h.classList.remove('hidden');
+        }
       }
+    };
+
+    updateIcons('ytVolHighIcon', 'ytVolLowIcon', 'ytVolMuteIcon');
+    updateIcons('volHighIcon', 'volLowIcon', 'volMuteIcon');
+  }
+
+  // ================= THEATER & FULLSCREEN =================
+  toggleTheaterMode() {
+    const isTheater = document.body.classList.toggle('is-theater-mode');
+    try {
+      localStorage.setItem('tvplay_theater_mode', isTheater ? 'true' : 'false');
+    } catch (e) {}
+    this.updateTheaterUI(isTheater);
+  }
+
+  updateTheaterUI(isTheater) {
+    const iconNormal = document.getElementById('ytTheaterNormalIcon');
+    const iconWide = document.getElementById('ytTheaterWideIcon');
+    if (iconNormal && iconWide) {
+      iconNormal.classList.toggle('hidden', isTheater);
+      iconWide.classList.toggle('hidden', !isTheater);
     }
   }
 
@@ -316,10 +391,9 @@ class StrandPlayer {
       } else if (this.video && this.video.requestPictureInPicture) {
         await this.video.requestPictureInPicture();
       } else if (this.video && this.video.webkitSetPresentationMode) {
-        // Safari iOS presentation mode
         this.video.webkitSetPresentationMode('picture-in-picture');
       } else {
-        alert('Thiết bị hoặc trình duyệt này chưa hỗ trợ Picture-in-Picture trực tiếp.');
+        alert('Trình duyệt của bạn chưa hỗ trợ tính năng Picture-in-Picture.');
       }
     } catch (err) {
       console.warn('[Player] PiP failed:', err);
@@ -336,10 +410,9 @@ class StrandPlayer {
     const exitIcons = document.querySelectorAll('.fullscreen-exit-icon');
     enterIcons.forEach(el => el.classList.toggle('hidden', isFullscreen));
     exitIcons.forEach(el => el.classList.toggle('hidden', !isFullscreen));
+
     const label = document.getElementById('desktopFsLabel');
-    if (label) {
-      label.textContent = isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình';
-    }
+    if (label) label.textContent = isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình';
   }
 
   updatePseudoFullscreenLayout() {
@@ -369,7 +442,6 @@ class StrandPlayer {
     this.isPseudoFullscreen = false;
     this.updateFullscreenIcon(false);
 
-    // Kích hoạt hiệu ứng xoay mượt mà trở lại khung phát
     surface.classList.add('pseudo-fullscreen-exit');
     if (this._exitTimeout) clearTimeout(this._exitTimeout);
 
@@ -387,35 +459,21 @@ class StrandPlayer {
   async toggleFullscreen() {
     if (!this.video) return;
 
-    if (this._exitTimeout) {
-      clearTimeout(this._exitTimeout);
-      this._exitTimeout = null;
-    }
-
-    // 1. Nếu đang ở chế độ pseudo-fullscreen (iOS / Mobile fallback) -> Thoát
     if (this.isPseudoFullscreen) {
       this.exitPseudoFullscreen();
       return;
     }
 
-    // 2. Kiểm tra chế độ Native Fullscreen chuẩn -> Thoát nếu đang bật
     const isNativeFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
     if (isNativeFullscreen) {
       try {
         if (document.exitFullscreen) await document.exitFullscreen();
         else if (document.webkitExitFullscreen) await document.webkitExitFullscreen();
-      } catch (err) {
-        console.warn('[Player] Exit fullscreen error:', err);
-      }
-      if (screen.orientation && screen.orientation.unlock) {
-        try { screen.orientation.unlock(); } catch (e) {}
-      }
+      } catch (err) {}
       this.updateFullscreenIcon(false);
       return;
     }
 
-    // 3. Xử lý riêng cho iPhone / iOS hoặc trình duyệt không hỗ trợ Element.requestFullscreen:
-    // Tự động xoay ngang 90 độ lấp đầy toàn bộ màn hình (bất kể iOS bật Khóa xoay màn hình)
     const container = document.getElementById('playerSection') || this.video;
     const canNativeRequest = !!(container && (container.requestFullscreen || container.webkitRequestFullscreen));
     const isIOS = this.isIOSDevice();
@@ -427,7 +485,6 @@ class StrandPlayer {
       return;
     }
 
-    // 4. Trình duyệt chuẩn (Desktop, Android) -> Dùng Fullscreen API gốc và lock landscape
     try {
       if (container.requestFullscreen) {
         await container.requestFullscreen();
@@ -435,29 +492,94 @@ class StrandPlayer {
         await container.webkitRequestFullscreen();
       }
       this.updateFullscreenIcon(true);
-
-      // Khóa xoay ngang màn hình trên Android khi vào fullscreen
       if (screen.orientation && screen.orientation.lock) {
-        const isLandscape = (this.video.videoWidth && this.video.videoHeight)
-          ? this.video.videoWidth >= this.video.videoHeight
-          : true;
-        screen.orientation.lock(isLandscape ? 'landscape' : 'portrait').catch(() => {});
+        screen.orientation.lock('landscape').catch(() => {});
       }
     } catch (err) {
-      console.warn('[Player] Standard fullscreen failed, falling back to pseudo-fullscreen:', err);
       this.isPseudoFullscreen = true;
       this.updatePseudoFullscreenLayout();
       this.updateFullscreenIcon(true);
     }
   }
 
+  // ================= SETTINGS MENU (YOUTUBE POPUP) =================
+  toggleSettingsMenu() {
+    const menu = document.getElementById('ytSettingsMenu');
+    if (!menu) return;
+    menu.classList.toggle('hidden');
+    if (!menu.classList.contains('hidden')) {
+      this.updateQualityMenu();
+    }
+  }
+
+  updateQualityMenu() {
+    const container = document.getElementById('ytQualityOptions');
+    if (!container) return;
+
+    if (this.hls && this.hls.levels && this.hls.levels.length > 0) {
+      let html = `
+        <button onclick="window.player.setQuality(-1)" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${this.hls.currentLevel === -1 ? 'text-amber-400 font-bold' : 'text-white/80'}">
+          <span>Tự động (Auto)</span>
+          ${this.hls.currentLevel === -1 ? '✓' : ''}
+        </button>
+      `;
+
+      this.hls.levels.forEach((lvl, idx) => {
+        const height = lvl.height || Math.round((lvl.bitrate || 0) / 1000) + 'k';
+        const label = `${height}p`;
+        const isCurrent = (this.hls.currentLevel === idx);
+        html += `
+          <button onclick="window.player.setQuality(${idx})" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isCurrent ? 'text-amber-400 font-bold' : 'text-white/80'}">
+            <span>${label}</span>
+            ${isCurrent ? '✓' : ''}
+          </button>
+        `;
+      });
+      container.innerHTML = html;
+    } else {
+      container.innerHTML = `
+        <div class="px-2.5 py-1 text-white/50 text-[11px]">Tự động (Mặc định)</div>
+      `;
+    }
+  }
+
+  setQuality(levelIdx) {
+    if (this.hls) {
+      this.hls.currentLevel = levelIdx;
+      this.updateQualityMenu();
+    }
+    const menu = document.getElementById('ytSettingsMenu');
+    if (menu) menu.classList.add('hidden');
+  }
+
+  onLevelSwitched(levelIdx) {
+    const badge = document.getElementById('ytQualityBadge');
+    if (badge && this.hls && this.hls.levels && this.hls.levels[levelIdx]) {
+      const h = this.hls.levels[levelIdx].height;
+      if (h >= 720) {
+        badge.classList.remove('hidden');
+      } else {
+        badge.classList.add('hidden');
+      }
+    }
+  }
+
+  reloadCurrentStream() {
+    if (this.currentChannel && (this.currentChannel.url || this.currentChannel.streamUrl)) {
+      this.playStream(this.currentChannel.url || this.currentChannel.streamUrl, this.currentChannel);
+    }
+    const menu = document.getElementById('ytSettingsMenu');
+    if (menu) menu.classList.add('hidden');
+  }
+
+  // ================= AIRPLAY =================
   initAirPlay() {
     if (window.WebKitPlaybackTargetAvailabilityEvent && this.video) {
       this.video.addEventListener('webkitplaybacktargetavailabilitychanged', event => {
-        const airplayBtn = document.getElementById('airplayBtn');
-        if (airplayBtn) {
-          airplayBtn.style.display = event.availability === 'available' ? 'inline-flex' : 'none';
-        }
+        const btns = document.querySelectorAll('.airplay-btn');
+        btns.forEach(btn => {
+          btn.style.display = event.availability === 'available' ? 'inline-flex' : 'none';
+        });
       });
     }
   }
@@ -466,23 +588,23 @@ class StrandPlayer {
     if (this.video && this.video.webkitShowPlaybackTargetPicker) {
       this.video.webkitShowPlaybackTargetPicker();
     } else {
-      alert('AirPlay: Đang sẵn sàng truyền tới Apple TV hoặc Samsung TV (10.0.0.9). Đảm bảo thiết bị cùng mạng Wi-Fi.');
+      alert('AirPlay: Đang sẵn sàng truyền tới Apple TV hoặc Samsung TV (10.0.0.9).');
     }
   }
 
+  // ================= HUD & CONTROLS AUTO-HIDE =================
   onPlayStateChange(playing) {
     this.isPlaying = playing;
-    const playIcon = document.getElementById('playIcon');
-    const pauseIcon = document.getElementById('pauseIcon');
-    if (playIcon && pauseIcon) {
-      if (playing) {
-        playIcon.classList.add('hidden');
-        pauseIcon.classList.remove('hidden');
-      } else {
-        playIcon.classList.remove('hidden');
-        pauseIcon.classList.add('hidden');
-      }
-    }
+    const playIcons = [document.getElementById('playIcon'), document.getElementById('ytPlayIcon')];
+    const pauseIcons = [document.getElementById('pauseIcon'), document.getElementById('ytPauseIcon')];
+
+    playIcons.forEach(icon => {
+      if (icon) icon.classList.toggle('hidden', playing);
+    });
+    pauseIcons.forEach(icon => {
+      if (icon) icon.classList.toggle('hidden', !playing);
+    });
+
     this.showPlayButtonOverlay(!playing);
 
     if (playing) {
@@ -505,32 +627,30 @@ class StrandPlayer {
     };
 
     this.hideHUD = () => {
-      // Giữ nguyên hiển thị điều khiển nếu video đang tạm dừng
+      // Giữ hiển thị nếu video đang tạm dừng hoặc settings menu đang mở
+      const settingsMenu = document.getElementById('ytSettingsMenu');
+      if (settingsMenu && !settingsMenu.classList.contains('hidden')) return;
       if (this.video && this.video.paused) return;
+
       overlay.classList.add('player-hud-hidden');
       surface.style.cursor = 'none';
     };
 
     this.resetHUDTimer = () => {
       clearTimeout(this.hudTimer);
-      this.hudTimer = setTimeout(this.hideHUD, 5000);
+      this.hudTimer = setTimeout(this.hideHUD, 3500);
     };
 
     surface.addEventListener('mousemove', this.showHUD);
     surface.addEventListener('mouseenter', this.showHUD);
     surface.addEventListener('touchstart', this.showHUD, { passive: true });
-    surface.addEventListener('click', this.showHUD);
 
-    // Bắt đầu đếm ngược 5 giây khi vừa khởi tạo
     this.resetHUDTimer();
   }
 
   showBuffering(loading) {
     const spinner = document.getElementById('bufferingSpinner');
-    if (spinner) {
-      if (loading) spinner.classList.remove('hidden');
-      else spinner.classList.add('hidden');
-    }
+    if (spinner) spinner.classList.toggle('hidden', !loading);
   }
 
   showPlayButtonOverlay(show) {
@@ -546,15 +666,18 @@ class StrandPlayer {
     const title = document.getElementById('playerProgramTitle');
     const subtitle = document.getElementById('playerProgramSubtitle');
 
-    if (badge && info.name) badge.textContent = info.name;
-    if (title && info.title) title.textContent = info.title;
+    const displayName = info.title || info.name || 'TV Play';
+    if (badge) badge.textContent = displayName;
+    if (title) title.textContent = displayName;
     if (subtitle && info.subtitle) subtitle.textContent = info.subtitle;
 
-    // Desktop player info card
+    const ytLiveBadge = document.getElementById('ytBadgeChannel');
+    if (ytLiveBadge) ytLiveBadge.textContent = displayName;
+
     const dName = document.getElementById('desktopChannelName');
     const dSub = document.getElementById('desktopChannelSub');
     const dBadge = document.getElementById('desktopChannelBadge');
-    if (dName && (info.title || info.name)) dName.textContent = info.title || info.name;
+    if (dName) dName.textContent = displayName;
     if (dSub && (info.subtitle || info.name)) dSub.textContent = info.subtitle || info.name;
     if (dBadge && info.group) dBadge.textContent = info.group.toUpperCase();
   }
@@ -562,7 +685,6 @@ class StrandPlayer {
   updateAmbientGlow(info) {
     const glow = document.getElementById('ambientGlow');
     if (!glow) return;
-
     glow.className = 'ambient-glow';
     const genre = (info.group || info.genre || '').toLowerCase();
     if (genre.includes('thể thao') || genre.includes('sport') || genre.includes('bóng đá')) {
@@ -596,13 +718,10 @@ class StrandPlayer {
       const diffX = touchEndX - touchStartX;
       const diffY = touchEndY - touchStartY;
 
-      // Horizontal swipe detected (threshold 50px, diffX > diffY)
-      if (Math.abs(diffX) > 50 && Math.abs(diffX) > Math.abs(diffY)) {
+      if (Math.abs(diffX) > 60 && Math.abs(diffX) > Math.abs(diffY)) {
         if (diffX < 0) {
-          // Swipe Left -> Next Channel
           if (window.channelManager) window.channelManager.playNextChannel();
         } else {
-          // Swipe Right -> Previous Channel
           if (window.channelManager) window.channelManager.playPrevChannel();
         }
       }
@@ -611,4 +730,3 @@ class StrandPlayer {
 }
 
 window.StrandPlayer = StrandPlayer;
-
