@@ -1,6 +1,73 @@
 {
-  "updated_at": "2026-11-17 05:32:27",
+  "updated_at": "2026-11-17 05:47:55",
   "live_events": [
+    {
+      "key": "17/11_06:00_juventud_montevideowanderers",
+      "match_key": "17/11_06:00_juventud_montevideowanderers",
+      "c_home": "montevideowanderers",
+      "c_away": "juventud",
+      "homeTeam": "Montevideo Wanderers",
+      "awayTeam": "Juventud",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "06:00",
+      "date": "17/11",
+      "timestamp": 1794870000000,
+      "league": "OTHER",
+      "leagueName": "URU D1",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=f0bf1a4db08f800edf0048eccacb22db&txTime=6afbdc10",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=a8dcb4edfa1fe0f16d013f3af296f130&txTime=6afbdc10",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794872768-0-0-c61d6521cfaddef9ad3a07e568f3570b",
+          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794872768-0-0-14e4b094db758a33a53564e086b5998e",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV NGƯỜI SÓI) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/monte-juve-uruprim/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/f88e95de-62c8-478c-8207-42d7514b34cf",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        }
+      ],
+      "displayTitle": "🔴 [06:00 17/11] Montevideo Wanderers vs Juventud",
+      "number": 1
+    },
     {
       "key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
       "match_key": "17/11_07:00_memphisgrizzlies_washingtonwizards",
@@ -30,7 +97,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 17/11] Washington Wizards vs Memphis Grizzlies",
-      "number": 1
+      "number": 2
     },
     {
       "key": "17/11_07:00_chicagobulls_clevelandcavaliers",
@@ -61,7 +128,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 17/11] Cleveland Cavaliers vs Chicago Bulls",
-      "number": 2
+      "number": 3
     },
     {
       "key": "17/11_07:00_bostonceltics_orlandomagic",
@@ -92,7 +159,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 17/11] Boston Celtics vs Orlando Magic",
-      "number": 3
+      "number": 4
     },
     {
       "key": "17/11_07:30_brooklynnets_philadelphia76ers",
@@ -123,7 +190,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 17/11] Brooklyn Nets vs Philadelphia 76ers",
-      "number": 4
+      "number": 5
     },
     {
       "key": "17/11_07:30_houstonrockets_intermiami",
@@ -154,7 +221,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 17/11] Inter Miami vs Houston Rockets",
-      "number": 5
+      "number": 6
     },
     {
       "key": "17/11_08:00_minnesotatimberwolves_portlandtrailblazers",
@@ -185,7 +252,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 17/11] Minnesota Timberwolves vs Portland Trail Blazers",
-      "number": 6
+      "number": 7
     },
     {
       "key": "17/11_08:00_goldenstatewarriors_neworleanspelicans",
@@ -216,7 +283,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 17/11] New Orleans Pelicans vs Golden State Warriors",
-      "number": 7
+      "number": 8
     },
     {
       "key": "17/11_08:15_baltimoreravens_losangeleschargers",
@@ -256,7 +323,7 @@
         }
       ],
       "displayTitle": "🏈 [08:15 17/11] Baltimore Ravens vs Los Angeles Chargers",
-      "number": 8
+      "number": 9
     },
     {
       "key": "17/11_09:00_denvernuggets_phoenixsuns",
@@ -296,7 +363,7 @@
         }
       ],
       "displayTitle": "🏀 [09:00 17/11] Denver Nuggets vs Phoenix Suns 24h Tv",
-      "number": 9
+      "number": 10
     },
     {
       "key": "17/11_LIVE_denmark_portugal",
@@ -318,7 +385,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=5a396ab4979bea44935a4473478dbde0&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=71e0a0d72b4a585d3865981abb5cec3d&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -327,7 +394,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Portugal vs Denmark",
-      "number": 10
+      "number": 11
     },
     {
       "key": "17/11_LIVE_austria_ireland",
@@ -349,7 +416,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=58414edb24736c7615f4cb85be34da59&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=572ffcfc447e95a36794eef077bf41ec&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -358,7 +425,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Austria vs Ireland",
-      "number": 11
+      "number": 12
     },
     {
       "key": "17/11_LIVE_norway_wales",
@@ -380,7 +447,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=e35899572cda9481e83a90c537db0a85&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b5a42452e0ef9f7f000b8357e41bfbbc&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -389,37 +456,6 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 17/11] Norway vs Wales",
-      "number": 12
-    },
-    {
-      "key": "17/11_LIVE_georgia_hungary",
-      "match_key": "17/11_LIVE_georgia_hungary",
-      "c_home": "georgia",
-      "c_away": "hungary",
-      "homeTeam": "Georgia",
-      "awayTeam": "Hungary",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=ba23cfb081a21562b1a6ade10d7d645b&txTime=6afbd88c",
-          "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_georgia_hungary"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Georgia vs Hungary",
       "number": 13
     },
     {
@@ -442,7 +478,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=ae7753d39b933feedd32975c66c864a8&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=caad59bd2713a1a911afba8b3ece5608&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -452,6 +488,37 @@
       ],
       "displayTitle": "⚽ [LIVE 17/11] Sweden vs Bosnia and Herzegovina",
       "number": 14
+    },
+    {
+      "key": "17/11_LIVE_georgia_hungary",
+      "match_key": "17/11_LIVE_georgia_hungary",
+      "c_home": "georgia",
+      "c_away": "hungary",
+      "homeTeam": "Georgia",
+      "awayTeam": "Hungary",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=3fa34991ebb9d5720237ae83a244ef50&txTime=6afbdc10",
+          "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_georgia_hungary"
+        }
+      ],
+      "displayTitle": "⚽ [LIVE 17/11] Georgia vs Hungary",
+      "number": 15
     },
     {
       "key": "17/11_23:00_russia_venezuela",
@@ -493,7 +560,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 17/11] Russia vs Venezuela",
-      "number": 15
+      "number": 16
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -535,7 +602,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 16
+      "number": 17
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -577,7 +644,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 17
+      "number": 18
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -608,7 +675,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 18
+      "number": 19
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -650,7 +717,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 19
+      "number": 20
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -681,7 +748,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 20
+      "number": 21
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -712,7 +779,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 21
+      "number": 22
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -754,7 +821,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 22
+      "number": 23
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -787,7 +854,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 23
+      "number": 24
     }
   ],
   "source_groups": [
@@ -1692,24 +1759,40 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=a7ef3c1ba452a7bb940514991bdefceb&txTime=6afbd88c",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "URU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
-        },
-        {
           "name": "⚽ [06:00 17/11] Montevideo Wanderers FC vs CA Juventud (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=b65d42d0956e2cbef228af565dc2f685&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=f0bf1a4db08f800edf0048eccacb22db&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "URU D1",
           "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=a8dcb4edfa1fe0f16d013f3af296f130&txTime=6afbdc10",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV ASHAHI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794872768-0-0-c61d6521cfaddef9ad3a07e568f3570b",
+          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Montevideo Wanderers FC vs CA Juventud (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794872768-0-0-14e4b094db758a33a53564e086b5998e",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "URU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Portugal vs Denmark (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=5a396ab4979bea44935a4473478dbde0&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=71e0a0d72b4a585d3865981abb5cec3d&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/279d12b306b5f2759f2d8674ecebf4f8.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1717,7 +1800,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Austria vs Ireland (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=58414edb24736c7615f4cb85be34da59&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=572ffcfc447e95a36794eef077bf41ec&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/aa25c954e853fe0a8a98b98af190fecd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1725,23 +1808,15 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Norway vs Wales (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=e35899572cda9481e83a90c537db0a85&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b5a42452e0ef9f7f000b8357e41bfbbc&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/8c14c91584be238592e74d6387dab959.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_norway_wales"
         },
         {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=ba23cfb081a21562b1a6ade10d7d645b&txTime=6afbd88c",
-          "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_georgia_hungary"
-        },
-        {
           "name": "⚽ [LIVE 17/11] INTERF - Japan vs Brazil (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=951c985c76efd8a1a6c82d9a24b97928&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=46fc55b39051c96e522062b406ac0b3c&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/6ba3776ae12d26d553e61e3e07e01fb9.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1749,11 +1824,19 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Sweden vs Bosnia and Herzegovina (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=ae7753d39b933feedd32975c66c864a8&txTime=6afbd88c",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=caad59bd2713a1a911afba8b3ece5608&txTime=6afbdc10",
           "logo": "https://sta.vnres.co/file/common/20261115/7e95b55d6c4573e217fc44650eb37c39.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_bosnia_sweden"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Georgia vs Hungary (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=3fa34991ebb9d5720237ae83a244ef50&txTime=6afbdc10",
+          "logo": "https://sta.vnres.co/file/common/20261115/a8d28e77667866be611bdc90a2aae050.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_georgia_hungary"
         }
       ]
     },
@@ -1903,7 +1986,7 @@
           "logo": "https://s8tvkc.top/wp-json/s8-image/f88e95de-62c8-478c-8207-42d7514b34cf",
           "competition": "",
           "group": "⚡ S8 TV",
-          "match_key": "17/11_LIVE_juventud_montevideowanderers"
+          "match_key": "17/11_06:00_juventud_montevideowanderers"
         },
         {
           "name": "⚽ [08:00 17/11] Canada vs Guatemala (BLV NGƯỜI SÓI) [hls] - S8 TV",
