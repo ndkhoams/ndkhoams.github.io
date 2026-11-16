@@ -60,10 +60,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, 3 * 60 * 1000);
 
-  // 6. Register Service Worker for PWA
+  // 6. Register Service Worker for PWA & force update check
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('[PWA] Service Worker registered:', reg.scope))
+      .then(reg => {
+        console.log('[PWA] Service Worker registered:', reg.scope);
+        reg.update();
+      })
       .catch(err => console.warn('[PWA] Service Worker registration failed:', err));
   }
 

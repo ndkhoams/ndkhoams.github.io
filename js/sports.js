@@ -409,6 +409,9 @@ class SportsManager {
     if (btn) btn.disabled = true;
 
     try {
+      // Xóa cache cũ để buộc tải mới hoàn toàn từ server
+      try { localStorage.removeItem('tvplay_sports_cache'); } catch (e) {}
+      this.sportsData = null;
       await this.loadSports(true);
       if (text) text.textContent = 'Đã cập nhật';
       setTimeout(() => {
@@ -430,7 +433,7 @@ class SportsManager {
     if (!container) return;
 
     // 0. Nạp tức thì từ cache LocalStorage nếu có (Instant UI, không bao giờ để trắng màn hình)
-    if (!this.sportsData) {
+    if (!forceFresh && !this.sportsData) {
       try {
         const cached = localStorage.getItem('tvplay_sports_cache');
         if (cached) {
@@ -464,18 +467,18 @@ class SportsManager {
 
       // Danh sách các máy chủ mirror CDN dự phòng (chống nhà mạng VN chặn GitHub / CDN)
       const mirrorUrls = [
-        // 1. Armbian LAN Hub (nếu bật tùy chọn và đang trong mạng nội bộ)
-        ...(this.useArmbian ? [`${this.armbianHubUrl}/data/thethao-data.json${cacheBuster}`] : []),
-        // 2. Raw GitHub (luôn nóng nhất ngay khi updater đẩy lên)
-        `https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao-data.json${cacheBuster}`,
-        // 3. jsDelivr Cloudflare CDN
+        // 1. Same-origin local path (trực tiếp trên ndkhoams.github.io, không CORS, không chặn ISP)
+        `./thethao-data.json${cacheBuster}`,
+        // 2. jsDelivr Cloudflare CDN (Global Edge, cực nhanh tại VN)
         `https://cdn.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
-        // 4. jsDelivr Fastly CDN
-        `https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
-        // 5. jsDelivr GCore CDN
+        // 3. jsDelivr GCore CDN
         `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
-        // 6. jsDelivr TestingCF CDN
-        `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`
+        // 4. Raw GitHub repo iptv
+        `https://raw.githubusercontent.com/ndkhoams/iptv/main/thethao-data.json${cacheBuster}`,
+        // 5. jsDelivr TestingCF CDN
+        `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/thethao-data.json${cacheBuster}`,
+        // 6. Armbian LAN Hub (nếu bật tùy chọn và đang trong mạng nội bộ)
+        ...(this.useArmbian ? [`${this.armbianHubUrl}/data/thethao-data.json${cacheBuster}`] : [])
       ];
 
       for (const url of mirrorUrls) {

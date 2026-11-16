@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tvplay-v34';
+const CACHE_NAME = 'tvplay-v36';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -29,6 +29,7 @@ self.addEventListener('activate', event => {
       return Promise.all(
         keys.map(key => {
           if (key !== CACHE_NAME) {
+            console.log('[SW] Deleting old cache:', key);
             return caches.delete(key);
           }
         })
