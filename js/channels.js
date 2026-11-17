@@ -38,12 +38,6 @@ class ChannelManager {
         name: 'KTV Chuẩn (VTV, Thể Thao, Tin Tức)',
         url: 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u',
         isDefault: true
-      },
-      {
-        id: 'fpt_udpxy',
-        name: 'FPT IPTV (udpxy 10.0.0.222)',
-        url: './fpt.m3u',
-        isDefault: true
       }
     ];
 
@@ -71,6 +65,15 @@ class ChannelManager {
     } else {
       this.playlists = saved;
       let updated = false;
+
+      // Loại bỏ nguồn fpt_udpxy nếu người dùng từng được thêm tự động
+      if (this.playlists.some(p => p.id === 'fpt_udpxy')) {
+        this.playlists = this.playlists.filter(p => p.id !== 'fpt_udpxy');
+        if (this.activePlaylistId === 'fpt_udpxy') {
+          this.activePlaylistId = this.playlists[0]?.id || 'ktv_main';
+        }
+        updated = true;
+      }
 
       // Đảm bảo các nguồn hệ thống luôn có mặt
       this.defaultPlaylists.forEach(dp => {
@@ -298,15 +301,6 @@ class ChannelManager {
           `https://fastly.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
           `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
           `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`
-        ];
-      } else if (targetUrl.includes('121124.xyz/tv/fpt') || targetUrl.includes('fpt.m3u')) {
-        const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
-        mirrorUrls = [
-          `./fpt.m3u${cacheBuster}`,
-          `https://ndkhoams.github.io/fpt.m3u${cacheBuster}`,
-          `https://raw.githubusercontent.com/ndkhoams/ndkhoams.github.io/main/fpt.m3u${cacheBuster}`,
-          `${hubUrl}/data/fpt.m3u${cacheBuster}`,
-          `${targetUrl}${cacheBuster}`
         ];
       } else {
         mirrorUrls = [`${targetUrl}${cacheBuster}`];
