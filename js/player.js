@@ -730,17 +730,7 @@ class StrandPlayer {
   }
 
   updateHUD(info) {
-    const badge = document.getElementById('playerBadgeChannel');
-    const title = document.getElementById('playerProgramTitle');
-    const subtitle = document.getElementById('playerProgramSubtitle');
-
     const displayName = info.title || info.name || 'TV Play';
-    if (badge) badge.textContent = displayName;
-    if (title) title.textContent = displayName;
-    if (subtitle && info.subtitle) subtitle.textContent = info.subtitle;
-
-    const ytLiveBadge = document.getElementById('ytBadgeChannel');
-    if (ytLiveBadge) ytLiveBadge.textContent = displayName;
 
     const dName = document.getElementById('desktopChannelName');
     const dSub = document.getElementById('desktopChannelSub');
