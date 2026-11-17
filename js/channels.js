@@ -38,9 +38,16 @@ class ChannelManager {
         name: 'KTV Chuẩn (VTV, Thể Thao, Tin Tức)',
         url: 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u',
         isDefault: true
+      },
+      {
+        id: 'fpt_udpxy',
+        name: 'FPT IPTV (udpxy 10.0.0.222)',
+        url: './fpt.m3u',
+        isDefault: true
       }
     ];
 
+    this._uploadedM3uCache = {};
     this.initPlaylists();
 
     // Close category dropdown on outside click
@@ -63,8 +70,17 @@ class ChannelManager {
       this.savePlaylists();
     } else {
       this.playlists = saved;
-      // Tự động nâng cấp link CDN jsDelivr cũ sang Raw GitHub để luôn phản ánh thay đổi tức thời
       let updated = false;
+
+      // Đảm bảo các nguồn hệ thống luôn có mặt
+      this.defaultPlaylists.forEach(dp => {
+        if (!this.playlists.some(p => p.id === dp.id)) {
+          this.playlists.push(dp);
+          updated = true;
+        }
+      });
+
+      // Tự động nâng cấp link CDN jsDelivr cũ sang Raw GitHub để luôn phản ánh thay đổi tức thời
       this.playlists.forEach(p => {
         if (p.url && p.url.includes('jsdelivr.net/gh/ndkhoams/iptv')) {
           p.url = 'https://raw.githubusercontent.com/ndkhoams/iptv/main/ktv.m3u';
@@ -86,7 +102,52 @@ class ChannelManager {
     return this.playlists.find(p => p.id === this.activePlaylistId) || this.playlists[0];
   }
 
-  addPlaylist(name, url) {
+  async handleFileUpload(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+    await this.addPlaylistFromFile(file);
+    event.target.value = '';
+  }
+
+  async addPlaylistFromFile(file) {
+    try {
+      const text = await file.text();
+      if (!text || !text.includes('#EXTM3U')) {
+        alert('Tệp không đúng định dạng M3U hợp lệ (#EXTM3U).');
+        return false;
+      }
+      const plId = 'pl_file_' + Date.now();
+      const rawName = file.name.replace(/\.[^/.]+$/, '') || 'Danh sách tải lên';
+      try {
+        localStorage.setItem(`tvplay_m3u_file_${plId}`, text);
+      } catch (e) {
+        console.warn('[Channels] LocalStorage đầy, lưu tạm trong bộ nhớ phiên');
+      }
+      this._uploadedM3uCache[plId] = text;
+
+      const newPl = {
+        id: plId,
+        name: `📁 ${rawName}`,
+        url: `local://${plId}`,
+        isFile: true,
+        isDefault: false
+      };
+
+      this.playlists.push(newPl);
+      this.activePlaylistId = newPl.id;
+      this.savePlaylists();
+      this.renderPlaylistsUI();
+      await this.loadChannels();
+      alert(`Đã nạp thành công danh sách "${rawName}" (${this.channels.length} kênh & trận)!`);
+      return true;
+    } catch (err) {
+      console.error('Error reading M3U file:', err);
+      alert('Không thể đọc tệp M3U: ' + err.message);
+      return false;
+    }
+  }
+
+  async addPlaylist(name, url) {
     const cleanName = (name || '').trim();
     const cleanUrl = (url || '').trim();
 
@@ -108,10 +169,30 @@ class ChannelManager {
     };
 
     this.playlists.push(newPl);
+    const prevActiveId = this.activePlaylistId;
     this.activePlaylistId = newPl.id;
     this.savePlaylists();
     this.renderPlaylistsUI();
-    this.loadChannels();
+
+    const ok = await this.loadChannels();
+    if (!ok) {
+      // Revert if failed
+      this.playlists = this.playlists.filter(p => p.id !== newPl.id);
+      this.activePlaylistId = prevActiveId;
+      this.savePlaylists();
+      this.renderPlaylistsUI();
+      await this.loadChannels();
+
+      const isCorsSuspect = cleanUrl.includes('121124.xyz') || (!cleanUrl.includes('github') && !cleanUrl.includes('jsdelivr'));
+      if (isCorsSuspect) {
+        alert(`⚠️ Máy chủ nguồn này (${new URL(cleanUrl).hostname}) chặn kết nối từ trình duyệt web (lỗi CORS).\n\n💡 Cách xử lý:\n1. Tải file M3U về máy (mở link trong tab mới để lưu file .m3u).\n2. Bấm nút "📁 Tải Tệp .M3U Lên" để nạp toàn bộ kênh ngay lập tức!`);
+      } else {
+        alert(`Không thể tải nguồn "${cleanName}". Vui lòng kiểm tra lại đường dẫn mạng.`);
+      }
+      return false;
+    }
+
+    alert(`Đã nạp thành công nguồn "${cleanName}" (${this.channels.length} kênh & trận)!`);
     return true;
   }
 
@@ -204,7 +285,10 @@ class ChannelManager {
 
       // Xây dựng danh sách mirror cho playlist hiện tại
       let mirrorUrls = [];
-      if (targetUrl.includes('ktv.m3u')) {
+      if (targetUrl.startsWith('local://')) {
+        const plId = targetUrl.replace('local://', '');
+        m3uText = (this._uploadedM3uCache && this._uploadedM3uCache[plId]) || localStorage.getItem(`tvplay_m3u_file_${plId}`);
+      } else if (targetUrl.includes('ktv.m3u')) {
         const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
         const useArmbian = localStorage.getItem('tvplay_use_armbian') === 'true';
         mirrorUrls = [
@@ -215,26 +299,37 @@ class ChannelManager {
           `https://gcore.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`,
           `https://testingcf.jsdelivr.net/gh/ndkhoams/iptv@main/ktv.m3u${cacheBuster}`
         ];
+      } else if (targetUrl.includes('121124.xyz/tv/fpt') || targetUrl.includes('fpt.m3u')) {
+        const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
+        mirrorUrls = [
+          `./fpt.m3u${cacheBuster}`,
+          `https://ndkhoams.github.io/fpt.m3u${cacheBuster}`,
+          `https://raw.githubusercontent.com/ndkhoams/ndkhoams.github.io/main/fpt.m3u${cacheBuster}`,
+          `${hubUrl}/data/fpt.m3u${cacheBuster}`,
+          `${targetUrl}${cacheBuster}`
+        ];
       } else {
         mirrorUrls = [`${targetUrl}${cacheBuster}`];
       }
 
-      for (const url of mirrorUrls) {
-        try {
-          const res = await fetchWithSafeTimeout(url, { cache: 'no-store' }, 4500);
-          if (res && res.ok) {
-            const t = await res.text();
-            if (t && t.includes('#EXTM3U')) {
-              m3uText = t;
-              if (targetUrl.includes('ktv.m3u')) {
-                try {
-                  localStorage.setItem('tvplay_ktv_m3u_cache', m3uText);
-                } catch (e) {}
+      if (!m3uText) {
+        for (const url of mirrorUrls) {
+          try {
+            const res = await fetchWithSafeTimeout(url, { cache: 'no-store' }, 4500);
+            if (res && res.ok) {
+              const t = await res.text();
+              if (t && t.includes('#EXTM3U')) {
+                m3uText = t;
+                if (targetUrl.includes('ktv.m3u')) {
+                  try {
+                    localStorage.setItem('tvplay_ktv_m3u_cache', m3uText);
+                  } catch (e) {}
+                }
+                break;
               }
-              break;
             }
-          }
-        } catch (fErr) {}
+          } catch (fErr) {}
+        }
       }
 
       // Dự phòng cache nếu toàn bộ mạng rớt
@@ -266,10 +361,17 @@ class ChannelManager {
       this.channels.forEach((ch, idx) => { ch.id = idx; });
 
       this.onChannelsReady();
+      return true;
 
     } catch (err) {
       console.error('[Channels] Error loading M3U from', activePl.url, err);
+      this.tvChannels = [];
+      this.channels = [...this.sportsChannels];
+      this.channels.forEach((ch, idx) => { ch.id = idx; });
+      this.renderChannels();
+      this.renderCategories();
       this.renderError(`Không thể tải nguồn "${activePl.name}". Vui lòng kiểm tra lại đường dẫn mạng.`);
+      return false;
     }
   }
 

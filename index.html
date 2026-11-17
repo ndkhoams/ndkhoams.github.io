@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=42) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=43) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=42">
+  <link rel="stylesheet" href="css/strand.css?v=43">
 
   <!-- Hls.js & Shaka Player for HLS & DASH ClearKey streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -649,13 +649,26 @@
           </div>
         </div>
 
-        <button type="button" onclick="submitNewPlaylist()"
-          class="w-full py-2.5 rounded-xl bg-gradient-to-r from-[#ff6500] to-[#ff9f0a] text-white text-xs font-bold shadow-lg shadow-orange-500/25 active:scale-98 transition flex items-center justify-center gap-1.5 cursor-pointer">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
-          </svg>
-          <span>Lưu &amp; Kích Hoạt Nguồn Này</span>
-        </button>
+        <div class="flex items-center gap-2">
+          <button id="submitPlaylistBtn" type="button" onclick="submitNewPlaylist()"
+            class="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-[#ff6500] to-[#ff9f0a] text-white text-xs font-bold shadow-lg shadow-orange-500/25 active:scale-98 transition flex items-center justify-center gap-1.5 cursor-pointer">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+            <span>Lưu &amp; Kích Hoạt Nguồn Này</span>
+          </button>
+
+          <!-- Nút Tải File M3U trực tiếp từ máy (tránh hoàn toàn chặn CORS) -->
+          <input type="file" id="m3uFileInput" accept=".m3u,.m3u8,.txt" class="hidden" onchange="window.channelManager &amp;&amp; window.channelManager.handleFileUpload(event)">
+          <button type="button" onclick="document.getElementById('m3uFileInput').click()" title="Tải tệp .m3u từ máy (không bị chặn CORS)"
+            class="px-3 py-2.5 rounded-xl glass-pill border border-white/20 text-white text-xs font-semibold hover:bg-white/20 active:scale-98 transition flex items-center gap-1.5 cursor-pointer shrink-0">
+            <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+            </svg>
+            <span class="hidden sm:inline">Tải Tệp M3U</span>
+            <span class="sm:hidden">Tệp</span>
+          </button>
+        </div>
       </div>
 
       <!-- Saved Playlists Header -->
@@ -681,13 +694,13 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=42) -->
-  <script src="js/player.js?v=42"></script>
-  <script src="js/channels.js?v=42"></script>
-  <script src="js/timeline.js?v=42"></script>
-  <script src="js/sports.js?v=42"></script>
-  <script src="js/multistream.js?v=42"></script>
-  <script src="js/app.js?v=42"></script>
+  <!-- Application Logic Modules (Cache busted ?v=43) -->
+  <script src="js/player.js?v=43"></script>
+  <script src="js/channels.js?v=43"></script>
+  <script src="js/timeline.js?v=43"></script>
+  <script src="js/sports.js?v=43"></script>
+  <script src="js/multistream.js?v=43"></script>
+  <script src="js/app.js?v=43"></script>
 </body>
 
 </html>

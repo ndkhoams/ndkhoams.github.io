@@ -252,17 +252,16 @@ function closeSettingsModal() {
   if (modal) modal.classList.add('hidden');
 }
 
-function submitNewPlaylist() {
+async function submitNewPlaylist() {
   const nameInput = document.getElementById('newPlaylistName');
   const urlInput = document.getElementById('newPlaylistUrl');
 
   if (!nameInput || !urlInput) return;
 
-  const success = window.channelManager.addPlaylist(nameInput.value, urlInput.value);
+  const success = await window.channelManager.addPlaylist(nameInput.value, urlInput.value);
   if (success) {
     nameInput.value = '';
     urlInput.value = '';
-    alert('Đã thêm nguồn phát mới thành công và nạp danh sách kênh!');
   }
 }
 
