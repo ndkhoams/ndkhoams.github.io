@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-17 13:40:08",
+  "updated_at": "2026-11-17 13:55:17",
   "live_events": [
-    {
-      "key": "17/11_LIVE_england_spain",
-      "match_key": "17/11_LIVE_england_spain",
-      "c_home": "spain",
-      "c_away": "england",
-      "homeTeam": "Spain",
-      "awayTeam": "England",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=52b6fe41cd3db127743b6b0099098582&txTime=6afc4aec",
-          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_england_spain"
-        }
-      ],
-      "displayTitle": "🔴 [LIVE 17/11] Spain vs England",
-      "number": 1
-    },
     {
       "key": "17/11_LIVE_scotland_switzerland",
       "match_key": "17/11_LIVE_scotland_switzerland",
@@ -52,7 +21,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Switzerland vs Scotland (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=12ea954d655faeddc2e2b1559e51a023&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3bc72e5fb959140372ebfe49ef1c4be7&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/21473b605b5cbfdf7a0390425bdcac90.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -61,6 +30,37 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 17/11] Switzerland vs Scotland",
+      "number": 1
+    },
+    {
+      "key": "17/11_LIVE_england_spain",
+      "match_key": "17/11_LIVE_england_spain",
+      "c_home": "spain",
+      "c_away": "england",
+      "homeTeam": "Spain",
+      "awayTeam": "England",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8240198e5c781cfd2c5b64d00b24f2e6&txTime=6afc4e70",
+          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_england_spain"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Spain vs England",
       "number": 2
     },
     {
@@ -83,7 +83,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Belgium vs Italy (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=aa3cb3c8fbf703fd8eb3da350cd44e72&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=df2d497d1bdceff58ec25e0908955ed4&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/1ee9b6d2e172ed71919b521ed304726b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -114,7 +114,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=2eae14643d333cd7a980590670580ad4&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=df653a0f14d6628897b86c4284c2be22&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -145,7 +145,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Iceland vs Luxembourg (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=d9a0f42f3c5179e6845b1bbcb24e0544&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=4d5196f9fab6b3b3a5f03d33f7f24f18&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/24ca27ba77d7c49e7e08b219a373e22e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -176,7 +176,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6726e7b9eb68d45f3fbc5682cdaab436&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=31c10883353394ea22c53fbd2d78e7a2&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -186,6 +186,46 @@
       ],
       "displayTitle": "🔴 [LIVE 17/11] Estonia vs Bulgaria",
       "number": 6
+    },
+    {
+      "key": "17/11_LIVE_india_youth_palestineu17_youth",
+      "match_key": "17/11_LIVE_india_youth_palestineu17_youth",
+      "c_home": "palestineu17_youth",
+      "c_away": "india_youth",
+      "homeTeam": "Palestine U17",
+      "awayTeam": "India U17",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "OTHER",
+      "leagueName": "U17 Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] Palestine U17 vs India U17 (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794902048-0-0-d6fc4aca56299a49ee6b9e664e7dcf0d",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "AFC U17",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_india_youth_palestineu17_youth"
+        },
+        {
+          "name": "⚽ [14:30 17/11] Palestine U17 vs India U17 (BLV Siêu Quậy) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8",
+          "logo": "https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "17/11_LIVE_india_youth_palestineu17_youth"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Palestine U17 vs India U17",
+      "number": 7
     },
     {
       "key": "17/11_12:30_cookislands33tv_tahiti",
@@ -216,7 +256,7 @@
         }
       ],
       "displayTitle": "🔴 [12:30 17/11] Tahiti vs Cook Islands 33 Tv",
-      "number": 7
+      "number": 8
     },
     {
       "key": "17/11_13:00_malaysia_yemen",
@@ -257,26 +297,8 @@
           "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794901148-0-0-3d358d1af89bca95c0f7b73571963f60",
-          "logo": "https://sta.vnres.co/file/common/20261117/41bf146f8c6d99dd3c277aa2c33733bb.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794901148-0-0-9426b9e003740fedad0f2813a20ec425",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794901148-0-0-d56d74e3c4a3b6fbd85d7003bdb244e4",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794902048-0-0-203eed7f37a9e581014091ef089f33eb",
           "logo": "https://sta.vnres.co/file/common/20261114/3fd8a9f38c0ee39434abcf867f913228.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
@@ -284,9 +306,27 @@
           "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794901148-0-0-aeef61f936fbd60b139ce548c7f9eda1",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794902048-0-0-da423a109341f996c3897ea7ce0b8e78",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_13:00_malaysia_yemen"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794902048-0-0-caa55f3a504590b7b44f59a7fc06ed37",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_13:00_malaysia_yemen"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794902048-0-0-ca5e43fc14b0ca362474602dd96ccab3",
+          "logo": "https://sta.vnres.co/file/common/20261117/41bf146f8c6d99dd3c277aa2c33733bb.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -294,7 +334,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1794901148-0-0-2a5ce56c7c38ae898bb52c45853986ed",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1794902048-0-0-06650e6e07a9e91a2fe7d1da554b9f04",
           "logo": "https://sta.vnres.co/file/common/20261117/f9c3b3bd32c0b506023af7dcc7dbd254.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
@@ -302,9 +342,9 @@
           "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794901148-0-0-069d485c93c676f9a2105fe3f09868c2",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794902048-0-0-966b2193d72cc9e974872c3612652e1a",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -384,7 +424,7 @@
         }
       ],
       "displayTitle": "🔴 [13:00 17/11] Yemen vs Malaysia",
-      "number": 8
+      "number": 9
     },
     {
       "key": "17/11_13:30_tajikistanu19_youth_vietnam_youth",
@@ -424,7 +464,7 @@
         }
       ],
       "displayTitle": "🔴 [13:30 17/11] Tajikistan U19 vs Vietnam U19",
-      "number": 9
+      "number": 10
     },
     {
       "key": "17/11_23:00_russia_venezuela",
@@ -475,7 +515,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 17/11] Russia vs Venezuela",
-      "number": 10
+      "number": 11
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -558,7 +598,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 11
+      "number": 12
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -650,7 +690,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 12
+      "number": 13
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -681,7 +721,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 13
+      "number": 14
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -741,7 +781,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 14
+      "number": 15
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -781,7 +821,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 15
+      "number": 16
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -812,7 +852,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 16
+      "number": 17
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -886,7 +926,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 17
+      "number": 18
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -928,7 +968,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 18
+      "number": 19
     }
   ],
   "source_groups": [
@@ -1688,72 +1728,80 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794901148-0-0-3d358d1af89bca95c0f7b73571963f60",
-          "logo": "https://sta.vnres.co/file/common/20261117/41bf146f8c6d99dd3c277aa2c33733bb.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794901148-0-0-9426b9e003740fedad0f2813a20ec425",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794901148-0-0-d56d74e3c4a3b6fbd85d7003bdb244e4",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794902048-0-0-203eed7f37a9e581014091ef089f33eb",
           "logo": "https://sta.vnres.co/file/common/20261114/3fd8a9f38c0ee39434abcf867f913228.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794901148-0-0-aeef61f936fbd60b139ce548c7f9eda1",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1794901148-0-0-2a5ce56c7c38ae898bb52c45853986ed",
-          "logo": "https://sta.vnres.co/file/common/20261117/f9c3b3bd32c0b506023af7dcc7dbd254.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_13:00_malaysia_yemen"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794901148-0-0-069d485c93c676f9a2105fe3f09868c2",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794902048-0-0-da423a109341f996c3897ea7ce0b8e78",
           "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=52b6fe41cd3db127743b6b0099098582&txTime=6afc4aec",
-          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794902048-0-0-caa55f3a504590b7b44f59a7fc06ed37",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "INTERF",
           "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_england_spain"
+          "match_key": "17/11_13:00_malaysia_yemen"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Palestine U17 vs India U17 (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794902048-0-0-d6fc4aca56299a49ee6b9e664e7dcf0d",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "AFC U17",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_india_youth_palestineu17_youth"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794902048-0-0-ca5e43fc14b0ca362474602dd96ccab3",
+          "logo": "https://sta.vnres.co/file/common/20261117/41bf146f8c6d99dd3c277aa2c33733bb.png",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_13:00_malaysia_yemen"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1794902048-0-0-06650e6e07a9e91a2fe7d1da554b9f04",
+          "logo": "https://sta.vnres.co/file/common/20261117/f9c3b3bd32c0b506023af7dcc7dbd254.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_13:00_malaysia_yemen"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Yemen vs Malaysia (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794902048-0-0-966b2193d72cc9e974872c3612652e1a",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_13:00_malaysia_yemen"
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Switzerland vs Scotland (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=12ea954d655faeddc2e2b1559e51a023&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3bc72e5fb959140372ebfe49ef1c4be7&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/21473b605b5cbfdf7a0390425bdcac90.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_scotland_switzerland"
         },
         {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8240198e5c781cfd2c5b64d00b24f2e6&txTime=6afc4e70",
+          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_england_spain"
+        },
+        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Belgium vs Italy (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=aa3cb3c8fbf703fd8eb3da350cd44e72&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=df2d497d1bdceff58ec25e0908955ed4&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/1ee9b6d2e172ed71919b521ed304726b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1761,7 +1809,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=2eae14643d333cd7a980590670580ad4&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=df653a0f14d6628897b86c4284c2be22&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1769,7 +1817,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Iceland vs Luxembourg (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=d9a0f42f3c5179e6845b1bbcb24e0544&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=4d5196f9fab6b3b3a5f03d33f7f24f18&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/24ca27ba77d7c49e7e08b219a373e22e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1777,7 +1825,7 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6726e7b9eb68d45f3fbc5682cdaab436&txTime=6afc4aec",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=31c10883353394ea22c53fbd2d78e7a2&txTime=6afc4e70",
           "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -2148,7 +2196,7 @@
           "logo": "https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png",
           "competition": "",
           "group": "⚡ Gà Vàng 24h TV",
-          "match_key": "17/11_14:30_india_youth_palestineu17_youth"
+          "match_key": "17/11_LIVE_india_youth_palestineu17_youth"
         },
         {
           "name": "⚽ [15:30 17/11] Afghanistan U17 vs Indonesia U17 (BLV Mán Núi) [hls] - Gà Vàng 24h TV",
