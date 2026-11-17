@@ -14,6 +14,7 @@ class StrandPlayer {
     this.video = document.getElementById('mainVideo');
     this.hls = null;
     this.shakaPlayer = null;
+    this.mpegtsPlayer = null;
     this.currentChannel = null;
     this.isPlaying = false;
     this.isPseudoFullscreen = false;
@@ -144,6 +145,11 @@ class StrandPlayer {
       targetUrl = streamUrl.split('|')[0].trim();
     }
 
+    // Nếu là luồng udpxy trên máy chủ Armbian, ưu tiên qua cổng 8080 để có đầy đủ CORS & Private Network headers cho mpegts.js
+    if (typeof targetUrl === 'string' && targetUrl.includes('10.0.0.222:4022/udp/')) {
+      targetUrl = targetUrl.replace('10.0.0.222:4022/udp/', '10.0.0.222:8080/udp/');
+    }
+
     if (this.showHUD) this.showHUD();
     this.currentChannel = channelInfo;
     this.currentMeasuredBitrateBps = 0;
@@ -153,6 +159,7 @@ class StrandPlayer {
 
     const isDash = targetUrl.includes('.mpd') || !!channelInfo.dash || !!channelInfo.clearKey;
     const isHls = targetUrl.includes('.m3u8') || targetUrl.includes('play.m3u8');
+    const isMpegTs = targetUrl.includes('/udp/') || targetUrl.includes(':4022') || targetUrl.endsWith('.ts');
 
     if (this.hls) {
       this.hls.destroy();
@@ -161,6 +168,10 @@ class StrandPlayer {
     if (this.shakaPlayer) {
       this.shakaPlayer.destroy().catch(() => {});
       this.shakaPlayer = null;
+    }
+    if (this.mpegtsPlayer) {
+      this.mpegtsPlayer.destroy();
+      this.mpegtsPlayer = null;
     }
 
     // 1. DASH with ClearKey (Shaka Player)
@@ -188,7 +199,48 @@ class StrandPlayer {
         this.safePlay();
       });
     }
-    // 2. Hls.js for Desktop & Android browsers
+    // 2. MPEG-TS & UDPXY (mpegts.js cho luồng IPTV nội bộ udpxy)
+    else if (isMpegTs && window.mpegts && window.mpegts.isSupported()) {
+      try {
+        this.mpegtsPlayer = window.mpegts.createPlayer({
+          type: 'mpegts',
+          isLive: true,
+          url: targetUrl
+        }, {
+          enableWorker: true,
+          lazyLoad: false,
+          liveBufferLatencyChasing: true,
+          autoCleanupSourceBuffer: true
+        });
+        this.mpegtsPlayer.attachMediaElement(this.video);
+        this.mpegtsPlayer.load();
+        this.mpegtsPlayer.play().then(() => {
+          this.safePlay();
+          this.updateStreamTelemetry();
+        }).catch(e => {
+          console.warn('[Player] mpegts play error:', e);
+          this.checkMixedContentWarning(targetUrl);
+        });
+
+        this.mpegtsPlayer.on(window.mpegts.Events.STATISTICS_INFO, (stat) => {
+          if (stat && stat.speed) {
+            this.currentMeasuredBitrateBps = Math.round(stat.speed * 8 * 1024);
+            this.updateStreamTelemetry();
+          }
+        });
+
+        this.mpegtsPlayer.on(window.mpegts.Events.ERROR, (type, detail, info) => {
+          console.error('[Player] mpegts error:', type, detail, info);
+          this.checkMixedContentWarning(targetUrl);
+        });
+      } catch (err) {
+        console.error('[Player] Failed to init mpegts:', err);
+        this.video.src = targetUrl;
+        this.safePlay();
+        this.checkMixedContentWarning(targetUrl);
+      }
+    }
+    // 3. Hls.js for Desktop & Android browsers
     else if (window.Hls && window.Hls.isSupported() && isHls) {
       this.hls = new window.Hls({
         enableWorker: true,
@@ -888,6 +940,45 @@ class StrandPlayer {
   onError(err) {
     console.warn('[Player] Video tag error:', err);
     this.showBuffering(false);
+    if (this.currentChannel && (this.currentChannel.url || this.currentChannel.streamUrl)) {
+      const url = this.currentChannel.url || this.currentChannel.streamUrl;
+      this.checkMixedContentWarning(url);
+    }
+  }
+
+  checkMixedContentWarning(url) {
+    if (window.location.protocol === 'https:' && typeof url === 'string' && url.startsWith('http://')) {
+      this.showMixedContentNotice(url);
+    }
+  }
+
+  showMixedContentNotice(url) {
+    let banner = document.getElementById('mixedContentNotice');
+    if (!banner) {
+      banner = document.createElement('div');
+      banner.id = 'mixedContentNotice';
+      banner.className = 'fixed bottom-5 left-1/2 -translate-x-1/2 z-50 max-w-lg w-[92%] p-4 rounded-2xl glass-card border border-amber-500/40 bg-black/95 shadow-2xl text-xs space-y-2 pointer-events-auto';
+      document.body.appendChild(banner);
+    }
+    banner.innerHTML = `
+      <div class="flex items-start gap-2.5 text-amber-300">
+        <svg class="w-5 h-5 shrink-0 mt-0.5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+        </svg>
+        <div class="space-y-1 flex-1">
+          <div class="font-bold text-white text-sm">Trình duyệt chặn luồng nội bộ (Mixed Content)</div>
+          <div class="text-white/80 leading-relaxed text-[11px]">
+            Bạn đang mở web qua <b>HTTPS</b>, còn luồng udpxy là <b>HTTP nội bộ</b> (<code class="text-amber-300 font-mono text-[10px]">10.0.0.222:4022</code>) nên trình duyệt chặn để bảo mật.
+          </div>
+          <div class="pt-1.5 text-[11px] text-white/90 space-y-1 bg-white/5 p-2 rounded-lg border border-white/10">
+            <div>💡 <b>Cách 1 (Nhanh nhất):</b> Mở trực tiếp Web Remote cổng LAN <a href="http://10.0.0.222:8080" class="text-orange-400 underline font-bold" target="_blank">http://10.0.0.222:8080</a> (HTTP thuần không bao giờ bị chặn).</div>
+            <div>💡 <b>Cách 2:</b> Bấm biểu tượng <b>Cài đặt trang (ổ khóa)</b> ở đầu thanh URL trình duyệt &gt; <b>Nội dung không an toàn (Insecure content)</b> &gt; Chọn <b>Cho phép (Allow)</b> rồi tải lại trang.</div>
+          </div>
+        </div>
+        <button onclick="document.getElementById('mixedContentNotice').remove()" class="text-white/50 hover:text-white text-base font-bold ml-1 shrink-0">✕</button>
+      </div>
+    `;
+    banner.classList.remove('hidden');
   }
 
   initTouchGestures() {
