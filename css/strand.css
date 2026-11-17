@@ -977,12 +977,47 @@ body.has-pseudo-fullscreen #playerSection {
   box-shadow: 0 0 10px rgba(255, 101, 0, 0.2);
 }
 
-/* Theater Mode expansion */
-body.is-theater-mode #playerStickyWrapper {
-  grid-column: span 12 / span 12 !important;
-}
-body.is-theater-mode #playerSurface {
-  max-height: 80vh !important;
+/* ========================================================================= */
+/* 5b. THEATER MODE (CHẾ ĐỘ RẠP CHIẾU PHIM - YOUTUBE STYLE)                  */
+/* ========================================================================= */
+@media (min-width: 1024px) {
+  /* 1. Cột khung phát video mở rộng toàn bộ 12 cột */
+  body.is-theater-mode #playerStickyWrapper {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    position: relative !important;
+    top: auto !important;
+    z-index: 20 !important;
+  }
+
+  /* 2. Màn hình phát video mở rộng cinema cao cấp, luôn nhìn thấy thanh điều khiển */
+  body.is-theater-mode #playerSurface {
+    width: 100% !important;
+    height: min(78vh, calc(100vw * 9 / 16)) !important;
+    max-height: 80vh !important;
+    min-height: 480px !important;
+    aspect-ratio: auto !important;
+    background: #000000 !important;
+  }
+
+  /* 3. Cột danh sách (Thể thao, Truyền hình, Tìm kênh) chuyển xuống bên dưới player chiếm 12 cột */
+  body.is-theater-mode #sidebarStickyWrapper {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    margin-top: 0.5rem !important;
+  }
+
+  /* Bỏ giới hạn cuộn dọc để người dùng cuộn mượt mà toàn trang */
+  body.is-theater-mode .desktop-sidebar-scroll {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Lưới danh sách trận đấu dàn đều 2-3 cột cân đối đẹp mắt */
+  body.is-theater-mode #sportsContainer {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)) !important;
+    gap: 1rem !important;
+  }
 }
 
 /* ========================================================================= */

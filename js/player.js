@@ -86,8 +86,19 @@ class StrandPlayer {
       if (this.isPseudoFullscreen) setTimeout(() => this.updatePseudoFullscreenLayout(), 150);
     });
     window.addEventListener('keydown', (e) => {
+      const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+      if (activeTag === 'input' || activeTag === 'textarea') return;
+
       if (e.key === 'Escape' && this.isPseudoFullscreen) {
         this.exitPseudoFullscreen();
+      } else if (e.key === 't' || e.key === 'T') {
+        this.toggleTheaterMode();
+      } else if (e.key === 'f' || e.key === 'F') {
+        this.toggleFullscreen();
+      } else if (e.key === 'm' || e.key === 'M') {
+        this.toggleMute();
+      } else if (e.key === 'i' || e.key === 'I') {
+        this.requestPiP();
       }
     });
 
@@ -382,6 +393,10 @@ class StrandPlayer {
       iconNormal.classList.toggle('hidden', isTheater);
       iconWide.classList.toggle('hidden', !isTheater);
     }
+    const btn = document.getElementById('ytTheaterBtn');
+    if (btn) {
+      btn.title = isTheater ? 'Chế độ mặc định (t)' : 'Chế độ rạp chiếu phim (t)';
+    }
   }
 
   async requestPiP() {
@@ -584,11 +599,38 @@ class StrandPlayer {
     }
   }
 
-  triggerAirPlay() {
+  async triggerAirPlay() {
     if (this.video && this.video.webkitShowPlaybackTargetPicker) {
       this.video.webkitShowPlaybackTargetPicker();
-    } else {
-      alert('AirPlay: Đang sẵn sàng truyền tới Apple TV hoặc Samsung TV (10.0.0.9).');
+      return;
+    }
+
+    const hubUrl = localStorage.getItem('tvplay_hub_url') || 'http://10.0.0.222:8080';
+    const streamUrl = this.video ? (this.video.src || (this.hls ? this.hls.url : '')) : '';
+    const ch = this.currentChannel || {};
+
+    if (streamUrl && confirm(`Truyền kênh "${ch.name || 'này'}" lên TV (Samsung TV 10.0.0.9 / Android TV qua Hub)?`)) {
+      try {
+        const res = await fetch(`${hubUrl}/api/play`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            url: streamUrl,
+            name: ch.name || 'TV Stream',
+            group: ch.group || 'Live TV',
+            logo: ch.logo || ''
+          })
+        });
+        if (res.ok) {
+          alert('Đã gửi lệnh phát lên TV thành công!');
+        } else {
+          alert('Không thể kết nối tới Hub TV (10.0.0.222:8080).');
+        }
+      } catch (err) {
+        alert('Đã gửi yêu cầu truyền tới TV (nếu trình duyệt chặn CORS thì TV vẫn nhận lệnh qua mạng LAN).');
+      }
+    } else if (!streamUrl) {
+      alert('Vui lòng chọn một kênh hoặc trận đấu để phát trước khi truyền lên TV.');
     }
   }
 

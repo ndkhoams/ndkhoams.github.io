@@ -21,7 +21,7 @@
 
   <!-- Tailwind CSS & Custom Styles (Cache busted ?v=38) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=38">
+  <link rel="stylesheet" href="css/strand.css?v=39">
 
   <!-- Hls.js & Shaka Player for HLS & DASH ClearKey streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -80,7 +80,7 @@
     <main class="block lg:grid lg:grid-cols-12 gap-5 items-start space-y-4 lg:space-y-0">
 
       <!-- CỘT TRÁI: Khung Phát Video & Thông Tin Kênh (lg:col-span-7 xl:col-span-8) -->
-      <div class="lg:col-span-7 xl:col-span-8 space-y-3.5 player-sticky-wrapper">
+      <div id="playerStickyWrapper" class="lg:col-span-7 xl:col-span-8 space-y-3.5 player-sticky-wrapper">
 
         <!-- 2. Hero Cinema Video Player (Strand Live TV Style - Image 3) -->
         <section id="playerSection"
@@ -124,16 +124,6 @@
                   class="px-2.5 py-1 rounded-md glass-pill text-white font-semibold text-xs drop-shadow">
                   VTV1 HD
                 </span>
-              </div>
-
-              <!-- Top-Right: AirPlay (Apple Devices) -->
-              <div class="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-2 pointer-events-auto">
-                <button id="airplayBtn" onclick="window.player.triggerAirPlay()" title="AirPlay to Apple TV / Samsung TV"
-                  class="airplay-btn p-2 rounded-full glass-pill text-white/80 hover:text-white transition">
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M6 22h12l-6-6-6 6zM21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V5h18v12h-4v2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
-                  </svg>
-                </button>
               </div>
 
               <!-- BOTTOM BAR: YouTube-Style Video Control Bar -->
@@ -272,6 +262,13 @@
                       <!-- Wide icon -->
                       <svg id="ytTheaterWideIcon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M19 7H5c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 8H5V9h14v6z"/>
+                      </svg>
+                    </button>
+
+                    <!-- AirPlay to TV -->
+                    <button id="airplayBtn" onclick="window.player.triggerAirPlay()" class="yt-btn airplay-btn" title="Truyền tới TV / AirPlay (Apple TV, Samsung TV)">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6 22h12l-6-6-6 6zM21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V5h18v12h-4v2h4c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
                       </svg>
                     </button>
 
@@ -437,7 +434,7 @@
       </div>
 
       <!-- CỘT PHẢI: Danh Sách Trận Đấu & Các Tab Nội Dung (lg:col-span-5 xl:col-span-4) -->
-      <div class="lg:col-span-5 xl:col-span-4 space-y-3.5">
+      <div id="sidebarStickyWrapper" class="lg:col-span-5 xl:col-span-4 space-y-3.5">
 
         <!-- Sidebar Header with Quick Tabs & Nút Tải lại trận đấu -->
         <div class="glass-card rounded-2xl p-3 sm:p-4 border border-white/10 space-y-3 shadow-lg">
@@ -691,12 +688,12 @@
   </div>
 
   <!-- Application Logic Modules (Cache busted ?v=38) -->
-  <script src="js/player.js?v=38"></script>
-  <script src="js/channels.js?v=38"></script>
-  <script src="js/timeline.js?v=38"></script>
-  <script src="js/sports.js?v=38"></script>
-  <script src="js/multistream.js?v=38"></script>
-  <script src="js/app.js?v=38"></script>
+  <script src="js/player.js?v=39"></script>
+  <script src="js/channels.js?v=39"></script>
+  <script src="js/timeline.js?v=39"></script>
+  <script src="js/sports.js?v=39"></script>
+  <script src="js/multistream.js?v=39"></script>
+  <script src="js/app.js?v=39"></script>
 </body>
 
 </html>
