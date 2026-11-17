@@ -1,53 +1,35 @@
 {
-  "updated_at": "2026-11-17 20:46:12",
+  "updated_at": "2026-11-17 21:01:46",
   "live_events": [
     {
-      "key": "17/11_18:35_china_youth_korea_youth",
-      "match_key": "17/11_18:35_china_youth_korea_youth",
-      "c_home": "china_youth",
-      "c_away": "korea_youth",
-      "homeTeam": "China U19",
-      "awayTeam": "South Korea U19",
+      "key": "17/11_21:10_syria_uae",
+      "match_key": "17/11_21:10_syria_uae",
+      "c_home": "uae",
+      "c_away": "syria",
+      "homeTeam": "UAE",
+      "awayTeam": "Syria",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "18:35",
+      "time": "21:10",
       "date": "17/11",
-      "timestamp": 1794915300000,
-      "league": "OTHER",
-      "leagueName": "U19 Quốc tế",
+      "timestamp": 1794924600000,
+      "league": "WC_QUAL",
+      "leagueName": "World Cup Qualifiers",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [18:35 17/11] Trung Quốc U19 vs Hàn Quốc U19 (BLV RỒNG ĐỎ) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/88508431.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/367ba92bc85435312f1074132e9e2ce8.png!w80",
+          "name": "⚽ [21:10 17/11] UAE vs Syria (BLV Khô Mật) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/650_uae.jpg",
           "competition": "",
-          "group": "⚡ Cola TV",
+          "group": "⚡ Khô Gà TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
-        },
-        {
-          "name": "⚽ [18:35 17/11] Trung Quốc U19 vs Hàn Quốc U19 (BLV RỒNG ĐỎ) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/88508431_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/367ba92bc85435312f1074132e9e2ce8.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
-        },
-        {
-          "name": "⚽ [18:35 17/11] Trung Quốc U19 vs South Korea U19 (BLV LÝ LINH LỰC) [geo] - Phá Làng TV",
-          "url": "https://pull1.digitalcdn.net/live/2355a72b9ed34d7a82ea65f98a69537d/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7zdjr1ge/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
+          "match_key": "17/11_21:10_syria_uae"
         }
       ],
-      "displayTitle": "🔴 [18:35 17/11] China U19 vs South Korea U19",
+      "displayTitle": "🔴 [21:10 17/11] UAE vs Syria",
       "number": 1
     },
     {
@@ -57,8 +39,8 @@
       "c_away": "vietnam",
       "homeTeam": "Kyrgyzstan",
       "awayTeam": "Vietnam",
-      "homeLogo": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-      "awayLogo": "https://flagcdn.com/w160/vn.png",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "19:00",
       "date": "17/11",
       "timestamp": 1794916800000,
@@ -75,17 +57,6 @@
           "competition": "International Friendly",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "17/11_19:00_kyrgyzstan_vietnam"
-        },
-        {
-          "name": "⚽ [19:00 17/11] Kyrgyzstan vs Việt Nam (BLV Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-          "away_logo": "https://flagcdn.com/w160/vn.png",
-          "competition": "Friendlies",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
           "match_key": "17/11_19:00_kyrgyzstan_vietnam"
         },
         {
@@ -924,8 +895,8 @@
           "match_key": "17/11_21:00_korea_qatar"
         },
         {
-          "name": "⚽ [21:00 17/11] Qatar vs Hàn Quốc (BLV Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "name": "⚽ [21:00 17/11] Qatar vs Hàn Quốc (BLV Khô Mật) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/538_qatar.jpg",
           "home_logo": "https://apiv3.apifootball.com/badges/538_qatar.jpg",
           "away_logo": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
@@ -1113,6 +1084,37 @@
       "number": 17
     },
     {
+      "key": "17/11_21:10_syria_unitedarabemirates",
+      "match_key": "17/11_21:10_syria_unitedarabemirates",
+      "c_home": "unitedarabemirates",
+      "c_away": "syria",
+      "homeTeam": "United Arab Emirates",
+      "awayTeam": "Syria",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "21:10",
+      "date": "17/11",
+      "timestamp": 1794924600000,
+      "league": "FRIENDLY",
+      "leagueName": "Giao hữu quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [21:10 17/11] United Arab Emirates Vs Syria (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png",
+          "competition": "International Friendly",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "17/11_21:10_syria_unitedarabemirates"
+        }
+      ],
+      "displayTitle": "🔴 [21:10 17/11] United Arab Emirates vs Syria",
+      "number": 18
+    },
+    {
       "key": "17/11_23:00_russia_venezuela",
       "match_key": "17/11_23:00_russia_venezuela",
       "c_home": "russia",
@@ -1161,7 +1163,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 17/11] Russia vs Venezuela",
-      "number": 18
+      "number": 19
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -1257,7 +1259,7 @@
         },
         {
           "name": "⚽ [02:35 18/11] Đan Mạch vs Na Uy (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.7Oh3dfqz99VrLvRB3rsYCalw7uKN2KJwYave_-oDlUI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDUzOTAsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.NxfzfrEngKGtTQ3ZhotPYFsOFipFPvLCotvtaQPWuNg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398462959/4a3be318a93f_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1298,7 +1300,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 19
+      "number": 20
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -1385,15 +1387,15 @@
         },
         {
           "name": "⚽ [02:35 18/11] Xứ Wales vs Bồ Đào Nha (TV360+ 5) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.UecgDz-lMdGiDcQWZR9JkX6pOcaDvH8KxARmXQ1Vm_s&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDk0NTM5MH0.tYqfv4IZYvESCTUIRMhMQDSr6T0yWHMJdlSfreWpsJypLlf4RS7sGyJsq3BsbDd5EDK3N6Cxz13A35mpeMIpfw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398690874/75f8a0e72d59_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "ref": "https://film4k.pl/",
           "dash": true,
           "clearKey": {
-            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
-            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
           },
           "match_key": "18/11_02:45_portugal_wales"
         },
@@ -1435,7 +1437,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 20
+      "number": 21
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -1466,7 +1468,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 21
+      "number": 22
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -1526,7 +1528,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 22
+      "number": 23
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -1566,7 +1568,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 23
+      "number": 24
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -1597,7 +1599,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 24
+      "number": 25
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -1639,7 +1641,7 @@
         },
         {
           "name": "⚽ [02:35 18/11] Ba Lan vs Thụy Điển (TV360+ 6) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.qqWEMLMPHmNS6Dpd0C3HjEDXoV3625nhQZq436Pa4os&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDUzODcsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.Ewr3hSlck40h4Ot8QLHCo4Y0aZMwZuTF1cPR566Fvew&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794399176732/a891527c6cf9_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1671,7 +1673,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 25
+      "number": 26
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -1713,7 +1715,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 26
+      "number": 27
     }
   ],
   "source_groups": [
@@ -2078,16 +2080,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [19:00 17/11] Kyrgyzstan vs Việt Nam (BLV Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-          "away_logo": "https://flagcdn.com/w160/vn.png",
-          "competition": "Friendlies",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "17/11_19:00_kyrgyzstan_vietnam"
-        },
-        {
           "name": "⚽ [20:00 17/11] Tanzania vs Nigeria (BLV Xôi Xoài) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/613_tanzania.jpg",
@@ -2108,24 +2100,14 @@
           "match_key": "17/11_20:10_japan_paraguay"
         },
         {
-          "name": "⚽ [21:00 17/11] Qatar vs Hàn Quốc (BLV Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "name": "⚽ [21:00 17/11] Qatar vs Hàn Quốc (BLV Khô Mật) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/538_qatar.jpg",
           "home_logo": "https://apiv3.apifootball.com/badges/538_qatar.jpg",
           "away_logo": "https://apiv3.apifootball.com/badges/651_korea-republic.jpg",
           "competition": "Friendlies",
           "group": "🍵 Xôi Chè TV",
           "match_key": "17/11_21:00_korea_qatar"
-        },
-        {
-          "name": "⚽ [21:10 17/11] UAE vs Syria (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/650_uae.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/650_uae.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/638_syria.jpg",
-          "competition": "Friendlies",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "17/11_21:10_syria_uae"
         },
         {
           "name": "⚽ [22:30 17/11] Ả Rập Xê Út vs Uzbekistan (BLV Khô Cá) - Xôi Chè",
@@ -2218,6 +2200,16 @@
           "match_key": "18/11_02:45_portugal_wales"
         },
         {
+          "name": "⚽ [03:00 18/11] Niger vs Morocco (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/740_niger.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/740_niger.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/717_morocco.jpg",
+          "competition": "Africa Cup of Nations Qualification",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "18/11_03:00_morocco_niger"
+        },
+        {
           "name": "⚽ [06:00 18/11] Chile vs Colombia (BLV Khô Cay) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/528_chile.jpg",
@@ -2246,6 +2238,26 @@
           "competition": "Friendlies",
           "group": "🍵 Xôi Chè TV",
           "match_key": "18/11_06:30_dominicanrepublic_uruguay"
+        },
+        {
+          "name": "⚽ [07:00 18/11] Mỹ vs Haiti (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/523_united-states.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/523_united-states.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/515_haiti.jpg",
+          "competition": "Concacaf Nations League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "18/11_07:00_haiti_usa"
+        },
+        {
+          "name": "⚽ [09:30 18/11] Mexico vs Jamaica (BLV Khô Mật) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/511_mexico.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/511_mexico.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/519_jamaica.jpg",
+          "competition": "Concacaf Nations League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "18/11_09:30_jamaica_mexico"
         }
       ]
     },
@@ -2342,7 +2354,7 @@
         },
         {
           "name": "⚽ [18:20 17/11] Kyrgyzstan vs Việt Nam (TV360+ 9) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDk0Mjc5OH0.yp9kqA3zUVX8ZtQLXLfPdb_M-ZkFx6QhpsVPB_nerfODC3VRUZksTtk6mR8PeQScyVcTWVIQBIh-4Glvs6wbKA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDQ4NDcsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0.eK1iWscVEsfOZ6-8ZUA9o-AKH5pCdWwKlS-v-2YeF9U&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/09/09/1794192636324/be5dc26007ec_1280_720.jpg",
           "competition": "",
           "group": "F4K Sport",
@@ -2351,20 +2363,20 @@
         },
         {
           "name": "⚽ [02:35 18/11] Xứ Wales vs Bồ Đào Nha (TV360+ 5) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.UecgDz-lMdGiDcQWZR9JkX6pOcaDvH8KxARmXQ1Vm_s&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDk0NTM5MH0.tYqfv4IZYvESCTUIRMhMQDSr6T0yWHMJdlSfreWpsJypLlf4RS7sGyJsq3BsbDd5EDK3N6Cxz13A35mpeMIpfw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398690874/75f8a0e72d59_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
-            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
           },
           "match_key": "18/11_02:45_portugal_wales"
         },
         {
           "name": "⚽ [02:35 18/11] Đan Mạch vs Na Uy (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.7Oh3dfqz99VrLvRB3rsYCalw7uKN2KJwYave_-oDlUI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDUzOTAsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.NxfzfrEngKGtTQ3ZhotPYFsOFipFPvLCotvtaQPWuNg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794398462959/4a3be318a93f_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -2377,7 +2389,7 @@
         },
         {
           "name": "⚽ [02:35 18/11] Ba Lan vs Thụy Điển (TV360+ 6) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.qqWEMLMPHmNS6Dpd0C3HjEDXoV3625nhQZq436Pa4os&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDUzODcsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.Ewr3hSlck40h4Ot8QLHCo4Y0aZMwZuTF1cPR566Fvew&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/11/19/1794399176732/a891527c6cf9_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -2390,7 +2402,7 @@
         },
         {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTIsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.8akdXLXaRgkjtmVZqdmEyRbegKim-TgSP8ljVdsYx8w&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU1MTksInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.Tmb3Gis4CMpPF2agC36xi_D7_V6nHoLpom_gVwZkMrQ&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2401,7 +2413,7 @@
         },
         {
           "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/199199/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5OTE5OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzkyfQ.2NGC_SRsf7T4GwqFMPNCCc2Rkel1R0UFDgttHQwyovMKHgqf493F_UeipJVvFfOGS5A5VEkDxfuqzF_EWQYWBA&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/199199/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5OTE5OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQ1NjAzfQ.0L7Wa7BU0TG-tpS9mxcstSRUYGcPY4noIRzfIp8Mlv4j2DMpgBatyNnwCY9BOBUHLXF21QSpwDuoou5eWjBPAA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266826697/9647033848f3_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2412,29 +2424,29 @@
         },
         {
           "name": "📺 TV360+ 3 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzkyfQ.wUCOwoV1fJ5i4iVUQQWIOIA3v7IKYUrEveTO66QF4RCF7RMqhGD7uNeQp0Of2pDkPAqb0WDyjYsGtSw5jYDlDQ&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/200/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU2MDYsInVyaSI6Ii9icGstdHYvMjAwL291dHB1dC9pbmRleC5tcGQifQ.S6ZhDtIpQez8MISBLRSZiBMM_4BGZ8tPttY1Gwf_6rc&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266894249/af82cd28fcda_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "8405a15e96b35497bde131a29e7fb67e",
-            "key": "adb30d908915cf14760880240961a5ed"
+            "keyId": "32025feb5d1f50fc9b9d3a83b1176670",
+            "key": "75789b2624c58c07385b5a37682c9efc"
           }
         },
         {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NDk0Mjc5Mn0.In_qHbYMVevBYgjPOMwKEWMWfHPiaPIRyBN6ozl2K6jBm0fM5OFq_V6feYkjGHJ49IAbXOQT6CEg9jIANoa18A&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU2MTIsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.bo49XBeSHFa37Ot9D2esQZ4ehH3roTIZ6Bh1Ajnezdw&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "10244b0b86e45b5fa4d8089b24b5f566",
-            "key": "b7bf64fad4622ec88e429409c2c9997d"
+            "keyId": "23512a8a75505839aa810d79832de351",
+            "key": "9c07b3e707e330a77a4dbf5a63f9306f"
           }
         },
         {
           "name": "📺 TV360+ 8 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTUsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.wiFhlQRsXqWnCSk8zrRzr7ElXmty7yz36k2ms6LLB1E&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU2MTUsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.mdTXurK_cBAmv2Ah6XcK2nwj6pUVqnraVlM8fqTIfVs&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267211780/516c4028c806_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2445,7 +2457,7 @@
         },
         {
           "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/449/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDI3OTgsInVyaSI6Ii9icGstdHYvNDQ5L291dHB1dC9pbmRleC5tM3U4In0.-UKymssuttGR0yo__4NxY1fCxeC9PsZTOTLB1CIX0fk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/449/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU2MjEsInVyaSI6Ii9icGstdHYvNDQ5L291dHB1dC9pbmRleC5tM3U4In0.BafVJSGu3J6kc4yQk8cbekHY4Bum8TONjmojFu9ufg8&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267388401/5f459b37721d_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -2453,7 +2465,7 @@
         },
         {
           "name": "📺 TV360+ 11 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDk0Mjc5OH0.0uatJtGEBh0IxQMhxa5bBvIHB-8RdsWUuC0dpkXgxVPbI6beCMxRzSft-PQFn8wA_MNhJrsxus_1Bt6IohMtLw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDk0NTYyMX0.lAvQVAhBI2DtvEuh1QppstzNKbKhwFs2RYVgjO0bJ4WJLYZWpaxRkZCb4LElFISxxPxPGtaAMj8pZ5oKOGfozg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267558745/5fc303f5ba08_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -2461,7 +2473,7 @@
         },
         {
           "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/465465/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ2NTQ2NS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzk4fQ.U9aB9kWyalrX7Hr-gnZsAsVSJZ0Ld-i0tZr0Xtv9Vk_e_oihyrpJ4Oabzn0av0pmeXeyiIPIPpmOibt1d73PhA&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/465465/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ2NTQ2NS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQ1NjI0fQ.Fq2tx6a3_K0Z9jHhZh2_lV3A9CmimtkO6qtWiBlvAvc_QNJeugqQtwP7brrOKodRvX9SUGTCNR-pXli92Tx9iQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2472,7 +2484,7 @@
         },
         {
           "name": "📺 TV360+ 13 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzk4fQ.xy8sg2CcOjU_7ywajaT7zVg6hmqHU2ROVHHYhjlIZH7yvQFEBJ6YRQdk2H9uvb8EZsBGBB08NEBx0D7HjzUarA&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQ1NjI3fQ.23dkrW1bgxZqQU2TnENW-j0Q9LgQYAusZrd8yXTim_eMF3fS-PYDuM3pUUk2dhVY_xIvHTCAsuwW8d-Yk0CGeA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2483,18 +2495,18 @@
         },
         {
           "name": "📺 TV360+ 14 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzk4fQ.5lHAv34uDZ-SrrFvrZfbQmmLfsLptTW_G9RUzyXIJcO3Lj5nmHIODsrilRJU-7Z--xLKHapVyyXVdfHeN4M5TA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTQ5NDU2MzAsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.0mPh29XjdIAFymhkfbok2L-XwBpg-sA8BYdjyaW2MCI&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "807890b3dba7517b90e568e8be4ddaa4",
-            "key": "bb89427403116b132f9fbb34cd616347"
+            "keyId": "e57b008cedba5d12a192e66152bb61ca",
+            "key": "a4b58d543b1c042f8b399f268040b623"
           }
         },
         {
           "name": "📺 TV360+ 15 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQyNzk4fQ._XsLif-rv8NA8sw_hJeo5uNyCETX9tsjcM7_jeXPwyjbmQh-f5X6MN24cAfYv0YYBj0TX6GtVN4627Unq_GwUQ&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk0OTQ1NjMzfQ.c8H91aZEBZzvg5rFh_h7aJqehvRNQa0-IV5VL8bQDh6N3Jz7oXSWvBtyCv40jvXN6hf3Gldik-Dd31g5Hdmnpw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -2505,7 +2517,7 @@
         },
         {
           "name": "📺 TV360 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDk0Mjc5OH0.yq5T30OwK3sjkxdCD_l75sStlD2OfNejtkLMMMvcJPc_4psOmrEQmO-tzZhgQorShiZHVOnf_CAqMdCi-y3QXg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NDk0NTYzNn0.mPQVCq37XniZ3oVLI8-zxiSXiVS8WerjtGKhvS-DS5je2jIxgjrObiC8y8pSYucL98Jk78AxNZQKWM5IxHIMRQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -2513,7 +2525,7 @@
         },
         {
           "name": "📺 Livestream 01 (Trực tiếp) - TV360",
-          "url": "https://livestream-evg8.tv360.vn/0N1U0zAcrUaAqShIO6QrGw/1795007598/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "url": "https://livestream-evg8.tv360.vn/NXwvAZXfVDvmmBpgOhbfvQ/1795010439/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -2526,289 +2538,282 @@
       "channels": [
         {
           "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794926648-0-0-738f53f91d7759f9e5949aa0305a2c47",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1794927608-0-0-00b4a59d8d43e6ffd7ff362791dc280e",
           "logo": "https://sta.vnres.co/file/common/20261117/82cd0c183bf4f8baffce316ebf6bbd98.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1794926648-0-0-86caeb5e22c68607ad54abb82518ee89",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1794926648-0-0-8e1f36a9e8187fc42c19dcedd294c4b2",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794926648-0-0-dc5dd5186ccb261d9d1fcb3021201ff1",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794926648-0-0-dfdd9d9d4a74505b64a16efb9b799c96",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1794926648-0-0-84b03b708b8a13bc5081cd0e05b15efc",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794926648-0-0-b7211476dda206567c6b53b056f00f32",
-          "logo": "https://sta.vnres.co/file/common/20261117/1b84f3916d9091ca0454b4ea2fe40817.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1794926648-0-0-76e2ab00c0b47ae8191f92d666697c79",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1794926648-0-0-6fdb7461f4557eeaafc12720c53ffea2",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1794927608-0-0-587ddbd7b2cc43d29adf56dcb331d074",
           "logo": "https://sta.vnres.co/file/common/20261117/92890bd1022acf44ea1d8ce42df92481.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1794926648-0-0-7a535773bf26c7cb7bb06e36ca297ba8",
+          "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1794927608-0-0-db9f6ab89e20c72e1eb27e08c4f582f9",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "KCTH",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1794927608-0-0-aea80e911c3deedd1370a645658e0666",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1794927608-0-0-c48582ad773b20d8c15e9f7ddbbe2835",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1794927608-0-0-4290f2be675de53b8fd717a07edd14be",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1794927608-0-0-de2874169c1a7f6efae6cbaa569af166",
+          "logo": "https://sta.vnres.co/file/common/20261117/1b84f3916d9091ca0454b4ea2fe40817.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1794927608-0-0-c45e2cc09b2407d1bc7066b698b19c79",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1794927608-0-0-6f13d1cd1f4a2fd83a4d891e06a51cc7",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1794926648-0-0-ef04f0c7cbe6979853d10f80d6f4958b",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1794927608-0-0-0178de8a5e5c2ffeb06ebcc4a14e898b",
           "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1794926648-0-0-4addbf70b4f3392f734abd354dcd221f",
+          "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1794927608-0-0-876931483fd41a2cc17863ecb92f237e",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1794926648-0-0-297a46b2d7600be079329eb93290f90a",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "KCTH",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1794926648-0-0-a7faabbe0080a594b5af480fc3214164",
-          "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794926648-0-0-1148518a235daac915fb8d551d76ea22",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1794927608-0-0-b3c05d2570af96cee1f08bc9d65361c5",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1794926648-0-0-b96a8776c6a052f4921518f3176d92e7",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1794927608-0-0-b482c2157bf271bd6497a08f44bf009e",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "KCTH",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] Kyrgyzstan vs Vietnam (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=8dc68566f147fa72e12bf84d2c35b46d&txTime=6afcae88",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1794927608-0-0-0ac7661a0d46f1795961ed1e06158e34",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=363282b0bd691c1787db6311d2d7486f&txTime=6afcae88",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1794926648-0-0-2d4274d2c951f53a8496712d93ea78ca",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794927608-0-0-0dfb699a6ce36091ae4fa0bced3a0220",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794926648-0-0-f9c1b4a35c11681b79e625f0141d5505",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1794927608-0-0-2696014a711e89d5651ebfeb84779487",
           "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
           "competition": "KCTH",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1794926648-0-0-1d60f83ae4bd5b00344c7fad7d9ecb6d",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1794927608-0-0-d0377a6a7f793ab92689929462d40f32",
           "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
           "competition": "KCTH",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1794926648-0-0-a1a3ca3db9538ca3137665805c9e2d87",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1794927608-0-0-ec4b7f6dd89eceb210b390384c9a854d",
           "logo": "https://sta.vnres.co/file/common/20261107/5283b79a3e240c79610caa3f26ab0a86.jpg",
           "competition": "KCTH",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=82bea4990f45a26fff96d52a898a5b73&txTime=6afcb256",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Japan vs Paraguay (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1794927608-0-0-3b91066725cb3fa697cb6231997ca293",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=3ef1bcdc60eb8593b13cb5e74e9b6adb&txTime=6afcae88",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=c97fc5beeba7a0af604da3fe7fd8d121&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=7281dc8ad107ce2ede4a5c1f066d6349&txTime=6afcae88",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=d5146feefb4b591f84fc52abdf4ab0c2&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Qatar vs South Korea (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794926648-0-0-df6d1286bc83f13b7221aa4aa1989383",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794927608-0-0-3fbafc9b233e738a70731140f1ea9c23",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1794926648-0-0-2b889f666d175f5f5ce071856248f1d0",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1794927608-0-0-b1708037b13c32bd96da65c69428eb63",
           "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Tanzania vs Nigeria (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=188797c15bdcebd7519cd37f8946df50&txTime=6afcae88",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=623bb2fbeed3e45790a64b782f72999e&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 17/11] India vs Pakistan (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=3328bad20e735a5be4b5b615f327006a&txTime=6afcb248",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "SAFF",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794927608-0-0-4cb287d319ede5c3d723ddb564b2f83d",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=11472bd6413c0c5dca77fbb6bd7993b0&txTime=6afcae88",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=0965fd7816c95c027e539e2c33a80d0a&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Lesotho vs Gabon (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1794926648-0-0-79305e65877745424d248fb4073769fa",
+          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1794927608-0-0-e574175b7b0044b257721a82ed8a9957",
           "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] China vs Bahrain (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794926648-0-0-3b3a8a46f517f2b9a53bf7af73f21da7",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1794926648-0-0-aca6062c6a13fabcef72fa77c2156258",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "CAF NC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1794926648-0-0-0dfa1477bbd5c08aa9123e18486201ea",
-          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
-          "competition": "CAF NC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] Ukraine W vs France W (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794926648-0-0-ab532d32c28b6d021a35f00d18c08b3f",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "EBQW R2",
+          "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794927608-0-0-7fa78d359cde19fbfe5c35b28542bc76",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "KCTH",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Tanzania vs Nigeria (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1794926648-0-0-4e5ce4a73f3db7beb98bcc23078461dd",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1794927608-0-0-2bf9ab43d0afc72726ad75ca78a018c1",
           "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 17/11] Ukraine W vs France W (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794927608-0-0-d00f45f515c89c8b5b3b40078cc7dfde",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "EBQW R2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1794927608-0-0-b884dd40748f61373686b2007f29827f",
+          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
+          "competition": "CAF NC",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 17/11] Tanzania vs Nigeria (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=5b7f4c8b4d2d3aeac35b20b8746ec178&txTime=6afcae88",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=cf7be83fb356aadf5d143e0e35c2ee01&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Lesotho vs Gabon (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1794926708-0-0-f047e28152fe5ed7439865f3d42f43e5",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1794927608-0-0-455aad1aca007f9f21c5ddc2d6b4408e",
           "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] India vs Pakistan (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=95f67abe76497bddf9373f0a3f1e5133&txTime=6afcaec4",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "SAFF",
+          "name": "⚽ [LIVE 17/11] Malawi vs Egypt (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1794927608-0-0-dd4971e5f4bbfe9c44e74d36a4ac32c8",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] Thailand vs Tajikistan (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794926708-0-0-6dc9ccc9c2dd81f58e343808a135dcd1",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "KCTH",
+          "name": "⚽ [LIVE 17/11] United Arab Emirates vs Syria (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=6898eade7e8c29cbef1a279192707f35&txTime=6afcb248",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] United Arab Emirates vs Syria (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1794926708-0-0-b8c4123b92a1de91608d4a25a9b21ec0",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1794927608-0-0-a8c114a04e9da70b948d9dada3972091",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "INTERF",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 17/11] Tanzania vs Nigeria (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=5fe04b4fcc40c22d7a44ce916d413bb2&txTime=6afcaec4",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=4a50c43b55b206be906386ab254db482&txTime=6afcb248",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "CAF NC",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 17/11] United Arab Emirates vs Syria (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=4722240aef6ec335a4eb038f201e0299&txTime=6afcaec4",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
-          "competition": "INTERF",
+          "name": "⚽ [LIVE 17/11] India vs Pakistan (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794927608-0-0-a0c1ab109fb8949d5bc81cca19f89bd5",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "SAFF",
           "group": "🐿️ SocoLive"
         }
       ]
@@ -2924,16 +2929,14 @@
           "url": "https://live05.wecile.app/live/88508431.m3u8",
           "logo": "https://img.cltvap.cc/football/team/367ba92bc85435312f1074132e9e2ce8.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [18:35 17/11] Trung Quốc U19 vs Hàn Quốc U19 (BLV RỒNG ĐỎ) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/88508431_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/367ba92bc85435312f1074132e9e2ce8.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:00 17/11] Trung Quốc vs Bahrain (BLV SPRITE) [hls] - Cola TV",
@@ -3629,8 +3632,7 @@
           "url": "https://pull1.digitalcdn.net/live/2355a72b9ed34d7a82ea65f98a69537d/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7zdjr1ge/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "17/11_18:35_china_youth_korea_youth"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [19:00 17/11] Kyrgyzstan vs Việt Nam (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
