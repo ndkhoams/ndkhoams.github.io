@@ -1,45 +1,191 @@
 {
-  "updated_at": "2026-11-17 11:37:53",
+  "updated_at": "2026-11-17 11:53:16",
   "live_events": [
     {
-      "key": "17/11_09:30_utahmammoth_vancouvercanucks",
-      "match_key": "17/11_09:30_utahmammoth_vancouvercanucks",
-      "c_home": "utahmammoth",
-      "c_away": "vancouvercanucks",
-      "homeTeam": "Vancouver Canucks",
-      "awayTeam": "Utah Mammoth",
+      "key": "17/11_LIVE_scotland_switzerland",
+      "match_key": "17/11_LIVE_scotland_switzerland",
+      "c_home": "switzerland",
+      "c_away": "scotland",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Scotland",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "09:30",
+      "time": "LIVE",
       "date": "17/11",
-      "timestamp": 1794882600000,
-      "league": "RUGBY",
-      "leagueName": "Rugby",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "🏒 [09:30 17/11] Utah Mammoth vs Vancouver Canucks (us NHL) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18659/index.m3u8",
-          "logo": "https://media.api-sports.io/hockey/teams/2483.png",
-          "competition": "NHL",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "17/11_09:30_utahmammoth_vancouvercanucks"
-        },
-        {
-          "name": "🏉 [09:30 17/11] Vancouver Canucks vs Utah Mammoth (BLV Ngu) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1794822484_hd/1794822484_hd@720p.m3u8",
-          "logo": "https://static.flashscore.com/res/image/data/dAqcJsxS-lKtjafx1.png",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "17/11_09:30_utahmammoth_vancouvercanucks"
+          "name": "⚽ [LIVE 17/11] UEFA NL - Switzerland vs Scotland (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=c64c7e021ccd614e24a929e2a911e46e&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/21473b605b5cbfdf7a0390425bdcac90.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_scotland_switzerland"
         }
       ],
-      "displayTitle": "🏉 [09:30 17/11] Vancouver Canucks vs Utah Mammoth",
+      "displayTitle": "🔴 [LIVE 17/11] Switzerland vs Scotland",
       "number": 1
+    },
+    {
+      "key": "17/11_LIVE_iceland_luxembourg",
+      "match_key": "17/11_LIVE_iceland_luxembourg",
+      "c_home": "iceland",
+      "c_away": "luxembourg",
+      "homeTeam": "Iceland",
+      "awayTeam": "Luxembourg",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Iceland vs Luxembourg (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=aa4bd5eefe0da45cb4733025d5570a79&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/24ca27ba77d7c49e7e08b219a373e22e.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_iceland_luxembourg"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Iceland vs Luxembourg",
+      "number": 2
+    },
+    {
+      "key": "17/11_LIVE_belgium_italy",
+      "match_key": "17/11_LIVE_belgium_italy",
+      "c_home": "belgium",
+      "c_away": "italy",
+      "homeTeam": "Belgium",
+      "awayTeam": "Italy",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Belgium vs Italy (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=6a2b7b36bc29092e34f0af2c239fcd6b&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/1ee9b6d2e172ed71919b521ed304726b.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_belgium_italy"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Belgium vs Italy",
+      "number": 3
+    },
+    {
+      "key": "17/11_LIVE_germany_netherlands",
+      "match_key": "17/11_LIVE_germany_netherlands",
+      "c_home": "germany",
+      "c_away": "netherlands",
+      "homeTeam": "Germany",
+      "awayTeam": "Netherlands",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=cb05ed33ed0b19960eeebb64279d4725&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_germany_netherlands"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Germany vs Netherlands",
+      "number": 4
+    },
+    {
+      "key": "17/11_LIVE_england_spain",
+      "match_key": "17/11_LIVE_england_spain",
+      "c_home": "spain",
+      "c_away": "england",
+      "homeTeam": "Spain",
+      "awayTeam": "England",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8b97b892d749c9853ef39d9e21125c25&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_england_spain"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Spain vs England",
+      "number": 5
+    },
+    {
+      "key": "17/11_LIVE_bulgaria_estonia",
+      "match_key": "17/11_LIVE_bulgaria_estonia",
+      "c_home": "estonia",
+      "c_away": "bulgaria",
+      "homeTeam": "Estonia",
+      "awayTeam": "Bulgaria",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "17/11",
+      "timestamp": 1794891600000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=7f1c182ebffec23d01163d3b68f86822&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "17/11_LIVE_bulgaria_estonia"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 17/11] Estonia vs Bulgaria",
+      "number": 6
     },
     {
       "key": "17/11_10:00_longbeachstate_ucla",
@@ -79,193 +225,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 17/11] Ucla vs Long Beach State",
-      "number": 2
-    },
-    {
-      "key": "17/11_LIVE_germany_netherlands",
-      "match_key": "17/11_LIVE_germany_netherlands",
-      "c_home": "germany",
-      "c_away": "netherlands",
-      "homeTeam": "Germany",
-      "awayTeam": "Netherlands",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=cd1411aac426027ae1d3d92c9d48831e&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_germany_netherlands"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Germany vs Netherlands",
-      "number": 3
-    },
-    {
-      "key": "17/11_LIVE_scotland_switzerland",
-      "match_key": "17/11_LIVE_scotland_switzerland",
-      "c_home": "switzerland",
-      "c_away": "scotland",
-      "homeTeam": "Switzerland",
-      "awayTeam": "Scotland",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Switzerland vs Scotland (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=41a077c7892076daf640fa69861c141a&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/21473b605b5cbfdf7a0390425bdcac90.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_scotland_switzerland"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Switzerland vs Scotland",
-      "number": 4
-    },
-    {
-      "key": "17/11_LIVE_bulgaria_estonia",
-      "match_key": "17/11_LIVE_bulgaria_estonia",
-      "c_home": "estonia",
-      "c_away": "bulgaria",
-      "homeTeam": "Estonia",
-      "awayTeam": "Bulgaria",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=2a67c6d07e47985f7bbb489f539eeecb&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_bulgaria_estonia"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Estonia vs Bulgaria",
-      "number": 5
-    },
-    {
-      "key": "17/11_LIVE_england_spain",
-      "match_key": "17/11_LIVE_england_spain",
-      "c_home": "spain",
-      "c_away": "england",
-      "homeTeam": "Spain",
-      "awayTeam": "England",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=c45ed42b5b0cb9f9ae3663b6911b3a73&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_england_spain"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Spain vs England",
-      "number": 6
-    },
-    {
-      "key": "17/11_LIVE_iceland_luxembourg",
-      "match_key": "17/11_LIVE_iceland_luxembourg",
-      "c_home": "iceland",
-      "c_away": "luxembourg",
-      "homeTeam": "Iceland",
-      "awayTeam": "Luxembourg",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Iceland vs Luxembourg (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=aff0d40e3323bec57d1a04b8e751b374&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/24ca27ba77d7c49e7e08b219a373e22e.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_iceland_luxembourg"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Iceland vs Luxembourg",
       "number": 7
-    },
-    {
-      "key": "17/11_LIVE_belgium_italy",
-      "match_key": "17/11_LIVE_belgium_italy",
-      "c_home": "belgium",
-      "c_away": "italy",
-      "homeTeam": "Belgium",
-      "awayTeam": "Italy",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "17/11",
-      "timestamp": 1794891600000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Belgium vs Italy (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=0f66780aab3797bacccdba26d58c1195&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/1ee9b6d2e172ed71919b521ed304726b.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "17/11_LIVE_belgium_italy"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 17/11] Belgium vs Italy",
-      "number": 8
     },
     {
       "key": "17/11_23:00_russia_venezuela",
@@ -316,7 +276,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 17/11] Russia vs Venezuela",
-      "number": 9
+      "number": 8
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -399,7 +359,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 10
+      "number": 9
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -491,7 +451,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 11
+      "number": 10
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -522,7 +482,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 12
+      "number": 11
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -582,7 +542,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 13
+      "number": 12
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -622,7 +582,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 14
+      "number": 13
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -653,7 +613,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 15
+      "number": 14
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -727,7 +687,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 16
+      "number": 15
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -769,7 +729,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 17
+      "number": 16
     }
   ],
   "source_groups": [
@@ -1352,32 +1312,10 @@
       "name": "F4K Sport",
       "channels": [
         {
-          "name": "🏈 [08:15 17/11] Baltimore Ravens vs Los Angeles Chargers (us NFL) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18721/index.m3u8",
-          "logo": "https://media.api-sports.io/american-football/teams/5.png",
-          "competition": "NFL",
-          "group": "F4K Sport"
-        },
-        {
-          "name": "🏈 [08:15 17/11] Baltimore Ravens vs Los Angeles Chargers (US NFL 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18722/index.m3u8",
-          "logo": "https://media.api-sports.io/american-football/teams/5.png",
-          "competition": "NFL",
-          "group": "F4K Sport"
-        },
-        {
           "name": "🏒 [09:30 17/11] Utah Mammoth vs Vancouver Canucks (us NHL) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18659/index.m3u8",
           "logo": "https://media.api-sports.io/hockey/teams/2483.png",
           "competition": "NHL",
-          "group": "F4K Sport",
-          "match_key": "17/11_09:30_utahmammoth_vancouvercanucks"
-        },
-        {
-          "name": "🏀 [09:00 17/11] Denver Nuggets vs Phoenix Suns (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18634/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/139.png",
-          "competition": "NBA",
           "group": "F4K Sport"
         },
         {
@@ -1566,80 +1504,16 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 17/11] New Mexico United vs Sacramento Republic FC (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1794893768-0-0-579574193e8c10a009adcbcc03a5da52",
-          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
-          "competition": "USLC",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_mexico_sacramentorepublic"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] New Mexico United vs Sacramento Republic FC (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1794893768-0-0-3cad44647ae02424a18d9522b7c3e03f",
-          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
-          "competition": "USLC",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_mexico_sacramentorepublic"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] New Mexico United vs Sacramento Republic FC (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1794893768-0-0-a49f7f77c38aaac5bbb0b26d1b1b94a6",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "USLC",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_mexico_sacramentorepublic"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] New Mexico United vs Sacramento Republic FC (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1794893768-0-0-e8fcd01a92bac0f33565b6c23087401d",
-          "logo": "https://sta.vnres.co/file/common/20261001/a63d3fbef5118a362136852e80f77992.png",
-          "competition": "USLC",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_mexico_sacramentorepublic"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] New Mexico United vs Sacramento Republic FC (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794893768-0-0-9a4bbea3b5d1f42cb0492d081f261b9a",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "USLC",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_mexico_sacramentorepublic"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=cd1411aac426027ae1d3d92c9d48831e&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_germany_netherlands"
-        },
-        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Switzerland vs Scotland (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=41a077c7892076daf640fa69861c141a&txTime=6afc2e18",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=c64c7e021ccd614e24a929e2a911e46e&txTime=6afc31d8",
           "logo": "https://sta.vnres.co/file/common/20261117/21473b605b5cbfdf7a0390425bdcac90.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_scotland_switzerland"
         },
         {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=2a67c6d07e47985f7bbb489f539eeecb&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_bulgaria_estonia"
-        },
-        {
-          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=c45ed42b5b0cb9f9ae3663b6911b3a73&txTime=6afc2e18",
-          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "17/11_LIVE_england_spain"
-        },
-        {
           "name": "⚽ [LIVE 17/11] UEFA NL - Iceland vs Luxembourg (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=aff0d40e3323bec57d1a04b8e751b374&txTime=6afc2e18",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=aa4bd5eefe0da45cb4733025d5570a79&txTime=6afc31d8",
           "logo": "https://sta.vnres.co/file/common/20261117/24ca27ba77d7c49e7e08b219a373e22e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1647,11 +1521,35 @@
         },
         {
           "name": "⚽ [LIVE 17/11] UEFA NL - Belgium vs Italy (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=0f66780aab3797bacccdba26d58c1195&txTime=6afc2e18",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=6a2b7b36bc29092e34f0af2c239fcd6b&txTime=6afc31d8",
           "logo": "https://sta.vnres.co/file/common/20261117/1ee9b6d2e172ed71919b521ed304726b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "17/11_LIVE_belgium_italy"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Germany vs Netherlands (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=cb05ed33ed0b19960eeebb64279d4725&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_germany_netherlands"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Spain vs England (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8b97b892d749c9853ef39d9e21125c25&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/a56b670e813d0f163b9f7037843f85df.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_england_spain"
+        },
+        {
+          "name": "⚽ [LIVE 17/11] UEFA NL - Estonia vs Bulgaria (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=7f1c182ebffec23d01163d3b68f86822&txTime=6afc31d8",
+          "logo": "https://sta.vnres.co/file/common/20261117/b3f05437ef6ee45a04f7abebc8eca99e.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "17/11_LIVE_bulgaria_estonia"
         }
       ]
     },
@@ -1677,8 +1575,7 @@
           "url": "https://pzhgifbkllliv.vcdn.cloud/1794822484_hd/1794822484_hd@720p.m3u8",
           "logo": "https://static.flashscore.com/res/image/data/dAqcJsxS-lKtjafx1.png",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "match_key": "17/11_09:30_utahmammoth_vancouvercanucks"
+          "group": "⚡ Giờ Vàng TV"
         },
         {
           "name": "⚽ [13:00 17/11] Malaysia vs Yemen (blv-beo) [hls] - Giờ Vàng TV",
