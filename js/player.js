@@ -34,6 +34,8 @@ class StrandPlayer {
       this.updateStreamTelemetry();
     });
     this.video.addEventListener('loadedmetadata', () => this.updateStreamTelemetry());
+    this.video.addEventListener('loadeddata', () => this.updateStreamTelemetry());
+    this.video.addEventListener('canplay', () => this.updateStreamTelemetry());
     this.video.addEventListener('resize', () => this.updateStreamTelemetry());
     this.video.addEventListener('error', (e) => this.onError(e));
     this.video.addEventListener('timeupdate', () => this.onTimeUpdate());
@@ -756,20 +758,21 @@ class StrandPlayer {
     const audioText = document.getElementById('streamAudioText');
     if (!resText || !this.video) return;
 
+    // 100% LẤY THÔNG SỐ THỰC TẾ TỪ BỘ GIẢI MÃ VIDEO / HLS - TUYỆT ĐỐI KHÔNG SUY ĐOÁN THEO TÊN NGUỒN
     let width = this.video.videoWidth || 0;
     let height = this.video.videoHeight || 0;
     let bitrateBps = this.currentMeasuredBitrateBps || 0;
-    let fps = 50;
-    let audioCodec = 'AAC Stereo 2.0 (48kHz)';
+    let fps = this._currentMeasuredFps || 0;
+    let audioCodec = null;
 
-    // 1. Lấy thông số từ Hls.js nếu khả dụng
+    // 1. Trích xuất thông số thật từ Hls.js nếu đang phát HLS
     if (this.hls && this.hls.levels && this.hls.currentLevel >= 0) {
       const level = this.hls.levels[this.hls.currentLevel];
       if (level) {
-        if (!width && level.width) width = level.width;
-        if (!height && level.height) height = level.height;
-        if (!bitrateBps && level.bitrate) bitrateBps = level.bitrate;
-        if (level.frameRate) fps = Math.round(level.frameRate);
+        if (!width && level.width > 0) width = level.width;
+        if (!height && level.height > 0) height = level.height;
+        if (!bitrateBps && level.bitrate > 0) bitrateBps = level.bitrate;
+        if (!fps && level.frameRate > 0) fps = Math.round(level.frameRate);
         if (level.audioCodec) {
           audioCodec = (level.audioCodec.includes('ac-3') || level.audioCodec.includes('ec-3')) 
             ? 'Dolby Digital 5.1' 
@@ -778,20 +781,20 @@ class StrandPlayer {
       }
     }
 
-    // 2. Lấy thông số từ Shaka Player (DASH ClearKey)
+    // 2. Trích xuất thông số thật từ Shaka Player (DASH ClearKey)
     if (this.shakaPlayer) {
       try {
         const stats = this.shakaPlayer.getStats();
         if (stats) {
-          if (!width && stats.width) width = stats.width;
-          if (!height && stats.height) height = stats.height;
-          if (!bitrateBps && stats.streamBandwidth) bitrateBps = stats.streamBandwidth;
+          if (!width && stats.width > 0) width = stats.width;
+          if (!height && stats.height > 0) height = stats.height;
+          if (!bitrateBps && stats.streamBandwidth > 0) bitrateBps = stats.streamBandwidth;
         }
       } catch (e) {}
     }
 
-    // 3. Đo đạc FPS thực tế qua videoPlaybackQuality nếu trình duyệt hỗ trợ
-    if (this.video.getVideoPlaybackQuality) {
+    // 3. Đo đạc FPS thực tế qua videoPlaybackQuality của trình duyệt
+    if (this.video.getVideoPlaybackQuality && this.isPlaying) {
       try {
         const q = this.video.getVideoPlaybackQuality();
         const now = performance.now();
@@ -802,6 +805,7 @@ class StrandPlayer {
             const mFps = Math.round(df / dt);
             if (mFps >= 15 && mFps <= 120) {
               this._currentMeasuredFps = mFps;
+              fps = mFps;
             }
           }
         }
@@ -813,22 +817,27 @@ class StrandPlayer {
       fps = this._currentMeasuredFps;
     }
 
-    // 4. Fallback theo tên kênh / luồng nếu video chưa kịp load metadata
-    const rawTitle = ((this.currentChannel?.name || '') + ' ' + (this.currentChannel?.title || '') + ' ' + (this.currentChannel?.subtitle || '')).toUpperCase();
+    // 4. Nếu video CHƯA giải mã xong khung hình thực (đang buffer / kết nối)
     if (!width || !height) {
-      if (rawTitle.includes('4K') || rawTitle.includes('2160')) {
-        width = 3840; height = 2160; fps = 50;
-      } else if (rawTitle.includes('720')) {
-        width = 1280; height = 720; fps = 50;
-      } else if (rawTitle.includes('SD') || rawTitle.includes('576')) {
-        width = 720; height = 576; fps = 25;
-      } else {
-        width = 1920; height = 1080;
-        fps = (rawTitle.includes('BÓNG ĐÁ') || rawTitle.includes('SPORT') || rawTitle.includes('NBA') || rawTitle.includes('THỂ THAO')) ? 50 : 25;
+      if (resBadge) {
+        resBadge.textContent = 'ĐANG TẢI';
+        resBadge.className = 'px-1.5 py-0.2 rounded font-bold border text-[10px] tracking-wide shrink-0 bg-white/10 text-white/50 border-white/15';
       }
+      if (resText) {
+        resText.textContent = 'Đang nhận diện video...';
+      }
+      if (bitrateText) {
+        bitrateText.textContent = bitrateBps > 0 
+          ? (bitrateBps >= 1000000 ? `${(bitrateBps / 1000000).toFixed(1)} Mbps` : `${Math.round(bitrateBps / 1000)} kbps`)
+          : '--- Mbps';
+      }
+      if (audioText) {
+        audioText.textContent = 'Âm thanh: Đang kết nối...';
+      }
+      return;
     }
 
-    // 5. Huy hiệu độ phân giải (4K UHD, FHD, HD, SD)
+    // 5. Khi ĐÃ CÓ kích thước thật từ bộ giải mã: Xác định huy hiệu chính xác theo pixel thực
     let badgeLabel = 'FHD';
     let badgeClass = 'bg-sky-500/20 text-sky-300 border-sky-500/30';
     if (width >= 3840 || height >= 2160) {
@@ -840,7 +849,7 @@ class StrandPlayer {
     } else if (width >= 1280 || height >= 720) {
       badgeLabel = 'HD';
       badgeClass = 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30';
-    } else if (width > 0) {
+    } else {
       badgeLabel = 'SD';
       badgeClass = 'bg-amber-500/20 text-amber-300 border-amber-500/30';
     }
@@ -850,31 +859,25 @@ class StrandPlayer {
       resBadge.className = `px-1.5 py-0.2 rounded font-bold border text-[10px] tracking-wide shrink-0 ${badgeClass}`;
     }
 
-    // 6. Hiển thị kích thước pixel & FPS
+    // 6. Hiển thị kích thước pixel thật & FPS
     if (resText) {
-      resText.textContent = `${width}x${height} @ ${fps}fps`;
+      resText.textContent = fps > 0 ? `${width}x${height} @ ${fps}fps` : `${width}x${height}`;
     }
 
-    // 7. Định dạng Bitrate (Mbps / kbps)
+    // 7. Hiển thị Bitrate thật đo đạc được
     if (bitrateText) {
       if (bitrateBps >= 1000000) {
         bitrateText.textContent = `${(bitrateBps / 1000000).toFixed(1)} Mbps`;
       } else if (bitrateBps > 100000) {
         bitrateText.textContent = `${Math.round(bitrateBps / 1000)} kbps`;
       } else {
-        const matchMbps = rawTitle.match(/(\d+(?:\.\d+)?)\s*MBPS/);
-        if (matchMbps) {
-          bitrateText.textContent = `${matchMbps[1]} Mbps`;
-        } else {
-          const est = badgeLabel === '4K UHD' ? '12.0 Mbps' : (badgeLabel === 'FHD' ? '4.5 Mbps' : (badgeLabel === 'HD' ? '2.5 Mbps' : '1.2 Mbps'));
-          bitrateText.textContent = est;
-        }
+        bitrateText.textContent = 'Đang đo...';
       }
     }
 
-    // 8. Định dạng Audio
+    // 8. Hiển thị thông tin Audio
     if (audioText) {
-      audioText.textContent = `Âm thanh: ${audioCodec}`;
+      audioText.textContent = `Âm thanh: ${audioCodec || 'AAC Stereo 2.0 (48kHz)'}`;
     }
   }
 
