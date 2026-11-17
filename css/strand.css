@@ -24,7 +24,8 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body {
+html,
+body {
   background-color: var(--bg);
   color: var(--label);
   font-family: var(--font-body);
@@ -53,7 +54,8 @@ body {
 
 @media (min-width: 1024px) {
   body {
-    padding-bottom: 24px; /* Desktop does not need floating dock padding */
+    padding-bottom: 24px;
+    /* Desktop does not need floating dock padding */
   }
 }
 
@@ -233,7 +235,7 @@ body {
   -webkit-backdrop-filter: blur(40px) saturate(210%) !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.42) !important;
-  box-shadow: 
+  box-shadow:
     inset 0 1px 1px 0 rgba(255, 255, 255, 0.4),
     inset 0 -1px 1px 0 rgba(0, 0, 0, 0.4),
     0 16px 44px -8px rgba(0, 0, 0, 0.8),
@@ -257,7 +259,7 @@ body {
   -webkit-backdrop-filter: blur(40px) saturate(210%) !important;
   border: 1px solid rgba(255, 255, 255, 0.22) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
-  box-shadow: 
+  box-shadow:
     inset 0 1px 1px 0 rgba(255, 255, 255, 0.5),
     0 16px 44px -8px rgba(0, 0, 0, 0.8),
     0 0 24px 0 rgba(255, 101, 0, 0.3) !important;
@@ -528,6 +530,7 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -536,18 +539,22 @@ body {
 .custom-scrollbar::-webkit-scrollbar {
   width: 7px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 8px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.22);
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 101, 0, 0.55);
 }
+
 .custom-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
@@ -555,8 +562,13 @@ body {
 
 /* Shimmer Skeleton */
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .skeleton {
@@ -571,6 +583,7 @@ body {
     opacity: 0;
     transform: translateY(-4px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -618,6 +631,7 @@ body.has-pseudo-fullscreen #playerSection {
     opacity: 0.6;
     border-radius: 20px;
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(90deg) scale(1);
     opacity: 1;
@@ -630,6 +644,7 @@ body.has-pseudo-fullscreen #playerSection {
     transform: translate(-50%, -50%) rotate(90deg) scale(1);
     opacity: 1;
   }
+
   100% {
     transform: translate(-50%, -50%) rotate(0deg) scale(0.7);
     opacity: 0;
@@ -641,6 +656,7 @@ body.has-pseudo-fullscreen #playerSection {
     transform: translate(-50%, -50%) scale(0.85);
     opacity: 0.7;
   }
+
   100% {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
@@ -912,6 +928,7 @@ body.has-pseudo-fullscreen #playerSection {
 .ms-grid.layout-1x2 {
   grid-template-columns: 1fr;
 }
+
 @media (min-width: 768px) {
   .ms-grid.layout-1x2 {
     grid-template-columns: 1fr 1fr;
@@ -923,12 +940,15 @@ body.has-pseudo-fullscreen #playerSection {
 .ms-grid.layout-1plus2 {
   grid-template-columns: 1fr;
 }
+
 @media (min-width: 768px) {
+
   .ms-grid.layout-1\+2,
   .ms-grid.layout-1plus2 {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
   .ms-grid.layout-1\+2 .ms-frame[data-frame="1"],
   .ms-grid.layout-1plus2 .ms-frame[data-frame="1"] {
     grid-row: span 2;
@@ -938,6 +958,7 @@ body.has-pseudo-fullscreen #playerSection {
 .ms-grid.layout-2x2 {
   grid-template-columns: 1fr;
 }
+
 @media (min-width: 640px) {
   .ms-grid.layout-2x2 {
     grid-template-columns: 1fr 1fr;
@@ -981,6 +1002,7 @@ body.has-pseudo-fullscreen #playerSection {
 /* 5b. THEATER MODE (CHẾ ĐỘ RẠP CHIẾU PHIM - YOUTUBE STYLE)                  */
 /* ========================================================================= */
 @media (min-width: 1024px) {
+
   /* 1. Cột khung phát video mở rộng toàn bộ 12 cột */
   body.is-theater-mode #playerStickyWrapper {
     grid-column: 1 / -1 !important;
@@ -1045,7 +1067,7 @@ body.ms-window-fill {
   flex-direction: column !important;
 }
 
-#multiViewSection.is-window-fill > div {
+#multiViewSection.is-window-fill>div {
   height: 100% !important;
   width: 100% !important;
   display: flex !important;
@@ -1094,6 +1116,7 @@ body.ms-window-fill {
     grid-template-rows: 1fr !important;
   }
 }
+
 @media (max-width: 767px) {
   #multiViewSection.is-window-fill #multiViewGrid.layout-1x2 {
     grid-template-columns: 1fr !important;
@@ -1102,13 +1125,16 @@ body.ms-window-fill {
 }
 
 @media (min-width: 768px) {
+
   #multiViewSection.is-window-fill #multiViewGrid.layout-1\+2,
   #multiViewSection.is-window-fill #multiViewGrid.layout-1plus2 {
     grid-template-columns: 2fr 1fr !important;
     grid-template-rows: 1fr 1fr !important;
   }
 }
+
 @media (max-width: 767px) {
+
   #multiViewSection.is-window-fill #multiViewGrid.layout-1\+2,
   #multiViewSection.is-window-fill #multiViewGrid.layout-1plus2 {
     grid-template-columns: 1fr !important;
