@@ -1,46 +1,6 @@
 {
-  "updated_at": "2026-11-18 01:21:45",
+  "updated_at": "2026-11-18 01:37:04",
   "live_events": [
-    {
-      "key": "17/11_23:15_iran_iraq",
-      "match_key": "17/11_23:15_iran_iraq",
-      "c_home": "iraq",
-      "c_away": "iran",
-      "homeTeam": "Iraq",
-      "awayTeam": "Iran",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "23:15",
-      "date": "17/11",
-      "timestamp": 1794932100000,
-      "league": "FRIENDLY",
-      "leagueName": "Giao hữu quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [23:15 17/11] Iraq Vs Ir Iran (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png",
-          "competition": "International Friendly",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "17/11_23:15_iran_iraq"
-        },
-        {
-          "name": "⚽ [23:15 17/11] Iraq vs Iran (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
-          "url": "https://pull1.digitalcdn.net/live/ff37396e5c8c493783925773489593e2/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/kn54qllhg49qvy9/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "17/11_23:15_iran_iraq"
-        }
-      ],
-      "displayTitle": "🔴 [23:15 17/11] Iraq vs Iran",
-      "number": 1
-    },
     {
       "key": "17/11_23:30_honduras_kuwait",
       "match_key": "17/11_23:30_honduras_kuwait",
@@ -53,21 +13,12 @@
       "time": "23:30",
       "date": "17/11",
       "timestamp": 1794933000000,
-      "league": "FRIENDLY",
-      "leagueName": "Giao hữu quốc tế",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [23:30 17/11] Kuwait Vs Honduras (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/4e7c9460ee862d47c2ce6debfef6aace.png",
-          "competition": "International Friendly",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "17/11_23:30_honduras_kuwait"
-        },
         {
           "name": "⚽ [23:30 17/11] Kuwait vs Honduras (BLV Huyền Diệp) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8",
@@ -79,7 +30,7 @@
         }
       ],
       "displayTitle": "🔴 [23:30 17/11] Kuwait vs Honduras",
-      "number": 2
+      "number": 1
     },
     {
       "key": "18/11_LIVE_denmark_youth_netherlands_youth",
@@ -100,17 +51,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794943208-0-0-b650823434cebcf5792cafe1506c5a95",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "UEFA U21Q",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=3a526eda73d6d73dbe76eb8283b37273&txTime=6afcef38",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=81ebf820fc44da781a5c7c02cfe993c0&txTime=6afcf2f8",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
@@ -118,9 +60,9 @@
           "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=43db34149f036f325fd297289077c9e9&txTime=6afcef38",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794944168-0-0-61711e6ab004589d1b5050cebb522070",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -128,8 +70,17 @@
         },
         {
           "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1794943208-0-0-2303b0a97410b883b5b4b26a97f1d8f1",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1794944168-0-0-ba986532c398220b607f309d054f6d31",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "UEFA U21Q",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=c9524c4054693e3b87f97a787fd01d13&txTime=6afcf2f8",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -164,7 +115,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] Netherlands U21 vs Denmark U21",
-      "number": 3
+      "number": 2
     },
     {
       "key": "18/11_LIVE_finland_youth_ireland_youth",
@@ -185,8 +136,17 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1794944168-0-0-40200a91c6039946cd991cb7a4ade790",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "competition": "UEFA U21Q",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794943208-0-0-23cb9dbcdc7e40947f21d6000845e645",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794944168-0-0-8b3558997dbc690228a0abdd11934666",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
@@ -195,7 +155,7 @@
         },
         {
           "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794943208-0-0-71003673afe084403b77531d7217ee82",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794944168-0-0-87d8d5a880d26411dd5aecf009b4eb33",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
@@ -203,17 +163,8 @@
           "match_key": "18/11_LIVE_finland_youth_ireland_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1794943208-0-0-13e2065133460504529fe39f2bafb3e0",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "UEFA U21Q",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794943208-0-0-8c19f9612667b79fd708112c2efc9819",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794944168-0-0-1c2ada4a15599827d24e68ff652e2fe8",
           "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
@@ -231,7 +182,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] Ireland U21 vs Finland U21",
-      "number": 4
+      "number": 3
     },
     {
       "key": "18/11_02:45_denmark_norway",
@@ -368,7 +319,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Denmark vs Norway",
-      "number": 5
+      "number": 4
     },
     {
       "key": "18/11_02:45_portugal_wales",
@@ -505,7 +456,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Wales vs Portugal",
-      "number": 6
+      "number": 5
     },
     {
       "key": "18/11_02:45_georgia_ukraine",
@@ -592,7 +543,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ukraine vs Georgia",
-      "number": 7
+      "number": 6
     },
     {
       "key": "18/11_02:45_hungary_ireland",
@@ -688,7 +639,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Hungary vs Ireland",
-      "number": 8
+      "number": 7
     },
     {
       "key": "18/11_02:45_austria_israel",
@@ -784,7 +735,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Israel vs Austria",
-      "number": 9
+      "number": 8
     },
     {
       "key": "18/11_02:45_ireland_kosovo",
@@ -860,7 +811,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Ireland vs Kosovo",
-      "number": 10
+      "number": 9
     },
     {
       "key": "18/11_02:45_poland_sweden",
@@ -979,7 +930,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Poland vs Sweden",
-      "number": 11
+      "number": 10
     },
     {
       "key": "18/11_02:45_bosnia_romania",
@@ -1021,7 +972,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 18/11] Bosnia and Herzegovina vs Romania",
-      "number": 12
+      "number": 11
     },
     {
       "key": "18/11_05:00_easternmichigan_westernmichigan",
@@ -1052,7 +1003,7 @@
         }
       ],
       "displayTitle": "🏈 [05:00 18/11] Western Michigan vs Eastern Michigan",
-      "number": 13
+      "number": 12
     }
   ],
   "source_groups": [
@@ -1068,20 +1019,20 @@
           "match_key": "18/11_02:00_botswana_uganda"
         },
         {
-          "name": "⚽ [02:00 18/11] Liberia Vs Cabo Verde (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png",
-          "competition": "CAF Africa Cup of Nations",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "18/11_02:00_caboverde_liberia"
-        },
-        {
           "name": "⚽ [02:00 18/11] Republic Of The Congo Vs Comoros (BLV Gà Siêu Bệu) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png",
           "competition": "CAF Africa Cup of Nations",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "18/11_02:00_comoros_viettel"
+        },
+        {
+          "name": "⚽ [02:00 18/11] Liberia Vs Cabo Verde (BLV Gà Siêu Kiêu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/dc00471256fd2162677840453cbb2cee.png",
+          "competition": "CAF Africa Cup of Nations",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "18/11_02:00_caboverde_liberia"
         },
         {
           "name": "⚽ [02:45 18/11] Denmark Vs Norway (BLV Gà Siêu Gáy) - Gà Vàng",
@@ -2224,84 +2175,84 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] Portugal U21 vs Norway U21 (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1794943208-0-0-2e41483afe7278e4949a41d987ae3faf",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_norway_youth_portugal_youth"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794943208-0-0-b650823434cebcf5792cafe1506c5a95",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "UEFA U21Q",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794943208-0-0-23cb9dbcdc7e40947f21d6000845e645",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "UEFA U21Q",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Portugal U21 vs Norway U21 (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1794943208-0-0-a0bfe0c63372461cf118209d803f3667",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "INTERF",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_norway_youth_portugal_youth"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=3a526eda73d6d73dbe76eb8283b37273&txTime=6afcef38",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=81ebf820fc44da781a5c7c02cfe993c0&txTime=6afcf2f8",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794943208-0-0-71003673afe084403b77531d7217ee82",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1794944168-0-0-61711e6ab004589d1b5050cebb522070",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
+          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1794943208-0-0-13e2065133460504529fe39f2bafb3e0",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1794944168-0-0-ba986532c398220b607f309d054f6d31",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
+          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Portugal U21 vs Norway U21 (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1794944168-0-0-e2311f47cf277bd2648f0b1e16bda35f",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_norway_youth_portugal_youth"
         },
         {
           "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=43db34149f036f325fd297289077c9e9&txTime=6afcef38",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=c9524c4054693e3b87f97a787fd01d13&txTime=6afcf2f8",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794943208-0-0-8c19f9612667b79fd708112c2efc9819",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1794944168-0-0-40200a91c6039946cd991cb7a4ade790",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_finland_youth_ireland_youth"
         },
         {
-          "name": "⚽ [LIVE 18/11] Netherlands U21 vs Denmark U21 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1794943208-0-0-2303b0a97410b883b5b4b26a97f1d8f1",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1794944168-0-0-8b3558997dbc690228a0abdd11934666",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "UEFA U21Q",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_denmark_youth_netherlands_youth"
+          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1794944168-0-0-87d8d5a880d26411dd5aecf009b4eb33",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "UEFA U21Q",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Portugal U21 vs Norway U21 (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1794944168-0-0-7cd53b961234fb5cc66736f0cacd27d4",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "INTERF",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_norway_youth_portugal_youth"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Ireland U21 vs Finland U21 (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1794944168-0-0-1c2ada4a15599827d24e68ff652e2fe8",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "UEFA U21Q",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_finland_youth_ireland_youth"
         }
       ]
     },
