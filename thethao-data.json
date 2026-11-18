@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 14:35:09",
+  "updated_at": "2026-11-18 14:50:26",
   "live_events": [
     {
       "key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies",
@@ -374,6 +374,37 @@
       "number": 12
     },
     {
+      "key": "20/11_18:30_balestierkhalsa_jurong",
+      "match_key": "20/11_18:30_balestierkhalsa_jurong",
+      "c_home": "jurong",
+      "c_away": "balestierkhalsa",
+      "homeTeam": "Jurong",
+      "awayTeam": "Balestier Khalsa",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "18:30",
+      "date": "20/11",
+      "timestamp": 1795174200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [18:30 20/11] Fc Jurong Vs Balestier Khalsa Fc (BLV Gà Siêu Péo) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/f673935d115d19fd412bcedf9ac3f936.png",
+          "competition": "Singapore Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "20/11_18:30_balestierkhalsa_jurong"
+        }
+      ],
+      "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
+      "number": 13
+    },
+    {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
       "match_key": "20/11_18:35_beijingguoan_shanghaiport",
       "c_home": "beijingguoan",
@@ -402,7 +433,38 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 13
+      "number": 14
+    },
+    {
+      "key": "20/11_23:00_livyibereh_shakhtardonetsk",
+      "match_key": "20/11_23:00_livyibereh_shakhtardonetsk",
+      "c_home": "shakhtardonetsk",
+      "c_away": "livyibereh",
+      "homeTeam": "Shakhtar Donetsk",
+      "awayTeam": "Livyi Bereh",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "23:00",
+      "date": "20/11",
+      "timestamp": 1795190400000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [23:00 20/11] Fc Shakhtar Donetsk Vs Fc Livyi Bereh (BLV Gà Siêu Bệu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/9422aa91b72373c4d69f6dcf477aceb2.png",
+          "competition": "Ukrainian Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "20/11_23:00_livyibereh_shakhtardonetsk"
+        }
+      ],
+      "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
+      "number": 15
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -433,7 +495,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 14
+      "number": 16
     }
   ],
   "source_groups": [
@@ -1175,78 +1237,78 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794990848-0-0-40c84999ece1cf786699957a45334b55",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794990848-0-0-1d86d0dc28b2c1819303c1c5788ac3df",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794991748-0-0-593fda688b1a226745cad405ad5f7e38",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794990848-0-0-f2654a863b6839bef322401f0ab042b1",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794990848-0-0-91fedf70ca515f9a6c28c3dea2932087",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794991748-0-0-5f1995ab44ff1914f70a5369cc4bc7f7",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794991748-0-0-2c116097ebdcfdef5b4cce3366f8365f",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794990848-0-0-5c1a342d279caa7eb8eff940aaf19ff9",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794991748-0-0-438b0b18693e55870d5cbd711d4ec2d4",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794991748-0-0-d6c248f3ddc3d9d7471ca22fcafe5d39",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6f574cb737eda7afaaee8953685fd203&txTime=6afda950",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=64bd60be46f080623527eaf0d3eacaf7&txTime=6afdacd4",
           "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=6622e435428647ddf38d4d4da45a3132&txTime=6afda950",
-          "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=9b8de2219cf52c756b1282e85a81e2b9&txTime=6afda950",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=b07db5fb2301c4969247934ce3283a62&txTime=6afdacd4",
           "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=a06038245f7ba594e3bdafcf7d4eedcc&txTime=6afdacd4",
+          "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=7c915d30e889640fbb9442aae38f130a&txTime=6afda950",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=24bcaef275e41ca6742de2a2e53f59dc&txTime=6afdacd4",
           "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=359ead3259a76ec9a3cc09a421f4ca1f&txTime=6afda950",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=0e94882256e384dea1d65868aed78129&txTime=6afdacd4",
           "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=2c0e4308a5fb5497aff5b4bf3ff6f079&txTime=6afda950",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=4135477157a9bcab8bcedf945a7efc9f&txTime=6afdacd4",
           "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
