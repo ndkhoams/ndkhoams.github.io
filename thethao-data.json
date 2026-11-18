@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-18 13:49:15",
+  "updated_at": "2026-11-18 14:04:38",
   "live_events": [
-    {
-      "key": "18/11_LIVE_portugal_wales",
-      "match_key": "18/11_LIVE_portugal_wales",
-      "c_home": "wales",
-      "c_away": "portugal",
-      "homeTeam": "Wales",
-      "awayTeam": "Portugal",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "18/11",
-      "timestamp": 1794978000000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=5f69d9f07825b1e79387ff1181804d3b&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_LIVE_portugal_wales"
-        }
-      ],
-      "displayTitle": "🔴 [LIVE 18/11] Wales vs Portugal",
-      "number": 1
-    },
     {
       "key": "18/11_LIVE_denmark_norway",
       "match_key": "18/11_LIVE_denmark_norway",
@@ -52,7 +21,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 18/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=fd91e071683ffa1b29bc4b704487c257&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=7e2604a161918724c49cc0232d08ba9c&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -61,56 +30,38 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] Denmark vs Norway",
-      "number": 2
+      "number": 1
     },
     {
-      "key": "18/11_11:00_charlottehornets_losangeleslakers",
-      "match_key": "18/11_11:00_charlottehornets_losangeleslakers",
-      "c_home": "losangeleslakers",
-      "c_away": "charlottehornets",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "Charlotte Hornets",
+      "key": "18/11_LIVE_portugal_wales",
+      "match_key": "18/11_LIVE_portugal_wales",
+      "c_home": "wales",
+      "c_away": "portugal",
+      "homeTeam": "Wales",
+      "awayTeam": "Portugal",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "11:00",
+      "time": "LIVE",
       "date": "18/11",
-      "timestamp": 1794974400000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "timestamp": 1794978000000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "🏀 [11:00 18/11] Los Angeles Lakers vs Charlotte Hornets (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18642/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/145.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Los Angeles Lakers vs Charlotte Hornets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1794988088-0-0-bbd2762c9f10380faeee81b548916161",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
+          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=61847e7a5f79dd5dfe23df77cdcb2e76&txTime=6afda20c",
+          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
+          "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Los Angeles Lakers vs Charlotte Hornets (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794988088-0-0-1c0909bcd8603909046f9dc8955ca0e5",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
+          "match_key": "18/11_LIVE_portugal_wales"
         }
       ],
-      "displayTitle": "🏀 [11:00 18/11] Los Angeles Lakers vs Charlotte Hornets",
-      "number": 3
+      "displayTitle": "🔴 [LIVE 18/11] Wales vs Portugal",
+      "number": 2
     },
     {
       "key": "18/11_LIVE_newzealand_southeastmelbourne",
@@ -131,18 +82,9 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794988088-0-0-b63e0fe82097d95a55f1d8f2c7b37641",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794988088-0-0-0408ec18014caf7bb779fd0d6b91d90b",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794988991-0-0-1ecf5bc0cac1a8de6c4355afd14a0b49",
+          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -150,7 +92,7 @@
         },
         {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794988088-0-0-d2434c5c1711003cd828798f17f901c1",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794988988-0-0-70e261e6dbb4a7e29a991c2b771805f0",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive",
@@ -158,9 +100,27 @@
           "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
         },
         {
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794988988-0-0-1c4fae70b9cbb6839404a5ad76161290",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
+        },
+        {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794988088-0-0-8efb128aa2ddc2edccbc754d5011c52a",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794988988-0-0-e6ec98421dbf2f0f736b437324e54087",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794988988-0-0-72c254eb2099099a6cc4ec153c74f15a",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBL",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -168,7 +128,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] New Zealand vs South East Melbourne",
-      "number": 4
+      "number": 3
     },
     {
       "key": "18/11_LIVE_brazil_singapore",
@@ -190,7 +150,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 18/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=17f00c358bbf3098690a95823e5ebaf8&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=8b6c25d48d45ce696da147d37991a0d8&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -199,7 +159,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] Singapore vs Brazil",
-      "number": 5
+      "number": 4
     },
     {
       "key": "18/11_LIVE_japan_paraguay",
@@ -221,7 +181,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 18/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=33f9e7f5ed377f5a5094a47320c5cb37&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=58267977c20aae7ba58ac80fbeb36c35&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -230,6 +190,37 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 18/11] Japan vs Paraguay",
+      "number": 5
+    },
+    {
+      "key": "18/11_LIVE_argentina_costarica",
+      "match_key": "18/11_LIVE_argentina_costarica",
+      "c_home": "argentina",
+      "c_away": "costarica",
+      "homeTeam": "Argentina",
+      "awayTeam": "Costa Rica",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "18/11",
+      "timestamp": 1794978000000,
+      "league": "FRIENDLY",
+      "leagueName": "Giao hữu quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 18/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=9ea07b61eb802062b8090ed9d970d78b&txTime=6afda20c",
+          "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "18/11_LIVE_argentina_costarica"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 18/11] Argentina vs Costa Rica",
       "number": 6
     },
     {
@@ -252,7 +243,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=e62a39260533886255915cab9b87e99b&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=bfb7d3d3126d9136cd84f819e735c88b&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -262,37 +253,6 @@
       ],
       "displayTitle": "🔴 [LIVE 18/11] Kyrgyzstan vs Vietnam",
       "number": 7
-    },
-    {
-      "key": "18/11_LIVE_argentina_costarica",
-      "match_key": "18/11_LIVE_argentina_costarica",
-      "c_home": "argentina",
-      "c_away": "costarica",
-      "homeTeam": "Argentina",
-      "awayTeam": "Costa Rica",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "18/11",
-      "timestamp": 1794978000000,
-      "league": "FRIENDLY",
-      "leagueName": "Giao hữu quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 18/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=529e976c0e95c10dbfbe5dc14686fb92&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "18/11_LIVE_argentina_costarica"
-        }
-      ],
-      "displayTitle": "🔴 [LIVE 18/11] Argentina vs Costa Rica",
-      "number": 8
     },
     {
       "key": "18/11_17:00_lgsakers_seoulsamsungthunders",
@@ -332,7 +292,7 @@
         }
       ],
       "displayTitle": "🏀 [17:00 18/11] Seoul Samsung Thunders vs Lg Sakers",
-      "number": 9
+      "number": 8
     },
     {
       "key": "18/11_17:00_hyundaiechillstatewomon_soopsooperswomon",
@@ -363,7 +323,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 18/11] Soop Soopers Womon vs Hyundai E&c Hillstate Womon",
-      "number": 10
+      "number": 9
     },
     {
       "key": "18/11_18:00_buriramunited_tphcm",
@@ -450,7 +410,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 18/11] TP Ho Chi Minh vs Buriram United",
-      "number": 11
+      "number": 10
     },
     {
       "key": "18/11_18:30_ratchaburi_tampinesrovers",
@@ -546,7 +506,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 18/11] Tampines Rovers vs Ratchaburi",
-      "number": 12
+      "number": 11
     },
     {
       "key": "18/11_19:00_borneosamarinda_maniladigger",
@@ -633,7 +593,7 @@
         }
       ],
       "displayTitle": "⚽ [19:00 18/11] Borneo vs Manila Digger",
-      "number": 13
+      "number": 12
     },
     {
       "key": "18/11_19:00_tekstilac_zeleznicarpancevo",
@@ -664,7 +624,7 @@
         }
       ],
       "displayTitle": "⚽ [19:00 18/11] Tekstilac vs Zeleznicar Pancevo",
-      "number": 14
+      "number": 13
     },
     {
       "key": "18/11_19:00_congnhandet_zeleznicarpancevo",
@@ -704,7 +664,7 @@
         }
       ],
       "displayTitle": "⚽ [19:00 18/11] Cong Nhan Det vs Zeleznicar Pancevo",
-      "number": 15
+      "number": 14
     },
     {
       "key": "18/11_20:00_bengaluruunited_sreenidideccan",
@@ -735,7 +695,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 18/11] Bengaluru United vs Sreenidi Deccan",
-      "number": 16
+      "number": 15
     },
     {
       "key": "18/11_20:00_bengaluruutd_sreenidideccan",
@@ -766,7 +726,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 18/11] Bengaluru Utd vs Sreenidi Deccan",
-      "number": 17
+      "number": 16
     },
     {
       "key": "18/11_20:30_fenerbahcewomon_thywomon",
@@ -797,7 +757,7 @@
         }
       ],
       "displayTitle": "⚽ [20:30 18/11] Fenerbahce Womon vs Thy Womon",
-      "number": 18
+      "number": 17
     },
     {
       "key": "18/11_21:30_aladalah_alorobah",
@@ -837,7 +797,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 18/11] Al-adalah vs Al-orobah",
-      "number": 19
+      "number": 18
     },
     {
       "key": "18/11_22:00_dubocica_radnickinis",
@@ -877,7 +837,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 18/11] Dubocica vs Radnicki Nis",
-      "number": 20
+      "number": 19
     },
     {
       "key": "18/11_22:00_albaqaa_jerashclub",
@@ -908,7 +868,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 18/11] Al Baqaa vs Jerash Club",
-      "number": 21
+      "number": 20
     },
     {
       "key": "18/11_22:00_elgounah_ittihadalexandria",
@@ -948,7 +908,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 18/11] El Gounah vs Ittihad Alexandria",
-      "number": 22
+      "number": 21
     },
     {
       "key": "18/11_22:00_alittihad_elgounah",
@@ -979,7 +939,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 18/11] El Gounah vs Al Ittihad",
-      "number": 23
+      "number": 22
     },
     {
       "key": "18/11_22:30_albuqaa_jerashclub",
@@ -1010,7 +970,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 18/11] Al Buqaa vs Jerash Club",
-      "number": 24
+      "number": 23
     },
     {
       "key": "18/11_23:00_nkfuzinar_taborsezana",
@@ -1041,7 +1001,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 18/11] Tabor Sezana vs Nk Fuzinar",
-      "number": 25
+      "number": 24
     },
     {
       "key": "18/11_23:00_araskargowomon_eczacibasiwomon",
@@ -1072,7 +1032,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 18/11] Eczacibasi Womon vs Aras Kargo Womon",
-      "number": 26
+      "number": 25
     },
     {
       "key": "19/11_00:30_radnicki1923kragujevac_zemun",
@@ -1103,7 +1063,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac",
-      "number": 27
+      "number": 26
     },
     {
       "key": "19/11_01:00_sabadell_utebo",
@@ -1134,7 +1094,7 @@
         }
       ],
       "displayTitle": "⚽ [01:00 19/11] Utebo vs Sabadell",
-      "number": 28
+      "number": 27
     },
     {
       "key": "19/11_01:00_portugalete_realunion",
@@ -1165,7 +1125,7 @@
         }
       ],
       "displayTitle": "⚽ [01:00 19/11] Portugalete vs Real Union",
-      "number": 29
+      "number": 28
     },
     {
       "key": "19/11_02:00_cdalcoyano_rcdmallorca",
@@ -1196,7 +1156,7 @@
         }
       ],
       "displayTitle": "⚽ [02:00 19/11] Cd Alcoyano vs Rcd Mallorca",
-      "number": 30
+      "number": 29
     },
     {
       "key": "19/11_02:00_cdbadajoz_tenerife",
@@ -1227,7 +1187,7 @@
         }
       ],
       "displayTitle": "⚽ [02:00 19/11] Cd Badajoz vs Tenerife",
-      "number": 31
+      "number": 30
     },
     {
       "key": "19/11_02:30_cartagena_deportivaminera",
@@ -1267,7 +1227,7 @@
         }
       ],
       "displayTitle": "⚽ [02:30 19/11] Deportiva Minera vs Cartagena",
-      "number": 32
+      "number": 31
     },
     {
       "key": "19/11_02:30_barakaldo_reusreddis",
@@ -1298,7 +1258,7 @@
         }
       ],
       "displayTitle": "⚽ [02:30 19/11] Reus Reddis vs Barakaldo",
-      "number": 33
+      "number": 32
     },
     {
       "key": "19/11_05:30_coritibasafpr_santossp",
@@ -1349,7 +1309,7 @@
         }
       ],
       "displayTitle": "⚽ [05:30 19/11] Coritiba vs Santos",
-      "number": 34
+      "number": 33
     },
     {
       "key": "19/11_06:00_chapecoense_remopa",
@@ -1380,7 +1340,7 @@
         }
       ],
       "displayTitle": "⚽ [06:00 19/11] Remo Pa vs Chapecoense Sc",
-      "number": 35
+      "number": 34
     },
     {
       "key": "19/11_06:30_cruzeiromg_palmeirassp",
@@ -1411,7 +1371,7 @@
         }
       ],
       "displayTitle": "⚽ [06:30 19/11] Cruzeiro Mg vs Palmeiras Sp",
-      "number": 36
+      "number": 35
     },
     {
       "key": "19/11_06:30_atleticoparanaense_flamengo",
@@ -1442,7 +1402,7 @@
         }
       ],
       "displayTitle": "⚽ [06:30 19/11] Flamengo vs Atletico Paranaense",
-      "number": 37
+      "number": 36
     },
     {
       "key": "19/11_07:30_botafogorj_corinthianssp",
@@ -1482,7 +1442,7 @@
         }
       ],
       "displayTitle": "⚽ [07:30 19/11] Corinthians vs Botafogo",
-      "number": 38
+      "number": 37
     },
     {
       "key": "19/11_07:30_bahiaba_gremiors",
@@ -1513,7 +1473,7 @@
         }
       ],
       "displayTitle": "⚽ [07:30 19/11] Gremio Rs vs Bahia Ba",
-      "number": 39
+      "number": 38
     },
     {
       "key": "19/11_15:30_prestonlions_southhobart",
@@ -1553,7 +1513,7 @@
         }
       ],
       "displayTitle": "⚽ [15:30 19/11] Preston Lions vs South Hobart",
-      "number": 40
+      "number": 39
     },
     {
       "key": "19/11_15:30_queenslandlions_wolves",
@@ -1584,7 +1544,7 @@
         }
       ],
       "displayTitle": "⚽ [15:30 19/11] Queensland Lions Sc vs Wolves",
-      "number": 41
+      "number": 40
     },
     {
       "key": "19/11_17:00_moikbaku_sabail",
@@ -1615,7 +1575,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 19/11] Moik Baku vs Sabail",
-      "number": 42
+      "number": 41
     },
     {
       "key": "19/11_17:00_gscaltexwomon_hungkukwomon",
@@ -1646,7 +1606,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 19/11] Hungkuk Womon vs Gs Caltex Womon",
-      "number": 43
+      "number": 42
     },
     {
       "key": "19/11_17:30_mingachevir_sportingcp",
@@ -1677,7 +1637,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 19/11] Mingachevir vs Sporting CP",
-      "number": 44
+      "number": 43
     },
     {
       "key": "19/11_17:30_dempo_shillonglajong",
@@ -1708,7 +1668,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 19/11] Dempo vs Shillong Lajong",
-      "number": 45
+      "number": 44
     },
     {
       "key": "19/11_19:00_port_preahkhanreachsvayrieng",
@@ -1759,7 +1719,7 @@
         }
       ],
       "displayTitle": "⚽ [19:00 19/11] Svay Rieng vs Port",
-      "number": 46
+      "number": 45
     },
     {
       "key": "19/11_19:00_persibbandung_shanunited",
@@ -1799,7 +1759,7 @@
         }
       ],
       "displayTitle": "⚽ [19:00 19/11] Persib Bandung vs Shan United",
-      "number": 47
+      "number": 46
     },
     {
       "key": "19/11_19:30_cahn_johordarultazim",
@@ -1830,7 +1790,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 19/11] CAHN vs Johor Darul Tazim",
-      "number": 48
+      "number": 47
     },
     {
       "key": "19/11_19:30_cahn_johordarultakzim",
@@ -1861,7 +1821,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 19/11] CAHN vs Johor Darul Takzim",
-      "number": 49
+      "number": 48
     },
     {
       "key": "19/11_19:45_alwasl_hatta",
@@ -1892,7 +1852,7 @@
         }
       ],
       "displayTitle": "⚽ [19:45 19/11] Al Wasl Sc vs Hatta",
-      "number": 50
+      "number": 49
     },
     {
       "key": "19/11_20:00_france_youth_haiti_youth",
@@ -1957,7 +1917,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 19/11] France U17 vs Haiti U17",
-      "number": 51
+      "number": 50
     },
     {
       "key": "19/11_20:00_ecuadoru17_youth_newcaledoniau17_youth",
@@ -1988,7 +1948,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 19/11] New Caledonia U17 vs Ecuador U17",
-      "number": 52
+      "number": 51
     },
     {
       "key": "19/11_20:30_korea_youth_ugandau17_youth",
@@ -2028,7 +1988,7 @@
         }
       ],
       "displayTitle": "⚽ [20:30 19/11] South Korea U17 vs Uganda U17",
-      "number": 53
+      "number": 52
     },
     {
       "key": "19/11_21:00_saudiarabia_youth_uruguay_youth",
@@ -2068,7 +2028,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 19/11] Saudi Arabia U17 vs Uruguay U17",
-      "number": 54
+      "number": 53
     },
     {
       "key": "19/11_22:00_denmark_youth_mozambiqueu17_youth",
@@ -2099,7 +2059,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 19/11] Mozambique U17 vs Denmark U17",
-      "number": 55
+      "number": 54
     },
     {
       "key": "19/11_22:00_almasry_asyutpetroleum",
@@ -2130,7 +2090,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 19/11] Al Masry vs Asyut Petroleum",
-      "number": 56
+      "number": 55
     },
     {
       "key": "19/11_22:00_elmokawloonelarab_olympicelqanal",
@@ -2161,7 +2121,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 19/11] El Mokawloon El Arab vs Olympic El Qanal",
-      "number": 57
+      "number": 56
     },
     {
       "key": "19/11_22:25_alain_aldhafra",
@@ -2192,7 +2152,7 @@
         }
       ],
       "displayTitle": "⚽ [22:25 19/11] Al Ain vs Al Dhafra",
-      "number": 58
+      "number": 57
     },
     {
       "key": "19/11_22:30_panamau17_youth_qatar_youth",
@@ -2223,7 +2183,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 19/11] Qatar U17 vs Panama U17",
-      "number": 59
+      "number": 58
     },
     {
       "key": "19/11_22:30_alahli_alshamalsportsclub",
@@ -2265,7 +2225,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 19/11] Al Ahli vs Shamal",
-      "number": 60
+      "number": 59
     },
     {
       "key": "19/11_23:00_argentina_youth_australia_youth",
@@ -2296,7 +2256,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 19/11] Argentina U17 vs Australia U17",
-      "number": 61
+      "number": 60
     },
     {
       "key": "19/11_23:00_egypt_youth_greece_youth",
@@ -2327,7 +2287,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 19/11] Egypt U17 vs Greece U17",
-      "number": 62
+      "number": 61
     },
     {
       "key": "20/11_19:15_slna_viettel",
@@ -2360,7 +2320,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 20/11] The Cong Viettel vs SLNA",
-      "number": 63
+      "number": 62
     },
     {
       "key": "20/11_22:30_botosani_voluntari",
@@ -2393,7 +2353,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 20/11] Botosani vs Voluntari",
-      "number": 64
+      "number": 63
     }
   ],
   "source_groups": [
@@ -2840,8 +2800,7 @@
           "url": "https://film4k.pl/api/tv/ants/18642/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/145.png",
           "competition": "NBA",
-          "group": "F4K Sport",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
+          "group": "F4K Sport"
         },
         {
           "name": "⚽ [19:50 19/11] U17 Pháp vs U17 Haiti (TV360+ 5) - F4K Sport",
@@ -3023,149 +2982,99 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794988088-0-0-b63e0fe82097d95a55f1d8f2c7b37641",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBL",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794988088-0-0-0408ec18014caf7bb779fd0d6b91d90b",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "NBL",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Albirex Niigata Ladies Women vs AS Elfen Saitama Women (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1794988088-0-0-74630763e939b04c953de6d36a23e6ea",
-          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Albirex Niigata Ladies Women vs AS Elfen Saitama Women (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1794988088-0-0-5a5cafa16677ff371a28c525724a1c04",
-          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Mynavi Sendai Ladies Women vs NTV Tokyo Verdy Beleza Women (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1794988088-0-0-55ce962b85b53f4f4250c3c541947d9f",
-          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Albirex Niigata Ladies Women vs AS Elfen Saitama Women (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1794988088-0-0-c6919413986b8b045385127abd809d20",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Mynavi Sendai Ladies Women vs NTV Tokyo Verdy Beleza Women (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1794988088-0-0-ce4f9eceb7208874c541afb7894b661a",
-          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Mynavi Sendai Ladies Women vs NTV Tokyo Verdy Beleza Women (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1794988088-0-0-05c8ee09c9a212e22289aa8af42d5181",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Los Angeles Lakers vs Charlotte Hornets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1794988088-0-0-bbd2762c9f10380faeee81b548916161",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Albirex Niigata Ladies Women vs AS Elfen Saitama Women (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=5773d365ed134f71b5381f0a9a387a94&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Los Angeles Lakers vs Charlotte Hornets (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794988088-0-0-1c0909bcd8603909046f9dc8955ca0e5",
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1794988991-0-0-1ecf5bc0cac1a8de6c4355afd14a0b49",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
+          "competition": "NBL",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_11:00_charlottehornets_losangeleslakers"
+          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
         },
         {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794988088-0-0-d2434c5c1711003cd828798f17f901c1",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1794988988-0-0-70e261e6dbb4a7e29a991c2b771805f0",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
         },
         {
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1794988988-0-0-1c4fae70b9cbb6839404a5ad76161290",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
+        },
+        {
           "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794988088-0-0-8efb128aa2ddc2edccbc754d5011c52a",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1794988988-0-0-e6ec98421dbf2f0f736b437324e54087",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
         },
         {
-          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=5f69d9f07825b1e79387ff1181804d3b&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 18/11] New Zealand Breakers vs South East Melbourne (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1794988988-0-0-72c254eb2099099a6cc4ec153c74f15a",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBL",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_portugal_wales"
+          "match_key": "18/11_LIVE_newzealand_southeastmelbourne"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Los Angeles Lakers vs Charlotte Hornets (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1794988998-0-0-0408f9f8906d36564b384ef6d1341722",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=17f00c358bbf3098690a95823e5ebaf8&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=8b6c25d48d45ce696da147d37991a0d8&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_brazil_singapore"
         },
         {
-          "name": "⚽ [LIVE 18/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=33f9e7f5ed377f5a5094a47320c5cb37&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_japan_paraguay"
-        },
-        {
           "name": "⚽ [LIVE 18/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=fd91e071683ffa1b29bc4b704487c257&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=7e2604a161918724c49cc0232d08ba9c&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_denmark_norway"
         },
         {
-          "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=e62a39260533886255915cab9b87e99b&txTime=6afd9e88",
-          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
+          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=61847e7a5f79dd5dfe23df77cdcb2e76&txTime=6afda20c",
+          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "18/11_LIVE_kyrgyzstan_vietnam"
+          "match_key": "18/11_LIVE_portugal_wales"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=58267977c20aae7ba58ac80fbeb36c35&txTime=6afda20c",
+          "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_japan_paraguay"
         },
         {
           "name": "⚽ [LIVE 18/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=529e976c0e95c10dbfbe5dc14686fb92&txTime=6afd9e88",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=9ea07b61eb802062b8090ed9d970d78b&txTime=6afda20c",
           "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_LIVE_argentina_costarica"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=bfb7d3d3126d9136cd84f819e735c88b&txTime=6afda20c",
+          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_LIVE_kyrgyzstan_vietnam"
         }
       ]
     },
@@ -4488,12 +4397,12 @@
     {
       "home_team": "Los Angeles Lakers",
       "away_team": "Charlotte Hornets",
-      "home_score": "115",
+      "home_score": "118",
       "away_score": "114",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "2:03 - OT",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final/OT",
       "date": "2026-11-18T04:00Z"
     }
   ]
