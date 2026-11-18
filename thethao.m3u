@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽ TRỰC TIẾP BÓNG ĐÁ",🔄 CẬP NHẬT: 20:39 18/11/2026 (260 LUỒNG)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="⚽ TRỰC TIẾP BÓNG ĐÁ",🔄 CẬP NHẬT: 20:54 18/11/2026 (265 LUỒNG)
 http://127.0.0.1/refresh
 #EXTINF:-1 tvg-id="" tvg-name="⚽ [19:00 18/11] Borneo Fc Samarinda Vs Manila Digger Fc (BLV Gà Siêu Ngố) - Gà Vàng" tvg-logo="https://img.cltvap.cc/football/competition/6576e6760af08813364f0ed07fdb8fe0.png" group-title="🐔 Gà Vàng / Tiếu Lâm",⚽ [19:00 18/11] Borneo Fc Samarinda Vs Manila Digger Fc (BLV Gà Siêu Ngố) - Gà Vàng
 #EXTVLCOPT:http-referrer=https://gavangtvttbdo.tv/
@@ -425,6 +425,13 @@ https://film4k.pl/api/tv/ants/18649/index.m3u8
 #EXTVLCOPT:http-referrer=https://film4k.pl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://film4k.pl/api/tv/ants/18660/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [19:50 19/11] U17 Pháp vs U17 Haiti (TV360+ 5) - F4K Sport" tvg-logo="https://img-evg1.tv360.vn/image1/2026/11/16/09/1794796862375/8560002f47a4_1280_720.png" group-title="F4K Sport",⚽ [19:50 19/11] U17 Pháp vs U17 Haiti (TV360+ 5) - F4K Sport
+#EXTVLCOPT:http-referrer=https://film4k.pl/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=edfa094d8ac55cf98f5867128a926aa7:0e10fa6099105e2e0a7ce1e34e9c0230
+https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTAzMDk4Nn0.MXniQcXJ5YlAinTvx5AC9AnXmGRHVct8C67YYzEjXEiJzf1zTVB9AxKRE1jLAJ9ohyPNALNsxG3cPOvlWYd-yQ&screen=MHL&uid=294779473
 #EXTINF:-1 tvg-id="" tvg-name="⚽ [08:00 12/11] Phim kinh điển (TV360) - F4K Sport" tvg-logo="https://img-evg1.tv360.vn/image1/2026/11/13/17/1794566048165/1022640ca318_1280_720.png" group-title="F4K Sport",⚽ [08:00 12/11] Phim kinh điển (TV360) - F4K Sport
 #EXTVLCOPT:http-referrer=https://film4k.pl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -526,30 +533,46 @@ https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJ
 #EXTVLCOPT:http-referrer=https://film4k.pl/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://livestream-evg8.tv360.vn/JjNOLi2_-pnylwAnkIpzOQ/1795095591/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473
-#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV QUỐC KHÁNH) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV QUỐC KHÁNH) - SocoLive
-#EXTVLCOPT:http-referrer=https://socolive.pro/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795012748-0-0-0e7374b6d1d3c4f57cbb1b01c96875d3
-#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV GIÓ) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV GIÓ) - SocoLive
-#EXTVLCOPT:http-referrer=https://socolive.pro/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=761c45da6dcb5525c8c0f983f6f48f44&txTime=6afdfedc
-#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV ANH TÀI) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV ANH TÀI) - SocoLive
-#EXTVLCOPT:http-referrer=https://socolive.pro/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795012748-0-0-582d7489cd46438a960b510779be91a3
-#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV VINFAST) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV VINFAST) - SocoLive
-#EXTVLCOPT:http-referrer=https://socolive.pro/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795012748-0-0-6263d5005874a5b5ee32aede0f3f6e6c
-#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV RAMBO) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV RAMBO) - SocoLive
-#EXTVLCOPT:http-referrer=https://socolive.pro/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=7b227d09447637d8c64c04c13fc0ef41&txTime=6afdfedc
 #EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV LOGAN) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV LOGAN) - SocoLive
 #EXTVLCOPT:http-referrer=https://socolive.pro/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795012748-0-0-1bbb732b200032147b24114505482698
+https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795013648-0-0-a8e0c3f5490cf39d30a622e730a5eb4e
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795013648-0-0-a0421d0581f0de462ede1cc50a725e2b
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV ANH TÀI) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV ANH TÀI) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795013645-0-0-a5e903a36d9b285ff3ccd5309b68d6f7
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV RAMBO) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV RAMBO) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=736e56811e6044b34cd2972381f9d2a3&txTime=6afe0260
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Uralmash Ekaterinburg vs Lokomotiv Kuban (BLV CHAN SENA) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Uralmash Ekaterinburg vs Lokomotiv Kuban (BLV CHAN SENA) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795013648-0-0-ae65fb2f1687381616f39cfcd076d85f
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV GIÓ) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV GIÓ) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=1b6df776c988439496f1da04e4ecf8c8&txTime=6afe0260
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=0debf67d288a46cdabc096477f22480e&txTime=6afe0260
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV QUỐC KHÁNH) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV QUỐC KHÁNH) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795013648-0-0-5aa3929c380d9d1a944cd145f79108e4
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV RÔSI) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV RÔSI) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=230de90219dabb782daa024258f992be&txTime=6afe0260
+#EXTINF:-1 tvg-id="" tvg-name="⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV VINFAST) - SocoLive" tvg-logo="https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg" group-title="🐿️ SocoLive",⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV VINFAST) - SocoLive
+#EXTVLCOPT:http-referrer=https://socolive.pro/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795013648-0-0-da26d67f9457389383999a97912e0d2b
 #EXTINF:-1 tvg-id="" tvg-name="🏀 [05:30 18/11] Unifacisa vs Botafogo (BLV The Flash) - Xôi Gấc TV" tvg-logo="https://xoigac.top/images/basketball/teams/343.webp" group-title="⚡ Xôi Gấc TV",🏀 [05:30 18/11] Unifacisa vs Botafogo (BLV The Flash) - Xôi Gấc TV
 #EXTVLCOPT:http-referrer=https://tqm-mos.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
