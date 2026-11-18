@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-11-18 20:54:57",
+  "updated_at": "2026-11-18 21:10:27",
   "live_events": [
+    {
+      "key": "18/11_19:00_tekstilac_zeleznicarpancevo",
+      "match_key": "18/11_19:00_tekstilac_zeleznicarpancevo",
+      "c_home": "tekstilac",
+      "c_away": "zeleznicarpancevo",
+      "homeTeam": "Tekstilac",
+      "awayTeam": "Zeleznicar Pancevo",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "19:00",
+      "date": "18/11",
+      "timestamp": 1795003200000,
+      "league": "OTHER",
+      "leagueName": "Mozzart Serbian Cup",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:00 18/11] Tekstilac Vs Fk Zeleznicar Pancevo (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/7f82898811c3652f41dbb832d89c114a.png",
+          "competition": "Mozzart Serbian Cup",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "18/11_19:00_tekstilac_zeleznicarpancevo"
+        }
+      ],
+      "displayTitle": "🔴 [19:00 18/11] Tekstilac vs Zeleznicar Pancevo",
+      "number": 1
+    },
     {
       "key": "18/11_19:00_borneosamarinda_maniladigger",
       "match_key": "18/11_19:00_borneosamarinda_maniladigger",
@@ -8,43 +39,32 @@
       "c_away": "maniladigger",
       "homeTeam": "Borneo",
       "awayTeam": "Manila Digger",
-      "homeLogo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "19:00",
       "date": "18/11",
       "timestamp": 1795003200000,
-      "league": "EFL",
-      "leagueName": "EFL Championship",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [19:00 18/11] Borneo Fc Samarinda Vs Manila Digger Fc (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/6576e6760af08813364f0ed07fdb8fe0.png",
-          "competition": "Asean Club Championship Shopee Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "18/11_19:00_borneosamarinda_maniladigger"
-        },
-        {
-          "name": "⚽ [19:00 18/11] Borneo vs Manila Digger (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
-          "competition": "ASEAN Club Championship",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "18/11_19:00_borneosamarinda_maniladigger"
-        },
         {
           "name": "⚽ [19:00 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV Dương Kiên) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "18/11_19:00_borneosamarinda_maniladigger"
+        },
+        {
+          "name": "⚽ [19:00 18/11] Borneo vs Manila Digger (BLV Khô Cá) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
           "ref": "https://tqm-mos.com/",
           "match_key": "18/11_19:00_borneosamarinda_maniladigger"
         },
@@ -86,37 +106,6 @@
         }
       ],
       "displayTitle": "🔴 [19:00 18/11] Borneo vs Manila Digger",
-      "number": 1
-    },
-    {
-      "key": "18/11_19:00_tekstilac_zeleznicarpancevo",
-      "match_key": "18/11_19:00_tekstilac_zeleznicarpancevo",
-      "c_home": "tekstilac",
-      "c_away": "zeleznicarpancevo",
-      "homeTeam": "Tekstilac",
-      "awayTeam": "Zeleznicar Pancevo",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:00",
-      "date": "18/11",
-      "timestamp": 1795003200000,
-      "league": "OTHER",
-      "leagueName": "Mozzart Serbian Cup",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:00 18/11] Tekstilac Vs Fk Zeleznicar Pancevo (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/7f82898811c3652f41dbb832d89c114a.png",
-          "competition": "Mozzart Serbian Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "18/11_19:00_tekstilac_zeleznicarpancevo"
-        }
-      ],
-      "displayTitle": "🔴 [19:00 18/11] Tekstilac vs Zeleznicar Pancevo",
       "number": 2
     },
     {
@@ -816,14 +805,6 @@
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
         {
-          "name": "⚽ [19:00 18/11] Borneo Fc Samarinda Vs Manila Digger Fc (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/6576e6760af08813364f0ed07fdb8fe0.png",
-          "competition": "Asean Club Championship Shopee Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "18/11_19:00_borneosamarinda_maniladigger"
-        },
-        {
           "name": "⚽ [19:00 18/11] Tekstilac Vs Fk Zeleznicar Pancevo (BLV Gà Siêu Son) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/7f82898811c3652f41dbb832d89c114a.png",
@@ -1133,16 +1114,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [19:00 18/11] Borneo vs Manila Digger (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
-          "competition": "ASEAN Club Championship",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "18/11_19:00_borneosamarinda_maniladigger"
-        },
-        {
           "name": "⚽ [00:45 19/11] Hacken W vs Manchester City W (BLV Lương Khô) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/9859_hacken-w.jpg",
@@ -1238,6 +1209,16 @@
           "competition": "Stars League",
           "group": "🍵 Xôi Chè TV",
           "match_key": "19/11_22:30_alahli_alshamalsportsclub"
+        },
+        {
+          "name": "⚽ [23:00 19/11] Argentina U17 vs Australia U17 (BLV Tam Mao) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/8921_argentina-u17.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/8921_argentina-u17.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/8917_australia-u17.jpg",
+          "competition": "FIFA U17 World Cup",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "19/11_23:00_argentina_youth_australia_youth"
         }
       ]
     },
@@ -1544,73 +1525,95 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795013648-0-0-a8e0c3f5490cf39d30a622e730a5eb4e",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795013648-0-0-a0421d0581f0de462ede1cc50a725e2b",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "KSA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795013645-0-0-a5e903a36d9b285ff3ccd5309b68d6f7",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=736e56811e6044b34cd2972381f9d2a3&txTime=6afe0260",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Uralmash Ekaterinburg vs Lokomotiv Kuban (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795013648-0-0-ae65fb2f1687381616f39cfcd076d85f",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795014548-0-0-6902240c8bda2e28c2951bc86a4c6544",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "VTBUL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=1b6df776c988439496f1da04e4ecf8c8&txTime=6afe0260",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "ASEAN CC",
+          "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795014548-0-0-e66eb1acb2dd7401424ce648b5194ede",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "EGY Cup",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=0debf67d288a46cdabc096477f22480e&txTime=6afe0260",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795014548-0-0-ac17dddba9ed6e71bb37f8b5bcfd8697",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
           "competition": "KSA D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795013648-0-0-5aa3929c380d9d1a944cd145f79108e4",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "ASEAN CC",
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=3d15dac19f826b35dd2f066f02fe1fde&txTime=6afe05e4",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "competition": "SER Cup",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795014548-0-0-fd959b3b57d037cad9c65cd67f8d758b",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795014548-0-0-cb567da2b4f873547173c5f8229364c8",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795014548-0-0-d5cdbae9b12b10bfd6e9734c3f44fbfc",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "SER Cup",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=230de90219dabb782daa024258f992be&txTime=6afe0260",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=e61df4dbb2683fa0b84b037710bbddcc&txTime=6afe05e4",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "KSA D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Borneo FC Samarinda vs Manila Digger FC (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795013648-0-0-da26d67f9457389383999a97912e0d2b",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "ASEAN CC",
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=49e37181c756860830e0e2e4c4d276c5&txTime=6afe05e4",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [22:45 18/11] El Gouna vs Al Ittihad (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=da072cc223ce6ec7b247746f8ded4d50&txTime=6afe05e4",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "EGY Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "18/11_22:45_alittihad_elgouna"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795014548-0-0-9caa37b45fdd072d1b2c3dba7f12fdc6",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "SER Cup",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795014548-0-0-d63ed7be30bdbf5a0820e296acb6b2c1",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV Casting) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-121289_lhd.m3u8?txSecret=aa15411349950ea37064940a6aef1ae9&txTime=6afe04e3",
+          "logo": "https://sta.vnres.co/file/common/20260929/5463f772cacdf8391f405da36582d2e0.jpg",
+          "competition": "KSA D1",
           "group": "🐿️ SocoLive"
         }
       ]
@@ -1928,7 +1931,7 @@
           "logo": "https://s8tvkc.top/wp-json/s8-image/73a89033-18da-455c-a720-4efbe9fded0f",
           "competition": "",
           "group": "⚡ S8 TV",
-          "match_key": "18/11_22:00_alittihad_elgounah"
+          "match_key": "18/11_22:45_alittihad_elgouna"
         },
         {
           "name": "⚽ [22:30 18/11] Al Buqaa vs Jerash Club (BLV NGƯỜI CAT) [hls] - S8 TV",
