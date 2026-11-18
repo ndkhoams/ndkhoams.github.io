@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-18 22:11:24",
+  "updated_at": "2026-11-18 22:26:33",
   "live_events": [
-    {
-      "key": "18/11_20:00_bengaluruutd_sreenidideccan",
-      "match_key": "18/11_20:00_bengaluruutd_sreenidideccan",
-      "c_home": "bengaluruutd",
-      "c_away": "sreenidideccan",
-      "homeTeam": "Bengaluru Utd",
-      "awayTeam": "Sreenidi Deccan",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "20:00",
-      "date": "18/11",
-      "timestamp": 1795006800000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [20:00 18/11] Bengaluru Utd vs Sreenidi Deccan (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/5e2678b3b9344192a092ebd982f38065/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "18/11_20:00_bengaluruutd_sreenidideccan"
-        }
-      ],
-      "displayTitle": "🔴 [20:00 18/11] Bengaluru Utd vs Sreenidi Deccan",
-      "number": 1
-    },
     {
       "key": "18/11_20:30_fenerbahcewomon_thywomon",
       "match_key": "18/11_20:30_fenerbahcewomon_thywomon",
@@ -61,7 +30,7 @@
         }
       ],
       "displayTitle": "🔴 [20:30 18/11] Fenerbahce Womon vs Thy Womon",
-      "number": 2
+      "number": 1
     },
     {
       "key": "18/11_21:30_aladalah_alorobah",
@@ -101,7 +70,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 18/11] Al-adalah vs Al-orobah",
-      "number": 3
+      "number": 2
     },
     {
       "key": "18/11_22:00_dubocica_radnickinis",
@@ -141,7 +110,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 18/11] Dubocica vs Radnicki Nis",
-      "number": 4
+      "number": 3
     },
     {
       "key": "18/11_22:00_albaqaa_jerashclub",
@@ -172,7 +141,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 18/11] Al Baqaa vs Jerash Club",
-      "number": 5
+      "number": 4
     },
     {
       "key": "18/11_22:00_elgounah_ittihadalexandria",
@@ -212,6 +181,37 @@
         }
       ],
       "displayTitle": "🔴 [22:00 18/11] El Gounah vs Ittihad Alexandria",
+      "number": 5
+    },
+    {
+      "key": "18/11_22:30_albuqaa_jerashclub",
+      "match_key": "18/11_22:30_albuqaa_jerashclub",
+      "c_home": "albuqaa",
+      "c_away": "jerashclub",
+      "homeTeam": "Al Buqaa",
+      "awayTeam": "Jerash Club",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "22:30",
+      "date": "18/11",
+      "timestamp": 1795015800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:30 18/11] Al Buqaa vs Jerash Club (BLV NGƯỜI CAT) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/buqa-jerash-jorcup/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/04bb1f5f-d310-4bef-9885-c3ec6509533b",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "18/11_22:30_albuqaa_jerashclub"
+        }
+      ],
+      "displayTitle": "🔴 [22:30 18/11] Al Buqaa vs Jerash Club",
       "number": 6
     },
     {
@@ -234,7 +234,7 @@
       "sources": [
         {
           "name": "⚽ [22:45 18/11] El Gouna vs Al Ittihad (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=79cf127406f49f2a0da2e7afa4fe7d2e&txTime=6afe1430",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=e4f629aba48a4d2198fb753a54ba517f&txTime=6afe17b4",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive",
@@ -379,6 +379,37 @@
       "number": 11
     },
     {
+      "key": "19/11_07:00_akron_umass",
+      "match_key": "19/11_07:00_akron_umass",
+      "c_home": "umass",
+      "c_away": "akron",
+      "homeTeam": "Umass",
+      "awayTeam": "Akron",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "19/11",
+      "timestamp": 1795046400000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:00 19/11] UMass vs Akron (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18785/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/181.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_07:00_akron_umass"
+        }
+      ],
+      "displayTitle": "🏈 [07:00 19/11] Umass vs Akron",
+      "number": 12
+    },
+    {
       "key": "19/11_07:30_brooklynnets_chicagobulls",
       "match_key": "19/11_07:30_brooklynnets_chicagobulls",
       "c_home": "brooklynnets",
@@ -407,7 +438,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 19/11] Brooklyn Nets vs Chicago Bulls",
-      "number": 12
+      "number": 13
     },
     {
       "key": "19/11_07:30_torontoraptors_washingtonwizards",
@@ -438,7 +469,38 @@
         }
       ],
       "displayTitle": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards",
-      "number": 13
+      "number": 14
+    },
+    {
+      "key": "19/11_07:30_buffalostate_centralmichigan",
+      "match_key": "19/11_07:30_buffalostate_centralmichigan",
+      "c_home": "buffalostate",
+      "c_away": "centralmichigan",
+      "homeTeam": "Buffalo State",
+      "awayTeam": "Central Michigan",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "19/11",
+      "timestamp": 1795048200000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:30 19/11] Buffalo State vs Central Michigan (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18786/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/141.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_07:30_buffalostate_centralmichigan"
+        }
+      ],
+      "displayTitle": "🏈 [07:30 19/11] Buffalo State vs Central Michigan",
+      "number": 15
     },
     {
       "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
@@ -469,7 +531,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
-      "number": 14
+      "number": 16
     },
     {
       "key": "19/11_08:00_detroitpistons_neworleanspelicans",
@@ -500,7 +562,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons",
-      "number": 15
+      "number": 17
     },
     {
       "key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
@@ -531,7 +593,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors",
-      "number": 16
+      "number": 18
     },
     {
       "key": "19/11_09:30_bostonceltics_denvernuggets",
@@ -562,7 +624,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 19/11] Denver Nuggets vs Boston Celtics",
-      "number": 17
+      "number": 19
     },
     {
       "key": "19/11_10:00_losangeleslakers_utahjazz",
@@ -593,7 +655,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Los Angeles Lakers vs Utah Jazz",
-      "number": 18
+      "number": 20
     },
     {
       "key": "19/11_10:00_phoenixsuns_sacramentokings",
@@ -624,7 +686,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Sacramento Kings vs Phoenix Suns",
-      "number": 19
+      "number": 21
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -655,7 +717,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 20
+      "number": 22
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -686,7 +748,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 21
+      "number": 23
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -717,7 +779,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 22
+      "number": 24
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -748,7 +810,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 23
+      "number": 25
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -779,7 +841,40 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 24
+      "number": 26
+    },
+    {
+      "key": "21/11_19:30_fulham_mancity",
+      "match_key": "21/11_19:30_fulham_mancity",
+      "c_home": "mancity",
+      "c_away": "fulham",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "homeLogo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+      "time": "19:30",
+      "date": "21/11",
+      "timestamp": 1795264200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Khô Cóc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+          "logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        }
+      ],
+      "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
+      "number": 27
     }
   ],
   "source_groups": [
@@ -1192,6 +1287,14 @@
       "name": "F4K Sport",
       "channels": [
         {
+          "name": "🏈 [07:00 19/11] UMass vs Akron (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18785/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/181.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "match_key": "19/11_07:00_akron_umass"
+        },
+        {
           "name": "🏀 [07:00 19/11] Cleveland Cavaliers vs Memphis Grizzlies (us NBA) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18615/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/137.png",
@@ -1222,6 +1325,14 @@
           "competition": "NBA",
           "group": "F4K Sport",
           "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
+        },
+        {
+          "name": "🏈 [07:30 19/11] Buffalo State vs Central Michigan (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18786/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/141.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "match_key": "19/11_07:30_buffalostate_centralmichigan"
         },
         {
           "name": "🏀 [07:30 19/11] Brooklyn Nets vs Chicago Bulls (us NBA) - F4K Sport",
@@ -1491,136 +1602,136 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795018208-0-0-3771a0687647bd349f4cd5f9dfe9979f",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "KSA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795018208-0-0-3df79baf1d72d364a4284a1367f26593",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "KSA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=cd22aa29d55cf5997c0805de276db0f9&txTime=6afe1430",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "KSA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=c3200a5cce114f8a3904de4b4708714f&txTime=6afe1430",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "EGY Cup",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795018208-0-0-fe32432c55bc0841f0f89b89e8e2226a",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "KSA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795018208-0-0-c01702750a7e5c0d41cda085248a4ffe",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795019108-0-0-a659eb6e49e1af93cda6b9eeac41cb9f",
           "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "SER Cup",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795019108-0-0-56bcdfb7efca55d5abd49dfea6e011ef",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "EGY Cup",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=412670f7491ca1fb9c903b7f1a3ad928&txTime=6afe17b4",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795019108-0-0-c8387853398c51d294b77e31bc770496",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795019108-0-0-64935a45b2a23ff0849ddbcde67dfbff",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=f448233cbfa9dcb0c49faa23d34d7d4e&txTime=6afe1430",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=eb77961469a4377a7dd8ea3a46517bad&txTime=6afe17b4",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "KSA D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795018208-0-0-0c645c3dd56e28ddbe447b5ff86aa1f7",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795019108-0-0-06eadf274245f54a7c8dbc5d7b0e8bd4",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795018208-0-0-1d216c3471343a2b72b400a4f37f260d",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "EGY Cup",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795018208-0-0-208e177294d4d42c28fa046c587083e5",
-          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795019108-0-0-60fe93ff1e80a2b8a23ed5cbb4e09b17",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
           "competition": "KSA D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795018208-0-0-b6a7750518816c32605c217d6271761c",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "SER Cup",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7695e22b1a60c581e979a803581a2033&txTime=6afe1430",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "SER Cup",
+          "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=938276012517938f0045697d18700b96&txTime=6afe17b4",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "EGY Cup",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=7c1d8814adf5f42f489ed8c8cef10a42&txTime=6afe1430",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=640a595bd629218a41a36c9dc5fcdbe0&txTime=6afe17b4",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795019108-0-0-a987a7ae8f5108d802ba6bd9a96c4024",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "SER Cup",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Al-Adalah vs Al-Orobah FC (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795019108-0-0-aa932a925d6d589aecf334f15be51bb9",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "KSA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [22:45 18/11] El Gouna vs Al Ittihad (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=79cf127406f49f2a0da2e7afa4fe7d2e&txTime=6afe1430",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=e4f629aba48a4d2198fb753a54ba517f&txTime=6afe17b4",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive",
           "match_key": "18/11_22:45_alittihad_elgouna"
         },
         {
-          "name": "⚽ [LIVE 18/11] Uralmash Ekaterinburg vs Lokomotiv Kuban (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795018208-0-0-a0afae5b3ae5d622e05dad4d938e52a4",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "VTBUL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795018208-0-0-78507bc5fe5f6d09b1f9cea8c3586063",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795019108-0-0-2b776ac4f1375fae0e7f29a0d3a4aa79",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "SER Cup",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=9111b7c371b9e470d3bcd5282f36291d&txTime=6afe1430",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=a697a6a0cb7cfe207eb7cf4ac0372f83&txTime=6afe17b4",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "SER Cup",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795019108-0-0-6c91a837056613e98db41b69a1298d3d",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "SER Cup",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Uralmash Ekaterinburg vs Lokomotiv Kuban (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795019108-0-0-728d1ca991855718013ff1b7b4c17af2",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "VTBUL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] El Gouna vs Al Ittihad (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795018208-0-0-3a538921c8e040b25cfb0ab365dad1fe",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795019108-0-0-15578584937dbf5157c7bb2072cc5201",
           "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795018208-0-0-67557e4a78e7c7f9d1a43d9599c7f395",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "name": "⚽ [LIVE 18/11] FK Dubocica vs Radnicki Nis (BLV RYO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=f3ae61b1148ee547a41eae8a97e0a821&txTime=6afe17b4",
+          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "SER Cup",
           "group": "🐿️ SocoLive"
         }
@@ -2445,8 +2556,7 @@
           "url": "https://pull.digitalcdn.net/live/5e2678b3b9344192a092ebd982f38065/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/pxwrxlh9yzgryk0/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "18/11_20:00_bengaluruutd_sreenidideccan"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "🏐 [20:30 18/11] Fenerbahce Womon vs THY Womon (BLV LÝ LIỀU LĨNH) [geo] - Phá Làng TV",
