@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 17:53:13",
+  "updated_at": "2026-11-18 18:08:17",
   "live_events": [
     {
       "key": "18/11_17:00_lgsakers_seoulsamsungthunders",
@@ -1092,14 +1092,14 @@
           "match_key": "19/11_05:30_coritibasafpr_santossp"
         },
         {
-          "name": "⚽ [19:00 19/11] Svay Rieng vs Port MTI FC (BLV Xôi Gấc) - Xôi Chè",
+          "name": "⚽ [07:30 19/11] Corinthians vs Botafogo RJ (BLV Xôi Gấc) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/443_svay-rieng.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/443_svay-rieng.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/413_port.jpg",
-          "competition": "ASEAN Club Championship",
+          "logo": "https://apiv3.apifootball.com/badges/2017_corinthians.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/2017_corinthians.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/1875_botafogo.jpg",
+          "competition": "Serie A",
           "group": "🍵 Xôi Chè TV",
-          "match_key": "19/11_19:00_port_preahkhanreachsvayrieng"
+          "match_key": "19/11_07:30_botafogorj_corinthianssp"
         },
         {
           "name": "⚽ [20:00 19/11] France U17 vs Haiti U17 (BLV Lương Khô) - Xôi Chè",
@@ -1426,198 +1426,219 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795002728-0-0-27a0a9e37ff06d439318322bdc3bce03",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795002728-0-0-e30a9e818cbc2d8bc4995f9ea93f105e",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795002728-0-0-f19fb3af59bc71cf10d35d7b931f5f78",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795003628-0-0-eba44e39c8659352fc5419ef6d13b68a",
           "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
           "competition": "ASEAN CC",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795003628-0-0-fda32de31d07c02e287277e046dc5d28",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795003628-0-0-c21f72e5e6565cf00395436edb791661",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "JPN WE",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=59a5219bc30e63e099c0f94ef7826356&txTime=6afddb3c",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=9b80555509e17b6417498851d477c7ec&txTime=6afddb3c",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795003628-0-0-a5436700c44589af3ecda2f0800af96b",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795003628-0-0-5d2dd6bf61a48eaf2510adb74e1f0458",
+          "logo": "https://sta.vnres.co/file/common/20261118/0c46b71dafe69ed7c06302f1a4baf469.png",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795002728-0-0-0ff3220358f89eadd5f0329d7acc1d5a",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795003628-0-0-53b59ce97d0711fb38b92400a85060c1",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1795003628-0-0-f1630308dfadcac1cfd5b1b06d3a2291",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795002728-0-0-9e0c427f641bc18ec1930158cadbba14",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795003628-0-0-05dba1ee5db7b967b5c4c8db6003b364",
           "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
           "competition": "ASEAN CC",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795002728-0-0-1041014003b44c7950929500d6260bf8",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795003628-0-0-37c192d170c7fe799b493851ba647ac9",
           "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795002728-0-0-7ece1557515ad0c88ff1d49d720163b5",
-          "logo": "https://sta.vnres.co/file/common/20261118/0c46b71dafe69ed7c06302f1a4baf469.png",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Sanfrecce Hiroshima Regina vs Nojima Stella Women's (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795002728-0-0-7ffa00b1ab83071007fe31db1891ee27",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795002728-0-0-deae6949d8c96b497fa42b1fd4e06ef0",
-          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
-          "competition": "KOR WD1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795002728-0-0-b9458d69bb611cd035bc5a21f7fc0003",
-          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
-          "competition": "JPN WE",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1795002728-0-0-354cdffa1c3fe8162e3c78f8ae6baa47",
-          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
-          "competition": "ASEAN CC",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 18/11] Cong An Ho Chi Minh City vs Buriram United (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795002728-0-0-cb2cc0dff0b62827964fe07fd7a64d10",
-          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795003628-0-0-8c3ec30711d274bda48873b3c5205184",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "ASEAN CC",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795002728-0-0-cee8a2dac43806b6ab56463818efd78a",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795003628-0-0-b47bc911581b0f9d3f4b5c9b2070b50d",
           "logo": "https://sta.vnres.co/file/common/20261001/a63d3fbef5118a362136852e80f77992.png",
           "competition": "KOR WD1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Sanfrecce Hiroshima Regina vs Nojima Stella Women's (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795002728-0-0-f056499283bd81a091579c91b97b1083",
+          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795003628-0-0-499929924daebde23f8c73780f57d66f",
           "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795002728-0-0-2a259d7fbff91acd86da63ad4ca3c7db",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795003628-0-0-5b517ee269995fc18a17cb765602c283",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "ASEAN CC",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] Tampines Rovers FC vs Ratchaburi FC (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795003628-0-0-ed6c616542eaf840598db9dcb909da5a",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "ASEAN CC",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Seoul Thunders vs LG Sakers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795002728-0-0-91620aee80bf29d285c44c0b9442a0c4",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795003628-0-0-e75d97728c69665dc0d8ebafb81dee6d",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "KBL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Seoul Thunders vs LG Sakers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795002728-0-0-87c5309979240ce770c2635255ffe685",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "KBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] Sanfrecce Hiroshima Regina vs Nojima Stella Women's (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=b7b996614635259d40ccd6689ce77612&txTime=6afdd7b8",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=9ad64c508629cf7e398890c3ff665e6e&txTime=6afddb3c",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Cerezo Osaka Sakai vs Urawa Red Diamonds Ladies Women (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795002728-0-0-d3644fccd5f249bc36ce7806a313923f",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795003628-0-0-19587fa3b3b2d8a7cbcceb6ecf35285d",
           "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] Seoul Thunders vs LG Sakers (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795003628-0-0-dced4c35fd2d09a997d6a2dec4a8f509",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "KBL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV TRÀ ĐÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795003628-0-0-7f0f36df4b5862b2a670c914269f2dee",
+          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
+          "competition": "KOR WD1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] Sanfrecce Hiroshima Regina vs Nojima Stella Women's (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=79af828d2a737d08fa966750b21e42e3&txTime=6afdd7b8",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=b1bd84a642df521c619af62c32aa4c1d&txTime=6afddb3c",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795002728-0-0-2fa7cc66144bf8380593568aeb73cc7e",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "KOR WD1",
+          "name": "⚽ [LIVE 18/11] Sanfrecce Hiroshima Regina vs Nojima Stella Women's (BLV BẢY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795003628-0-0-d6626d459f9bbd3644383a5a724dd331",
+          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "competition": "JPN WE",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795002728-0-0-e9f03c71bd9be94ed23ec5a09b999ec7",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795003628-0-0-424c0eb47b25d5e71ea03a7c32f7f099",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "KOR WD1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 18/11] Suwon FC Women vs Gyeongju FC (w) (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795003628-0-0-c903d2b5bac5f9be41a7a1b84ad69b7f",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "KOR WD1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 18/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=1657e973b22b77beff96d8c7fbd3017f&txTime=6afdd7b8",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=dc1a8558b6e8a0600607ef48641022b5&txTime=6afddb3c",
           "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=5f9e444532e20cf8a8a749b7d3c915a8&txTime=6afdd7b8",
-          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 18/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=69fad64be898adc5250a4e8b2047f74c&txTime=6afdd7b8",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6e1966734abacf0a1dadc0e5f0d9325e&txTime=6afddb3c",
           "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 18/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=cb0f6da53472de0628741778e24ca8e2&txTime=6afdd7b8",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=4f2abb898d2c1e35afdd6b3c31e05c3c&txTime=6afddb3c",
           "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=65733ced87c9c07c6a3bde226d671b67&txTime=6afdd7b8",
-          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
+          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=6c378f066f501c40df4b8c1464b387d9&txTime=6afddb3c",
+          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 18/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=ee9d197e928035ecd9159201b53a6b46&txTime=6afdd7b8",
-          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
+          "name": "⚽ [LIVE 18/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=0971c6a655c89a92c8f806b706fed9e7&txTime=6afddb3c",
+          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 18/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=d0b0ebeb926c9cbc6966e15719114122&txTime=6afddb3c",
+          "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         }
