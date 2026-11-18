@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 05:34:12",
+  "updated_at": "2026-11-19 05:48:29",
   "live_events": [
     {
       "key": "19/11_05:30_coritibasafpr_santossp",
@@ -98,6 +98,46 @@
       "number": 1
     },
     {
+      "key": "19/11_06:00_chapecoense_remopa",
+      "match_key": "19/11_06:00_chapecoense_remopa",
+      "c_home": "remopa",
+      "c_away": "chapecoense",
+      "homeTeam": "Remo _ Pa",
+      "awayTeam": "Chapecoense _ Sc 33 Tv",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "06:00",
+      "date": "19/11",
+      "timestamp": 1795042800000,
+      "league": "BRAZIL_SERIE_A",
+      "leagueName": "VĐQG Brazil (Série A)",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [06:00 19/11] Remo Pa Vs Chapecoense Sc (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
+          "competition": "Brazilian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "19/11_06:00_chapecoense_remopa"
+        },
+        {
+          "name": "⚽ [06:00 19/11] Remo _ PA vs Chapecoense _ SC (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/306290.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/8d4ae02740684681d297792508ed0e70.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_06:00_chapecoense_remopa"
+        }
+      ],
+      "displayTitle": "🔴 [06:00 19/11] Remo _ Pa vs Chapecoense _ Sc 33 Tv",
+      "number": 2
+    },
+    {
       "key": "19/11_07:00_orlandomagic_philadelphia76ers",
       "match_key": "19/11_07:00_orlandomagic_philadelphia76ers",
       "c_home": "orlandomagic",
@@ -135,7 +175,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers",
-      "number": 2
+      "number": 3
     },
     {
       "key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies",
@@ -175,7 +215,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 19/11] Cleveland Cavaliers vs Memphis Grizzlies",
-      "number": 3
+      "number": 4
     },
     {
       "key": "19/11_07:30_torontoraptors_washingtonwizards",
@@ -215,7 +255,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards",
-      "number": 4
+      "number": 5
     },
     {
       "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
@@ -255,7 +295,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
-      "number": 5
+      "number": 6
     },
     {
       "key": "19/11_09:30_denvernuggets_doibongrobostonceltics",
@@ -295,37 +335,6 @@
         }
       ],
       "displayTitle": "🏀 [09:30 19/11] Denver Nuggets vs Doi Bong Ro Boston Celtics",
-      "number": 6
-    },
-    {
-      "key": "19/11_LIVE_denmark_norway",
-      "match_key": "19/11_LIVE_denmark_norway",
-      "c_home": "denmark",
-      "c_away": "norway",
-      "homeTeam": "Denmark",
-      "awayTeam": "Norway",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "19/11",
-      "timestamp": 1795064400000,
-      "league": "NATIONS_LEAGUE",
-      "leagueName": "UEFA Nations League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 19/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=e6685fca9bdc52e13c29f0dfbcf7cee4&txTime=6afe7c04",
-          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_LIVE_denmark_norway"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 19/11] Denmark vs Norway",
       "number": 7
     },
     {
@@ -348,7 +357,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 19/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=a99d9ebf4b094e682e2e0fafc1f320a9&txTime=6afe7c04",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=0f1851b9e5619e7420e7c400eef3e69a&txTime=6afe7f4c",
           "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -358,6 +367,37 @@
       ],
       "displayTitle": "⚽ [LIVE 19/11] Wales vs Portugal",
       "number": 8
+    },
+    {
+      "key": "19/11_LIVE_denmark_norway",
+      "match_key": "19/11_LIVE_denmark_norway",
+      "c_home": "denmark",
+      "c_away": "norway",
+      "homeTeam": "Denmark",
+      "awayTeam": "Norway",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "19/11",
+      "timestamp": 1795064400000,
+      "league": "NATIONS_LEAGUE",
+      "leagueName": "UEFA Nations League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 19/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b0bac2c039c6d4e33c83585377a15b6e&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_LIVE_denmark_norway"
+        }
+      ],
+      "displayTitle": "⚽ [LIVE 19/11] Denmark vs Norway",
+      "number": 9
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -388,7 +428,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 9
+      "number": 10
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -419,7 +459,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 10
+      "number": 11
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -450,7 +490,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 11
+      "number": 12
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -481,7 +521,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 12
+      "number": 13
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -512,7 +552,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 13
+      "number": 14
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -545,7 +585,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 14
+      "number": 15
     }
   ],
   "source_groups": [
@@ -1233,135 +1273,328 @@
       ]
     },
     {
+      "name": "F4K Sport",
+      "channels": [
+        {
+          "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/198198/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5ODE5OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTA0ODk4Nn0.dOyhGSthUK98usRqsnSHohJBm5ZCLOAaqf9Xv_I9sxiJq3_R5RhUz4EPnq_sGC9s5pi9XPPHLdDXHPx-SOe-rQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "47404f622db3536c867b2545581aadb4",
+            "key": "9fbdc12cfe74564fd4329baa6a6d1968"
+          }
+        },
+        {
+          "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/199199/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5OTE5OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg2fQ.5wQmxM0RfpnEqCz3Kv6ppyKXBQfXolLUdAdliENCXcIDyjlvOzEKQQpjF_60mYwutJI9nhKBX_0qBCRYEw_anQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266826697/9647033848f3_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "2c24f672f7715433a83953e74ae564b1",
+            "key": "10a63f9f2ccd81dfc4a05263c2fd1575"
+          }
+        },
+        {
+          "name": "📺 TV360+ 3 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg2fQ.Jm6yS0YokO91TsIhOHU5mV8zU71e6Oow8XvDRA6ozKzG1-m9sAhUj3PY6glHoyIvQ8Fs6-LOjWkeNv-EGhpDOw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266894249/af82cd28fcda_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "8405a15e96b35497bde131a29e7fb67e",
+            "key": "adb30d908915cf14760880240961a5ed"
+          }
+        },
+        {
+          "name": "📺 TV360+ 4 (Trực tiếp) - TV360",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUwNDg5ODYsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.snnyt7Oq555XO6epNp798_w7ttBzLRWKJk5DZlZn99w&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266956801/9a85754a5bd9_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "70d033252d025d719ba70a37acc0f5c8",
+            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+          }
+        },
+        {
+          "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTA0OTAxOX0.8yKSGCszp683G99gVMt1dUEQOoUiAi-s_effvCb_8O8l9kVM404lsNwSydBab6wXSGTskuIN5uqmpieJQNJ7jA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
+          }
+        },
+        {
+          "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUwNDg5ODYsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.KSN8wn_cXwElEqmmTWYfn6NqvhqOzAt-voHp3zwlKz8&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
+            "key": "b1e8e45770999a9207e2dbd69c71e653"
+          }
+        },
+        {
+          "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTA0ODk4Nn0.5V2_GBdDeAx7PulPKf_CvHu-RW4P4o4_-YXPzi_ZGXisZFyJIB4PDp-uv-isWDPm05DysDeV8gjt5OisSBr2ew&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "10244b0b86e45b5fa4d8089b24b5f566",
+            "key": "b7bf64fad4622ec88e429409c2c9997d"
+          }
+        },
+        {
+          "name": "📺 TV360+ 8 (Trực tiếp) - TV360",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUwNDg5ODYsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.S81vKs_wv5f520YeArBGaSextX9EzyOac_LD0QkB9XA&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267211780/516c4028c806_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "61ad3fc7fc925b7db48270e2b0165669",
+            "key": "c397368031e9c215d86412fa0a14a565"
+          }
+        },
+        {
+          "name": "📺 TV360+ 9 (Trực tiếp) - TV360",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUwNDg5ODYsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0.N53infKc1fxxKvOUE_Ig0qxntrVmypgOBQQnbr68ffQ&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267283364/c30a206da84a_480_270.png",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null
+        },
+        {
+          "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTA0ODk4Nn0.jSl4HuuWWRbCl7LjDlBheKM0h3u6EHvYouRQGy6lAuiecsEoh3JPpTHk_x3POJ5JsScae-LeGBsDliCaVur7HA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267388401/5f459b37721d_480_270.png",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null
+        },
+        {
+          "name": "📺 TV360+ 11 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTA0ODk4OX0.tIf8cN4y7p7iSImH_qmneGrW5plCAd7UF2jLcZb5-dd4DVRGZbUMeDV3JubgouI1fOQQVnIEKDRBjpPQFyMAWQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267558745/5fc303f5ba08_480_270.png",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null
+        },
+        {
+          "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/465465/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ2NTQ2NS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg5fQ.q-gxEVDK_tTJMsQTAsVOpN_6zKacOmZ6YNjGA2-nnnbfInnEJbYGoidvK3DfRT4cp0KX7ZOhTsHhGLrJ2g7YSQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "5a5dd595f9ae5299b5003e0d4e3e98f5",
+            "key": "d9023b3b15ecbcc8115a49f576ed0799"
+          }
+        },
+        {
+          "name": "📺 TV360+ 13 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg5fQ.tuxNK27qCqME4e6u2aI0g-i04n6zGX-KOZL7sqvf0pk1h-vnNr_x8C5-uSd9xD0YoRyWow1cJX0YgJwY0ybbuA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "41ce0eac12eb58f69607df0d2eaff649",
+            "key": "68c1d283bdd53500336f0db4900e2170"
+          }
+        },
+        {
+          "name": "📺 TV360+ 14 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg5fQ.TbmUXGsLMh7qU6gGO9DREydP50uTOIqRBLIH0TaYS2f3t6eKF0Ol-J8uzYeowPP6b7CIYWU8Ej5ef1Z_hJN8ZA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "807890b3dba7517b90e568e8be4ddaa4",
+            "key": "bb89427403116b132f9fbb34cd616347"
+          }
+        },
+        {
+          "name": "📺 TV360+ 15 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQvIiwiZXhwIjoxNzk1MDQ4OTg5fQ.cKv8hd24nXNfBubwndj2ubh0YRGhil84-HISwNHQwQUGqc0jXBoIhYbq_cbH6CgwSfhnu2qgIYcb8MsbVvndxA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "fa4033841a70511c84a7fe7e0daf1a6a",
+            "key": "237d5bce065aa40fc4c8839cd8827cd2"
+          }
+        },
+        {
+          "name": "📺 TV360 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTA0ODk4OX0.MDkCl2SkyYyPGO6QFTi-w_nrGMjxjygG8-uSbepmAIzmtPM7hbgkxG8uB-t_YWA_AsDI_KOSRwO_3ulKaY_jAQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null
+        },
+        {
+          "name": "📺 Livestream 01 (Trực tiếp) - TV360",
+          "url": "https://livestream-evg8.tv360.vn/xEF5ZT9K9sZPwTg30eVtYg/1795113789/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
+          "group": "F4K Sport",
+          "dash": false,
+          "clearKey": null
+        }
+      ]
+    },
+    {
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795044788-0-0-a13b522bd967995369250b8c554b9af6",
-          "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
+          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795045628-0-0-a361bfb3d3c4a601e447102d0dacd97e",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_pr_santossp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Al-Ahli Doha vs Al-Shamal SC (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795044788-0-0-b9d38db3bc9641942d32ee005d8e3e99",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_22:30_alahli_alshamalsportsclub"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795044788-0-0-16f403af068f2a00691fcd75609700ad",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795044788-0-0-c71d57e73b749a1dd47a7d13a61dc736",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795044788-0-0-2a5283fca89997d00c2a59a3227a6026",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=19188573cda364c2bdeb3c93068ddc92&txTime=6afe7c04",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=299456d6507b71b816a84982c0b601d4&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_chapecoense_pa"
         },
         {
-          "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795044788-0-0-b691de411ba44e46c654c60daee69ee1",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795045628-0-0-45f450a52284d2573c06c206d8af9758",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_mg_palmeirassp"
+          "match_key": "19/11_LIVE_chapecoense_pa"
         },
         {
           "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795044788-0-0-38e3438477ca1eaa6cac690850633499",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795045628-0-0-6454c17c90917758beeccd424aea5a9b",
           "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_chapecoense_pa"
         },
         {
-          "name": "⚽ [LIVE 19/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795044788-0-0-6c007524581ecbcf85719ac2d0e77a78",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
-          "competition": "SER Cup",
+          "name": "⚽ [LIVE 19/11] Al-Ahli Doha vs Al-Shamal SC (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795045628-0-0-4eebbf08d925acfe56f4644e73402a67",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "QAT D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_dubocica_radnickinis"
+          "match_key": "19/11_22:30_alahli_alshamalsportsclub"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795045628-0-0-cdbdd35eca41e5fdaf6ba649df652f22",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_pr_santossp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795045628-0-0-e3570393060713aac4e60ec59bfa0fcc",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_mg_palmeirassp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795045628-0-0-b0f4025e0d4a3df68c82e8f614d801c9",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_pr_santossp"
         },
         {
           "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795044788-0-0-c9313041d3577cde4d67f23b0c2befb2",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795045628-0-0-e5edd0c65c5520b6540f3b184a53472d",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_pr_santossp"
         },
         {
-          "name": "⚽ [LIVE 19/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=6f53dd79efca9f57bffd8a08610c5671&txTime=6afe7c04",
-          "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
+          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV BÒ TƯƠI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795045628-0-0-40d376d3dc71dc0a8dcf09e232b91ec3",
+          "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_pr_santossp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=2d655ca2b0721ce24306c8ef5a1e255a&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_chapecoense_pa"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795045628-0-0-675efa04e59fc35391a8c47935243237",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_pr_santossp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=0f1851b9e5619e7420e7c400eef3e69a&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_brazil_singapore"
+          "match_key": "19/11_LIVE_portugal_wales"
         },
         {
           "name": "⚽ [LIVE 19/11] INTERF - Argentina vs Costa Rica (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=169df49aeb6ebcddf31c0b7ad6632f9b&txTime=6afe7c04",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=ac267f603e38b634d9e74d174f8e492c&txTime=6afe7f4c",
           "logo": "https://sta.vnres.co/file/common/20261118/93d6c75e5196e4c8b7fb21a649d8d69b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_argentina_costarica"
         },
         {
-          "name": "⚽ [LIVE 19/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=e6685fca9bdc52e13c29f0dfbcf7cee4&txTime=6afe7c04",
-          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_denmark_norway"
-        },
-        {
           "name": "⚽ [LIVE 19/11] INTERF - Kyrgyzstan vs Vietnam (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=112b5dd0bfbc18c116f4645c5c4b56c8&txTime=6afe7c04",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=ca66e71f1f3991c12adf9b963a58f9f9&txTime=6afe7f4c",
           "logo": "https://sta.vnres.co/file/common/20261117/2e6c9ac5751a8d6a9c66e858d269fef0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_kyrgyzstan_vietnam"
         },
         {
+          "name": "⚽ [LIVE 19/11] UEFA NL - Denmark vs Norway (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b0bac2c039c6d4e33c83585377a15b6e&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20261118/d084484429e2e0f7426fe088e14ae821.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_denmark_norway"
+        },
+        {
           "name": "⚽ [LIVE 19/11] INTERF - Japan vs Paraguay (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=81ef039a75c7d0be25077581d4d1fee2&txTime=6afe7c04",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=ef0071039f8087aa8f3ba243dc07c6e1&txTime=6afe7f4c",
           "logo": "https://sta.vnres.co/file/common/20261118/ff19086f320e82dd3985da2bb9260ddf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_japan_paraguay"
         },
         {
-          "name": "⚽ [LIVE 19/11] UEFA NL - Wales vs Portugal (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=a99d9ebf4b094e682e2e0fafc1f320a9&txTime=6afe7c04",
-          "logo": "https://sta.vnres.co/file/common/20261118/5d3c1e505716ef9599981724f1ab1e8b.png",
+          "name": "⚽ [LIVE 19/11] INTERF - Singapore vs Brazil (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=f93b7ba294b6c262f5c3bb7f0ad0c8a3&txTime=6afe7f4c",
+          "logo": "https://sta.vnres.co/file/common/20261118/3e13c018ec892c89f4237f5ba1e2c276.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_portugal_wales"
+          "match_key": "19/11_LIVE_brazil_singapore"
         }
       ]
     },
