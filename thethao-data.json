@@ -1,55 +1,6 @@
 {
-  "updated_at": "2026-11-19 02:45:55",
+  "updated_at": "2026-11-19 03:01:05",
   "live_events": [
-    {
-      "key": "19/11_00:30_radnicki1923kragujevac33tv_zemun",
-      "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun",
-      "c_home": "zemun",
-      "c_away": "radnicki1923kragujevac33tv",
-      "homeTeam": "Zemun",
-      "awayTeam": "Radnicki 1923 Kragujevac",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "00:30",
-      "date": "19/11",
-      "timestamp": 1795023000000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac (BLV Gà Siêu Tồ) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/796315.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
-        },
-        {
-          "name": "⚽ [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac (BLV WARRIOR) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/97885009.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
-        },
-        {
-          "name": "⚽ [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac (BLV WARRIOR) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/97885009_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
-        }
-      ],
-      "displayTitle": "🔴 [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac",
-      "number": 1
-    },
     {
       "key": "19/11_01:00_sabadell_utebo",
       "match_key": "19/11_01:00_sabadell_utebo",
@@ -62,39 +13,12 @@
       "time": "01:00",
       "date": "19/11",
       "timestamp": 1795024800000,
-      "league": "COPA_DEL_REY",
-      "leagueName": "Copa del Rey",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [01:00 19/11] Utebo Fc Vs Sabadell (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/7067abeb61660895f3ca0227675ef16f.png",
-          "competition": "Copa del Rey",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "19/11_01:00_sabadell_utebo"
-        },
-        {
-          "name": "⚽ [01:00 19/11] Utebo FC vs Sabadell (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=ec0f326253f3d67137a1728e28c2a859&txTime=6afe5468",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_01:00_sabadell_utebo"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Utebo FC vs Sabadell (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795034708-0-0-d5a72d48d1265f407baf9c13149c81ff",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_01:00_sabadell_utebo"
-        },
         {
           "name": "⚽ [01:00 19/11] Utebo FC vs Sabadell (BLV Huyền Diệp) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8",
@@ -124,7 +48,7 @@
         }
       ],
       "displayTitle": "🔴 [01:00 19/11] Utebo vs Sabadell",
-      "number": 2
+      "number": 1
     },
     {
       "key": "19/11_01:00_portugalete_realunion",
@@ -191,7 +115,7 @@
         }
       ],
       "displayTitle": "🔴 [01:00 19/11] Portugalete vs Real Union",
-      "number": 3
+      "number": 2
     },
     {
       "key": "19/11_02:00_cdalcoyano_rcdmallorca",
@@ -232,17 +156,8 @@
           "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
-          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795034648-0-0-94cf5b59936dd7afb0857b4132f97c52",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
-        },
-        {
           "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795034648-0-0-1936bb6ad9fc3e185776ec531ddff88d",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795035608-0-0-5861a45d7b0caf2f289dad5705aef375",
           "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
@@ -250,8 +165,17 @@
           "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
+          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795035608-0-0-582836b583420798e0b02ab1fcc92191",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "SPA Cup",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
+        },
+        {
           "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=9cba480f09cc557a6db0febd3ae2e424&txTime=6afe5468",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=2aa223291d64e9f112946c8d0940edf4&txTime=6afe5828",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
@@ -260,7 +184,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795034648-0-0-3036496d3422c95c84937260c31a349b",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795035608-0-0-2a23a45c89affd88d8be918dfea14cc9",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
@@ -296,7 +220,7 @@
         }
       ],
       "displayTitle": "🔴 [02:00 19/11] Alcoyano vs Rcd Mallorca",
-      "number": 4
+      "number": 3
     },
     {
       "key": "19/11_02:00_cdbadajoz_tenerife",
@@ -327,7 +251,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] CD Badajoz vs Tenerife (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795034648-0-0-c8c8a5f2791e6590f236f929d51033ac",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795035608-0-0-ded73f1e4185597f30b91c3d1295ebe0",
           "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
@@ -336,7 +260,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] CD Badajoz vs Tenerife (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=53c9c72f37bc913cd47332d24a2addf5&txTime=6afe5468",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=8e026dee0ec783cf91f0937978b16085&txTime=6afe5828",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
@@ -381,7 +305,7 @@
         }
       ],
       "displayTitle": "🔴 [02:00 19/11] Badajoz vs Tenerife",
-      "number": 5
+      "number": 4
     },
     {
       "key": "19/11_02:30_cartagena_deportivaminera",
@@ -430,7 +354,7 @@
         }
       ],
       "displayTitle": "🔴 [02:30 19/11] Deportiva Minera vs Cartagena 33 Tv",
-      "number": 6
+      "number": 5
     },
     {
       "key": "19/11_02:30_barakaldo_reusreddis",
@@ -479,7 +403,7 @@
         }
       ],
       "displayTitle": "🔴 [02:30 19/11] Reus Reddis vs Barakaldo",
-      "number": 7
+      "number": 6
     },
     {
       "key": "19/11_07:00_orlandomagic_philadelphia76ers",
@@ -519,7 +443,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers",
-      "number": 8
+      "number": 7
     },
     {
       "key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies",
@@ -559,7 +483,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 19/11] Cleveland Cavaliers vs Memphis Grizzlies",
-      "number": 9
+      "number": 8
     },
     {
       "key": "19/11_07:30_torontoraptors_washingtonwizards",
@@ -599,7 +523,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards",
-      "number": 10
+      "number": 9
     },
     {
       "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
@@ -639,7 +563,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
-      "number": 11
+      "number": 10
     },
     {
       "key": "19/11_09:30_denvernuggets_doibongrobostonceltics",
@@ -679,7 +603,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 19/11] Denver Nuggets vs Doi Bong Ro Boston Celtics",
-      "number": 12
+      "number": 11
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -710,7 +634,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 13
+      "number": 12
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -741,7 +665,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 14
+      "number": 13
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -772,7 +696,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 15
+      "number": 14
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -803,7 +727,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 16
+      "number": 15
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -834,7 +758,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 17
+      "number": 16
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -867,21 +791,13 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 18
+      "number": 17
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
-        {
-          "name": "⚽ [01:00 19/11] Utebo Fc Vs Sabadell (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/7067abeb61660895f3ca0227675ef16f.png",
-          "competition": "Copa del Rey",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "19/11_01:00_sabadell_utebo"
-        },
         {
           "name": "⚽ [02:00 19/11] Cd Alcoyano Vs Rcd Mallorca (BLV Gà Siêu Nhí) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/301263.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -1408,15 +1324,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [00:45 19/11] Real Madrid W vs Inter W (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/334_internazionale-w.jpg",
-          "competition": "UEFA Women's Champions League",
-          "group": "🍵 Xôi Chè TV"
-        },
-        {
           "name": "⚽ [02:00 19/11] Alcoyano vs Mallorca (BLV Tam Mao) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/7249_alcoyano.jpg",
@@ -1777,172 +1684,128 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795034648-0-0-1adecd5814cecce9e1492e0d8b710986",
-          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "name": "⚽ [LIVE 19/11] Juventus Women vs Oud Heverlee Leuven Women (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795035608-0-0-fa22371021db43623c9daf845b9587e2",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [01:00 19/11] Utebo FC vs Sabadell (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=ec0f326253f3d67137a1728e28c2a859&txTime=6afe5468",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_01:00_sabadell_utebo"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] BK Hacken Women vs Manchester City Women (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795034631-0-0-59e1601ca1ddc9e0edc4ea555a48724f",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795035608-0-0-37c59e4e66a0ac4298ac413014b83540",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795034648-0-0-8ee1190ff4a2c7c5f674bc0808f1a764",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Real Madrid Women vs Inter Milan Women (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795034648-0-0-4c17822893c2c312fc312de2d033394e",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Real Madrid Women vs Inter Milan Women (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=7ce20c90d6111b46b9ee890423d63766&txTime=6afe5468",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795034648-0-0-8164dfed83a6ade652754139017aa5ee",
-          "logo": "https://sta.vnres.co/file/common/20261001/a63d3fbef5118a362136852e80f77992.png",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] CD Badajoz vs Tenerife (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795034648-0-0-c8c8a5f2791e6590f236f929d51033ac",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_02:00_cdbadajoz_tenerife"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795034648-0-0-94cf5b59936dd7afb0857b4132f97c52",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
           "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=6ed4bc8dac89cf20ed15206b567af1bd&txTime=6afe5468",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=6d5a90eb912b0b5721d236dbdd4bf64b&txTime=6afe5828",
           "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 19/11] Real Madrid Women vs Inter Milan Women (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795034648-0-0-248e7a026f40a752b43222c2f33799ca",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Real Madrid Women vs Inter Milan Women (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795034648-0-0-0f1b73031349fe5e059b61987e83e0c5",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV LUCAS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795035608-0-0-498ef844978b15479b59348b6725f5d0",
+          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795034648-0-0-1936bb6ad9fc3e185776ec531ddff88d",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795035608-0-0-5861a45d7b0caf2f289dad5705aef375",
           "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
+          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795035608-0-0-4cd6770b0e7d9ea7a59274515d190e5a",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795035608-0-0-582836b583420798e0b02ab1fcc92191",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "SPA Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV LOKA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795035608-0-0-ceb1f01f23db60fdd2c424767031fa86",
+          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795035608-0-0-1c6741fafc99ac3199aa501ca6d39606",
+          "logo": "https://sta.vnres.co/file/common/20261001/a63d3fbef5118a362136852e80f77992.png",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] CD Badajoz vs Tenerife (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795035608-0-0-ded73f1e4185597f30b91c3d1295ebe0",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "SPA Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_02:00_cdbadajoz_tenerife"
+        },
+        {
           "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=9cba480f09cc557a6db0febd3ae2e424&txTime=6afe5468",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=2aa223291d64e9f112946c8d0940edf4&txTime=6afe5828",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
-          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795034648-0-0-3036496d3422c95c84937260c31a349b",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "SPA Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
+          "name": "⚽ [LIVE 19/11] Juventus Women vs Oud Heverlee Leuven Women (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795035608-0-0-056c63c9b48a998610c93fded2c5a049",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 19/11] CD Badajoz vs Tenerife (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=53c9c72f37bc913cd47332d24a2addf5&txTime=6afe5468",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=8e026dee0ec783cf91f0937978b16085&txTime=6afe5828",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_02:00_cdbadajoz_tenerife"
         },
         {
-          "name": "⚽ [LIVE 19/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795034648-0-0-bc6a94f68a7bb2e79195b8b57286908b",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
-          "competition": "SER Cup",
+          "name": "⚽ [LIVE 19/11] CD Alcoyano vs RCD Mallorca (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795035608-0-0-2a23a45c89affd88d8be918dfea14cc9",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "SPA Cup",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_dubocica_radnickinis"
+          "match_key": "19/11_02:00_cdalcoyano_rcdmallorca"
         },
         {
           "name": "⚽ [LIVE 19/11] Alianza Atletico Sullana vs FBC Melgar (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795034648-0-0-78c03387780e9ad890ef3038b8cf549a",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795035608-0-0-8a6add5b4378050a194f3af46427ca51",
           "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "PER D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_alianzaatleticosullana_fbcmelgar"
         },
         {
-          "name": "⚽ [LIVE 19/11] Juventus Women vs Oud Heverlee Leuven Women (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795034648-0-0-431bac1b7363a9ffba2b05f0fee02c7d",
-          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Chelsea FC Women vs Paris Saint Germain Women (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795034708-0-0-ef3c35261f955154d9ad5efdb5890c0e",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Juventus Women vs Oud Heverlee Leuven Women (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795034708-0-0-3e075eabd1d59cfccac28fcbac649961",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Utebo FC vs Sabadell (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795034708-0-0-d5a72d48d1265f407baf9c13149c81ff",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "SPA Cup",
+          "name": "⚽ [LIVE 19/11] FK Dubocica vs Radnicki Nis (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795035608-0-0-69e75723777a803be8140eda03953259",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "SER Cup",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_01:00_sabadell_utebo"
+          "match_key": "19/11_LIVE_dubocica_radnickinis"
         },
         {
           "name": "⚽ [LIVE 19/11] Alianza Atletico Sullana vs FBC Melgar (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795034708-0-0-141421f2f79a2c2d20edda0170448090",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795035608-0-0-95c31ebde6dec3152413c12a340df43c",
           "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "PER D1",
           "group": "🐿️ SocoLive",
@@ -1972,16 +1835,14 @@
           "url": "https://live05.wecile.app/live/97885009.m3u8",
           "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [00:30 19/11] Zemun vs Radnicki 1923 Kragujevac (BLV WARRIOR) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/97885009_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [00:45 19/11] Real Madrid Nữ vs Inter Nữ (BLV C2) [hls] - Cola TV",
@@ -2229,8 +2090,7 @@
           "url": "https://live2.zktsva.app/live/796315.m3u8",
           "logo": "https://img.cltvap.cc/football/team/810c5df2cb25ece4a24b43a927508810.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "19/11_00:30_radnicki1923kragujevac33tv_zemun"
+          "group": "⚡ Gà Vàng 33 TV"
         },
         {
           "name": "⚽ [00:45 19/11] BK Hacken Women vs Manchester City Women (BLV Gà Siêu Quỷ) [hls] - Gà Vàng 33 TV",
