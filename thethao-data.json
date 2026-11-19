@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 02:56:15",
+  "updated_at": "2026-11-20 03:11:53",
   "live_events": [
     {
       "key": "20/11_01:00_smouha_zed",
@@ -30,17 +30,8 @@
         },
         {
           "name": "⚽ [LIVE 20/11] ZED FC vs Smouha SC (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795121708-0-0-7e3260b4c477c6760c70ddf6f785c42c",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795122668-0-0-58159ec2dde3b1de77b5b4077e30644a",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "EGY Cup",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "20/11_01:00_smouha_zed"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] ZED FC vs Smouha SC (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795121708-0-0-665c5e9f7ec7685e7f41f163db9d18e2",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -91,37 +82,6 @@
       "number": 2
     },
     {
-      "key": "20/11_02:25_bostonriver_deportivo",
-      "match_key": "20/11_02:25_bostonriver_deportivo",
-      "c_home": "bostonriver",
-      "c_away": "deportivo",
-      "homeTeam": "Boston River",
-      "awayTeam": "Deportivo La Coruna",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "02:25",
-      "date": "20/11",
-      "timestamp": 1795116300000,
-      "league": "OTHER",
-      "leagueName": "Uruguay Primera Division",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [02:25 20/11] Ca Boston River Vs Deportivo Maldonado (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/57bb4f7957510c2da5fd076e75618f5f.png",
-          "competition": "Uruguay Primera Division",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "20/11_02:25_bostonriver_deportivo"
-        }
-      ],
-      "displayTitle": "🔴 [02:25 20/11] Boston River vs Deportivo La Coruna",
-      "number": 3
-    },
-    {
       "key": "20/11_02:25_cerrolargo_penarol",
       "match_key": "20/11_02:25_cerrolargo_penarol",
       "c_home": "penarol",
@@ -150,6 +110,37 @@
         }
       ],
       "displayTitle": "🔴 [02:25 20/11] Penarol vs Cerro Largo",
+      "number": 3
+    },
+    {
+      "key": "20/11_02:25_bostonriver_deportivo",
+      "match_key": "20/11_02:25_bostonriver_deportivo",
+      "c_home": "bostonriver",
+      "c_away": "deportivo",
+      "homeTeam": "Boston River",
+      "awayTeam": "Deportivo La Coruna",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "02:25",
+      "date": "20/11",
+      "timestamp": 1795116300000,
+      "league": "OTHER",
+      "leagueName": "Uruguay Primera Division",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [02:25 20/11] Ca Boston River Vs Deportivo Maldonado (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/57bb4f7957510c2da5fd076e75618f5f.png",
+          "competition": "Uruguay Primera Division",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "20/11_02:25_bostonriver_deportivo"
+        }
+      ],
+      "displayTitle": "🔴 [02:25 20/11] Boston River vs Deportivo La Coruna",
       "number": 4
     },
     {
@@ -867,6 +858,14 @@
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
         {
+          "name": "⚽ [02:25 20/11] Ca Penarol Vs Cerro Largo (BLV Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/57bb4f7957510c2da5fd076e75618f5f.png",
+          "competition": "Uruguay Primera Division",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "20/11_02:25_cerrolargo_penarol"
+        },
+        {
           "name": "⚽ [01:00 20/11] Zed Fc Vs Smouha Sc (BLV Gà Siêu Mõm) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/6052a7371f24baf0cc76c335251a065d.png",
@@ -881,14 +880,6 @@
           "competition": "Uruguay Primera Division",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "20/11_02:25_bostonriver_deportivo"
-        },
-        {
-          "name": "⚽ [02:25 20/11] Ca Penarol Vs Cerro Largo (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/57bb4f7957510c2da5fd076e75618f5f.png",
-          "competition": "Uruguay Primera Division",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "20/11_02:25_cerrolargo_penarol"
         },
         {
           "name": "⚽ [05:30 20/11] Vitoria Ba Vs Red Bull Bragantino (BLV Gà Siêu Tốc) - Gà Vàng",
@@ -1767,120 +1758,96 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795121708-0-0-62a48646fc52a0b65011888fd0e8b734",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795122668-0-0-cfd8b03cf3982216a45ebaae4f3370d3",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795121708-0-0-486d95b91939ba72238f99c9f1a94a49",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "name": "⚽ [LIVE 20/11] SL Benfica Women vs AS Roma Women (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=22f3629f28259307d679da2f4f6f5081&txTime=6affac3c",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 20/11] Fredericia vs Hillerod Fodbold (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795121708-0-0-5ea16b042327c77eb6c06ff7bf9db4df",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "DEN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_fredericia_hillerodfodbold"
+          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795122668-0-0-55da10cd03e9296231e2463c7d0930d3",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 20/11] ZED FC vs Smouha SC (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795121708-0-0-7e3260b4c477c6760c70ddf6f785c42c",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "EGY Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_01:00_smouha_zed"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Fredericia vs Hillerod Fodbold (BLV RYO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795121708-0-0-17fdfca6da987aff0acc0cea436433eb",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "DEN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_fredericia_hillerodfodbold"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795121708-0-0-7a87e404e0b05cb6ae5b74fd5f1dc016",
-          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
+          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795122668-0-0-66d03b5f8396fa9a7ede44a284c2b1ba",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=1caf614794495da293cbd6c41e19004e&txTime=6affa87c",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=b3703164bad623295acc561f6668cf13&txTime=6affac3c",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795122668-0-0-5b5ee5dd5334d94ebbb5defccb0f789d",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] SL Benfica Women vs AS Roma Women (BLV WUKONG) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795122668-0-0-6ce8a6cd186749ef5f97bc7294f05e80",
+          "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795122668-0-0-54b06513593a7645118dec0e6046e421",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795121708-0-0-8ce9f705c73e1049193281e5b1826abf",
+          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795122668-0-0-08459abd6d79d0ed23a242cb207fb8b3",
           "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795121708-0-0-ce6476a81616e3e0b551d1d4de6850be",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795122668-0-0-e6583368ce1ed97035946126cc6bf11e",
           "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795121708-0-0-22ea91844d25a46144502c5e5597d2ca",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795122668-0-0-45c54cbe25822ba4ec3012c7613f4adc",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
           "competition": "UEFA WCL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 20/11] ZED FC vs Smouha SC (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795121708-0-0-665c5e9f7ec7685e7f41f163db9d18e2",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV BOSS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795122668-0-0-9fadfa658de48ea469a83739cfe4ba22",
+          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
+          "competition": "UEFA WCL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] ZED FC vs Smouha SC (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795122668-0-0-58159ec2dde3b1de77b5b4077e30644a",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "EGY Cup",
           "group": "🐿️ SocoLive",
           "match_key": "20/11_01:00_smouha_zed"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795121708-0-0-aa7f0cf072d49aa44e7fa1f4ad6aec24",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Arsenal Women vs OL Lyonnes Women (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795121708-0-0-ccd3dc9d989a05e0b22c667ba764b3f6",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] SL Benfica Women vs AS Roma Women (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=c6e2ff7325f00e783b14ea192009d37b&txTime=6affa87c",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Barcelona Women vs Servette Women (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795121708-0-0-0e99314381800520a5ca6373e1f2a9ec",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] SL Benfica Women vs AS Roma Women (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795121708-0-0-67316acd007061c5fdf1ed0cd5966254",
-          "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
-          "competition": "UEFA WCL",
-          "group": "🐿️ SocoLive"
         }
       ]
     },
