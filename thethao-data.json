@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 07:36:10",
+  "updated_at": "2026-11-19 07:51:29",
   "live_events": [
     {
       "key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies",
@@ -30,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795052048-0-0-eee3ab1780433827c155a97c354a3824",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795053008-0-0-4ed86ef73017f2e515e7be0b00f29284",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -39,7 +39,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795052048-0-0-052f22ad0d3555407325f0e25aae43a9",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795053008-0-0-ba3b8ca236b66c7f9742b94d3575b5cd",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -97,7 +97,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Indiana Pacers vs Houston Rockets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795052048-0-0-864d54a53f00046443e9a44bcbfba60c",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795053008-0-0-b4b641c43baa310fb420ad0d611a582e",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -176,8 +176,17 @@
           "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
         },
         {
+          "name": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers (us NBA 1) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18788/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/153.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
+        },
+        {
           "name": "⚽ [LIVE 19/11] Orlando Magic vs Philadelphia 76ers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795052048-0-0-3d79554414854881eb0507b02090bc0d",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795053008-0-0-f96f01249a613a3a50d6d1d4b64cf5cb",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -247,6 +256,15 @@
           "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
         },
         {
+          "name": "⚽ [LIVE 19/11] Toronto Raptors vs Washington Wizards (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795053008-0-0-d24702f5c1ad28142d1692031040bb11",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
+        },
+        {
           "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (BLV TARZAAN) [hls] - Cola TV",
           "url": "https://live05.wecile.app/live/56998120.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png!w80",
@@ -267,6 +285,153 @@
       ],
       "displayTitle": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards",
       "number": 6
+    },
+    {
+      "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
+      "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder",
+      "c_home": "oklahomacitythunder",
+      "c_away": "atlantahawks",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "Atlanta Hawks",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "08:00",
+      "date": "19/11",
+      "timestamp": 1795050000000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18647/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/152.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795053008-0-0-684c28346e20da8fd7f0816e0ab86b63",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        },
+        {
+          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV ROCKSTAR) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/82054853.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        },
+        {
+          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV ROCKSTAR) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        }
+      ],
+      "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
+      "number": 7
+    },
+    {
+      "key": "19/11_08:00_detroitpistons_neworleanspelicans",
+      "match_key": "19/11_08:00_detroitpistons_neworleanspelicans",
+      "c_home": "neworleanspelicans",
+      "c_away": "detroitpistons",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Detroit Pistons",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "08:00",
+      "date": "19/11",
+      "timestamp": 1795050000000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18631/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/150.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_08:00_detroitpistons_neworleanspelicans"
+        }
+      ],
+      "displayTitle": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons",
+      "number": 8
+    },
+    {
+      "key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
+      "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
+      "c_home": "dallasmavericks",
+      "c_away": "goldenstatewarriors",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "Golden State Warriors 24h Tv",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "08:00",
+      "date": "19/11",
+      "timestamp": 1795050000000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18648/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/138.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
+        },
+        {
+          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV LIPTON) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/89756030.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
+        },
+        {
+          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV LIPTON) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/89756030_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
+        },
+        {
+          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV Wem By) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6ad310e0f72fb30b98548582.m3u8",
+          "logo": "https://static.sportsfeed.pro/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
+        }
+      ],
+      "displayTitle": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors 24h Tv",
+      "number": 9
     },
     {
       "key": "19/11_07:00_akron_umass",
@@ -297,7 +462,7 @@
         }
       ],
       "displayTitle": "🏈 [07:00 19/11] Umass vs Akron",
-      "number": 7
+      "number": 10
     },
     {
       "key": "19/11_07:30_buffalostate_centralmichigan",
@@ -328,218 +493,6 @@
         }
       ],
       "displayTitle": "🏈 [07:30 19/11] Buffalo State vs Central Michigan",
-      "number": 8
-    },
-    {
-      "key": "19/11_05:30_coritibasafpr_santossp",
-      "match_key": "19/11_05:30_coritibasafpr_santossp",
-      "c_home": "coritibasafpr",
-      "c_away": "santossp",
-      "homeTeam": "Coritiba Saf",
-      "awayTeam": "Santos",
-      "homeLogo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/566_santos.jpg",
-      "time": "05:30",
-      "date": "19/11",
-      "timestamp": 1795041000000,
-      "league": "BRAZIL_SERIE_A",
-      "leagueName": "VĐQG Brazil (Série A)",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [05:30 19/11] Coritiba Saf Pr Vs Santos Fc Sp (BLV Gà Siêu Tốc) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
-          "competition": "Brazilian Serie A",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/566_santos.jpg",
-          "competition": "Serie A",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba SAF _ PR vs Santos FC _ SP (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/4f7a0095b9a3a4756318efd55451badb.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Trốc Tru) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_131454_3188ce00.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba (PR) vs Santos (BLV Ngọng) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1795001514_hd/1795001514_hd@720p.m3u8",
-          "logo": "https://images.keovip88.net/images/teams/coritiba-pr.png",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos FC (BLV NGƯỜI SÓI) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/coriti-santos-brasa2/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/c38b63c7-faea-4094-8301-b4396232fd17",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Bút Chì) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9767.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba SAF _ PR vs Santos FC _ SP (BLV Gà Siêu Tốc) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/307240.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs CLB Santos (BLV PEPSI) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/59444581.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs CLB Santos (BLV PEPSI) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/59444581_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Black Panther) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.plRXBjbKabEP.m3u8?expires=1795058440&signature=9TIt9CboDdmVQi9I72BvNNRPdAcxtfgmYii6CRhzMl8",
-          "logo": "https://xoigac.top/images/football/teams/147.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba SAF vs Santos (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/970f5f1793354badbcfd97bca59531c5/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
-          "name": "⚽ [05:30 19/11] Coritiba SAF vs Santos (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/b295c6019585d21cac3da3dd95742cb1/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        }
-      ],
-      "displayTitle": "🔴 [05:30 19/11] Coritiba Saf vs Santos",
-      "number": 9
-    },
-    {
-      "key": "19/11_05:30_coritibapr_santos24htv",
-      "match_key": "19/11_05:30_coritibapr_santos24htv",
-      "c_home": "coritibapr",
-      "c_away": "santos24htv",
-      "homeTeam": "Coritiba Pr",
-      "awayTeam": "Santos 24h Tv",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "05:30",
-      "date": "19/11",
-      "timestamp": 1795041000000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [05:30 19/11] Coritiba PR vs Santos (BLV A Long) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/4f7a0095b9a3a4756318efd55451badb.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_coritibapr_santos24htv"
-        }
-      ],
-      "displayTitle": "🔴 [05:30 19/11] Coritiba Pr vs Santos 24h Tv",
-      "number": 10
-    },
-    {
-      "key": "19/11_05:30_caxiasdosul_franca",
-      "match_key": "19/11_05:30_caxiasdosul_franca",
-      "c_home": "franca",
-      "c_away": "caxiasdosul",
-      "homeTeam": "Franca",
-      "awayTeam": "Caxias Do Sul",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "05:30",
-      "date": "19/11",
-      "timestamp": 1795041000000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [05:30 19/11] Franca vs Caxias do Sul (BLV The Flash) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Djz04IRo0li5.m3u8?expires=1795058435&signature=aaW8SPrWjT0gG4VAn7OzMIXduiGStGKAVz_EV_l3d-o",
-          "logo": "https://xoigac.top/images/basketball/teams/334.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_caxiasdosul_franca"
-        },
-        {
-          "name": "🏀 [05:30 19/11] Franca vs Caxias do Sul (BLV Doctor Strange) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.oUf0aZF6asXK.m3u8?expires=1795058437&signature=WAO9BsGALRL0rXUqDYaNDC6pGiaSGmGtsaQcN_GyA6Y",
-          "logo": "https://xoigac.top/images/basketball/teams/334.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_05:30_caxiasdosul_franca"
-        }
-      ],
-      "displayTitle": "🏀 [05:30 19/11] Franca vs Caxias Do Sul",
       "number": 11
     },
     {
@@ -917,64 +870,6 @@
       "number": 19
     },
     {
-      "key": "19/11_07:30_bahiaba_gremiors",
-      "match_key": "19/11_07:30_bahiaba_gremiors",
-      "c_home": "gremiors",
-      "c_away": "bahiaba",
-      "homeTeam": "Gremio",
-      "awayTeam": "Bahia",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "19/11",
-      "timestamp": 1795048200000,
-      "league": "BRAZIL_SERIE_A",
-      "leagueName": "VĐQG Brazil (Série A)",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [07:30 19/11] Gremio Rs Vs Bahia Ba (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
-          "competition": "Brazilian Serie A",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "19/11_07:30_bahiaba_gremiors"
-        },
-        {
-          "name": "⚽ [07:30 19/11] Grêmio _ RS vs Bahia _ BA (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/741294.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_bahiaba_gremiors"
-        },
-        {
-          "name": "⚽ [07:30 19/11] CLB Gremio vs Bahia (BLV BÍ ĐAO) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/99121525.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_bahiaba_gremiors"
-        },
-        {
-          "name": "⚽ [07:30 19/11] CLB Gremio vs Bahia (BLV BÍ ĐAO) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/99121525_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_bahiaba_gremiors"
-        }
-      ],
-      "displayTitle": "🔴 [07:30 19/11] Gremio vs Bahia",
-      "number": 20
-    },
-    {
       "key": "19/11_07:30_botafogorj_corinthianssp",
       "match_key": "19/11_07:30_botafogorj_corinthianssp",
       "c_home": "corinthianssp",
@@ -1050,6 +945,64 @@
         }
       ],
       "displayTitle": "🔴 [07:30 19/11] Corinthians vs Botafogo",
+      "number": 20
+    },
+    {
+      "key": "19/11_07:30_bahiaba_gremiors",
+      "match_key": "19/11_07:30_bahiaba_gremiors",
+      "c_home": "gremiors",
+      "c_away": "bahiaba",
+      "homeTeam": "Gremio",
+      "awayTeam": "Bahia",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "19/11",
+      "timestamp": 1795048200000,
+      "league": "BRAZIL_SERIE_A",
+      "leagueName": "VĐQG Brazil (Série A)",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [07:30 19/11] Gremio Rs Vs Bahia Ba (BLV Gà Siêu Kiêu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
+          "competition": "Brazilian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "19/11_07:30_bahiaba_gremiors"
+        },
+        {
+          "name": "⚽ [07:30 19/11] Grêmio _ RS vs Bahia _ BA (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/741294.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_07:30_bahiaba_gremiors"
+        },
+        {
+          "name": "⚽ [07:30 19/11] CLB Gremio vs Bahia (BLV BÍ ĐAO) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/99121525.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_07:30_bahiaba_gremiors"
+        },
+        {
+          "name": "⚽ [07:30 19/11] CLB Gremio vs Bahia (BLV BÍ ĐAO) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/99121525_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/e1f593199d4ee1d98b2db8a9522b605f.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "19/11_07:30_bahiaba_gremiors"
+        }
+      ],
+      "displayTitle": "🔴 [07:30 19/11] Gremio vs Bahia",
       "number": 21
     },
     {
@@ -1177,153 +1130,6 @@
       "number": 25
     },
     {
-      "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
-      "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder",
-      "c_home": "oklahomacitythunder",
-      "c_away": "atlantahawks",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "Atlanta Hawks",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "08:00",
-      "date": "19/11",
-      "timestamp": 1795050000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18647/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/152.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795052108-0-0-74471b7b68419c2832221ea3296b9975",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
-        },
-        {
-          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV ROCKSTAR) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/82054853.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
-        },
-        {
-          "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV ROCKSTAR) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/319e03be75fee4098a83b1d0e01940b7.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
-        }
-      ],
-      "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
-      "number": 26
-    },
-    {
-      "key": "19/11_08:00_detroitpistons_neworleanspelicans",
-      "match_key": "19/11_08:00_detroitpistons_neworleanspelicans",
-      "c_home": "neworleanspelicans",
-      "c_away": "detroitpistons",
-      "homeTeam": "New Orleans Pelicans",
-      "awayTeam": "Detroit Pistons",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "08:00",
-      "date": "19/11",
-      "timestamp": 1795050000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18631/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/150.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "19/11_08:00_detroitpistons_neworleanspelicans"
-        }
-      ],
-      "displayTitle": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons",
-      "number": 27
-    },
-    {
-      "key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
-      "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
-      "c_home": "dallasmavericks",
-      "c_away": "goldenstatewarriors",
-      "homeTeam": "Dallas Mavericks",
-      "awayTeam": "Golden State Warriors 24h Tv",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "08:00",
-      "date": "19/11",
-      "timestamp": 1795050000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18648/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/138.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
-        },
-        {
-          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV LIPTON) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/89756030.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
-        },
-        {
-          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV LIPTON) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/89756030_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
-        },
-        {
-          "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV Wem By) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6ad310e0f72fb30b98548582.m3u8",
-          "logo": "https://static.sportsfeed.pro/basketball/team/42d7b5ec22b2eb411d68f94a04eab742.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_08:00_dallasmavericks_goldenstatewarriors"
-        }
-      ],
-      "displayTitle": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors 24h Tv",
-      "number": 28
-    },
-    {
       "key": "19/11_09:30_bostonceltics_denvernuggets",
       "match_key": "19/11_09:30_bostonceltics_denvernuggets",
       "c_home": "denvernuggets",
@@ -1370,7 +1176,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 19/11] Denver Nuggets vs Doi Bong Ro Boston Celtics",
-      "number": 29
+      "number": 26
     },
     {
       "key": "19/11_10:00_losangeleslakers_utahjazz",
@@ -1401,7 +1207,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Los Angeles Lakers vs Utah Jazz",
-      "number": 30
+      "number": 27
     },
     {
       "key": "19/11_10:00_phoenixsuns_sacramentokings",
@@ -1432,7 +1238,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Sacramento Kings vs Phoenix Suns",
-      "number": 31
+      "number": 28
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -1463,7 +1269,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 32
+      "number": 29
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -1494,7 +1300,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 33
+      "number": 30
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -1525,7 +1331,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 34
+      "number": 31
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -1556,7 +1362,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 35
+      "number": 32
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -1587,7 +1393,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 36
+      "number": 33
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -1620,21 +1426,13 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 37
+      "number": 34
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
-        {
-          "name": "⚽ [05:30 19/11] Coritiba Saf Pr Vs Santos Fc Sp (BLV Gà Siêu Tốc) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
-          "competition": "Brazilian Serie A",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
         {
           "name": "⚽ [06:00 19/11] Remo Pa Vs Chapecoense Sc (BLV Gà Siêu Son) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -1652,20 +1450,20 @@
           "match_key": "19/11_06:30_cruzeiromg_palmeirassp"
         },
         {
-          "name": "⚽ [07:30 19/11] Gremio Rs Vs Bahia Ba (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
-          "competition": "Brazilian Serie A",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "19/11_07:30_bahiaba_gremiors"
-        },
-        {
           "name": "⚽ [07:30 19/11] Corinthians Sp Vs Botafogo Rj (BLV Gà Siêu Tốc) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
           "competition": "Brazilian Serie A",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "19/11_07:30_botafogorj_corinthianssp"
+        },
+        {
+          "name": "⚽ [07:30 19/11] Gremio Rs Vs Bahia Ba (BLV Gà Siêu Kiêu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
+          "competition": "Brazilian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "19/11_07:30_bahiaba_gremiors"
         },
         {
           "name": "⚽ [15:30 19/11] Preston Lions Vs South Hobart (BLV Gà Siêu Kiêu) - Gà Vàng",
@@ -2129,16 +1927,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/566_santos.jpg",
-          "competition": "Serie A",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
-        },
-        {
           "name": "⚽ [07:30 19/11] Corinthians vs Botafogo RJ (BLV Tam Mao) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/2017_corinthians.jpg",
@@ -2345,6 +2133,14 @@
         {
           "name": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers (us NBA) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18646/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/153.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
+        },
+        {
+          "name": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers (us NBA 1) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18788/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/153.png",
           "competition": "NBA",
           "group": "F4K Sport",
@@ -2641,64 +2437,88 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 19/11] Cong An Ho Chi Minh City vs Buriram United (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795052055-0-0-83dfa4bffb4e9f150cc03fe01df1f786",
+          "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795053008-0-0-2bc0d840c74d1f2e9fff88bebddc439e",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
-          "competition": "ASEAN CC",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_buriramunited_tphcm"
+          "match_key": "19/11_LIVE_botafogorj_sp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=7d95654f814167ca0b4e1eaa9cd41e40&txTime=6afe9c20",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_botafogorj_sp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795053008-0-0-ab3249a8cb0aa0acbfb7baad2e9dc13d",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_mg_palmeirassp"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795053008-0-0-d60834abef2193abbd5b5cd8ef40029b",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_bahiaba_rs"
         },
         {
           "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795052048-0-0-f12d368ee3eb1016191a7b8fc9b9da0b",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795053008-0-0-c9dc46480861ead03576b87bbf59d5da",
           "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_bahiaba_rs"
         },
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795052048-0-0-97ca64169eb70542bd2deff3ae881963",
+          "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795053008-0-0-af95f334620dfd9c919e384fc26315ee",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
+          "match_key": "19/11_LIVE_bahiaba_rs"
         },
         {
-          "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795052048-0-0-fafaaf7036187c51fc306b1714c851db",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795053008-0-0-38a59493507023b9e122dc25b708270b",
+          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_botafogorj_sp"
+          "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
         },
         {
           "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795052048-0-0-1fb39c8f66dc9337e22fb17b03e75717",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795053008-0-0-5f34a4506cde1cb67377063ef163c010",
           "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_mg_palmeirassp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795052048-0-0-12edc9eaddd92db10e7931fd2e07622e",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795053008-0-0-b47731c647c163e4d571b6ba54836792",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
+          "match_key": "19/11_LIVE_botafogorj_sp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795052048-0-0-2867c4acfd24ff54acbd598ea892fa2b",
-          "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
+          "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=58baac285d09d92c20da5538585cb9fe&txTime=6afe9c20",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
+          "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
         },
         {
           "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795052048-0-0-d6dfc77436a0f29f366aa3f0c00e2f35",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795053008-0-0-a0d8e9de8d6d102e35d8ac97f4706aac",
           "logo": "https://sta.vnres.co/file/common/20261119/c180ef7f7c0290471621ec1ac2c48f2e.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -2706,211 +2526,155 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795052048-0-0-22679c4ef43eca89c25bffb850b83507",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795053008-0-0-db4157a86da836a8032a74a038a223b0",
           "logo": "https://sta.vnres.co/file/common/20261119/556ec19fcc54e506e84ccde2de0d2f5c.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_botafogorj_sp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=f1cdbc24ef1ab776b8524e9a9306e14f&txTime=6afe9860",
-          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_botafogorj_sp"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=14f22c19b1b1d943ba7d61e070c2262d&txTime=6afe9860",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795052048-0-0-7692b42ef6c6798cd4ae8b9215fee6ec",
-          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_mg_palmeirassp"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795052048-0-0-0b499b22e218a8af466330536918f7dd",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795053008-0-0-1cc9278558e5f61e06c33a322ec607ba",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
         },
         {
-          "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795052048-0-0-98cebf93e38b2e292e30633332afcf5e",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_bahiaba_rs"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795052048-0-0-f8524ce80cf9f6972d4def5f32421b6f",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795053008-0-0-c9691ab336f5bbf478e7f3d286f958b4",
           "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
         },
         {
-          "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795052048-0-0-3b283e3fa737ea021eb165c69736755f",
-          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "name": "⚽ [LIVE 19/11] Grêmio - RS vs Bahia - BA (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795053008-0-0-73da22e76b035906dfc9db2dd8320b87",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_bahiaba_rs"
         },
         {
           "name": "⚽ [LIVE 19/11] Corinthians - SP vs Botafogo - RJ (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795052048-0-0-c2788201a50900a3c05d4b54e05597aa",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795053008-0-0-df754fe59eb487579044ef737011c6ce",
           "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_botafogorj_sp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795052048-0-0-9383fe5c51f33f6cea737d39ef49ff74",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795052048-0-0-eee3ab1780433827c155a97c354a3824",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=27ebc6c47aad8ea62450500532b21e6e&txTime=6afe9860",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_chapecoense_pa"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Orlando Magic vs Philadelphia 76ers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795052048-0-0-3d79554414854881eb0507b02090bc0d",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795052048-0-0-8f5bb875e4af0bbac65d67e064aef822",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=819658c41dc451499c0a2e07daacb0c8&txTime=6afe9860",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=3f45f64f9e10375bc59705546f90db3f&txTime=6afe9c20",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_mg_palmeirassp"
         },
         {
-          "name": "⚽ [LIVE 19/11] Coritiba SAF - PR vs Santos FC - SP (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795052048-0-0-dfecb9f770994c8c0aef2d9e2a136e7b",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=31dddb6fa8bebf6c3276228479bbacdd&txTime=6afe9c20",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_pr_santossp"
+          "match_key": "19/11_LIVE_chapecoense_pa"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795053008-0-0-4ed86ef73017f2e515e7be0b00f29284",
+          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Orlando Magic vs Philadelphia 76ers (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795053008-0-0-f96f01249a613a3a50d6d1d4b64cf5cb",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_07:00_orlandomagic_philadelphia76ers"
         },
         {
           "name": "⚽ [LIVE 19/11] Indiana Pacers vs Houston Rockets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795052048-0-0-864d54a53f00046443e9a44bcbfba60c",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795053008-0-0-b4b641c43baa310fb420ad0d611a582e",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_07:00_houstonrockets_indianapacers"
         },
         {
-          "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795052048-0-0-052f22ad0d3555407325f0e25aae43a9",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=092392c9a636014f1a3b96103a568f46&txTime=6afe989c",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=86af58756fed73b383f9bfd06bdf2bb6&txTime=6afe9c20",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_chapecoense_pa"
         },
         {
-          "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795052108-0-0-c2547eb71925c917474f5c825277750e",
-          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
-          "competition": "BRA D1",
+          "name": "⚽ [LIVE 19/11] Cleveland Cavaliers vs Memphis Grizzlies (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795053008-0-0-ba3b8ca236b66c7f9742b94d3575b5cd",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
+          "match_key": "19/11_07:00_clevelandcavaliers_memphisgrizzlies"
         },
         {
           "name": "⚽ [LIVE 19/11] Flamengo - RJ vs Athletico Paranaense - PR (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795052108-0-0-3687b7785bc73aad3c9d5ee68147e797",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795053008-0-0-291f769c76a044c904952b712d73204a",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_athleticoparanaensepr_rj"
         },
         {
-          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795052108-0-0-c835ba03dc5a97a252cf01aa28d399df",
-          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_chapecoense_pa"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795052108-0-0-bcf77a0720060ff3610c750f8e5485a9",
-          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_chapecoense_pa"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795052108-0-0-ef2be833f3712023f80e7a08dc9a3c08",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795053008-0-0-7b49d975f22e6bc7ec8b01a81bd0d791",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_mg_palmeirassp"
         },
         {
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795053008-0-0-871f81dc23d2043a5118a79943be9f6f",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_chapecoense_pa"
+        },
+        {
           "name": "⚽ [LIVE 19/11] Cruzeiro - MG vs Palmeiras - SP (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795052108-0-0-0c0b227baedb531a5254c6dc55f32adc",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795053008-0-0-d14b83af8c92e52104eb963bc75abb7f",
           "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_mg_palmeirassp"
         },
         {
+          "name": "⚽ [LIVE 19/11] Remo - PA vs Chapecoense - SC (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795053008-0-0-3ba2a9cc7271c121b0e89d5fb9058227",
+          "logo": "https://sta.vnres.co/file/common/20261003/793b7a4fed5dae2c5df17d1ef0f67500.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_chapecoense_pa"
+        },
+        {
           "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795052108-0-0-74471b7b68419c2832221ea3296b9975",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795053008-0-0-684c28346e20da8fd7f0816e0ab86b63",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Toronto Raptors vs Washington Wizards (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795053008-0-0-d24702f5c1ad28142d1692031040bb11",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
         }
       ]
     },
@@ -2922,8 +2686,7 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/4f7a0095b9a3a4756318efd55451badb.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [06:30 19/11] Flamengo _ RJ vs Athletico Paranaense _ PR (BLV Lê Hoàn) - Vua Sân Cỏ TV",
@@ -3015,8 +2778,7 @@
           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/2019_coritiba.jpg",
           "competition": "",
-          "group": "⚡ Khô Gà TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Khô Gà TV"
         },
         {
           "name": "⚽ [20:00 19/11] France U17 vs Haiti U17 (BLV Lương Khô) [hls] - Khô Gà TV",
@@ -3052,8 +2814,7 @@
           "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
           "logo": "https://media.chuoichientv.net/media/uploads/20250623_131454_3188ce00.png",
           "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Chuối Chiên TV"
         },
         {
           "name": "⚽ [06:30 19/11] Flamengo vs Atletico Paranaense (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
@@ -3081,8 +2842,7 @@
           "url": "https://pzhgifbkllliv.vcdn.cloud/1795001514_hd/1795001514_hd@720p.m3u8",
           "logo": "https://images.keovip88.net/images/teams/coritiba-pr.png",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Giờ Vàng TV"
         },
         {
           "name": "⚽ [06:30 19/11] Cruzeiro (MG) vs Palmeiras (BLV Mù) [hls] - Giờ Vàng TV",
@@ -3110,8 +2870,7 @@
           "url": "https://hls.lauthaitv.cc/live/coriti-santos-brasa2/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/c38b63c7-faea-4094-8301-b4396232fd17",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [06:30 19/11] Flamengo vs Atletico Paranaense (BLV NGƯỜI THỎ) [hls] - S8 TV",
@@ -3247,8 +3006,7 @@
           "url": "https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8",
           "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9767.png",
           "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Sao Kê TV"
         },
         {
           "name": "⚽ [06:30 19/11] Flamengo vs Athletico Paranaense (BLV Nếp Cẩm) [hls] - Sao Kê TV",
@@ -3276,8 +3034,7 @@
           "url": "https://live2.zktsva.app/live/307240.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Gà Vàng 33 TV"
         },
         {
           "name": "⚽ [06:00 19/11] Remo _ PA vs Chapecoense _ SC (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
@@ -3337,16 +3094,14 @@
           "url": "https://live05.wecile.app/live/59444581.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [05:30 19/11] Coritiba vs CLB Santos (BLV PEPSI) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/59444581_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4f7a0095b9a3a4756318efd55451badb.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [06:00 19/11] Remo Belem (PA) vs CLB Chapecoense SC (BLV FANTA) [hls] - Cola TV",
@@ -3550,8 +3305,7 @@
           "url": "https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8",
           "logo": "https://static.sportsfeed.pro/football/team/4f7a0095b9a3a4756318efd55451badb.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "match_key": "19/11_05:30_coritibapr_santos24htv"
+          "group": "⚡ Gà Vàng 24h TV"
         },
         {
           "name": "⚽ [06:00 19/11] Remo Belem vs Chapecoense SC (BLV Mán Núi) [hls] - Gà Vàng 24h TV",
@@ -3619,24 +3373,21 @@
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Djz04IRo0li5.m3u8?expires=1795058435&signature=aaW8SPrWjT0gG4VAn7OzMIXduiGStGKAVz_EV_l3d-o",
           "logo": "https://xoigac.top/images/basketball/teams/334.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "19/11_05:30_caxiasdosul_franca"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "🏀 [05:30 19/11] Franca vs Caxias do Sul (BLV Doctor Strange) - Xôi Gấc TV",
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.oUf0aZF6asXK.m3u8?expires=1795058437&signature=WAO9BsGALRL0rXUqDYaNDC6pGiaSGmGtsaQcN_GyA6Y",
           "logo": "https://xoigac.top/images/basketball/teams/334.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "19/11_05:30_caxiasdosul_franca"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "⚽ [05:30 19/11] Coritiba vs Santos (BLV Black Panther) - Xôi Gấc TV",
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.plRXBjbKabEP.m3u8?expires=1795058440&signature=9TIt9CboDdmVQi9I72BvNNRPdAcxtfgmYii6CRhzMl8",
           "logo": "https://xoigac.top/images/football/teams/147.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "⚽ [06:30 19/11] Cruzeiro vs Palmeiras (BLV Raccoon) - Xôi Gấc TV",
@@ -3664,16 +3415,14 @@
           "url": "https://pull.digitalcdn.net/live/970f5f1793354badbcfd97bca59531c5/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [05:30 19/11] Coritiba SAF vs Santos (BLV Nhà đài) - Phá Làng TV",
           "url": "https://lilive1.eu.cc/live/b295c6019585d21cac3da3dd95742cb1/playlist.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "19/11_05:30_coritibasafpr_santossp"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [15:30 19/11] Preston Lions vs South Hobart (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
@@ -4143,67 +3892,67 @@
     {
       "home_team": "Cleveland Cavaliers",
       "away_team": "Memphis Grizzlies",
-      "home_score": "37",
-      "away_score": "28",
+      "home_score": "48",
+      "away_score": "41",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "33.1 - 1st",
+      "detail": "6:37 - 2nd",
       "date": "2026-11-19T00:00Z"
     },
     {
       "home_team": "Indiana Pacers",
       "away_team": "Houston Rockets",
-      "home_score": "27",
-      "away_score": "39",
+      "home_score": "30",
+      "away_score": "49",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "10.8 - 1st",
+      "detail": "6:31 - 2nd",
       "date": "2026-11-19T00:00Z"
     },
     {
       "home_team": "Miami Heat",
       "away_team": "Milwaukee Bucks",
-      "home_score": "26",
-      "away_score": "16",
+      "home_score": "34",
+      "away_score": "23",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "3:47 - 1st",
+      "detail": "End of 1st",
       "date": "2026-11-19T00:00Z"
     },
     {
       "home_team": "Orlando Magic",
       "away_team": "Philadelphia 76ers",
-      "home_score": "39",
-      "away_score": "24",
+      "home_score": "51",
+      "away_score": "41",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "52.0 - 1st",
+      "detail": "7:44 - 2nd",
       "date": "2026-11-19T00:00Z"
     },
     {
       "home_team": "Brooklyn Nets",
       "away_team": "Chicago Bulls",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "6",
+      "away_score": "12",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/18 - 7:30 PM EST",
+      "detail": "7:08 - 1st",
       "date": "2026-11-19T00:30Z"
     },
     {
       "home_team": "Toronto Raptors",
       "away_team": "Washington Wizards",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "10",
+      "away_score": "11",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/18 - 7:30 PM EST",
+      "detail": "8:05 - 1st",
       "date": "2026-11-19T00:30Z"
     },
     {
