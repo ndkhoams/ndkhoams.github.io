@@ -1,6 +1,68 @@
 {
-  "updated_at": "2026-11-20 06:31:06",
+  "updated_at": "2026-11-20 06:46:18",
   "live_events": [
+    {
+      "key": "20/11_07:00_northwesternstate_stephenfaustin",
+      "match_key": "20/11_07:00_northwesternstate_stephenfaustin",
+      "c_home": "stephenfaustin",
+      "c_away": "northwesternstate",
+      "homeTeam": "Stephen F. Austin",
+      "awayTeam": "Northwestern State",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:00 20/11] Stephen F. Austin vs Northwestern State (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18799/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/231.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_northwesternstate_stephenfaustin"
+        }
+      ],
+      "displayTitle": "🏈 [07:00 20/11] Stephen F. Austin vs Northwestern State",
+      "number": 1
+    },
+    {
+      "key": "20/11_07:00_nicholls_selouisiana",
+      "match_key": "20/11_07:00_nicholls_selouisiana",
+      "c_home": "nicholls",
+      "c_away": "selouisiana",
+      "homeTeam": "Nicholls",
+      "awayTeam": "Se Louisiana",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:00 20/11] Nicholls vs SE Louisiana (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18800/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/164.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_nicholls_selouisiana"
+        }
+      ],
+      "displayTitle": "🏈 [07:00 20/11] Nicholls vs Se Louisiana",
+      "number": 2
+    },
     {
       "key": "20/11_05:30_redbullbragantino_vitoriaba",
       "match_key": "20/11_05:30_redbullbragantino_vitoriaba",
@@ -39,7 +101,7 @@
         }
       ],
       "displayTitle": "🔴 [05:30 20/11] Vitoria _ Ba vs Red Bull Bragantino 33 Tv",
-      "number": 1
+      "number": 3
     },
     {
       "key": "20/11_05:30_internacionalrs_vascodagamasafrj",
@@ -79,7 +141,7 @@
         }
       ],
       "displayTitle": "🔴 [05:30 20/11] Vasco Da Gama Saf _ Rj vs Internacional _ Rs 33 Tv",
-      "number": 2
+      "number": 4
     },
     {
       "key": "20/11_05:30_internacional_vascodegama",
@@ -128,7 +190,193 @@
         }
       ],
       "displayTitle": "🔴 [05:30 20/11] Vasco vs Sport Club Internacional",
-      "number": 3
+      "number": 5
+    },
+    {
+      "key": "20/11_07:00_carolinahurricanes_montrealcanadiens",
+      "match_key": "20/11_07:00_carolinahurricanes_montrealcanadiens",
+      "c_home": "carolinahurricanes",
+      "c_away": "montrealcanadiens",
+      "homeTeam": "Carolina Hurricanes",
+      "awayTeam": "Montreal Canadiens",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Carolina Hurricanes vs Montreal Canadiens (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18692/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/676.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_carolinahurricanes_montrealcanadiens"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Carolina Hurricanes vs Montreal Canadiens",
+      "number": 6
+    },
+    {
+      "key": "20/11_07:00_ottawasenators_philadelphiaflyers",
+      "match_key": "20/11_07:00_ottawasenators_philadelphiaflyers",
+      "c_home": "ottawasenators",
+      "c_away": "philadelphiaflyers",
+      "homeTeam": "Ottawa Senators",
+      "awayTeam": "Philadelphia Flyers",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Ottawa Senators vs Philadelphia Flyers (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18663/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/693.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_ottawasenators_philadelphiaflyers"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Ottawa Senators vs Philadelphia Flyers",
+      "number": 7
+    },
+    {
+      "key": "20/11_07:00_pittsburghpenguins_stlouisblues",
+      "match_key": "20/11_07:00_pittsburghpenguins_stlouisblues",
+      "c_home": "pittsburghpenguins",
+      "c_away": "stlouisblues",
+      "homeTeam": "Pittsburgh Penguins",
+      "awayTeam": "St. Louis Blues",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Pittsburgh Penguins vs St. Louis Blues (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18685/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/696.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_pittsburghpenguins_stlouisblues"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Pittsburgh Penguins vs St. Louis Blues",
+      "number": 8
+    },
+    {
+      "key": "20/11_07:00_losangeleskings_torontomapleleafs",
+      "match_key": "20/11_07:00_losangeleskings_torontomapleleafs",
+      "c_home": "torontomapleleafs",
+      "c_away": "losangeleskings",
+      "homeTeam": "Toronto Maple Leafs",
+      "awayTeam": "Los Angeles Kings",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Toronto Maple Leafs vs Los Angeles Kings (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18694/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/700.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_losangeleskings_torontomapleleafs"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Toronto Maple Leafs vs Los Angeles Kings",
+      "number": 9
+    },
+    {
+      "key": "20/11_07:00_buffalosabres_washingtoncapitals",
+      "match_key": "20/11_07:00_buffalosabres_washingtoncapitals",
+      "c_home": "washingtoncapitals",
+      "c_away": "buffalosabres",
+      "homeTeam": "Washington Capitals",
+      "awayTeam": "Buffalo Sabres",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Washington Capitals vs Buffalo Sabres (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18696/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/703.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_buffalosabres_washingtoncapitals"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Washington Capitals vs Buffalo Sabres",
+      "number": 10
+    },
+    {
+      "key": "20/11_07:00_newyorkislanders_winnipegjets",
+      "match_key": "20/11_07:00_newyorkislanders_winnipegjets",
+      "c_home": "winnipegjets",
+      "c_away": "newyorkislanders",
+      "homeTeam": "Winnipeg Jets",
+      "awayTeam": "New York Islanders",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "20/11",
+      "timestamp": 1795132800000,
+      "league": "OTHER",
+      "leagueName": "NHL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏒 [07:00 20/11] Winnipeg Jets vs New York Islanders (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18669/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/704.png",
+          "competition": "NHL",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "20/11_07:00_newyorkislanders_winnipegjets"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 20/11] Winnipeg Jets vs New York Islanders",
+      "number": 11
     },
     {
       "key": "20/11_LIVE_internacionalrs_rj",
@@ -149,35 +397,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795134608-0-0-4556ba334dac5e79524ac0d39019e63f",
-          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795134608-0-0-8e6a8b79e303ec5f966bd6a700b73cee",
-          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
-          "name": "⚽ [05:30 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=96989c4079d7243f7e5ac8672832fd5b&txTime=6affdae0",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
           "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795134608-0-0-6c40895f125532ac88400e2b55a2a82d",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795135508-0-0-3435e10cdf9b868534eca5d9faa12692",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -185,8 +406,26 @@
           "match_key": "20/11_LIVE_internacionalrs_rj"
         },
         {
+          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795135508-0-0-ef044b435bfa90445e855fc154634e99",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
+          "name": "⚽ [05:30 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=2be26302dc0e58581ce6493df06c3b60&txTime=6affde64",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
           "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795134608-0-0-57694cd75cfc1a2858d327d09c449e95",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795135508-0-0-2c119dc3ed7e1289efbbb763c9424eb9",
           "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -195,8 +434,17 @@
         },
         {
           "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=33047383d016b80ba2029d71a961cd9d&txTime=6affdae0",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=1b1fce16facc89e48112c6d32660bd21&txTime=6affde64",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795135508-0-0-9c7c609e11f78554f5e8fb81075e8185",
+          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -204,69 +452,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 20/11] Rj vs Internacional - Rs",
-      "number": 4
-    },
-    {
-      "key": "20/11_07:00_northwesternstate_stephenfaustin",
-      "match_key": "20/11_07:00_northwesternstate_stephenfaustin",
-      "c_home": "stephenfaustin",
-      "c_away": "northwesternstate",
-      "homeTeam": "Stephen F. Austin",
-      "awayTeam": "Northwestern State",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "20/11",
-      "timestamp": 1795132800000,
-      "league": "NCAAF",
-      "leagueName": "NCAA Football",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏈 [07:00 20/11] Stephen F. Austin vs Northwestern State (us NCAAF) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18799/index.m3u8",
-          "logo": "https://media.api-sports.io/american-football/teams/231.png",
-          "competition": "NCAA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "20/11_07:00_northwesternstate_stephenfaustin"
-        }
-      ],
-      "displayTitle": "🏈 [07:00 20/11] Stephen F. Austin vs Northwestern State",
-      "number": 5
-    },
-    {
-      "key": "20/11_07:00_nicholls_selouisiana",
-      "match_key": "20/11_07:00_nicholls_selouisiana",
-      "c_home": "nicholls",
-      "c_away": "selouisiana",
-      "homeTeam": "Nicholls",
-      "awayTeam": "Se Louisiana",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "20/11",
-      "timestamp": 1795132800000,
-      "league": "NCAAF",
-      "leagueName": "NCAA Football",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏈 [07:00 20/11] Nicholls vs SE Louisiana (us NCAAF) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18800/index.m3u8",
-          "logo": "https://media.api-sports.io/american-football/teams/164.png",
-          "competition": "NCAA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "20/11_07:00_nicholls_selouisiana"
-        }
-      ],
-      "displayTitle": "🏈 [07:00 20/11] Nicholls vs Se Louisiana",
-      "number": 6
+      "number": 12
     },
     {
       "key": "20/11_07:30_jerryriceteam_temple",
@@ -297,7 +483,7 @@
         }
       ],
       "displayTitle": "🏈 [07:30 20/11] Temple vs Jerry Rice Team",
-      "number": 7
+      "number": 13
     },
     {
       "key": "20/11_08:00_goldenstatewarriors_memphisgrizzlies",
@@ -346,7 +532,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Memphis Grizzlies vs Golden State Warriors",
-      "number": 8
+      "number": 14
     },
     {
       "key": "20/11_08:00_milwaukeebucks_portlandtrailblazers",
@@ -395,7 +581,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Milwaukee Bucks vs Portland Trail Blazers",
-      "number": 9
+      "number": 15
     },
     {
       "key": "20/11_08:00_minnesotatimberwolves_newyorkknicks",
@@ -444,7 +630,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Minnesota Timberwolves vs New York Knicks",
-      "number": 10
+      "number": 16
     },
     {
       "key": "20/11_08:00_losangelesclippers_tottenham",
@@ -493,7 +679,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Tottenham Hotspur vs Los Angeles Clippers",
-      "number": 11
+      "number": 17
     },
     {
       "key": "20/11_08:15_houstontexans_indianapoliscolts",
@@ -533,7 +719,7 @@
         }
       ],
       "displayTitle": "🏈 [08:15 20/11] Houston Texans vs Indianapolis Colts",
-      "number": 12
+      "number": 18
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -564,7 +750,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 13
+      "number": 19
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -595,7 +781,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 14
+      "number": 20
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -646,7 +832,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 15
+      "number": 21
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -677,7 +863,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 16
+      "number": 22
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -708,7 +894,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 17
+      "number": 23
     },
     {
       "key": "21/11_02:30_bayern_koln",
@@ -741,7 +927,7 @@
         }
       ],
       "displayTitle": "⚽ [02:30 21/11] Bayern Munich vs FC Koln",
-      "number": 18
+      "number": 24
     },
     {
       "key": "21/11_02:45_lehavre_troyes",
@@ -774,7 +960,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 21/11] Troyes vs Le Havre",
-      "number": 19
+      "number": 25
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -807,7 +993,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 20
+      "number": 26
     },
     {
       "key": "21/11_22:00_chelsea_leeds",
@@ -840,7 +1026,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Chelsea vs Leeds",
-      "number": 21
+      "number": 27
     },
     {
       "key": "22/11_02:45_lille_lyon",
@@ -873,7 +1059,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lille vs Lyon",
-      "number": 22
+      "number": 28
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -906,7 +1092,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 23
+      "number": 29
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -939,7 +1125,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 24
+      "number": 30
     },
     {
       "key": "23/11_23:00_alahli_shamal",
@@ -972,7 +1158,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 25
+      "number": 31
     }
   ],
   "source_groups": [
@@ -1878,40 +2064,72 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795134608-0-0-83b6ee4ca42f86fde8038850e23ceaf2",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795135508-0-0-3435e10cdf9b868534eca5d9faa12692",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_ba_redbullbragantino"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795134608-0-0-8d5be38dad8257d706221a63bd7fc11a",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_ba_redbullbragantino"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795134608-0-0-a3a3f9dba23a08860b26b50d601b1181",
-          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_ba_redbullbragantino"
+          "match_key": "20/11_LIVE_internacionalrs_rj"
         },
         {
           "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795134608-0-0-4556ba334dac5e79524ac0d39019e63f",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795135508-0-0-ef044b435bfa90445e855fc154634e99",
           "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "20/11_LIVE_internacionalrs_rj"
         },
         {
+          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795135508-0-0-bf21d5f599de33cf8e999ca66d64397a",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_ba_redbullbragantino"
+        },
+        {
+          "name": "⚽ [05:30 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=2be26302dc0e58581ce6493df06c3b60&txTime=6affde64",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795135508-0-0-2c119dc3ed7e1289efbbb763c9424eb9",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV ASHAHI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795135508-0-0-d770dfc471db72ef4d372ecca3983992",
+          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_ba_redbullbragantino"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=1b1fce16facc89e48112c6d32660bd21&txTime=6affde64",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_internacionalrs_rj"
+        },
+        {
+          "name": "⚽ [LIVE 20/11] São Paulo - SP vs Fluminense - RJ (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795135508-0-0-9ea88fca57ffd30cd692d13d297f0066",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "20/11_LIVE_fluminenserj_sp"
+        },
+        {
           "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795134608-0-0-fe2131b5e91336b2aef600fca5294b93",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795135508-0-0-65825dcfdf3b4e44e17084a3644b15c6",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -1919,51 +2137,27 @@
         },
         {
           "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795134608-0-0-8e6a8b79e303ec5f966bd6a700b73cee",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795135508-0-0-9c7c609e11f78554f5e8fb81075e8185",
           "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "20/11_LIVE_internacionalrs_rj"
         },
         {
-          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795134608-0-0-4e2a12c7891df18e12481227f2c0d803",
-          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795135508-0-0-ba28bfc6eff4e67e437943bfdd41cebe",
+          "logo": "https://sta.vnres.co/file/common/20261002/8b16a006caa18f017772695acecfdfcb.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "20/11_LIVE_ba_redbullbragantino"
         },
         {
-          "name": "⚽ [05:30 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=96989c4079d7243f7e5ac8672832fd5b&txTime=6affdae0",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "name": "⚽ [LIVE 20/11] Vitória - BA vs Red Bull Bragantino (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795135508-0-0-2dc3db94e287ef76383cc338763fc58e",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795134608-0-0-6c40895f125532ac88400e2b55a2a82d",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795134608-0-0-57694cd75cfc1a2858d327d09c449e95",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
-        },
-        {
-          "name": "⚽ [LIVE 20/11] Vasco da Gama Saf - RJ vs Internacional - RS (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=33047383d016b80ba2029d71a961cd9d&txTime=6affdae0",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "20/11_LIVE_internacionalrs_rj"
+          "match_key": "20/11_LIVE_ba_redbullbragantino"
         }
       ]
     },
