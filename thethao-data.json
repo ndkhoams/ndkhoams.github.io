@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-11-19 13:42:24",
+  "updated_at": "2026-11-19 13:57:32",
   "live_events": [
+    {
+      "key": "19/11_LIVE_beijingroyalfighters_fujian",
+      "match_key": "19/11_LIVE_beijingroyalfighters_fujian",
+      "c_home": "fujian",
+      "c_away": "beijingroyalfighters",
+      "homeTeam": "Fujian",
+      "awayTeam": "Beijing Royal Fighters",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "19/11",
+      "timestamp": 1795064400000,
+      "league": "OTHER",
+      "leagueName": "CBACC",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 19/11] Fujian vs Beijing Royal Fighters (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795074968-0-0-449ef9774600b7d3fdcf2591d5103b38",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "CBACC",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_LIVE_beijingroyalfighters_fujian"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 19/11] Fujian vs Beijing Royal Fighters",
+      "number": 1
+    },
     {
       "key": "19/11_LIVE_jamaica_mexico",
       "match_key": "19/11_LIVE_jamaica_mexico",
@@ -21,7 +52,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 19/11] CON NL - Mexico vs Jamaica (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=903b5ae5aeb73dcba8f5354688fe9225&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=61927aff1d2f826ea2d6decce1580335&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/1db3698e8584e92aa74bce9ef133a136.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -30,37 +61,6 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 19/11] Mexico vs Jamaica",
-      "number": 1
-    },
-    {
-      "key": "19/11_LIVE_ratchaburi_tampinesrovers",
-      "match_key": "19/11_LIVE_ratchaburi_tampinesrovers",
-      "c_home": "tampinesrovers",
-      "c_away": "ratchaburi",
-      "homeTeam": "Tampines Rovers",
-      "awayTeam": "Ratchaburi",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "19/11",
-      "timestamp": 1795064400000,
-      "league": "OTHER",
-      "leagueName": "ASEAN CC",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=89d8961cc21100efbcd821d5a025e319&txTime=6afeee64",
-          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
-        }
-      ],
-      "displayTitle": "🔴 [LIVE 19/11] Tampines Rovers vs Ratchaburi",
       "number": 2
     },
     {
@@ -83,7 +83,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 19/11] ASEAN CC - Cong An Ho Chi Minh City vs Buriram United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=5bb756b3e8c4c705c9d724d7dd6c0d97&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=5a9dbc4abf99c3311bd06c08ceb8556c&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/6345253498ac0f7e66a1dac0f13c7266.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -93,6 +93,37 @@
       ],
       "displayTitle": "🔴 [LIVE 19/11] TP Ho Chi Minh vs Buriram United",
       "number": 3
+    },
+    {
+      "key": "19/11_LIVE_ratchaburi_tampinesrovers",
+      "match_key": "19/11_LIVE_ratchaburi_tampinesrovers",
+      "c_home": "tampinesrovers",
+      "c_away": "ratchaburi",
+      "homeTeam": "Tampines Rovers",
+      "awayTeam": "Ratchaburi",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "19/11",
+      "timestamp": 1795064400000,
+      "league": "OTHER",
+      "leagueName": "ASEAN CC",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=83020d6a3629c58a245cb8f18cf848b4&txTime=6afef1e8",
+          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 19/11] Tampines Rovers vs Ratchaburi",
+      "number": 4
     },
     {
       "key": "20/11_08:00_goldenstatewarriors_memphisgrizzlies",
@@ -123,7 +154,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Memphis Grizzlies vs Golden State Warriors",
-      "number": 4
+      "number": 5
     },
     {
       "key": "20/11_08:00_milwaukeebucks_portlandtrailblazers",
@@ -154,7 +185,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Milwaukee Bucks vs Portland Trail Blazers",
-      "number": 5
+      "number": 6
     },
     {
       "key": "20/11_08:00_minnesotatimberwolves_newyorkknicks",
@@ -185,7 +216,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Minnesota Timberwolves vs New York Knicks",
-      "number": 6
+      "number": 7
     },
     {
       "key": "20/11_08:00_losangelesclippers_tottenham",
@@ -216,7 +247,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 20/11] Tottenham Hotspur vs Los Angeles Clippers",
-      "number": 7
+      "number": 8
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -247,7 +278,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 8
+      "number": 9
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -278,7 +309,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 9
+      "number": 10
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -309,7 +340,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 10
+      "number": 11
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -340,7 +371,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 11
+      "number": 12
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -371,7 +402,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 12
+      "number": 13
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -404,7 +435,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 13
+      "number": 14
     }
   ],
   "source_groups": [
@@ -1362,42 +1393,50 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
+          "name": "⚽ [LIVE 19/11] Fujian vs Beijing Royal Fighters (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795074968-0-0-449ef9774600b7d3fdcf2591d5103b38",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "CBACC",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_beijingroyalfighters_fujian"
+        },
+        {
           "name": "⚽ [LIVE 19/11] CON NL - Mexico vs Jamaica (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=903b5ae5aeb73dcba8f5354688fe9225&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=61927aff1d2f826ea2d6decce1580335&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/1db3698e8584e92aa74bce9ef133a136.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_jamaica_mexico"
         },
         {
-          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=89d8961cc21100efbcd821d5a025e319&txTime=6afeee64",
-          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
-        },
-        {
           "name": "⚽ [LIVE 19/11] UEFA WCL - BK Hacken Women vs Manchester City Women (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=390c13f35188d35b7f2e5109dbedb410&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=87e12f013c0a7a9da0b213d32c3bce13&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/291a4d640fe67d8dc30867f5f937aeb7.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 19/11] UEFA WCL - Chelsea FC Women vs Paris Saint Germain Women (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=71d273b2b365e9679f10fd981ee8d0ad&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=22dedd06d616bbc24ba63a2dcb7162cf&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/a1661676af7e59c41aa44697ec8d446d.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 19/11] ASEAN CC - Cong An Ho Chi Minh City vs Buriram United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=5bb756b3e8c4c705c9d724d7dd6c0d97&txTime=6afeee64",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=5a9dbc4abf99c3311bd06c08ceb8556c&txTime=6afef1e8",
           "logo": "https://sta.vnres.co/file/common/20261119/6345253498ac0f7e66a1dac0f13c7266.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_buriramunited_tphcm"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=83020d6a3629c58a245cb8f18cf848b4&txTime=6afef1e8",
+          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
         }
       ]
     },
