@@ -1,104 +1,6 @@
 {
-  "updated_at": "2026-11-19 09:53:28",
+  "updated_at": "2026-11-19 10:08:57",
   "live_events": [
-    {
-      "key": "19/11_07:00_intermiami_milwaukeebucks",
-      "match_key": "19/11_07:00_intermiami_milwaukeebucks",
-      "c_home": "intermiami",
-      "c_away": "milwaukeebucks",
-      "homeTeam": "Inter Miami",
-      "awayTeam": "Milwaukee Bucks",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "19/11",
-      "timestamp": 1795046400000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:00 19/11] Miami Heat vs Milwaukee Bucks (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18624/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/147.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "19/11_07:00_intermiami_milwaukeebucks"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 19/11] Inter Miami vs Milwaukee Bucks",
-      "number": 1
-    },
-    {
-      "key": "19/11_07:30_torontoraptors_washingtonwizards",
-      "match_key": "19/11_07:30_torontoraptors_washingtonwizards",
-      "c_home": "torontoraptors",
-      "c_away": "washingtonwizards",
-      "homeTeam": "Toronto Raptors",
-      "awayTeam": "Washington Wizards",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "19/11",
-      "timestamp": 1795048200000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18612/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/159.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] Toronto Raptors vs Washington Wizards (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795060328-0-0-2da9a8a87ee3d3aca03693eedecf8ed1",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
-          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (BLV Hấu) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1794995882_hd/1794995882_hd@720p.m3u8",
-          "logo": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
-          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (BLV TARZAAN) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/56998120.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
-          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (BLV TARZAAN) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/56998120_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        }
-      ],
-      "displayTitle": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards",
-      "number": 2
-    },
     {
       "key": "19/11_08:00_atlantahawks_oklahomacitythunder",
       "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder",
@@ -128,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795060328-0-0-c916c1bd583e45ff0243e1abe0a6e62c",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795061228-0-0-c414f53b66c601763f156e74b35d4c1b",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -164,7 +66,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks",
-      "number": 3
+      "number": 1
     },
     {
       "key": "19/11_08:00_detroitpistons_neworleanspelicans",
@@ -204,7 +106,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] New Orleans Pelicans vs Detroit Pistons",
-      "number": 4
+      "number": 2
     },
     {
       "key": "19/11_08:00_dallasmavericks_goldenstatewarriors",
@@ -262,7 +164,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors",
-      "number": 5
+      "number": 3
     },
     {
       "key": "19/11_09:30_bostonceltics_denvernuggets",
@@ -293,7 +195,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Denver Nuggets vs Boston Celtics (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795060328-0-0-3ea885ebb15b652615fd73231c9c9873",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795061228-0-0-45ab476875dc4ecb0bf47415c130f9cc",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -302,7 +204,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Denver Nuggets vs Boston Celtics (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795060328-0-0-71069250e6974abbe0e257eb8b59ca9c",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795061228-0-0-96b64e3153a934bf28d2c33cba722ea9",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -329,7 +231,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 19/11] Denver Nuggets vs Boston Celtics",
-      "number": 6
+      "number": 4
     },
     {
       "key": "19/11_10:00_losangeleslakers_utahjazz",
@@ -359,8 +261,17 @@
           "match_key": "19/11_10:00_losangeleslakers_utahjazz"
         },
         {
+          "name": "⚽ [LIVE 19/11] Los Angeles Lakers vs Utah Jazz (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795061228-0-0-e365855d087d4177d4135c028dfdc97a",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "19/11_10:00_losangeleslakers_utahjazz"
+        },
+        {
           "name": "⚽ [LIVE 19/11] Los Angeles Lakers vs Utah Jazz (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795060328-0-0-f4452e5ced9492f1806bc82b2dbb827c",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795061228-0-0-11691186f5327014de5287788d28c718",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -369,7 +280,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Los Angeles Lakers vs Utah Jazz",
-      "number": 7
+      "number": 5
     },
     {
       "key": "19/11_10:00_phoenixsuns_sacramentokings",
@@ -400,7 +311,7 @@
         },
         {
           "name": "⚽ [LIVE 19/11] Sacramento Kings vs Phoenix Suns (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795060328-0-0-3387308ba8c0ad8bd4830d41241d3384",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795061228-0-0-9fc285d2df62f1f7bcda7de1762051db",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -409,7 +320,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 19/11] Sacramento Kings vs Phoenix Suns",
-      "number": 8
+      "number": 6
     },
     {
       "key": "19/11_10:00_coloradoavalanche_utahmammoth",
@@ -440,7 +351,7 @@
         }
       ],
       "displayTitle": "🔴 [10:00 19/11] Utah Mammoth vs Colorado Avalanche",
-      "number": 9
+      "number": 7
     },
     {
       "key": "20/11_17:30_imili_zira",
@@ -471,7 +382,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 20/11] Imili vs Zira",
-      "number": 10
+      "number": 8
     },
     {
       "key": "20/11_18:30_balestierkhalsa_jurong",
@@ -502,7 +413,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 20/11] Jurong vs Balestier Khalsa",
-      "number": 11
+      "number": 9
     },
     {
       "key": "20/11_18:35_beijingguoan_shanghaiport",
@@ -533,7 +444,7 @@
         }
       ],
       "displayTitle": "⚽ [18:35 20/11] Beijing Guoan vs Shanghai Port",
-      "number": 12
+      "number": 10
     },
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -564,7 +475,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 20/11] Shakhtar Donetsk vs Livyi Bereh",
-      "number": 13
+      "number": 11
     },
     {
       "key": "20/11_23:30_krylyasovetov_rostov",
@@ -595,7 +506,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 20/11] Rostov vs Krylya Sovetov",
-      "number": 14
+      "number": 12
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -628,7 +539,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 15
+      "number": 13
     }
   ],
   "source_groups": [
@@ -1273,42 +1184,6 @@
           "group": "F4K Sport"
         },
         {
-          "name": "🏀 [07:30 19/11] Brooklyn Nets vs Chicago Bulls (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18621/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/134.png",
-          "competition": "NBA",
-          "group": "F4K Sport"
-        },
-        {
-          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18612/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/159.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
-          "name": "🏒 [07:30 19/11] Detroit Red Wings vs Boston Bruins (us NHL) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18666/index.m3u8",
-          "logo": "https://media.api-sports.io/hockey/teams/682.png",
-          "competition": "NHL",
-          "group": "F4K Sport"
-        },
-        {
-          "name": "🏒 [07:30 19/11] New Jersey Devils vs Montreal Canadiens (us NHL) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18691/index.m3u8",
-          "logo": "https://media.api-sports.io/hockey/teams/690.png",
-          "competition": "NHL",
-          "group": "F4K Sport"
-        },
-        {
-          "name": "⚽ [08:00 19/11] Dynamite #372 (us max) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18787/index.m3u8",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "AEW",
-          "group": "F4K Sport"
-        },
-        {
           "name": "🏀 [08:00 19/11] Oklahoma City Thunder vs Atlanta Hawks (us NBA) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18647/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/152.png",
@@ -1341,21 +1216,6 @@
           "match_key": "19/11_09:30_bostonceltics_denvernuggets"
         },
         {
-          "name": "🏀 [07:00 19/11] Miami Heat vs Milwaukee Bucks (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18624/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/147.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "match_key": "19/11_07:00_intermiami_milwaukeebucks"
-        },
-        {
-          "name": "🏀 [07:00 19/11] Orlando Magic vs Philadelphia 76ers (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18646/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/153.png",
-          "competition": "NBA",
-          "group": "F4K Sport"
-        },
-        {
           "name": "🏀 [10:00 19/11] Los Angeles Lakers vs Utah Jazz (us NBA) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18643/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/145.png",
@@ -1378,6 +1238,34 @@
           "competition": "NHL",
           "group": "F4K Sport",
           "match_key": "19/11_10:00_coloradoavalanche_utahmammoth"
+        },
+        {
+          "name": "🏀 [07:00 19/11] Miami Heat vs Milwaukee Bucks (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18624/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/147.png",
+          "competition": "NBA",
+          "group": "F4K Sport"
+        },
+        {
+          "name": "🏒 [07:30 19/11] Detroit Red Wings vs Boston Bruins (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18666/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/682.png",
+          "competition": "NHL",
+          "group": "F4K Sport"
+        },
+        {
+          "name": "🏒 [07:30 19/11] New Jersey Devils vs Montreal Canadiens (us NHL) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18691/index.m3u8",
+          "logo": "https://media.api-sports.io/hockey/teams/690.png",
+          "competition": "NHL",
+          "group": "F4K Sport"
+        },
+        {
+          "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18612/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/159.png",
+          "competition": "NBA",
+          "group": "F4K Sport"
         },
         {
           "name": "⚽ [19:50 19/11] U17 Pháp vs U17 Haiti (TV360+ 5) - F4K Sport",
@@ -1578,98 +1466,98 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 19/11] Los Angeles Lakers vs Utah Jazz (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795060328-0-0-f4452e5ced9492f1806bc82b2dbb827c",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_10:00_losangeleslakers_utahjazz"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Denver Nuggets vs Boston Celtics (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795060328-0-0-3ea885ebb15b652615fd73231c9c9873",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795061228-0-0-45ab476875dc4ecb0bf47415c130f9cc",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_09:30_bostonceltics_denvernuggets"
         },
         {
-          "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795060328-0-0-c916c1bd583e45ff0243e1abe0a6e62c",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "name": "⚽ [LIVE 19/11] Los Angeles Lakers vs Utah Jazz (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795061228-0-0-e365855d087d4177d4135c028dfdc97a",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+          "match_key": "19/11_10:00_losangeleslakers_utahjazz"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] Los Angeles Lakers vs Utah Jazz (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795061228-0-0-11691186f5327014de5287788d28c718",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_10:00_losangeleslakers_utahjazz"
         },
         {
           "name": "⚽ [LIVE 19/11] Sacramento Kings vs Phoenix Suns (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795060328-0-0-3387308ba8c0ad8bd4830d41241d3384",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795061228-0-0-9fc285d2df62f1f7bcda7de1762051db",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_10:00_phoenixsuns_sacramentokings"
         },
         {
-          "name": "⚽ [LIVE 19/11] Toronto Raptors vs Washington Wizards (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795060328-0-0-2da9a8a87ee3d3aca03693eedecf8ed1",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
-        },
-        {
           "name": "⚽ [LIVE 19/11] Denver Nuggets vs Boston Celtics (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795060328-0-0-71069250e6974abbe0e257eb8b59ca9c",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795061228-0-0-96b64e3153a934bf28d2c33cba722ea9",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_09:30_bostonceltics_denvernuggets"
         },
         {
+          "name": "⚽ [LIVE 19/11] Oklahoma City Thunder vs Atlanta Hawks (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795061228-0-0-c414f53b66c601763f156e74b35d4c1b",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_08:00_atlantahawks_oklahomacitythunder"
+        },
+        {
           "name": "⚽ [LIVE 19/11] UEFA WCL - Chelsea FC Women vs Paris Saint Germain Women (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=f676817fbba5e14f7cbf7cbb801e153c&txTime=6afeb8b8",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=13a2813e10018067bc6e7039fd13e95e&txTime=6afebc3c",
           "logo": "https://sta.vnres.co/file/common/20261119/a1661676af7e59c41aa44697ec8d446d.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 19/11] CON NL - Mexico vs Jamaica (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=1567e9d25451ea7f8737ce5ba1b852e0&txTime=6afeb8b8",
-          "logo": "https://sta.vnres.co/file/common/20261119/1db3698e8584e92aa74bce9ef133a136.png",
+          "name": "⚽ [LIVE 19/11] EGY Cup - El Gouna vs Al Ittihad (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=c3ff735992d4f499366ab91970528395&txTime=6afebc3c",
+          "logo": "https://sta.vnres.co/file/common/20261119/b636b2a3ea80f29882026979217fb28b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_jamaica_mexico"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=9aa9f4e20fb4454a14d3c9efd54dc99b&txTime=6afeb8b8",
-          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
-        },
-        {
-          "name": "⚽ [LIVE 19/11] UEFA WCL - BK Hacken Women vs Manchester City Women (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=b2c2a20f3896c41ec0adf772f03969de&txTime=6afeb8b8",
-          "logo": "https://sta.vnres.co/file/common/20261119/291a4d640fe67d8dc30867f5f937aeb7.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
+          "match_key": "19/11_LIVE_alittihad_elgouna"
         },
         {
           "name": "⚽ [LIVE 19/11] ASEAN CC - Cong An Ho Chi Minh City vs Buriram United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=9e48adfa50cc13e8476885c7ae1b2a9a&txTime=6afeb8b8",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=94c0f08a4054ddc910c5abc634342472&txTime=6afebc3c",
           "logo": "https://sta.vnres.co/file/common/20261119/6345253498ac0f7e66a1dac0f13c7266.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "19/11_LIVE_buriramunited_tphcm"
         },
         {
-          "name": "⚽ [LIVE 19/11] EGY Cup - El Gouna vs Al Ittihad (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=636cadd9d8e3b59a079138b654bf949a&txTime=6afeb8b8",
-          "logo": "https://sta.vnres.co/file/common/20261119/b636b2a3ea80f29882026979217fb28b.png",
+          "name": "⚽ [LIVE 19/11] ASEAN CC - Tampines Rovers FC vs Ratchaburi FC (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=8a9dc65ac224752880b0877ad353b0bf&txTime=6afebc3c",
+          "logo": "https://sta.vnres.co/file/common/20261119/154b43c490fe6fc13969bcf1854db1a0.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "19/11_LIVE_alittihad_elgouna"
+          "match_key": "19/11_LIVE_ratchaburi_tampinesrovers"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] CON NL - Mexico vs Jamaica (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=cd38c96d1c19d937fb46d8b25db84cab&txTime=6afebc3c",
+          "logo": "https://sta.vnres.co/file/common/20261119/1db3698e8584e92aa74bce9ef133a136.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "19/11_LIVE_jamaica_mexico"
+        },
+        {
+          "name": "⚽ [LIVE 19/11] UEFA WCL - BK Hacken Women vs Manchester City Women (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=96c7ed8fc0356dd06a3edf449f8abfbe&txTime=6afebc3c",
+          "logo": "https://sta.vnres.co/file/common/20261119/291a4d640fe67d8dc30867f5f937aeb7.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
         }
       ]
     },
@@ -1892,8 +1780,7 @@
           "url": "https://pzhgifbkllliv.vcdn.cloud/1794995882_hd/1794995882_hd@720p.m3u8",
           "logo": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
+          "group": "⚡ Giờ Vàng TV"
         },
         {
           "name": "🏀 [07:30 19/11] Brooklyn Nets vs Chicago Bulls (BLV Mason) [hls] - Giờ Vàng TV",
@@ -2234,16 +2121,14 @@
           "url": "https://live05.wecile.app/live/56998120.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "🏀 [07:30 19/11] Toronto Raptors vs Washington Wizards (BLV TARZAAN) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/56998120_tsc.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "19/11_07:30_torontoraptors_washingtonwizards"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "🏀 [08:00 19/11] Dallas Mavericks vs Golden State Warriors (BLV LIPTON) [hls] - Cola TV",
@@ -3035,11 +2920,11 @@
       "home_team": "Miami Heat",
       "away_team": "Milwaukee Bucks",
       "home_score": "137",
-      "away_score": "123",
+      "away_score": "130",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "1:03 - 4th",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final",
       "date": "2026-11-19T00:00Z"
     },
     {
@@ -3067,56 +2952,56 @@
     {
       "home_team": "Toronto Raptors",
       "away_team": "Washington Wizards",
-      "home_score": "94",
-      "away_score": "100",
+      "home_score": "99",
+      "away_score": "103",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "1:46 - 4th",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final",
       "date": "2026-11-19T00:30Z"
     },
     {
       "home_team": "New Orleans Pelicans",
       "away_team": "Detroit Pistons",
-      "home_score": "83",
-      "away_score": "92",
+      "home_score": "90",
+      "away_score": "104",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "1:01 - 3rd",
+      "detail": "7:58 - 4th",
       "date": "2026-11-19T01:00Z"
     },
     {
       "home_team": "Oklahoma City Thunder",
       "away_team": "Atlanta Hawks",
-      "home_score": "86",
-      "away_score": "92",
+      "home_score": "102",
+      "away_score": "114",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "10:43 - 4th",
+      "detail": "2:38 - 4th",
       "date": "2026-11-19T01:00Z"
     },
     {
       "home_team": "Dallas Mavericks",
       "away_team": "Golden State Warriors",
-      "home_score": "93",
-      "away_score": "70",
+      "home_score": "99",
+      "away_score": "76",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "1:02 - 3rd",
+      "detail": "8:34 - 4th",
       "date": "2026-11-19T01:00Z"
     },
     {
       "home_team": "Denver Nuggets",
       "away_team": "Boston Celtics",
-      "home_score": "5",
-      "away_score": "8",
+      "home_score": "17",
+      "away_score": "20",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "7:38 - 1st",
+      "detail": "2:40 - 1st",
       "date": "2026-11-19T02:30Z"
     },
     {
