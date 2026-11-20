@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 05:10:14",
+  "updated_at": "2026-11-21 05:25:18",
   "live_events": [
     {
       "key": "21/11_03:45_paredes_porto",
@@ -30,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] FC Porto vs Paredes (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795216148-0-0-67ec1445f92c12760642f1ac2dc1c474",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795217048-0-0-2b665800e9c1e746b857315f30a44293",
           "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
           "competition": "POR Cup",
           "group": "🐿️ SocoLive",
@@ -39,7 +39,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] FC Porto vs Paredes (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795216148-0-0-24369527e0f79316cbeb455771e64794",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795217048-0-0-62d957a972eb5a35aebb83c99b840089",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "POR Cup",
           "group": "🐿️ SocoLive",
@@ -1177,6 +1177,39 @@
       "number": 26
     },
     {
+      "key": "22/11_02:45_napoli_torino",
+      "match_key": "22/11_02:45_napoli_torino",
+      "c_home": "napoli",
+      "c_away": "torino",
+      "homeTeam": "Napoli",
+      "awayTeam": "Torino",
+      "homeLogo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+      "time": "02:45",
+      "date": "22/11",
+      "timestamp": 1795290300000,
+      "league": "SERIE_A",
+      "leagueName": "Serie A",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_seriea",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [02:45 22/11] Napoli vs Torino (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+          "competition": "Serie A",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "22/11_02:45_napoli_torino"
+        }
+      ],
+      "displayTitle": "⚽ [02:45 22/11] Napoli vs Torino",
+      "number": 27
+    },
+    {
       "key": "22/11_02:45_lille_lyon",
       "match_key": "22/11_02:45_lille_lyon",
       "c_home": "lille",
@@ -1207,7 +1240,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lille vs Lyon",
-      "number": 27
+      "number": 28
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -1240,7 +1273,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 28
+      "number": 29
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -1273,7 +1306,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 29
+      "number": 30
     },
     {
       "key": "23/11_23:00_alahli_shamal",
@@ -1306,7 +1339,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 30
+      "number": 31
     }
   ],
   "source_groups": [
@@ -1757,6 +1790,16 @@
           "match_key": "22/11_00:30_arsenal_newcastle"
         },
         {
+          "name": "⚽ [02:45 22/11] Napoli vs Torino (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+          "competition": "Serie A",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "22/11_02:45_napoli_torino"
+        },
+        {
           "name": "⚽ [02:45 22/11] Lille vs Lyon (BLV Khô Cá) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/160_lille.jpg",
@@ -2128,6 +2171,18 @@
           "match_key": "21/11_22:00_coventrycity_crystalpalace"
         },
         {
+          "name": "🏎️ [07:20 21/11] Đua xe: Formula 1 Heineken Las Vegas Grand Prix 2026, Phiên đua tập 3, 7 giờ 30, ngày 21/11, Kênh TV360+ 12 (TV360+ 12) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMjA0MjEsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.Nlt-zHYHq9PKzfg40OszElsrv-vNsbMJbhgK4GqmBa4&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/19/11/1795062506915/4f1ec9ff3ff0_1280_720.jpg",
+          "competition": "Đua xe",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "6db5c5c963365f6fafa1a23b8a06bd67",
+            "key": "1a0727fcea62de4e4471ebb0aaaec628"
+          }
+        },
+        {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
           "url": "https://rr1-ateme.tv360.vn/live/eds/198198/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5ODE5OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTIyMDI3NH0.sjObuKLwr5LWPqT-O5G9Qyr5YdccSilg6pQdzF8RzT7U5WIBjda5LoSERfo-ezTgSuLqWQ8U-dxYXU3EpR2Fpw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
@@ -2240,17 +2295,6 @@
           "clearKey": null
         },
         {
-          "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMjA0MjEsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.Nlt-zHYHq9PKzfg40OszElsrv-vNsbMJbhgK4GqmBa4&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "6db5c5c963365f6fafa1a23b8a06bd67",
-            "key": "1a0727fcea62de4e4471ebb0aaaec628"
-          }
-        },
-        {
           "name": "📺 TV360+ 13 (Trực tiếp) - TV360",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMjA0MjQsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ._mC44xyIEdR0xUN-ELgbeSYcBFbnrOveXA9fGZmfz5c&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png",
@@ -2305,8 +2349,16 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
+          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795217048-0-0-0910fd1b836155d3130d8481b2e0060e",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Cobresal vs Audax Italiano (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795216148-0-0-305a48d620ecf2226d90670083f5811e",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795217048-0-0-d75147f0ac9ec4c6932455cb4a74e13b",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
@@ -2314,43 +2366,35 @@
         },
         {
           "name": "⚽ [LIVE 21/11] FC Porto vs Paredes (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795216148-0-0-67ec1445f92c12760642f1ac2dc1c474",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795217048-0-0-2b665800e9c1e746b857315f30a44293",
           "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
           "competition": "POR Cup",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_03:45_paredes_porto"
         },
         {
-          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795216148-0-0-52768808e1135a9ac5445e2f33a5b431",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "COL D1",
+          "name": "⚽ [LIVE 21/11] FC Porto vs Paredes (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795217048-0-0-62d957a972eb5a35aebb83c99b840089",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "POR Cup",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795216148-0-0-da5070c06ff5b2868d99501ced476bba",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
+          "match_key": "21/11_03:45_paredes_porto"
         },
         {
           "name": "⚽ [LIVE 21/11] Cobresal vs Audax Italiano (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795216148-0-0-ff49eba1de8dd0cb40df5d4c4e516172",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795217048-0-0-97c464e0124c45f336104c7cccd4c1e5",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_audaxitaliano_cobresal"
         },
         {
-          "name": "⚽ [LIVE 21/11] FC Porto vs Paredes (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795216148-0-0-24369527e0f79316cbeb455771e64794",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "POR Cup",
+          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795217048-0-0-43d7203a752fc1e4d21ef9a8ccbacd34",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "COL D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_03:45_paredes_porto"
+          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
         }
       ]
     },
