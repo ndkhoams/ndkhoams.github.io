@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 00:20:32",
+  "updated_at": "2026-11-21 00:35:29",
   "live_events": [
     {
       "key": "20/11_23:00_livyibereh_shakhtardonetsk",
@@ -111,40 +111,119 @@
       "number": 2
     },
     {
+      "key": "20/11_22:20_croatia_youth_senegal_youth",
+      "match_key": "20/11_22:20_croatia_youth_senegal_youth",
+      "c_home": "senegal_youth",
+      "c_away": "croatia_youth",
+      "homeTeam": "Senegal U17",
+      "awayTeam": "Croatia U17",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "22:20",
+      "date": "20/11",
+      "timestamp": 1795188000000,
+      "league": "OTHER",
+      "leagueName": "U17 Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:20 20/11] U17 Senegal vs U17 Croatia (TV360+ 8) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMDIwMDEsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.VyavUYVG_ANfWHI12JcA1Dq3M3PvsyfO7EcVm-Lm9Cw&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/11/1794802305700/6ac2bc96818a_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "61ad3fc7fc925b7db48270e2b0165669",
+            "key": "c397368031e9c215d86412fa0a14a565"
+          },
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        },
+        {
+          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV Trĩ) [hls] - Giờ Vàng TV",
+          "url": "https://pzhgifbkllliv.vcdn.cloud/1795101677_hd/1795101677_hd@720p.m3u8",
+          "logo": "https://images.keovip88.net/images/teams/senegal-u17.png",
+          "competition": "",
+          "group": "⚡ Giờ Vàng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        },
+        {
+          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV NGƯỜI NHỆN) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/sen-cro-wcu17/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/fc4ea5f5-aebb-4afa-9986-841388c5180d",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        },
+        {
+          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/301238.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        },
+        {
+          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV AQUA) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/18812304.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        },
+        {
+          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV AQUA) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/18812304_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:20_croatia_youth_senegal_youth"
+        }
+      ],
+      "displayTitle": "🔴 [22:20 20/11] Senegal U17 vs Croatia U17",
+      "number": 3
+    },
+    {
       "key": "20/11_22:25_ajman_alahli",
       "match_key": "20/11_22:25_ajman_alahli",
       "c_home": "alahli",
       "c_away": "ajman",
       "homeTeam": "Al Ahli",
       "awayTeam": "Ajman",
-      "homeLogo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/7833_ajman.jpg",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "22:25",
       "date": "20/11",
       "timestamp": 1795188300000,
       "league": "OTHER",
-      "leagueName": "Pro League",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [22:25 20/11] Shabab Al-Ahli Dubai vs Ajman (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7833_ajman.jpg",
-          "competition": "Pro League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "20/11_22:25_ajman_alahli"
-        },
         {
           "name": "⚽ [22:25 20/11] Shabab Al Ahli vs Ajman (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/05e87b1dbb904915a4a97fc095b73d20.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "20/11_22:25_ajman_alahli"
+        },
+        {
+          "name": "⚽ [22:25 20/11] Shabab Al-Ahli Dubai vs Ajman (BLV Khô Cay) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
           "ref": "https://tqm-mos.com/",
           "match_key": "20/11_22:25_ajman_alahli"
         },
@@ -195,96 +274,6 @@
         }
       ],
       "displayTitle": "🔴 [22:25 20/11] Al Ahli vs Ajman",
-      "number": 3
-    },
-    {
-      "key": "20/11_22:30_croatia_youth_senegal_youth",
-      "match_key": "20/11_22:30_croatia_youth_senegal_youth",
-      "c_home": "senegal_youth",
-      "c_away": "croatia_youth",
-      "homeTeam": "Senegal U17",
-      "awayTeam": "Croatia U17",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "22:30",
-      "date": "20/11",
-      "timestamp": 1795188600000,
-      "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 Vs Croatia U17 (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
-          "competition": "FIFA U17 World Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:20 20/11] U17 Senegal vs U17 Croatia (TV360+ 8) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMDIwMDEsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.VyavUYVG_ANfWHI12JcA1Dq3M3PvsyfO7EcVm-Lm9Cw&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/11/1794802305700/6ac2bc96818a_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "61ad3fc7fc925b7db48270e2b0165669",
-            "key": "c397368031e9c215d86412fa0a14a565"
-          },
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV Trĩ) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1795101677_hd/1795101677_hd@720p.m3u8",
-          "logo": "https://images.keovip88.net/images/teams/senegal-u17.png",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV NGƯỜI NHỆN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/sen-cro-wcu17/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/fc4ea5f5-aebb-4afa-9986-841388c5180d",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/301238.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV AQUA) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/18812304.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [22:30 20/11] Senegal U17 vs Croatia U17 (BLV AQUA) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/18812304_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/81a0c4689fb7ce553a0d5c2fd19b6efd.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "20/11_22:30_croatia_youth_senegal_youth"
-        }
-      ],
-      "displayTitle": "🔴 [22:30 20/11] Senegal U17 vs Croatia U17",
       "number": 4
     },
     {
@@ -294,8 +283,8 @@
       "c_away": "voluntari",
       "homeTeam": "Botosani",
       "awayTeam": "Cs Voluntari",
-      "homeLogo": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/6195_voluntari.jpg",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "22:30",
       "date": "20/11",
       "timestamp": 1795188600000,
@@ -315,23 +304,21 @@
           "match_key": "20/11_22:30_botosani_voluntari"
         },
         {
-          "name": "⚽ [22:30 20/11] FC Botosani vs FC Voluntari (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/6195_voluntari.jpg",
-          "competition": "Liga I",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "20/11_22:30_botosani_voluntari"
-        },
-        {
           "name": "⚽ [22:30 20/11] FC Botosani vs FC Voluntari (RO Prima Sport 1) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18798/index.m3u8",
           "logo": "https://film4k.pl/api/antsimg/football/teams/2581.png",
           "competition": "Liga I",
           "group": "F4K Sport",
           "ref": "https://film4k.pl/",
+          "match_key": "20/11_22:30_botosani_voluntari"
+        },
+        {
+          "name": "⚽ [22:30 20/11] FC Botosani vs FC Voluntari (BLV Khô Cá) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/210_botoani.jpg",
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
+          "ref": "https://tqm-mos.com/",
           "match_key": "20/11_22:30_botosani_voluntari"
         },
         {
@@ -741,18 +728,9 @@
           "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795198749-0-0-82e651c1a87e9f6b9d9a437c8206104a",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_00:30_alahli_alnassr"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795198749-0-0-6232a48bd187ed740129f606ae16c885",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795199648-0-0-dc7cef0a4f044450a1d8b0c05edfd404",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -760,7 +738,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=c982407724e3e1772f6be5982f363ac0&txTime=6b00d56c",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=660dff3c2dbaa753b1db849f08ed4712&txTime=6b00d8f0",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive",
@@ -769,7 +747,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795198749-0-0-b7eddeb6fdd72c71efcd189ead10d04d",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795199648-0-0-a2b7d419a27fbec730ebd8b84626892e",
           "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive",
@@ -777,9 +755,27 @@
           "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795198749-0-0-4b79173a5b8c47e0146ac890de7b62f0",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795199648-0-0-20133b9f235730070406cd78c8be0630",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "KSA PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_00:30_alahli_alnassr"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795199648-0-0-8044a4ff6aa93bb1d3a97ca652a5fb67",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "KSA PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_00:30_alahli_alnassr"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795199649-0-0-35da06b67ec59a625cf2ccf77a44303c",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -835,14 +831,14 @@
       "number": 13
     },
     {
-      "key": "21/11_00:30_1magdeburg_arminiabielefeld",
-      "match_key": "21/11_00:30_1magdeburg_arminiabielefeld",
+      "key": "21/11_00:30_arminiabielefeld_magdeburg",
+      "match_key": "21/11_00:30_arminiabielefeld_magdeburg",
       "c_home": "arminiabielefeld",
-      "c_away": "1magdeburg",
+      "c_away": "magdeburg",
       "homeTeam": "Dsc Arminia Bielefeld",
       "awayTeam": "Magdeburg",
-      "homeLogo": "",
-      "awayLogo": "",
+      "homeLogo": "https://apiv3.apifootball.com/badges/4269_arminia-bielefeld.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3960_magdeburg.jpg",
       "time": "00:30",
       "date": "21/11",
       "timestamp": 1795195800000,
@@ -853,49 +849,60 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "⚽ [00:30 21/11] Arminia Bielefeld vs Magdeburg (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/4269_arminia-bielefeld.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/4269_arminia-bielefeld.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3960_magdeburg.jpg",
+          "competition": "2. Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
+        },
+        {
           "name": "⚽ [00:30 21/11] Arminia Bielefeld vs 1. FC Magdeburg (de Sky Sport Bundesliga 4) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18816/index.m3u8",
           "logo": "https://film4k.pl/api/antsimg/football/teams/188.png",
           "competition": "2. Bundesliga",
           "group": "F4K Sport",
           "ref": "https://film4k.pl/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795198749-0-0-0687b3b08ff4193dca4b3b01c1ed5cae",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795198749-0-0-11a3eb47e50e2cd10796afc59749e435",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=2b9c03c6f59704dbfb05ce085f7c0047&txTime=6b00d56d",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
           "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795198749-0-0-b89d5ef101698fedcacc04ca6327135b",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795199648-0-0-265efd0e58dae10c916ad3f7f140974a",
           "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795199648-0-0-3e9ddc8e8d3dbc3d4b0edd83e28d4aad",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795199648-0-0-142bba6f722c0e60868da362f3255503",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV XO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=06bee5e6d1ae4949e98c2156e38e5629&txTime=6b00d8f0",
+          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
           "name": "⚽ [00:30 21/11] DSC Arminia Bielefeld vs Magdeburg (BLV NEM NƯỚNG) [hls] - Bia Ôm TV",
@@ -904,7 +911,7 @@
           "competition": "",
           "group": "⚡ Bia Ôm TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         }
       ],
       "displayTitle": "🔴 [00:30 21/11] Dsc Arminia Bielefeld vs Magdeburg",
@@ -939,7 +946,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795198749-0-0-5ac9c43db5cee5b207c8e35b389f4e70",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795199648-0-0-5b8d1bc2e0911b50d65ae5d0360810c2",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
@@ -947,9 +954,9 @@
           "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
-          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795198749-0-0-bc37597f16bdd2cb90401b80b64cc4f2",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795199648-0-0-99d57df44c29fba9128f5d93439499de",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -957,7 +964,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795198749-0-0-7dff12dec5e7b61204efed674587b590",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795199648-0-0-77bcf05c0caf203c767abefb2c847c82",
           "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
@@ -965,9 +972,9 @@
           "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
-          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795198749-0-0-8ae50233cfc4f1032ea198c1862a0d7a",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795199648-0-0-03730567538ca6d29e0f8e679b983067",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -1769,8 +1776,8 @@
       "c_away": "leipzig",
       "homeTeam": "Union Berlin",
       "awayTeam": "RB Leipzig",
-      "homeLogo": "",
-      "awayLogo": "",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
       "time": "21:30",
       "date": "21/11",
       "timestamp": 1795271400000,
@@ -1787,6 +1794,17 @@
           "competition": "Bundesliga",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_21:30_leipzig_unionberlin"
+        },
+        {
+          "name": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
+          "competition": "Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
           "match_key": "21/11_21:30_leipzig_unionberlin"
         }
       ],
@@ -2649,6 +2667,16 @@
           "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
+          "name": "⚽ [00:30 21/11] Arminia Bielefeld vs Magdeburg (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/4269_arminia-bielefeld.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/4269_arminia-bielefeld.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3960_magdeburg.jpg",
+          "competition": "2. Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
+        },
+        {
           "name": "⚽ [02:30 21/11] Bayern Munich vs FC Koln (Khầy Lương Khô) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
@@ -2759,6 +2787,16 @@
           "match_key": "21/11_19:30_fulham_mancity"
         },
         {
+          "name": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3936_union-berlin.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
+          "competition": "Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "21/11_21:30_leipzig_unionberlin"
+        },
+        {
           "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham (BLV Tam Mao) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
@@ -2829,7 +2867,7 @@
           "logo": "https://film4k.pl/api/antsimg/football/teams/188.png",
           "competition": "2. Bundesliga",
           "group": "F4K Sport",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
           "name": "⚽ [00:30 21/11] SV Darmstadt 98 vs 1. FC Heidenheim (de Sky Sport Bundesliga 3) - F4K Sport",
@@ -3069,216 +3107,152 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795198749-0-0-82e651c1a87e9f6b9d9a437c8206104a",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_alahli_alnassr"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795198749-0-0-6232a48bd187ed740129f606ae16c885",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_alahli_alnassr"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795198748-0-0-44919bb2509fd25d5dc64efa94350e8f",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795199648-0-0-4cbec13561ce33547181d5bf75021516",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "QAT D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_alarabi_algharafa"
         },
         {
-          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795198749-0-0-aeb7d8393ebcd345e71af6207939f183",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_alarabi_algharafa"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Senegal U17 vs Croatia U17 (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795198749-0-0-29549db265fe4647b8d4b7a82800d5a8",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_croatia_youth_senegal_youth"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795198749-0-0-599595bb2a78b2841ee291bbd437dbdd",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_alarabi_algharafa"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=c982407724e3e1772f6be5982f363ac0&txTime=6b00d56c",
-          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_alahli_alnassr"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795198749-0-0-b7eddeb6fdd72c71efcd189ead10d04d",
-          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_alahli_alnassr"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795198748-0-0-b83da3a2ddd167960ff778a98b857a15",
-          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_alarabi_algharafa"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795198749-0-0-4b79173a5b8c47e0146ac890de7b62f0",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795199648-0-0-dc7cef0a4f044450a1d8b0c05edfd404",
           "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
-          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795198749-0-0-0687b3b08ff4193dca4b3b01c1ed5cae",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=660dff3c2dbaa753b1db849f08ed4712&txTime=6b00d8f0",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "KSA PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_00:30_alahli_alnassr"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795199648-0-0-265efd0e58dae10c916ad3f7f140974a",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
-          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795198748-0-0-cd3c084fb088cd098e0d2ff2bb8a5898",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "QAT D1",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795199648-0-0-a2b7d419a27fbec730ebd8b84626892e",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "KSA PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_alarabi_algharafa"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Shabab Al Ahli vs Ajman (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=0385baffd618002ea53075252b042149&txTime=6b00d56d",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "UAE LP",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_ajman_alahli"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Fiji U17 vs Morocco U17 (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795198749-0-0-bf05996be56d3073b6395cfb0536cfdc",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_fijiu17_youth_morocco_youth"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Shabab Al Ahli vs Ajman (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795198749-0-0-75aacafe01b461371bf8f38b681effc6",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "UAE LP",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_ajman_alahli"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Shabab Al Ahli vs Ajman (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=0edfbeaced8c8917f936ef0a0be0b4f8&txTime=6b00d56d",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "UAE LP",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_ajman_alahli"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795198749-0-0-363a885369d093e793eb9c97145dbe60",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_alarabi_algharafa"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Shabab Al Ahli vs Ajman (BLV BÒ TƯƠI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620797_lhd.m3u8?auth_key=1795198749-0-0-18108cfe96b0c2eaaac925b827610e5f",
-          "logo": "https://sta.vnres.co/file/common/20261110/737feadacc3c7ef8abd61fe34f1a355c.png",
-          "competition": "UAE LP",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_ajman_alahli"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Molde vs FK Bodo/Glimt (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795198749-0-0-42cd3277c11e23a8af4fa83cbe1d6d1a",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "NOR D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_01:00_bodoglimt_molde"
+          "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
           "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795198749-0-0-11a3eb47e50e2cd10796afc59749e435",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795199648-0-0-3e9ddc8e8d3dbc3d4b0edd83e28d4aad",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
-          "name": "⚽ [LIVE 21/11] Cote d'Ivoire U17 vs Uzbekistan U17 (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795198749-0-0-2541545ec71835ccc9fd5979d45f60ab",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795199648-0-0-20133b9f235730070406cd78c8be0630",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "KSA PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_cotedivoireu17_youth_uzbekistan_youth"
+          "match_key": "21/11_00:30_alahli_alnassr"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795199648-0-0-142bba6f722c0e60868da362f3255503",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
           "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795198749-0-0-5ac9c43db5cee5b207c8e35b389f4e70",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795199648-0-0-5b8d1bc2e0911b50d65ae5d0360810c2",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
-          "name": "⚽ [23:30 21/11] FK Rostov vs Krylya Sovetov (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=403122afb1d02c20e1d6a6d158c5b872&txTime=6b00d56c",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "RUS D1",
+          "name": "⚽ [LIVE 21/11] Molde vs FK Bodo/Glimt (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795199648-0-0-147a3b6908e3c7860d8c358da9af45e0",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "NOR D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_23:30_krylyasovetov_rostov"
+          "match_key": "21/11_01:00_bodoglimt_molde"
         },
         {
-          "name": "⚽ [LIVE 21/11] FC Botosani vs FC Voluntari (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795198749-0-0-415de68de07d68eed5bc88b9000d56b4",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "ROM D1",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795199648-0-0-8044a4ff6aa93bb1d3a97ca652a5fb67",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "KSA PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_botosani_voluntari"
+          "match_key": "21/11_00:30_alahli_alnassr"
         },
         {
-          "name": "⚽ [LIVE 21/11] Senegal U17 vs Croatia U17 (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795198749-0-0-bb4e75d5c819e6d47db5fc17706b73a8",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "name": "⚽ [LIVE 21/11] Al Ahli SC vs Al Nassr (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795199649-0-0-35da06b67ec59a625cf2ccf77a44303c",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "KSA PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_00:30_alahli_alnassr"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Fiji U17 vs Morocco U17 (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795199648-0-0-e8251673bc475ff022dd2e01e5dde079",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_croatia_youth_senegal_youth"
+          "match_key": "21/11_LIVE_fijiu17_youth_morocco_youth"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cote d'Ivoire U17 vs Uzbekistan U17 (BLV BẢY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795199649-0-0-2b3d11c62f2a0cb801ae471d83f1cb1d",
+          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_cotedivoireu17_youth_uzbekistan_youth"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Al-Gharafa SC vs Al-Arabi SC (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795199662-0-0-3612f3f5de772f63cc0b002f567da319",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "QAT D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_alarabi_algharafa"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795199648-0-0-99d57df44c29fba9128f5d93439499de",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
           "name": "⚽ [LIVE 21/11] Piast Gliwice vs Korona Kielce (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795198749-0-0-a188cd58e104ec8394c5f37d44a028d2",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795199648-0-0-01fc64275cf4eacca1350dd88fd1a9c2",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_koronakielce_piastgliwice"
         },
         {
+          "name": "⚽ [23:30 21/11] FK Rostov vs Krylya Sovetov (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=76f30acd296acad97badd346e8da0701&txTime=6b00d8f0",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "RUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_23:30_krylyasovetov_rostov"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Fiji U17 vs Morocco U17 (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795198749-0-0-ba8700d8ac865530f822861b915be81a",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795199648-0-0-e736dc3cbfeb9cc59dfa58151fdb3cf2",
           "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
@@ -3286,91 +3260,99 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cote d'Ivoire U17 vs Uzbekistan U17 (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795198749-0-0-6549c527b997ba6a9dc26451edd23ea2",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795199649-0-0-484843f350d98383ea662e1ccdc7082a",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_cotedivoireu17_youth_uzbekistan_youth"
         },
         {
-          "name": "⚽ [LIVE 21/11] FK Rostov vs Krylya Sovetov (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=66d2cc17bb98a5db302939facf0b8022&txTime=6b00d56d",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "RUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_23:30_krylyasovetov_rostov"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] FC Botosani vs FC Voluntari (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795198749-0-0-c37a68306c8b3dc2e492ca1a30a32fc0",
-          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
-          "competition": "ROM D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_botosani_voluntari"
-        },
-        {
           "name": "⚽ [LIVE 21/11] FK Septemvri Sofia vs Lokomotiv Plovdiv (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795198749-0-0-4ff55ab9a802a73028829e3f7aa159be",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795199649-0-0-f9c2b95f6c8bced7ed1da157d7f7707a",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
           "competition": "BUL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_lokomotivplovdiv_septemvrisofia"
         },
         {
-          "name": "⚽ [LIVE 21/11] FK Septemvri Sofia vs Lokomotiv Plovdiv (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795198749-0-0-19cd2b7cad0a9cb0369d86f768aeba48",
-          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
-          "competition": "BUL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_lokomotivplovdiv_septemvrisofia"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Piast Gliwice vs Korona Kielce (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795198749-0-0-520254db5ff48ad31391e647d970d5d2",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795199649-0-0-2e7e9dde5a13e46911ba9cad9df49b66",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_koronakielce_piastgliwice"
         },
         {
+          "name": "⚽ [LIVE 21/11] FK Rostov vs Krylya Sovetov (BLV QUỐC KHÁNH) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=0d9d25b53cdbd08f65a983e77f357951&txTime=6b00d8f1",
+          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
+          "competition": "RUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_23:30_krylyasovetov_rostov"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=2b9c03c6f59704dbfb05ce085f7c0047&txTime=6b00d56d",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=06bee5e6d1ae4949e98c2156e38e5629&txTime=6b00d8f0",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
-          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795198749-0-0-bc37597f16bdd2cb90401b80b64cc4f2",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "GER D2",
+          "name": "⚽ [LIVE 21/11] FK Septemvri Sofia vs Lokomotiv Plovdiv (BLV BOSS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795199649-0-0-e9623ee3e31f2754755a3e57fc0e6947",
+          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
+          "competition": "BUL D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
+          "match_key": "21/11_LIVE_lokomotivplovdiv_septemvrisofia"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aarhus AGF vs Lyngby BK (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795199648-0-0-1db676b933f2024227ed55289079d473",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "DEN SASL",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_01:00_aarhusagf_lyngbybk"
         },
         {
           "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795198749-0-0-7dff12dec5e7b61204efed674587b590",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795199648-0-0-77bcf05c0caf203c767abefb2c847c82",
           "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
-          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795198749-0-0-8ae50233cfc4f1032ea198c1862a0d7a",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "name": "⚽ [LIVE 21/11] Molde vs FK Bodo/Glimt (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=8d64c0baca93057ed7ff6cf9fc731706&txTime=6b00d8f0",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "NOR D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_01:00_bodoglimt_molde"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] SV Darmstadt 98 vs 1. FC Heidenheim 1846 (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795199648-0-0-03730567538ca6d29e0f8e679b983067",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_00:30_1heidenheim_svdarmstadt98"
         },
         {
-          "name": "⚽ [LIVE 21/11] Arminia Bielefeld vs 1. FC Magdeburg (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795198749-0-0-b89d5ef101698fedcacc04ca6327135b",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "GER D2",
+          "name": "⚽ [LIVE 21/11] Aarhus AGF vs Lyngby BK (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795199649-0-0-baedc68d76f63d819b3325a4757be4e8",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "DEN SASL",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_01:00_aarhusagf_lyngbybk"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Molde vs FK Bodo/Glimt (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=76cce933cb0886fd33205597414594f1&txTime=6b00d8f1",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "competition": "NOR D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_01:00_bodoglimt_molde"
         }
       ]
     },
@@ -3505,7 +3487,7 @@
           "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/dsc-arminia-bielefeld-2927",
           "competition": "",
           "group": "⚡ Bia Ôm TV",
-          "match_key": "21/11_00:30_1magdeburg_arminiabielefeld"
+          "match_key": "21/11_00:30_arminiabielefeld_magdeburg"
         },
         {
           "name": "⚽ [00:30 21/11] Al Ahli vs Al Nassr (BLV HÀU NƯỚNG) [hls] - Bia Ôm TV",
