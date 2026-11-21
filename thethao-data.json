@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 07:28:08",
+  "updated_at": "2026-11-21 07:43:18",
   "live_events": [
     {
       "key": "21/11_07:00_atlantahawks_charlottehornets",
@@ -30,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Atlanta Hawks vs Charlotte Hornets (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795224428-0-0-3f1d5b4a83a47c2e532f1386e8327ba0",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795225328-0-0-fa736bd0676186b90d90e2e1cfa8e513",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -60,8 +60,17 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "🏀 [07:30 21/11] Brooklyn Nets vs Orlando Magic (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18622/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/134.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_07:30_brooklynnets_orlandomagic"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795224428-0-0-1f7b30b795046c3f80483f5f717ce14d",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795225328-0-0-9c582863985a2acfdfc33cd0333d4b32",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -91,8 +100,17 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "🏀 [07:30 21/11] Cleveland Cavaliers vs Indiana Pacers (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18616/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/137.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_07:30_clevelandcavaliers_indianapacers"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795224428-0-0-87730739ad5e3c11e9769bbc62e45eda",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795225328-0-0-85a38c822b45d47bd2fdbef4d4ba875b",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -122,8 +140,17 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "🏀 [07:30 21/11] Detroit Pistons vs Toronto Raptors (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18637/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/140.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795224428-0-0-e33a6e68b66e0203b3ebf764862cc9f8",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795225328-0-0-b822806756095f7427cf7e69af65318b",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -184,6 +211,68 @@
       "number": 5
     },
     {
+      "key": "21/11_07:30_clemson_duke",
+      "match_key": "21/11_07:30_clemson_duke",
+      "c_home": "duke",
+      "c_away": "clemson",
+      "homeTeam": "Duke",
+      "awayTeam": "Clemson",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "21/11",
+      "timestamp": 1795221000000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:30 21/11] Duke vs Clemson (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18823/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/99.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_07:30_clemson_duke"
+        }
+      ],
+      "displayTitle": "🏈 [07:30 21/11] Duke vs Clemson",
+      "number": 6
+    },
+    {
+      "key": "21/11_07:30_bowlinggreen_toledo",
+      "match_key": "21/11_07:30_bowlinggreen_toledo",
+      "c_home": "toledo",
+      "c_away": "bowlinggreen",
+      "homeTeam": "Toledo",
+      "awayTeam": "Bowling Green",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "21/11",
+      "timestamp": 1795221000000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:30 21/11] Toledo vs Bowling Green (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18824/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/75.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_07:30_bowlinggreen_toledo"
+        }
+      ],
+      "displayTitle": "🏈 [07:30 21/11] Toledo vs Bowling Green",
+      "number": 7
+    },
+    {
       "key": "21/11_06:35_americadecali_atleticobucaramanga",
       "match_key": "21/11_06:35_americadecali_atleticobucaramanga",
       "c_home": "atleticobucaramanga",
@@ -212,7 +301,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Atletico Bucaramanga vs America de Cali (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795224428-0-0-6876856f1ab8e6334b0b447adb32a7c1",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795225328-0-0-2b7eda96a735d4ac5b90c361632f4ce4",
           "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -230,7 +319,7 @@
         }
       ],
       "displayTitle": "🔴 [06:35 21/11] Atletico Bucaramanga vs America De Cali 33 Tv",
-      "number": 6
+      "number": 8
     },
     {
       "key": "21/11_LIVE_belgrano_velezsarsfield",
@@ -252,7 +341,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795224428-0-0-4ce56de1c1bdb538478ec50e47827e31",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795225328-0-0-ff819d67b496d6f19a281dd1b2f6e746",
           "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
           "competition": "ARG D1",
           "group": "🐿️ SocoLive",
@@ -261,7 +350,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=1ca46fd1bbe0e802abb0f1ddf9ac8a8d&txTime=6b0139bc",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=52a31308c8be1d85a166df4f7a573630&txTime=6b013d40",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "ARG D1",
           "group": "🐿️ SocoLive",
@@ -288,7 +377,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 21/11] Velez Sarsfield vs Belgrano",
-      "number": 7
+      "number": 9
     },
     {
       "key": "21/11_08:00_neworleanspelicans_oklahomacitythunder",
@@ -328,7 +417,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 21/11] Oklahoma City Thunder vs New Orleans Pelicans",
-      "number": 8
+      "number": 10
     },
     {
       "key": "21/11_09:30_phoenixsuns_utahjazz",
@@ -368,7 +457,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns",
-      "number": 9
+      "number": 11
     },
     {
       "key": "21/11_17:00_baltikakaliningrad_orenburg",
@@ -399,7 +488,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 21/11] Orenburg vs Baltika Kaliningrad",
-      "number": 10
+      "number": 12
     },
     {
       "key": "21/11_18:00_haiphong_namdinh",
@@ -450,7 +539,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 21/11] Nam Dinh vs Hai Phong",
-      "number": 11
+      "number": 13
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -546,7 +635,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 12
+      "number": 14
     },
     {
       "key": "21/11_20:00_alaves_deportivo",
@@ -586,7 +675,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 21/11] Alaves vs Deportivo La Coruna",
-      "number": 13
+      "number": 15
     },
     {
       "key": "21/11_21:00_cagliari_como",
@@ -617,7 +706,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Como vs Cagliari",
-      "number": 14
+      "number": 16
     },
     {
       "key": "21/11_21:00_lazio_lecce",
@@ -650,7 +739,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Lazio vs Lecce",
-      "number": 15
+      "number": 17
     },
     {
       "key": "21/11_21:30_leverkusen_paderborn07",
@@ -690,7 +779,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Bayer Leverkusen vs Sc Paderborn 07",
-      "number": 16
+      "number": 18
     },
     {
       "key": "21/11_21:30_leipzig_unionberlin",
@@ -729,19 +818,10 @@
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
           "match_key": "21/11_21:30_leipzig_unionberlin"
-        },
-        {
-          "name": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig (de Sky Bundesliga 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18851/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/182.png",
-          "competition": "Bundesliga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_21:30_leipzig_unionberlin"
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig",
-      "number": 17
+      "number": 19
     },
     {
       "key": "21/11_21:30_dortmund_monchengladbach",
@@ -772,7 +852,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Borussia Monchengladbach vs Borussia Dortmund",
-      "number": 18
+      "number": 20
     },
     {
       "key": "21/11_21:30_freiburg_sv07elversberg",
@@ -803,7 +883,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Sv 07 Elversberg vs Sc Freiburg",
-      "number": 19
+      "number": 21
     },
     {
       "key": "21/11_21:30_1899hoffenheim_frankfurt",
@@ -834,38 +914,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Eintracht Frankfurt vs 1899 Hoffenheim",
-      "number": 20
-    },
-    {
-      "key": "21/11_21:30_freiburg_svelversberg",
-      "match_key": "21/11_21:30_freiburg_svelversberg",
-      "c_home": "svelversberg",
-      "c_away": "freiburg",
-      "homeTeam": "Sv Elversberg",
-      "awayTeam": "Sc Freiburg",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "21:30",
-      "date": "21/11",
-      "timestamp": 1795271400000,
-      "league": "BUNDESLIGA",
-      "leagueName": "Bundesliga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_bundesliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [21:30 21/11] SV Elversberg vs SC Freiburg (de Sky Bundesliga 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18853/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/1660.png",
-          "competition": "Bundesliga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_21:30_freiburg_svelversberg"
-        }
-      ],
-      "displayTitle": "⚽ [21:30 21/11] Sv Elversberg vs Sc Freiburg",
-      "number": 21
+      "number": 22
     },
     {
       "key": "21/11_22:00_astonvilla_sunderland",
@@ -893,46 +942,10 @@
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
           "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (gb TNT Sports 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18855/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (us English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18856/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (es Campeones 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18857/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (fr Canal+ Foot) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18858/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Aston Villa vs Sunderland",
-      "number": 22
+      "number": 23
     },
     {
       "key": "21/11_22:00_bournemouthafc_nottingham",
@@ -973,51 +986,6 @@
           "match_key": "21/11_22:00_bournemouthafc_nottingham"
         },
         {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (us English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18859/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (gb English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18860/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (de Sky Sport 8) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18861/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (es English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18862/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (fr Canal+ Live 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18863/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
           "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV Lê Lợi) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/240b30d333c97d293752ab7afd77ccd6.png",
@@ -1028,7 +996,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Bournemouth Afc vs Nottingham Forest",
-      "number": 23
+      "number": 24
     },
     {
       "key": "21/11_22:00_chelsea_leedsunited",
@@ -1070,7 +1038,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Chelsea vs Leeds",
-      "number": 24
+      "number": 25
     },
     {
       "key": "21/11_22:00_ipswich_tottenham",
@@ -1112,7 +1080,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town",
-      "number": 25
+      "number": 26
     },
     {
       "key": "21/11_22:00_coventrycity_crystalpalace",
@@ -1143,7 +1111,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Coventry City vs Crystal Palace",
-      "number": 26
+      "number": 27
     },
     {
       "key": "21/11_22:15_rayovallecano_valencia",
@@ -1174,7 +1142,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 21/11] Rayo Vallecano vs Valencia",
-      "number": 27
+      "number": 28
     },
     {
       "key": "21/11_23:15_ogcnice_parissaintgermain",
@@ -1205,7 +1173,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Ogc Nice vs Paris Saint Germain",
-      "number": 28
+      "number": 29
     },
     {
       "key": "22/11_00:30_arsenal_newcastle",
@@ -1238,7 +1206,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Newcastle United vs Arsenal",
-      "number": 29
+      "number": 30
     },
     {
       "key": "22/11_00:30_betis_sevilla",
@@ -1271,7 +1239,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Sevilla vs Real Betis",
-      "number": 30
+      "number": 31
     },
     {
       "key": "22/11_02:45_napoli_torino",
@@ -1304,7 +1272,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Napoli vs Torino",
-      "number": 31
+      "number": 32
     },
     {
       "key": "22/11_02:45_lille_lyon",
@@ -1337,7 +1305,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lille vs Lyon",
-      "number": 32
+      "number": 33
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -1370,7 +1338,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 33
+      "number": 34
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -1403,7 +1371,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 34
+      "number": 35
     },
     {
       "key": "23/11_23:00_alahli_shamal",
@@ -1436,7 +1404,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 35
+      "number": 36
     }
   ],
   "source_groups": [
@@ -1940,6 +1908,53 @@
           "match_key": "21/11_07:00_atlantahawks_charlottehornets"
         },
         {
+          "name": "🏈 [07:30 21/11] Duke vs Clemson (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18823/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/99.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "match_key": "21/11_07:30_clemson_duke"
+        },
+        {
+          "name": "🏈 [07:30 21/11] Toledo vs Bowling Green (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18824/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/75.png",
+          "competition": "NCAA",
+          "group": "F4K Sport",
+          "match_key": "21/11_07:30_bowlinggreen_toledo"
+        },
+        {
+          "name": "🏀 [07:30 21/11] Brooklyn Nets vs Orlando Magic (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18622/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/134.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "match_key": "21/11_07:30_brooklynnets_orlandomagic"
+        },
+        {
+          "name": "🏀 [07:30 21/11] Cleveland Cavaliers vs Indiana Pacers (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18616/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/137.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "match_key": "21/11_07:30_clevelandcavaliers_indianapacers"
+        },
+        {
+          "name": "🏀 [07:30 21/11] Detroit Pistons vs Toronto Raptors (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18637/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/140.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
+        },
+        {
+          "name": "🏎️ [07:30 21/11] Las Vegas Grand Prix 3rd Practice (gb Sky Sports F1) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18791/index.m3u8",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "Las Vegas Grand Prix",
+          "group": "F4K Sport"
+        },
+        {
           "name": "⚽ [08:00 21/11] Puebla vs Atletico San Luis (us TUDN) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18828/index.m3u8",
           "logo": "https://film4k.pl/api/antsimg/football/teams/2291.png",
@@ -2106,102 +2121,6 @@
           "competition": "Bundesliga",
           "group": "F4K Sport",
           "match_key": "21/11_21:30_1899hoffenheim_frankfurt"
-        },
-        {
-          "name": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig (de Sky Bundesliga 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18851/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/182.png",
-          "competition": "Bundesliga",
-          "group": "F4K Sport",
-          "match_key": "21/11_21:30_leipzig_unionberlin"
-        },
-        {
-          "name": "⚽ [21:30 21/11] SV Elversberg vs SC Freiburg (de Sky Bundesliga 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18853/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/1660.png",
-          "competition": "Bundesliga",
-          "group": "F4K Sport",
-          "match_key": "21/11_21:30_freiburg_svelversberg"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Ham-Kam vs Fredrikstad (no TV2 Sport) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18854/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/2159.png",
-          "competition": "Eliteserien",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_fredrikstad_hamkam"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (gb TNT Sports 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18855/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (us English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18856/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (es Campeones 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18857/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (fr Canal+ Foot) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18858/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/66.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (us English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18859/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (gb English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18860/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (de Sky Sport 8) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18861/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (es English) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18862/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham Forest (fr Canal+ Live 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18863/index.m3u8",
-          "logo": "https://film4k.pl/api/antsimg/football/teams/35.png",
-          "competition": "Premier League",
-          "group": "F4K Sport",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
         },
         {
           "name": "🏎️ [07:20 21/11] Đua xe: Formula 1 Heineken Las Vegas Grand Prix 2026, Phiên đua tập 3, 7 giờ 30, ngày 21/11, Kênh TV360+ 12 (TV360+ 12) - F4K Sport",
@@ -2392,120 +2311,152 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795224428-0-0-1f7b30b795046c3f80483f5f717ce14d",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_07:30_brooklynnets_orlandomagic"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795224428-0-0-4ce56de1c1bdb538478ec50e47827e31",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_belgrano_velezsarsfield"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Atletico Bucaramanga vs America de Cali (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795224428-0-0-6876856f1ab8e6334b0b447adb32a7c1",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_06:35_americadecali_atleticobucaramanga"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Palestino vs Union La Calera (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795224428-0-0-3ab8a4a1fd13ab95ff101c098cd5cc70",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "CHI D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_palestino_unionlacalera"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=1ca46fd1bbe0e802abb0f1ddf9ac8a8d&txTime=6b0139bc",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_belgrano_velezsarsfield"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795224428-0-0-a6b3944921fdcf73a9adb41c204c40a4",
-          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795225328-0-0-3f5799cf8feaf0ca57d263e70908c884",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
-          "name": "⚽ [LIVE 21/11] Auckland City vs Napier City Rovers (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795224428-0-0-c8e6c408ff98584e0a03f938c8a3c8a5",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "NZFN",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_aucklandcity_napiercityrovers"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795224428-0-0-4be6ee388cd19631a0df9b4b882f40c8",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795225328-0-0-33c258ac059fdb2354bc6a9ea4cc6e6a",
           "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
-          "name": "⚽ [LIVE 21/11] Auckland City vs Napier City Rovers (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795224428-0-0-180e44288f5629def2b592c883399e6b",
-          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
-          "competition": "NZFN",
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795225328-0-0-77b5a7a3263a23bc4d098384b8cd29d6",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "MEX D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_aucklandcity_napiercityrovers"
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=0180a1f1c5113f1fc6847f609e2114dc&txTime=6b013d40",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795225328-0-0-ff819d67b496d6f19a281dd1b2f6e746",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_belgrano_velezsarsfield"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795225328-0-0-0d6c6b70037e5bb74c1eb627f3cd3870",
+          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795225328-0-0-9d1a2f3399adb7821a8271cc76422551",
+          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Palestino vs Union La Calera (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795225328-0-0-dc762683f8b472c00f6eaf8a2bcc55fa",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "CHI D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_palestino_unionlacalera"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Atletico Bucaramanga vs America de Cali (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795225328-0-0-2b7eda96a735d4ac5b90c361632f4ce4",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_06:35_americadecali_atleticobucaramanga"
         },
         {
           "name": "⚽ [LIVE 21/11] Palestino vs Union La Calera (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795224428-0-0-4f93f067932fb7608d627357283ed949",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795225328-0-0-2a16e1df0d8b5ba93a9f13d380c3fec3",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_palestino_unionlacalera"
         },
         {
-          "name": "⚽ [LIVE 21/11] Atlanta Hawks vs Charlotte Hornets (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795224428-0-0-3f1d5b4a83a47c2e532f1386e8327ba0",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795224428-0-0-364c64e61e7ccf48ea48691ae530c1b7",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795224428-0-0-2a0622fb9bd24844c421c9b104dbcad6",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795225328-0-0-685d3bb67a248102734d4e58f82b54ea",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
         },
         {
+          "name": "⚽ [LIVE 21/11] Auckland City vs Napier City Rovers (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795225328-0-0-9cd431f0be365088065bd9fc1e47d459",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "NZFN",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_aucklandcity_napiercityrovers"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Velez Sarsfield vs Belgrano (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=52a31308c8be1d85a166df4f7a573630&txTime=6b013d40",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_belgrano_velezsarsfield"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Dep.Independiente Medellin vs Independiente Santa Fe (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795225328-0-0-3f21db540932ffd3dd8b51b8c1211b1d",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_depindependientemedellin_independientesantafe"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Atlanta Hawks vs Charlotte Hornets (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795225328-0-0-fa736bd0676186b90d90e2e1cfa8e513",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795224428-0-0-87730739ad5e3c11e9769bbc62e45eda",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795225328-0-0-85a38c822b45d47bd2fdbef4d4ba875b",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_07:30_clevelandcavaliers_indianapacers"
         },
         {
+          "name": "⚽ [LIVE 21/11] Auckland City vs Napier City Rovers (BLV HUCK) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795225328-0-0-3e247f09078068cd84c9d7fe1731374e",
+          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
+          "competition": "NZFN",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_aucklandcity_napiercityrovers"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795225328-0-0-9c582863985a2acfdfc33cd0333d4b32",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_07:30_brooklynnets_orlandomagic"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795224428-0-0-e33a6e68b66e0203b3ebf764862cc9f8",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795225328-0-0-b822806756095f7427cf7e69af65318b",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -3256,34 +3207,34 @@
     {
       "home_team": "Atlanta Hawks",
       "away_team": "Charlotte Hornets",
-      "home_score": "14",
-      "away_score": "21",
+      "home_score": "32",
+      "away_score": "33",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "4:37 - 1st",
+      "detail": "10:06 - 2nd",
       "date": "2026-11-21T00:00Z"
     },
     {
       "home_team": "Brooklyn Nets",
       "away_team": "Orlando Magic",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "2",
+      "away_score": "5",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/20 - 7:30 PM EST",
+      "detail": "10:41 - 1st",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Cleveland Cavaliers",
       "away_team": "Indiana Pacers",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "5",
+      "away_score": "2",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/20 - 7:30 PM EST",
+      "detail": "11:01 - 1st",
       "date": "2026-11-21T00:30Z"
     },
     {
