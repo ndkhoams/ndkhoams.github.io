@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 09:30:18",
+  "updated_at": "2026-11-21 09:45:28",
   "live_events": [
     {
       "key": "21/11_07:30_brooklynnets_orlandomagic",
@@ -30,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795231748-0-0-52f2a638175cc7594ad21d5ba2f6a4c7",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795232648-0-0-11ac6f684bf31afd8233340702576acb",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -79,7 +79,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795231748-0-0-4570d99f24e0c5db7e36cea549c1af78",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795232648-0-0-a510f6e4eafedc986478129a84d2ba2b",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -146,7 +146,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795231748-0-0-4539723ea658973cb7b67e61e4175c9d",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795232648-0-0-0f43feef7ec0c2aa505a68168ee04758",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -292,6 +292,15 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18655/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/160.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
+        },
+        {
           "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix suns (BLV 247) [hls] - Cola TV",
           "url": "https://live05.wecile.app/live/90865415.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
@@ -312,6 +321,37 @@
       ],
       "displayTitle": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns",
       "number": 6
+    },
+    {
+      "key": "21/11_10:00_losangeleslakers_sacramentokings",
+      "match_key": "21/11_10:00_losangeleslakers_sacramentokings",
+      "c_home": "losangeleslakers",
+      "c_away": "sacramentokings",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Sacramento Kings",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "10:00",
+      "date": "21/11",
+      "timestamp": 1795230000000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 21/11] Los Angeles Lakers vs Sacramento Kings (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795232648-0-0-84dc3e67ccf81e173168855749c3f4aa",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_losangeleslakers_sacramentokings"
+        }
+      ],
+      "displayTitle": "🏀 [10:00 21/11] Los Angeles Lakers vs Sacramento Kings",
+      "number": 7
     },
     {
       "key": "21/11_07:30_clemson_duke",
@@ -342,7 +382,7 @@
         }
       ],
       "displayTitle": "🏈 [07:30 21/11] Duke vs Clemson",
-      "number": 7
+      "number": 8
     },
     {
       "key": "21/11_07:30_bowlinggreen_toledo",
@@ -373,7 +413,7 @@
         }
       ],
       "displayTitle": "🏈 [07:30 21/11] Toledo vs Bowling Green",
-      "number": 8
+      "number": 9
     },
     {
       "key": "21/11_08:00_michiganstate_oregon",
@@ -404,7 +444,7 @@
         }
       ],
       "displayTitle": "🏈 [08:00 21/11] Michigan State vs Oregon",
-      "number": 9
+      "number": 10
     },
     {
       "key": "21/11_08:00_airforce_utep",
@@ -435,7 +475,7 @@
         }
       ],
       "displayTitle": "🏈 [08:00 21/11] Air Force vs Utep",
-      "number": 10
+      "number": 11
     },
     {
       "key": "21/11_09:00_mexico_wyoming",
@@ -466,7 +506,7 @@
         }
       ],
       "displayTitle": "🏈 [09:00 21/11] Wyoming vs Mexico",
-      "number": 11
+      "number": 12
     },
     {
       "key": "21/11_08:00_atleticosanluis_puebla",
@@ -505,44 +545,8 @@
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795231748-0-0-11b4745680c428db9086d9867b8ff94a",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=0c09a742b5080a02c5c466e46eff67c6&txTime=6b015654",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795231748-0-0-5430bf20ddd3db739f93c7a046a8e642",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795231748-0-0-3f60ab3cd4cf1f0768273a258d5de026",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795231748-0-0-c564f4ee1198aef0192780be988c99ac",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795232648-0-0-4c31260e8681f67e5914f8d2c5979747",
           "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -550,9 +554,45 @@
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=4a7a22097f6c89e8f3f4099baa80a78c&txTime=6b0159d8",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795232648-0-0-9c2daada88e3b95018bd933714fba29c",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795232648-0-0-74b0dfe394cd632f4e4b957d5fdd2afc",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795231748-0-0-a56f91a100389c5766354fb5ad62cde5",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795232648-0-0-1fc2732662ea0dd9c3eb429548b3c3cf",
           "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795232648-0-0-cddcf38e81d87f83ce4647dcc94cd2fc",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -614,7 +654,7 @@
         }
       ],
       "displayTitle": "🔴 [08:00 21/11] Puebla vs Atletico San Luis",
-      "number": 12
+      "number": 13
     },
     {
       "key": "21/11_08:00_atleticodesanluis_puebla",
@@ -645,7 +685,7 @@
         }
       ],
       "displayTitle": "🔴 [08:00 21/11] Puebla vs Atletico De San Luis",
-      "number": 13
+      "number": 14
     },
     {
       "key": "21/11_08:40_deportivo_millonarios",
@@ -675,17 +715,8 @@
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795231748-0-0-303ba0326d17d07da019496d36d7deb7",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795231748-0-0-6bc372a8b2a50809a9878bf777400774",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795232648-0-0-18ad8038ed3aa9e66790b7d19a2b23d9",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -694,7 +725,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795231748-0-0-0ce9300208f43fd72a743789da69cf58",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795232648-0-0-1615a4d06c005b98bb25e4f60ecba9bf",
           "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -702,8 +733,17 @@
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795232648-0-0-17fe84e164c06069644d76c2e5329cb3",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:40_deportivo_millonarios"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=fab51c1fc8852a8890dbf5e5830f3c5e&txTime=6b015654",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=1f2b2499e248a0190b46a49ec3699202&txTime=6b0159d8",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -730,38 +770,159 @@
         }
       ],
       "displayTitle": "🔴 [08:40 21/11] Deportivo La Coruna vs Millonarios",
-      "number": 14
+      "number": 15
     },
     {
-      "key": "21/11_10:00_losangeleslakers_sacramentokings",
-      "match_key": "21/11_10:00_losangeleslakers_sacramentokings",
-      "c_home": "losangeleslakers",
-      "c_away": "sacramentokings",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "Sacramento Kings",
+      "key": "21/11_10:00_atlante_clubtijuana",
+      "match_key": "21/11_10:00_atlante_clubtijuana",
+      "c_home": "clubtijuana",
+      "c_away": "atlante",
+      "homeTeam": "Club Tijuana",
+      "awayTeam": "Atlante",
       "homeLogo": "",
       "awayLogo": "",
       "time": "10:00",
       "date": "21/11",
       "timestamp": 1795230000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
+      "league": "OTHER",
+      "leagueName": "Mexico Liga MX",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 21/11] Los Angeles Lakers vs Sacramento Kings (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795231748-0-0-f11b93defb44b30667cfb5930c8833a8",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
+          "name": "⚽ [10:00 21/11] Club Tijuana Vs Atlante Fc (BLV Gà Siêu Tốc) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/324d7a463a24c4cd35ef83456a1b8d05.png",
+          "competition": "Mexico Liga MX",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [10:10 21/11] Club Tijuana vs Atlante FC (us VIX) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18830/index.m3u8",
+          "logo": "https://film4k.pl/api/antsimg/football/teams/2280.png",
+          "competition": "Liga MX",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Club Tijuana vs Atlante FC (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795232648-0-0-3cfa763fe01985f231bb6752e1fdfa95",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_10:00_losangeleslakers_sacramentokings"
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Club Tijuana vs Atlante FC (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795232648-0-0-90417be9544aaa6b359e879c9f256f44",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [10:00 21/11] Club Tijuana vs Atlante FC (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_133837_c53709bd.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [10:00 21/11] Club Tijuana vs Atlante FC (BLV NGƯỜI THỎ) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/tijua-atlante-mexliga/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/39c21149-811a-4e69-9079-7ecd817f600c",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [10:10 21/11] Club Tijuana vs Atlante (BLV Khô Mật) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/5350_tijuana.jpg",
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
         }
       ],
-      "displayTitle": "🏀 [10:00 21/11] Los Angeles Lakers vs Sacramento Kings",
-      "number": 15
+      "displayTitle": "🔴 [10:00 21/11] Club Tijuana vs Atlante",
+      "number": 16
+    },
+    {
+      "key": "21/11_10:00_atlas_juarez",
+      "match_key": "21/11_10:00_atlas_juarez",
+      "c_home": "juarez",
+      "c_away": "atlas",
+      "homeTeam": "Juarez",
+      "awayTeam": "Atlas",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "10:00",
+      "date": "21/11",
+      "timestamp": 1795230000000,
+      "league": "OTHER",
+      "leagueName": "Liga MX",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [10:00 21/11] FC Juarez vs Atlas (us Nbc Sports) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18829/index.m3u8",
+          "logo": "https://film4k.pl/api/antsimg/football/teams/2298.png",
+          "competition": "Liga MX",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=b773b1a7d5045aa073c267e9a448ae89&txTime=6b0159d8",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795232648-0-0-3b71a23850444ec78cc25beb6b1e4667",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795232648-0-0-83f790c44b6ad5c27be12bd568bc2540",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795232648-0-0-74e80b43e264e46d6ba2025acde83136",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_atlas_juarez"
+        }
+      ],
+      "displayTitle": "🔴 [10:00 21/11] Juarez vs Atlas",
+      "number": 17
     },
     {
       "key": "21/11_17:00_baltikakaliningrad_orenburg",
@@ -801,7 +962,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 21/11] Orenburg vs Baltika Kaliningrad",
-      "number": 16
+      "number": 18
     },
     {
       "key": "21/11_18:00_haiphong_namdinh",
@@ -897,7 +1058,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 21/11] Nam Dinh vs Hai Phong",
-      "number": 17
+      "number": 19
     },
     {
       "key": "21/11_19:30_fulham_mancity",
@@ -1038,7 +1199,7 @@
         }
       ],
       "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
-      "number": 18
+      "number": 20
     },
     {
       "key": "21/11_20:00_alaves_deportivo",
@@ -1105,7 +1266,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 21/11] Alaves vs Deportivo La Coruna",
-      "number": 19
+      "number": 21
     },
     {
       "key": "21/11_21:00_cagliari_como",
@@ -1163,7 +1324,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Como vs Cagliari",
-      "number": 20
+      "number": 22
     },
     {
       "key": "21/11_21:00_lazio_lecce",
@@ -1223,7 +1384,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Lazio vs Lecce",
-      "number": 21
+      "number": 23
     },
     {
       "key": "21/11_21:30_leverkusen_paderborn07",
@@ -1263,7 +1424,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Bayer Leverkusen vs Paderborn 07",
-      "number": 22
+      "number": 24
     },
     {
       "key": "21/11_21:30_leipzig_unionberlin",
@@ -1305,7 +1466,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig",
-      "number": 23
+      "number": 25
     },
     {
       "key": "21/11_21:30_dortmund_monchengladbach",
@@ -1374,7 +1535,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Borussia Monchengladbach vs Borussia Dortmund",
-      "number": 24
+      "number": 26
     },
     {
       "key": "21/11_21:30_freiburg_sv07elversberg",
@@ -1405,7 +1566,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Sv 07 Elversberg vs Sc Freiburg",
-      "number": 25
+      "number": 27
     },
     {
       "key": "21/11_22:00_astonvilla_sunderland",
@@ -1463,7 +1624,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Aston Villa vs Sunderland",
-      "number": 26
+      "number": 28
     },
     {
       "key": "21/11_22:00_bournemouthafc_nottingham",
@@ -1523,7 +1684,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Bournemouth Afc vs Nottingham Forest",
-      "number": 27
+      "number": 29
     },
     {
       "key": "21/11_22:00_chelsea_leedsunited",
@@ -1610,7 +1771,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Chelsea vs Leeds United",
-      "number": 28
+      "number": 30
     },
     {
       "key": "21/11_22:00_ipswich_tottenham",
@@ -1679,7 +1840,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town",
-      "number": 29
+      "number": 31
     },
     {
       "key": "21/11_22:00_coventrycity_crystalpalace",
@@ -1710,7 +1871,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Coventry City vs Crystal Palace",
-      "number": 30
+      "number": 32
     },
     {
       "key": "21/11_22:15_rayovallecano_valencia",
@@ -1750,7 +1911,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 21/11] Rayo Vallecano vs Valencia",
-      "number": 31
+      "number": 33
     },
     {
       "key": "21/11_23:15_ogcnice_parissaintgermain",
@@ -1790,7 +1951,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Ogc Nice vs Paris Saint Germain",
-      "number": 32
+      "number": 34
     },
     {
       "key": "21/11_23:15_ogcnice_psg",
@@ -1830,7 +1991,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Nice vs Paris Saint-Germain",
-      "number": 33
+      "number": 35
     },
     {
       "key": "22/11_00:00_parma_roma",
@@ -1879,7 +2040,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 22/11] Parma vs AS Roma",
-      "number": 34
+      "number": 36
     },
     {
       "key": "22/11_00:30_arsenal_newcastle",
@@ -1948,7 +2109,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Newcastle United vs Arsenal",
-      "number": 35
+      "number": 37
     },
     {
       "key": "22/11_00:30_betis_sevilla",
@@ -1999,7 +2160,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Sevilla vs Real Betis",
-      "number": 36
+      "number": 38
     },
     {
       "key": "22/11_02:45_napoli_torino",
@@ -2050,7 +2211,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Napoli vs Torino",
-      "number": 37
+      "number": 39
     },
     {
       "key": "22/11_02:45_lille_lyon",
@@ -2101,7 +2262,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lille vs Lyon",
-      "number": 38
+      "number": 40
     },
     {
       "key": "22/11_03:00_celtavigo_realmadrid",
@@ -2141,7 +2302,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 22/11] Real Madrid vs Celta Vigo",
-      "number": 39
+      "number": 41
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -2174,7 +2335,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 40
+      "number": 42
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -2207,7 +2368,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 41
+      "number": 43
     },
     {
       "key": "23/11_23:00_alahli_shamal",
@@ -2240,7 +2401,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 42
+      "number": 44
     }
   ],
   "source_groups": [
@@ -2720,13 +2881,6 @@
       "name": "F4K Sport",
       "channels": [
         {
-          "name": "🏈 [06:00 21/11] UCF vs Iowa State (us NCAAF) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18822/index.m3u8",
-          "logo": "https://media.api-sports.io/american-football/teams/71.png",
-          "competition": "NCAA",
-          "group": "F4K Sport"
-        },
-        {
           "name": "🏈 [07:30 21/11] Duke vs Clemson (us NCAAF) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18823/index.m3u8",
           "logo": "https://media.api-sports.io/american-football/teams/99.png",
@@ -2813,6 +2967,21 @@
           "competition": "NCAA",
           "group": "F4K Sport",
           "match_key": "21/11_09:00_mexico_wyoming"
+        },
+        {
+          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns (us NBA) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18655/index.m3u8",
+          "logo": "https://media.api-sports.io/basketball/teams/160.png",
+          "competition": "NBA",
+          "group": "F4K Sport",
+          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
+        },
+        {
+          "name": "🏈 [06:00 21/11] UCF vs Iowa State (us NCAAF) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18822/index.m3u8",
+          "logo": "https://media.api-sports.io/american-football/teams/71.png",
+          "competition": "NCAA",
+          "group": "F4K Sport"
         },
         {
           "name": "⚽ [10:00 21/11] FC Juarez vs Atlas (us Nbc Sports) - F4K Sport",
@@ -2960,7 +3129,7 @@
         },
         {
           "name": "🏎️ [10:50 21/11] Đua xe: Formula 1 Heineken Las Vegas Grand Prix 2026, Đua phân hạng, 11 giờ, ngày 21/11, Kênh TV360+ 12 (TV360+ 12) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3NTEsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.QjOkSJ9xm1HsmMVFgdInuZeAvxcmXhx7nGuxvb7nH0I&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.GY05KCBUUlSpHNbXRO2i16HjoY56gYJVqzt3Vk5CaLA&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/19/11/1795062802984/63585ec016e5_1280_720.jpg",
           "competition": "Đua xe",
           "group": "F4K Sport",
@@ -2972,7 +3141,7 @@
         },
         {
           "name": "⚽ [19:20 21/11] U17 Serbia vs U17 Honduras (TV360+ 13) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3NTcsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.kvJleRIcFSGoXLo246rFMAkuRhKe7HP7k91QS-Ff0tE&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.1XHGgKKpQ05gyf8S-MdYEkJsJIZR4nDppiuYmDjORFA&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794811285956/02c6e1580539_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -2985,7 +3154,7 @@
         },
         {
           "name": "⚽ [17:50 21/11] Thành phố Đồng Nai vs Hà Nội (TV360+ 9) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTIzODc2MH0._liC0a3ZHrn147LdRruk_RoYIyM6uRSw3y-9otU3XRqPnZ6UNxIz-t7OirlWPyBfzCqKsRGXAx9omiCsYHTjmw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1MDYwMX0.CW9vS74wtV39KVA9Af-Wvkq8oOD9Tl9NnLcCES3FOyHD4hU0ayZWDf7p6zwyRWZp060R1RJNGrs4TDw1JHfL1A&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/19/11/1795061388590/d0d688ca7ded_1280_720.jpg",
           "competition": "",
           "group": "F4K Sport",
@@ -2995,7 +3164,7 @@
         },
         {
           "name": "⚽ [19:20 21/11] U17 Nhật Bản vs U17 Colombia (TV360+ 14) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3NjMsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.8m1CNU5oCQ-0l5MD9_IwFsHIMynkOIwlkePSm8E3bKs&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.vxY7HfOW4FAyl8Tmsv0yFLAOKpOat69LtRmOSXmYJ0w&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794811658567/0d768f5efed4_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3008,7 +3177,7 @@
         },
         {
           "name": "⚽ [19:50 21/11] U17 Tazania vs U17 Costa Rica (TV360+ 15) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/473/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3NjYsInVyaSI6Ii9icGstdHYvNDczL291dHB1dC9pbmRleC5tcGQifQ.pLor912YMQbb_STk84JrXhDdUDTlBHAHMnux7j546Ko&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/473/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvNDczL291dHB1dC9pbmRleC5tcGQifQ.1RiZ8DPdU86FDdMqIniq07SFXCBpK2-HSxI0wTBinME&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/179481210421/75d926129da0_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3021,7 +3190,7 @@
         },
         {
           "name": "⚽ [20:20 21/11] U17 Cameroon vs U17 Venezuela (TV360+ 11) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTIzODc2OX0.lcJJhtnYTfjNzS1ExeqGpokCre00RW2Mcs4nvPfy467pi0ai6jE0s5Xa84NqlIyF9249ieK8D3CaTdBsSvtLMQ&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1MDYwMX0.vUgj9UdMn1yBIQxwaGwSDEgwMyukVFYbqmplYbAZhqqWRL4nTiWp6PKVss_mjWxj6JCxWg3JREaB_VKFEQGNOA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794812327569/c48d280d1887_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3031,7 +3200,7 @@
         },
         {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3NzIsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.gWzZtdqVu1--j6tLUNS1XXWjkLY_nUw6StCvSMFTOmo&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTIsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.n-pi1wUMatYhMReNYV4Y058y_9jbOqyoigtOmDbH160&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3042,18 +3211,18 @@
         },
         {
           "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/199199/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5OTE5OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTIzODc3Mn0.7515QifRck3sDgLzPeqjnlhClU-bEjtaZoEWt-AM1Rv-xlh_fdOGF3VkjCIuysnAi4GAH7-LMYADFKB1A3LY1Q&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/199/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTIsInVyaSI6Ii9icGstdHYvMTk5L291dHB1dC9pbmRleC5tcGQifQ.T-nY9418QWtFMYGPm5hzi96m0dzVKsI-acoAb_UTiaA&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266826697/9647033848f3_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "2c24f672f7715433a83953e74ae564b1",
-            "key": "10a63f9f2ccd81dfc4a05263c2fd1575"
+            "keyId": "c17f1b571e985f15817351163763bf64",
+            "key": "61951ba946496cbfeede334b54a182f8"
           }
         },
         {
           "name": "📺 TV360+ 3 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTIzODc3OH0.PunFpJ1sJaqqc-osiqk6sHhA_dnXLJq3vUM8jjOOEBZVui-_8LgyQeVL_sDqnJlgK5rzHN6il9XtU9_lA5fE1w&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI1MDU5Mn0.vRANDf4aPnr2FUaEUk_LA-3SJdbwkevmrXq2LIZvKs-c08AGfruDM0KiYgrY6pEm-fL1xw_gfJ-5fEEaOxPR-A&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266894249/af82cd28fcda_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3064,18 +3233,18 @@
         },
         {
           "name": "📺 TV360+ 4 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTIzODc4N30.Ew-Hc1v3VEP7Axd_BlbCW9S2vis2NSLJC1BkWOLXXN30DsEFqQwuJelFGEx-RZIKbhYN4w7EriUZT38w30R_gg&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTUsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.UW4veW643LGVFU8vfHmIWsmcf9Kq5ljOU2SqWJo4VWg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266956801/9a85754a5bd9_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
-            "key": "9e1eda8e6c4405c3751300309eb5822c"
+            "keyId": "70d033252d025d719ba70a37acc0f5c8",
+            "key": "6ca465d8b3018f1604da6d43d3395a6d"
           }
         },
         {
           "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3OTAsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.34lPzTd1lQeLyK4sOgXMUzCHUV65xDlsirOHudibPV0&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTgsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.KVqhtZA_d2vFMmJBCQq0Cg9spzS5UbH0ZT-MFSpMNR4&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3086,7 +3255,7 @@
         },
         {
           "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzk2NzIsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.cvD-4x9XBGkoWiD7Wzzfte05Or68GRc-MX2La7StICU&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTgsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.QXw-1-_CceGToQSt_Y9tWnKwOAol2rSsNGjhe4_Ip00&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3097,7 +3266,7 @@
         },
         {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3OTMsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.lC2mwAX08iitQtqYCsNwEBAfuWi-wgPdjfValm1oqGo&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA1OTgsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.ztuE8i2yHKe34vDpriCPsXcp0ktnqDEQHtP83XQVk14&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3108,7 +3277,7 @@
         },
         {
           "name": "📺 TV360+ 8 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyMzg3OTYsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.yzcLVFrJA35afMUNzbh-RC0fM1Ii5zlXQBMkYNkiYyk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.RexrXBh3ga68GwAXuuuH_Lr6QKG1MvWD1tBOnxCCKAI&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267211780/516c4028c806_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3119,7 +3288,7 @@
         },
         {
           "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTIzODc5OX0.CI8XKH1kakeGD8jiy7qofhD1l1T5DAxy33TIpKiq8n9jSMagWi1QNAeMxQY8IUjoj4PcKsoMnCmYPAcd0w3qIA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/449/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTA2MDEsInVyaSI6Ii9icGstdHYvNDQ5L291dHB1dC9pbmRleC5tM3U4In0.tqICZlseYQHtP1ZX7eNnyA74MrCntTItWnnZc68URsE&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267388401/5f459b37721d_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3127,7 +3296,7 @@
         },
         {
           "name": "📺 TV360 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTIzODc5OX0.SZfb_fT-gDPCF4mGrBp63Am-k08Goo7oDIF13rg33sddOM2QfLuyeWBkdV7dVXoVbQ9ULsCfnQa5p6TdIjI1kg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1MDYwNH0.veGw1hwHfxmPt2UIDdu6Zdz2w3TfSdv9YPV_JBTe-tJGx67a1uPQcrpNPHvqulIrNcmCBtFgnL_IuR4VU5Z7Sw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3135,7 +3304,7 @@
         },
         {
           "name": "📺 Livestream 01 (Trực tiếp) - TV360",
-          "url": "https://livestream-evg8.tv360.vn/6zLce12MQU9pSVHZbTv2uw/1795303602/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "url": "https://livestream-evg8.tv360.vn/EzzVdpHP8ybrB5WeDS6L0Q/1795315404/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3147,56 +3316,48 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795231748-0-0-4ad915f5c82d7eda1fc7ee545f327d42",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "CRC D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795231748-0-0-303ba0326d17d07da019496d36d7deb7",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795231748-0-0-11b4745680c428db9086d9867b8ff94a",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=0c09a742b5080a02c5c466e46eff67c6&txTime=6b015654",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795231748-0-0-6bc372a8b2a50809a9878bf777400774",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795232648-0-0-18ad8038ed3aa9e66790b7d19a2b23d9",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795231748-0-0-5430bf20ddd3db739f93c7a046a8e642",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=c062bf2c208e6a04329d4f4d40b2c185&txTime=6b0159d8",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "CRC D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795232648-0-0-4c31260e8681f67e5914f8d2c5979747",
+          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=4a7a22097f6c89e8f3f4099baa80a78c&txTime=6b0159d8",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Club Tijuana vs Atlante FC (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795232648-0-0-3cfa763fe01985f231bb6752e1fdfa95",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795231748-0-0-3f60ab3cd4cf1f0768273a258d5de026",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795232648-0-0-9c2daada88e3b95018bd933714fba29c",
           "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -3204,23 +3365,31 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Club Tijuana vs Atlante FC (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795231748-0-0-ca082474de4017a533a414c51cccc7c9",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795232648-0-0-90417be9544aaa6b359e879c9f256f44",
           "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_10:00_atlante_clubtijuana"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795231748-0-0-c564f4ee1198aef0192780be988c99ac",
-          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
+          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795232648-0-0-aeac3dc6e4d8e70e1080f9e9ecde700d",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "CRC D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795232648-0-0-74b0dfe394cd632f4e4b957d5fdd2afc",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795231748-0-0-a56f91a100389c5766354fb5ad62cde5",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795232648-0-0-1fc2732662ea0dd9c3eb429548b3c3cf",
           "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -3228,31 +3397,71 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795231748-0-0-0ce9300208f43fd72a743789da69cf58",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795232648-0-0-1615a4d06c005b98bb25e4f60ecba9bf",
           "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
-          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=8f783d0ebab885a4c7f5ca14699b1e25&txTime=6b015654",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "CRC D1",
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795232648-0-0-cddcf38e81d87f83ce4647dcc94cd2fc",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "MEX D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795232648-0-0-17fe84e164c06069644d76c2e5329cb3",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
           "name": "⚽ [LIVE 21/11] Los Angeles Lakers vs Sacramento Kings (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795231748-0-0-f11b93defb44b30667cfb5930c8833a8",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795232648-0-0-84dc3e67ccf81e173168855749c3f4aa",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_10:00_losangeleslakers_sacramentokings"
         },
         {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=b773b1a7d5045aa073c267e9a448ae89&txTime=6b0159d8",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795232648-0-0-3b71a23850444ec78cc25beb6b1e4667",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795232648-0-0-83f790c44b6ad5c27be12bd568bc2540",
+          "logo": "https://sta.vnres.co/file/common/20261115/e45f762d8a8d0177e1e33be6f3156b4a.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_atlas_juarez"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795232648-0-0-0f43feef7ec0c2aa505a68168ee04758",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=fab51c1fc8852a8890dbf5e5830f3c5e&txTime=6b015654",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=1f2b2499e248a0190b46a49ec3699202&txTime=6b0159d8",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -3260,7 +3469,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795231748-0-0-4570d99f24e0c5db7e36cea549c1af78",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795232648-0-0-a510f6e4eafedc986478129a84d2ba2b",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -3268,19 +3477,19 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795231748-0-0-52f2a638175cc7594ad21d5ba2f6a4c7",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795232648-0-0-11ac6f684bf31afd8233340702576acb",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_07:30_brooklynnets_orlandomagic"
         },
         {
-          "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795231748-0-0-4539723ea658973cb7b67e61e4175c9d",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
+          "name": "⚽ [LIVE 21/11] FC Juarez vs Atlas (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795232648-0-0-74e80b43e264e46d6ba2025acde83136",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "MEX D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
+          "match_key": "21/11_10:00_atlas_juarez"
         }
       ]
     },
@@ -4940,56 +5149,56 @@
     {
       "home_team": "Brooklyn Nets",
       "away_team": "Orlando Magic",
-      "home_score": "86",
-      "away_score": "89",
+      "home_score": "98",
+      "away_score": "95",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "1:16 - 3rd",
+      "detail": "7:46 - 4th",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Cleveland Cavaliers",
       "away_team": "Indiana Pacers",
-      "home_score": "109",
-      "away_score": "88",
+      "home_score": "115",
+      "away_score": "105",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "8:45 - 4th",
+      "detail": "3:34 - 4th",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Detroit Pistons",
       "away_team": "Toronto Raptors",
-      "home_score": "72",
-      "away_score": "77",
+      "home_score": "85",
+      "away_score": "91",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "12:00 - 4th",
+      "detail": "5:03 - 4th",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Chicago Bulls",
       "away_team": "Washington Wizards",
-      "home_score": "60",
-      "away_score": "61",
+      "home_score": "69",
+      "away_score": "75",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "7:38 - 3rd",
+      "detail": "End of 3rd",
       "date": "2026-11-21T01:00Z"
     },
     {
       "home_team": "Oklahoma City Thunder",
       "away_team": "New Orleans Pelicans",
-      "home_score": "70",
-      "away_score": "80",
+      "home_score": "90",
+      "away_score": "96",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "7:11 - 3rd",
+      "detail": "1:00 - 3rd",
       "date": "2026-11-21T01:00Z"
     },
     {
@@ -4998,9 +5207,9 @@
       "home_score": "0",
       "away_score": "0",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/20 - 9:30 PM EST",
+      "detail": "11:02 - 1st",
       "date": "2026-11-21T02:30Z"
     },
     {
