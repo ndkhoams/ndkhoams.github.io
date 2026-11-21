@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 15:37:43",
+  "updated_at": "2026-11-21 15:52:55",
   "live_events": [
     {
       "key": "21/11_14:00_gambaosaka_okayama",
@@ -51,37 +51,6 @@
       "number": 1
     },
     {
-      "key": "21/11_14:30_incheonunitedclub_ulsan",
-      "match_key": "21/11_14:30_incheonunitedclub_ulsan",
-      "c_home": "incheonunitedclub",
-      "c_away": "ulsan",
-      "homeTeam": "Incheon United Club",
-      "awayTeam": "Ulsan",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "14:30",
-      "date": "21/11",
-      "timestamp": 1795246200000,
-      "league": "LEAGUE_ONE",
-      "leagueName": "League One",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [14:30 21/11] Incheon United Club Vs Ulsan Hd Fc (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/c080bb97363f9be7ca4fca327c56ec0d.png",
-          "competition": "Korean K League 1",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_14:30_incheonunitedclub_ulsan"
-        }
-      ],
-      "displayTitle": "🔴 [14:30 21/11] Incheon United Club vs Ulsan",
-      "number": 2
-    },
-    {
       "key": "21/11_14:30_daejeonhanacitizen_gangwon",
       "match_key": "21/11_14:30_daejeonhanacitizen_gangwon",
       "c_home": "gangwon",
@@ -128,6 +97,37 @@
         }
       ],
       "displayTitle": "🔴 [14:30 21/11] Gangwon vs Daejeon Hana Citizen 33 Tv",
+      "number": 2
+    },
+    {
+      "key": "21/11_14:30_incheonunitedclub_ulsan",
+      "match_key": "21/11_14:30_incheonunitedclub_ulsan",
+      "c_home": "incheonunitedclub",
+      "c_away": "ulsan",
+      "homeTeam": "Incheon United Club",
+      "awayTeam": "Ulsan",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "14:30",
+      "date": "21/11",
+      "timestamp": 1795246200000,
+      "league": "LEAGUE_ONE",
+      "leagueName": "League One",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [14:30 21/11] Incheon United Club Vs Ulsan Hd Fc (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/c080bb97363f9be7ca4fca327c56ec0d.png",
+          "competition": "Korean K League 1",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_14:30_incheonunitedclub_ulsan"
+        }
+      ],
+      "displayTitle": "🔴 [14:30 21/11] Incheon United Club vs Ulsan",
       "number": 3
     },
     {
@@ -2329,8 +2329,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [18:00 23/11] Lnz Cherkasy Vs Polissya Zhytomyr (BLV Gà Siêu Bệu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "name": "⚽ [18:00 23/11] Lnz Cherkasy Vs Polissya Zhytomyr (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/9422aa91b72373c4d69f6dcf477aceb2.png",
           "competition": "Ukrainian Premier League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
@@ -2340,6 +2340,39 @@
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
       "number": 46
+    },
+    {
+      "key": "23/11_23:00_alain_esteghlalfc",
+      "match_key": "23/11_23:00_alain_esteghlalfc",
+      "c_home": "alain",
+      "c_away": "esteghlalfc",
+      "homeTeam": "Al Ain",
+      "awayTeam": "Esteghlal F.c",
+      "homeLogo": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
+      "time": "23:00",
+      "date": "23/11",
+      "timestamp": 1795449600000,
+      "league": "AFC_CL",
+      "leagueName": "AFC Champions League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.C. (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
+          "competition": "AFC Champions League Elite",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "23/11_23:00_alain_esteghlalfc"
+        }
+      ],
+      "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
+      "number": 47
     },
     {
       "key": "23/11_23:00_alahli_shamal",
@@ -2372,13 +2405,95 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 47
+      "number": 48
+    },
+    {
+      "key": "24/11_01:15_algharafa_alquwaaljawiya",
+      "match_key": "24/11_01:15_algharafa_alquwaaljawiya",
+      "c_home": "alquwaaljawiya",
+      "c_away": "algharafa",
+      "homeTeam": "Al Quwa Al Jawiya",
+      "awayTeam": "Al-gharafa",
+      "homeLogo": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+      "time": "01:15",
+      "date": "24/11",
+      "timestamp": 1795457700000,
+      "league": "AFC_CL",
+      "leagueName": "AFC Champions League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-Gharafa (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/9726_al-quwa-al-jawiya.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+          "competition": "AFC Champions League Elite",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "24/11_01:15_algharafa_alquwaaljawiya"
+        }
+      ],
+      "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
+      "number": 49
+    },
+    {
+      "key": "24/11_17:00_beijingguoan_daejeon",
+      "match_key": "24/11_17:00_beijingguoan_daejeon",
+      "c_home": "daejeon",
+      "c_away": "beijingguoan",
+      "homeTeam": "Daejeon",
+      "awayTeam": "Beijing Guoan",
+      "homeLogo": "https://apiv3.apifootball.com/badges/5160_daejeon-hana-citizen.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
+      "time": "17:00",
+      "date": "24/11",
+      "timestamp": 1795514400000,
+      "league": "AFC_CL",
+      "leagueName": "AFC Champions League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/5160_daejeon-hana-citizen.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/5160_daejeon-hana-citizen.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/375_beijing-guoan.jpg",
+          "competition": "AFC Champions League Elite",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "24/11_17:00_beijingguoan_daejeon"
+        }
+      ],
+      "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
+      "number": 50
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
+        {
+          "name": "⚽ [15:40 21/11] Brisbane Roar Vs Sydney Fc (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/a84499fb6fbf42729271d6b70d22492d.png",
+          "competition": "Australia A-League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_15:40_brisbaneroar_sydney"
+        },
+        {
+          "name": "⚽ [14:30 21/11] Gangwon Fc Vs Daejeon Hana Citizen (BLV Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/c080bb97363f9be7ca4fca327c56ec0d.png",
+          "competition": "Korean K League 1",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_14:30_daejeonhanacitizen_gangwon"
+        },
         {
           "name": "⚽ [14:00 21/11] Gamba Osaka Vs Okayama (BLV Gà Siêu Tốc) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -2394,22 +2509,6 @@
           "competition": "Korean K League 1",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "21/11_14:30_incheonunitedclub_ulsan"
-        },
-        {
-          "name": "⚽ [14:30 21/11] Gangwon Fc Vs Daejeon Hana Citizen (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/c080bb97363f9be7ca4fca327c56ec0d.png",
-          "competition": "Korean K League 1",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_14:30_daejeonhanacitizen_gangwon"
-        },
-        {
-          "name": "⚽ [15:40 21/11] Brisbane Roar Vs Sydney Fc (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/a84499fb6fbf42729271d6b70d22492d.png",
-          "competition": "Australia A-League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_15:40_brisbaneroar_sydney"
         },
         {
           "name": "⚽ [17:00 21/11] Fc Orenburg Vs Baltika Kaliningrad (BLV Gà Siêu Mõm) - Gà Vàng",
@@ -3215,20 +3314,20 @@
         },
         {
           "name": "⚽ [19:20 21/11] U17 Nhật Bản vs U17 Colombia (TV360+ 14) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUyODcsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.OsJS6LoVEdXfjzjkxIgDeG-w2fz_Zoratb5JwBiUXpg&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjIwN30.DUEDY62taYHC-IMtEj2xW13B-qFC1Fo6T0SeWHpt1fS5H9KtcntczLWC0tHdOf042ScP44SgHYbEDYZgQDEQcg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794811658567/0d768f5efed4_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "e57b008cedba5d12a192e66152bb61ca",
-            "key": "a4b58d543b1c042f8b399f268040b623"
+            "keyId": "807890b3dba7517b90e568e8be4ddaa4",
+            "key": "bb89427403116b132f9fbb34cd616347"
           },
           "match_key": "21/11_19:20_colombia_youth_japan_youth"
         },
         {
           "name": "⚽ [19:20 21/11] U17 Serbia vs U17 Honduras (TV360+ 13) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUyNzgsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.d5FO5JKe07rtxTw9sFxRygQMhWyISTlrCIl75NNiAxk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIyMDQsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.u8vKbxEFGdbII86QmjWazRlUFup8I8hRPQWOjKlPko4&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794811285956/02c6e1580539_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3241,7 +3340,7 @@
         },
         {
           "name": "⚽ [17:50 21/11] Thành phố Đồng Nai vs Hà Nội (TV360+ 9) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1NTI4NH0.ih2sO1RTan_kslA7QCKLeOdImWT0PcB1bz2JbkGteKrS6AYYxQRSOJFWRTm2_U3onnKWHFNxncPY_NeUIKeTAA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIyMDQsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0.XhbgG4bN9jwqlJ8o_Zm-7bRYsAC1FplmiYPQYbJrYQk&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/19/11/1795061388590/d0d688ca7ded_1280_720.jpg",
           "competition": "",
           "group": "F4K Sport",
@@ -3251,20 +3350,20 @@
         },
         {
           "name": "⚽ [19:50 21/11] U17 Tazania vs U17 Costa Rica (TV360+ 15) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/473/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUyOTAsInVyaSI6Ii9icGstdHYvNDczL291dHB1dC9pbmRleC5tcGQifQ.6hXgywLQl5L7BvSD7cRiPQRJoTUAJIFNgG9K_dymsBQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjIwN30.idCH9-FqYoR1rVc8TVFGnmIb3GWI5M8y-G-sbN29-NhQSrN69SFsnKvT9Ve0HaWvyj9CduyLtn_WwaqbNqErCA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/179481210421/75d926129da0_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "c305b22dfd6d55e3998ab279cc98e0d3",
-            "key": "12998335c7da89877aa1b1d50f1ec174"
+            "keyId": "fa4033841a70511c84a7fe7e0daf1a6a",
+            "key": "237d5bce065aa40fc4c8839cd8827cd2"
           },
           "match_key": "21/11_19:50_u17costarica_youth_u17tazania_youth"
         },
         {
           "name": "⚽ [20:20 21/11] U17 Cameroon vs U17 Venezuela (TV360+ 11) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1NTI5M30.0gtuxuuEKBHLxhRUdWKQZj-3mUgzgPYHqxE6ziVc7qlWaATwHA-2srijfq9a_sSbtrvJ6ARUQ4yK5u0dBEZpSg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI3MjIwNH0.iLnrX7uz_DMXsm3jIZfwtCe-k0bMRXhFWVa70H3MQcpLJ7xzDzYRh58Upq4SChaImKUUYQJfg8bRjr-sP94Zfw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794812327569/c48d280d1887_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3274,7 +3373,7 @@
         },
         {
           "name": "⚽ [21:20 21/11] U17 Cộng hòa Dominica vs U17 Montenegro (TV360+ 9) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1NTI4NH0.ih2sO1RTan_kslA7QCKLeOdImWT0PcB1bz2JbkGteKrS6AYYxQRSOJFWRTm2_U3onnKWHFNxncPY_NeUIKeTAA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIyMDQsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0.XhbgG4bN9jwqlJ8o_Zm-7bRYsAC1FplmiYPQYbJrYQk&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/14/1794812970904/6693dde574b1_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3284,7 +3383,7 @@
         },
         {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUyOTYsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.qas0oRgnUmJ5MK0JICkO8KcpS3Ul9uUXT1mgZloT0UY&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIxOTUsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.B03i0zc0vgaSxCjEqMV4HcX-HmSiSbmzrhqS5gqegBE&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3295,18 +3394,18 @@
         },
         {
           "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/199199/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5OTE5OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI1NTI5OX0.x0AjFWRFszB_MEkvs83x63d5np40w5WMtCD-1tpk74aiEfnYPGg7dIaAsUdMHnMcP8oUV3eSJF4J3R39N62pRg&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/199/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIxOTUsInVyaSI6Ii9icGstdHYvMTk5L291dHB1dC9pbmRleC5tcGQifQ.EOslfE4w5gaoXHO48KZPBRypZ_TMmuFxBEnIFNjz-tg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266826697/9647033848f3_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "2c24f672f7715433a83953e74ae564b1",
-            "key": "10a63f9f2ccd81dfc4a05263c2fd1575"
+            "keyId": "c17f1b571e985f15817351163763bf64",
+            "key": "61951ba946496cbfeede334b54a182f8"
           }
         },
         {
           "name": "📺 TV360+ 3 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/200/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUzMDIsInVyaSI6Ii9icGstdHYvMjAwL291dHB1dC9pbmRleC5tcGQifQ.N3J6K9h9bkB3TeXQbEhgryLqBoonx2192IzAvVzWHYI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/200/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIxOTUsInVyaSI6Ii9icGstdHYvMjAwL291dHB1dC9pbmRleC5tcGQifQ.chhkPMwj_6DznmC-O2BS7f78bwKtiwGgvbmC2mLXZzA&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266894249/af82cd28fcda_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3317,7 +3416,7 @@
         },
         {
           "name": "📺 TV360+ 4 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI1NTMwNX0.5d_I5HyJd4uDzEk5XjFGQqosIhqIjxF3d8l6I5zq8QKrsS-zAU-EwOmrf-wI7bCqWywPLru-D0Dup_fCf7hAOg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjE5NX0.LLRU4iGthAXMQS9MfGihBoUlaAFwdZD56WtpdWDlmYhUrNsLe1NZkX1A4y-d1l1Q1WxDV9ymsS4aljzdHRIz-w&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266956801/9a85754a5bd9_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3328,29 +3427,29 @@
         },
         {
           "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUzMDgsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.BFUPf-QngrKd4hHRX1ZTnNwkmPtgIx-fCqVbTHEZGIk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjIwMX0.DmEgLH2CPhLboIz2VMIYDUmIb9l--AIEKjUf5aA2XxNyfi1E-N881A9tply9oqWyPDbLkjoqKxb3eF1SAJX0OA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
-            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
           }
         },
         {
           "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI1NTMxMX0.MYUJiV1IxFP-HUN0RygZeiTEfPOsMtJ76dy3tD69betZN7EjlfNGlUha_YzPVpEZGdkpJaVQmfVoXPnct8JcpA&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIyMDEsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.Snz9rwIEbRhSgtKlMPRiwksizrz39udsDfVBgsIYM98&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "e1389121e18651169badabee05aef5ba",
-            "key": "0b65b7091cd1474160e0de4ef106ac5d"
+            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
+            "key": "b1e8e45770999a9207e2dbd69c71e653"
           }
         },
         {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUzMTEsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.hYMhs0dRI-xr0_PEdg6ZQfUbtUM9QEo_o4wBJtExsJo&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNzIyMDEsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.KUI1v_iqSLxXXsmSwyffwcZB-XXH7TEJGuSWh8GHXco&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3361,18 +3460,18 @@
         },
         {
           "name": "📺 TV360+ 8 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/370/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUzMTcsInVyaSI6Ii9icGstdHYvMzcwL291dHB1dC9pbmRleC5tcGQifQ.1AWJ_YzZZstHVoXA9Jse2gfZTb22xNaF_kpABK3zH4M&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/370370/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3MDM3MC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjIwMX0.ud_AdZITjDzR5C_ZKYAHGhkqU0bKz23ampDlYr6CktRcU4TCwLLufA_uGtgwCVu1cfUoxrxomow8U2ma-zPFxg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267211780/516c4028c806_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "61ad3fc7fc925b7db48270e2b0165669",
-            "key": "c397368031e9c215d86412fa0a14a565"
+            "keyId": "1a08bd3a8c565cdfa4e01a0273915f40",
+            "key": "d956d96ac3799d42441f582ec12f10df"
           }
         },
         {
           "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/449/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUzMTcsInVyaSI6Ii9icGstdHYvNDQ5L291dHB1dC9pbmRleC5tM3U4In0.CI-Rol2102CJuichcUSjRHVuQwXfJNwzFLOWzK5Xaf8&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI3MjIwNH0.a4rj2HeAwSoeDi8IZ0q1Tb5VETJw5lm3_V7SsjiKX3ojqjg-GOC-1zRG-BVkZl8OEwdj8lD8-eaC3Tv2Mzdq3A&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267388401/5f459b37721d_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3380,18 +3479,18 @@
         },
         {
           "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTQ2NjAsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.Udx-aCuNoAYCq3GsU1g5stitHES5TGkolOtkHnKSLlI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/465465/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ2NTQ2NS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTI3MjIwNH0.2tsBjxtchUV1aH_dugHz0gww1PdE_8Vh4WMCTOrusIY5dTamGJC6RLRjwVGlhtlhgmgDBDpC1VcgPQaj4FJlpg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "6db5c5c963365f6fafa1a23b8a06bd67",
-            "key": "1a0727fcea62de4e4471ebb0aaaec628"
+            "keyId": "5a5dd595f9ae5299b5003e0d4e3e98f5",
+            "key": "d9023b3b15ecbcc8115a49f576ed0799"
           }
         },
         {
           "name": "📺 TV360 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI1NTMyMH0.zehd9-wwaMkIwAXn4ISCVpPZe0E7m0Fg5o9PKCbpyVEvm_NHuZDnn9jMcY2VhlmZV2hr2mnl1vk4DwH03SnqHw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTI3MjIwN30.mAx1SMhBsuNrfZ6PgbbYvC-eCpNwGdJc3RGvipQuqs-4C6R3YmPeOU1hPqTuOWAeh6QczRhr0oxntBCoQ7SMaw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3399,7 +3498,7 @@
         },
         {
           "name": "📺 Livestream 01 (Trực tiếp) - TV360",
-          "url": "https://livestream-evg8.tv360.vn/DF1-XS0TsshfVwZ9mieyaw/1795320123/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "url": "https://livestream-evg8.tv360.vn/sMcHvr_NvSbqX0RJXAxmiA/1795337007/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3411,171 +3510,171 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795253769-0-0-8ed7be82d3e6468f42fd11ce9344df76",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=a2bbf9bb2b5b5691b10a08510b310201&txTime=6b01ac58",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795253768-0-0-6a2de52ec60b0c4f3fc0cec8c9120ecd",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795253768-0-0-13b7dad62ee4c923f778692ef7599c37",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=3201d83217bdfac0af94ba6671358336&txTime=6b01ac58",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795253769-0-0-13292b3787f71e118c8e2ef7c26e92ff",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795254668-0-0-bc3a69895ec5915cebc7b95a84fe4f92",
           "logo": "https://sta.vnres.co/file/common/20261121/c93666ec523ef602c147798d156601b6.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795253768-0-0-791a3a28e5ba79906778f79d40273fb0",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "IDN D1",
+          "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795254668-0-0-84eba842e6832003e302f1e475b0ccf0",
+          "logo": "https://sta.vnres.co/file/common/20261121/b1aad14b2cdc95449d853fa82128a8e1.jpg",
+          "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795253768-0-0-83b39a955636f6f9e4bd388eb4b7e0aa",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795253768-0-0-402b673f1626c13b3c4e7039bfb91aa5",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=0008fa473c6de38f6b3ba8c770e9f84a&txTime=6b01afdc",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Incheon United Club vs Ulsan HD FC (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795253769-0-0-078bdb7d7747fcea129809bef5860aff",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795254668-0-0-e453deb0e238fc9398728e4af5c743ad",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] stream-9912145?auth_key=1795252298-0-0-8eabde16b08cf8f4564993ef4e3c6284 (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795253768-0-0-357702227ebc9a2e26f1791d3d4fa3e3",
-          "logo": "https://sta.vnres.co/file/common/20261121/b1aad14b2cdc95449d853fa82128a8e1.jpg",
-          "competition": "",
+          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795254668-0-0-1d7e0c5901fb79395bdbb622979c4a4b",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795254668-0-0-e70ecb5d6354f659acab92bd14702768",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795254668-0-0-121c81c7eafe66a8abc48f9149127d05",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=e2a69b2e9e4df413a3420eb7b24413b6&txTime=6b01afdc",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795254668-0-0-e5b2ad28d4e4c4a5ed2c8aae2923a493",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795253768-0-0-ee13869f105693529e511c5026944b98",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795254668-0-0-3e8d93ebcbefc13b7d5c51f0c729a2ac",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Gamba Osaka vs Fagiano Okayama (BLV LUCAS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795254668-0-0-59b945ac77d5d4bbcdab61e630c0e5ab",
+          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Persik Kediri vs PSIM Yogyakarta (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795254668-0-0-a2486bf16496a0f7fa962502cb9161bc",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Gangwon FC vs Daejeon Hana Citizen (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795253769-0-0-16dcae48d69cbbd8b52fd658e2922a89",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795254668-0-0-c1821debf0f6021ec7cc85692523a8f2",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795253768-0-0-96d55bb95f26d3592be0cde44f57170e",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795254668-0-0-b6e47aeabe2b5c87a4cb9288f357cf17",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Brisbane Roar vs Sydney FC (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795253768-0-0-97df9475a9e7a20c30b60281156e0d0e",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795254668-0-0-71b6c5639030ad40b6dfd3183a9ad806",
           "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Incheon United Club vs Ulsan HD FC (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795253769-0-0-0ae94d2979aa61c66a3331ea50a98d89",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795254668-0-0-4cdca003d3631767abf823ccf12d4639",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Persebaya Surabaya vs Java United F.C. (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795253768-0-0-4214fda26ba2799ab2a723e1204dc8ef",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Gangwon FC vs Daejeon Hana Citizen (BLV RYO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795253769-0-0-f5a8ccb8be06de6fc048f4e8b769fd5d",
+          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795254668-0-0-0c8425c45d6e7fcd8fa97629e2e4894f",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Persebaya Surabaya vs Java United F.C. (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795254668-0-0-f959c07f65d50cb68c12c81b50feb281",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Melbourne United vs New Zealand Breakers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795253768-0-0-09b4f2849461ca03a18a617a1d03d23c",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795254668-0-0-ecf6eb6ee9e2de7554e7de18d3c940a9",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Persebaya Surabaya vs Java United F.C. (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=3c02af76d0bdfa3b1670e6b4cdb37cca&txTime=6b01ac58",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=94118578c36904d4789c1ad6cf2818e8&txTime=6b01afdc",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Gangwon FC vs Daejeon Hana Citizen (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795253769-0-0-2933fa0839516838f030184678365672",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795254668-0-0-1e5b10c7dd9c81327e754af36a278736",
           "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Incheon United Club vs Ulsan HD FC (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795253769-0-0-49d5cf71ed6702cb0e7779462c65ad11",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "KOR D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Persebaya Surabaya vs Java United F.C. (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=cbed5b86d9590ca2ca59a11b2bf86461&txTime=6b01ac58",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=7dd23420839c6f0aa3afc4cb3c43fe4f&txTime=6b01afdc",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Melbourne United vs New Zealand Breakers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795253796-0-0-bdfbaf011c7ebbb7422788e6e5fbc543",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795254668-0-0-a20fd1450d5d43b979f55fd8b3cead68",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Incheon United Club vs Ulsan HD FC (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795254668-0-0-31a89bff0157d7c0d01f96db0cab5189",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "KOR D1",
           "group": "🐿️ SocoLive"
         }
       ]
