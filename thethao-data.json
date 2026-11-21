@@ -1,99 +1,582 @@
 {
-  "updated_at": "2026-11-21 21:43:17",
+  "updated_at": "2026-11-21 21:58:29",
   "live_events": [
     {
-      "key": "21/11_20:00_alaves_deportivo",
-      "match_key": "21/11_20:00_alaves_deportivo",
-      "c_home": "alaves",
-      "c_away": "deportivo",
-      "homeTeam": "Alaves",
-      "awayTeam": "Deportivo La Coruna",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "20:00",
+      "key": "21/11_22:00_ipswich_tottenham",
+      "match_key": "21/11_22:00_ipswich_tottenham",
+      "c_home": "tottenham",
+      "c_away": "ipswich",
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Ipswich Town",
+      "homeLogo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+      "time": "22:00",
       "date": "21/11",
-      "timestamp": 1795266000000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "timestamp": 1795273200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [20:00 21/11] Deportivo Alaves Vs Rc Deportivo (BLV Gà Siêu Péo) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
-          "competition": "Spanish La Liga",
+          "name": "⚽ [22:00 21/11] Tottenham Hotspur Vs Ipswich Town (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795275729-0-0-3dfc3bfca99ffa5de2cf94515707b8c0",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (Khầy Lương Khô) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795276629-0-0-e9f9b77c0a196f172964adeb3081fa23",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=6fcd900e64de454a23e62e4c1fc4ed70&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795276629-0-0-0c6e2ad059f583e220ab4e8025f2db8c",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795275730-0-0-5fdd406feac5f1def0c6473785b87679",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795276629-0-0-20a768da5a5fb885a1eb4d4d38f6756d",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795275729-0-0-f253649a0fcfd60c596b49af7cadf9e8",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795276629-0-0-edf17641537cd5383fbcdbe7f39a0709",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [20:00 21/11] Deportivo Alavés vs RC Deportivo (BLV Nguyễn Ánh) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=77560dfb9e09ce67d849301ef70c7980&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20261121/978a716809c1ccab62b3d832f3fad00c.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795276629-0-0-87395abbfd796adef16e0d9e0e555714",
+          "logo": "https://sta.vnres.co/file/common/20261121/5c86f1aded16a0490bb358a59bb422c7.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (BLV Chuối Nhỏ) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125548_a24442be.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
+          "group": "⚡ Chuối Chiên TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [20:00 21/11] Deportivo Alavés vs Deportivo La Coruña (BLV ASAHI) [hls] - Bia Ôm TV",
-          "url": "https://cdnhls.xbdbotv.live/live/MTk3MzI2MjI6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmFjNDI2a2N3cnh6aG9vbW9pdDU1NXhzMQ/index.m3u8",
-          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/deportivo-alaves-2975",
+          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV Vịt Nướng) [hls] - Bia Ôm TV",
+          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIwOTQ6aGd5eDdwZGEwMmRlNWExZXZhMThvNnRnOmE0ZTdwbG80Znh0MG1hcmZmaTRsMG8xNQ/index.m3u8",
+          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/tottenham-hotspur-6",
           "competition": "",
           "group": "⚡ Bia Ôm TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [20:00 21/11] Deportivo Alavés vs Deportivo La Coruna (BLV NGƯỜI THỎ) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/alaves-coruna-laliga/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/5f5988b7-89eb-4955-8442-4ebc52328183",
+          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV NGƯỜI NẶN) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/tot-ips-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/96b16dc0-cc76-42f4-aee4-b84e42bf4bfc",
           "competition": "",
           "group": "⚡ S8 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV Long Ruồi) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8586.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Spurs vs Ipswich (BLV Siêu Quậy) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/8b22ab4041e666b996a2d96f20dea707.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (BLV LÝ LONG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/d5d201a26ee24d0a8efced89685e5c4d/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_ipswich_tottenham"
         }
       ],
-      "displayTitle": "🔴 [20:00 21/11] Alaves vs Deportivo La Coruna",
+      "displayTitle": "🔴 [22:00 21/11] Tottenham Hotspur vs Ipswich Town",
       "number": 1
+    },
+    {
+      "key": "21/11_22:00_chelsea_leedsunited",
+      "match_key": "21/11_22:00_chelsea_leedsunited",
+      "c_home": "chelsea",
+      "c_away": "leedsunited",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leeds United",
+      "homeLogo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+      "time": "22:00",
+      "date": "21/11",
+      "timestamp": 1795273200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:00 21/11] Chelsea Vs Leeds United (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds (BLV Khô Chè) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795276629-0-0-e6bbc5991c3df17d3499d9d8cf8b38c5",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=2686839190d0b0512640447854ce9fb6&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795276629-0-0-3daacb7affe27376fd7952eb9d294da1",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795276629-0-0-b6c97ae30bc0fe9c7fc61d93ad8589c3",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795276629-0-0-18ea05126ac359c611e7183acf2b05ee",
+          "logo": "https://sta.vnres.co/file/common/20261121/476cdf0ec2c77b68be4f51c743e4580b.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795276629-0-0-524c9f0e8502d918c79572797d53a519",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV Ngô Quyền) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/a0cf8f551e9440acb3f4ff533dcc58a4.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV 333) [hls] - Bia Ôm TV",
+          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIxMDA6bHEzbHRwejVpcXZwcnF4Ym42cmVlc3Q2OmdweWE4NWNlNWkweHkydDhoMzM0MW9wbQ/index.m3u8",
+          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/chelsea-18",
+          "competition": "",
+          "group": "⚡ Bia Ôm TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV NGƯỜI RÂM) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/che-lee-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/1e0d9a56-6432-44e9-a3c4-73f3b63fd33a",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV Kai) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8455.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/5aba7202b82346599e17ec364bef3c16/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        }
+      ],
+      "displayTitle": "🔴 [22:00 21/11] Chelsea vs Leeds United",
+      "number": 2
+    },
+    {
+      "key": "21/11_22:00_astonvilla_sunderland",
+      "match_key": "21/11_22:00_astonvilla_sunderland",
+      "c_home": "astonvilla",
+      "c_away": "sunderland",
+      "homeTeam": "Aston Villa",
+      "awayTeam": "Sunderland",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+      "time": "22:00",
+      "date": "21/11",
+      "timestamp": 1795273200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa Vs Sunderland (BLV Gà Siêu Ngố) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795276629-0-0-0e56adaa59c81767362aaaa9688a1c2e",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795276629-0-0-44e043444b3328135ccb737cec4c5d88",
+          "logo": "https://sta.vnres.co/file/common/20261121/ac3510b29a6770bb3e6553e346c2714c.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795276629-0-0-b62034d59216a5318a7168fdf3e44dcf",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795276629-0-0-2bb22b6f33bdb9f564c6b7f774902d1f",
+          "logo": "https://sta.vnres.co/file/common/20261121/2a93ccbeaf7f0ded23a3489e8a762143.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV LOKA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795276629-0-0-bd19ddeddae465b4fc87d19967dc0595",
+          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Lẩu Ếch) [hls] - Bia Ôm TV",
+          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIxMDI6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOml3ZWxyb2tmcjV3aGk1azY1cWtwanNsbw/index.m3u8",
+          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/aston-villa-15",
+          "competition": "",
+          "group": "⚡ Bia Ôm TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV NGƯỜI BẠC) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/ast-sun-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/f948a5ef-2e04-4b4e-b10b-2ad36a918cc0",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Cá Mập) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Người Kiến) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/c5f0cdb0bc8f4e58912cf2dca33225c3/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnh06om7vx/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        }
+      ],
+      "displayTitle": "🔴 [22:00 21/11] Aston Villa vs Sunderland",
+      "number": 3
+    },
+    {
+      "key": "21/11_22:00_bournemouthafc_nottingham",
+      "match_key": "21/11_22:00_bournemouthafc_nottingham",
+      "c_home": "bournemouthafc",
+      "c_away": "nottingham",
+      "homeTeam": "Bournemouth Afc",
+      "awayTeam": "Nottingham Forest",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+      "time": "22:00",
+      "date": "21/11",
+      "timestamp": 1795273200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth Afc Vs Nottingham Forest (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV Lê Lợi) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/240b30d333c97d293752ab7afd77ccd6.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV NGƯỜI CÁO) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/bou-not-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/1f7e5b7d-381d-43b8-bf55-ea37792120cf",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/306290.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/932f872b378d4c9280f2f898b8c42905.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        }
+      ],
+      "displayTitle": "🔴 [22:00 21/11] Bournemouth Afc vs Nottingham Forest",
+      "number": 4
+    },
+    {
+      "key": "21/11_22:00_coventrycity_crystalpalace",
+      "match_key": "21/11_22:00_coventrycity_crystalpalace",
+      "c_home": "coventrycity",
+      "c_away": "crystalpalace",
+      "homeTeam": "Coventry City",
+      "awayTeam": "Crystal Palace",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "22:00",
+      "date": "21/11",
+      "timestamp": 1795273200000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:00 21/11] Coventry City Vs Crystal Palace (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795276629-0-0-200344d41a97973fafa70a6cf8e6448f",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795276629-0-0-bdd57146e05a8365f2b577a946a72086",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795276629-0-0-e1625aa626957de220376216acff1d08",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795276629-0-0-24617f84eeec8d6f4cff72893a2393d1",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Coventry City vs Crystal Palace (BLV Gà Ô Long) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/432017.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/53e7ec5b7e144f6b8c52a49599dc37ef.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Coventry City vs Crystal Palace (BLV Đoàn Dự) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/759f19ccaecadd33a5c09b535e543410.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        }
+      ],
+      "displayTitle": "🔴 [22:00 21/11] Coventry City vs Crystal Palace",
+      "number": 5
     },
     {
       "key": "21/11_21:00_cagliari_como",
@@ -124,7 +607,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795275729-0-0-ac408e0c5e3f46434bec4e0b9f99bac3",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795276629-0-0-3db080dea9cdf32ad5261b868058c185",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -133,7 +616,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795275729-0-0-17c12fda96ed927443c7a2c02e104a82",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795276629-0-0-da32301fc0ebb838655733e7005c44ad",
           "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -142,7 +625,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795275729-0-0-7ebaf1078c13c679fc05e304850e495e",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795276629-0-0-a5b071c3accf1b035cceffe52f410730",
           "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -151,7 +634,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795275729-0-0-ba48b87ff96b185db4c2c5c359328e1f",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795276629-0-0-749473906b132226b2569ad510df17c1",
           "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -223,7 +706,7 @@
         }
       ],
       "displayTitle": "🔴 [21:00 21/11] Como vs Cagliari",
-      "number": 2
+      "number": 6
     },
     {
       "key": "21/11_21:00_lazio_lecce",
@@ -256,7 +739,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912131_lhd.m3u8?txSecret=aacf28b8846269d9b51ec07b756fe896&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912131_lhd.m3u8?txSecret=d5d09916234d52f856f8d22345470fde&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -265,7 +748,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=fc8934c282cdd0f8ee648333961d5497&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=087b7e83d6bc7f8f929fd7466460ef5b&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -274,7 +757,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795275729-0-0-841864842b256adfdd806bfa67dc7a78",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795276629-0-0-122eefd609399c850f2f626bcd79f787",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -283,7 +766,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795275729-0-0-bb91cf631d2ec49791f7bfd2d18c690c",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795276629-0-0-3ec50ecceccd5261056d83989a8689f1",
           "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -319,7 +802,7 @@
         }
       ],
       "displayTitle": "🔴 [21:00 21/11] Lazio vs Lecce",
-      "number": 3
+      "number": 7
     },
     {
       "key": "21/11_21:30_dortmund_monchengladbach",
@@ -375,7 +858,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=ef4c44947134c8c497957f06505b0ffe&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=acdc6b9f0ecb09415494362d9967b4bc&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -384,7 +867,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795275729-0-0-98cb9c3ade6170d794c427c28a5c72e5",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795276629-0-0-adf1866692b0bb6abf2dcb8a7d99472b",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -393,7 +876,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795275729-0-0-fc879ed3a4ecef43918a8c6878935d42",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795276629-0-0-856e2e48ac21368e23ad01f6a297edf3",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -402,7 +885,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795275730-0-0-b116a4c29170e6d57c353883fd90cde7",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795276629-0-0-4cbb4927d3245ac483a4267984e6143b",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -465,7 +948,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Borussia Monchengladbach vs Borussia Dortmund",
-      "number": 4
+      "number": 8
     },
     {
       "key": "21/11_21:30_leverkusen_paderborn07",
@@ -510,7 +993,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=b5f4ebb9f4e2e6ab63a8643b6d550899&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=4190b418838d7c05a19c52bca9216393&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -519,7 +1002,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795275729-0-0-6d961a260113bdcae65f1c1eb2e9f67e",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795276629-0-0-723cec77261dea3eea2a8760b9f6c876",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -528,7 +1011,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV RYO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795275729-0-0-4c9cbcc86913d12232ac42100e1e7f27",
+          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795276629-0-0-26a0e42c65d757d6463218516ed4bac8",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -537,7 +1020,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795275729-0-0-089c0f4af969dcaad3440e25d35fd7f7",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795276629-0-0-fd758b6e953c0421a85eb37208f4eb00",
           "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -573,7 +1056,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Bayer Leverkusen vs Paderborn 07",
-      "number": 5
+      "number": 9
     },
     {
       "key": "21/11_21:30_leipzig_unionberlin",
@@ -604,7 +1087,7 @@
         },
         {
           "name": "⚽ [21:30 21/11] 1. FC Union Berlin vs RB Leipzig (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=5d4bdc890a725ac4c42ea14a7a6d38b6&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=a534c72028e9921124ffedf59e927c8c&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -613,7 +1096,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795275729-0-0-3a22f7ca0a5cbf3b1378af1787d2e726",
+          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795276629-0-0-f4ef6be6e8887558684ee1d6bd728afb",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -621,18 +1104,18 @@
           "match_key": "21/11_21:30_leipzig_unionberlin"
         },
         {
-          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795275730-0-0-427d317ee4afbc695917c82045e790da",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=e471e5f02a4b138257d5e376bcb449ec&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
           "match_key": "21/11_21:30_leipzig_unionberlin"
         },
         {
-          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=06ddb6cc0f9867ca3804a1b86d648f16&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795276629-0-0-9e08d1ab8472493223bea84460734733",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -667,7 +1150,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Union Berlin vs RB Leipzig",
-      "number": 6
+      "number": 10
     },
     {
       "key": "21/11_21:30_freiburg_sv07elversberg",
@@ -716,7 +1199,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Elversberg vs Sc Freiburg",
-      "number": 7
+      "number": 11
     },
     {
       "key": "21/11_21:30_frankfurt_tsghoffenheim",
@@ -738,7 +1221,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 21/11] Eintracht Frankfurt vs TSG Hoffenheim (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795275729-0-0-930b123c129ffc9dd227f1c9d3621315",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795276629-0-0-4a6584955ac6d7673f91ab90f7dc6a91",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -756,7 +1239,7 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Eintracht Frankfurt vs Tsg Hoffenheim",
-      "number": 8
+      "number": 12
     },
     {
       "key": "21/11_21:30_frankfurt_tsg1899hoffenheim",
@@ -796,202 +1279,6 @@
         }
       ],
       "displayTitle": "🔴 [21:30 21/11] Eintracht Frankfurt vs Tsg 1899 Hoffenheim",
-      "number": 9
-    },
-    {
-      "key": "21/11_19:30_derbycounty_southampton",
-      "match_key": "21/11_19:30_derbycounty_southampton",
-      "c_home": "southampton",
-      "c_away": "derbycounty",
-      "homeTeam": "Southampton",
-      "awayTeam": "Derby County",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:30",
-      "date": "21/11",
-      "timestamp": 1795264200000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:30 21/11] Southampton vs Derby County (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_derbycounty_southampton"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Southampton vs Derby County (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/741294.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_derbycounty_southampton"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/87547578.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_derbycounty_southampton"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_derbycounty_southampton"
-        }
-      ],
-      "displayTitle": "🔴 [19:30 21/11] Southampton vs Derby County",
-      "number": 10
-    },
-    {
-      "key": "21/11_19:30_millwall_rangers",
-      "match_key": "21/11_19:30_millwall_rangers",
-      "c_home": "millwall",
-      "c_away": "rangers",
-      "homeTeam": "Millwall",
-      "awayTeam": "Rangers",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:30",
-      "date": "21/11",
-      "timestamp": 1795264200000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:30 21/11] Millwall vs Queens Park Rangers (BLV Triệu Hằng) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_millwall_rangers"
-        }
-      ],
-      "displayTitle": "🔴 [19:30 21/11] Millwall vs Rangers",
-      "number": 11
-    },
-    {
-      "key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester",
-      "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester",
-      "c_home": "caulacbobongdathanhphomanchester",
-      "c_away": "caulacbobongdafulham",
-      "homeTeam": "Cau Lac Bo Bong Da Thanh Pho Manchester",
-      "awayTeam": "Cau Lac Bo Bong Da Fulham",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:30",
-      "date": "21/11",
-      "timestamp": 1795264200000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/08552895.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/14830711.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/14830711_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/33982309.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/33982309_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
-        }
-      ],
-      "displayTitle": "🔴 [19:30 21/11] Cau Lac Bo Bong Da Thanh Pho Manchester vs Cau Lac Bo Bong Da Fulham",
-      "number": 12
-    },
-    {
-      "key": "21/11_19:30_colombia_youth_japan_youth",
-      "match_key": "21/11_19:30_colombia_youth_japan_youth",
-      "c_home": "japan_youth",
-      "c_away": "colombia_youth",
-      "homeTeam": "Japan U17",
-      "awayTeam": "Colombia U17",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:30",
-      "date": "21/11",
-      "timestamp": 1795264200000,
-      "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:30 21/11] Nhật Bản U17 vs Colombia U17 (BLV LÝ LẮC) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/fd71c76d0ad64297bb4236d2ce223c11/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phezgm2wd/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_colombia_youth_japan_youth"
-        }
-      ],
-      "displayTitle": "🔴 [19:30 21/11] Japan U17 vs Colombia U17",
       "number": 13
     },
     {
@@ -1277,563 +1564,35 @@
       "number": 20
     },
     {
-      "key": "21/11_22:00_astonvilla_sunderland",
-      "match_key": "21/11_22:00_astonvilla_sunderland",
-      "c_home": "astonvilla",
-      "c_away": "sunderland",
-      "homeTeam": "Aston Villa",
-      "awayTeam": "Sunderland",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-      "time": "22:00",
-      "date": "21/11",
-      "timestamp": 1795273200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa Vs Sunderland (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795275729-0-0-867c8330b583219334905305c22c50e2",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795275729-0-0-1e041e80000b8286490ef95dbe874da1",
-          "logo": "https://sta.vnres.co/file/common/20261121/ac3510b29a6770bb3e6553e346c2714c.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795275729-0-0-750e4a1552e940c937ec0196e9f99569",
-          "logo": "https://sta.vnres.co/file/common/20261121/2a93ccbeaf7f0ded23a3489e8a762143.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795275736-0-0-822e2297ee25dee1e623a02aeb360225",
-          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Lẩu Ếch) [hls] - Bia Ôm TV",
-          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIxMDI6YThsY2E2YTk4dWpna3Q2bXcydDZwYXRxOml3ZWxyb2tmcjV3aGk1azY1cWtwanNsbw/index.m3u8",
-          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/aston-villa-15",
-          "competition": "",
-          "group": "⚡ Bia Ôm TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV NGƯỜI BẠC) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/ast-sun-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/f948a5ef-2e04-4b4e-b10b-2ad36a918cc0",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Cá Mập) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Người Kiến) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/a3c32d6a906083118cac2cb796edaab3.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/c5f0cdb0bc8f4e58912cf2dca33225c3/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnh06om7vx/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        }
-      ],
-      "displayTitle": "⚽ [22:00 21/11] Aston Villa vs Sunderland",
-      "number": 21
-    },
-    {
-      "key": "21/11_22:00_bournemouthafc_nottingham",
-      "match_key": "21/11_22:00_bournemouthafc_nottingham",
-      "c_home": "bournemouthafc",
-      "c_away": "nottingham",
-      "homeTeam": "Bournemouth Afc",
-      "awayTeam": "Nottingham Forest",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-      "time": "22:00",
-      "date": "21/11",
-      "timestamp": 1795273200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth Afc Vs Nottingham Forest (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV Lê Lợi) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/240b30d333c97d293752ab7afd77ccd6.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV NGƯỜI CÁO) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/bou-not-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/1f7e5b7d-381d-43b8-bf55-ea37792120cf",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth AFC vs Nottingham Forest (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/306290.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/932f872b378d4c9280f2f898b8c42905.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        }
-      ],
-      "displayTitle": "⚽ [22:00 21/11] Bournemouth Afc vs Nottingham Forest",
-      "number": 22
-    },
-    {
-      "key": "21/11_22:00_chelsea_leedsunited",
-      "match_key": "21/11_22:00_chelsea_leedsunited",
-      "c_home": "chelsea",
-      "c_away": "leedsunited",
-      "homeTeam": "Chelsea",
-      "awayTeam": "Leeds United",
-      "homeLogo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
-      "time": "22:00",
-      "date": "21/11",
-      "timestamp": 1795273200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:00 21/11] Chelsea Vs Leeds United (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds (BLV Khô Chè) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795275729-0-0-9e78d5a5eecda4f4840317a710833ff2",
-          "logo": "https://sta.vnres.co/file/common/20261121/476cdf0ec2c77b68be4f51c743e4580b.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795275730-0-0-a07801241e00b0c6a950b358c79fd082",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795275729-0-0-92530637143d177c79bfe376d64575e3",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=b1e1cb3b9bb56cbec31b4c78a03a7e01&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795275729-0-0-266edef7ba4b30b04d40a64dffd2772c",
-          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795275729-0-0-0dd91c7685b4c9266fa9489086246e93",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV Ngô Quyền) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/a0cf8f551e9440acb3f4ff533dcc58a4.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV 333) [hls] - Bia Ôm TV",
-          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIxMDA6bHEzbHRwejVpcXZwcnF4Ym42cmVlc3Q2OmdweWE4NWNlNWkweHkydDhoMzM0MW9wbQ/index.m3u8",
-          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/chelsea-18",
-          "competition": "",
-          "group": "⚡ Bia Ôm TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV NGƯỜI RÂM) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/che-lee-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/1e0d9a56-6432-44e9-a3c4-73f3b63fd33a",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV Kai) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8455.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea vs Leeds United (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/5aba7202b82346599e17ec364bef3c16/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpdxm7vx/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        }
-      ],
-      "displayTitle": "⚽ [22:00 21/11] Chelsea vs Leeds United",
-      "number": 23
-    },
-    {
-      "key": "21/11_22:00_ipswich_tottenham",
-      "match_key": "21/11_22:00_ipswich_tottenham",
-      "c_home": "tottenham",
-      "c_away": "ipswich",
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Ipswich Town",
-      "homeLogo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
-      "time": "22:00",
-      "date": "21/11",
-      "timestamp": 1795273200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:00 21/11] Tottenham Hotspur Vs Ipswich Town (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (Khầy Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795275729-0-0-5d03bc49125b4a44fa1c4b50e4fdbb71",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795275729-0-0-cdda2cb8ea70b22387a504a775622d63",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795275729-0-0-9b1b092cc8fed2fbfd12c074fb6c6fd6",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795275729-0-0-c49162807fc7104157fe48f2deacc822",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795275729-0-0-2d46b63082ec3bbe4b067238bd5c8809",
-          "logo": "https://sta.vnres.co/file/common/20261121/5c86f1aded16a0490bb358a59bb422c7.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=f24e514d31bb23b9c2ecc94943e22565&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20261121/978a716809c1ccab62b3d832f3fad00c.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (BLV Chuối Nhỏ) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125548_a24442be.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV Vịt Nướng) [hls] - Bia Ôm TV",
-          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIwOTQ6aGd5eDdwZGEwMmRlNWExZXZhMThvNnRnOmE0ZTdwbG80Znh0MG1hcmZmaTRsMG8xNQ/index.m3u8",
-          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/tottenham-hotspur-6",
-          "competition": "",
-          "group": "⚡ Bia Ôm TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV NGƯỜI NẶN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/tot-ips-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/96b16dc0-cc76-42f4-aee4-b84e42bf4bfc",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town (BLV Long Ruồi) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8586.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Spurs vs Ipswich (BLV Siêu Quậy) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/8b22ab4041e666b996a2d96f20dea707.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham vs Ipswich (BLV LÝ LONG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/d5d201a26ee24d0a8efced89685e5c4d/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh90gr1ge/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        }
-      ],
-      "displayTitle": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town",
-      "number": 24
-    },
-    {
-      "key": "21/11_22:00_coventrycity_crystalpalace",
-      "match_key": "21/11_22:00_coventrycity_crystalpalace",
-      "c_home": "coventrycity",
-      "c_away": "crystalpalace",
-      "homeTeam": "Coventry City",
-      "awayTeam": "Crystal Palace",
+      "key": "21/11_22:00_bournemouth_nottmforest24htv",
+      "match_key": "21/11_22:00_bournemouth_nottmforest24htv",
+      "c_home": "bournemouth",
+      "c_away": "nottmforest24htv",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Nott'm Forest 24h Tv",
       "homeLogo": "",
       "awayLogo": "",
       "time": "22:00",
       "date": "21/11",
       "timestamp": 1795273200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [22:00 21/11] Coventry City Vs Crystal Palace (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795275729-0-0-b036bf9588f89fc3e76fd5845beef727",
-          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795275729-0-0-57aaf610f879501c89a99b9d3f1698b6",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795275729-0-0-5a2471d330b962ba5e7f52b5320fcfe3",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Coventry City vs Crystal Palace (BLV Gà Ô Long) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/432017.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/53e7ec5b7e144f6b8c52a49599dc37ef.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Coventry City vs Crystal Palace (BLV Đoàn Dự) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/759f19ccaecadd33a5c09b535e543410.png",
+          "name": "⚽ [22:00 21/11] Bournemouth vs Nott'm Forest (BLV Lữ Bố.Vip) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/240b30d333c97d293752ab7afd77ccd6.png",
           "competition": "",
           "group": "⚡ Gà Vàng 24h TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+          "match_key": "21/11_22:00_bournemouth_nottmforest24htv"
         }
       ],
-      "displayTitle": "⚽ [22:00 21/11] Coventry City vs Crystal Palace",
-      "number": 25
+      "displayTitle": "🔴 [22:00 21/11] Bournemouth vs Nott'm Forest 24h Tv",
+      "number": 21
     },
     {
       "key": "21/11_22:15_rayovallecano_valencia",
@@ -1863,6 +1622,15 @@
           "match_key": "21/11_22:15_rayovallecano_valencia"
         },
         {
+          "name": "⚽ [LIVE 21/11] Rayo Vallecano vs Valencia CF (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795276629-0-0-24a863706a30c68cd87888ac9cfbefe7",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_22:15_rayovallecano_valencia"
+        },
+        {
           "name": "⚽ [22:15 21/11] Rayo Vallecano vs Valencia (BLV HÀU NƯỚNG) [hls] - Bia Ôm TV",
           "url": "https://cdnhls.xbdbotv.live/live/MTk3MzI2MTU6ZjloaXUzaDRjanBxdHhoeGFvY3I1OGZkOm4zemUydXdwdmY5dzJ5NzAzeTd6aWU2cQ/index.m3u8",
           "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/rayo-vallecano-377",
@@ -1873,7 +1641,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 21/11] Rayo Vallecano vs Valencia",
-      "number": 26
+      "number": 22
     },
     {
       "key": "21/11_23:15_ogcnice_parissaintgermain",
@@ -1922,7 +1690,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Ogc Nice vs Paris Saint Germain",
-      "number": 27
+      "number": 23
     },
     {
       "key": "21/11_23:15_ogcnice_psg",
@@ -1962,7 +1730,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Nice vs Paris Saint-Germain",
-      "number": 28
+      "number": 24
     },
     {
       "key": "22/11_00:00_parma_roma",
@@ -2040,7 +1808,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 22/11] Parma vs AS Roma",
-      "number": 29
+      "number": 25
     },
     {
       "key": "22/11_00:30_arsenal_newcastle",
@@ -2118,7 +1886,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Newcastle United vs Arsenal",
-      "number": 30
+      "number": 26
     },
     {
       "key": "22/11_00:30_betis_sevilla",
@@ -2187,7 +1955,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Sevilla vs Real Betis",
-      "number": 31
+      "number": 27
     },
     {
       "key": "22/11_00:30_schalke04_stuttgart",
@@ -2227,7 +1995,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Schalke 04 vs VfB Stuttgart",
-      "number": 32
+      "number": 28
     },
     {
       "key": "22/11_02:45_napoli_torino",
@@ -2287,7 +2055,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Napoli vs Torino",
-      "number": 33
+      "number": 29
     },
     {
       "key": "22/11_02:45_lens_toulouse",
@@ -2318,7 +2086,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lens vs Toulouse",
-      "number": 34
+      "number": 30
     },
     {
       "key": "22/11_02:45_losclille_lyon",
@@ -2378,7 +2146,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Losc Lille vs Lyon",
-      "number": 35
+      "number": 31
     },
     {
       "key": "22/11_02:45_auxerre_monaco",
@@ -2409,7 +2177,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Monaco vs Auxerre",
-      "number": 36
+      "number": 32
     },
     {
       "key": "22/11_03:00_celtavigo_realmadrid",
@@ -2469,7 +2237,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 22/11] Real Madrid vs Celta Vigo",
-      "number": 37
+      "number": 33
     },
     {
       "key": "22/11_18:00_dynamomoscow_krasnodar",
@@ -2500,7 +2268,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 22/11] Dynamo Moscow vs Krasnodar",
-      "number": 38
+      "number": 34
     },
     {
       "key": "22/11_18:30_juventus_venezia",
@@ -2542,7 +2310,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 22/11] Juventus vs Venezia",
-      "number": 39
+      "number": 35
     },
     {
       "key": "22/11_20:00_barcelona_villarreal",
@@ -2584,7 +2352,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 22/11] Barcelona vs Villarreal",
-      "number": 40
+      "number": 36
     },
     {
       "key": "22/11_21:00_brighton_hullcity",
@@ -2615,7 +2383,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Hull City vs Brighton",
-      "number": 41
+      "number": 37
     },
     {
       "key": "22/11_21:00_bologna_udinese",
@@ -2646,7 +2414,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Bologna vs Udinese",
-      "number": 42
+      "number": 38
     },
     {
       "key": "22/11_21:00_genoa_sassuolo",
@@ -2677,7 +2445,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Sassuolo vs Genoa",
-      "number": 43
+      "number": 39
     },
     {
       "key": "22/11_21:30_1fsvmainz05_augsburg",
@@ -2719,7 +2487,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 22/11] Augsburg vs Mainz",
-      "number": 44
+      "number": 40
     },
     {
       "key": "22/11_22:15_realsociedad_santander",
@@ -2750,7 +2518,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad",
-      "number": 45
+      "number": 41
     },
     {
       "key": "22/11_23:15_lorient_rennais",
@@ -2781,7 +2549,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 22/11] Lorient vs Rennais",
-      "number": 46
+      "number": 42
     },
     {
       "key": "22/11_23:30_liverpool_manutd",
@@ -2823,7 +2591,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Liverpool vs Manchester United",
-      "number": 47
+      "number": 43
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -2865,7 +2633,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 48
+      "number": 44
     },
     {
       "key": "23/11_00:00_acmilan_frosinone",
@@ -2896,7 +2664,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 23/11] AC Milan vs Frosinone",
-      "number": 49
+      "number": 45
     },
     {
       "key": "23/11_00:30_malaga_osasuna",
@@ -2927,7 +2695,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 23/11] Osasuna vs Malaga",
-      "number": 50
+      "number": 46
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -2969,7 +2737,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 51
+      "number": 47
     },
     {
       "key": "23/11_02:45_lemans_marseille",
@@ -3000,7 +2768,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Marseille vs Le Mans",
-      "number": 52
+      "number": 48
     },
     {
       "key": "23/11_03:00_atleticomadrid_getafe",
@@ -3031,7 +2799,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atletico Madrid",
-      "number": 53
+      "number": 49
     },
     {
       "key": "23/11_18:00_chornomoretsodesa_epitsentrdunayivtsi",
@@ -3062,7 +2830,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Chornomorets Odesa vs Epitsentr Dunayivtsi",
-      "number": 54
+      "number": 50
     },
     {
       "key": "23/11_18:00_lnzcherkasy_polissyazhytomyr",
@@ -3093,7 +2861,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
-      "number": 55
+      "number": 51
     },
     {
       "key": "23/11_20:45_alhilal_neftchifergana",
@@ -3124,7 +2892,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fergana vs Al Hilal",
-      "number": 56
+      "number": 52
     },
     {
       "key": "23/11_23:00_alain_esteghlaltehran",
@@ -3155,7 +2923,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal Tehran",
-      "number": 57
+      "number": 53
     },
     {
       "key": "23/11_23:00_alwasl_tractor",
@@ -3186,7 +2954,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Tractor Sc vs Al Wasl Sc",
-      "number": 58
+      "number": 54
     },
     {
       "key": "23/11_23:00_alahli_alshamalsportsclub",
@@ -3228,7 +2996,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 59
+      "number": 55
     },
     {
       "key": "23/11_23:00_alain_esteghlalfc",
@@ -3261,7 +3029,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
-      "number": 60
+      "number": 56
     },
     {
       "key": "24/11_01:15_algharafa_alquwaaljawiya",
@@ -3294,7 +3062,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
-      "number": 61
+      "number": 57
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeon",
@@ -3327,13 +3095,53 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
-      "number": 62
+      "number": 58
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
+        {
+          "name": "⚽ [22:00 21/11] Tottenham Hotspur Vs Ipswich Town (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Chelsea Vs Leeds United (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa Vs Sunderland (BLV Gà Siêu Ngố) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth Afc Vs Nottingham Forest (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Coventry City Vs Crystal Palace (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
         {
           "name": "⚽ [21:30 21/11] Borussia Monchengladbach Vs Borussia Dortmund (BLV Gà Siêu Mõm) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -3355,8 +3163,7 @@
           "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
           "competition": "Spanish La Liga",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [21:00 21/11] Como Vs Cagliari (BLV Gà Siêu Tồ) - Gà Vàng",
@@ -3389,46 +3196,6 @@
           "competition": "Bundesliga",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "21/11_21:30_freiburg_sv07elversberg"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Aston Villa Vs Sunderland (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth Afc Vs Nottingham Forest (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Chelsea Vs Leeds United (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Tottenham Hotspur Vs Ipswich Town (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Coventry City Vs Crystal Palace (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
         },
         {
           "name": "⚽ [22:15 21/11] Rayo Vallecano Vs Valencia Cf (BLV Gà Siêu Péo) - Gà Vàng",
@@ -3764,16 +3531,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [21:00 21/11] Lazio vs Lecce (BLV Xôi Xoài) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
-          "competition": "Serie A",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "21/11_21:00_lazio_lecce"
-        },
-        {
           "name": "⚽ [21:30 21/11] B. Monchengladbach vs Dortmund (BLV Khô Mật) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
@@ -3782,6 +3539,26 @@
           "competition": "Bundesliga",
           "group": "🍵 Xôi Chè TV",
           "match_key": "21/11_21:30_dortmund_monchengladbach"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "21/11_22:00_bournemouthafc_nottingham"
         },
         {
           "name": "⚽ [22:00 21/11] Chelsea vs Leeds (BLV Khô Chè) - Xôi Chè",
@@ -3804,24 +3581,14 @@
           "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [22:00 21/11] Aston Villa vs Sunderland (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-          "competition": "Premier League",
+          "name": "⚽ [21:00 21/11] Lazio vs Lecce (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/5010_lecce.jpg",
+          "competition": "Serie A",
           "group": "🍵 Xôi Chè TV",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [22:00 21/11] Bournemouth vs Nottingham (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3071_afc-bournemouth.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "21/11_22:00_bournemouthafc_nottingham"
+          "match_key": "21/11_21:00_lazio_lecce"
         },
         {
           "name": "⚽ [00:00 22/11] Parma vs AS Roma (BLV Xôi Gấc) - Xôi Chè",
@@ -4189,120 +3956,104 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795275729-0-0-3dfc3bfca99ffa5de2cf94515707b8c0",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_20:00_alaves_deportivo"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795275729-0-0-9e78d5a5eecda4f4840317a710833ff2",
-          "logo": "https://sta.vnres.co/file/common/20261121/476cdf0ec2c77b68be4f51c743e4580b.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795275729-0-0-5d03bc49125b4a44fa1c4b50e4fdbb71",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795275730-0-0-a07801241e00b0c6a950b358c79fd082",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795275729-0-0-cdda2cb8ea70b22387a504a775622d63",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795275729-0-0-9b1b092cc8fed2fbfd12c074fb6c6fd6",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795275729-0-0-c49162807fc7104157fe48f2deacc822",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_ipswich_tottenham"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795275729-0-0-92530637143d177c79bfe376d64575e3",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795276629-0-0-e6bbc5991c3df17d3499d9d8cf8b38c5",
           "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_chelsea_leedsunited"
         },
         {
-          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795275729-0-0-2d46b63082ec3bbe4b067238bd5c8809",
-          "logo": "https://sta.vnres.co/file/common/20261121/5c86f1aded16a0490bb358a59bb422c7.jpg",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795276629-0-0-e9f9b77c0a196f172964adeb3081fa23",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795276629-0-0-0e56adaa59c81767362aaaa9688a1c2e",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795276629-0-0-0c6e2ad059f583e220ab4e8025f2db8c",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795276629-0-0-20a768da5a5fb885a1eb4d4d38f6756d",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
           "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=b1e1cb3b9bb56cbec31b4c78a03a7e01&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=2686839190d0b0512640447854ce9fb6&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_chelsea_leedsunited"
         },
         {
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795276629-0-0-edf17641537cd5383fbcdbe7f39a0709",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_ipswich_tottenham"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795275729-0-0-266edef7ba4b30b04d40a64dffd2772c",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795276629-0-0-3daacb7affe27376fd7952eb9d294da1",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_chelsea_leedsunited"
         },
         {
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795276629-0-0-b6c97ae30bc0fe9c7fc61d93ad8589c3",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_chelsea_leedsunited"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=f24e514d31bb23b9c2ecc94943e22565&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=77560dfb9e09ce67d849301ef70c7980&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20261121/978a716809c1ccab62b3d832f3fad00c.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795275729-0-0-ac408e0c5e3f46434bec4e0b9f99bac3",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "ITA D1",
+          "name": "⚽ [LIVE 21/11] Tottenham Hotspur vs Ipswich Town (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795276629-0-0-87395abbfd796adef16e0d9e0e555714",
+          "logo": "https://sta.vnres.co/file/common/20261121/5c86f1aded16a0490bb358a59bb422c7.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_cagliari_como"
+          "match_key": "21/11_22:00_ipswich_tottenham"
         },
         {
-          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912131_lhd.m3u8?txSecret=aacf28b8846269d9b51ec07b756fe896&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "ITA D1",
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795276629-0-0-18ea05126ac359c611e7183acf2b05ee",
+          "logo": "https://sta.vnres.co/file/common/20261121/476cdf0ec2c77b68be4f51c743e4580b.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_lazio_lecce"
+          "match_key": "21/11_22:00_chelsea_leedsunited"
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=ef4c44947134c8c497957f06505b0ffe&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=acdc6b9f0ecb09415494362d9967b4bc&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -4310,217 +4061,179 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=b5f4ebb9f4e2e6ab63a8643b6d550899&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=4190b418838d7c05a19c52bca9216393&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_leverkusen_paderborn07"
         },
         {
-          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795275729-0-0-17c12fda96ed927443c7a2c02e104a82",
-          "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
+          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795276629-0-0-3db080dea9cdf32ad5261b868058c185",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:00_cagliari_como"
         },
         {
           "name": "⚽ [21:30 21/11] 1. FC Union Berlin vs RB Leipzig (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=5d4bdc890a725ac4c42ea14a7a6d38b6&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=a534c72028e9921124ffedf59e927c8c&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_leipzig_unionberlin"
         },
         {
-          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=fc8934c282cdd0f8ee648333961d5497&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_lazio_lecce"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Galatasaray vs Samsunspor (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795275729-0-0-4235078e53745c7aa94d7538fd0d55d8",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "TUR D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795275729-0-0-7ebaf1078c13c679fc05e304850e495e",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_cagliari_como"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Eintracht Frankfurt vs TSG Hoffenheim (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795275729-0-0-930b123c129ffc9dd227f1c9d3621315",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795276629-0-0-4a6584955ac6d7673f91ab90f7dc6a91",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_frankfurt_tsghoffenheim"
         },
         {
-          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795275729-0-0-ba48b87ff96b185db4c2c5c359328e1f",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
+          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV REDBULL) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912131_lhd.m3u8?txSecret=d5d09916234d52f856f8d22345470fde&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_cagliari_como"
+          "match_key": "21/11_21:00_lazio_lecce"
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795275729-0-0-98cb9c3ade6170d794c427c28a5c72e5",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795276629-0-0-adf1866692b0bb6abf2dcb8a7d99472b",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_dortmund_monchengladbach"
         },
         {
-          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795275729-0-0-6d961a260113bdcae65f1c1eb2e9f67e",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:30_leverkusen_paderborn07"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795275729-0-0-867c8330b583219334905305c22c50e2",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_astonvilla_sunderland"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795275729-0-0-b036bf9588f89fc3e76fd5845beef727",
-          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_coventrycity_crystalpalace"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795275729-0-0-1e041e80000b8286490ef95dbe874da1",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795276629-0-0-44e043444b3328135ccb737cec4c5d88",
           "logo": "https://sta.vnres.co/file/common/20261121/ac3510b29a6770bb3e6553e346c2714c.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_astonvilla_sunderland"
         },
         {
-          "name": "⚽ [LIVE 21/11] Bournemouth AFC vs Nottingham Forest (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795275729-0-0-d6f410d15b28651f10956f77c5d6e03a",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Bournemouth AFC vs Nottingham Forest (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=1ff7ab7585a67f42e3a92969df9e6e4e&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=6324f9d3f556e4538e9db35b7915b08c&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795275729-0-0-0dd91c7685b4c9266fa9489086246e93",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_22:00_chelsea_leedsunited"
+          "name": "⚽ [LIVE 21/11] SV 07 Elversberg vs SC Freiburg (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=bd41f9897564a85c3f2b52d4cb92c830&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795275729-0-0-750e4a1552e940c937ec0196e9f99569",
-          "logo": "https://sta.vnres.co/file/common/20261121/2a93ccbeaf7f0ded23a3489e8a762143.jpg",
+          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795276629-0-0-723cec77261dea3eea2a8760b9f6c876",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:30_leverkusen_paderborn07"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795276629-0-0-da32301fc0ebb838655733e7005c44ad",
+          "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:00_cagliari_como"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=087b7e83d6bc7f8f929fd7466460ef5b&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:00_lazio_lecce"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795276629-0-0-a5b071c3accf1b035cceffe52f410730",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:00_cagliari_como"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795276629-0-0-b62034d59216a5318a7168fdf3e44dcf",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_astonvilla_sunderland"
         },
         {
+          "name": "⚽ [LIVE 21/11] Como vs Cagliari (BLV LUCAS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795276629-0-0-749473906b132226b2569ad510df17c1",
+          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:00_cagliari_como"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795275729-0-0-57aaf610f879501c89a99b9d3f1698b6",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795276629-0-0-200344d41a97973fafa70a6cf8e6448f",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_coventrycity_crystalpalace"
         },
         {
+          "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795276629-0-0-2bb22b6f33bdb9f564c6b7f774902d1f",
+          "logo": "https://sta.vnres.co/file/common/20261121/2a93ccbeaf7f0ded23a3489e8a762143.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_astonvilla_sunderland"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795276629-0-0-bdd57146e05a8365f2b577a946a72086",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Bournemouth AFC vs Nottingham Forest (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795276629-0-0-58c4824cf139b8862753803972247598",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Bournemouth AFC vs Nottingham Forest (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795275729-0-0-4e95ce6d63107dce5545cc4d53d109de",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795276629-0-0-3aef41137db0de478a62431be6738a01",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Aston Villa vs Sunderland (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795275736-0-0-822e2297ee25dee1e623a02aeb360225",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795276629-0-0-bd19ddeddae465b4fc87d19967dc0595",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_astonvilla_sunderland"
         },
         {
-          "name": "⚽ [LIVE 21/11] SV 07 Elversberg vs SC Freiburg (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=219a00b299283bc07d681574ace04c7b&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=6fcd900e64de454a23e62e4c1fc4ed70&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 21/11] Chelsea vs Leeds United (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795276629-0-0-524c9f0e8502d918c79572797d53a519",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_20:00_alaves_deportivo"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Galatasaray vs Samsunspor (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795275729-0-0-33b001a4bf6aded374988abdc3957aa0",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
-          "competition": "TUR D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795275729-0-0-841864842b256adfdd806bfa67dc7a78",
-          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_lazio_lecce"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV RYO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795275729-0-0-4c9cbcc86913d12232ac42100e1e7f27",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:30_leverkusen_paderborn07"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795275729-0-0-089c0f4af969dcaad3440e25d35fd7f7",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:30_leverkusen_paderborn07"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795275730-0-0-5fdd406feac5f1def0c6473785b87679",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "match_key": "21/11_22:00_chelsea_leedsunited"
         },
         {
           "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795275729-0-0-3a22f7ca0a5cbf3b1378af1787d2e726",
+          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795276629-0-0-f4ef6be6e8887558684ee1d6bd728afb",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -4528,66 +4241,126 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795275729-0-0-fc879ed3a4ecef43918a8c6878935d42",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795276629-0-0-856e2e48ac21368e23ad01f6a297edf3",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_dortmund_monchengladbach"
         },
         {
-          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795275729-0-0-bb91cf631d2ec49791f7bfd2d18c690c",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:00_lazio_lecce"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795275729-0-0-f253649a0fcfd60c596b49af7cadf9e8",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_20:00_alaves_deportivo"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] SV 07 Elversberg vs SC Freiburg (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=83543b0a804f97bb46fcfd2d5081d4ae&txTime=6b020221",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
+          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV RYO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-602019_lhd.m3u8?auth_key=1795276629-0-0-26a0e42c65d757d6463218516ed4bac8",
+          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "GER D1",
-          "group": "🐿️ SocoLive"
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:30_leverkusen_paderborn07"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Bayer 04 Leverkusen vs SC Paderborn 07 (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795276629-0-0-fd758b6e953c0421a85eb37208f4eb00",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:30_leverkusen_paderborn07"
         },
         {
           "name": "⚽ [LIVE 21/11] Borussia Monchengladbach vs Borussia Dortmund (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795275730-0-0-b116a4c29170e6d57c353883fd90cde7",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795276629-0-0-4cbb4927d3245ac483a4267984e6143b",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_dortmund_monchengladbach"
         },
         {
-          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795275730-0-0-427d317ee4afbc695917c82045e790da",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "name": "⚽ [LIVE 21/11] SV 07 Elversberg vs SC Freiburg (BLV XO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=8ec62ee62380ae8d6f4294d8806135f6&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "GER D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Deportivo Alavés vs RC Deportivo (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=1e4fedfcff0ec0eba11095ee77ac5215&txTime=6b0205a5",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV PEANUT) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795276629-0-0-122eefd609399c850f2f626bcd79f787",
+          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
+          "competition": "ITA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_21:30_leipzig_unionberlin"
+          "match_key": "21/11_21:00_lazio_lecce"
         },
         {
           "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=06ddb6cc0f9867ca3804a1b86d648f16&txTime=6b020221",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=e471e5f02a4b138257d5e376bcb449ec&txTime=6b0205a5",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_21:30_leipzig_unionberlin"
         },
         {
+          "name": "⚽ [LIVE 21/11] 1. FC Union Berlin vs RB Leipzig (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795276629-0-0-9e08d1ab8472493223bea84460734733",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:30_leipzig_unionberlin"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Lazio vs Lecce (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795276629-0-0-3ec50ecceccd5261056d83989a8689f1",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_21:00_lazio_lecce"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Bournemouth AFC vs Nottingham Forest (BLV BẢY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795276629-0-0-462a27a05e9529db8882595d5142a010",
+          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] NEC Nijmegen vs PSV Eindhoven (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795276629-0-0-0fe11f232f1e5db6f9f3cb47c3808e6f",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "HOL D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795276629-0-0-e1625aa626957de220376216acff1d08",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Rayo Vallecano vs Valencia CF (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795276629-0-0-24a863706a30c68cd87888ac9cfbefe7",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_22:15_rayovallecano_valencia"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Coventry City vs Crystal Palace (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795275729-0-0-5a2471d330b962ba5e7f52b5320fcfe3",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795276629-0-0-24617f84eeec8d6f4cff72893a2393d1",
           "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_22:00_coventrycity_crystalpalace"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] NEC Nijmegen vs PSV Eindhoven (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795276629-0-0-cf8d6da7f59242070e6eda8da1a38004",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "HOL D1",
+          "group": "🐿️ SocoLive"
         }
       ]
     },
@@ -4627,8 +4400,7 @@
           "url": "https://hls.lauthaitv.cc/live/alaves-coruna-laliga/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/5f5988b7-89eb-4955-8442-4ebc52328183",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [20:00 21/11] Galatasaray vs Samsunspor (BLV NGƯỜI BẠC) [hls] - S8 TV",
@@ -4833,8 +4605,7 @@
           "url": "https://live2.zktsva.app/live/741294.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "21/11_19:30_derbycounty_southampton"
+          "group": "⚡ Gà Vàng 33 TV"
         },
         {
           "name": "⚽ [20:00 21/11] Galatasaray vs Samsunspor (BLV Gà Siêu Tốc) [hls] - Gà Vàng 33 TV",
@@ -4976,64 +4747,56 @@
           "url": "https://live05.wecile.app/live/08552895.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls] - Cola TV",
           "url": "https://live05.wecile.app/live/14830711.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/14830711_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls] - Cola TV",
           "url": "https://live05.wecile.app/live/33982309.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/33982309_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls] - Cola TV",
           "url": "https://live05.wecile.app/live/87547578.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_derbycounty_southampton"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_19:30_derbycounty_southampton"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [20:00 21/11] Alaves vs Dep. La Coruna (BLV TEPPY) [hls] - Cola TV",
@@ -5233,16 +4996,14 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "21/11_19:30_derbycounty_southampton"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [19:30 21/11] Millwall vs Queens Park Rangers (BLV Triệu Hằng) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "21/11_19:30_millwall_rangers"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Lưu Bang) - Vua Sân Cỏ TV",
@@ -5256,8 +5017,7 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/fffbebaa7a0c3c2db7e8d637a3de1811.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [21:00 21/11] Lazio vs Lecce (BLV Trần Cảnh) - Vua Sân Cỏ TV",
@@ -5456,8 +5216,7 @@
           "url": "https://cdnhls.xbdbotv.live/live/MTk3MzI2MjI6aGY1ODc5dDVoeXprdGJiajd3azBucmU2OmFjNDI2a2N3cnh6aG9vbW9pdDU1NXhzMQ/index.m3u8",
           "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/deportivo-alaves-2975",
           "competition": "",
-          "group": "⚡ Bia Ôm TV",
-          "match_key": "21/11_20:00_alaves_deportivo"
+          "group": "⚡ Bia Ôm TV"
         },
         {
           "name": "⚽ [21:00 21/11] Como vs Cagliari (BLV NEM NƯỚNG) [hls] - Bia Ôm TV",
@@ -5735,8 +5494,7 @@
           "url": "https://pull.digitalcdn.net/live/fd71c76d0ad64297bb4236d2ce223c11/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phezgm2wd/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "21/11_19:30_colombia_youth_japan_youth"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "🏐 [20:00 21/11] Ziraat Bankasi vs Galatasaray (BLV LÝ LIỀU LĨNH) [geo] - Phá Làng TV",
@@ -6000,12 +5758,12 @@
     {
       "home_team": "Alavés",
       "away_team": "Deportivo",
-      "home_score": "2",
+      "home_score": "3",
       "away_score": "1",
       "league": "LALIGA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "83'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-21T13:00Z"
     },
     {
@@ -6049,7 +5807,7 @@
       "league": "SERIE_A",
       "state": "in",
       "is_completed": false,
-      "detail": "40'",
+      "detail": "HT",
       "date": "2026-11-21T14:00Z"
     },
     {
@@ -6060,7 +5818,7 @@
       "league": "SERIE_A",
       "state": "in",
       "is_completed": false,
-      "detail": "42'",
+      "detail": "HT",
       "date": "2026-11-21T14:00Z"
     },
     {
@@ -6089,22 +5847,22 @@
       "home_team": "1. FC Union Berlin",
       "away_team": "RB Leipzig",
       "home_score": "0",
-      "away_score": "0",
+      "away_score": "1",
       "league": "BUNDESLIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "12'",
+      "detail": "27'",
       "date": "2026-11-21T14:30Z"
     },
     {
       "home_team": "Bayer Leverkusen",
       "away_team": "SC Paderborn 07",
-      "home_score": "0",
+      "home_score": "1",
       "away_score": "0",
       "league": "BUNDESLIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "12'",
+      "detail": "27'",
       "date": "2026-11-21T14:30Z"
     },
     {
@@ -6115,18 +5873,18 @@
       "league": "BUNDESLIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "12'",
+      "detail": "27'",
       "date": "2026-11-21T14:30Z"
     },
     {
       "home_team": "Eintracht Frankfurt",
       "away_team": "TSG Hoffenheim",
-      "home_score": "0",
+      "home_score": "1",
       "away_score": "0",
       "league": "BUNDESLIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "12'",
+      "detail": "28'",
       "date": "2026-11-21T14:30Z"
     },
     {
@@ -6137,7 +5895,7 @@
       "league": "BUNDESLIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "12'",
+      "detail": "27'",
       "date": "2026-11-21T14:30Z"
     },
     {
