@@ -1,91 +1,6 @@
 {
-  "updated_at": "2026-11-21 09:14:58",
+  "updated_at": "2026-11-21 09:30:18",
   "live_events": [
-    {
-      "key": "21/11_07:00_atlantahawks_charlottehornets",
-      "match_key": "21/11_07:00_atlantahawks_charlottehornets",
-      "c_home": "atlantahawks",
-      "c_away": "charlottehornets",
-      "homeTeam": "Atlanta Hawks",
-      "awayTeam": "Charlotte Hornets",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "21/11",
-      "timestamp": 1795219200000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18653/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/132.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Atlanta Hawks vs Charlotte Hornets (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795230788-0-0-d69e979b5b7e1f9da8db179c46681ae7",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV Ben) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1795058993_hd/1795058993_hd@720p.m3u8",
-          "logo": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV POCARI) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/19919577.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV POCARI) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/19919577_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV The Flash) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.VcA3EZyHD8EB.m3u8?expires=1795237529&signature=9Jupyx5yjOVPJNBLXwj5LR3f2PYPtEGzmjfWFAnFOR4",
-          "logo": "https://xoigac.top/images/basketball/teams/132.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV Doctor Strange) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.UGSTftHfezVm.m3u8?expires=1795237531&signature=DX4U09ysXlzSeVC5dTfHvmMsuNv6znkBj84hPXFtGLs",
-          "logo": "https://xoigac.top/images/basketball/teams/132.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets",
-      "number": 1
-    },
     {
       "key": "21/11_07:30_brooklynnets_orlandomagic",
       "match_key": "21/11_07:30_brooklynnets_orlandomagic",
@@ -115,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795230788-0-0-6c2eb9f18dcfe646025c9f8847e6f231",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795231748-0-0-52f2a638175cc7594ad21d5ba2f6a4c7",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -133,7 +48,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 21/11] Brooklyn Nets vs Orlando Magic",
-      "number": 2
+      "number": 1
     },
     {
       "key": "21/11_07:30_clevelandcavaliers_indianapacers",
@@ -164,7 +79,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795230788-0-0-c9b1503d03f60e7e60c681275df82f23",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795231748-0-0-4570d99f24e0c5db7e36cea549c1af78",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -200,7 +115,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 21/11] Cleveland Cavaliers vs Indiana Pacers",
-      "number": 3
+      "number": 2
     },
     {
       "key": "21/11_07:30_detroitpistons_torontoraptors",
@@ -231,7 +146,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795230788-0-0-cdd61509840ca66b21d18185cd3abb59",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795231748-0-0-4539723ea658973cb7b67e61e4175c9d",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -267,7 +182,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 21/11] Detroit Pistons vs Toronto Raptors",
-      "number": 4
+      "number": 3
     },
     {
       "key": "21/11_08:00_chicagobulls_washingtonwizards",
@@ -307,7 +222,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 21/11] Chicago Bulls vs Washington Wizards",
-      "number": 5
+      "number": 4
     },
     {
       "key": "21/11_08:00_neworleanspelicans_oklahomacitythunder",
@@ -356,6 +271,46 @@
         }
       ],
       "displayTitle": "🏀 [08:00 21/11] Oklahoma City Thunder vs New Orleans Pelicans",
+      "number": 5
+    },
+    {
+      "key": "21/11_09:30_phoenixsuns_utahjazz",
+      "match_key": "21/11_09:30_phoenixsuns_utahjazz",
+      "c_home": "utahjazz",
+      "c_away": "phoenixsuns",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Phoenix Suns",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "09:30",
+      "date": "21/11",
+      "timestamp": 1795228200000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix suns (BLV 247) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/90865415.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
+        },
+        {
+          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix suns (BLV 247) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/90865415_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
+        }
+      ],
+      "displayTitle": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns",
       "number": 6
     },
     {
@@ -550,26 +505,8 @@
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795230788-0-0-3016004adfabcc4fef60e4ccb4d4ce2f",
-          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795230788-0-0-c0ef0e10cd182e89cdd8ba57b5a1d175",
-          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795230788-0-0-ad19e4b3a355c062ae9dc7ee262d701d",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795231748-0-0-11b4745680c428db9086d9867b8ff94a",
           "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -577,17 +514,8 @@
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795230788-0-0-459487b5a6a131e61d77eb92b3214ad7",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=06e57374ba4941200203d773812f7c3b&txTime=6b015294",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=0c09a742b5080a02c5c466e46eff67c6&txTime=6b015654",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -595,9 +523,36 @@
           "match_key": "21/11_08:00_atleticosanluis_puebla"
         },
         {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795231748-0-0-5430bf20ddd3db739f93c7a046a8e642",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795230788-0-0-7aebf0e7a60a64003879dee17499513e",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795231748-0-0-3f60ab3cd4cf1f0768273a258d5de026",
           "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795231748-0-0-c564f4ee1198aef0192780be988c99ac",
+          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795231748-0-0-a56f91a100389c5766354fb5ad62cde5",
+          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -720,26 +675,8 @@
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795230788-0-0-812eff15879cc9f4312a6be6c351a16c",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795230788-0-0-a5cd88cc3f41f314e2905e4efb9aadf8",
-          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795230788-0-0-9f5cc789000eb5cd173e0fb82ae9b22c",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795231748-0-0-303ba0326d17d07da019496d36d7deb7",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -747,8 +684,26 @@
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795231748-0-0-6bc372a8b2a50809a9878bf777400774",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:40_deportivo_millonarios"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795231748-0-0-0ce9300208f43fd72a743789da69cf58",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_08:40_deportivo_millonarios"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=dfd84514b86e65f4e5dd3a0e17e58646&txTime=6b015294",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=fab51c1fc8852a8890dbf5e5830f3c5e&txTime=6b015654",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -778,17 +733,17 @@
       "number": 14
     },
     {
-      "key": "21/11_09:30_phoenixsuns_utahjazz",
-      "match_key": "21/11_09:30_phoenixsuns_utahjazz",
-      "c_home": "utahjazz",
-      "c_away": "phoenixsuns",
-      "homeTeam": "Utah Jazz",
-      "awayTeam": "Phoenix Suns",
+      "key": "21/11_10:00_losangeleslakers_sacramentokings",
+      "match_key": "21/11_10:00_losangeleslakers_sacramentokings",
+      "c_home": "losangeleslakers",
+      "c_away": "sacramentokings",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Sacramento Kings",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "09:30",
+      "time": "10:00",
       "date": "21/11",
-      "timestamp": 1795228200000,
+      "timestamp": 1795230000000,
       "league": "NBA",
       "leagueName": "NBA",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
@@ -796,25 +751,16 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix suns (BLV 247) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/90865415.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
-        },
-        {
-          "name": "🏀 [09:30 21/11] Utah Jazz vs Phoenix suns (BLV 247) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/90865415_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/8c88df221129169246c5b8a82955fa34.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_09:30_phoenixsuns_utahjazz"
+          "name": "⚽ [LIVE 21/11] Los Angeles Lakers vs Sacramento Kings (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795231748-0-0-f11b93defb44b30667cfb5930c8833a8",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_10:00_losangeleslakers_sacramentokings"
         }
       ],
-      "displayTitle": "🏀 [09:30 21/11] Utah Jazz vs Phoenix Suns",
+      "displayTitle": "🏀 [10:00 21/11] Los Angeles Lakers vs Sacramento Kings",
       "number": 15
     },
     {
@@ -2781,14 +2727,6 @@
           "group": "F4K Sport"
         },
         {
-          "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18653/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/132.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
           "name": "🏈 [07:30 21/11] Duke vs Clemson (us NCAAF) - F4K Sport",
           "url": "https://film4k.pl/api/tv/ants/18823/index.m3u8",
           "logo": "https://media.api-sports.io/american-football/teams/99.png",
@@ -3209,104 +3147,112 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=575cd92d4d0553abb1d9540a5d003965&txTime=6b015294",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "CRC D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Atlanta Hawks vs Charlotte Hornets (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795230788-0-0-d69e979b5b7e1f9da8db179c46681ae7",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795230788-0-0-3016004adfabcc4fef60e4ccb4d4ce2f",
-          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795230788-0-0-c0ef0e10cd182e89cdd8ba57b5a1d175",
-          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795230788-0-0-ad19e4b3a355c062ae9dc7ee262d701d",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795230788-0-0-459487b5a6a131e61d77eb92b3214ad7",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795230788-0-0-812eff15879cc9f4312a6be6c351a16c",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795230788-0-0-1c7d496d00adf7cc32834d143ef8f8b8",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795231748-0-0-4ad915f5c82d7eda1fc7ee545f327d42",
           "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
           "competition": "CRC D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
         },
         {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=06e57374ba4941200203d773812f7c3b&txTime=6b015294",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795230788-0-0-7aebf0e7a60a64003879dee17499513e",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:00_atleticosanluis_puebla"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795230788-0-0-a5cd88cc3f41f314e2905e4efb9aadf8",
-          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_08:40_deportivo_millonarios"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795230788-0-0-9f5cc789000eb5cd173e0fb82ae9b22c",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795231748-0-0-303ba0326d17d07da019496d36d7deb7",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_08:40_deportivo_millonarios"
         },
         {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795231748-0-0-11b4745680c428db9086d9867b8ff94a",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=0c09a742b5080a02c5c466e46eff67c6&txTime=6b015654",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795231748-0-0-6bc372a8b2a50809a9878bf777400774",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:40_deportivo_millonarios"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795231748-0-0-5430bf20ddd3db739f93c7a046a8e642",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795231748-0-0-3f60ab3cd4cf1f0768273a258d5de026",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Club Tijuana vs Atlante FC (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795231748-0-0-ca082474de4017a533a414c51cccc7c9",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_atlante_clubtijuana"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795231748-0-0-c564f4ee1198aef0192780be988c99ac",
+          "logo": "https://sta.vnres.co/file/common/20261121/7e28f584d561fce1b86d742bb8fb59d3.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Puebla vs Atletico San Luis (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795231748-0-0-a56f91a100389c5766354fb5ad62cde5",
+          "logo": "https://sta.vnres.co/file/common/20261120/792e022a3af4a4a703b6665c475d89a7.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:00_atleticosanluis_puebla"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795231748-0-0-0ce9300208f43fd72a743789da69cf58",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_08:40_deportivo_millonarios"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Escorpiones Belen vs AD San Carlos (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=8f783d0ebab885a4c7f5ca14699b1e25&txTime=6b015654",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "CRC D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_adsancarlos_escorpionesbelen"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Los Angeles Lakers vs Sacramento Kings (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795231748-0-0-f11b93defb44b30667cfb5930c8833a8",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_10:00_losangeleslakers_sacramentokings"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Deportivo Cali vs Millonarios (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=dfd84514b86e65f4e5dd3a0e17e58646&txTime=6b015294",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=fab51c1fc8852a8890dbf5e5830f3c5e&txTime=6b015654",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -3314,27 +3260,27 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795230788-0-0-c9b1503d03f60e7e60c681275df82f23",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795231748-0-0-4570d99f24e0c5db7e36cea549c1af78",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_07:30_clevelandcavaliers_indianapacers"
         },
         {
-          "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795230788-0-0-cdd61509840ca66b21d18185cd3abb59",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Brooklyn Nets vs Orlando Magic (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795230788-0-0-6c2eb9f18dcfe646025c9f8847e6f231",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795231748-0-0-52f2a638175cc7594ad21d5ba2f6a4c7",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_07:30_brooklynnets_orlandomagic"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Detroit Pistons vs Toronto Raptors (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795231748-0-0-4539723ea658973cb7b67e61e4175c9d",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_07:30_detroitpistons_torontoraptors"
         }
       ]
     },
@@ -3744,16 +3690,14 @@
           "url": "https://live05.wecile.app/live/19919577.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV POCARI) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/19919577_tsc.m3u8",
           "logo": "https://img.cltvap.cc/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "🏀 [07:30 21/11] Cleveland Cavaliers vs Indiana Pacers (BLV ROCKSTAR) [hls] - Cola TV",
@@ -4092,16 +4036,14 @@
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.VcA3EZyHD8EB.m3u8?expires=1795237529&signature=9Jupyx5yjOVPJNBLXwj5LR3f2PYPtEGzmjfWFAnFOR4",
           "logo": "https://xoigac.top/images/basketball/teams/132.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "🏀 [07:00 21/11] Atlanta Hawks vs Charlotte Hornets (BLV Doctor Strange) - Xôi Gấc TV",
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.UGSTftHfezVm.m3u8?expires=1795237531&signature=DX4U09ysXlzSeVC5dTfHvmMsuNv6znkBj84hPXFtGLs",
           "logo": "https://xoigac.top/images/basketball/teams/132.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "⚽ [08:00 21/11] Puebla vs Atletico San Luis (BLV Raccoon) - Xôi Gấc TV",
@@ -4221,8 +4163,7 @@
           "url": "https://pzhgifbkllliv.vcdn.cloud/1795058993_hd/1795058993_hd@720p.m3u8",
           "logo": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "match_key": "21/11_07:00_atlantahawks_charlottehornets"
+          "group": "⚡ Giờ Vàng TV"
         },
         {
           "name": "🏀 [07:30 21/11] Detroit Pistons vs Toronto Raptors (BLV Cận) [hls] - Giờ Vàng TV",
@@ -4989,66 +4930,66 @@
       "home_team": "Atlanta Hawks",
       "away_team": "Charlotte Hornets",
       "home_score": "111",
-      "away_score": "96",
+      "away_score": "97",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "1:12 - 4th",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final",
       "date": "2026-11-21T00:00Z"
     },
     {
       "home_team": "Brooklyn Nets",
       "away_team": "Orlando Magic",
-      "home_score": "68",
-      "away_score": "77",
+      "home_score": "86",
+      "away_score": "89",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "7:33 - 3rd",
+      "detail": "1:16 - 3rd",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Cleveland Cavaliers",
       "away_team": "Indiana Pacers",
-      "home_score": "97",
-      "away_score": "77",
+      "home_score": "109",
+      "away_score": "88",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "2:54 - 3rd",
+      "detail": "8:45 - 4th",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Detroit Pistons",
       "away_team": "Toronto Raptors",
-      "home_score": "62",
-      "away_score": "72",
+      "home_score": "72",
+      "away_score": "77",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "3:36 - 3rd",
+      "detail": "12:00 - 4th",
       "date": "2026-11-21T00:30Z"
     },
     {
       "home_team": "Chicago Bulls",
       "away_team": "Washington Wizards",
       "home_score": "60",
-      "away_score": "52",
+      "away_score": "61",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "Halftime",
+      "detail": "7:38 - 3rd",
       "date": "2026-11-21T01:00Z"
     },
     {
       "home_team": "Oklahoma City Thunder",
       "away_team": "New Orleans Pelicans",
-      "home_score": "56",
-      "away_score": "64",
+      "home_score": "70",
+      "away_score": "80",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "Halftime",
+      "detail": "7:11 - 3rd",
       "date": "2026-11-21T01:00Z"
     },
     {
