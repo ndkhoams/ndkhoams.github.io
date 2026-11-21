@@ -1,55 +1,6 @@
 {
-  "updated_at": "2026-11-21 12:33:54",
+  "updated_at": "2026-11-21 12:49:18",
   "live_events": [
-    {
-      "key": "21/11_10:00_denvernuggets_houstonrockets",
-      "match_key": "21/11_10:00_denvernuggets_houstonrockets",
-      "c_home": "denvernuggets",
-      "c_away": "houstonrockets",
-      "homeTeam": "Denver Nuggets",
-      "awayTeam": "Houston Rockets",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "10:00",
-      "date": "21/11",
-      "timestamp": 1795230000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [10:00 21/11] Denver Nuggets vs Houston Rockets (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18635/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/139.png",
-          "competition": "NBA",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Denver Nuggets vs Houston Rockets (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795242728-0-0-eee6b968a56e8e20bfdb686cee74f545",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Denver Nuggets vs Houston Rockets (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795242728-0-0-7394634b3382bc7718c8f16cf84e0bcb",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
-        }
-      ],
-      "displayTitle": "🏀 [10:00 21/11] Denver Nuggets vs Houston Rockets",
-      "number": 1
-    },
     {
       "key": "21/11_11:00_auckland_melbournevictory",
       "match_key": "21/11_11:00_auckland_melbournevictory",
@@ -89,8 +40,17 @@
           "match_key": "21/11_11:00_auckland_melbournevictory"
         },
         {
+          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795243688-0-0-5667bb0cacf2d44432d726408067dede",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_11:00_auckland_melbournevictory"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=16ba6bd8920426b649b5314b44a1620f&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=41f662e3f72c097da19f7f6d43681746&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20261121/c85d444a42ff7fd9ff583c331774e448.png",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
@@ -99,7 +59,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=bfde311edb6020e8e9e1d96f6357ae59&txTime=6b018154",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=80a8e31405b963c99fc66678b62729a3&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
@@ -108,7 +68,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795242728-0-0-fe825f25be74380175268dada62794a3",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795243689-0-0-e0a430c1e26a8d47eca44bc2ece9c4eb",
           "logo": "https://sta.vnres.co/file/common/20261121/b702ad8506091e20e18dd1feaf1b48db.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
@@ -117,17 +77,8 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795242728-0-0-0d4db0b48df3421f9469b71e562c68bd",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795243688-0-0-d84b8dd2dd2a4073d595bdfecb57e6b0",
           "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_11:00_auckland_melbournevictory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795242728-0-0-a198f165398db70e8d25e6b6d4d32eea",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -189,7 +140,7 @@
         }
       ],
       "displayTitle": "🔴 [11:00 21/11] Auckland vs Melbourne Victory",
-      "number": 2
+      "number": 1
     },
     {
       "key": "21/11_12:00_jeonbukhyundaimotors_seoul",
@@ -219,18 +170,18 @@
           "match_key": "21/11_12:00_jeonbukhyundaimotors_seoul"
         },
         {
-          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795242728-0-0-34bd79f41b442a9f3477331b5261bda2",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=75e9e96a1e6056b2124ca031a5bf006f&txTime=6b0184f8",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
           "match_key": "21/11_12:00_jeonbukhyundaimotors_seoul"
         },
         {
-          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=5baaafa8cfccd77687adca11ed97e75c&txTime=6b018138",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795243689-0-0-46a29a71914041a84298192bebb9d065",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -274,7 +225,7 @@
         }
       ],
       "displayTitle": "🔴 [12:00 21/11] Jeonbuk Hyundai Motors vs Seoul",
-      "number": 3
+      "number": 2
     },
     {
       "key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos",
@@ -306,17 +257,8 @@
           "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
         },
         {
-          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795242728-0-0-e3d768c0bb73906f4a92bb45bbaa2cda",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795242728-0-0-72fe01758af92817ad58798c502bb8ad",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795243688-0-0-d771569d6c02d85f0820599d8f452ae4",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -325,7 +267,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795242728-0-0-d31701021d0f996580892f2bf0989339",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795243688-0-0-2e4296ae0e16aa4b87ff319168e1f561",
           "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -333,8 +275,17 @@
           "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
         },
         {
+          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795243688-0-0-4c6cb265dc2dbfa82a7d21f7fca371ed",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=a7429c8567b132b4b41782ef2f74d686&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=f0f272f545115b69148ae404b785df50&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -352,7 +303,7 @@
         }
       ],
       "displayTitle": "🔴 [12:00 21/11] Sanfrecce Hiroshima vs Yokohama F.marinos",
-      "number": 4
+      "number": 3
     },
     {
       "key": "21/11_LIVE_kyotosanga_urawareddiamonds",
@@ -374,7 +325,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795242728-0-0-860b7f774b9a35a978c999f69a2cf0c5",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795243688-0-0-040a7137ac787252864ee88fb3be1bec",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -383,7 +334,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795242728-0-0-2cdf7c79b1abbc7437050c75fcb3747b",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795243689-0-0-58571479b18411da63c849e7720b29b6",
           "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -392,7 +343,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds",
-      "number": 5
+      "number": 4
     },
     {
       "key": "21/11_LIVE_machidazelvia_vvarennagasaki",
@@ -414,7 +365,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 21/11] Machida Zelvia vs V-Varen Nagasaki (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795242728-0-0-dcdf268809a5fe286aad98f72a3f4b13",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795243689-0-0-9f0f1f00d922789900fe03cf68d2c29c",
           "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -450,7 +401,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 21/11] Machida vs V Varen Nagasaki",
-      "number": 6
+      "number": 5
     },
     {
       "key": "21/11_LIVE_nagoyagrampus_tokyoverdy",
@@ -472,7 +423,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 21/11] Tokyo Verdy vs Nagoya Grampus (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=64b213366877fba00fc7483ba5f2c532&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=42e25cd634a333604900910888fa0e82&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -481,7 +432,7 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Tokyo Verdy vs Nagoya Grampus (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795242728-0-0-ae36b18c46d1f0ab38e55b6d3f33b6cb",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795243689-0-0-537a14893639149dacdf52dfda3d1111",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -490,6 +441,37 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 21/11] Tokyo Verdy vs Nagoya Grampus",
+      "number": 6
+    },
+    {
+      "key": "21/11_LIVE_illawarrahawks_tasmaniajackjumpers",
+      "match_key": "21/11_LIVE_illawarrahawks_tasmaniajackjumpers",
+      "c_home": "tasmaniajackjumpers",
+      "c_away": "illawarrahawks",
+      "homeTeam": "Tasmania Jackjumpers",
+      "awayTeam": "Illawarra Hawks",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "21/11",
+      "timestamp": 1795237200000,
+      "league": "OTHER",
+      "leagueName": "NBL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 21/11] Tasmania JackJumpers vs Illawarra Hawks (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795243688-0-0-90b45094fa1f4bd220285aa7310da079",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_LIVE_illawarrahawks_tasmaniajackjumpers"
+        }
+      ],
+      "displayTitle": "🔴 [LIVE 21/11] Tasmania Jackjumpers vs Illawarra Hawks",
       "number": 7
     },
     {
@@ -560,8 +542,17 @@
           "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
         },
         {
+          "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795243688-0-0-bc7df8995506fab8d47de92be36243be",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=a29e3aaaee971a6e3e59c6459d24373a&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=c74137003cb3cc315152522fb7343bbd&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -569,8 +560,17 @@
           "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
         },
         {
+          "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795243688-0-0-d39ecf43d0c747b37c7a09f4701f38cc",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795242728-0-0-2d775dfc9d46f3be662a19f43833399b",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795243688-0-0-addf083f2803bf3d78fbc56140de9ad6",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -619,8 +619,35 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795242728-0-0-276089f5e3e597d7980de73183bfec57",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795243688-0-0-9d4bdbc9d81a69012a046898d6c1f024",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795243688-0-0-ceaf56d5db5688fc803342e436b9e951",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795243688-0-0-0de53f14d920b97df988af6371b89a7f",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=bc58f30f496553eb0634a9ceab4597a0&txTime=6b0184f8",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -705,18 +732,9 @@
           "match_key": "21/11_13:00_centralcoastmariners_perthglory"
         },
         {
-          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795242728-0-0-1b811c973ab3b19094200af4f90177cc",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795242728-0-0-e06c17523eefadb6ea02b4d0cbaa7c92",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795243688-0-0-a1dd6e2ca72597876e6a8b69d21d03ab",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -724,8 +742,35 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795242728-0-0-a6be7937c9580dde90f689075088c277",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795243688-0-0-da8550b398fd909d4ecd663e4e4372dc",
           "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795243689-0-0-d4d5f9c953269382636c3be32177618a",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795243688-0-0-17a89d50f275f9d12f5191b21c25d388",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795243688-0-0-3202c0f0677defc6d3416fa012c7e383",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -2894,14 +2939,6 @@
           "url": "https://film4k.pl/api/tv/ants/18635/index.m3u8",
           "logo": "https://media.api-sports.io/basketball/teams/139.png",
           "competition": "NBA",
-          "group": "F4K Sport",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
-        },
-        {
-          "name": "🏀 [10:00 21/11] Los Angeles Lakers vs Sacramento Kings (us NBA) - F4K Sport",
-          "url": "https://film4k.pl/api/tv/ants/18644/index.m3u8",
-          "logo": "https://media.api-sports.io/basketball/teams/145.png",
-          "competition": "NBA",
           "group": "F4K Sport"
         },
         {
@@ -3109,6 +3146,14 @@
           "group": "F4K Sport"
         },
         {
+          "name": "⚽ [22:00 21/11] Ham-Kam vs Fredrikstad (no TV2 Sport) - F4K Sport",
+          "url": "https://film4k.pl/api/tv/ants/18854/index.m3u8",
+          "logo": "https://film4k.pl/api/antsimg/football/teams/2159.png",
+          "competition": "Eliteserien",
+          "group": "F4K Sport",
+          "match_key": "21/11_22:00_fredrikstad_hamkam"
+        },
+        {
           "name": "⚽ [19:20 21/11] U17 Nhật Bản vs U17 Colombia (TV360+ 14) - F4K Sport",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTUyNTUyODcsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.OsJS6LoVEdXfjzjkxIgDeG-w2fz_Zoratb5JwBiUXpg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/13/1794811658567/0d768f5efed4_1280_720.png",
@@ -3306,104 +3351,104 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=16ba6bd8920426b649b5314b44a1620f&txTime=6b018138",
-          "logo": "https://sta.vnres.co/file/common/20261121/c85d444a42ff7fd9ff583c331774e448.png",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_11:00_auckland_melbournevictory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=bfde311edb6020e8e9e1d96f6357ae59&txTime=6b018154",
-          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_11:00_auckland_melbournevictory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795242728-0-0-860b7f774b9a35a978c999f69a2cf0c5",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_kyotosanga_urawareddiamonds"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795242728-0-0-fe825f25be74380175268dada62794a3",
-          "logo": "https://sta.vnres.co/file/common/20261121/b702ad8506091e20e18dd1feaf1b48db.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_11:00_auckland_melbournevictory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795242728-0-0-2cdf7c79b1abbc7437050c75fcb3747b",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_LIVE_kyotosanga_urawareddiamonds"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795242728-0-0-e3d768c0bb73906f4a92bb45bbaa2cda",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795242728-0-0-72fe01758af92817ad58798c502bb8ad",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795242728-0-0-34bd79f41b442a9f3477331b5261bda2",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "KOR D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_12:00_jeonbukhyundaimotors_seoul"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795242728-0-0-0d4db0b48df3421f9469b71e562c68bd",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_11:00_auckland_melbournevictory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795242728-0-0-d31701021d0f996580892f2bf0989339",
-          "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795242728-0-0-a198f165398db70e8d25e6b6d4d32eea",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795243688-0-0-5667bb0cacf2d44432d726408067dede",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_11:00_auckland_melbournevictory"
         },
         {
+          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795243688-0-0-d771569d6c02d85f0820599d8f452ae4",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=41f662e3f72c097da19f7f6d43681746&txTime=6b0184f8",
+          "logo": "https://sta.vnres.co/file/common/20261121/c85d444a42ff7fd9ff583c331774e448.png",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_11:00_auckland_melbournevictory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795243688-0-0-040a7137ac787252864ee88fb3be1bec",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_kyotosanga_urawareddiamonds"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795243688-0-0-2e4296ae0e16aa4b87ff319168e1f561",
+          "logo": "https://sta.vnres.co/file/common/20261118/b3aaea7c015449289862b666f6329c96.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795243688-0-0-4c6cb265dc2dbfa82a7d21f7fca371ed",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=80a8e31405b963c99fc66678b62729a3&txTime=6b0184f8",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_11:00_auckland_melbournevictory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795243688-0-0-a1dd6e2ca72597876e6a8b69d21d03ab",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795243688-0-0-bc7df8995506fab8d47de92be36243be",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Sanfrecce Hiroshima vs Yokohama F. Marinos (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=a7429c8567b132b4b41782ef2f74d686&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=f0f272f545115b69148ae404b785df50&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_12:00_sanfreccehiroshima_yokohamafmarinos"
         },
         {
+          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795243689-0-0-e0a430c1e26a8d47eca44bc2ece9c4eb",
+          "logo": "https://sta.vnres.co/file/common/20261121/b702ad8506091e20e18dd1feaf1b48db.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_11:00_auckland_melbournevictory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Auckland FC vs Melbourne Victory (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795243688-0-0-d84b8dd2dd2a4073d595bdfecb57e6b0",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_11:00_auckland_melbournevictory"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Machida Zelvia vs V-Varen Nagasaki (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795242728-0-0-dcdf268809a5fe286aad98f72a3f4b13",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795243689-0-0-9f0f1f00d922789900fe03cf68d2c29c",
           "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -3411,63 +3456,71 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=a29e3aaaee971a6e3e59c6459d24373a&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=c74137003cb3cc315152522fb7343bbd&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
         },
         {
-          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795242728-0-0-1b811c973ab3b19094200af4f90177cc",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795242728-0-0-e06c17523eefadb6ea02b4d0cbaa7c92",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "AUS D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795242728-0-0-276089f5e3e597d7980de73183bfec57",
-          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_13:00_cerezoosaka_tokyo"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795242728-0-0-a6be7937c9580dde90f689075088c277",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795243688-0-0-da8550b398fd909d4ecd663e4e4372dc",
           "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
           "competition": "AUS D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_13:00_centralcoastmariners_perthglory"
         },
         {
-          "name": "⚽ [LIVE 21/11] Denver Nuggets vs Houston Rockets (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795242728-0-0-eee6b968a56e8e20bfdb686cee74f545",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795243689-0-0-d4d5f9c953269382636c3be32177618a",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "AUS D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
         },
         {
-          "name": "⚽ [LIVE 21/11] Denver Nuggets vs Houston Rockets (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795242728-0-0-7394634b3382bc7718c8f16cf84e0bcb",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "NBA",
+          "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795243688-0-0-d39ecf43d0c747b37c7a09f4701f38cc",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "JPN D1",
           "group": "🐿️ SocoLive",
-          "match_key": "21/11_10:00_denvernuggets_houstonrockets"
+          "match_key": "21/11_13:00_avispafukuoka_kawasakifrontale"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795243688-0-0-17a89d50f275f9d12f5191b21c25d388",
+          "logo": "https://sta.vnres.co/file/common/20261110/40827a4a943fa3e134a3f71d0052882a.png",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Central Coast Mariners vs Perth Glory (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795243688-0-0-3202c0f0677defc6d3416fa012c7e383",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "AUS D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_centralcoastmariners_perthglory"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV LOKA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795243688-0-0-9d4bdbc9d81a69012a046898d6c1f024",
+          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795243688-0-0-ceaf56d5db5688fc803342e436b9e951",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
         },
         {
           "name": "⚽ [LIVE 21/11] Tokyo Verdy vs Nagoya Grampus (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=64b213366877fba00fc7483ba5f2c532&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=42e25cd634a333604900910888fa0e82&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -3475,15 +3528,23 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=5baaafa8cfccd77687adca11ed97e75c&txTime=6b018138",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=75e9e96a1e6056b2124ca031a5bf006f&txTime=6b0184f8",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "KOR D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_12:00_jeonbukhyundaimotors_seoul"
         },
         {
+          "name": "⚽ [LIVE 21/11] Kyoto Sanga vs Urawa Red Diamonds (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795243689-0-0-58571479b18411da63c849e7720b29b6",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_kyotosanga_urawareddiamonds"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Tokyo Verdy vs Nagoya Grampus (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795242728-0-0-ae36b18c46d1f0ab38e55b6d3f33b6cb",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795243689-0-0-537a14893639149dacdf52dfda3d1111",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -3491,14 +3552,46 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Geelong Venom W vs Southside W (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795242728-0-0-8fdb24969103e706473fe39efef06edc",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795243688-0-0-0dcafdf239a4fc27900583ef1e1af64f",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "WNBL",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Jeonbuk Hyundai Motors vs FC Seoul (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795243689-0-0-46a29a71914041a84298192bebb9d065",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "competition": "KOR D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_12:00_jeonbukhyundaimotors_seoul"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795243688-0-0-0de53f14d920b97df988af6371b89a7f",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Cerezo Osaka vs FC Tokyo (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=bc58f30f496553eb0634a9ceab4597a0&txTime=6b0184f8",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_13:00_cerezoosaka_tokyo"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Tasmania JackJumpers vs Illawarra Hawks (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795243688-0-0-90b45094fa1f4bd220285aa7310da079",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBL",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_LIVE_illawarrahawks_tasmaniajackjumpers"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Kawasaki Frontale vs Avispa Fukuoka (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795242728-0-0-2d775dfc9d46f3be662a19f43833399b",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795243688-0-0-addf083f2803bf3d78fbc56140de9ad6",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -5204,12 +5297,12 @@
     {
       "home_team": "Denver Nuggets",
       "away_team": "Houston Rockets",
-      "home_score": "124",
-      "away_score": "119",
+      "home_score": "133",
+      "away_score": "124",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "1:33 - 4th",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final",
       "date": "2026-11-21T03:00Z"
     },
     {
