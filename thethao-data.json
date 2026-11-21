@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-21 19:11:27",
+  "updated_at": "2026-11-21 19:26:40",
   "live_events": [
     {
-      "key": "21/11_17:00_baltikakaliningrad_orenburg",
-      "match_key": "21/11_17:00_baltikakaliningrad_orenburg",
-      "c_home": "orenburg",
-      "c_away": "baltikakaliningrad",
-      "homeTeam": "Gazovik Orenburg",
-      "awayTeam": "Baltika",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
+      "key": "21/11_19:30_fulham_mancity",
+      "match_key": "21/11_19:30_fulham_mancity",
+      "c_home": "mancity",
+      "c_away": "fulham",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Fulham",
+      "homeLogo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+      "time": "19:30",
       "date": "21/11",
-      "timestamp": 1795255200000,
+      "timestamp": 1795264200000,
       "league": "EPL",
       "leagueName": "EPL",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
@@ -20,52 +20,225 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [17:00 21/11] Fc Orenburg Vs Baltika Kaliningrad (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/d4d461679eedfed50374d47d84431ef3.png",
-          "competition": "Russian Premier League",
+          "name": "⚽ [19:30 21/11] Manchester City Vs Fulham (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "match_key": "21/11_19:30_fulham_mancity"
         },
         {
-          "name": "⚽ [17:00 21/11] FC Orenburg vs Baltika Kaliningrad (BLV NGƯỜI NẶN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/orenburg-baltika-rusprem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/c4e4a4d5-90da-4a05-b314-31bd1da42c9e",
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Khô Cóc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+          "logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795267509-0-0-40617459e599db2553858d4238543965",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795267509-0-0-04dbe1b265d1d532050dc8d2935bd187",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795267509-0-0-2409bbce27e027f9a0533d3b027c547e",
+          "logo": "https://sta.vnres.co/file/common/20261121/daffdf61195236ec223fd9ad5d7fc217.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795267509-0-0-1b7f415a4e775892f823fa5b66d6994b",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795267509-0-0-332a68f3431f19f4963cd34fe6adc516",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795267509-0-0-933cc9bd99456a8db5a0ea45cb47417b",
+          "logo": "https://sta.vnres.co/file/common/20261121/f75c3ef7dbd8d92497bc9d41b4c28c92.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795267509-0-0-623ce753cc3e3d73ed07bb69ef795e06",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795267509-0-0-b5389a3f83c91472f0ddea33c4f71fa5",
+          "logo": "https://sta.vnres.co/file/common/20261121/f2422fc3df2bed19701dc1a433921745.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795267509-0-0-85c3600d80c68ac054a5b2703d5d652e",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795267509-0-0-adf434aee11409ffcd341b60d9879784",
+          "logo": "https://sta.vnres.co/file/common/20261121/bfcc6e4768d8d39144843ce40014967d.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795267509-0-0-f5ef9d93023d299f9abef1dbb94a002d",
+          "logo": "https://sta.vnres.co/file/common/20261121/118b7cb6e1a1e64d6af9ee7e9559cc32.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795267509-0-0-3c8aff82b2796e9c98294bcad881aa92",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Lưu Bang) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125550_090f6609.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV SAPPORO) [hls] - Bia Ôm TV",
+          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIwOTY6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOnEybTEwb25neHhtZTZjazY1Y2c3enpzMw/index.m3u8",
+          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9",
+          "competition": "",
+          "group": "⚡ Bia Ôm TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV NGƯỜI CAT) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/mnc-ful-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242",
           "competition": "",
           "group": "⚡ S8 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "match_key": "21/11_19:30_fulham_mancity"
         },
         {
-          "name": "⚽ [17:00 21/11] FC Orenburg vs Baltika Kaliningrad (BLV Gà Siêu Mõm) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/300523.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png",
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Ricky) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8456.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Gà Siêu Quỷ) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/304565.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "match_key": "21/11_19:30_fulham_mancity"
         },
         {
-          "name": "⚽ [17:00 21/11] Gazovik Orenburg vs CLB Baltika (BLV BÍ ĐAO) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/99121525.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
+          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Cris) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
           "competition": "",
-          "group": "⚡ Cola TV",
+          "group": "⚡ Gà Vàng 24h TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "match_key": "21/11_19:30_fulham_mancity"
         },
         {
-          "name": "⚽ [17:00 21/11] Gazovik Orenburg vs CLB Baltika (BLV BÍ ĐAO) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/99121525_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
+          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Saitama) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
           "competition": "",
-          "group": "⚡ Cola TV",
+          "group": "⚡ Gà Vàng 24h TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Giàng A Dân) [hls] - Gà Vàng 24h TV",
+          "url": "https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8",
+          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 24h TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV LÝ LONG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/300b8633bb38436a9b3eca4535234675/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_fulham_mancity"
         }
       ],
-      "displayTitle": "🔴 [17:00 21/11] Gazovik Orenburg vs Baltika",
+      "displayTitle": "🔴 [19:30 21/11] Manchester City vs Fulham",
       "number": 1
     },
     {
@@ -429,7 +602,7 @@
         },
         {
           "name": "⚽ [18:00 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=4d0b7db15be1c8ffbf38cce6cd5e015b&txTime=6b01de81",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=8a29d2d1eaa2de37a37f9653d7f456a1&txTime=6b01e205",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive",
@@ -932,244 +1105,178 @@
       "number": 17
     },
     {
-      "key": "21/11_19:30_fulham_mancity",
-      "match_key": "21/11_19:30_fulham_mancity",
-      "c_home": "mancity",
-      "c_away": "fulham",
-      "homeTeam": "Manchester City",
-      "awayTeam": "Fulham",
-      "homeLogo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+      "key": "21/11_19:30_derbycounty_southampton",
+      "match_key": "21/11_19:30_derbycounty_southampton",
+      "c_home": "southampton",
+      "c_away": "derbycounty",
+      "homeTeam": "Southampton",
+      "awayTeam": "Derby County",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "19:30",
       "date": "21/11",
       "timestamp": 1795264200000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
+      "league": "EFL",
+      "leagueName": "EFL Championship",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [19:30 21/11] Manchester City Vs Fulham (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
+          "name": "⚽ [19:30 21/11] Southampton Vs Derby County (BLV Gà Siêu Kiêu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/349caefc8ea220e4e840776502a67d90.png",
+          "competition": "English Football League Championship",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "21/11_19:30_fulham_mancity"
+          "match_key": "21/11_19:30_derbycounty_southampton"
         },
         {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Khô Cóc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-          "logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795266609-0-0-c4e0e1cb41f06c0eea0c2b5ee02ba726",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795266609-0-0-73f7cdbf3e589d29f817bc4477b9cdd2",
-          "logo": "https://sta.vnres.co/file/common/20261121/daffdf61195236ec223fd9ad5d7fc217.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795266609-0-0-e81f36da77915da5abc7e7d2715825c5",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795266609-0-0-e1e822bdda1bd9e4359d1be07cce6692",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795266609-0-0-cba328ea4b90de6201934593680a4508",
-          "logo": "https://sta.vnres.co/file/common/20261121/f75c3ef7dbd8d92497bc9d41b4c28c92.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795266609-0-0-fab16332f634b0c9f1ace3cc1fc5bd2a",
-          "logo": "https://sta.vnres.co/file/common/20261121/f2422fc3df2bed19701dc1a433921745.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795266609-0-0-9f7c3467d435d1fdd36b1ebeaa8d0f6f",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795266609-0-0-a7509dc61091fd0f7d6bc4c12d971a9e",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795266609-0-0-da53002faa3dfcb362c35414c09e79df",
-          "logo": "https://sta.vnres.co/file/common/20261121/bfcc6e4768d8d39144843ce40014967d.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795266609-0-0-c22e78a56ac739068aa7d30ab5f99328",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795266609-0-0-59232e0f342cf839d635dbfb2715a7fc",
-          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795266609-0-0-56863bea04a2be7aa9a046782790b661",
-          "logo": "https://sta.vnres.co/file/common/20261121/118b7cb6e1a1e64d6af9ee7e9559cc32.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Lưu Bang) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+          "name": "⚽ [19:30 21/11] Southampton vs Derby County (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
+          "match_key": "21/11_19:30_derbycounty_southampton"
         },
         {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125550_090f6609.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV SAPPORO) [hls] - Bia Ôm TV",
-          "url": "https://cdnhls.xbdbotv.live/live/MTk3MjIwOTY6eGF6NjVwbnRsYnVzMmFsbGFrMXk3bTdyOnEybTEwb25neHhtZTZjazY1Y2c3enpzMw/index.m3u8",
-          "logo": "https://d1c0s7hi3ugzoc.cloudfront.net/teams/manchester-city-9",
-          "competition": "",
-          "group": "⚡ Bia Ôm TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV NGƯỜI CAT) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/mnc-ful-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/f250c09e-1ce1-46cc-946d-f135679b6242",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Ricky) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8456.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City vs Fulham (BLV Gà Siêu Quỷ) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/304565.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/ec2c30faf28746e7b60788b56ae1b6e3.png",
+          "name": "⚽ [19:30 21/11] Southampton vs Derby County (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/741294.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
+          "match_key": "21/11_19:30_derbycounty_southampton"
         },
         {
-          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Cris) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+          "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/87547578.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
           "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
+          "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
+          "match_key": "21/11_19:30_derbycounty_southampton"
         },
         {
-          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Saitama) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+          "name": "⚽ [19:30 21/11] Southampton vs CLB Derby County (BLV MOUNTAIN DEW) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80",
           "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
+          "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV Giàng A Dân) [hls] - Gà Vàng 24h TV",
-          "url": "https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8",
-          "logo": "https://static.sportsfeed.pro/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 24h TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Man City vs Fulham (BLV LÝ LONG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/300b8633bb38436a9b3eca4535234675/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "21/11_19:30_fulham_mancity"
+          "match_key": "21/11_19:30_derbycounty_southampton"
         }
       ],
-      "displayTitle": "⚽ [19:30 21/11] Manchester City vs Fulham",
+      "displayTitle": "🔴 [19:30 21/11] Southampton vs Derby County",
       "number": 18
+    },
+    {
+      "key": "21/11_19:30_millwall_rangers",
+      "match_key": "21/11_19:30_millwall_rangers",
+      "c_home": "millwall",
+      "c_away": "rangers",
+      "homeTeam": "Millwall",
+      "awayTeam": "Rangers",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "19:30",
+      "date": "21/11",
+      "timestamp": 1795264200000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:30 21/11] Millwall vs Queens Park Rangers (BLV Triệu Hằng) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-20.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/0ae228b68fbaf8bb4accc5fafe482a43.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_millwall_rangers"
+        }
+      ],
+      "displayTitle": "🔴 [19:30 21/11] Millwall vs Rangers",
+      "number": 19
+    },
+    {
+      "key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester",
+      "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester",
+      "c_home": "caulacbobongdathanhphomanchester",
+      "c_away": "caulacbobongdafulham",
+      "homeTeam": "Cau Lac Bo Bong Da Thanh Pho Manchester",
+      "awayTeam": "Cau Lac Bo Bong Da Fulham",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "19:30",
+      "date": "21/11",
+      "timestamp": 1795264200000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/08552895.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV C2) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/14830711.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV GIÀ LÀNG) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/14830711_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/33982309.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        },
+        {
+          "name": "⚽ [19:30 21/11] Câu lạc bộ bóng đá thành phố Manchester vs Câu lạc bộ bóng đá Fulham (BLV REVIVE) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/33982309_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "21/11_19:30_caulacbobongdafulham_caulacbobongdathanhphomanchester"
+        }
+      ],
+      "displayTitle": "🔴 [19:30 21/11] Cau Lac Bo Bong Da Thanh Pho Manchester vs Cau Lac Bo Bong Da Fulham",
+      "number": 20
     },
     {
       "key": "21/11_20:00_alaves_deportivo",
@@ -1227,7 +1334,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 21/11] Alaves vs Deportivo La Coruna",
-      "number": 19
+      "number": 21
     },
     {
       "key": "21/11_21:00_cagliari_como",
@@ -1321,7 +1428,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Como vs Cagliari",
-      "number": 20
+      "number": 22
     },
     {
       "key": "21/11_21:00_lazio_lecce",
@@ -1381,7 +1488,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 21/11] Lazio vs Lecce",
-      "number": 21
+      "number": 23
     },
     {
       "key": "21/11_21:30_leverkusen_paderborn07",
@@ -1439,7 +1546,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Bayer Leverkusen vs Paderborn 07",
-      "number": 22
+      "number": 24
     },
     {
       "key": "21/11_21:30_leipzig_unionberlin",
@@ -1508,7 +1615,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Union Berlin vs RB Leipzig",
-      "number": 23
+      "number": 25
     },
     {
       "key": "21/11_21:30_dortmund_monchengladbach",
@@ -1604,7 +1711,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Borussia Monchengladbach vs Borussia Dortmund",
-      "number": 24
+      "number": 26
     },
     {
       "key": "21/11_21:30_freiburg_sv07elversberg",
@@ -1653,7 +1760,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Elversberg vs Sc Freiburg",
-      "number": 25
+      "number": 27
     },
     {
       "key": "21/11_21:30_frankfurt_tsghoffenheim",
@@ -1684,7 +1791,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Eintracht Frankfurt vs Tsg Hoffenheim",
-      "number": 26
+      "number": 28
     },
     {
       "key": "21/11_21:30_frankfurt_tsg1899hoffenheim",
@@ -1724,7 +1831,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 21/11] Eintracht Frankfurt vs Tsg 1899 Hoffenheim",
-      "number": 27
+      "number": 29
     },
     {
       "key": "21/11_22:00_astonvilla_sunderland",
@@ -1811,7 +1918,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Aston Villa vs Sunderland",
-      "number": 28
+      "number": 30
     },
     {
       "key": "21/11_22:00_bournemouthafc_nottingham",
@@ -1880,7 +1987,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Bournemouth Afc vs Nottingham Forest",
-      "number": 29
+      "number": 31
     },
     {
       "key": "21/11_22:00_chelsea_leedsunited",
@@ -1967,7 +2074,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Chelsea vs Leeds United",
-      "number": 30
+      "number": 32
     },
     {
       "key": "21/11_22:00_ipswich_tottenham",
@@ -2063,7 +2170,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Tottenham Hotspur vs Ipswich Town",
-      "number": 31
+      "number": 33
     },
     {
       "key": "21/11_22:00_coventrycity_crystalpalace",
@@ -2112,7 +2219,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 21/11] Coventry City vs Crystal Palace",
-      "number": 32
+      "number": 34
     },
     {
       "key": "21/11_22:15_rayovallecano_valencia",
@@ -2152,7 +2259,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 21/11] Rayo Vallecano vs Valencia",
-      "number": 33
+      "number": 35
     },
     {
       "key": "21/11_23:15_ogcnice_parissaintgermain",
@@ -2201,7 +2308,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Ogc Nice vs Paris Saint Germain",
-      "number": 34
+      "number": 36
     },
     {
       "key": "21/11_23:15_ogcnice_psg",
@@ -2241,7 +2348,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 21/11] Nice vs Paris Saint-Germain",
-      "number": 35
+      "number": 37
     },
     {
       "key": "22/11_00:00_parma_roma",
@@ -2319,7 +2426,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 22/11] Parma vs AS Roma",
-      "number": 36
+      "number": 38
     },
     {
       "key": "22/11_00:30_arsenal_newcastle",
@@ -2397,7 +2504,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Newcastle United vs Arsenal",
-      "number": 37
+      "number": 39
     },
     {
       "key": "22/11_00:30_betis_sevilla",
@@ -2466,7 +2573,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Sevilla vs Real Betis",
-      "number": 38
+      "number": 40
     },
     {
       "key": "22/11_00:30_schalke04_stuttgart",
@@ -2506,7 +2613,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 22/11] Schalke 04 vs VfB Stuttgart",
-      "number": 39
+      "number": 41
     },
     {
       "key": "22/11_02:45_napoli_torino",
@@ -2566,7 +2673,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Napoli vs Torino",
-      "number": 40
+      "number": 42
     },
     {
       "key": "22/11_02:45_lens_toulouse",
@@ -2597,7 +2704,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Lens vs Toulouse",
-      "number": 41
+      "number": 43
     },
     {
       "key": "22/11_02:45_losclille_lyon",
@@ -2657,7 +2764,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Losc Lille vs Lyon",
-      "number": 42
+      "number": 44
     },
     {
       "key": "22/11_02:45_auxerre_monaco",
@@ -2688,7 +2795,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 22/11] Monaco vs Auxerre",
-      "number": 43
+      "number": 45
     },
     {
       "key": "22/11_03:00_celtavigo_realmadrid",
@@ -2748,7 +2855,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 22/11] Real Madrid vs Celta Vigo",
-      "number": 44
+      "number": 46
     },
     {
       "key": "22/11_18:00_dynamomoscow_krasnodar",
@@ -2779,7 +2886,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 22/11] Dynamo Moscow vs Krasnodar",
-      "number": 45
+      "number": 47
     },
     {
       "key": "22/11_18:30_juventus_venezia",
@@ -2810,7 +2917,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 22/11] Juventus vs Venezia",
-      "number": 46
+      "number": 48
     },
     {
       "key": "22/11_20:00_barcelona_villarreal",
@@ -2841,7 +2948,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 22/11] Barcelona vs Villarreal",
-      "number": 47
+      "number": 49
     },
     {
       "key": "22/11_21:00_brighton_hullcity",
@@ -2872,7 +2979,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Hull City vs Brighton",
-      "number": 48
+      "number": 50
     },
     {
       "key": "22/11_21:00_bologna_udinese",
@@ -2903,7 +3010,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Bologna vs Udinese",
-      "number": 49
+      "number": 51
     },
     {
       "key": "22/11_21:00_genoa_sassuolo",
@@ -2934,7 +3041,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Sassuolo vs Genoa",
-      "number": 50
+      "number": 52
     },
     {
       "key": "22/11_21:30_1fsvmainz05_augsburg",
@@ -2976,7 +3083,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 22/11] Augsburg vs Mainz",
-      "number": 51
+      "number": 53
     },
     {
       "key": "22/11_22:15_realsociedad_santander",
@@ -3007,7 +3114,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad",
-      "number": 52
+      "number": 54
     },
     {
       "key": "22/11_23:15_lorient_rennais",
@@ -3038,7 +3145,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 22/11] Lorient vs Rennais",
-      "number": 53
+      "number": 55
     },
     {
       "key": "22/11_23:30_liverpool_manutd",
@@ -3080,7 +3187,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Liverpool vs Manchester United",
-      "number": 54
+      "number": 56
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -3122,7 +3229,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 55
+      "number": 57
     },
     {
       "key": "23/11_00:00_acmilan_frosinone",
@@ -3153,7 +3260,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 23/11] AC Milan vs Frosinone",
-      "number": 56
+      "number": 58
     },
     {
       "key": "23/11_00:30_malaga_osasuna",
@@ -3184,7 +3291,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 23/11] Osasuna vs Malaga",
-      "number": 57
+      "number": 59
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -3226,7 +3333,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 58
+      "number": 60
     },
     {
       "key": "23/11_02:45_lemans_marseille",
@@ -3257,7 +3364,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Marseille vs Le Mans",
-      "number": 59
+      "number": 61
     },
     {
       "key": "23/11_03:00_atleticomadrid_getafe",
@@ -3288,7 +3395,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atletico Madrid",
-      "number": 60
+      "number": 62
     },
     {
       "key": "23/11_18:00_chornomoretsodesa_epitsentrdunayivtsi",
@@ -3319,7 +3426,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Chornomorets Odesa vs Epitsentr Dunayivtsi",
-      "number": 61
+      "number": 63
     },
     {
       "key": "23/11_18:00_lnzcherkasy_polissyazhytomyr",
@@ -3350,7 +3457,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
-      "number": 62
+      "number": 64
     },
     {
       "key": "23/11_20:45_alhilal_neftchifergana",
@@ -3381,7 +3488,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fergana vs Al Hilal",
-      "number": 63
+      "number": 65
     },
     {
       "key": "23/11_23:00_alain_esteghlaltehran",
@@ -3412,7 +3519,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal Tehran",
-      "number": 64
+      "number": 66
     },
     {
       "key": "23/11_23:00_alwasl_tractor",
@@ -3443,7 +3550,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Tractor Sc vs Al Wasl Sc",
-      "number": 65
+      "number": 67
     },
     {
       "key": "23/11_23:00_alahli_alshamalsportsclub",
@@ -3485,7 +3592,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 66
+      "number": 68
     },
     {
       "key": "23/11_23:00_alain_esteghlalfc",
@@ -3518,7 +3625,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
-      "number": 67
+      "number": 69
     },
     {
       "key": "24/11_01:15_algharafa_alquwaaljawiya",
@@ -3551,7 +3658,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
-      "number": 68
+      "number": 70
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeon",
@@ -3584,13 +3691,21 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
-      "number": 69
+      "number": 71
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
+        {
+          "name": "⚽ [19:30 21/11] Manchester City Vs Fulham (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
         {
           "name": "⚽ [18:00 21/11] Thep Xanh Nam Dinh Fc Vs Xm Hai Phong Fc (BLV Gà Siêu Gáy) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -3606,14 +3721,6 @@
           "competition": "Vietnam National Champion League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "21/11_18:00_dongnai_hanoi"
-        },
-        {
-          "name": "⚽ [17:00 21/11] Fc Orenburg Vs Baltika Kaliningrad (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/d4d461679eedfed50374d47d84431ef3.png",
-          "competition": "Russian Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
         },
         {
           "name": "⚽ [17:30 21/11] Genclerbirligi Vs Gaziantep Futbol Kulb (BLV Gà Siêu Péo) - Gà Vàng",
@@ -3638,14 +3745,6 @@
           "competition": "German Bundesliga 2",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "21/11_19:00_1nrnberg_eintrachtbraunschweig"
-        },
-        {
-          "name": "⚽ [19:30 21/11] Manchester City Vs Fulham (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "21/11_19:30_fulham_mancity"
         },
         {
           "name": "⚽ [19:30 21/11] Southampton Vs Derby County (BLV Gà Siêu Kiêu) - Gà Vàng",
@@ -4506,80 +4605,8 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795266609-0-0-c4e0e1cb41f06c0eea0c2b5ee02ba726",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CURRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795266609-0-0-73f7cdbf3e589d29f817bc4477b9cdd2",
-          "logo": "https://sta.vnres.co/file/common/20261121/daffdf61195236ec223fd9ad5d7fc217.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795266609-0-0-e81f36da77915da5abc7e7d2715825c5",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795266609-0-0-e1e822bdda1bd9e4359d1be07cce6692",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795266609-0-0-cba328ea4b90de6201934593680a4508",
-          "logo": "https://sta.vnres.co/file/common/20261121/f75c3ef7dbd8d92497bc9d41b4c28c92.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795266609-0-0-fab16332f634b0c9f1ace3cc1fc5bd2a",
-          "logo": "https://sta.vnres.co/file/common/20261121/f2422fc3df2bed19701dc1a433921745.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795266609-0-0-9f7c3467d435d1fdd36b1ebeaa8d0f6f",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795266609-0-0-a7509dc61091fd0f7d6bc4c12d971a9e",
-          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795266609-0-0-da53002faa3dfcb362c35414c09e79df",
-          "logo": "https://sta.vnres.co/file/common/20261121/bfcc6e4768d8d39144843ce40014967d.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "21/11_19:30_fulham_mancity"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795266609-0-0-c22e78a56ac739068aa7d30ab5f99328",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795267509-0-0-40617459e599db2553858d4238543965",
           "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
@@ -4587,166 +4614,252 @@
         },
         {
           "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795266609-0-0-59232e0f342cf839d635dbfb2715a7fc",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795267509-0-0-04dbe1b265d1d532050dc8d2935bd187",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_19:30_fulham_mancity"
         },
         {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CURRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1795267509-0-0-2409bbce27e027f9a0533d3b027c547e",
+          "logo": "https://sta.vnres.co/file/common/20261121/daffdf61195236ec223fd9ad5d7fc217.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795267509-0-0-1b7f415a4e775892f823fa5b66d6994b",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795267509-0-0-332a68f3431f19f4963cd34fe6adc516",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795267509-0-0-933cc9bd99456a8db5a0ea45cb47417b",
+          "logo": "https://sta.vnres.co/file/common/20261121/f75c3ef7dbd8d92497bc9d41b4c28c92.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795267509-0-0-623ce753cc3e3d73ed07bb69ef795e06",
+          "logo": "https://sta.vnres.co/file/common/20261109/34b1d734ca5063400c8ee21bc5638f46.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795267509-0-0-b5389a3f83c91472f0ddea33c4f71fa5",
+          "logo": "https://sta.vnres.co/file/common/20261121/f2422fc3df2bed19701dc1a433921745.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795267509-0-0-85c3600d80c68ac054a5b2703d5d652e",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795267509-0-0-adf434aee11409ffcd341b60d9879784",
+          "logo": "https://sta.vnres.co/file/common/20261121/bfcc6e4768d8d39144843ce40014967d.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795266609-0-0-56863bea04a2be7aa9a046782790b661",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795267509-0-0-f5ef9d93023d299f9abef1dbb94a002d",
           "logo": "https://sta.vnres.co/file/common/20261121/118b7cb6e1a1e64d6af9ee7e9559cc32.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_19:30_fulham_mancity"
         },
         {
+          "name": "⚽ [LIVE 21/11] Manchester City vs Fulham (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795267509-0-0-3c8aff82b2796e9c98294bcad881aa92",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "21/11_19:30_fulham_mancity"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795266609-0-0-1443347c5896803599bed7b552e7f53a",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795267509-0-0-97e701609e6069edb1a2db450047c703",
           "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [18:00 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=4d0b7db15be1c8ffbf38cce6cd5e015b&txTime=6b01de81",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=8a29d2d1eaa2de37a37f9653d7f456a1&txTime=6b01e205",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive",
           "match_key": "21/11_18:00_dongnai_hanoi"
         },
         {
-          "name": "⚽ [LIVE 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=541d11dbbcdd08e7cd0ceaf771fc9925&txTime=6b01de81",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "TUR D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] VfL Wolfsburg vs Holstein Kiel (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795266609-0-0-6e91f3c5d4f345d8894182968b594e22",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795267509-0-0-ffc183a683f78d22b6f6e8f3b673195e",
           "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=7d8b65e053ef4bb2472a90b054fb9e25&txTime=6b01e205",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "TUR D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Hannover 96 vs SpVgg Greuther Fürth (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795266609-0-0-e7bfdbfdf10c4076d517099dbd082aac",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795267509-0-0-a5f0cfe91ce7477ce3a6b92ab2a71f70",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "GER D2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] 1. FC Nürnberg vs Eintracht Braunschweig (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=0cce64d7ad8572f4fddacdf37f37035b&txTime=6b01e205",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "GER D2",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795266609-0-0-1dfe1da20298ebbaab9f70a30dbfc3ef",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795267509-0-0-c408598fb5dac3e8604c8453c80badf2",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=058115b303d3eb37e9f4d6c430d77633&txTime=6b01de81",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=eb74ba5365b4cd0e032ab66607b1e728&txTime=6b01e205",
           "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795266609-0-0-2e5ac1f1d74756f64b1c2b0c40360ec1",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795267509-0-0-1734f740f42706644ace717c067ca67f",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] 1. FC Nürnberg vs Eintracht Braunschweig (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=bdcb3b345e02822703bc442962cc4ac7&txTime=6b01de81",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795266609-0-0-84f80a67e56cc49da60f8b1784d09357",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795267509-0-0-6431bdf8c79f455d19cfbc418f4c75a5",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795266609-0-0-533258fb0c120e4ad436bc42e3c14241",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795267509-0-0-5db6cdd8d9b4f672d686f39b612cb691",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Thep Xanh Nam Dinh FC vs XM Hai Phong FC (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795266609-0-0-25c37a2adbcbfe2829dc8ad862a65c4e",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795267509-0-0-8b03543a03a17cd1b080467500a3320f",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795266609-0-0-938f4b685e83279d10baa581b05220aa",
+          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795267509-0-0-0184e06e715b2ae1f2d1c9ac40a03cd4",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "TUR D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795266609-0-0-d86904be06fb6913f56859dd8fb93fcb",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "TUR D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] VfL Wolfsburg vs Holstein Kiel (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=35128856003d2d00a7610d4ba3ac98e3&txTime=6b01de81",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=c29d95e7ba23004aea997f3385f5164b&txTime=6b01e205",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795267509-0-0-a8261feb263ccc1684e01ef7da80b527",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "TUR D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=a296b22daa86801a16a582d668a1abc6&txTime=6b01de81",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=c12043b3035a8144de6c37e97ba9d1cd&txTime=6b01e205",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795266609-0-0-a089c919ec9c45e92828ace791c17791",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "VIE D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 21/11] Karsiyaka vs Denizli Basket (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795266609-0-0-4f7e9c87574aecf5f8f99b94b46991aa",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "Super Ligi",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 21/11] Hannover 96 vs SpVgg Greuther Fürth (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795266609-0-0-60d5d5bd69237ffb882ad7f5c5944181",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795267509-0-0-7c1576e4e145a301ea313c41dce07065",
           "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
           "competition": "GER D2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795267509-0-0-86d216a667f54fb68a8db5c0594303b7",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "competition": "VIE D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795266609-0-0-dc0b28c73c9d88d8d1b3a1dad92d1d19",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795267509-0-0-432de95d166dc27eecd33c6434a4bd02",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "VIE D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795266609-0-0-43b7e563e720248948c94dd39f47103a",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795267509-0-0-9ff802cac88a4548b87cba9426f31511",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "VIE D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Turk Telekom vs Tofas (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795267509-0-0-c6a4481f7ea055e39ccce5d13d5d49a5",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "Super Ligi",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Galatasaray vs Samsunspor (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795267509-0-0-e2dede030e517e32f3ba97daa828a39d",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "TUR D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 21/11] Galatasaray vs Samsunspor (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795267509-0-0-f15f9bf6c696adb585ea50cb8f6276f0",
+          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "competition": "TUR D1",
           "group": "🐿️ SocoLive"
         }
       ]
@@ -4759,8 +4872,7 @@
           "url": "https://hls.lauthaitv.cc/live/orenburg-baltika-rusprem/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/c4e4a4d5-90da-4a05-b314-31bd1da42c9e",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [18:00 21/11] Truong Tuoi Dong Nai vs Hanoi FC (BLV NGƯỜI RÂM) [hls] - S8 TV",
@@ -4948,8 +5060,7 @@
           "url": "https://live2.zktsva.app/live/300523.m3u8",
           "logo": "https://img.cltvap.cc/football/team/6d81ef01fa7aaedf7144c933bdcc62d8.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "group": "⚡ Gà Vàng 33 TV"
         },
         {
           "name": "⚽ [17:30 21/11] Genclerbirligi vs Gaziantep Futbol Kulübü (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
@@ -5049,16 +5160,14 @@
           "url": "https://live05.wecile.app/live/99121525.m3u8",
           "logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [17:00 21/11] Gazovik Orenburg vs CLB Baltika (BLV BÍ ĐAO) [hls 2] - Cola TV",
           "url": "https://live05.yefpwmc.app/live/99121525_tsc.m3u8",
           "logo": "https://img.cltvap.cc/football/team/0f5f64c52541a333596d8892b25aa310.png!w80",
           "competition": "",
-          "group": "⚡ Cola TV",
-          "match_key": "21/11_17:00_baltikakaliningrad_orenburg"
+          "group": "⚡ Cola TV"
         },
         {
           "name": "⚽ [17:30 21/11] Genclerbirligi vs Gaziantep Buyuksehir Belediyesi (BLV RỒNG ĐỎ) [hls] - Cola TV",
