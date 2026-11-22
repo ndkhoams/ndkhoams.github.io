@@ -611,8 +611,15 @@ class MultiStreamManager {
     const sources = eventObj.sources || [];
     const stream = sources[sourceIdx];
     if (!stream || !stream.url) return;
+    let commentator = '';
+    const parenMatches = (stream.name || '').match(/\(([^)]+)\)/g);
+    if (parenMatches && parenMatches.length > 0) {
+      commentator = parenMatches[parenMatches.length - 1].replace(/[()]/g, '').trim();
+    }
+    const label = commentator || `Luồng ${sourceIdx + 1}`;
+
     this.loadStreamIntoSlot(this.selectedTargetSlot, {
-      name: `${eventObj.homeTeam} vs ${eventObj.awayTeam} (${stream.name || 'Nguồn ' + (sourceIdx + 1)})`,
+      name: `${eventObj.homeTeam} vs ${eventObj.awayTeam} (${label})`,
       url: stream.url,
       logo: eventObj.logo || stream.logo || ''
     });

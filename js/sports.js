@@ -1121,12 +1121,22 @@ class SportsManager {
 
     const streamLabel = this.formatStreamButtonLabel(stream.name, sourceIdx);
 
+    // Trích xuất nhà đài / nguồn phát (ví dụ: Gà Vàng, Xôi Chè sau dấu '-')
+    let provider = '';
+    if (stream.name && stream.name.includes(' - ')) {
+      provider = stream.name.split(' - ').pop().trim();
+    }
+    const leagueStr = evt.leagueName || evt.league || '';
+    const subtitleParts = [streamLabel];
+    if (leagueStr) subtitleParts.push(leagueStr);
+    if (provider && provider.toLowerCase() !== leagueStr.toLowerCase()) subtitleParts.push(provider);
+
     // Play in player
     if (this.player) {
       this.player.playStream(stream.url, {
         name: evt.leagueName || 'Thể Thao Trực Tiếp',
         title: `${this.toEnglishTeam(evt.homeTeam)} vs ${this.toEnglishTeam(evt.awayTeam)}`,
-        subtitle: `${streamLabel} • ${stream.name || 'Bình luận tiếng Việt'}`,
+        subtitle: subtitleParts.join(' • '),
         group: 'Thể Thao',
         dash: stream.dash,
         clearKey: stream.clearKey
