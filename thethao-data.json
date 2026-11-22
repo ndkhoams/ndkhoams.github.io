@@ -1,45 +1,143 @@
 {
-  "updated_at": "2026-11-22 07:07:33",
+  "updated_at": "2026-11-22 07:22:46",
   "live_events": [
     {
-      "key": "22/11_05:00_minas_pinheiros",
-      "match_key": "22/11_05:00_minas_pinheiros",
-      "c_home": "pinheiros",
-      "c_away": "minas",
-      "homeTeam": "Pinheiros",
-      "awayTeam": "Minas",
+      "key": "22/11_07:30_newyorkknicks_portlandtrailblazers",
+      "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers",
+      "c_home": "newyorkknicks",
+      "c_away": "portlandtrailblazers",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Portland Trail Blazers",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "05:00",
+      "time": "07:30",
       "date": "22/11",
-      "timestamp": 1795298400000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
+      "timestamp": 1795307400000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795310469-0-0-7720e3fe0fc2ddc4fc58bf1ba75a567a",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795310469-0-0-2c34b3c6fd9e441f5948d58106d979d3",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+        },
+        {
+          "name": "🏀 [07:30 22/11] 🟡 New York Knicks vs Portland Trail Blazers (BLV Cozy) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/87379114.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+        },
+        {
+          "name": "🏀 [07:30 22/11] 🟡 New York Knicks vs Portland Trail Blazers (BLV Cozy) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/87379114_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+        }
+      ],
+      "displayTitle": "🏀 [07:30 22/11] New York Knicks vs Portland Trail Blazers",
+      "number": 1
+    },
+    {
+      "key": "22/11_07:00_intermiami_virginiatechhokies",
+      "match_key": "22/11_07:00_intermiami_virginiatechhokies",
+      "c_home": "intermiami",
+      "c_away": "virginiatechhokies",
+      "homeTeam": "Inter Miami",
+      "awayTeam": "Virginia Tech Hokies",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "22/11",
+      "timestamp": 1795305600000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "🏀 [05:00 22/11] Pinheiros vs Minas (BLV The Flash) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4PYBV7yrBkKS.m3u8?expires=1795318529&signature=of55QNN_-1Svpxco0_GMxe2k0Qgu_8LLiq4b9XzQASk",
-          "logo": "https://xoigac.top/images/basketball/teams/339.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "22/11_05:00_minas_pinheiros"
+          "name": "🏈 [07:00 22/11] Miami Hurricanes vs Virginia Tech Hokies (ESPN 1 USA) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/2e1e7a37-777d-4a5a-8264-5f087a98d45f/index.m3u8?exp=1795328474976&sig=G8j63jg3KqR1DOAOFdfqu1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "22/11_07:00_intermiami_virginiatechhokies"
         },
         {
-          "name": "🏀 [05:00 22/11] Pinheiros vs Minas (BLV Doctor Strange) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fxeska0D7Vc5.m3u8?expires=1795318531&signature=WSVmjqSfIPp2aQSucpr4pQc7r2Wdqag7lHk9X3WNqNA",
-          "logo": "https://xoigac.top/images/basketball/teams/339.webp",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "22/11_05:00_minas_pinheiros"
+          "name": "🏈 [07:00 22/11] Miami Hurricanes vs Virginia Tech Hokies (Backup Server) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-ncaaf-03a476ac006f7341038b2beb-32313/index.m3u8?exp=1795328474976&sig=Qsi1tUM_l2FyZYOAEA8UcG",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "22/11_07:00_intermiami_virginiatechhokies"
         }
       ],
-      "displayTitle": "🏀 [05:00 22/11] Pinheiros vs Minas",
-      "number": 1
+      "displayTitle": "🏈 [07:00 22/11] Inter Miami vs Virginia Tech Hokies",
+      "number": 2
+    },
+    {
+      "key": "22/11_07:00_arizonawildcats_kansasstatewildcats",
+      "match_key": "22/11_07:00_arizonawildcats_kansasstatewildcats",
+      "c_home": "kansasstatewildcats",
+      "c_away": "arizonawildcats",
+      "homeTeam": "Kansas State Wildcats",
+      "awayTeam": "Arizona Wildcats",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "22/11",
+      "timestamp": 1795305600000,
+      "league": "NCAAF",
+      "leagueName": "NCAA Football",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏈 [07:00 22/11] Kansas State Wildcats vs Arizona Wildcats (FOX SPORTS 1) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795328474987&sig=LuzvdrxG6n0eAHrQoR4nxl",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "22/11_07:00_arizonawildcats_kansasstatewildcats"
+        },
+        {
+          "name": "🏈 [07:00 22/11] Kansas State Wildcats vs Arizona Wildcats (Backup Server) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-ncaaf-55aadb937c48077e6068fdd1-32315/index.m3u8?exp=1795328474987&sig=x-AgujVRAtXAzmDj5DD5GM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "22/11_07:00_arizonawildcats_kansasstatewildcats"
+        }
+      ],
+      "displayTitle": "🏈 [07:00 22/11] Kansas State Wildcats vs Arizona Wildcats",
+      "number": 3
     },
     {
       "key": "22/11_05:30_atleticomg_bocajuniors",
@@ -81,7 +179,7 @@
         }
       ],
       "displayTitle": "🔴 [05:30 22/11] Atletico-mg vs Boca Juniors",
-      "number": 2
+      "number": 4
     },
     {
       "key": "22/11_05:30_atleticomineiro_bocajuniors",
@@ -103,7 +201,7 @@
       "sources": [
         {
           "name": "⚽ [05:30 22/11] Atletico Mineiro vs Boca Juniors (BeIN USA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8c908100c8f86715ece184b57eb3e810/index.m3u8?exp=1795327563256&sig=5KSoDr5kWrYQxwsH5Zh-vK",
+          "url": "https://film4k.pl/api/tflix-live/8c908100c8f86715ece184b57eb3e810/index.m3u8?exp=1795328475417&sig=eb7AtsAvls0qGIeLy06u9p",
           "logo": "https://tflix.su/logos/verified/sportsdb-134299-e4e6029f0fc9.png",
           "competition": "South America : Sudamericana",
           "group": "F4K Sport",
@@ -112,7 +210,7 @@
         },
         {
           "name": "⚽ [05:30 22/11] Atletico Mineiro vs Boca Juniors (beIN Español) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/36e226f039deaf5dc5cb8f544369db9b/index.m3u8?exp=1795327563256&sig=Kfxf8Kjfwan8keLJytGE2P",
+          "url": "https://film4k.pl/api/tflix-live/36e226f039deaf5dc5cb8f544369db9b/index.m3u8?exp=1795328475417&sig=DIcsmenS-CVNR3fD_5OLKg",
           "logo": "https://tflix.su/logos/verified/sportsdb-134299-e4e6029f0fc9.png",
           "competition": "South America : Sudamericana",
           "group": "F4K Sport",
@@ -166,7 +264,7 @@
         }
       ],
       "displayTitle": "🔴 [05:30 22/11] Atletico Mineiro vs Boca Juniors",
-      "number": 3
+      "number": 5
     },
     {
       "key": "22/11_06:00_pachuca_toluca",
@@ -197,7 +295,7 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=b814092cfe8d074ce7858f16dd0bbb2c&txTime=6b028651",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=dc1984a11353185c4c3f75c51cfce848&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -205,17 +303,8 @@
           "match_key": "22/11_06:00_pachuca_toluca"
         },
         {
-          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795309569-0-0-7be38dc9432da9ffe1eb811ca730c240",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_06:00_pachuca_toluca"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795309569-0-0-d040103058f4a1df79e6b9fda6e4252a",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795310469-0-0-43a8ea731a3edfb26e7f9166c169abe0",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -223,8 +312,17 @@
           "match_key": "22/11_06:00_pachuca_toluca"
         },
         {
+          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795310469-0-0-9631e68e1f0476154c7e9dc96bb7d3de",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_06:00_pachuca_toluca"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795309569-0-0-f4cf49eadfe4f037be9e943bd1dccd1c",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795310469-0-0-9a02ea28535bb05b7accd48bf497eeb5",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -260,7 +358,7 @@
         }
       ],
       "displayTitle": "🔴 [06:00 22/11] Pachuca vs Toluca",
-      "number": 4
+      "number": 6
     },
     {
       "key": "22/11_06:00_clubleon_santoslaguna",
@@ -290,17 +388,8 @@
           "match_key": "22/11_06:00_clubleon_santoslaguna"
         },
         {
-          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=486fb15f49b545e105f40c0ab9d94f7b&txTime=6b028651",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_06:00_clubleon_santoslaguna"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795309569-0-0-e7ccd387e1a23c0c37f08003411a6eb6",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795310469-0-0-6991700c7bf48aa54ca06f85612fbe4c",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -308,8 +397,17 @@
           "match_key": "22/11_06:00_clubleon_santoslaguna"
         },
         {
+          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=dc23d4dc335e23ca939ddd13b470e9fc&txTime=6b0289d5",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_06:00_clubleon_santoslaguna"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795309569-0-0-31ff3f1d76530f5c5e0dfc2527c203d5",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795310469-0-0-6149ec452212822bad23cc5e95cf02b8",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -318,7 +416,7 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=7a865262cff45ee7cc9cb7100f86d55b&txTime=6b028651",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=9691c58688eefa106f0a76e6c2dcde90&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -363,7 +461,7 @@
         }
       ],
       "displayTitle": "🔴 [06:00 22/11] Santos Laguna vs Leon",
-      "number": 5
+      "number": 7
     },
     {
       "key": "22/11_06:10_columbuscrew_intermilan",
@@ -404,17 +502,8 @@
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
-          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795309569-0-0-40156909f3de08c7b0ea65aeaf8ae5b0",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "USA MLS",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_06:10_columbuscrew_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=ef9c3831e9d92c53407359066f77356d&txTime=6b028650",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=a62ed09d4b6f973c32bfa35992f1f265&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
@@ -423,7 +512,7 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795309569-0-0-f54b17447abb71855f9b3c5ca87dfbe1",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795310469-0-0-2fb6c75c9f659c60c948e13329d7490e",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
@@ -431,17 +520,8 @@
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
-          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795309569-0-0-fa3eda80e848d09ae0b5ab984a0892c2",
-          "logo": "https://sta.vnres.co/file/common/20261122/0a197ba93e36ab2b674884221c0ef1ec.jpg",
-          "competition": "USA MLS",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_06:10_columbuscrew_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795309569-0-0-f24b0a16cc029f255585ae6d1f42b95d",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795310469-0-0-715b0e963a5193c681cff59c49e4bd47",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
@@ -449,9 +529,27 @@
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
+          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795310469-0-0-a580ae0b1153b64356599109bd2cdc6a",
+          "logo": "https://sta.vnres.co/file/common/20261122/0a197ba93e36ab2b674884221c0ef1ec.jpg",
+          "competition": "USA MLS",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_06:10_columbuscrew_intermilan"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795309569-0-0-6bbbfc6e8c3127aded78716b2ac310fd",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795310469-0-0-4c786d69cf9df43b86e3748ccbb78e60",
           "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "USA MLS",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "22/11_06:10_columbuscrew_intermilan"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795310469-0-0-68759c656457dd0a25179dbcd5583ee4",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -558,7 +656,7 @@
         }
       ],
       "displayTitle": "🔴 [06:10 22/11] Inter Milan vs Columbus Crew",
-      "number": 6
+      "number": 8
     },
     {
       "key": "22/11_07:00_losangeleskings_ottawasenators",
@@ -580,7 +678,7 @@
       "sources": [
         {
           "name": "🏒 [07:00 22/11] Ottawa Senators vs Los Angeles Kings (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-nhl-303c4c3e992b8508164b9e40-32621/index.m3u8?exp=1795327563670&sig=9AqalXxeEkRzebvpecNbDa",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-nhl-303c4c3e992b8508164b9e40-32621/index.m3u8?exp=1795328474996&sig=bIcc5bOa36UFFMvTSIfsY1",
           "logo": "https://tflix.su/logos/nhl-v15/team-14.png",
           "competition": "NHL",
           "group": "F4K Sport",
@@ -598,7 +696,7 @@
         }
       ],
       "displayTitle": "🔴 [07:00 22/11] Ottawa Senators vs Los Angeles Kings",
-      "number": 7
+      "number": 9
     },
     {
       "key": "22/11_07:00__cruzeiromg",
@@ -620,7 +718,7 @@
       "sources": [
         {
           "name": "⚽ [07:00 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=b68e974e38d262e3a45b1407e8f9750b&txTime=6b028650",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=a7de60f8f657c7bd6d6bf81496e880bd&txTime=6b0289d4",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -629,7 +727,7 @@
         }
       ],
       "displayTitle": "🔴 [07:00 22/11] Sc vs Cruzeiro - Mg",
-      "number": 8
+      "number": 10
     },
     {
       "key": "22/11_LIVE_nublense_universidaddeconcepcion",
@@ -651,7 +749,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 22/11] Universidad de Concepcion vs Nublense (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795309568-0-0-e1d3fb8ef32a181e35078495755d1a05",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795310468-0-0-12059a91990cdafc1f181700b221fb65",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
@@ -660,7 +758,7 @@
         },
         {
           "name": "⚽ [06:30 22/11] Universidad de Concepcion vs Nublense (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=70dd484e4d0ddeeab06cfefeb7343bef&txTime=6b028651",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=b9a2b4d2ced5540ed3eed0a4d632af3b&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
@@ -669,65 +767,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 22/11] Universidad De Concepcion vs Nublense",
-      "number": 9
-    },
-    {
-      "key": "22/11_07:30_newyorkknicks_portlandtrailblazers",
-      "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers",
-      "c_home": "newyorkknicks",
-      "c_away": "portlandtrailblazers",
-      "homeTeam": "New York Knicks",
-      "awayTeam": "Portland Trail Blazers",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "22/11",
-      "timestamp": 1795307400000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795309569-0-0-50f2b7c4704fa3803c8ac147f54be0b2",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795309568-0-0-d0ac547953dd7f467fe63e2b0a73f653",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
-        },
-        {
-          "name": "🏀 [07:30 22/11] 🟡 New York Knicks vs Portland Trail Blazers (BLV Cozy) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/87379114.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
-        },
-        {
-          "name": "🏀 [07:30 22/11] 🟡 New York Knicks vs Portland Trail Blazers (BLV Cozy) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/87379114_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
-        }
-      ],
-      "displayTitle": "🏀 [07:30 22/11] New York Knicks vs Portland Trail Blazers",
-      "number": 10
+      "number": 11
     },
     {
       "key": "22/11_08:00_memphisgrizzlies_minnesotatimberwolves",
@@ -749,7 +789,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 22/11] Minnesota Timberwolves vs Memphis Grizzlies (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795309569-0-0-622069484edba9d56faa3cb5cde616ac",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795310469-0-0-adea5f86ba80dd319a5dec897c43ff40",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -776,7 +816,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 22/11] Minnesota Timberwolves vs Memphis Grizzlies",
-      "number": 11
+      "number": 12
     },
     {
       "key": "22/11_10:00_doibongrobostonceltics_sacramentokings",
@@ -816,7 +856,7 @@
         }
       ],
       "displayTitle": "🏀 [10:00 22/11] Sacramento Kings vs Doi Bong Ro Boston Celtics",
-      "number": 12
+      "number": 13
     },
     {
       "key": "22/11_18:00_dynamomoscow_krasnodar",
@@ -856,7 +896,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 22/11] Dynamo Moscow vs Krasnodar 33 Tv",
-      "number": 13
+      "number": 14
     },
     {
       "key": "22/11_18:30_juventus_venezia",
@@ -952,7 +992,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 22/11] Juventus vs Venezia",
-      "number": 14
+      "number": 15
     },
     {
       "key": "22/11_20:00_barcelona_villarreal",
@@ -1021,7 +1061,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 22/11] Barcelona vs Villarreal",
-      "number": 15
+      "number": 16
     },
     {
       "key": "22/11_21:00_brighton_hullcity",
@@ -1079,7 +1119,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Hull City vs Brighton",
-      "number": 16
+      "number": 17
     },
     {
       "key": "22/11_21:00_bologna_udinese",
@@ -1157,7 +1197,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Bologna vs Udinese",
-      "number": 17
+      "number": 18
     },
     {
       "key": "22/11_21:00_genoa_sassuolo",
@@ -1188,7 +1228,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Sassuolo vs Genoa",
-      "number": 18
+      "number": 19
     },
     {
       "key": "22/11_21:30_1fsvmainz05_augsburg",
@@ -1253,7 +1293,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 22/11] Augsburg vs 1. Fsv Mainz 05",
-      "number": 19
+      "number": 20
     },
     {
       "key": "22/11_22:15_realsociedad_santander",
@@ -1311,7 +1351,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad",
-      "number": 20
+      "number": 21
     },
     {
       "key": "22/11_23:15_lorient_rennais",
@@ -1342,7 +1382,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 22/11] Lorient vs Rennais",
-      "number": 21
+      "number": 22
     },
     {
       "key": "22/11_23:30_liverpool_manutd",
@@ -1402,7 +1442,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Liverpool vs Manchester United",
-      "number": 22
+      "number": 23
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -1462,7 +1502,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 23
+      "number": 24
     },
     {
       "key": "23/11_00:00_acmilan_frosinone",
@@ -1502,7 +1542,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 23/11] AC Milan vs Frosinone",
-      "number": 24
+      "number": 25
     },
     {
       "key": "23/11_00:30_malaga_osasuna",
@@ -1542,7 +1582,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 23/11] Osasuna vs Malaga",
-      "number": 25
+      "number": 26
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -1593,7 +1633,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 26
+      "number": 27
     },
     {
       "key": "23/11_02:45_lemans_marseille",
@@ -1633,7 +1673,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Marseille vs Le Mans",
-      "number": 27
+      "number": 28
     },
     {
       "key": "23/11_03:00_atleticomadrid_getafe",
@@ -1673,7 +1713,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atletico Madrid",
-      "number": 28
+      "number": 29
     },
     {
       "key": "23/11_03:00_atlmadrid_getafe",
@@ -1706,7 +1746,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atl. Madrid",
-      "number": 29
+      "number": 30
     },
     {
       "key": "23/11_18:00_chornomoretsodesa_epitsentrdunayivtsi",
@@ -1737,7 +1777,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Chornomorets Odesa vs Epitsentr Dunayivtsi",
-      "number": 30
+      "number": 31
     },
     {
       "key": "23/11_18:00_lnzcherkasy_polissyazhytomyr",
@@ -1768,7 +1808,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
-      "number": 31
+      "number": 32
     },
     {
       "key": "23/11_20:45_alhilal_neftchifergana",
@@ -1799,7 +1839,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fergana vs Al Hilal",
-      "number": 32
+      "number": 33
     },
     {
       "key": "23/11_23:00_alain_esteghlaltehran",
@@ -1830,7 +1870,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal Tehran",
-      "number": 33
+      "number": 34
     },
     {
       "key": "23/11_23:00_alwasl_tractor",
@@ -1861,7 +1901,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Tractor Sc vs Al Wasl Sc",
-      "number": 34
+      "number": 35
     },
     {
       "key": "23/11_23:00_alahli_alshamalsportsclub",
@@ -1903,7 +1943,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 35
+      "number": 36
     },
     {
       "key": "23/11_23:00_alain_esteghlalfc",
@@ -1936,7 +1976,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
-      "number": 36
+      "number": 37
     },
     {
       "key": "24/11_01:15_alittihad_pakhtakor",
@@ -1969,7 +2009,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Ittihad vs Pakhtakor",
-      "number": 37
+      "number": 38
     },
     {
       "key": "24/11_01:15_algharafa_alquwaaljawiya",
@@ -2002,7 +2042,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
-      "number": 38
+      "number": 39
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeon",
@@ -2035,7 +2075,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
-      "number": 39
+      "number": 40
     },
     {
       "key": "25/11_00:00_ajman_alettifaq",
@@ -2068,7 +2108,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 25/11] Ajman vs Al Ettifaq",
-      "number": 40
+      "number": 41
     },
     {
       "key": "25/11_00:45_astonvilla_galatasaray",
@@ -2101,7 +2141,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 41
+      "number": 42
     }
   ],
   "source_groups": [
@@ -2598,6 +2638,16 @@
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
+          "name": "⚽ [08:00 22/11] UNAM Pumas vs Monterrey (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/5354_pumas-unam.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/5354_pumas-unam.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/308_monterrey.jpg",
+          "competition": "Liga MX",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "22/11_08:00_monterrey_unampumas"
+        },
+        {
           "name": "⚽ [09:00 22/11] Wellington Phoenix vs Macarthur FC (BLV Tam Mao) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
@@ -2754,21 +2804,46 @@
       "channels": [
         {
           "name": "🏈 [03:30 22/11] Penn State Nittany Lions vs Rutgers Scarlet Knights (FOX SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795327563250&sig=F2XMOGhT-JbbBnNKcaYoIV",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795328474951&sig=yL1KbQbIENqm9LR5PkuYXY",
           "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
           "competition": "NCAA Football",
           "group": "F4K Sport"
         },
         {
-          "name": "🏈 [03:45 22/11] Oklahoma Sooners vs Texas A&M Aggies (ESPN 2 USA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/59230295-512e-4f69-addd-0841fe00ad62/index.m3u8?exp=1795327563253&sig=1Beh9WbxiR2kqFWcjuaA-V",
-          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+          "name": "🏈 [07:00 22/11] Miami Hurricanes vs Virginia Tech Hokies (ESPN 1 USA) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/2e1e7a37-777d-4a5a-8264-5f087a98d45f/index.m3u8?exp=1795328474976&sig=G8j63jg3KqR1DOAOFdfqu1",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
           "competition": "NCAA Football",
-          "group": "F4K Sport"
+          "group": "F4K Sport",
+          "match_key": "22/11_07:00_intermiami_virginiatechhokies"
+        },
+        {
+          "name": "🏈 [07:00 22/11] Miami Hurricanes vs Virginia Tech Hokies (Backup Server) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-ncaaf-03a476ac006f7341038b2beb-32313/index.m3u8?exp=1795328474976&sig=Qsi1tUM_l2FyZYOAEA8UcG",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "match_key": "22/11_07:00_intermiami_virginiatechhokies"
+        },
+        {
+          "name": "🏈 [07:00 22/11] Kansas State Wildcats vs Arizona Wildcats (FOX SPORTS 1) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795328474987&sig=LuzvdrxG6n0eAHrQoR4nxl",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "match_key": "22/11_07:00_arizonawildcats_kansasstatewildcats"
+        },
+        {
+          "name": "🏈 [07:00 22/11] Kansas State Wildcats vs Arizona Wildcats (Backup Server) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-ncaaf-55aadb937c48077e6068fdd1-32315/index.m3u8?exp=1795328474987&sig=x-AgujVRAtXAzmDj5DD5GM",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+          "competition": "NCAA Football",
+          "group": "F4K Sport",
+          "match_key": "22/11_07:00_arizonawildcats_kansasstatewildcats"
         },
         {
           "name": "🏒 [07:00 22/11] Ottawa Senators vs Los Angeles Kings (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-nhl-303c4c3e992b8508164b9e40-32621/index.m3u8?exp=1795327563670&sig=9AqalXxeEkRzebvpecNbDa",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-nhl-303c4c3e992b8508164b9e40-32621/index.m3u8?exp=1795328474996&sig=bIcc5bOa36UFFMvTSIfsY1",
           "logo": "https://tflix.su/logos/nhl-v15/team-14.png",
           "competition": "NHL",
           "group": "F4K Sport",
@@ -2791,7 +2866,7 @@
         },
         {
           "name": "⚽ [05:30 22/11] Atletico Mineiro vs Boca Juniors (BeIN USA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8c908100c8f86715ece184b57eb3e810/index.m3u8?exp=1795327563256&sig=5KSoDr5kWrYQxwsH5Zh-vK",
+          "url": "https://film4k.pl/api/tflix-live/8c908100c8f86715ece184b57eb3e810/index.m3u8?exp=1795328475417&sig=eb7AtsAvls0qGIeLy06u9p",
           "logo": "https://tflix.su/logos/verified/sportsdb-134299-e4e6029f0fc9.png",
           "competition": "South America : Sudamericana",
           "group": "F4K Sport",
@@ -2799,7 +2874,7 @@
         },
         {
           "name": "⚽ [05:30 22/11] Atletico Mineiro vs Boca Juniors (beIN Español) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/36e226f039deaf5dc5cb8f544369db9b/index.m3u8?exp=1795327563256&sig=Kfxf8Kjfwan8keLJytGE2P",
+          "url": "https://film4k.pl/api/tflix-live/36e226f039deaf5dc5cb8f544369db9b/index.m3u8?exp=1795328475417&sig=DIcsmenS-CVNR3fD_5OLKg",
           "logo": "https://tflix.su/logos/verified/sportsdb-134299-e4e6029f0fc9.png",
           "competition": "South America : Sudamericana",
           "group": "F4K Sport",
@@ -3012,72 +3087,56 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795309569-0-0-40156909f3de08c7b0ea65aeaf8ae5b0",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "USA MLS",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:10_columbuscrew_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=ef9c3831e9d92c53407359066f77356d&txTime=6b028650",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=a62ed09d4b6f973c32bfa35992f1f265&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
-          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=486fb15f49b545e105f40c0ab9d94f7b&txTime=6b028651",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:00_clubleon_santoslaguna"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Universidad de Concepcion vs Nublense (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795309568-0-0-e1d3fb8ef32a181e35078495755d1a05",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795310468-0-0-12059a91990cdafc1f181700b221fb65",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "CHI D1",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_LIVE_nublense_universidaddeconcepcion"
         },
         {
-          "name": "⚽ [06:30 22/11] Universidad de Concepcion vs Nublense (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=70dd484e4d0ddeeab06cfefeb7343bef&txTime=6b028651",
-          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
-          "competition": "CHI D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_LIVE_nublense_universidaddeconcepcion"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795309569-0-0-f54b17447abb71855f9b3c5ca87dfbe1",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795310469-0-0-2fb6c75c9f659c60c948e13329d7490e",
           "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
-          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795309569-0-0-fa3eda80e848d09ae0b5ab984a0892c2",
-          "logo": "https://sta.vnres.co/file/common/20261122/0a197ba93e36ab2b674884221c0ef1ec.jpg",
-          "competition": "USA MLS",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:10_columbuscrew_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795309569-0-0-f24b0a16cc029f255585ae6d1f42b95d",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795310469-0-0-715b0e963a5193c681cff59c49e4bd47",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_06:10_columbuscrew_intermilan"
         },
         {
+          "name": "⚽ [06:30 22/11] Universidad de Concepcion vs Nublense (BLV RAMBO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=b9a2b4d2ced5540ed3eed0a4d632af3b&txTime=6b0289d5",
+          "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
+          "competition": "CHI D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_LIVE_nublense_universidaddeconcepcion"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795310469-0-0-a580ae0b1153b64356599109bd2cdc6a",
+          "logo": "https://sta.vnres.co/file/common/20261122/0a197ba93e36ab2b674884221c0ef1ec.jpg",
+          "competition": "USA MLS",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_06:10_columbuscrew_intermilan"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795309569-0-0-e7ccd387e1a23c0c37f08003411a6eb6",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795310469-0-0-6991700c7bf48aa54ca06f85612fbe4c",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -3085,7 +3144,7 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795309569-0-0-6bbbfc6e8c3127aded78716b2ac310fd",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795310469-0-0-4c786d69cf9df43b86e3748ccbb78e60",
           "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
@@ -3093,23 +3152,39 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795309568-0-0-2bfe1da41230045f9af0a4638f0f2507",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795310469-0-0-1896cdede8aeb85d8db8c849ad442246",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_LIVE__cruzeiromg"
         },
         {
+          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=dc23d4dc335e23ca939ddd13b470e9fc&txTime=6b0289d5",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_06:00_clubleon_santoslaguna"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795309569-0-0-31ff3f1d76530f5c5e0dfc2527c203d5",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795310469-0-0-6149ec452212822bad23cc5e95cf02b8",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_06:00_clubleon_santoslaguna"
         },
         {
+          "name": "⚽ [LIVE 22/11] Inter Miami CF vs Columbus Crew (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795310469-0-0-68759c656457dd0a25179dbcd5583ee4",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "competition": "USA MLS",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_06:10_columbuscrew_intermilan"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=b814092cfe8d074ce7858f16dd0bbb2c&txTime=6b028651",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=dc1984a11353185c4c3f75c51cfce848&txTime=6b0289d5",
           "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -3117,7 +3192,7 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Atlético Mineiro - MG vs Boca Juniors (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795309569-0-0-e886e89373cf24f8e1e788509a303d97",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795310469-0-0-98a49ea1dba3ea19fb3c1bfe2fcd9d94",
           "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "CON CSA",
           "group": "🐿️ SocoLive",
@@ -3125,7 +3200,7 @@
         },
         {
           "name": "⚽ [07:00 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=b68e974e38d262e3a45b1407e8f9750b&txTime=6b028650",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=a7de60f8f657c7bd6d6bf81496e880bd&txTime=6b0289d4",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -3133,15 +3208,31 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Atlético Mineiro - MG vs Boca Juniors (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795309569-0-0-1f103947ec7cc2d41c1b560df4115e0b",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795310469-0-0-a4938b1f26d1d78b6b971c36c55e5b4e",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "CON CSA",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_LIVE_bocajuniors_mg"
         },
         {
+          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=9691c58688eefa106f0a76e6c2dcde90&txTime=6b0289d5",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_06:00_clubleon_santoslaguna"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV WUKONG) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795310469-0-0-43a8ea731a3edfb26e7f9166c169abe0",
+          "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_06:00_pachuca_toluca"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Atlético Mineiro - MG vs Boca Juniors (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795309569-0-0-6386df9d7aa4a347fbf0e5f64fe3d834",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795310469-0-0-07d67a544e797b8a9daf16e0844523ba",
           "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
           "competition": "CON CSA",
           "group": "🐿️ SocoLive",
@@ -3149,79 +3240,63 @@
         },
         {
           "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795309569-0-0-7be38dc9432da9ffe1eb811ca730c240",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795310469-0-0-9631e68e1f0476154c7e9dc96bb7d3de",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_06:00_pachuca_toluca"
         },
         {
-          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1795309569-0-0-d040103058f4a1df79e6b9fda6e4252a",
-          "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:00_pachuca_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795309569-0-0-f4cf49eadfe4f037be9e943bd1dccd1c",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:00_pachuca_toluca"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Atlético Mineiro - MG vs Boca Juniors (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795309569-0-0-869f600ec8ea84040af0865a8fc5560f",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795310469-0-0-5082895211ba1343bb07a7af0bd69c14",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "CON CSA",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_LIVE_bocajuniors_mg"
         },
         {
-          "name": "⚽ [LIVE 22/11] Santos Laguna vs Club Leon (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=7a865262cff45ee7cc9cb7100f86d55b&txTime=6b028651",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "name": "⚽ [LIVE 22/11] Pachuca vs Toluca (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795310469-0-0-9a02ea28535bb05b7accd48bf497eeb5",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
-          "match_key": "22/11_06:00_clubleon_santoslaguna"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=6d696a81463095dc857485b1ef24b617&txTime=6b028651",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "22/11_LIVE__cruzeiromg"
+          "match_key": "22/11_06:00_pachuca_toluca"
         },
         {
           "name": "⚽ [LIVE 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795309569-0-0-71fd61cca10abf89749fb293d502f5a8",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795310469-0-0-53038df839c6a02bfccf2a477b821ad9",
           "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_LIVE__cruzeiromg"
         },
         {
-          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795309569-0-0-50f2b7c4704fa3803c8ac147f54be0b2",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
+          "name": "⚽ [LIVE 22/11] Chapecoense - SC vs Cruzeiro - MG (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=296ca2a155ae8a6066f69cd5ae62b520&txTime=6b0289d5",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+          "match_key": "22/11_LIVE__cruzeiromg"
         },
         {
           "name": "⚽ [LIVE 22/11] Minnesota Timberwolves vs Memphis Grizzlies (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795309569-0-0-622069484edba9d56faa3cb5cde616ac",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795310469-0-0-adea5f86ba80dd319a5dec897c43ff40",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "22/11_08:00_memphisgrizzlies_minnesotatimberwolves"
         },
         {
+          "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795310469-0-0-7720e3fe0fc2ddc4fc58bf1ba75a567a",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "22/11_07:30_newyorkknicks_portlandtrailblazers"
+        },
+        {
           "name": "⚽ [LIVE 22/11] New York Knicks vs Portland Trail Blazers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795309568-0-0-d0ac547953dd7f467fe63e2b0a73f653",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795310469-0-0-2c34b3c6fd9e441f5948d58106d979d3",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -3237,16 +3312,14 @@
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4PYBV7yrBkKS.m3u8?expires=1795318529&signature=of55QNN_-1Svpxco0_GMxe2k0Qgu_8LLiq4b9XzQASk",
           "logo": "https://xoigac.top/images/basketball/teams/339.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "22/11_05:00_minas_pinheiros"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "🏀 [05:00 22/11] Pinheiros vs Minas (BLV Doctor Strange) - Xôi Gấc TV",
           "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.fxeska0D7Vc5.m3u8?expires=1795318531&signature=WSVmjqSfIPp2aQSucpr4pQc7r2Wdqag7lHk9X3WNqNA",
           "logo": "https://xoigac.top/images/basketball/teams/339.webp",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "match_key": "22/11_05:00_minas_pinheiros"
+          "group": "⚡ Xôi Gấc TV"
         },
         {
           "name": "⚽ [06:00 22/11] Santos Laguna vs Leon (BLV Raccoon) - Xôi Gấc TV",
