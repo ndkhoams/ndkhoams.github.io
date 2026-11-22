@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 16:33:25",
+  "updated_at": "2026-11-22 16:48:50",
   "live_events": [
     {
       "key": "22/11_14:30_dingnanunited_guizhouguiyangathletic",
@@ -253,6 +253,46 @@
       "number": 6
     },
     {
+      "key": "22/11_17:00_hungyen_khatocokhanhhoa",
+      "match_key": "22/11_17:00_hungyen_khatocokhanhhoa",
+      "c_home": "khatocokhanhhoa",
+      "c_away": "hungyen",
+      "homeTeam": "Khanh Hoa",
+      "awayTeam": "Hung Yen",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "17:00",
+      "date": "22/11",
+      "timestamp": 1795341600000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 22/11] Khatoco Khanh Hoa vs Hung Yen (BLV Tào Duệ) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/6d4c74bfc709d561f3bed627af4218f3.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "22/11_17:00_hungyen_khatocokhanhhoa"
+        },
+        {
+          "name": "⚽ [17:00 22/11] Khánh Hòa vs Hung Yen (BLV LÝ LẦY LỘI) [geo] - Phá Làng TV",
+          "url": "https://pull1.digitalcdn.net/live/676db939735d49a8ab343c498615f2fc/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/l5ergpho9d9r8k0/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "22/11_17:00_hungyen_khatocokhanhhoa"
+        }
+      ],
+      "displayTitle": "🔴 [17:00 22/11] Khanh Hoa vs Hung Yen",
+      "number": 7
+    },
+    {
       "key": "22/11_18:00_dynamomoscow_krasnodar",
       "match_key": "22/11_18:00_dynamomoscow_krasnodar",
       "c_home": "dynamomoscow",
@@ -290,7 +330,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 22/11] Dynamo Moscow vs Krasnodar 33 Tv",
-      "number": 7
+      "number": 8
     },
     {
       "key": "22/11_18:30_juventus_venezia",
@@ -332,7 +372,7 @@
         },
         {
           "name": "⚽ [18:30 22/11] Juventus vs Venezia (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795361531503&sig=mAzc8qHeJ8S1H7cGpT0Pu9",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795362463093&sig=NEapXrGBbOVa7GFNMIQ6bj",
           "logo": "https://tflix.su/logos/verified/juventus-light-v1.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -341,7 +381,7 @@
         },
         {
           "name": "⚽ [18:30 22/11] Juventus vs Venezia (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-cf615fcb289c8d5bb3a853a2-32357/index.m3u8?exp=1795361531503&sig=mnlA3202m8KNofSmpTgPPG",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-cf615fcb289c8d5bb3a853a2-32357/index.m3u8?exp=1795362463093&sig=Go1AO5d1kaeiOMR9P5DZu6",
           "logo": "https://tflix.su/logos/verified/juventus-light-v1.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -440,7 +480,7 @@
         }
       ],
       "displayTitle": "⚽ [18:30 22/11] Juventus vs Venezia",
-      "number": 8
+      "number": 9
     },
     {
       "key": "22/11_20:00_barcelona_villarreal",
@@ -482,7 +522,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361531430&sig=12Si6I5T4QmmdrZPs3CkFk",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362463031&sig=iNe4ib7rMRUmrfViQZUNKX",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -491,7 +531,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (TSN 4 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a58ef084b40c74f8299ec3bfbf77d8f2/index.m3u8?exp=1795361531430&sig=0MY_ulIv7_gx6gn7byJeYF",
+          "url": "https://film4k.pl/api/tflix-live/a58ef084b40c74f8299ec3bfbf77d8f2/index.m3u8?exp=1795362463031&sig=xFy1oKH40e1ysdllzlKUiT",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -500,7 +540,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361531430&sig=BYkjdr9u26sxMSu34h8j-s",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362463031&sig=zWpmZZBjExwPezo6aP7wgC",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -509,7 +549,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f50f34a343d2233fb75cd053-32329/index.m3u8?exp=1795361531430&sig=2lBO6ijwh_dp0wcFlp5z8D",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f50f34a343d2233fb75cd053-32329/index.m3u8?exp=1795362463031&sig=2y_WsOUL8qOnN2bGCr0SW9",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -671,7 +711,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 22/11] Barcelona vs Villarreal",
-      "number": 9
+      "number": 10
     },
     {
       "key": "22/11_21:00_brighton_hullcity",
@@ -724,7 +764,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795361532071&sig=iQFMCul1-fWFbHC2GXB_3x",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795362463648&sig=yHW-6MDFQ9hXUicOeomOX1",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -733,7 +773,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795361532071&sig=LmEitITb3OHZdOLcV4eQhX",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795362463648&sig=UWEj-3BDeD1__HNSaAuiEk",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -742,7 +782,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795361532071&sig=MinlugxBsaJTEMXj-wWTFa",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795362463648&sig=RhnHWwR6k0sML7hLYtcAHu",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -751,7 +791,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (BEIN ARABIC 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16811e25c885dfc1044648f7aa7de21a/index.m3u8?exp=1795361532071&sig=RZ_55ja7GXHFw9FQdtMDna",
+          "url": "https://film4k.pl/api/tflix-live/16811e25c885dfc1044648f7aa7de21a/index.m3u8?exp=1795362463648&sig=04R-RFPmQ_TdiC-pRMZgap",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -760,7 +800,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (BEIN ARABIC 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/6f9918dd78bf544f5a9ed21d0031e29f/index.m3u8?exp=1795361532071&sig=nc27kWWLFVlvkfPkCtPXh8",
+          "url": "https://film4k.pl/api/tflix-live/6f9918dd78bf544f5a9ed21d0031e29f/index.m3u8?exp=1795362463648&sig=RBnkovuEtFCA0u4tWCN_7b",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -769,7 +809,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-3c724113035c7660b6696e40-32350/index.m3u8?exp=1795361532071&sig=kpYKQuLMrbMZHNK1FN0bpO",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-3c724113035c7660b6696e40-32350/index.m3u8?exp=1795362463648&sig=4ItIadEkhH-i5_1i8gTfHn",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -841,7 +881,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Hull City vs Brighton",
-      "number": 10
+      "number": 11
     },
     {
       "key": "22/11_21:00_bologna_udinese",
@@ -883,7 +923,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Bologna vs Udinese (CBS Sports Network) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a50ccbbe-a2af-4119-9e96-5a84941d9b54/index.m3u8?exp=1795361532086&sig=rh2EcNz9b_44Ym4rTkAa7m",
+          "url": "https://film4k.pl/api/tflix-live/a50ccbbe-a2af-4119-9e96-5a84941d9b54/index.m3u8?exp=1795362463657&sig=saa3PI_We6bZTrXsACRUne",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-107.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -892,7 +932,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Bologna vs Udinese (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-e9b3d8172446751d5abe0d9d-32358/index.m3u8?exp=1795361532086&sig=mA_BfxqoDvVSiH6MXXPoOc",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-e9b3d8172446751d5abe0d9d-32358/index.m3u8?exp=1795362463657&sig=7VAJiepUDLZovmk18CLsdP",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-107.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -973,7 +1013,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Bologna vs Udinese",
-      "number": 11
+      "number": 12
     },
     {
       "key": "22/11_21:00_genoa_sassuolo",
@@ -1031,7 +1071,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] U.s. Sassuolo vs Genoa",
-      "number": 12
+      "number": 13
     },
     {
       "key": "22/11_21:00_angers_paris",
@@ -1053,7 +1093,7 @@
       "sources": [
         {
           "name": "⚽ [21:00 22/11] Paris FC vs Angers (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795361532135&sig=8QzpTZEjZQM4nI7qEdv9ek",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795362463661&sig=ISXgWZBN6VNYyYy-AZ2aX9",
           "logo": "https://tflix.su/logos/football-v14/team-6851.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1062,7 +1102,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Paris FC vs Angers (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-d442ea39bf9636a6257d889f-32369/index.m3u8?exp=1795361532135&sig=ziO16bQqM7wiOqimQKow_L",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-d442ea39bf9636a6257d889f-32369/index.m3u8?exp=1795362463661&sig=nNl4F2YCGRXlYVy03ETeD4",
           "logo": "https://tflix.su/logos/football-v14/team-6851.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1071,7 +1111,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 22/11] Paris vs Angers",
-      "number": 13
+      "number": 14
     },
     {
       "key": "22/11_21:30_1fsvmainz05_augsburg",
@@ -1136,7 +1176,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 22/11] Augsburg vs 1. Fsv Mainz 05",
-      "number": 14
+      "number": 15
     },
     {
       "key": "22/11_22:15_realsociedad_santander",
@@ -1167,7 +1207,7 @@
         },
         {
           "name": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361532668&sig=K3hCM1GEouD5jEFAG7elUE",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464176&sig=KPcRZgB74bzcnxcX2itA0w",
           "logo": "https://tflix.su/logos/football-v14/team-87.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1176,7 +1216,7 @@
         },
         {
           "name": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-15ab6d0d05808c60e6c2de77-32330/index.m3u8?exp=1795361532668&sig=82YlgKVK_UgbtHQSf5eSmb",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-15ab6d0d05808c60e6c2de77-32330/index.m3u8?exp=1795362464176&sig=2o4obwaWP2m9EqMPCnXE0r",
           "logo": "https://tflix.su/logos/football-v14/team-87.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1248,7 +1288,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad",
-      "number": 15
+      "number": 16
     },
     {
       "key": "22/11_23:15_lorient_rennais",
@@ -1279,7 +1319,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 22/11] Lorient vs Rennais",
-      "number": 16
+      "number": 17
     },
     {
       "key": "22/11_23:15_lorient_rennes",
@@ -1301,7 +1341,7 @@
       "sources": [
         {
           "name": "⚽ [23:15 22/11] Lorient vs Rennes (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795361532680&sig=qi7rcV3Vp2uc5XkJHFsE3D",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795362464256&sig=Dbw5F5BOEaPYCn4Afxi06F",
           "logo": "https://tflix.su/logos/football-v14/team-273.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1310,7 +1350,7 @@
         },
         {
           "name": "⚽ [23:15 22/11] Lorient vs Rennes (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-4c7a2d14990311cb6ee3f783-32370/index.m3u8?exp=1795361532680&sig=AH13sM2Jji07KQykUhKHIh",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-4c7a2d14990311cb6ee3f783-32370/index.m3u8?exp=1795362464256&sig=d6caQlqldNMXtZgpnKPX1A",
           "logo": "https://tflix.su/logos/football-v14/team-273.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1319,7 +1359,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 22/11] Lorient vs Rennes",
-      "number": 17
+      "number": 18
     },
     {
       "key": "22/11_23:30_liverpool_manutd",
@@ -1361,7 +1401,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795361532678&sig=U4jOgwF3uNwhlYiuKl6GYl",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795362464225&sig=-IP4m7-XpwPy11Lt8x7QIe",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -1370,7 +1410,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795361532678&sig=S4Suczaz_oP_CFu5EosH1D",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795362464225&sig=iE3TG3Tv4gGCtOjM9KLWh1",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -1379,7 +1419,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795361532678&sig=nlfxbpGiQvdbBkmbbEUtYp",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795362464225&sig=qA9nFBSurkz1_MH0y4h1hO",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -1388,7 +1428,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361532678&sig=X0IeufR4cUtRVzRi1e9rDF",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362464225&sig=-iky-7QgqI1RpK7pCviybb",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -1397,7 +1437,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-2466ae7489c64c2db988f1de-32351/index.m3u8?exp=1795361532678&sig=imtoHVbGfs474SIX6tului",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-2466ae7489c64c2db988f1de-32351/index.m3u8?exp=1795362464225&sig=Mv9ovCqyGjWITJcfi3TrgQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -1496,7 +1536,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Liverpool vs Manchester United",
-      "number": 18
+      "number": 19
     },
     {
       "key": "22/11_23:30_bremen_hamburgersv",
@@ -1556,7 +1596,7 @@
         }
       ],
       "displayTitle": "⚽ [23:30 22/11] Werder Bremen vs Hamburger Sv",
-      "number": 19
+      "number": 20
     },
     {
       "key": "23/11_00:00_acmilan_frosinone",
@@ -1598,7 +1638,7 @@
         },
         {
           "name": "⚽ [00:00 23/11] Milan vs Frosinone (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-be7c7b4d29801b1278432f1a-32360/index.m3u8?exp=1795361532749&sig=uVjG3TLv0L_fWOgh1sWths",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-be7c7b4d29801b1278432f1a-32360/index.m3u8?exp=1795362464233&sig=ra1FnnOGYaaSUBjxqgoxZN",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-103.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -1670,7 +1710,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 23/11] AC Milan vs Frosinone",
-      "number": 20
+      "number": 21
     },
     {
       "key": "23/11_00:30_malaga_osasuna",
@@ -1712,7 +1752,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361533149&sig=fxnwfHTmguGSElAYY-D1we",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464825&sig=x_uEBiDN1PogDfhFi_15Cr",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1721,7 +1761,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795361533149&sig=KLyRcUN7Ovwt9BYqDnb0Nr",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795362464825&sig=Oaxb1zAgJqioNeEWbSO797",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1730,7 +1770,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f76c4e6eea1eab3ade3cb592-32331/index.m3u8?exp=1795361533149&sig=RNh9LhQ2uGdQPIzeORi2ZQ",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f76c4e6eea1eab3ade3cb592-32331/index.m3u8?exp=1795362464825&sig=4VM8HYB1P0kXx3n-p0nK-_",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1784,7 +1824,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 23/11] Osasuna vs Malaga",
-      "number": 21
+      "number": 22
     },
     {
       "key": "23/11_02:45_atalanta_intermilan",
@@ -1826,7 +1866,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795361533185&sig=Qwo8fGxy-Qh4ZG15MLJf8P",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795362464815&sig=wucqn5MEC4DuhlbKsUnPpS",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -1835,7 +1875,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-41ed54ab1c1f37bbf7a7bec4-32361/index.m3u8?exp=1795361533185&sig=reRKf4hxFVH5cVZT8r5Y62",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-41ed54ab1c1f37bbf7a7bec4-32361/index.m3u8?exp=1795362464815&sig=TcCq3lDhRICJBuDKaAHRhF",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -1889,7 +1929,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 22
+      "number": 23
     },
     {
       "key": "23/11_02:45_lemans_marseille",
@@ -1920,7 +1960,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Marseille vs Le Mans (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795361533210&sig=5c_ZUoq48Ti3TYpcqaS3hU",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795362464884&sig=3FFgxwYqVYvsAZXf_S0xCW",
           "logo": "https://tflix.su/logos/football-v14/team-176.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1929,7 +1969,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Marseille vs Le Mans (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-1ba0720b114ee04a6435923a-32371/index.m3u8?exp=1795361533210&sig=a5tXF3C6-ZEYOvgBNmpyMw",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-1ba0720b114ee04a6435923a-32371/index.m3u8?exp=1795362464884&sig=G6EuVbUPA9N2fFG_teZ26i",
           "logo": "https://tflix.su/logos/football-v14/team-176.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -1947,7 +1987,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 23/11] Marseille vs Le Mans",
-      "number": 23
+      "number": 24
     },
     {
       "key": "23/11_03:00_atleticomadrid_getafe",
@@ -1978,7 +2018,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795361533254&sig=q7jXymNBf2hFI-XFdIBUbw",
+          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795362464899&sig=8gc1ZtE7XupShmtwiEPbT8",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1987,7 +2027,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361533254&sig=gBwCCjDLK3BaZ6zHO3YK3U",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464899&sig=7NR5rVnNe5-EHPNwQFhUX-",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -1996,7 +2036,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361533254&sig=0CzhAvqcd6rbRVt_g2T_rO",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362464900&sig=9Z6qci0x5EUQs-G121sWKy",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2005,7 +2045,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-32c290a0288a8d0c64374b72-32332/index.m3u8?exp=1795361533254&sig=p4tj0gu9Nw33EW6REPUDdc",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-32c290a0288a8d0c64374b72-32332/index.m3u8?exp=1795362464900&sig=loFoL50-2Tq2EiwosRcw2e",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2068,7 +2108,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atletico Madrid",
-      "number": 24
+      "number": 25
     },
     {
       "key": "23/11_03:00_atlmadrid_getafe",
@@ -2101,7 +2141,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 23/11] Getafe vs Atl. Madrid",
-      "number": 25
+      "number": 26
     },
     {
       "key": "23/11_18:00_chornomoretsodesa_epitsentrdunayivtsi",
@@ -2132,7 +2172,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Chornomorets Odesa vs Epitsentr Dunayivtsi",
-      "number": 26
+      "number": 27
     },
     {
       "key": "23/11_18:00_lnzcherkasy_polissyazhytomyr",
@@ -2163,7 +2203,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
-      "number": 27
+      "number": 28
     },
     {
       "key": "23/11_20:45_alhilal_neftchifergana",
@@ -2194,7 +2234,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fergana vs Al Hilal",
-      "number": 28
+      "number": 29
     },
     {
       "key": "23/11_20:45_alhilal_neftchifargona",
@@ -2227,7 +2267,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fargona vs Al Hilal",
-      "number": 29
+      "number": 30
     },
     {
       "key": "23/11_23:00_alain_esteghlaltehran",
@@ -2258,7 +2298,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal Tehran",
-      "number": 30
+      "number": 31
     },
     {
       "key": "23/11_23:00_alwasl_tractor",
@@ -2300,7 +2340,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Tractor vs Al Wasl",
-      "number": 31
+      "number": 32
     },
     {
       "key": "23/11_23:00_alahli_alshamalsportsclub",
@@ -2342,7 +2382,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 32
+      "number": 33
     },
     {
       "key": "23/11_23:00_alain_esteghlalfc",
@@ -2375,7 +2415,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
-      "number": 33
+      "number": 34
     },
     {
       "key": "24/11_01:15_alittihad_pakhtakor",
@@ -2408,7 +2448,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Ittihad vs Pakhtakor",
-      "number": 34
+      "number": 35
     },
     {
       "key": "24/11_01:15_algharafa_alquwaaljawiya",
@@ -2441,7 +2481,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
-      "number": 35
+      "number": 36
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeon",
@@ -2474,7 +2514,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
-      "number": 36
+      "number": 37
     },
     {
       "key": "25/11_00:00_ajman_alettifaq",
@@ -2507,7 +2547,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 25/11] Ajman vs Al Ettifaq",
-      "number": 37
+      "number": 38
     },
     {
       "key": "25/11_00:45_astonvilla_galatasaray",
@@ -2540,7 +2580,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 38
+      "number": 39
     }
   ],
   "source_groups": [
@@ -3187,14 +3227,14 @@
       "channels": [
         {
           "name": "⚽ [15:10 22/11] Melbourne Stars Women vs Melbourne Renegades Women (Sky Sport 4 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ce1bdeacb135c5317a390845070e8dd7/index.m3u8?exp=1795361531444&sig=sr9x-R0lwWIrFIqnyQpkN8",
+          "url": "https://film4k.pl/api/tflix-live/ce1bdeacb135c5317a390845070e8dd7/index.m3u8?exp=1795362463048&sig=RddH0mE-YdMsYxBDLNMow5",
           "logo": "https://tflix.su/logos/wbbl-v1/melbourne-stars.svg",
           "competition": "Cricket · Weber Women's Big Bash League",
           "group": "F4K Sport"
         },
         {
           "name": "⚽ [15:10 22/11] Melbourne Stars Women vs Melbourne Renegades Women (Sky Sports Cricket FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/32675e9402d2072f3676c3cf5930392d/index.m3u8?exp=1795361531444&sig=alb5fOmhw9dho2zKChA2xa",
+          "url": "https://film4k.pl/api/tflix-live/32675e9402d2072f3676c3cf5930392d/index.m3u8?exp=1795362463048&sig=p5ZkV_zfgWtkMEJEFq5rjs",
           "logo": "https://tflix.su/logos/wbbl-v1/melbourne-stars.svg",
           "competition": "Cricket · Weber Women's Big Bash League",
           "group": "F4K Sport"
@@ -3222,7 +3262,7 @@
         },
         {
           "name": "⚽ [18:30 22/11] Juventus vs Venezia (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795361531503&sig=mAzc8qHeJ8S1H7cGpT0Pu9",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795362463093&sig=NEapXrGBbOVa7GFNMIQ6bj",
           "logo": "https://tflix.su/logos/verified/juventus-light-v1.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3230,7 +3270,7 @@
         },
         {
           "name": "⚽ [18:30 22/11] Juventus vs Venezia (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-cf615fcb289c8d5bb3a853a2-32357/index.m3u8?exp=1795361531503&sig=mnlA3202m8KNofSmpTgPPG",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-cf615fcb289c8d5bb3a853a2-32357/index.m3u8?exp=1795362463093&sig=Go1AO5d1kaeiOMR9P5DZu6",
           "logo": "https://tflix.su/logos/verified/juventus-light-v1.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3262,7 +3302,7 @@
         },
         {
           "name": "⚽ [19:00 22/11] Burnley vs Blackburn Rovers (Sky Sports Football FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0f0c189410f11e615d9d1c2c3cf9d820/index.m3u8?exp=1795361531469&sig=qHPifgEy5OwkAyIDZvWOKj",
+          "url": "https://film4k.pl/api/tflix-live/0f0c189410f11e615d9d1c2c3cf9d820/index.m3u8?exp=1795362463040&sig=7zdoVjxS-i7KJQlxICsfQ0",
           "logo": "https://tflix.su/logos/football-v14/team-379.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -3270,7 +3310,7 @@
         },
         {
           "name": "⚽ [19:00 22/11] Burnley vs Blackburn Rovers (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795361531469&sig=HWer497oyEtkqCQJlKKYZc",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795362463040&sig=XZ-bQzvbco6pwvLYUVbTx0",
           "logo": "https://tflix.su/logos/football-v14/team-379.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -3278,7 +3318,7 @@
         },
         {
           "name": "⚽ [19:00 22/11] Burnley vs Blackburn Rovers (BEIN ARABIC 6) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795361531469&sig=mjZUAw6UVSAYNjVLTrUomU",
+          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795362463040&sig=hBmXwc746kxwoIPST9Mwjd",
           "logo": "https://tflix.su/logos/football-v14/team-379.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -3286,7 +3326,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361531430&sig=12Si6I5T4QmmdrZPs3CkFk",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362463031&sig=iNe4ib7rMRUmrfViQZUNKX",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3294,7 +3334,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (TSN 4 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a58ef084b40c74f8299ec3bfbf77d8f2/index.m3u8?exp=1795361531430&sig=0MY_ulIv7_gx6gn7byJeYF",
+          "url": "https://film4k.pl/api/tflix-live/a58ef084b40c74f8299ec3bfbf77d8f2/index.m3u8?exp=1795362463031&sig=xFy1oKH40e1ysdllzlKUiT",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3302,7 +3342,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361531430&sig=BYkjdr9u26sxMSu34h8j-s",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362463031&sig=zWpmZZBjExwPezo6aP7wgC",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3310,7 +3350,7 @@
         },
         {
           "name": "⚽ [20:00 22/11] Barcelona vs Villarreal (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f50f34a343d2233fb75cd053-32329/index.m3u8?exp=1795361531430&sig=2lBO6ijwh_dp0wcFlp5z8D",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f50f34a343d2233fb75cd053-32329/index.m3u8?exp=1795362463031&sig=2y_WsOUL8qOnN2bGCr0SW9",
           "logo": "https://tflix.su/logos/football-v14/team-83.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3366,14 +3406,14 @@
         },
         {
           "name": "⚽ [21:00 22/11] Everton Women vs Brighton Women (Sky Sport Select NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/3237a0b5f1554a0e61998ce773557d6f/index.m3u8?exp=1795361532078&sig=GBObOpJE7nM9QKUipg3ke_",
+          "url": "https://film4k.pl/api/tflix-live/3237a0b5f1554a0e61998ce773557d6f/index.m3u8?exp=1795362463652&sig=o8F0Jc-AWGoo3Fgg5FWmMW",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-everton.webp",
           "competition": "England : Women Super League",
           "group": "F4K Sport"
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795361532071&sig=iQFMCul1-fWFbHC2GXB_3x",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795362463648&sig=yHW-6MDFQ9hXUicOeomOX1",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3381,7 +3421,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795361532071&sig=LmEitITb3OHZdOLcV4eQhX",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795362463648&sig=UWEj-3BDeD1__HNSaAuiEk",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3389,7 +3429,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795361532071&sig=MinlugxBsaJTEMXj-wWTFa",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795362463648&sig=RhnHWwR6k0sML7hLYtcAHu",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3397,7 +3437,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (BEIN ARABIC 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16811e25c885dfc1044648f7aa7de21a/index.m3u8?exp=1795361532071&sig=RZ_55ja7GXHFw9FQdtMDna",
+          "url": "https://film4k.pl/api/tflix-live/16811e25c885dfc1044648f7aa7de21a/index.m3u8?exp=1795362463648&sig=04R-RFPmQ_TdiC-pRMZgap",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3405,7 +3445,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (BEIN ARABIC 5) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/6f9918dd78bf544f5a9ed21d0031e29f/index.m3u8?exp=1795361532071&sig=nc27kWWLFVlvkfPkCtPXh8",
+          "url": "https://film4k.pl/api/tflix-live/6f9918dd78bf544f5a9ed21d0031e29f/index.m3u8?exp=1795362463648&sig=RBnkovuEtFCA0u4tWCN_7b",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3413,7 +3453,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Hull City vs Brighton (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-3c724113035c7660b6696e40-32350/index.m3u8?exp=1795361532071&sig=kpYKQuLMrbMZHNK1FN0bpO",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-3c724113035c7660b6696e40-32350/index.m3u8?exp=1795362463648&sig=4ItIadEkhH-i5_1i8gTfHn",
           "logo": "https://tflix.su/logos/football-v14/team-306.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3429,14 +3469,14 @@
         },
         {
           "name": "⚽ [21:00 22/11] Charlton Women vs Aston Villa Women (Sky Sport 9 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/386d6d744633c922001128e7c3f7e5c1/index.m3u8?exp=1795361532090&sig=bIgYlJq22dhr6OmjFgeLl-",
+          "url": "https://film4k.pl/api/tflix-live/386d6d744633c922001128e7c3f7e5c1/index.m3u8?exp=1795362463691&sig=kqy9IQ5d4ujrqG3nZJ7B9q",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-charltonathletic.webp",
           "competition": "England : Women Super League",
           "group": "F4K Sport"
         },
         {
           "name": "⚽ [21:00 22/11] Bologna vs Udinese (CBS Sports Network) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a50ccbbe-a2af-4119-9e96-5a84941d9b54/index.m3u8?exp=1795361532086&sig=rh2EcNz9b_44Ym4rTkAa7m",
+          "url": "https://film4k.pl/api/tflix-live/a50ccbbe-a2af-4119-9e96-5a84941d9b54/index.m3u8?exp=1795362463657&sig=saa3PI_We6bZTrXsACRUne",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-107.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3444,7 +3484,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Bologna vs Udinese (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-e9b3d8172446751d5abe0d9d-32358/index.m3u8?exp=1795361532086&sig=mA_BfxqoDvVSiH6MXXPoOc",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-e9b3d8172446751d5abe0d9d-32358/index.m3u8?exp=1795362463657&sig=7VAJiepUDLZovmk18CLsdP",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-107.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3468,7 +3508,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Paris FC vs Angers (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795361532135&sig=8QzpTZEjZQM4nI7qEdv9ek",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795362463661&sig=ISXgWZBN6VNYyYy-AZ2aX9",
           "logo": "https://tflix.su/logos/football-v14/team-6851.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3476,7 +3516,7 @@
         },
         {
           "name": "⚽ [21:00 22/11] Paris FC vs Angers (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-d442ea39bf9636a6257d889f-32369/index.m3u8?exp=1795361532135&sig=ziO16bQqM7wiOqimQKow_L",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-d442ea39bf9636a6257d889f-32369/index.m3u8?exp=1795362463661&sig=nNl4F2YCGRXlYVy03ETeD4",
           "logo": "https://tflix.su/logos/football-v14/team-6851.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3484,14 +3524,14 @@
         },
         {
           "name": "⚽ [21:30 22/11] Arsenal Women vs West Ham Women (Sky Sport 6 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/91d58e3ce7dacd422d6c38758c50173f/index.m3u8?exp=1795361532640&sig=tL4wCXXXcOMcdZiv_n5jr1",
+          "url": "https://film4k.pl/api/tflix-live/91d58e3ce7dacd422d6c38758c50173f/index.m3u8?exp=1795362464156&sig=phsPJI5QT5P6K_7a4TTBV1",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "England : Women Super League",
           "group": "F4K Sport"
         },
         {
           "name": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361532668&sig=K3hCM1GEouD5jEFAG7elUE",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464176&sig=KPcRZgB74bzcnxcX2itA0w",
           "logo": "https://tflix.su/logos/football-v14/team-87.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3499,7 +3539,7 @@
         },
         {
           "name": "⚽ [22:15 22/11] Racing Santander vs Real Sociedad (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-15ab6d0d05808c60e6c2de77-32330/index.m3u8?exp=1795361532668&sig=82YlgKVK_UgbtHQSf5eSmb",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-15ab6d0d05808c60e6c2de77-32330/index.m3u8?exp=1795362464176&sig=2o4obwaWP2m9EqMPCnXE0r",
           "logo": "https://tflix.su/logos/football-v14/team-87.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3539,7 +3579,7 @@
         },
         {
           "name": "⚽ [23:15 22/11] Lorient vs Rennes (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795361532680&sig=qi7rcV3Vp2uc5XkJHFsE3D",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795362464256&sig=Dbw5F5BOEaPYCn4Afxi06F",
           "logo": "https://tflix.su/logos/football-v14/team-273.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3547,7 +3587,7 @@
         },
         {
           "name": "⚽ [23:15 22/11] Lorient vs Rennes (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-4c7a2d14990311cb6ee3f783-32370/index.m3u8?exp=1795361532680&sig=AH13sM2Jji07KQykUhKHIh",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-4c7a2d14990311cb6ee3f783-32370/index.m3u8?exp=1795362464256&sig=d6caQlqldNMXtZgpnKPX1A",
           "logo": "https://tflix.su/logos/football-v14/team-273.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3555,7 +3595,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795361532678&sig=U4jOgwF3uNwhlYiuKl6GYl",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795362464225&sig=-IP4m7-XpwPy11Lt8x7QIe",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3563,7 +3603,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795361532678&sig=S4Suczaz_oP_CFu5EosH1D",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795362464225&sig=iE3TG3Tv4gGCtOjM9KLWh1",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3571,7 +3611,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795361532678&sig=nlfxbpGiQvdbBkmbbEUtYp",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795362464225&sig=qA9nFBSurkz1_MH0y4h1hO",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3579,7 +3619,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361532678&sig=X0IeufR4cUtRVzRi1e9rDF",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362464225&sig=-iky-7QgqI1RpK7pCviybb",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3587,7 +3627,7 @@
         },
         {
           "name": "⚽ [23:30 22/11] Liverpool vs Manchester United (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-2466ae7489c64c2db988f1de-32351/index.m3u8?exp=1795361532678&sig=imtoHVbGfs474SIX6tului",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-2466ae7489c64c2db988f1de-32351/index.m3u8?exp=1795362464225&sig=Mv9ovCqyGjWITJcfi3TrgQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-liverpool.webp",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3611,7 +3651,7 @@
         },
         {
           "name": "⚽ [00:00 23/11] Milan vs Frosinone (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-be7c7b4d29801b1278432f1a-32360/index.m3u8?exp=1795361532749&sig=uVjG3TLv0L_fWOgh1sWths",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-be7c7b4d29801b1278432f1a-32360/index.m3u8?exp=1795362464233&sig=ra1FnnOGYaaSUBjxqgoxZN",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-103.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3635,7 +3675,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361533149&sig=fxnwfHTmguGSElAYY-D1we",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464825&sig=x_uEBiDN1PogDfhFi_15Cr",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3643,7 +3683,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795361533149&sig=KLyRcUN7Ovwt9BYqDnb0Nr",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795362464825&sig=Oaxb1zAgJqioNeEWbSO797",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3651,7 +3691,7 @@
         },
         {
           "name": "⚽ [00:30 23/11] Osasuna vs Malaga (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f76c4e6eea1eab3ade3cb592-32331/index.m3u8?exp=1795361533149&sig=RNh9LhQ2uGdQPIzeORi2ZQ",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-f76c4e6eea1eab3ade3cb592-32331/index.m3u8?exp=1795362464825&sig=4VM8HYB1P0kXx3n-p0nK-_",
           "logo": "https://tflix.su/logos/football-v14/team-97.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3691,7 +3731,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795361533185&sig=Qwo8fGxy-Qh4ZG15MLJf8P",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795362464815&sig=wucqn5MEC4DuhlbKsUnPpS",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3699,7 +3739,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-41ed54ab1c1f37bbf7a7bec4-32361/index.m3u8?exp=1795361533185&sig=reRKf4hxFVH5cVZT8r5Y62",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-41ed54ab1c1f37bbf7a7bec4-32361/index.m3u8?exp=1795362464815&sig=TcCq3lDhRICJBuDKaAHRhF",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3739,7 +3779,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Marseille vs Le Mans (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795361533210&sig=5c_ZUoq48Ti3TYpcqaS3hU",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795362464884&sig=3FFgxwYqVYvsAZXf_S0xCW",
           "logo": "https://tflix.su/logos/football-v14/team-176.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3747,7 +3787,7 @@
         },
         {
           "name": "⚽ [02:45 23/11] Marseille vs Le Mans (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-1ba0720b114ee04a6435923a-32371/index.m3u8?exp=1795361533210&sig=a5tXF3C6-ZEYOvgBNmpyMw",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-1ba0720b114ee04a6435923a-32371/index.m3u8?exp=1795362464884&sig=G6EuVbUPA9N2fFG_teZ26i",
           "logo": "https://tflix.su/logos/football-v14/team-176.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -3755,7 +3795,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795361533254&sig=q7jXymNBf2hFI-XFdIBUbw",
+          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795362464899&sig=8gc1ZtE7XupShmtwiEPbT8",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3763,7 +3803,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795361533254&sig=gBwCCjDLK3BaZ6zHO3YK3U",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795362464899&sig=7NR5rVnNe5-EHPNwQFhUX-",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3771,7 +3811,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795361533254&sig=0CzhAvqcd6rbRVt_g2T_rO",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795362464900&sig=9Z6qci0x5EUQs-G121sWKy",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3779,7 +3819,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (Backup Server) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-32c290a0288a8d0c64374b72-32332/index.m3u8?exp=1795361533254&sig=p4tj0gu9Nw33EW6REPUDdc",
+          "url": "https://film4k.pl/api/tflix-live/ppv-backup-feed-med-32c290a0288a8d0c64374b72-32332/index.m3u8?exp=1795362464900&sig=loFoL50-2Tq2EiwosRcw2e",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3827,7 +3867,7 @@
         },
         {
           "name": "⚽ [04:00 23/11] Nashville SC vs Cincinnati (FOX SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795361533632&sig=TmpopAT1G3XGQWPkF65XiU",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795362465272&sig=rsKgmpZt2vL27Eo_B4A6ZV",
           "logo": "https://tflix.su/logos/med/teams/45631.png",
           "competition": "United States : MLS",
           "group": "F4K Sport",
@@ -3835,7 +3875,7 @@
         },
         {
           "name": "⚽ [04:00 23/11] Nashville SC vs Cincinnati (FOX DEPORTES) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9c6fdd74229421a8d6bdfe3e5d775de7/index.m3u8?exp=1795361533632&sig=ZwERDtTqzTE20CJKK8nwc7",
+          "url": "https://film4k.pl/api/tflix-live/9c6fdd74229421a8d6bdfe3e5d775de7/index.m3u8?exp=1795362465272&sig=gh3Tw6fWLWz56Bs9PpWINz",
           "logo": "https://tflix.su/logos/med/teams/45631.png",
           "competition": "United States : MLS",
           "group": "F4K Sport",
@@ -3851,7 +3891,7 @@
         },
         {
           "name": "⚽ [06:30 23/11] Chicago Fire vs Charlotte (FOX SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795361533658&sig=ARSEUhdGLX_HC3znI3TQXR",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795362465290&sig=--gtwOULcsOTbr_-vZzkuf",
           "logo": "https://tflix.su/logos/med/teams/2273.png",
           "competition": "United States : MLS",
           "group": "F4K Sport",
@@ -3859,7 +3899,7 @@
         },
         {
           "name": "⚽ [06:30 23/11] Chicago Fire vs Charlotte (FOX DEPORTES) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9c6fdd74229421a8d6bdfe3e5d775de7/index.m3u8?exp=1795361533658&sig=LOJQETR-i5o0W5EK3tw4yQ",
+          "url": "https://film4k.pl/api/tflix-live/9c6fdd74229421a8d6bdfe3e5d775de7/index.m3u8?exp=1795362465290&sig=eef-8Bb7WdIQKhev1qKN5h",
           "logo": "https://tflix.su/logos/med/teams/2273.png",
           "competition": "United States : MLS",
           "group": "F4K Sport",
@@ -4065,156 +4105,149 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 22/11] Kuala Lumpur City FC vs Penang FC (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795343529-0-0-01bd13f6cafe2a2fc804322d2b3a0c58",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "MAS SL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795343529-0-0-77b88b944627335cdb5faebba24fcaab",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] FC Ufa vs Ural Yekaterinburg (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795343529-0-0-4b16fbc22c8e723bee8737d1d63561c2",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "RUS D2",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 22/11] FC Ufa vs Ural Yekaterinburg (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795343529-0-0-8da4541887b5242837d82075bb8e8311",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795344429-0-0-69cd2f08e11dd830452d60770c335080",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "RUS D2",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV TAP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795343528-0-0-19cbb6dc46824386fa4f6cf241252d0d",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795344429-0-0-ff08390dc96338b758f09f179fb19abe",
           "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795343528-0-0-c9fafcce49ce4f9ae8d3bcc76ec71188",
-          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
-          "competition": "IDN D1",
+          "name": "⚽ [LIVE 22/11] Kuala Lumpur City FC vs Penang FC (BLV QUỐC KHÁNH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912129_lhd.m3u8?auth_key=1795344429-0-0-61e3533cb57e534f941e0f4367fd7cdd",
+          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
+          "competition": "MAS SL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795343529-0-0-6f967805105ffbe05bf2edba13de37cb",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795344429-0-0-3af6cf5887ea95aeb209fd523393aa56",
           "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795344429-0-0-f549efad12c87c98ea273ad648bb5e33",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795344429-0-0-37f4fefad37d73842b796f3557328bb4",
+          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] FC Ufa vs Ural Yekaterinburg (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795344429-0-0-28104f40ec7f101f28d3053d6c113ba8",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "RUS D2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Khatoco Khanh Hoa vs Hung Yen (BLV TRÀ ĐÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795344429-0-0-7b3a721e7ae66983eaa83fe17809b3c1",
+          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
+          "competition": "VIE D2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795344429-0-0-4a3401f0cbe66220a0c5af6754ad73ab",
+          "logo": "https://sta.vnres.co/file/common/20261122/98eae6e1ad17682f889a177484d93019.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 22/11] Khatoco Khanh Hoa vs Hung Yen (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=1c4811da53c1e4525966a3b5a2bd1301&txTime=6b030af9",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=8c4405977dc64b86bbb23af47694c911&txTime=6b030e7d",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "VIE D2",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=3a415b43cbd9523ce32fdf1539fd398e&txTime=6b030af9",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=a4501a9dcae5a6cf0fcc500f9ec98cc2&txTime=6b030e7d",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 22/11] Seoul E-Land FC vs Chungnam Asan (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795343528-0-0-e0d435d0845e9a17e9d346682703518b",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "KOR D2",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 22/11] Kuala Lumpur City FC vs Penang FC (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795343529-0-0-43a7c327776b0abc0493f4709a1dba26",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795344429-0-0-b0464c2b5638b39cb53e25d3952762f4",
           "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "MAS SL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 22/11] Isenmulang Kalteng vs Borneo FC Samarinda (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795343528-0-0-7ddc4d8891a644aaa475b77c07af946a",
-          "logo": "https://sta.vnres.co/file/common/20261122/98eae6e1ad17682f889a177484d93019.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] Seoul E-Land FC vs Chungnam Asan (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795343554-0-0-4cdd3dbcbb05e8d43c5ae0e33a99f373",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "KOR D2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] Paju Frontier FC vs Cheonan City (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=257fb1251dc8330da092cb7b3b1ef70d&txTime=6b030af9",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "KOR D2",
+          "name": "⚽ [LIVE 22/11] Erzurumspor FK vs Goztepe (BLV XO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=05dd4908a5e9845fd8f265704c01f816&txTime=6b030e7d",
+          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
+          "competition": "TUR D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] Van Hien University vs Quy Nhon United (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795343529-0-0-57f196c2b97a46059180b35fc731e0d0",
+          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795344429-0-0-a4bae3d15e680970bc5d995e590fce33",
           "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "VIE D2",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] Van Hien University vs Quy Nhon United (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795343529-0-0-60abe163993b7321ed3df65eb83002fa",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795344429-0-0-0f52c36eedb47063330c5f0a7bf2bafa",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "VIE D2",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 22/11] ENG PR - Bournemouth AFC vs Nottingham Forest (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=f86aba0e4d7d963fc578e196d6b72f59&txTime=6b030af8",
-          "logo": "https://sta.vnres.co/file/common/20261122/6d7c838b0acd957c17a2ec8ed964fff9.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] ENG PR - Coventry City vs Crystal Palace (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=755d54776eedb6bc882a0cc873bbedf1&txTime=6b030af9",
-          "logo": "https://sta.vnres.co/file/common/20261122/a58478441e3ed33ad47bd885e9315f19.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 22/11] ENG PR - Chelsea vs Leeds United (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=7ca408e9079f10ab7c2088d767baed4b&txTime=6b030af8",
-          "logo": "https://sta.vnres.co/file/common/20261122/f6b5114463d60dae55794a95c479d967.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 22/11] ENG PR - Newcastle United vs Arsenal (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=23cbdb90c7d500f1a22052838ca4b65c&txTime=6b030af9",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=329c4f9809735d92635538398136cef0&txTime=6b030e7d",
           "logo": "https://sta.vnres.co/file/common/20261122/455c163022b7dc54022be3113f283b50.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 22/11] ENG PR - Tottenham Hotspur vs Ipswich Town (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=ee958ea2c4a517429f242c5fe4a4f8f5&txTime=6b030af8",
-          "logo": "https://sta.vnres.co/file/common/20261122/ccba820649ea74769de66dadf3746086.png",
+          "name": "⚽ [LIVE 22/11] ENG PR - Bournemouth AFC vs Nottingham Forest (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=241d748a0147a546e99f11a6cc5b6213&txTime=6b030e7d",
+          "logo": "https://sta.vnres.co/file/common/20261122/6d7c838b0acd957c17a2ec8ed964fff9.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] ENG PR - Chelsea vs Leeds United (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=364d741f909644098a7cb409d478b0e2&txTime=6b030e7d",
+          "logo": "https://sta.vnres.co/file/common/20261122/f6b5114463d60dae55794a95c479d967.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 22/11] ENG PR - Manchester City vs Fulham (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=e13dfe4ac06c7b51d47218c61150c80f&txTime=6b030af8",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=e860cc698350b117f3349cc09d9e4194&txTime=6b030e7d",
           "logo": "https://sta.vnres.co/file/common/20261122/69aaf7608c32a73c6c0f9e1f44149d83.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] ENG PR - Coventry City vs Crystal Palace (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=b712dd654a15952e933a96b757491c96&txTime=6b030e7d",
+          "logo": "https://sta.vnres.co/file/common/20261122/a58478441e3ed33ad47bd885e9315f19.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 22/11] ENG PR - Tottenham Hotspur vs Ipswich Town (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=17cad26fef3e5d7a957212951d0d4fe4&txTime=6b030e7d",
+          "logo": "https://sta.vnres.co/file/common/20261122/ccba820649ea74769de66dadf3746086.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         }
