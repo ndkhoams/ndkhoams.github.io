@@ -18,6 +18,7 @@ class StrandPlayer {
     this.currentChannel = null;
     this.isPlaying = false;
     this.isPseudoFullscreen = false;
+    this.isNativeIOSFullscreen = false;
     this.currentVolume = 1.0;
     this.clickTimer = null;
     this.init();
@@ -85,7 +86,7 @@ class StrandPlayer {
 
     // 7. Fullscreen change listeners
     const onFsChange = () => {
-      const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement) || this.isPseudoFullscreen;
+      const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement) || this.isPseudoFullscreen || this.isNativeIOSFullscreen;
       this.updateFullscreenIcon(isFs);
       if (!isFs && screen.orientation && screen.orientation.unlock) {
         try { screen.orientation.unlock(); } catch (e) {}
@@ -93,6 +94,22 @@ class StrandPlayer {
     };
     document.addEventListener('fullscreenchange', onFsChange);
     document.addEventListener('webkitfullscreenchange', onFsChange);
+
+    // Lắng nghe sự kiện toàn màn hình gốc của iOS (Apple webkitEnterFullscreen - ẩn hoàn toàn đồng hồ hệ thống)
+    if (this.video) {
+      this.video.addEventListener('webkitbeginfullscreen', () => {
+        this.isNativeIOSFullscreen = true;
+        this.updateFullscreenIcon(true);
+      });
+      this.video.addEventListener('webkitendfullscreen', () => {
+        this.isNativeIOSFullscreen = false;
+        this.updateFullscreenIcon(false);
+        // iOS Safari thường tự động tạm dừng video khi đóng AVPlayer fullscreen
+        if (this.isPlaying) {
+          setTimeout(() => this.safePlay(), 120);
+        }
+      });
+    }
 
     window.addEventListener('resize', () => {
       if (this.isPseudoFullscreen) this.updatePseudoFullscreenLayout();
@@ -552,11 +569,23 @@ class StrandPlayer {
   async toggleFullscreen() {
     if (!this.video) return;
 
+    // 1. Thoát pseudo-fullscreen nếu đang mở
     if (this.isPseudoFullscreen) {
       this.exitPseudoFullscreen();
       return;
     }
 
+    // 2. Thoát Native iOS Fullscreen nếu đang mở
+    if (this.isNativeIOSFullscreen && typeof this.video.webkitExitFullscreen === 'function') {
+      try {
+        this.video.webkitExitFullscreen();
+      } catch (err) {}
+      this.isNativeIOSFullscreen = false;
+      this.updateFullscreenIcon(false);
+      return;
+    }
+
+    // 3. Thoát Native Fullscreen chuẩn HTML5 nếu đang mở
     const isNativeFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
     if (isNativeFullscreen) {
       try {
@@ -570,8 +599,33 @@ class StrandPlayer {
     const container = document.getElementById('playerSection') || this.video;
     const canNativeRequest = !!(container && (container.requestFullscreen || container.webkitRequestFullscreen));
     const isIOS = this.isIOSDevice();
+    const iosMode = localStorage.getItem('tvplay_ios_fs_mode') || 'native';
 
-    if (isIOS || !canNativeRequest) {
+    // 4. Xử lý chuyên biệt cho iPhone / iPad (iOS):
+    // webkitEnterFullscreen là API chính thức duy nhất trên iOS cho phép ẩn 100% đồng hồ hệ thống (clock), thanh pin & Dynamic Island!
+    if (isIOS) {
+      if (iosMode === 'native' && typeof this.video.webkitEnterFullscreen === 'function') {
+        try {
+          this.video.webkitEnterFullscreen();
+          return;
+        } catch (e) {
+          console.warn('[Player] webkitEnterFullscreen failed, falling back to pseudo-fullscreen:', e);
+        }
+      }
+      this.isPseudoFullscreen = true;
+      this.updatePseudoFullscreenLayout();
+      this.updateFullscreenIcon(true);
+      return;
+    }
+
+    // 5. Desktop & Android: Ưu tiên HTML5 Fullscreen API
+    if (!canNativeRequest) {
+      if (typeof this.video.webkitEnterFullscreen === 'function') {
+        try {
+          this.video.webkitEnterFullscreen();
+          return;
+        } catch (e) {}
+      }
       this.isPseudoFullscreen = true;
       this.updatePseudoFullscreenLayout();
       this.updateFullscreenIcon(true);
@@ -589,6 +643,12 @@ class StrandPlayer {
         screen.orientation.lock('landscape').catch(() => {});
       }
     } catch (err) {
+      if (typeof this.video.webkitEnterFullscreen === 'function') {
+        try {
+          this.video.webkitEnterFullscreen();
+          return;
+        } catch (e) {}
+      }
       this.isPseudoFullscreen = true;
       this.updatePseudoFullscreenLayout();
       this.updateFullscreenIcon(true);
@@ -602,6 +662,39 @@ class StrandPlayer {
     menu.classList.toggle('hidden');
     if (!menu.classList.contains('hidden')) {
       this.updateQualityMenu();
+      this.updateIOSFsMenu();
+    }
+  }
+
+  setIOSFsMode(mode) {
+    localStorage.setItem('tvplay_ios_fs_mode', mode);
+    this.updateIOSFsMenu();
+  }
+
+  updateIOSFsMenu() {
+    const section = document.getElementById('ytIosFsSection');
+    if (!section) return;
+    if (!this.isIOSDevice()) {
+      section.classList.add('hidden');
+      return;
+    }
+    section.classList.remove('hidden');
+
+    const currentMode = localStorage.getItem('tvplay_ios_fs_mode') || 'native';
+    const btnNative = document.getElementById('btnIosModeNative');
+    const btnPseudo = document.getElementById('btnIosModePseudo');
+    const checkNative = document.getElementById('checkIosModeNative');
+    const checkPseudo = document.getElementById('checkIosModePseudo');
+
+    if (btnNative && checkNative) {
+      const isNat = (currentMode === 'native');
+      btnNative.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isNat ? 'text-amber-400 font-bold' : 'text-white/80'}`;
+      checkNative.classList.toggle('hidden', !isNat);
+    }
+    if (btnPseudo && checkPseudo) {
+      const isPse = (currentMode === 'pseudo');
+      btnPseudo.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isPse ? 'text-amber-400 font-bold' : 'text-white/80'}`;
+      checkPseudo.classList.toggle('hidden', !isPse);
     }
   }
 

@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=45) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=46) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=45">
+  <link rel="stylesheet" href="css/strand.css?v=46">
 
   <!-- Hls.js, Shaka Player & mpegts.js for HLS, DASH ClearKey & udpxy MPEG-TS streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -210,6 +210,21 @@
                           <div class="px-2 py-1 text-[11px] font-semibold text-white/50 uppercase">Độ phân giải</div>
                           <div id="ytQualityOptions" class="space-y-0.5">
                             <div class="px-2.5 py-1 text-white/50 text-[11px]">Đang tải...</div>
+                          </div>
+                        </div>
+
+                        <!-- iOS Fullscreen Mode (Chỉ hiện trên iPhone / iPad) -->
+                        <div id="ytIosFsSection" class="border-t border-white/10 py-1.5 hidden">
+                          <div class="px-2 py-1 text-[11px] font-semibold text-white/50 uppercase">Toàn màn hình iOS</div>
+                          <div class="space-y-0.5">
+                            <button id="btnIosModeNative" onclick="window.player.setIOSFsMode('native')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-amber-400 font-bold">
+                              <span>Toàn màn hình (Ẩn đồng hồ)</span>
+                              <span id="checkIosModeNative">✓</span>
+                            </button>
+                            <button id="btnIosModePseudo" onclick="window.player.setIOSFsMode('pseudo')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-white/80">
+                              <span>Xoay trong web (Hiện controls)</span>
+                              <span id="checkIosModePseudo" class="hidden">✓</span>
+                            </button>
                           </div>
                         </div>
 
@@ -695,13 +710,13 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=45) -->
-  <script src="js/player.js?v=45"></script>
-  <script src="js/channels.js?v=45"></script>
-  <script src="js/timeline.js?v=45"></script>
-  <script src="js/sports.js?v=45"></script>
-  <script src="js/multistream.js?v=45"></script>
-  <script src="js/app.js?v=45"></script>
+  <!-- Application Logic Modules (Cache busted ?v=46) -->
+  <script src="js/player.js?v=46"></script>
+  <script src="js/channels.js?v=46"></script>
+  <script src="js/timeline.js?v=46"></script>
+  <script src="js/sports.js?v=46"></script>
+  <script src="js/multistream.js?v=46"></script>
+  <script src="js/app.js?v=46"></script>
 </body>
 
 </html>
