@@ -1,6 +1,223 @@
 {
-  "updated_at": "2026-11-23 02:44:54",
+  "updated_at": "2026-11-23 03:00:22",
   "live_events": [
+    {
+      "key": "23/11_03:00_atleticomadrid_getafe",
+      "match_key": "23/11_03:00_atleticomadrid_getafe",
+      "c_home": "getafe",
+      "c_away": "atleticomadrid",
+      "homeTeam": "Getafe",
+      "awayTeam": "Atletico Madrid",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "03:00",
+      "date": "23/11",
+      "timestamp": 1795377600000,
+      "league": "LALIGA",
+      "leagueName": "La Liga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 23/11] Getafe Vs Atletico Madrid (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
+          "competition": "Spanish La Liga",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (M+ LALIGA) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/1c72b30e-5a0c-4af9-a979-5997f6e73876/index.m3u8?exp=1795399151806&sig=bJFxCF29xAs56IaN62iddn",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 HD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795399151806&sig=6e1ZGG7V-jRUppWHH9cmDZ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BEIN ARABIC 1) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795399151806&sig=-FRjP77TwMQVUKyF-YpeJg",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc25sNGxzY2F5ei9vdXQvdjEvZTE4MTk0Y2NkMzg5NGMwZjg4NDY4Nzc0ZGI2MDgzMGEvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (PREMIER SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbTZzcWFudm0ybS9vdXQvdjEvZjZiZWI0NmM2ZTlhNDEzMmFkNzM5ZjNjYTI3ZGY2YWEvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (beIN ENGLISH FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcTR1NW53YW9nei9vdXQvdjEvMThkZTZkM2U2NTkzNGYzYThkZTQzNThlNjllYWI4NmMvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (FANCODE FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYXZxbHl3bnV6eC9vdXQvdjEvYWVmY2E2NDIwZjk0NGE5NDgyZTExN2YzMTVkZTUzNWYvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (CazéTV FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvM3lucnBkYW5xMi9vdXQvdjEvODFmZDRjMjY1ODQwNDRkMmIxYTFjYzViMzJmYTlhZjAvY2VuYy5tcGQ_",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (FANCODE SD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvZWF5amFtc29ubi9vdXQvdjEvNmMyNWNkZGFiNTgwNDNhNmFjZTBhYzY0ZDk3OTgzZjAvY2VuYy1zZC5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 AQ) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvY2pnbHlkeGdoZS9vdXQvdjEvODk3N2JhZjE3NWRhNGI5NDg3MzE5NDYxM2RkM2ZlNTUvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=da203dcedbd83d1075f7bbd4e9618c9a&txTime=6b039ded",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795381149-0-0-f7257ab0d3b0f8419278af8764f09e78",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795381149-0-0-53adfea913e472be8e21fd2ef660148b",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795381149-0-0-8c61b7baed8255e99e8c8b1af0ec2a6b",
+          "logo": "https://sta.vnres.co/file/common/20261123/133b8619a2fde55d8b68e3ac6e959090.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=b23cb99bfca6b17a6b8831e0a00b4050&txTime=6b039ded",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795381149-0-0-d17c2aacb1619ecdd40ccbcd0adc8d93",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV NGƯỜI CAT) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/getafe-atm-laliga/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/a22df57c-8a21-400c-b23b-3b52717a71d5",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        }
+      ],
+      "displayTitle": "🔴 [03:00 23/11] Getafe vs Atletico Madrid",
+      "number": 1
+    },
+    {
+      "key": "23/11_03:00_atlmadrid_getafe",
+      "match_key": "23/11_03:00_atlmadrid_getafe",
+      "c_home": "getafe",
+      "c_away": "atlmadrid",
+      "homeTeam": "Getafe",
+      "awayTeam": "Atl. Madrid",
+      "homeLogo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+      "time": "03:00",
+      "date": "23/11",
+      "timestamp": 1795377600000,
+      "league": "LALIGA",
+      "leagueName": "La Liga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atl. Madrid (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+          "competition": "La Liga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "23/11_03:00_atlmadrid_getafe"
+        }
+      ],
+      "displayTitle": "🔴 [03:00 23/11] Getafe vs Atl. Madrid",
+      "number": 2
+    },
     {
       "key": "23/11_02:45_atalanta_intermilan",
       "match_key": "23/11_02:45_atalanta_intermilan",
@@ -41,7 +258,34 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795398224604&sig=ExCksj_pKa8WCJA8gkRNAu",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795399151557&sig=Pjw26-32RNn8x2Fjny1MUr",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcnYxOGVoZWF1Zy9vdXQvdjEvZWE1ZTJkMDhhMzVmNGQ2YzlhNDNmZDFkNjgzNzBkZWMvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (PARAMOUNT+ FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNzhteGZnZ3h0My9vdXQvdjEvMWYxNzAyZDM4YWVhNDM0NDgzNTcyNzI3ZjNlZWExMWQvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (PEACOCK ES FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMveXd6NDFxZGRyYy9vdXQvdjEvNjJjYmJjZWNjMTRlNGZmNTk0NmNlN2U5MWZjZTY0M2IvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -76,8 +320,17 @@
           "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
+          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LUCAS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795381149-0-0-b19a0546d8b1d4e3ea714296650a36e1",
+          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795380189-0-0-42d894a2014dfcfaaa1363131a9e46f5",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795381149-0-0-f432f040e83f6b4148e1acc52a8a1c56",
           "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -86,7 +339,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795380189-0-0-4e5e4a249609a634b40be6309980d7f4",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795381149-0-0-fe8ad55b2e4cb57c6e1a2daa18a487da",
           "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -95,7 +348,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795380189-0-0-a6a6becd3bece7fdd5f1980d35a083f0",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795381149-0-0-a79773a6d76d136ae673f0a2f1e9b598",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -104,7 +357,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=f88e10cd013b7c7b7b785bf2288cbca4&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=ec1bd85970c9f85eabed9cb4fea61519&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20261123/d8b72cf8ad86003269ad2cde6b61d2be.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -112,17 +365,8 @@
           "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
-          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795380189-0-0-f80cacd03d26bdcfaaec0076cb66a15b",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_02:45_atalanta_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795380189-0-0-70f71340728a81e35383c38e1e6fab78",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795381149-0-0-cc22196e2478c295529164566250167f",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -158,7 +402,7 @@
         }
       ],
       "displayTitle": "🔴 [02:45 23/11] Atalanta vs Inter Milan",
-      "number": 1
+      "number": 3
     },
     {
       "key": "23/11_02:45_lemans_marseille",
@@ -200,7 +444,16 @@
         },
         {
           "name": "⚽ [02:45 23/11] Marseille vs Le Mans (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795398225023&sig=SMZdtJZONvcbvty7OgKabb",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795399151169&sig=DOXhmgitON83lCecuXrEVw",
+          "logo": "https://tflix.su/logos/football-v14/team-176.png",
+          "competition": "Ligue 1",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvaG94cXlrajR1di9vdXQvdjEvYTAyNmY3OTA0NDIxNDM2NzkyYjlhYjQ4NTdjZDNjOGMvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-v14/team-176.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -227,7 +480,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795380189-0-0-523fe9a59f6fef5bc4c7377c0dbaffe4",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795381149-0-0-7599477d7d8a0e81a21fd4c7da298956",
           "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -235,26 +488,8 @@
           "match_key": "23/11_02:45_lemans_marseille"
         },
         {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795380189-0-0-a9f2fb5023de2ac7b1f76f6c18867889",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "FRA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795380189-0-0-4bf7768a77ebf2bcb12be8f13bf98cf6",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "FRA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795380189-0-0-48cfdb0fd2c7de9c1b31a323c5e0a69d",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795381149-0-0-4b2dee9b134b675a1a9821595a7fa5de",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -263,7 +498,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=a79917e8373270e0164ae24e65e194ce&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=f8b62ab2908294501d0ce1cbfd1c79fd&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -271,9 +506,27 @@
           "match_key": "23/11_02:45_lemans_marseille"
         },
         {
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795381149-0-0-e65311d6d87f26badfde38b19efcb8da",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "FRA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795381149-0-0-c7ca25a52de7063d3b02a40caec322c7",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "FRA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795380189-0-0-d2e3262458e72a4f8650dbeb66fae096",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795381149-0-0-d075639ddc5fb516f7083a5a566ecc27",
+          "logo": "https://sta.vnres.co/file/common/20261123/83cb2ba79a2f86b4908ced6c31db5701.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -290,7 +543,7 @@
         }
       ],
       "displayTitle": "🔴 [02:45 23/11] Marseille vs Le Mans",
-      "number": 2
+      "number": 4
     },
     {
       "key": "23/11_01:00_arizonacardinals_kansascitychiefs",
@@ -312,7 +565,7 @@
       "sources": [
         {
           "name": "🏈 [01:00 23/11] Kansas City Chiefs vs Arizona Cardinals (Sky Sports Action/NFL) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c91ee74d25c88f990e9bb8d67fa245aa/index.m3u8?exp=1795398224586&sig=A_zxLWUcgfUNa33_eGka9J",
+          "url": "https://film4k.pl/api/tflix-live/c91ee74d25c88f990e9bb8d67fa245aa/index.m3u8?exp=1795399142547&sig=siXmCzfW5W73297vXutIMY",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_kansas_city_chiefs.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -321,7 +574,7 @@
         }
       ],
       "displayTitle": "🏈 [01:00 23/11] Kansas City Chiefs vs Arizona Cardinals",
-      "number": 3
+      "number": 5
     },
     {
       "key": "23/11_01:00_chicagobears_neworleanssaints",
@@ -343,7 +596,7 @@
       "sources": [
         {
           "name": "🏈 [01:00 23/11] Chicago Bears vs New Orleans Saints (TSN 3 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/26a319653d316ebef6d834b8a85adf0b/index.m3u8?exp=1795398224582&sig=XvQnEgzJAFgV47JEJrC197",
+          "url": "https://film4k.pl/api/tflix-live/26a319653d316ebef6d834b8a85adf0b/index.m3u8?exp=1795399151164&sig=-LFpUNQ7pvuXn5D_9rWQCk",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_chicago_bears.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -352,7 +605,7 @@
         },
         {
           "name": "🏈 [01:00 23/11] Chicago Bears vs New Orleans Saints (TSN 1 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/327eab1fc805942a16fda392263725a1/index.m3u8?exp=1795398224582&sig=gx-jnxmAdxDJxmP2RttQ83",
+          "url": "https://film4k.pl/api/tflix-live/327eab1fc805942a16fda392263725a1/index.m3u8?exp=1795399151164&sig=vIAyEPsqiLwEc9LDNNVMVa",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_chicago_bears.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -379,7 +632,7 @@
         }
       ],
       "displayTitle": "🏈 [01:00 23/11] Chicago Bears vs New Orleans Saints",
-      "number": 4
+      "number": 6
     },
     {
       "key": "23/11_01:15_lillestrom_sarpsborg08",
@@ -410,7 +663,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Sarpsborg 08 vs Lillestrom (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=4fb8b166d9cd370d508dce4a0f82af63&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=745d113e922c8ef4d0a76bbeee5a540a&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
           "competition": "NOR D1",
           "group": "🐿️ SocoLive",
@@ -419,7 +672,7 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Sarpsborg 08 vs Lillestrom (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=f1e331117cd6043bdf47c6c9573d6f02&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=8ef32352928eb89a70c5edfa16a09ad5&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "NOR D1",
           "group": "🐿️ SocoLive",
@@ -437,7 +690,7 @@
         }
       ],
       "displayTitle": "🔴 [01:15 23/11] Sarpsborg 08 vs Lillestrom",
-      "number": 5
+      "number": 7
     },
     {
       "key": "23/11_02:00_athleticoparanaensepr_remopa",
@@ -477,206 +730,38 @@
         }
       ],
       "displayTitle": "🔴 [02:00 23/11] Paranaense vs Remo",
-      "number": 6
+      "number": 8
     },
     {
-      "key": "23/11_03:00_atleticomadrid_getafe",
-      "match_key": "23/11_03:00_atleticomadrid_getafe",
-      "c_home": "getafe",
-      "c_away": "atleticomadrid",
-      "homeTeam": "Getafe",
-      "awayTeam": "Atletico Madrid",
+      "key": "23/11_03:30_atlantahawks_detroitpistons",
+      "match_key": "23/11_03:30_atlantahawks_detroitpistons",
+      "c_home": "atlantahawks",
+      "c_away": "detroitpistons",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Detroit Pistons",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "03:00",
+      "time": "03:30",
       "date": "23/11",
-      "timestamp": 1795377600000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "timestamp": 1795379400000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
       "isOngoing": false,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [03:00 23/11] Getafe Vs Atletico Madrid (BLV Gà Siêu Tồ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
-          "competition": "Spanish La Liga",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (M+ LALIGA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/1c72b30e-5a0c-4af9-a979-5997f6e73876/index.m3u8?exp=1795398225068&sig=e4vHDP1LAO41Ip9ZB55KDV",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795398225068&sig=_FpxFSEM_YgtBI-jgY4Umk",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795398225068&sig=MvepWQQkU00jDY_KsaB_xu",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (PREMIER SPORTS FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbTZzcWFudm0ybS9vdXQvdjEvZjZiZWI0NmM2ZTlhNDEzMmFkNzM5ZjNjYTI3ZGY2YWEvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (beIN ENGLISH FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcTR1NW53YW9nei9vdXQvdjEvMThkZTZkM2U2NTkzNGYzYThkZTQzNThlNjllYWI4NmMvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (FANCODE FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYjNiM2ZrbXJibC9vdXQvdjEvMTA4NGQ1YzlhOTdhNGM1YjlmOTU1NGM4OGY0ODY2NDYvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (CazéTV FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvM3lucnBkYW5xMi9vdXQvdjEvODFmZDRjMjY1ODQwNDRkMmIxYTFjYzViMzJmYTlhZjAvY2VuYy5tcGQ_",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 AQ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvY2pnbHlkeGdoZS9vdXQvdjEvODk3N2JhZjE3NWRhNGI5NDg3MzE5NDYxM2RkM2ZlNTUvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795380189-0-0-6604dfcf9353e8be70b2d9d98a8f2ea8",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 23/11] Atlanta Hawks vs Detroit Pistons (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795381149-0-0-22587071233853e6f783c648f0b46375",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=f35dfea11755ff70e43e79139ead1a8d&txTime=6b039a2d",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=20561bf3535789b8d95076f00bfa977f&txTime=6b039a2d",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795380189-0-0-eb52c4569c57cf0cb59c0c605518e9e6",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795380189-0-0-6c12590c58b89b2bd3c26e3260843022",
-          "logo": "https://sta.vnres.co/file/common/20261123/133b8619a2fde55d8b68e3ac6e959090.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795380189-0-0-b66e7b03ed24bba44bc0680f6d15e79e",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV NGƯỜI CAT) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/getafe-atm-laliga/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/a22df57c-8a21-400c-b23b-3b52717a71d5",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
+          "match_key": "23/11_03:30_atlantahawks_detroitpistons"
         }
       ],
-      "displayTitle": "⚽ [03:00 23/11] Getafe vs Atletico Madrid",
-      "number": 7
-    },
-    {
-      "key": "23/11_03:00_atlmadrid_getafe",
-      "match_key": "23/11_03:00_atlmadrid_getafe",
-      "c_home": "getafe",
-      "c_away": "atlmadrid",
-      "homeTeam": "Getafe",
-      "awayTeam": "Atl. Madrid",
-      "homeLogo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-      "time": "03:00",
-      "date": "23/11",
-      "timestamp": 1795377600000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 23/11] Getafe vs Atl. Madrid (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-          "competition": "La Liga",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "23/11_03:00_atlmadrid_getafe"
-        }
-      ],
-      "displayTitle": "⚽ [03:00 23/11] Getafe vs Atl. Madrid",
-      "number": 8
+      "displayTitle": "🏀 [03:30 23/11] Atlanta Hawks vs Detroit Pistons",
+      "number": 9
     },
     {
       "key": "23/11_07:00_orlandomagic_washingtonwizards",
@@ -716,7 +801,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 23/11] Washington Wizards vs Orlando Magic",
-      "number": 9
+      "number": 10
     },
     {
       "key": "23/11_07:00_chicagobulls_denvernuggets",
@@ -756,7 +841,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 23/11] Chicago Bulls vs Denver Nuggets",
-      "number": 10
+      "number": 11
     },
     {
       "key": "23/11_18:00_chornomoretsodesa_epitsentrdunayivtsi",
@@ -787,7 +872,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Chornomorets Odesa vs Epitsentr Dunayivtsi",
-      "number": 11
+      "number": 12
     },
     {
       "key": "23/11_18:00_lnzcherkasy_polissyazhytomyr",
@@ -818,7 +903,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 23/11] Lnz Cherkasy vs Polissya Zhytomyr",
-      "number": 12
+      "number": 13
     },
     {
       "key": "23/11_20:45_alhilal_neftchifergana",
@@ -849,7 +934,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fergana vs Al Hilal",
-      "number": 13
+      "number": 14
     },
     {
       "key": "23/11_20:45_alhilal_neftchifargona",
@@ -882,7 +967,7 @@
         }
       ],
       "displayTitle": "⚽ [20:45 23/11] Neftchi Fargona vs Al Hilal",
-      "number": 14
+      "number": 15
     },
     {
       "key": "23/11_23:00_alain_esteghlaltehran",
@@ -913,7 +998,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal Tehran",
-      "number": 15
+      "number": 16
     },
     {
       "key": "23/11_23:00_alwasl_tractor",
@@ -955,7 +1040,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Tractor vs Al Wasl",
-      "number": 16
+      "number": 17
     },
     {
       "key": "23/11_23:00_alahli_alshamalsportsclub",
@@ -997,7 +1082,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Shamal vs Al Ahli",
-      "number": 17
+      "number": 18
     },
     {
       "key": "23/11_23:00_alain_esteghlalfc",
@@ -1030,7 +1115,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 23/11] Al Ain vs Esteghlal F.c",
-      "number": 18
+      "number": 19
     },
     {
       "key": "24/11_01:00_hammarby_ifkgoteborg",
@@ -1061,7 +1146,7 @@
         }
       ],
       "displayTitle": "🥊 [01:00 24/11] Hammarby vs Ifk Goteborg",
-      "number": 19
+      "number": 20
     },
     {
       "key": "24/11_01:15_algharafasportsclub_alquwaaljawiya",
@@ -1103,7 +1188,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Quwa Al Jawiya vs Al-gharafa",
-      "number": 20
+      "number": 21
     },
     {
       "key": "24/11_01:15_alittihad_pakhtakor",
@@ -1145,7 +1230,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 24/11] Al Ittihad vs Pakhtakor",
-      "number": 21
+      "number": 22
     },
     {
       "key": "24/11_02:45_fiorentina_monza",
@@ -1187,7 +1272,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 24/11] Monza vs Fiorentina",
-      "number": 22
+      "number": 23
     },
     {
       "key": "24/11_03:00_brentford_everton",
@@ -1229,7 +1314,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 24/11] Brentford vs Everton",
-      "number": 23
+      "number": 24
     },
     {
       "key": "24/11_03:00_elche_levante",
@@ -1260,7 +1345,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 24/11] Levante vs Elche",
-      "number": 24
+      "number": 25
     },
     {
       "key": "24/11_09:00_cscartagines_ldalajuelense",
@@ -1291,7 +1376,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 24/11] Ld Alajuelense vs Cs Cartagines",
-      "number": 25
+      "number": 26
     },
     {
       "key": "24/11_14:45_kashiwareysol_newcastle",
@@ -1322,7 +1407,7 @@
         }
       ],
       "displayTitle": "⚽ [14:45 24/11] Newcastle United vs Kashiwa Reysol",
-      "number": 26
+      "number": 27
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeonhanacitizen",
@@ -1364,7 +1449,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan",
-      "number": 27
+      "number": 28
     },
     {
       "key": "24/11_17:00_kyotosanga_pohangsteelers",
@@ -1395,7 +1480,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Kyoto Sanga vs Pohang Steelers",
-      "number": 28
+      "number": 29
     },
     {
       "key": "24/11_19:15_buriramunited_shanghaiport",
@@ -1426,7 +1511,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Shanghai Port vs Buriram United",
-      "number": 29
+      "number": 30
     },
     {
       "key": "24/11_19:15_cahn_visselkobe",
@@ -1457,7 +1542,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] CAHN vs Vissel Kobe",
-      "number": 30
+      "number": 31
     },
     {
       "key": "24/11_19:15_johordarultazim_ratchaburi",
@@ -1488,7 +1573,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Ratchaburi vs Johor Darul Tazim",
-      "number": 31
+      "number": 32
     },
     {
       "key": "24/11_21:30_alriffa_alzawraa",
@@ -1519,7 +1604,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 24/11] Al Riffa vs Al Zawraa Sc",
-      "number": 32
+      "number": 33
     },
     {
       "key": "24/11_22:00_bankelahly_smouha",
@@ -1550,7 +1635,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 24/11] Smouha Sc vs Bank El Ahly",
-      "number": 33
+      "number": 34
     },
     {
       "key": "24/11_23:00_alahli_alqadsiah",
@@ -1559,8 +1644,8 @@
       "c_away": "alqadsiah",
       "homeTeam": "Al Ahli",
       "awayTeam": "Al Qadsiah",
-      "homeLogo": "",
-      "awayLogo": "",
+      "homeLogo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
       "time": "23:00",
       "date": "24/11",
       "timestamp": 1795536000000,
@@ -1578,10 +1663,21 @@
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
           "match_key": "24/11_23:00_alahli_alqadsiah"
+        },
+        {
+          "name": "⚽ [23:00 24/11] Shabab Al-Ahli Dubai vs Al Qadsiah (BLV Tam Mao) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+          "competition": "AFC Champions League Elite",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "24/11_23:00_alahli_alqadsiah"
         }
       ],
       "displayTitle": "⚽ [23:00 24/11] Al Ahli vs Al Qadsiah",
-      "number": 34
+      "number": 35
     },
     {
       "key": "25/11_00:00_ajman_alettifaq",
@@ -1614,7 +1710,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 25/11] Ajman vs Al Ettifaq",
-      "number": 35
+      "number": 36
     },
     {
       "key": "25/11_00:45_astonvilla_galatasaray",
@@ -1647,7 +1743,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 36
+      "number": 37
     },
     {
       "key": "25/11_03:00_arsenalu19_youth_dortmund_youth",
@@ -1678,7 +1774,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Arsenal U19 vs Borussia Dortmund U19",
-      "number": 37
+      "number": 38
     },
     {
       "key": "25/11_03:00_psv_youth_realmadrid_youth",
@@ -1709,7 +1805,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid U19 vs PSV Eindhoven U19",
-      "number": 38
+      "number": 39
     }
   ],
   "source_groups": [
@@ -1723,6 +1819,14 @@
           "competition": "Italian Serie A",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe Vs Atletico Madrid (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
+          "competition": "Spanish La Liga",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
         },
         {
           "name": "⚽ [02:45 23/11] Marseille Vs Le Mans (BLV Gà Ô Long) - Gà Vàng",
@@ -1747,14 +1851,6 @@
           "competition": "Brazilian Serie A",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "23/11_02:00_athleticoparanaensepr_remopa"
-        },
-        {
-          "name": "⚽ [03:00 23/11] Getafe Vs Atletico Madrid (BLV Gà Siêu Tồ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
-          "competition": "Spanish La Liga",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
         },
         {
           "name": "⚽ [06:07 23/11] Club Deportivo Guadalajara Vs Cruz Azul (BLV Gà Siêu Son) - Gà Vàng",
@@ -2400,6 +2496,16 @@
           "match_key": "24/11_03:00_brentford_everton"
         },
         {
+          "name": "⚽ [08:00 24/11] St. Louis City vs Los Angeles FC (BLV Tam Mao) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/30449_st.-louis-city.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/30449_st.-louis-city.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/7964_los-angeles.jpg",
+          "competition": "MLS",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "24/11_08:00_losangeles_stlouiscity"
+        },
+        {
           "name": "⚽ [17:00 24/11] Daejeon vs Beijing Guoan (BLV Xôi Gấc) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/5160_daejeon-hana-citizen.jpg",
@@ -2408,6 +2514,16 @@
           "competition": "AFC Champions League Elite",
           "group": "🍵 Xôi Chè TV",
           "match_key": "24/11_17:00_beijingguoan_daejeonhanacitizen"
+        },
+        {
+          "name": "⚽ [23:00 24/11] Shabab Al-Ahli Dubai vs Al Qadsiah (BLV Tam Mao) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/364_shabab-al-ahli.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+          "competition": "AFC Champions League Elite",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "24/11_23:00_alahli_alqadsiah"
         }
       ]
     },
@@ -2416,7 +2532,7 @@
       "channels": [
         {
           "name": "🏈 [01:00 23/11] Kansas City Chiefs vs Arizona Cardinals (Sky Sports Action/NFL) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c91ee74d25c88f990e9bb8d67fa245aa/index.m3u8?exp=1795398224586&sig=A_zxLWUcgfUNa33_eGka9J",
+          "url": "https://film4k.pl/api/tflix-live/c91ee74d25c88f990e9bb8d67fa245aa/index.m3u8?exp=1795399142547&sig=siXmCzfW5W73297vXutIMY",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_kansas_city_chiefs.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -2424,7 +2540,7 @@
         },
         {
           "name": "🏈 [01:00 23/11] Chicago Bears vs New Orleans Saints (TSN 3 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/26a319653d316ebef6d834b8a85adf0b/index.m3u8?exp=1795398224582&sig=XvQnEgzJAFgV47JEJrC197",
+          "url": "https://film4k.pl/api/tflix-live/26a319653d316ebef6d834b8a85adf0b/index.m3u8?exp=1795399151164&sig=-LFpUNQ7pvuXn5D_9rWQCk",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_chicago_bears.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -2432,7 +2548,7 @@
         },
         {
           "name": "🏈 [01:00 23/11] Chicago Bears vs New Orleans Saints (TSN 1 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/327eab1fc805942a16fda392263725a1/index.m3u8?exp=1795398224582&sig=gx-jnxmAdxDJxmP2RttQ83",
+          "url": "https://film4k.pl/api/tflix-live/327eab1fc805942a16fda392263725a1/index.m3u8?exp=1795399151164&sig=vIAyEPsqiLwEc9LDNNVMVa",
           "logo": "https://tflix.su/logos/med/teams/us_nfl_chicago_bears.png",
           "competition": "NFL",
           "group": "F4K Sport",
@@ -2456,10 +2572,42 @@
         },
         {
           "name": "🎾 [02:30 23/11] Grand Slam of Darts: Day 9 Evening (Sky Sport 3 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/48e372f838edcc514d3385387bf61c12/index.m3u8?exp=1795398224996&sig=ev_Sj2vZra28y9r2vUaZgB",
+          "url": "https://film4k.pl/api/tflix-live/48e372f838edcc514d3385387bf61c12/index.m3u8?exp=1795399151133&sig=lXO7k1Q8QlW9gTOExFt4R_",
           "logo": "https://film4k.pl/icon.png",
           "competition": "ANZ Premier League Darts",
           "group": "F4K Sport"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (BEIN ARABIC 2) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795399151169&sig=DOXhmgitON83lCecuXrEVw",
+          "logo": "https://tflix.su/logos/football-v14/team-176.png",
+          "competition": "Ligue 1",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvaG94cXlrajR1di9vdXQvdjEvYTAyNmY3OTA0NDIxNDM2NzkyYjlhYjQ4NTdjZDNjOGMvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-176.png",
+          "competition": "Ligue 1",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (beIN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMva2F0ZG5oa3pxdi9vdXQvdjEvMjQ2OTcyNGZhNzc1NGE0ZGE2ODYxZDhiYTgwZGU5NTgvY2VuYy5tcGQ_",
+          "logo": "https://tflix.su/logos/football-v14/team-176.png",
+          "competition": "Ligue 1",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (beIN Español FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZTNvend3MnlueS9vdXQvdjEvM2ExNmQwN2MyY2MwNDQ0YmI4ZWExMGQwNDgzZDFjZWQvY2VuYy5tcGQ_",
+          "logo": "https://tflix.su/logos/football-v14/team-176.png",
+          "competition": "Ligue 1",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_lemans_marseille"
         },
         {
           "name": "⚽ [02:00 23/11] Paranaense vs Remo (PREMIERE BR FHD) - F4K Sport",
@@ -2471,7 +2619,31 @@
         },
         {
           "name": "⚽ [02:45 23/11] Atalanta vs Inter (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795398224604&sig=ExCksj_pKa8WCJA8gkRNAu",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795399151557&sig=Pjw26-32RNn8x2Fjny1MUr",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcnYxOGVoZWF1Zy9vdXQvdjEvZWE1ZTJkMDhhMzVmNGQ2YzlhNDNmZDFkNjgzNzBkZWMvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (PARAMOUNT+ FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNzhteGZnZ3h0My9vdXQvdjEvMWYxNzAyZDM4YWVhNDM0NDgzNTcyNzI3ZjNlZWExMWQvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [02:45 23/11] Atalanta vs Inter (PEACOCK ES FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMveXd6NDFxZGRyYy9vdXQvdjEvNjJjYmJjZWNjMTRlNGZmNTk0NmNlN2U5MWZjZTY0M2IvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-105.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -2502,32 +2674,8 @@
           "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
-          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795398225023&sig=SMZdtJZONvcbvty7OgKabb",
-          "logo": "https://tflix.su/logos/football-v14/team-176.png",
-          "competition": "Ligue 1",
-          "group": "F4K Sport",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
-          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (beIN SPORTS FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMva2F0ZG5oa3pxdi9vdXQvdjEvMjQ2OTcyNGZhNzc1NGE0ZGE2ODYxZDhiYTgwZGU5NTgvY2VuYy5tcGQ_",
-          "logo": "https://tflix.su/logos/football-v14/team-176.png",
-          "competition": "Ligue 1",
-          "group": "F4K Sport",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
-          "name": "⚽ [02:45 23/11] Marseille vs Le Mans (beIN Español FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L3BkeC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZTNvend3MnlueS9vdXQvdjEvM2ExNmQwN2MyY2MwNDQ0YmI4ZWExMGQwNDgzZDFjZWQvY2VuYy5tcGQ_",
-          "logo": "https://tflix.su/logos/football-v14/team-176.png",
-          "competition": "Ligue 1",
-          "group": "F4K Sport",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (M+ LALIGA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/1c72b30e-5a0c-4af9-a979-5997f6e73876/index.m3u8?exp=1795398225068&sig=e4vHDP1LAO41Ip9ZB55KDV",
+          "url": "https://film4k.pl/api/tflix-live/1c72b30e-5a0c-4af9-a979-5997f6e73876/index.m3u8?exp=1795399151806&sig=bJFxCF29xAs56IaN62iddn",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2535,7 +2683,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (TSN 2 HD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795398225068&sig=_FpxFSEM_YgtBI-jgY4Umk",
+          "url": "https://film4k.pl/api/tflix-live/698230dd50512a3e63fd407ea32c4b9f/index.m3u8?exp=1795399151806&sig=6e1ZGG7V-jRUppWHH9cmDZ",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2543,7 +2691,15 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795398225068&sig=MvepWQQkU00jDY_KsaB_xu",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795399151806&sig=-FRjP77TwMQVUKyF-YpeJg",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc25sNGxzY2F5ei9vdXQvdjEvZTE4MTk0Y2NkMzg5NGMwZjg4NDY4Nzc0ZGI2MDgzMGEvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2567,7 +2723,7 @@
         },
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (FANCODE FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYjNiM2ZrbXJibC9vdXQvdjEvMTA4NGQ1YzlhOTdhNGM1YjlmOTU1NGM4OGY0ODY2NDYvY2VuYy5tcGQ",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvYXZxbHl3bnV6eC9vdXQvdjEvYWVmY2E2NDIwZjk0NGE5NDgyZTExN2YzMTVkZTUzNWYvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2576,6 +2732,14 @@
         {
           "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (CazéTV FHD) - F4K Sport",
           "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvM3lucnBkYW5xMi9vdXQvdjEvODFmZDRjMjY1ODQwNDRkMmIxYTFjYzViMzJmYTlhZjAvY2VuYy5tcGQ_",
+          "logo": "https://tflix.su/logos/football-v14/team-2922.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (FANCODE SD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvZWF5amFtc29ubi9vdXQvdjEvNmMyNWNkZGFiNTgwNDNhNmFjZTBhYzY0ZDk3OTgzZjAvY2VuYy1zZC5tcGQ",
           "logo": "https://tflix.su/logos/football-v14/team-2922.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -2591,7 +2755,7 @@
         },
         {
           "name": "⚽ [04:00 23/11] Nashville SC vs Cincinnati (FOX SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795398225398&sig=Qj26yowZOc2xl6C1sUx9Tm",
+          "url": "https://film4k.pl/api/tflix-live/9ef31b3b4b4aace3d69e17c0cb2b346c/index.m3u8?exp=1795399153340&sig=r8A1YA6L-Gn_o8UeadlzkO",
           "logo": "https://tflix.su/logos/med/teams/45631.png",
           "competition": "United States : MLS",
           "group": "F4K Sport",
@@ -2783,104 +2947,112 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795380189-0-0-42d894a2014dfcfaaa1363131a9e46f5",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_atalanta_intermilan"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795380189-0-0-4e5e4a249609a634b40be6309980d7f4",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_atalanta_intermilan"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795380189-0-0-6604dfcf9353e8be70b2d9d98a8f2ea8",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
           "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=f35dfea11755ff70e43e79139ead1a8d&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=da203dcedbd83d1075f7bbd4e9618c9a&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_03:00_atleticomadrid_getafe"
         },
         {
-          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=20561bf3535789b8d95076f00bfa977f&txTime=6b039a2d",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795380189-0-0-a6a6becd3bece7fdd5f1980d35a083f0",
-          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_atalanta_intermilan"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795380189-0-0-eb52c4569c57cf0cb59c0c605518e9e6",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=f88e10cd013b7c7b7b785bf2288cbca4&txTime=6b039a2d",
-          "logo": "https://sta.vnres.co/file/common/20261123/d8b72cf8ad86003269ad2cde6b61d2be.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_atalanta_intermilan"
-        },
-        {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795380189-0-0-f80cacd03d26bdcfaaec0076cb66a15b",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795381149-0-0-b19a0546d8b1d4e3ea714296650a36e1",
           "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
-          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795380189-0-0-6c12590c58b89b2bd3c26e3260843022",
-          "logo": "https://sta.vnres.co/file/common/20261123/133b8619a2fde55d8b68e3ac6e959090.jpg",
-          "competition": "SPA D1",
+          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795381149-0-0-f432f040e83f6b4148e1acc52a8a1c56",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ITA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "23/11_03:00_atleticomadrid_getafe"
+          "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
           "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795380189-0-0-b66e7b03ed24bba44bc0680f6d15e79e",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795381149-0-0-f7257ab0d3b0f8419278af8764f09e78",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_03:00_atleticomadrid_getafe"
         },
         {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795381149-0-0-53adfea913e472be8e21fd2ef660148b",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795381149-0-0-fe8ad55b2e4cb57c6e1a2daa18a487da",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV LOKA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795381149-0-0-a79773a6d76d136ae673f0a2f1e9b598",
+          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795381149-0-0-8c61b7baed8255e99e8c8b1af0ec2a6b",
+          "logo": "https://sta.vnres.co/file/common/20261123/133b8619a2fde55d8b68e3ac6e959090.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [03:00 23/11] Getafe vs Atletico Madrid (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=b23cb99bfca6b17a6b8831e0a00b4050&txTime=6b039ded",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV CURRY) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=ec1bd85970c9f85eabed9cb4fea61519&txTime=6b039ded",
+          "logo": "https://sta.vnres.co/file/common/20261123/d8b72cf8ad86003269ad2cde6b61d2be.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_atalanta_intermilan"
+        },
+        {
           "name": "⚽ [LIVE 23/11] Atalanta vs Inter Milan (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795380189-0-0-70f71340728a81e35383c38e1e6fab78",
+          "url": "https://pull.niues.live/live/stream-9912127_lhd.m3u8?auth_key=1795381149-0-0-cc22196e2478c295529164566250167f",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_02:45_atalanta_intermilan"
         },
         {
+          "name": "⚽ [LIVE 23/11] Getafe vs Atletico Madrid (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795381149-0-0-d17c2aacb1619ecdd40ccbcd0adc8d93",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_03:00_atleticomadrid_getafe"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795381149-0-0-7599477d7d8a0e81a21fd4c7da298956",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "FRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
           "name": "⚽ [LIVE 23/11] Sarpsborg 08 vs Lillestrom (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=4fb8b166d9cd370d508dce4a0f82af63&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=745d113e922c8ef4d0a76bbeee5a540a&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
           "competition": "NOR D1",
           "group": "🐿️ SocoLive",
@@ -2888,47 +3060,15 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Sarpsborg 08 vs Lillestrom (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=f1e331117cd6043bdf47c6c9573d6f02&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=8ef32352928eb89a70c5edfa16a09ad5&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "NOR D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_01:15_lillestrom_sarpsborg08"
         },
         {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795380189-0-0-523fe9a59f6fef5bc4c7377c0dbaffe4",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "FRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Besiktas vs Fenerbahce (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795380189-0-0-2d7f1934a07a6b8f0894aa489380cc9a",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "Super Ligi",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_LIVE_besiktas_fenerbahce"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795380189-0-0-a9f2fb5023de2ac7b1f76f6c18867889",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "FRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795380189-0-0-4bf7768a77ebf2bcb12be8f13bf98cf6",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "FRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "23/11_02:45_lemans_marseille"
-        },
-        {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795380189-0-0-48cfdb0fd2c7de9c1b31a323c5e0a69d",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795381149-0-0-4b2dee9b134b675a1a9821595a7fa5de",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -2936,19 +3076,43 @@
         },
         {
           "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=a79917e8373270e0164ae24e65e194ce&txTime=6b039a2d",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=f8b62ab2908294501d0ce1cbfd1c79fd&txTime=6b039ded",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_02:45_lemans_marseille"
         },
         {
-          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795380189-0-0-d2e3262458e72a4f8650dbeb66fae096",
-          "logo": "https://sta.vnres.co/file/common/20261116/5f3d473bffc4be5224cac142df29346b.png",
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795381149-0-0-e65311d6d87f26badfde38b19efcb8da",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795381149-0-0-c7ca25a52de7063d3b02a40caec322c7",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "FRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Marseille vs Le Mans (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795381149-0-0-d075639ddc5fb516f7083a5a566ecc27",
+          "logo": "https://sta.vnres.co/file/common/20261123/83cb2ba79a2f86b4908ced6c31db5701.png",
+          "competition": "FRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_02:45_lemans_marseille"
+        },
+        {
+          "name": "⚽ [LIVE 23/11] Atlanta Hawks vs Detroit Pistons (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795381149-0-0-22587071233853e6f783c648f0b46375",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "23/11_03:30_atlantahawks_detroitpistons"
         }
       ]
     },
@@ -3285,9 +3449,9 @@
       "home_score": "0",
       "away_score": "0",
       "league": "SERIE_A",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "Scheduled",
+      "detail": "15'",
       "date": "2026-11-22T19:45Z"
     },
     {
@@ -3340,9 +3504,9 @@
       "home_score": "0",
       "away_score": "0",
       "league": "LIGUE1",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "Scheduled",
+      "detail": "14'",
       "date": "2026-11-22T19:45Z"
     },
     {
