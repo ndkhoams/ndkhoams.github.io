@@ -880,9 +880,31 @@ class StrandPlayer {
     const dName = document.getElementById('desktopChannelName');
     const dSub = document.getElementById('desktopChannelSub');
     const dBadge = document.getElementById('desktopChannelBadge');
-    if (dName) dName.textContent = displayName;
-    if (dSub && (info.subtitle || info.name)) dSub.textContent = info.subtitle || info.name;
-    if (dBadge && info.group) dBadge.textContent = info.group.toUpperCase();
+    const dIconWrap = document.getElementById('desktopChannelIconWrap');
+
+    if (dName) {
+      dName.textContent = displayName;
+      dName.title = displayName;
+    }
+    if (dSub && (info.subtitle || info.name)) {
+      dSub.textContent = info.subtitle || info.name;
+    }
+    if (dBadge) {
+      if (info.group) {
+        dBadge.textContent = info.group.toUpperCase();
+        dBadge.classList.remove('hidden');
+      } else {
+        dBadge.classList.add('hidden');
+      }
+    }
+    if (dIconWrap) {
+      const logoUrl = info.logo || info.logoUrl;
+      if (logoUrl) {
+        dIconWrap.innerHTML = `<img src="${logoUrl}" alt="${displayName}" class="w-full h-full object-contain p-1 rounded-xl" onerror="this.onerror=null; this.parentElement.innerHTML='<svg class=\\'w-5 h-5\\' fill=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path d=\\'M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z\\'/></svg>'">`;
+      } else {
+        dIconWrap.innerHTML = `<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>`;
+      }
+    }
     this.updateStreamTelemetry();
   }
 
