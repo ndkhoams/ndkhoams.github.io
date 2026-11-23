@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 05:41:20",
+  "updated_at": "2026-11-24 05:56:17",
   "live_events": [
     {
       "key": "24/11_05:30_internacional_vitoria",
@@ -42,6 +42,55 @@
       "number": 1
     },
     {
+      "key": "24/11_06:00_botafogorj_saopaulosp",
+      "match_key": "24/11_06:00_botafogorj_saopaulosp",
+      "c_home": "botafogorj",
+      "c_away": "saopaulosp",
+      "homeTeam": "Botafogo _ Rj",
+      "awayTeam": "Sao Paulo _ Sp 33 Tv",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "06:00",
+      "date": "24/11",
+      "timestamp": 1795474800000,
+      "league": "BRAZIL_SERIE_A",
+      "leagueName": "VĐQG Brazil (Série A)",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [06:00 24/11] Botafogo Rj Vs Sao Paulo Sp (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5ad7bd885c64690f15f6971a2827190d.png",
+          "competition": "Brazilian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "24/11_06:00_botafogorj_saopaulosp"
+        },
+        {
+          "name": "⚽ [06:00 24/11] Botafogo _ RJ vs São Paulo _ SP (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/5d83c47462e5afb6f1add0ad508c300b.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_06:00_botafogorj_saopaulosp"
+        },
+        {
+          "name": "⚽ [06:00 24/11] Botafogo _ RJ vs São Paulo _ SP (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/306290.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/5d83c47462e5afb6f1add0ad508c300b.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_06:00_botafogorj_saopaulosp"
+        }
+      ],
+      "displayTitle": "🔴 [06:00 24/11] Botafogo _ Rj vs Sao Paulo _ Sp 33 Tv",
+      "number": 2
+    },
+    {
       "key": "24/11_07:00_philadelphia76ers_portlandtrailblazers",
       "match_key": "24/11_07:00_philadelphia76ers_portlandtrailblazers",
       "c_home": "philadelphia76ers",
@@ -79,7 +128,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 24/11] Philadelphia 76ers vs Portland Trail Blazers",
-      "number": 2
+      "number": 3
     },
     {
       "key": "24/11_07:30_indianapacers_oklahomacitythunder",
@@ -119,7 +168,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 24/11] Indiana Pacers vs Oklahoma City Thunder",
-      "number": 3
+      "number": 4
     },
     {
       "key": "24/11_07:30_brooklynnets_minnesotatimberwolves",
@@ -159,7 +208,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 24/11] Minnesota Timberwolves vs Brooklyn Nets",
-      "number": 4
+      "number": 5
     },
     {
       "key": "24/11_08:00_chicagobulls_clevelandcavaliers",
@@ -199,7 +248,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 24/11] Chicago Bulls vs Cleveland Cavaliers",
-      "number": 5
+      "number": 6
     },
     {
       "key": "24/11_08:00_neworleanspelicans_phoenixsuns",
@@ -239,7 +288,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 24/11] New Orleans Pelicans vs Phoenix Suns",
-      "number": 6
+      "number": 7
     },
     {
       "key": "24/11_09:00_cscartagines_ldalajuelense",
@@ -279,131 +328,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 24/11] Ld Alajuelense vs Cs Cartagines 33 Tv",
-      "number": 7
-    },
-    {
-      "key": "24/11_LIVE_liverpool_manutd",
-      "match_key": "24/11_LIVE_liverpool_manutd",
-      "c_home": "liverpool",
-      "c_away": "manutd",
-      "homeTeam": "Liverpool",
-      "awayTeam": "Manchester United",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "24/11",
-      "timestamp": 1795496400000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] ENG PR - Liverpool vs Manchester United (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=a678f6ff72a0a37a01f809fb27fd59eb&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795473549",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_LIVE_liverpool_manutd"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 24/11] Liverpool vs Manchester United",
       "number": 8
-    },
-    {
-      "key": "24/11_LIVE_barcelona_villarreal",
-      "match_key": "24/11_LIVE_barcelona_villarreal",
-      "c_home": "barcelona",
-      "c_away": "villarreal",
-      "homeTeam": "Barcelona",
-      "awayTeam": "Villarreal",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "24/11",
-      "timestamp": 1795496400000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=9e8764da26a813007c6db33c3e01a6cb&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795473549",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_LIVE_barcelona_villarreal"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 24/11] Barcelona vs Villarreal",
-      "number": 9
-    },
-    {
-      "key": "24/11_LIVE_atleticomadrid_getafe",
-      "match_key": "24/11_LIVE_atleticomadrid_getafe",
-      "c_home": "getafe",
-      "c_away": "atleticomadrid",
-      "homeTeam": "Getafe",
-      "awayTeam": "Atletico Madrid",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "24/11",
-      "timestamp": 1795496400000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] Tường thuật: SPA D1 - Getafe vs Atletico Madrid - Getafe vs Atletico Madrid (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=2d9c32e956698748202d41ebc2c5cd4a&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795473549",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_LIVE_atleticomadrid_getafe"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 24/11] Getafe vs Atletico Madrid",
-      "number": 10
-    },
-    {
-      "key": "24/11_LIVE_atalanta_intermilan",
-      "match_key": "24/11_LIVE_atalanta_intermilan",
-      "c_home": "atalanta",
-      "c_away": "intermilan",
-      "homeTeam": "Atalanta",
-      "awayTeam": "Inter Milan",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "24/11",
-      "timestamp": 1795496400000,
-      "league": "SERIE_A",
-      "leagueName": "Serie A",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_seriea",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] ITA D1 - Atalanta vs Inter Milan (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=c1ff7321a9ef7203a6ca2b19c1b93337&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795473549",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_LIVE_atalanta_intermilan"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 24/11] Atalanta vs Inter Milan",
-      "number": 11
     },
     {
       "key": "24/11_14:45_kashiwareysol_newcastle",
@@ -463,7 +388,7 @@
         }
       ],
       "displayTitle": "⚽ [14:45 24/11] Newcastle United vs Kashiwa Reysol",
-      "number": 12
+      "number": 9
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeonhanacitizen",
@@ -514,7 +439,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon Hana Citizen vs Beijing Guoan",
-      "number": 13
+      "number": 10
     },
     {
       "key": "24/11_17:00_kyotosanga_pohangsteelers",
@@ -583,7 +508,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Kyoto Sanga vs Pohang Steelers",
-      "number": 14
+      "number": 11
     },
     {
       "key": "24/11_19:15_buriramunited_shanghaiport",
@@ -632,7 +557,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Shanghai Port vs Buriram United",
-      "number": 15
+      "number": 12
     },
     {
       "key": "24/11_19:15_cahn_visselkobe",
@@ -681,7 +606,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] CAHN vs Vissel Kobe",
-      "number": 16
+      "number": 13
     },
     {
       "key": "24/11_19:15_johordarultazim_ratchaburi",
@@ -721,7 +646,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Ratchaburi vs Johor Darul Ta'zim",
-      "number": 17
+      "number": 14
     },
     {
       "key": "24/11_21:30_alriffa_alzawraa",
@@ -752,7 +677,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 24/11] Al Riffa vs Al Zawraa Sc",
-      "number": 18
+      "number": 15
     },
     {
       "key": "24/11_22:00_bankelahly_smouha",
@@ -783,7 +708,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 24/11] Smouha Sc vs Bank El Ahly",
-      "number": 19
+      "number": 16
     },
     {
       "key": "24/11_23:00_alahli_alqadsiah",
@@ -834,7 +759,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 24/11] Al Ahli vs Al Qadsiah",
-      "number": 20
+      "number": 17
     },
     {
       "key": "25/11_00:00_ajman_alettifaq",
@@ -867,7 +792,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 25/11] Ajman vs Al Ettifaq",
-      "number": 21
+      "number": 18
     },
     {
       "key": "25/11_00:45_bodoglimt_lasklinz",
@@ -898,7 +823,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795495213967&sig=YAP1uKC4akfcndd2zkDyRl",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795496114241&sig=rmAW9JA3_oWviyzlMqu6Wy",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -907,7 +832,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795495213967&sig=y0Fxd05cQk6CppeKUFXNNs",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795496114241&sig=mRiPxwM62tuxEXdSTRnPKv",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -934,7 +859,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Bodo Glimt vs Lask Linz",
-      "number": 22
+      "number": 19
     },
     {
       "key": "25/11_00:45_astonvilla_galatasaray",
@@ -976,7 +901,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795495213896&sig=c-9THkGWIZZVPNUDGsD8aM",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795496114307&sig=d8kidvTrVNLdP2QHRYS2y6",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -985,7 +910,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495213896&sig=ndJjnwV2aPrGbTU5UhHRV3",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496114307&sig=aKrv6VAJLFtpLsqxp1kjLB",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -994,7 +919,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795495213896&sig=fgf4fFXXcMaA6UOZvjL6eX",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795496114307&sig=WMCGN7D5r466KOVDlRATYo",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1030,7 +955,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 23
+      "number": 20
     },
     {
       "key": "25/11_01:15_alnassr_alsaddsportsclub",
@@ -1081,7 +1006,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 25/11] Al Nassr vs Al Sadd",
-      "number": 24
+      "number": 21
     },
     {
       "key": "25/11_03:00_arsenalu19_youth_dortmund_youth",
@@ -1121,7 +1046,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495214844&sig=B0YGNlt607y75daMwSWC0S",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496115186&sig=PAl4P6zBvzv0cMHYnPbBsi",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1130,7 +1055,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795495214844&sig=KaAnpVRSzGF6MVV8xcdv-O",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795496115186&sig=VHI6uR5DNlezZgHfO8lFNV",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1157,7 +1082,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund U23",
-      "number": 25
+      "number": 22
     },
     {
       "key": "25/11_03:00_psv_youth_realmadrid_youth",
@@ -1188,7 +1113,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid U19 vs PSV Eindhoven U19",
-      "number": 26
+      "number": 23
     },
     {
       "key": "25/11_03:00_aekathens_como",
@@ -1230,7 +1155,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Como vs Aek Athens",
-      "number": 27
+      "number": 24
     },
     {
       "key": "25/11_03:00_feyenoord_porto",
@@ -1261,7 +1186,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BEIN ARABIC 6) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795495213984&sig=xL2teu9RzKO5UTZRhlAhhs",
+          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795496114319&sig=ig9X_2kqPLFX2le4QM2HGO",
           "logo": "https://tflix.su/logos/football-v14/team-142.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1270,7 +1195,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Feyenoord vs Porto",
-      "number": 28
+      "number": 25
     },
     {
       "key": "25/11_03:00_mancity_napoli",
@@ -1301,7 +1226,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795495213915&sig=sCnyVUvg30fhy7OC0YBB2e",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795496114300&sig=0GELJT34MXy7Kd7Om91BfU",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1310,7 +1235,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495213915&sig=mKBWx0JzqfH0NDnJk0R34D",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496114300&sig=WG5goCQI_7a-pN5qTPu5c6",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1319,7 +1244,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795495213915&sig=VwAzKivv8mYYeXvEgXM_8S",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795496114300&sig=d3_Z1FiqbHBS9AGCfG5ITL",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1346,7 +1271,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Manchester City vs Napoli",
-      "number": 29
+      "number": 26
     },
     {
       "key": "25/11_03:00_leipzig_lens",
@@ -1377,7 +1302,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] RB Leipzig vs Lens",
-      "number": 30
+      "number": 27
     },
     {
       "key": "25/11_03:00_psv_realmadrid",
@@ -1408,7 +1333,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795495215441&sig=21UTCGWiEyf3KRagT7gCi_",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795496115303&sig=9Tpg6PAcaR5puATE1uuzAa",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1417,7 +1342,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795495215441&sig=VIBiSklNPF3O_fprOPH_PP",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795496115303&sig=zBNphYS9FR75z913xjin6U",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1444,7 +1369,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven",
-      "number": 31
+      "number": 28
     },
     {
       "key": "25/11_03:00_betis_slovanbratislava",
@@ -1475,7 +1400,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis",
-      "number": 32
+      "number": 29
     },
     {
       "key": "25/11_03:00_aek_como",
@@ -1497,7 +1422,7 @@
       "sources": [
         {
           "name": "⚽ [03:00 25/11] Como vs AEK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795495215476&sig=jQg9RyfVjDT9Bt4m5y-rlo",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795496115325&sig=_ma2vLrMXPFQd5RZRRNc0m",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-2572.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1515,7 +1440,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Como vs Aek",
-      "number": 33
+      "number": 30
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -1546,7 +1471,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 34
+      "number": 31
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -1577,7 +1502,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors",
-      "number": 35
+      "number": 32
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -1608,7 +1533,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 36
+      "number": 33
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -1639,7 +1564,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 37
+      "number": 34
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -1672,7 +1597,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 38
+      "number": 35
     }
   ],
   "source_groups": [
@@ -2397,7 +2322,7 @@
       "channels": [
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795495213967&sig=YAP1uKC4akfcndd2zkDyRl",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795496114241&sig=rmAW9JA3_oWviyzlMqu6Wy",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2405,7 +2330,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795495213967&sig=y0Fxd05cQk6CppeKUFXNNs",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795496114241&sig=mRiPxwM62tuxEXdSTRnPKv",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2421,7 +2346,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795495213896&sig=c-9THkGWIZZVPNUDGsD8aM",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795496114307&sig=d8kidvTrVNLdP2QHRYS2y6",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2429,7 +2354,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495213896&sig=ndJjnwV2aPrGbTU5UhHRV3",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496114307&sig=aKrv6VAJLFtpLsqxp1kjLB",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2437,7 +2362,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795495213896&sig=fgf4fFXXcMaA6UOZvjL6eX",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795496114307&sig=WMCGN7D5r466KOVDlRATYo",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2461,7 +2386,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795495213915&sig=sCnyVUvg30fhy7OC0YBB2e",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795496114300&sig=0GELJT34MXy7Kd7Om91BfU",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2469,7 +2394,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495213915&sig=mKBWx0JzqfH0NDnJk0R34D",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496114300&sig=WG5goCQI_7a-pN5qTPu5c6",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2477,7 +2402,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795495213915&sig=VwAzKivv8mYYeXvEgXM_8S",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795496114300&sig=d3_Z1FiqbHBS9AGCfG5ITL",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2501,7 +2426,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BEIN ARABIC 6) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795495213984&sig=xL2teu9RzKO5UTZRhlAhhs",
+          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795496114319&sig=ig9X_2kqPLFX2le4QM2HGO",
           "logo": "https://tflix.su/logos/football-v14/team-142.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2509,7 +2434,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795495214844&sig=B0YGNlt607y75daMwSWC0S",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795496115186&sig=PAl4P6zBvzv0cMHYnPbBsi",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2517,7 +2442,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795495214844&sig=KaAnpVRSzGF6MVV8xcdv-O",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795496115186&sig=VHI6uR5DNlezZgHfO8lFNV",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2533,7 +2458,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795495215441&sig=21UTCGWiEyf3KRagT7gCi_",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795496115303&sig=9Tpg6PAcaR5puATE1uuzAa",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2541,7 +2466,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795495215441&sig=VIBiSklNPF3O_fprOPH_PP",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795496115303&sig=zBNphYS9FR75z913xjin6U",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2557,7 +2482,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Como vs AEK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795495215476&sig=jQg9RyfVjDT9Bt4m5y-rlo",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795496115325&sig=_ma2vLrMXPFQd5RZRRNc0m",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-2572.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2749,140 +2674,100 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795477209-0-0-29145d53f174ab4b879c4d7753f25f01",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795477209-0-0-8dee545c6976abca9a47a8067ab4f911",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795477209-0-0-fa4a9d4d06711123d3c3e2d791b622b8",
-          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795477209-0-0-3c1205331ea75808e99aa04666587a70",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795477209-0-0-78d01eb982c72a748197196c789ead0a",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=b3b57e474c5286e4b40c72e5b7399420&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795477209-0-0-fc6ad27eaa3d11417ce69a2b3f833dd6",
-          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795477209-0-0-45b66bab2f7dea13fcc06c13e981367a",
-          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795477209-0-0-d2011c727e48b98de4a38ecbe8ef521f",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795478109-0-0-56bbccc4e89d4808a7b0571469a59ce0",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_rs_vitoriaba"
         },
         {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795477209-0-0-88c27dee12d6cacfd1e749e6eaf27083",
-          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795478109-0-0-4e08c6c132902e0a6c7cb6cd237ec5f0",
+          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_rj_saopaulosp"
         },
         {
+          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795478109-0-0-3401d5b0ce564d64dc1bdfb8e7f7e127",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rs_vitoriaba"
+        },
+        {
           "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795477209-0-0-fff115337a0c89cf775c4caaed5ea73b",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795478109-0-0-929b7b02a4b294583df6570dbf77280b",
           "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_rs_vitoriaba"
         },
         {
-          "name": "⚽ [LIVE 24/11] ENG PR - Liverpool vs Manchester United (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=a678f6ff72a0a37a01f809fb27fd59eb&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795478109-0-0-2c2a25c63da78a3b5ebdca41726f622b",
+          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_liverpool_manutd"
+          "match_key": "24/11_LIVE_rj_saopaulosp"
         },
         {
-          "name": "⚽ [LIVE 24/11] ENG PR - Hull City vs Brighton Hove Albion (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=0783dcc539ffd8c9e8c65d52a112870b&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/179093.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795478109-0-0-5256c58b105fda690e074982a94b8ff2",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_brighton_hullcity"
+          "match_key": "24/11_LIVE_rj_saopaulosp"
         },
         {
-          "name": "⚽ [LIVE 24/11] USA MLS - Vancouver Whitecaps vs Real Salt Lake (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=700169984189768cbfa7e27a429246fb&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133824.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795478109-0-0-b461f32e968c02ae26509a8e3f8897ad",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_realsaltlake_vancouverwhitecaps"
+          "match_key": "24/11_LIVE_rs_vitoriaba"
         },
         {
-          "name": "⚽ [LIVE 24/11] ITA D1 - Atalanta vs Inter Milan (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=c1ff7321a9ef7203a6ca2b19c1b93337&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV ASHAHI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795478109-0-0-b5835d9445684793d1a165dea101e0e7",
+          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_atalanta_intermilan"
+          "match_key": "24/11_LIVE_rs_vitoriaba"
         },
         {
-          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=9e8764da26a813007c6db33c3e01a6cb&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=c1e7cdbb409e9c1466b480339581073e&txTime=6b0518ad",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_barcelona_villarreal"
+          "match_key": "24/11_LIVE_rj_saopaulosp"
         },
         {
-          "name": "⚽ [LIVE 24/11] Tường thuật: SPA D1 - Getafe vs Atletico Madrid - Getafe vs Atletico Madrid (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=2d9c32e956698748202d41ebc2c5cd4a&txTime=6b051529",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795473549",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795478109-0-0-4aa1517dc8f3ca612a1727b5cf02dc0c",
+          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_atleticomadrid_getafe"
+          "match_key": "24/11_LIVE_rj_saopaulosp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795478109-0-0-565fe76b3542e4e19346f6add7e9f55c",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rs_vitoriaba"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HUCK) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795478109-0-0-538a4c4b68c1be59ac8cafbae65d979f",
+          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rj_saopaulosp"
         }
       ]
     },
