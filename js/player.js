@@ -599,10 +599,10 @@ class StrandPlayer {
     const container = document.getElementById('playerSection') || this.video;
     const canNativeRequest = !!(container && (container.requestFullscreen || container.webkitRequestFullscreen));
     const isIOS = this.isIOSDevice();
-    const iosMode = localStorage.getItem('tvplay_ios_fs_mode') || 'native';
+    const iosMode = this.getIOSFsMode();
 
     // 4. Xử lý chuyên biệt cho iPhone / iPad (iOS):
-    // webkitEnterFullscreen là API chính thức duy nhất trên iOS cho phép ẩn 100% đồng hồ hệ thống (clock), thanh pin & Dynamic Island!
+    // ƯU TIÊN MẶC ĐỊNH 'pseudo': Tự động xoay ngang video kiểu app YouTube ngay lập tức!
     if (isIOS) {
       if (iosMode === 'native' && typeof this.video.webkitEnterFullscreen === 'function') {
         try {
@@ -663,10 +663,23 @@ class StrandPlayer {
     if (!menu.classList.contains('hidden')) {
       this.updateQualityMenu();
       this.updateIOSFsMenu();
+      this.updateZoomMenuUI();
     }
   }
 
+  getIOSFsMode() {
+    // Mặc định luôn là 'pseudo' (Tự động xoay ngang kiểu YouTube app)
+    const mode = localStorage.getItem('tvplay_ios_fs_mode_v2');
+    if (!mode) {
+      localStorage.setItem('tvplay_ios_fs_mode_v2', 'pseudo');
+      localStorage.setItem('tvplay_ios_fs_mode', 'pseudo');
+      return 'pseudo';
+    }
+    return mode;
+  }
+
   setIOSFsMode(mode) {
+    localStorage.setItem('tvplay_ios_fs_mode_v2', mode);
     localStorage.setItem('tvplay_ios_fs_mode', mode);
     this.updateIOSFsMenu();
   }
@@ -680,22 +693,71 @@ class StrandPlayer {
     }
     section.classList.remove('hidden');
 
-    const currentMode = localStorage.getItem('tvplay_ios_fs_mode') || 'native';
+    const currentMode = this.getIOSFsMode();
     const btnNative = document.getElementById('btnIosModeNative');
     const btnPseudo = document.getElementById('btnIosModePseudo');
     const checkNative = document.getElementById('checkIosModeNative');
     const checkPseudo = document.getElementById('checkIosModePseudo');
 
-    if (btnNative && checkNative) {
-      const isNat = (currentMode === 'native');
-      btnNative.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isNat ? 'text-amber-400 font-bold' : 'text-white/80'}`;
-      checkNative.classList.toggle('hidden', !isNat);
-    }
     if (btnPseudo && checkPseudo) {
       const isPse = (currentMode === 'pseudo');
       btnPseudo.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isPse ? 'text-amber-400 font-bold' : 'text-white/80'}`;
       checkPseudo.classList.toggle('hidden', !isPse);
     }
+    if (btnNative && checkNative) {
+      const isNat = (currentMode === 'native');
+      btnNative.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isNat ? 'text-amber-400 font-bold' : 'text-white/80'}`;
+      checkNative.classList.toggle('hidden', !isNat);
+    }
+  }
+
+  setVideoZoom(isCover) {
+    this.isZoomCover = !!isCover;
+    const surface = document.getElementById('playerSurface');
+    if (surface) {
+      surface.classList.toggle('video-zoom-cover', this.isZoomCover);
+    }
+    this.showToast(this.isZoomCover ? 'Lấp đầy màn hình (Zoom to fill)' : 'Vừa khung hình (Fit 16:9)');
+    this.updateZoomMenuUI();
+  }
+
+  toggleVideoZoom() {
+    this.setVideoZoom(!this.isZoomCover);
+  }
+
+  updateZoomMenuUI() {
+    const btnFit = document.getElementById('btnZoomFit');
+    const btnCover = document.getElementById('btnZoomCover');
+    const checkFit = document.getElementById('checkZoomFit');
+    const checkCover = document.getElementById('checkZoomCover');
+
+    if (btnFit && checkFit) {
+      const isFit = !this.isZoomCover;
+      btnFit.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isFit ? 'text-amber-400 font-bold' : 'text-white/80'}`;
+      checkFit.classList.toggle('hidden', !isFit);
+    }
+    if (btnCover && checkCover) {
+      const isCov = !!this.isZoomCover;
+      btnCover.className = `w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 ${isCov ? 'text-amber-400 font-bold' : 'text-white/80'}`;
+      checkCover.classList.toggle('hidden', !isCov);
+    }
+  }
+
+  showToast(text) {
+    let toast = document.getElementById('playerToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'playerToast';
+      toast.className = 'absolute top-4 left-1/2 -translate-x-1/2 z-40 bg-black/85 backdrop-blur-md text-white text-xs px-3.5 py-1.5 rounded-full pointer-events-none transition-opacity duration-300 opacity-0 shadow-lg border border-white/15 font-medium select-none';
+      const surface = document.getElementById('playerSurface');
+      if (surface) surface.appendChild(toast);
+    }
+    toast.textContent = text;
+    toast.style.opacity = '1';
+    if (this._toastTimer) clearTimeout(this._toastTimer);
+    this._toastTimer = setTimeout(() => {
+      if (toast) toast.style.opacity = '0';
+    }, 1500);
   }
 
   updateQualityMenu() {

@@ -19,9 +19,9 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="icons/favicon.png">
 
-  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=49) -->
+  <!-- Tailwind CSS & Custom Styles (Cache busted ?v=50) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/strand.css?v=49">
+  <link rel="stylesheet" href="css/strand.css?v=50">
 
   <!-- Hls.js, Shaka Player & mpegts.js for HLS, DASH ClearKey & udpxy MPEG-TS streams -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
@@ -213,17 +213,32 @@
                           </div>
                         </div>
 
+                        <!-- Tỉ lệ hiển thị (Zoom to fill kiểu YouTube) -->
+                        <div class="border-t border-white/10 py-1.5">
+                          <div class="px-2 py-1 text-[11px] font-semibold text-white/50 uppercase">Tỉ lệ khung hình</div>
+                          <div class="space-y-0.5">
+                            <button id="btnZoomFit" onclick="window.player.setVideoZoom(false)" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-amber-400 font-bold">
+                              <span>Vừa khung hình (Fit 16:9)</span>
+                              <span id="checkZoomFit">✓</span>
+                            </button>
+                            <button id="btnZoomCover" onclick="window.player.setVideoZoom(true)" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-white/80">
+                              <span>Lấp đầy màn hình (Zoom to fill)</span>
+                              <span id="checkZoomCover" class="hidden">✓</span>
+                            </button>
+                          </div>
+                        </div>
+
                         <!-- iOS Fullscreen Mode (Chỉ hiện trên iPhone / iPad) -->
                         <div id="ytIosFsSection" class="border-t border-white/10 py-1.5 hidden">
-                          <div class="px-2 py-1 text-[11px] font-semibold text-white/50 uppercase">Toàn màn hình iOS</div>
+                          <div class="px-2 py-1 text-[11px] font-semibold text-white/50 uppercase">Chế độ toàn màn hình iOS</div>
                           <div class="space-y-0.5">
-                            <button id="btnIosModeNative" onclick="window.player.setIOSFsMode('native')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-amber-400 font-bold">
-                              <span>Toàn màn hình (Ẩn đồng hồ)</span>
-                              <span id="checkIosModeNative">✓</span>
+                            <button id="btnIosModePseudo" onclick="window.player.setIOSFsMode('pseudo')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-amber-400 font-bold">
+                              <span>Tự động xoay ngang (Kiểu YouTube)</span>
+                              <span id="checkIosModePseudo">✓</span>
                             </button>
-                            <button id="btnIosModePseudo" onclick="window.player.setIOSFsMode('pseudo')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-white/80">
-                              <span>Xoay trong web (Hiện controls)</span>
-                              <span id="checkIosModePseudo" class="hidden">✓</span>
+                            <button id="btnIosModeNative" onclick="window.player.setIOSFsMode('native')" class="w-full text-left px-2.5 py-1.5 rounded-lg flex items-center justify-between hover:bg-white/10 text-white/80">
+                              <span>Trình phát Apple (Cần xoay thủ công)</span>
+                              <span id="checkIosModeNative" class="hidden">✓</span>
                             </button>
                           </div>
                         </div>
@@ -694,13 +709,13 @@
     </div>
   </div>
 
-  <!-- Application Logic Modules (Cache busted ?v=49) -->
-  <script src="js/player.js?v=49"></script>
-  <script src="js/channels.js?v=49"></script>
-  <script src="js/timeline.js?v=49"></script>
-  <script src="js/sports.js?v=49"></script>
-  <script src="js/multistream.js?v=49"></script>
-  <script src="js/app.js?v=49"></script>
+  <!-- Application Logic Modules (Cache busted ?v=50) -->
+  <script src="js/player.js?v=50"></script>
+  <script src="js/channels.js?v=50"></script>
+  <script src="js/timeline.js?v=50"></script>
+  <script src="js/sports.js?v=50"></script>
+  <script src="js/multistream.js?v=50"></script>
+  <script src="js/app.js?v=50"></script>
 </body>
 
 </html>
