@@ -717,36 +717,8 @@ body.has-pseudo-fullscreen #playerSection {
   aspect-ratio: auto !important;
 }
 
-@keyframes pseudoFadeOutNormal {
-  0% {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(0.85);
-    opacity: 0;
-  }
-}
-
 #playerSurface.pseudo-fullscreen-normal.pseudo-fullscreen-exit {
-  animation: pseudoFadeOutNormal 0.24s cubic-bezier(0.4, 0, 0.2, 1) forwards !important;
-}
-
-/* Tùy chọn lấp đầy màn hình (Zoom to fill kiểu YouTube) */
-#playerSurface.video-zoom-cover #mainVideo {
-  object-fit: cover !important;
-}
-
-#playerSurface.pseudo-fullscreen-landscape .yt-control-bar {
-  padding-left: max(env(safe-area-inset-top, 0px), 16px) !important;
-  padding-right: max(env(safe-area-inset-bottom, 0px), 16px) !important;
-  padding-bottom: max(env(safe-area-inset-left, 0px), 12px) !important;
-}
-
-#playerSurface.pseudo-fullscreen-normal .yt-control-bar {
-  padding-left: max(env(safe-area-inset-left, 0px), 16px) !important;
-  padding-right: max(env(safe-area-inset-right, 0px), 16px) !important;
-  padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px) !important;
+  animation: pseudoRotateOutLandscape 0.24s cubic-bezier(0.4, 0, 0.2, 1) forwards !important;
 }
 
 #playerSurface.pseudo-fullscreen-normal #mainVideo {
