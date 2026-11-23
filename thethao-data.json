@@ -1,6 +1,423 @@
 {
-  "updated_at": "2026-11-24 02:38:38",
+  "updated_at": "2026-11-24 02:53:20",
   "live_events": [
+    {
+      "key": "24/11_03:00_brentford_everton",
+      "match_key": "24/11_03:00_brentford_everton",
+      "c_home": "brentford",
+      "c_away": "everton",
+      "homeTeam": "Brentford",
+      "awayTeam": "Everton",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+      "time": "03:00",
+      "date": "24/11",
+      "timestamp": 1795464000000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 24/11] Brentford Vs Everton (BLV Gà Siêu Ngố) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (Khầy Lương Khô) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sport 8 NZ) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795485130744&sig=zT28VPDyChdEYlZ9TA32TI",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Main Event FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795485130744&sig=2uckbplJW0J7leZBV9rGda",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Premier League FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795485130744&sig=69oiCvunhPTRnV5DjYArYW",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BEIN ARABIC 2) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795485130744&sig=YW45-gb86cBl_ntxD1m2VZ",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (USA NETWORK) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/5e7be851f8b00aae2ec4b9d8a9380be8/index.m3u8?exp=1795485130744&sig=cr7mgt9RJKw1PLytmDWCpU",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (FUBO SPORTS AQ) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvMXdsdjlkcjR2eC9vdXQvdjEvNjMyMzIyYmU1ZjEwNDdhY2IyNDcyZjkwZjg4NTcxODIvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-337.png",
+          "competition": "English Premier League",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795467129-0-0-81fd9b3bf0f4ee2d3ba17dcf06b6c6ad",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=313b3027c9e1bf7a8f3cedcd29e1fcb9&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÒ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795467129-0-0-9b034e2f57d4d9625c5640ed6b7c9c61",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=d80361b2aab8a761efc895c510700721&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795467129-0-0-c0d374f05a2abae23a8f08629d22ca25",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795467129-0-0-d993a41af24c3111f4444c8ecff40d32",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Ngô Quyền) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/60f1c7788be3148a370dbf59f914abfe.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Chuối Già) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125551_69278a74.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV NGƯỜI NHỆN) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/bre-eve-prem/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/15c4a740-60d8-423f-ab58-02bee7fa4d0f",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Tít) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9937.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Gà Siêu Gáy + Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/301238.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/f8798c222324463e80a40f1179a0e2b0.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Câu lạc bộ bóng đá Brentford vs Everton (BLV SODA) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/02456966.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/60f1c7788be3148a370dbf59f914abfe.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Câu lạc bộ bóng đá Brentford vs Everton (BLV SODA) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/02456966_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/60f1c7788be3148a370dbf59f914abfe.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV LÃM LÀNG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/2a1e2ef33a5f43e3b204c28c28cac1a8/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hdk5rz84/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Nhà đài) - Phá Làng TV",
+          "url": "https://lilive1.eu.cc/live/60f7e75d5e1563c072926291afe0e542/playlist.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hdk5rz84/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_brentford_everton"
+        }
+      ],
+      "displayTitle": "🔴 [03:00 24/11] Brentford vs Everton",
+      "number": 1
+    },
+    {
+      "key": "24/11_03:00_elche_levante",
+      "match_key": "24/11_03:00_elche_levante",
+      "c_home": "levante",
+      "c_away": "elche",
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "homeLogo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+      "time": "03:00",
+      "date": "24/11",
+      "timestamp": 1795464000000,
+      "league": "LALIGA",
+      "leagueName": "La Liga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 24/11] Levante Vs Elche Cf (BLV Gà Siêu Péo) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
+          "competition": "Spanish La Liga",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
+          "competition": "La Liga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (DAZN LALIGA) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/a2695d0c-f56e-483e-8d57-83011e391587/index.m3u8?exp=1795485130793&sig=AbEWpRKch6dhrzVg6AFRT0",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (ESPN Deportes) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795485130793&sig=jYiV6o8i7NU07Ozdi-oGxk",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (BEIN ARABIC 4) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795485130793&sig=GF7OlPCR8Tq3d1KS307iC3",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (PREMIER SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbTZzcWFudm0ybS9vdXQvdjEvZjZiZWI0NmM2ZTlhNDEzMmFkNzM5ZjNjYTI3ZGY2YWEvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (beIN ENGLISH FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcTR1NW53YW9nei9vdXQvdjEvMThkZTZkM2U2NTkzNGYzYThkZTQzNThlNjllYWI4NmMvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (D SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcmdpbHlldWJ0YS9vdXQvdjEvMDlhNjcwMjdiMThmNGZkNzhhYWEzNzk0YTJhYWNmZTgvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
+          "competition": "Spain : LaLiga",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VOI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795467129-0-0-6d5ec9c57882ccd68ed4b1e1f1c425a0",
+          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VINFAST) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795467129-0-0-db7cc4cdc22b924c5f76dcc842ab3126",
+          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV TRÀ ĐÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795467129-0-0-ee10f243358d428e886cabf2a692b41d",
+          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795467129-0-0-5a0d4db0be075a33f272dc4aaa92b3da",
+          "logo": "https://sta.vnres.co/file/live/room/cover/632877.jpg?t=1795463469",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche CF (BLV Lê Lợi) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Trốc Tru) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_133417_3fac6cfd.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Kai) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Levante vs Elche CF (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/303098.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/2728d4cb86a245d6835a6d2fdbbd3baa.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] CLB Levante vs Elche (BLV HỔ VẰN) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/07428422.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] CLB Levante vs Elche (BLV HỔ VẰN) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/07428422_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_elche_levante"
+        }
+      ],
+      "displayTitle": "🔴 [03:00 24/11] Levante vs Elche",
+      "number": 2
+    },
     {
       "key": "24/11_02:45_fiorentina_monza",
       "match_key": "24/11_02:45_fiorentina_monza",
@@ -30,7 +447,7 @@
         },
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (SKY SPORT 251 IT) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/18a020a5-ccbf-473e-b56d-a3f530be5a67/index.m3u8?exp=1795484223883&sig=Ct5D0LBDjr5GLPc1P2zjiz",
+          "url": "https://film4k.pl/api/tflix-live/18a020a5-ccbf-473e-b56d-a3f530be5a67/index.m3u8?exp=1795485130726&sig=ZHzws6lFDatNBFy862YvHh",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -39,7 +456,34 @@
         },
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (Arena Sport 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/fcf0cb4b-938b-4573-928c-431f5997ff07/index.m3u8?exp=1795484223883&sig=kDZg4F2pjtBGcTZpQWkksX",
+          "url": "https://film4k.pl/api/tflix-live/fcf0cb4b-938b-4573-928c-431f5997ff07/index.m3u8?exp=1795485130726&sig=9N4_bqzMBWhUxcqYfn0rHA",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (PARAMOUNT+ FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZGluYTJlbmRzdi9vdXQvdjEvYzBlNTBhNjA3NjJmNGI0Yzk3Y2JjMTQxYmUwM2MyZDQvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc2ZoZWN4aDNnYy9vdXQvdjEvNzM3ODY4M2NiOTk1NGU3NzkyNWQ4MjI3OGVlZWZiYTEvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (FUBO SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMveXVrcGd6anVrZi9vdXQvdjEvZTk1ODRjNmRlMGQxNDVhOWFjMWIzNmRkZjc3OTUwODEvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -49,6 +493,24 @@
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (beIN ENGLISH FHD) - F4K Sport",
           "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvOG04Y2Q0NmkxdC9vdXQvdjEvODM5ODVjNjhlNDE3NGU5MGE1OGExZjJjMDI0YmU0YzkvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (PEACOCK ES FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbXI2aGVqeXo1Yy9vdXQvdjEvZmUxNjdiZjhhMjM4NDZkMWEwZWRkNDU3MzM3MzA4ZTIvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (DAZN ITALIA FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbGdrbHVwcnd3NC9vdXQvdjEvOTkwOTUzOTcyNzU3NDdlMThkYjY0ZDRhYzZhZjdhNmEvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -66,7 +528,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795466229-0-0-cf44065b2dc6384295c1edd988db12f1",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795467129-0-0-20e73704ae5e83fcff7d11b34c18d57c",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -75,7 +537,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795466229-0-0-c173eae950854592d89f7c0df4c37300",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795467129-0-0-f8bcc9d7a1bd1f1dc25edc31ee1e5b82",
           "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -84,7 +546,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=99d04f99f88a365dabdf4de89c215f56&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=aaa58a293a56917818ca0fbb2ad2a9a4&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -93,7 +555,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795466229-0-0-46babc4e6708b15e8f5dfe4006d9b1b9",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795467129-0-0-f53ac2b39ae6f826be884b827b8f1bc8",
           "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -174,7 +636,7 @@
         }
       ],
       "displayTitle": "🔴 [02:45 24/11] Monza vs Fiorentina",
-      "number": 1
+      "number": 3
     },
     {
       "key": "24/11_01:15_alittihad_pakhtakor",
@@ -216,7 +678,7 @@
         },
         {
           "name": "⚽ [01:15 24/11] Al Ittihad vs Pakhtakor (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795484223840&sig=m0K_eIaGxNyaD5A2AIEsW-",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795485130771&sig=98Zk5hNqrWYj_jRo24shMT",
           "logo": "https://tflix.su/logos/med/teams/3513.png",
           "competition": "AFC Champions League Elite",
           "group": "F4K Sport",
@@ -238,35 +700,8 @@
           "match_key": "24/11_01:15_alittihad_pakhtakor"
         },
         {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795466229-0-0-1358cd40097562bae1cc03206fea978a",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795466229-0-0-2d996e39510269e0f7360e5b23821ff8",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795466229-0-0-28b0d258048842b629b9c614b372c480",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795466229-0-0-1a3241164defa1f92261536c61088e00",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795467129-0-0-af4f8ba916bb315d441ca85a918af3e7",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
@@ -274,9 +709,36 @@
           "match_key": "24/11_01:15_alittihad_pakhtakor"
         },
         {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795467129-0-0-7d5ef55959a3031625952cf776484b5c",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
           "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5f46e8017b2fd0f7fd61124a3ba6efb4&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=f7508da778bb0d4a11af463347fae6c9&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795467129-0-0-34e587f409a008dbe9c6e47747269bd7",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795467129-0-0-de56ded433854e3bfac7ae5ddbcc53d1",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -383,7 +845,7 @@
         }
       ],
       "displayTitle": "🔴 [01:15 24/11] Al Ittihad vs Pakhtakor",
-      "number": 2
+      "number": 4
     },
     {
       "key": "24/11_01:15_algharafasportsclub_alquwaaljawiya",
@@ -425,7 +887,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Al Quwa Al Jawiya vs Al-Gharafa SC (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=3e09feb7cc3d656c291957ef4faa3a5d&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=70949888fdd1fee363677cba4cfed4d8&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
@@ -434,7 +896,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Al Quwa Al Jawiya vs Al-Gharafa SC (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795466229-0-0-1b2a2c7d6718bfbcfe9e77cc9c1655a6",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795467129-0-0-0635dd773a10195f27e8cbf21a01bccf",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
@@ -497,7 +959,7 @@
         }
       ],
       "displayTitle": "🔴 [01:15 24/11] Al Quwa Al Jawiya vs Al Gharafa",
-      "number": 3
+      "number": 5
     },
     {
       "key": "24/11_01:00_hammarby_ifkgoteborg",
@@ -528,7 +990,7 @@
         },
         {
           "name": "🥊 [LIVE 24/11] Hammarby vs IFK Goteborg (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795466229-0-0-eeeaa3f967464d2a64ce680343db5744",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795467129-0-0-42769afbe2dd877c24d6998f32e1c11f",
           "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
           "competition": "SWE D1",
           "group": "🐿️ SocoLive",
@@ -537,7 +999,7 @@
         },
         {
           "name": "🥊 [LIVE 24/11] Hammarby vs IFK Goteborg (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=4d6b669f2c260af8cb037a88eb6a9b0e&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=88fb86ead639e8d1fdc08f8fa2fe26f0&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "SWE D1",
           "group": "🐿️ SocoLive",
@@ -573,7 +1035,7 @@
         }
       ],
       "displayTitle": "🥊 [01:00 24/11] Hammarby vs Goteborg",
-      "number": 4
+      "number": 6
     },
     {
       "key": "24/11_01:00_kalmar_orgryte",
@@ -604,7 +1066,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Orgryte vs Kalmar (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795466229-0-0-458aad3854018525f62ecfe9b7d58680",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795467137-0-0-dc4553c1e524ebc3c144e6a5073ceb18",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "SWE D1",
           "group": "🐿️ SocoLive",
@@ -640,7 +1102,7 @@
         }
       ],
       "displayTitle": "🔴 [01:00 24/11] Orgryte vs Kalmar",
-      "number": 5
+      "number": 7
     },
     {
       "key": "24/11_01:00_brondbyif_midtjylland",
@@ -670,18 +1132,18 @@
           "match_key": "24/11_01:00_brondbyif_midtjylland"
         },
         {
-          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795466229-0-0-e49cff2c7d175477781c6825354dd887",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795467129-0-0-f82e24fd538e228b84795dd5578f5a49",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "DEN SASL",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
           "match_key": "24/11_01:00_brondbyif_midtjylland"
         },
         {
-          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795466229-0-0-7fa14cb6674e047be09f3b9b88a61de1",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795467129-0-0-4d7b38d5ffb2e6404c681698e36a14d7",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "DEN SASL",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -725,7 +1187,7 @@
         }
       ],
       "displayTitle": "🔴 [01:00 24/11] Brondby vs Midtjylland",
-      "number": 6
+      "number": 8
     },
     {
       "key": "24/11_02:30_adceuta_almeria",
@@ -792,7 +1254,47 @@
         }
       ],
       "displayTitle": "🔴 [02:30 24/11] Ceuta vs Almeria",
-      "number": 7
+      "number": 9
+    },
+    {
+      "key": "24/11_03:00_gimnasialaplata_newellsoldboys",
+      "match_key": "24/11_03:00_gimnasialaplata_newellsoldboys",
+      "c_home": "gimnasialaplata",
+      "c_away": "newellsoldboys",
+      "homeTeam": "Gimnasia La Plata",
+      "awayTeam": "Newells Old Boys",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "03:00",
+      "date": "24/11",
+      "timestamp": 1795464000000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 24/11] CLB Gimnasia La Plata vs CLB Newells Old Boys (BLV AQUA) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/18812304.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/f323884c2481d25aa4b316a43583b733.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_gimnasialaplata_newellsoldboys"
+        },
+        {
+          "name": "⚽ [03:00 24/11] CLB Gimnasia La Plata vs CLB Newells Old Boys (BLV AQUA) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/18812304_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/f323884c2481d25aa4b316a43583b733.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "24/11_03:00_gimnasialaplata_newellsoldboys"
+        }
+      ],
+      "displayTitle": "🔴 [03:00 24/11] Gimnasia La Plata vs Newells Old Boys",
+      "number": 10
     },
     {
       "key": "24/11_LIVE_kswieczystakrakow_motorlublin",
@@ -814,7 +1316,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] KS Wieczysta Krakow vs Motor Lublin (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=0c1d5b3ea622f109c428163bc9a3421e&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=fe3b3b6b9da6b3bbe774780bae0dc33c&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
@@ -823,7 +1325,7 @@
         },
         {
           "name": "⚽ [01:00 24/11] KS Wieczysta Krakow vs Motor Lublin (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c0c5b8c09ba5c11829a0d9fabcb34592&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=26250c8b21e72b8496d1076486fca1dd&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
@@ -832,424 +1334,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 24/11] Ks Wieczysta Krakow vs Motor Lublin",
-      "number": 8
-    },
-    {
-      "key": "24/11_03:00_brentford_everton",
-      "match_key": "24/11_03:00_brentford_everton",
-      "c_home": "brentford",
-      "c_away": "everton",
-      "homeTeam": "Brentford",
-      "awayTeam": "Everton",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-      "time": "03:00",
-      "date": "24/11",
-      "timestamp": 1795464000000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 24/11] Brentford Vs Everton (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (Khầy Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795484223862&sig=7QYWXBX41IyARliMoaZCfG",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795484223862&sig=fY5YhDgbejD7oWJJKaJY1R",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795484223862&sig=mBr61Wfz_nb3-XpX495jqy",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795484223862&sig=shGCgR_C3DlvGAgMBzxIw8",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (USA NETWORK) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/5e7be851f8b00aae2ec4b9d8a9380be8/index.m3u8?exp=1795484223862&sig=Ou2jamXuo0lZI1J5VzumS2",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (FUBO SPORTS AQ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2R1Yi1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvMXdsdjlkcjR2eC9vdXQvdjEvNjMyMzIyYmU1ZjEwNDdhY2IyNDcyZjkwZjg4NTcxODIvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-337.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795466229-0-0-42d1f7b7c863e64817390c5536a8023e",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795466229-0-0-d9ecb308fa5fbcd015134faae4d75f1f",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=85baa4e0b67029d257af2f13f8a0f959&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795466229-0-0-2ba7ed00f3d36b423810e5286dbee172",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=bcfa170a41e2dcfa294015ddb7e54714&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795466229-0-0-ab5e3396dab4e81c2c9850dbe58fdcb3",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Ngô Quyền) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-10.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/60f1c7788be3148a370dbf59f914abfe.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Chuối Già) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125551_69278a74.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV NGƯỜI NHỆN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/bre-eve-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/15c4a740-60d8-423f-ab58-02bee7fa4d0f",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Tít) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9937.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Gà Siêu Gáy + Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/301238.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/f8798c222324463e80a40f1179a0e2b0.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Câu lạc bộ bóng đá Brentford vs Everton (BLV SODA) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/02456966.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/60f1c7788be3148a370dbf59f914abfe.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Câu lạc bộ bóng đá Brentford vs Everton (BLV SODA) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/02456966_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/60f1c7788be3148a370dbf59f914abfe.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV LÃM LÀNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/2a1e2ef33a5f43e3b204c28c28cac1a8/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hdk5rz84/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/60f7e75d5e1563c072926291afe0e542/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hdk5rz84/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_brentford_everton"
-        }
-      ],
-      "displayTitle": "⚽ [03:00 24/11] Brentford vs Everton",
-      "number": 9
-    },
-    {
-      "key": "24/11_03:00_elche_levante",
-      "match_key": "24/11_03:00_elche_levante",
-      "c_home": "levante",
-      "c_away": "elche",
-      "homeTeam": "Levante",
-      "awayTeam": "Elche",
-      "homeLogo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
-      "time": "03:00",
-      "date": "24/11",
-      "timestamp": 1795464000000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 24/11] Levante Vs Elche Cf (BLV Gà Siêu Péo) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/3f3a136c558e4aefa30f173ea58e8490.png",
-          "competition": "Spanish La Liga",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Xôi Xoài) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
-          "competition": "La Liga",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (DAZN LALIGA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a2695d0c-f56e-483e-8d57-83011e391587/index.m3u8?exp=1795484223827&sig=CujdNk7-4m_3_Ni_HJWRf-",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795484223827&sig=gycJXoMfmMKwgFQ-nNi8LD",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795484223827&sig=sCNXmz0n4CFOH0it9iRSSG",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (PREMIER SPORTS FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbTZzcWFudm0ybS9vdXQvdjEvZjZiZWI0NmM2ZTlhNDEzMmFkNzM5ZjNjYTI3ZGY2YWEvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (beIN ENGLISH FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcTR1NW53YW9nei9vdXQvdjEvMThkZTZkM2U2NTkzNGYzYThkZTQzNThlNjllYWI4NmMvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (D SPORTS FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvcmdpbHlldWJ0YS9vdXQvdjEvMDlhNjcwMjdiMThmNGZkNzhhYWEzNzk0YTJhYWNmZTgvY2VuYy5tcGQ",
-          "logo": "https://tflix.su/logos/football-v14/team-1538.png",
-          "competition": "Spain : LaLiga",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795466229-0-0-f39d42c214138638d2b967c7f7931dcb",
-          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795466229-0-0-8abda60485ebfa91172566155a588c14",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795466229-0-0-7cca68ca0ccf32f1a9042827393610df",
-          "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795466229-0-0-a112ca02fbe901786ed20b3fbf1f16ff",
-          "logo": "https://sta.vnres.co/file/live/room/cover/632877.jpg?t=1795462569",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche CF (BLV Lê Lợi) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Trốc Tru) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_133417_3fac6cfd.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Kai) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] Levante vs Elche CF (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/303098.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/2728d4cb86a245d6835a6d2fdbbd3baa.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] CLB Levante vs Elche (BLV HỔ VẰN) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/07428422.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        },
-        {
-          "name": "⚽ [03:00 24/11] CLB Levante vs Elche (BLV HỔ VẰN) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/07428422_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "24/11_03:00_elche_levante"
-        }
-      ],
-      "displayTitle": "⚽ [03:00 24/11] Levante vs Elche",
-      "number": 10
+      "number": 11
     },
     {
       "key": "24/11_07:00_philadelphia76ers_portlandtrailblazers",
@@ -1289,7 +1374,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 24/11] Philadelphia 76ers vs Portland Trail Blazers",
-      "number": 11
+      "number": 12
     },
     {
       "key": "24/11_07:30_indianapacers_oklahomacitythunder",
@@ -1329,7 +1414,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 24/11] Indiana Pacers vs Oklahoma City Thunder",
-      "number": 12
+      "number": 13
     },
     {
       "key": "24/11_07:30_brooklynnets_minnesotatimberwolves",
@@ -1369,7 +1454,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 24/11] Minnesota Timberwolves vs Brooklyn Nets",
-      "number": 13
+      "number": 14
     },
     {
       "key": "24/11_08:00_chicagobulls_clevelandcavaliers",
@@ -1409,7 +1494,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 24/11] Chicago Bulls vs Cleveland Cavaliers",
-      "number": 14
+      "number": 15
     },
     {
       "key": "24/11_08:00_neworleanspelicans_phoenixsuns",
@@ -1449,7 +1534,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 24/11] New Orleans Pelicans vs Phoenix Suns",
-      "number": 15
+      "number": 16
     },
     {
       "key": "24/11_09:00_cscartagines_ldalajuelense",
@@ -1489,7 +1574,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 24/11] Ld Alajuelense vs Cs Cartagines 33 Tv",
-      "number": 16
+      "number": 17
     },
     {
       "key": "24/11_LIVE_liverpool_manutd",
@@ -1511,8 +1596,8 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] ENG PR - Liverpool vs Manchester United (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=1f4f641e779d7c1cd5c2c12c94c2eb25&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795462629",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=75bd01691dec4f745519820c68016201&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -1520,37 +1605,6 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 24/11] Liverpool vs Manchester United",
-      "number": 17
-    },
-    {
-      "key": "24/11_LIVE_barcelona_villarreal",
-      "match_key": "24/11_LIVE_barcelona_villarreal",
-      "c_home": "barcelona",
-      "c_away": "villarreal",
-      "homeTeam": "Barcelona",
-      "awayTeam": "Villarreal",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "24/11",
-      "timestamp": 1795496400000,
-      "league": "LALIGA",
-      "leagueName": "La Liga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=88b23d5843b09c75bc0103f7758096b8&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795462569",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_LIVE_barcelona_villarreal"
-        }
-      ],
-      "displayTitle": "⚽ [LIVE 24/11] Barcelona vs Villarreal",
       "number": 18
     },
     {
@@ -1573,8 +1627,8 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] Tường thuật: SPA D1 - Getafe vs Atletico Madrid - Getafe vs Atletico Madrid (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=bddf014c447500718cb8e319d73096f0&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795462569",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=f9402a5c673fdc3cc42ff296761dd326&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -1583,6 +1637,37 @@
       ],
       "displayTitle": "⚽ [LIVE 24/11] Getafe vs Atletico Madrid",
       "number": 19
+    },
+    {
+      "key": "24/11_LIVE_barcelona_villarreal",
+      "match_key": "24/11_LIVE_barcelona_villarreal",
+      "c_home": "barcelona",
+      "c_away": "villarreal",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Villarreal",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "LIVE",
+      "date": "24/11",
+      "timestamp": 1795496400000,
+      "league": "LALIGA",
+      "leagueName": "La Liga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_laliga",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=3808f1378ee1f89715cd786f6c24f5f4&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795463469",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_LIVE_barcelona_villarreal"
+        }
+      ],
+      "displayTitle": "⚽ [LIVE 24/11] Barcelona vs Villarreal",
+      "number": 20
     },
     {
       "key": "24/11_LIVE_atalanta_intermilan",
@@ -1604,8 +1689,8 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] ITA D1 - Atalanta vs Inter Milan (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=a1549c33e08ca77998d5e7a92530487e&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795462569",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=4c9be494bfb89472cce45baa0cc27c92&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -1613,7 +1698,7 @@
         }
       ],
       "displayTitle": "⚽ [LIVE 24/11] Atalanta vs Inter Milan",
-      "number": 20
+      "number": 21
     },
     {
       "key": "24/11_14:45_kashiwareysol_newcastle",
@@ -1673,7 +1758,7 @@
         }
       ],
       "displayTitle": "⚽ [14:45 24/11] Newcastle United vs Kashiwa Reysol",
-      "number": 21
+      "number": 22
     },
     {
       "key": "24/11_17:00_beijingguoan_daejeonhanacitizen",
@@ -1724,7 +1809,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Daejeon Hana Citizen vs Beijing Guoan",
-      "number": 22
+      "number": 23
     },
     {
       "key": "24/11_17:00_kyotosanga_pohangsteelers",
@@ -1793,7 +1878,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 24/11] Kyoto Sanga vs Pohang Steelers",
-      "number": 23
+      "number": 24
     },
     {
       "key": "24/11_19:15_buriramunited_shanghaiport",
@@ -1842,7 +1927,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Shanghai Port vs Buriram United",
-      "number": 24
+      "number": 25
     },
     {
       "key": "24/11_19:15_cahn_visselkobe",
@@ -1891,7 +1976,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] CAHN vs Vissel Kobe",
-      "number": 25
+      "number": 26
     },
     {
       "key": "24/11_19:15_johordarultazim_ratchaburi",
@@ -1931,7 +2016,7 @@
         }
       ],
       "displayTitle": "⚽ [19:15 24/11] Ratchaburi vs Johor Darul Ta'zim",
-      "number": 26
+      "number": 27
     },
     {
       "key": "24/11_21:30_alriffa_alzawraa",
@@ -1962,7 +2047,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 24/11] Al Riffa vs Al Zawraa Sc",
-      "number": 27
+      "number": 28
     },
     {
       "key": "24/11_22:00_bankelahly_smouha",
@@ -1993,7 +2078,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 24/11] Smouha Sc vs Bank El Ahly",
-      "number": 28
+      "number": 29
     },
     {
       "key": "24/11_23:00_alahli_alqadsiah",
@@ -2044,7 +2129,7 @@
         }
       ],
       "displayTitle": "⚽ [23:00 24/11] Al Ahli vs Al Qadsiah",
-      "number": 29
+      "number": 30
     },
     {
       "key": "25/11_00:00_ajman_alettifaq",
@@ -2077,7 +2162,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 25/11] Ajman vs Al Ettifaq",
-      "number": 30
+      "number": 31
     },
     {
       "key": "25/11_00:45_bodoglimt_lasklinz",
@@ -2117,7 +2202,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Bodo Glimt vs Lask Linz",
-      "number": 31
+      "number": 32
     },
     {
       "key": "25/11_00:45_astonvilla_galatasaray",
@@ -2168,7 +2253,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 32
+      "number": 33
     },
     {
       "key": "25/11_01:15_alnassr_alsaddsportsclub",
@@ -2208,7 +2293,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 25/11] Al Nassr vs Al Sadd",
-      "number": 33
+      "number": 34
     },
     {
       "key": "25/11_03:00_arsenalu19_youth_dortmund_youth",
@@ -2257,7 +2342,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund U23",
-      "number": 34
+      "number": 35
     },
     {
       "key": "25/11_03:00_psv_youth_realmadrid_youth",
@@ -2288,7 +2373,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid U19 vs PSV Eindhoven U19",
-      "number": 35
+      "number": 36
     },
     {
       "key": "25/11_03:00_aekathens_como",
@@ -2330,7 +2415,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Como vs Aek Athens",
-      "number": 36
+      "number": 37
     },
     {
       "key": "25/11_03:00_feyenoord_porto",
@@ -2361,7 +2446,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Feyenoord vs Porto",
-      "number": 37
+      "number": 38
     },
     {
       "key": "25/11_03:00_mancity_napoli",
@@ -2392,7 +2477,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Manchester City vs Napoli",
-      "number": 38
+      "number": 39
     },
     {
       "key": "25/11_03:00_leipzig_lens",
@@ -2423,7 +2508,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] RB Leipzig vs Lens",
-      "number": 39
+      "number": 40
     },
     {
       "key": "25/11_03:00_psv_realmadrid",
@@ -2463,7 +2548,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven",
-      "number": 40
+      "number": 41
     },
     {
       "key": "25/11_03:00_betis_slovanbratislava",
@@ -2494,7 +2579,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis",
-      "number": 41
+      "number": 42
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -2525,7 +2610,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 42
+      "number": 43
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -2556,7 +2641,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors",
-      "number": 43
+      "number": 44
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -2587,7 +2672,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 44
+      "number": 45
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -2618,7 +2703,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 45
+      "number": 46
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -2651,13 +2736,21 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 46
+      "number": 47
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
+        {
+          "name": "⚽ [02:45 24/11] Monza Vs Fiorentina (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/9fb71d5c81624eed8c9a3cfa301fc19a.png",
+          "competition": "Italian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
         {
           "name": "⚽ [01:15 24/11] Al Ittihad Vs Pakhtakor (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -2705,14 +2798,6 @@
           "competition": "Spanish Segunda Division",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "24/11_02:30_adceuta_almeria"
-        },
-        {
-          "name": "⚽ [02:45 24/11] Monza Vs Fiorentina (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/9fb71d5c81624eed8c9a3cfa301fc19a.png",
-          "competition": "Italian Serie A",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "24/11_02:45_fiorentina_monza"
         },
         {
           "name": "⚽ [03:00 24/11] Brentford Vs Everton (BLV Gà Siêu Ngố) - Gà Vàng",
@@ -3332,16 +3417,6 @@
           "match_key": "24/11_01:15_algharafasportsclub_alquwaaljawiya"
         },
         {
-          "name": "⚽ [03:00 24/11] Brentford vs Everton (Khầy Lương Khô) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
           "name": "⚽ [03:00 24/11] Levante vs Elche (BLV Xôi Xoài) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
@@ -3350,6 +3425,16 @@
           "competition": "La Liga",
           "group": "🍵 Xôi Chè TV",
           "match_key": "24/11_03:00_elche_levante"
+        },
+        {
+          "name": "⚽ [03:00 24/11] Brentford vs Everton (Khầy Lương Khô) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3073_everton.jpg",
+          "competition": "Premier League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "24/11_03:00_brentford_everton"
         },
         {
           "name": "⚽ [07:00 24/11] Santos vs Gremio (BLV Khô Mật) - Xôi Chè",
@@ -3468,7 +3553,7 @@
       "channels": [
         {
           "name": "⚽ [01:15 24/11] Al Ittihad vs Pakhtakor (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795484223840&sig=m0K_eIaGxNyaD5A2AIEsW-",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795485130771&sig=98Zk5hNqrWYj_jRo24shMT",
           "logo": "https://tflix.su/logos/med/teams/3513.png",
           "competition": "AFC Champions League Elite",
           "group": "F4K Sport",
@@ -3476,7 +3561,7 @@
         },
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (SKY SPORT 251 IT) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/18a020a5-ccbf-473e-b56d-a3f530be5a67/index.m3u8?exp=1795484223883&sig=Ct5D0LBDjr5GLPc1P2zjiz",
+          "url": "https://film4k.pl/api/tflix-live/18a020a5-ccbf-473e-b56d-a3f530be5a67/index.m3u8?exp=1795485130726&sig=ZHzws6lFDatNBFy862YvHh",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3484,7 +3569,31 @@
         },
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (Arena Sport 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/fcf0cb4b-938b-4573-928c-431f5997ff07/index.m3u8?exp=1795484223883&sig=kDZg4F2pjtBGcTZpQWkksX",
+          "url": "https://film4k.pl/api/tflix-live/fcf0cb4b-938b-4573-928c-431f5997ff07/index.m3u8?exp=1795485130726&sig=9N4_bqzMBWhUxcqYfn0rHA",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (PARAMOUNT+ FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvZGluYTJlbmRzdi9vdXQvdjEvYzBlNTBhNjA3NjJmNGI0Yzk3Y2JjMTQxYmUwM2MyZDQvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (DAZN SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc2ZoZWN4aDNnYy9vdXQvdjEvNzM3ODY4M2NiOTk1NGU3NzkyNWQ4MjI3OGVlZWZiYTEvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (FUBO SPORTS FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMveXVrcGd6anVrZi9vdXQvdjEvZTk1ODRjNmRlMGQxNDVhOWFjMWIzNmRkZjc3OTUwODEvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3493,6 +3602,22 @@
         {
           "name": "⚽ [02:45 24/11] Monza vs Fiorentina (beIN ENGLISH FHD) - F4K Sport",
           "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2JvbS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvOG04Y2Q0NmkxdC9vdXQvdjEvODM5ODVjNjhlNDE3NGU5MGE1OGExZjJjMDI0YmU0YzkvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (PEACOCK ES FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbXI2aGVqeXo1Yy9vdXQvdjEvZmUxNjdiZjhhMjM4NDZkMWEwZWRkNDU3MzM3MzA4ZTIvY2VuYy5tcGQ",
+          "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
+          "competition": "Italy : Serie A",
+          "group": "F4K Sport",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [02:45 24/11] Monza vs Fiorentina (DAZN ITALIA FHD) - F4K Sport",
+          "url": "https://film4k.pl/api/tflix-proxy/aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvbGdrbHVwcnd3NC9vdXQvdjEvOTkwOTUzOTcyNzU3NDdlMThkYjY0ZDRhYzZhZjdhNmEvY2VuYy5tcGQ",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-4007.png",
           "competition": "Italy : Serie A",
           "group": "F4K Sport",
@@ -3508,7 +3633,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sport 8 NZ) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795484223862&sig=7QYWXBX41IyARliMoaZCfG",
+          "url": "https://film4k.pl/api/tflix-live/8230cc3b6b09ee2e4efdee6e16f584ab/index.m3u8?exp=1795485130744&sig=zT28VPDyChdEYlZ9TA32TI",
           "logo": "https://tflix.su/logos/football-v14/team-337.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3516,7 +3641,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Main Event FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795484223862&sig=fY5YhDgbejD7oWJJKaJY1R",
+          "url": "https://film4k.pl/api/tflix-live/34cd051a5ba7f71e88c65ef52889215b/index.m3u8?exp=1795485130744&sig=2uckbplJW0J7leZBV9rGda",
           "logo": "https://tflix.su/logos/football-v14/team-337.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3524,7 +3649,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Brentford vs Everton (Sky Sports Premier League FHD) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795484223862&sig=mBr61Wfz_nb3-XpX495jqy",
+          "url": "https://film4k.pl/api/tflix-live/f7a57c88081e04f13a321ec277cb3361/index.m3u8?exp=1795485130744&sig=69oiCvunhPTRnV5DjYArYW",
           "logo": "https://tflix.su/logos/football-v14/team-337.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3532,7 +3657,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Brentford vs Everton (BEIN ARABIC 2) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795484223862&sig=shGCgR_C3DlvGAgMBzxIw8",
+          "url": "https://film4k.pl/api/tflix-live/7063717fe0ccaea35fb0a45fe7407e8f/index.m3u8?exp=1795485130744&sig=YW45-gb86cBl_ntxD1m2VZ",
           "logo": "https://tflix.su/logos/football-v14/team-337.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3540,7 +3665,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Brentford vs Everton (USA NETWORK) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/5e7be851f8b00aae2ec4b9d8a9380be8/index.m3u8?exp=1795484223862&sig=Ou2jamXuo0lZI1J5VzumS2",
+          "url": "https://film4k.pl/api/tflix-live/5e7be851f8b00aae2ec4b9d8a9380be8/index.m3u8?exp=1795485130744&sig=cr7mgt9RJKw1PLytmDWCpU",
           "logo": "https://tflix.su/logos/football-v14/team-337.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -3556,7 +3681,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Levante vs Elche (DAZN LALIGA) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/a2695d0c-f56e-483e-8d57-83011e391587/index.m3u8?exp=1795484223827&sig=CujdNk7-4m_3_Ni_HJWRf-",
+          "url": "https://film4k.pl/api/tflix-live/a2695d0c-f56e-483e-8d57-83011e391587/index.m3u8?exp=1795485130793&sig=AbEWpRKch6dhrzVg6AFRT0",
           "logo": "https://tflix.su/logos/football-v14/team-1538.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3564,7 +3689,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Levante vs Elche (ESPN Deportes) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795484223827&sig=gycJXoMfmMKwgFQ-nNi8LD",
+          "url": "https://film4k.pl/api/tflix-live/cb4af27ffaee550e8d3e0f4aa8c40e8e/index.m3u8?exp=1795485130793&sig=jYiV6o8i7NU07Ozdi-oGxk",
           "logo": "https://tflix.su/logos/football-v14/team-1538.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3572,7 +3697,7 @@
         },
         {
           "name": "⚽ [03:00 24/11] Levante vs Elche (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795484223827&sig=sCNXmz0n4CFOH0it9iRSSG",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795485130793&sig=GF7OlPCR8Tq3d1KS307iC3",
           "logo": "https://tflix.su/logos/football-v14/team-1538.png",
           "competition": "Spain : LaLiga",
           "group": "F4K Sport",
@@ -3782,104 +3907,120 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795466229-0-0-e49cff2c7d175477781c6825354dd887",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "DEN SASL",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:00_brondbyif_midtjylland"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795466229-0-0-1358cd40097562bae1cc03206fea978a",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795466229-0-0-cf44065b2dc6384295c1edd988db12f1",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_02:45_fiorentina_monza"
-        },
-        {
-          "name": "🥊 [LIVE 24/11] Hammarby vs IFK Goteborg (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795466229-0-0-eeeaa3f967464d2a64ce680343db5744",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "SWE D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:00_hammarby_ifkgoteborg"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795466229-0-0-2d996e39510269e0f7360e5b23821ff8",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795466229-0-0-28b0d258048842b629b9c614b372c480",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795466229-0-0-7fa14cb6674e047be09f3b9b88a61de1",
-          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
-          "competition": "DEN SASL",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:00_brondbyif_midtjylland"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795466229-0-0-1a3241164defa1f92261536c61088e00",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795467129-0-0-af4f8ba916bb315d441ca85a918af3e7",
           "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_01:15_alittihad_pakhtakor"
         },
         {
-          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5f46e8017b2fd0f7fd61124a3ba6efb4&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_01:15_alittihad_pakhtakor"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Al Quwa Al Jawiya vs Al-Gharafa SC (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=3e09feb7cc3d656c291957ef4faa3a5d&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=70949888fdd1fee363677cba4cfed4d8&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_01:15_algharafasportsclub_alquwaaljawiya"
         },
         {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795467129-0-0-7d5ef55959a3031625952cf776484b5c",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV ANH TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795467129-0-0-f82e24fd538e228b84795dd5578f5a49",
+          "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
+          "competition": "DEN SASL",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:00_brondbyif_midtjylland"
+        },
+        {
           "name": "⚽ [LIVE 24/11] KS Wieczysta Krakow vs Motor Lublin (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=0c1d5b3ea622f109c428163bc9a3421e&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=fe3b3b6b9da6b3bbe774780bae0dc33c&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_kswieczystakrakow_motorlublin"
         },
         {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=f7508da778bb0d4a11af463347fae6c9&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV ALEX) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795467129-0-0-34e587f409a008dbe9c6e47747269bd7",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Al Ittihad vs Pakhtakor (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795467129-0-0-de56ded433854e3bfac7ae5ddbcc53d1",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:15_alittihad_pakhtakor"
+        },
+        {
+          "name": "🥊 [LIVE 24/11] Hammarby vs IFK Goteborg (BLV TUẤN CÙI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795467129-0-0-42769afbe2dd877c24d6998f32e1c11f",
+          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
+          "competition": "SWE D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:00_hammarby_ifkgoteborg"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Brondby IF vs Midtjylland (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795467129-0-0-4d7b38d5ffb2e6404c681698e36a14d7",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "DEN SASL",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_01:00_brondbyif_midtjylland"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795467129-0-0-20e73704ae5e83fcff7d11b34c18d57c",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795467129-0-0-f8bcc9d7a1bd1f1dc25edc31ee1e5b82",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
           "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795466229-0-0-42d1f7b7c863e64817390c5536a8023e",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795467129-0-0-81fd9b3bf0f4ee2d3ba17dcf06b6c6ad",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_03:00_brentford_everton"
         },
         {
+          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=313b3027c9e1bf7a8f3cedcd29e1fcb9&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_03:00_brentford_everton"
+        },
+        {
           "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795466229-0-0-d9ecb308fa5fbcd015134faae4d75f1f",
+          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795467129-0-0-9b034e2f57d4d9625c5640ed6b7c9c61",
           "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
@@ -3887,7 +4028,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=85baa4e0b67029d257af2f13f8a0f959&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=d80361b2aab8a761efc895c510700721&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
@@ -3895,23 +4036,15 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795466229-0-0-2ba7ed00f3d36b423810e5286dbee172",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795467129-0-0-c0d374f05a2abae23a8f08629d22ca25",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_03:00_brentford_everton"
         },
         {
-          "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=bcfa170a41e2dcfa294015ddb7e54714&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_03:00_brentford_everton"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Brentford vs Everton (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795466229-0-0-ab5e3396dab4e81c2c9850dbe58fdcb3",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795467129-0-0-d993a41af24c3111f4444c8ecff40d32",
           "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
@@ -3919,15 +4052,31 @@
         },
         {
           "name": "⚽ [01:00 24/11] KS Wieczysta Krakow vs Motor Lublin (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c0c5b8c09ba5c11829a0d9fabcb34592&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=26250c8b21e72b8496d1076486fca1dd&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "POL D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_kswieczystakrakow_motorlublin"
         },
         {
+          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV XO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=aaa58a293a56917818ca0fbb2ad2a9a4&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795467129-0-0-f53ac2b39ae6f826be884b827b8f1bc8",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_02:45_fiorentina_monza"
+        },
+        {
           "name": "🥊 [LIVE 24/11] Hammarby vs IFK Goteborg (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=4d6b669f2c260af8cb037a88eb6a9b0e&txTime=6b04ea45",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=88fb86ead639e8d1fdc08f8fa2fe26f0&txTime=6b04edc9",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "SWE D1",
           "group": "🐿️ SocoLive",
@@ -3935,47 +4084,23 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Al Quwa Al Jawiya vs Al-Gharafa SC (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795466229-0-0-1b2a2c7d6718bfbcfe9e77cc9c1655a6",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795467129-0-0-0635dd773a10195f27e8cbf21a01bccf",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_01:15_algharafasportsclub_alquwaaljawiya"
         },
         {
-          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795466229-0-0-c173eae950854592d89f7c0df4c37300",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_02:45_fiorentina_monza"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=99d04f99f88a365dabdf4de89c215f56&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_02:45_fiorentina_monza"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Orgryte vs Kalmar (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795466229-0-0-458aad3854018525f62ecfe9b7d58680",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795467137-0-0-dc4553c1e524ebc3c144e6a5073ceb18",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "SWE D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_01:00_kalmar_orgryte"
         },
         {
-          "name": "⚽ [LIVE 24/11] Monza vs Fiorentina (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795466229-0-0-46babc4e6708b15e8f5dfe4006d9b1b9",
-          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_02:45_fiorentina_monza"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795466229-0-0-f39d42c214138638d2b967c7f7931dcb",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795467129-0-0-6d5ec9c57882ccd68ed4b1e1f1c425a0",
           "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
@@ -3983,7 +4108,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795466229-0-0-8abda60485ebfa91172566155a588c14",
+          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795467129-0-0-db7cc4cdc22b924c5f76dcc842ab3126",
           "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
@@ -3991,7 +4116,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795466229-0-0-7cca68ca0ccf32f1a9042827393610df",
+          "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1795467129-0-0-ee10f243358d428e886cabf2a692b41d",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
@@ -3999,59 +4124,59 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Levante vs Elche CF (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795466229-0-0-a112ca02fbe901786ed20b3fbf1f16ff",
-          "logo": "https://sta.vnres.co/file/live/room/cover/632877.jpg?t=1795462569",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795467129-0-0-5a0d4db0be075a33f272dc4aaa92b3da",
+          "logo": "https://sta.vnres.co/file/live/room/cover/632877.jpg?t=1795463469",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_03:00_elche_levante"
         },
         {
-          "name": "⚽ [LIVE 24/11] ITA D1 - Atalanta vs Inter Milan (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=a1549c33e08ca77998d5e7a92530487e&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795462569",
+          "name": "⚽ [LIVE 24/11] ENG PR - Hull City vs Brighton Hove Albion (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=d20674f1917e49b3be05e8fb8515133e&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/179093.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_atalanta_intermilan"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=88b23d5843b09c75bc0103f7758096b8&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795462569",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_barcelona_villarreal"
+          "match_key": "24/11_LIVE_brighton_hullcity"
         },
         {
           "name": "⚽ [LIVE 24/11] Tường thuật: SPA D1 - Getafe vs Atletico Madrid - Getafe vs Atletico Madrid (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=bddf014c447500718cb8e319d73096f0&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795462569",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=f9402a5c673fdc3cc42ff296761dd326&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/133277.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_atleticomadrid_getafe"
         },
         {
           "name": "⚽ [LIVE 24/11] USA MLS - Vancouver Whitecaps vs Real Salt Lake (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=6471fad359a61fd17fda258a05e8c418&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/133824.jpg?t=1795462569",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=fb2b465a5ab3204f35a5873adac70c74&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/133824.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_realsaltlake_vancouverwhitecaps"
         },
         {
-          "name": "⚽ [LIVE 24/11] ENG PR - Hull City vs Brighton Hove Albion (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=d3597d6731011d6c592f37d4755577f5&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/179093.jpg?t=1795462629",
+          "name": "⚽ [LIVE 24/11] ITA D1 - Atalanta vs Inter Milan (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=4c9be494bfb89472cce45baa0cc27c92&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/343500.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_brighton_hullcity"
+          "match_key": "24/11_LIVE_atalanta_intermilan"
         },
         {
           "name": "⚽ [LIVE 24/11] ENG PR - Liverpool vs Manchester United (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=1f4f641e779d7c1cd5c2c12c94c2eb25&txTime=6b04ea45",
-          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795462629",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=75bd01691dec4f745519820c68016201&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/452823.jpg?t=1795463469",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_liverpool_manutd"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] SPA D1 - FC Barcelona vs Villarreal CF (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=3808f1378ee1f89715cd786f6c24f5f4&txTime=6b04edc9",
+          "logo": "https://sta.vnres.co/file/live/room/cover/152898.jpg?t=1795463469",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_barcelona_villarreal"
         }
       ]
     },
@@ -5120,9 +5245,9 @@
       "home_score": "0",
       "away_score": "0",
       "league": "SERIE_A",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "Scheduled",
+      "detail": "7'",
       "date": "2026-11-23T19:45Z"
     },
     {
