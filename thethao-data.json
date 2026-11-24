@@ -1,6 +1,320 @@
 {
-  "updated_at": "2026-11-25 00:23:10",
+  "updated_at": "2026-11-25 00:38:10",
   "live_events": [
+    {
+      "key": "25/11_00:45_bodoglimt_lasklinz",
+      "match_key": "25/11_00:45_bodoglimt_lasklinz",
+      "c_home": "bodoglimt",
+      "c_away": "lasklinz",
+      "homeTeam": "Bodo Glimt",
+      "awayTeam": "Lask Linz",
+      "homeLogo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/166_lask.jpg",
+      "time": "00:45",
+      "date": "25/11",
+      "timestamp": 1795542300000,
+      "league": "UCL",
+      "leagueName": "Champions League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:45 25/11] Fk Bodoglimt Vs Lask Linz (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
+          "competition": "UEFA Champions League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/166_lask.jpg",
+          "competition": "UEFA Champions League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=45aa898e1c4d164bc3bb2749ac540da9&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=49fb52dc2ba1e622a52dee2250054d24&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795545429-0-0-19b3872a6d4a50de3cc3cae8ee8dfb0b",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795545429-0-0-9312f1841688ed4da507e7c7b5627c6c",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV CÒ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-582342_lhd.m3u8?txSecret=822de9343fd5cd11cb207c24e0a31141&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=92d5398003883e56b10195ca37b63e91&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Bodo/Glimt vs Lask Linz (BLV Chuối Già) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125644_84f4e145.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV NGƯỜI THỎ) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/bodo-linz-c1/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/68d18863-445c-4c63-b43f-bd0f2b627fec",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] FK Bodo/Glimt vs LASK Linz (BLV Dương Kiên) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/98854ab97eadf3d2c7c6d657ad99df96.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV LÝ LẮC) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/d5dda5f5e5d84fc78139691761722f3a/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh9xyr1ge/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV Nhà đài) - Phá Làng TV",
+          "url": "https://lilive1.eu.cc/live/ac9d03418098178a6058c8d7c89d5d6e/playlist.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh9xyr1ge/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        }
+      ],
+      "displayTitle": "🔴 [00:45 25/11] Bodo Glimt vs Lask Linz",
+      "number": 1
+    },
+    {
+      "key": "25/11_00:45_astonvilla_galatasaray",
+      "match_key": "25/11_00:45_astonvilla_galatasaray",
+      "c_home": "galatasaray",
+      "c_away": "astonvilla",
+      "homeTeam": "Galatasaray",
+      "awayTeam": "Aston Villa",
+      "homeLogo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+      "time": "00:45",
+      "date": "25/11",
+      "timestamp": 1795542300000,
+      "league": "UCL",
+      "leagueName": "Champions League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray Vs Aston Villa (BLV Gà Siêu Mõm) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
+          "competition": "UEFA Champions League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "competition": "UEFA Champions League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:35 25/11] Galatasaray vs Aston Villa (TV360+ 3) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/200/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NTk4NTAsInVyaSI6Ii9icGstdHYvMjAwL291dHB1dC9pbmRleC5tcGQifQ.hfuWCbs-Yr3we1fRFVwdCEeIZ3wvx7a2xW71aSqhMh4&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/08/1795397379594/7de509105bc5_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "32025feb5d1f50fc9b9d3a83b1176670",
+            "key": "75789b2624c58c07385b5a37682c9efc"
+          },
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CURRY) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=275b07ce08c41f1b497d666c762db455&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20261125/81bc0c3f5c2fb4d4218980ad425cd79c.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795545429-0-0-a80ff9752ab1f175480c2e1fa16b691b",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795545429-0-0-4ae886b6ea65acfd1ac13fdfc0c5c71a",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795545429-0-0-dbe85d06cbd35ace59f454393aa59b0c",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795545429-0-0-bd86c35ca50ec31b8ee3620fe339f069",
+          "logo": "https://sta.vnres.co/file/common/20261125/11569eb1bdb5548043f4be7c3a43f352.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795545429-0-0-73ea65b63079bac2b9e11e60d8b94827",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125652_ed875292.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV NGƯỜI NẶN) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/galata-ast-c1/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/4b96aa28-1c1d-4211-80ed-28fbc8a0336a",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Lưu Bang) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/fbcf002c8d6dd34813fa2b3a4cc9b04c.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV SODA) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/02456966.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c25f0689a67120aa381d434bbc896050.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV SODA) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/02456966_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/c25f0689a67120aa381d434bbc896050.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/d8584289bcbc4b00a69fc4cd8ea6b2f9/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Nhà đài) - Phá Làng TV",
+          "url": "https://lilive1.eu.cc/live/6d1501db34b081a0f8452cc740633f7c/playlist.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        }
+      ],
+      "displayTitle": "🔴 [00:45 25/11] Galatasaray vs Aston Villa",
+      "number": 2
+    },
     {
       "key": "24/11_23:00_alahli_alqadsiah",
       "match_key": "24/11_23:00_alahli_alqadsiah",
@@ -77,78 +391,6 @@
         }
       ],
       "displayTitle": "🔴 [23:00 24/11] Al Ahli vs Al Qadsiah",
-      "number": 1
-    },
-    {
-      "key": "24/11_22:20_colombia_youth_u17honduras_youth",
-      "match_key": "24/11_22:20_colombia_youth_u17honduras_youth",
-      "c_home": "u17honduras_youth",
-      "c_away": "colombia_youth",
-      "homeTeam": "U17 Honduras",
-      "awayTeam": "Colombia U17",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "22:20",
-      "date": "24/11",
-      "timestamp": 1795533600000,
-      "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:20 24/11] U17 Honduras vs U17 Colombia (TV360+ 14) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NTk4MzgsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.SQGnblzC6PqQifQZIYUTjAtV7YBif8Fj-E2i_7TGaNk&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794905485674/6a97c1ce1620_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "e57b008cedba5d12a192e66152bb61ca",
-            "key": "a4b58d543b1c042f8b399f268040b623"
-          },
-          "match_key": "24/11_22:20_colombia_youth_u17honduras_youth"
-        }
-      ],
-      "displayTitle": "🔴 [22:20 24/11] U17 Honduras vs Colombia U17",
-      "number": 2
-    },
-    {
-      "key": "24/11_22:20_montenegro_youth_u17algeria_youth",
-      "match_key": "24/11_22:20_montenegro_youth_u17algeria_youth",
-      "c_home": "u17algeria_youth",
-      "c_away": "montenegro_youth",
-      "homeTeam": "U17 Algeria",
-      "awayTeam": "Montenegro U17",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "22:20",
-      "date": "24/11",
-      "timestamp": 1795533600000,
-      "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:20 24/11] U17 Algeria vs U17 Montenegro (TV360+ 13) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTU1OTg0MX0.wjF4VYWpb08lGUvS8u8B0MYTIZe9dVs10lOimh33xDoBbm_w36z5rLA-11TTnS8Gn3TSXcQmlCP5Y0vuNISv4g&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794905184620/a3ebf286ce72_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "41ce0eac12eb58f69607df0d2eaff649",
-            "key": "68c1d283bdd53500336f0db4900e2170"
-          },
-          "match_key": "24/11_22:20_montenegro_youth_u17algeria_youth"
-        }
-      ],
-      "displayTitle": "🔴 [22:20 24/11] U17 Algeria vs Montenegro U17",
       "number": 3
     },
     {
@@ -465,300 +707,35 @@
       "number": 11
     },
     {
-      "key": "25/11_00:45_bodoglimt_lasklinz",
-      "match_key": "25/11_00:45_bodoglimt_lasklinz",
-      "c_home": "bodoglimt",
-      "c_away": "lasklinz",
-      "homeTeam": "Bodo Glimt",
-      "awayTeam": "Lask Linz",
-      "homeLogo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/166_lask.jpg",
+      "key": "25/11_00:45_bodglimt_lask",
+      "match_key": "25/11_00:45_bodglimt_lask",
+      "c_home": "bodglimt",
+      "c_away": "lask",
+      "homeTeam": "Bodø/glimt",
+      "awayTeam": "Lask",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "00:45",
       "date": "25/11",
       "timestamp": 1795542300000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": false,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [00:45 25/11] Fk Bodoglimt Vs Lask Linz (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/166_lask.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=e10421b5769259503b883e2ea284e7be&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795544529-0-0-fe785b960990262a36bef97f5a3cd163",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fc780e3ef809b31dadbac6ae04cf8171&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795544529-0-0-9d27e1809551b5e5e66b8de033357e3f",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Bodo/Glimt vs Lask Linz (BLV Chuối Già) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125644_84f4e145.png",
+          "name": "⚽ [00:45 25/11] Bodø/Glimt vs LASK (BLV Long Ruồi) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8402.png",
           "competition": "",
-          "group": "⚡ Chuối Chiên TV",
+          "group": "⚡ Sao Kê TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV NGƯỜI THỎ) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/bodo-linz-c1/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/68d18863-445c-4c63-b43f-bd0f2b627fec",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] FK Bodo/Glimt vs LASK Linz (BLV Dương Kiên) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/98854ab97eadf3d2c7c6d657ad99df96.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV LÝ LẮC) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/d5dda5f5e5d84fc78139691761722f3a/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh9xyr1ge/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Bodo Glimt vs LASK Linz (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/ac9d03418098178a6058c8d7c89d5d6e/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/l965mkyh9xyr1ge/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+          "match_key": "25/11_00:45_bodglimt_lask"
         }
       ],
-      "displayTitle": "⚽ [00:45 25/11] Bodo Glimt vs Lask Linz",
+      "displayTitle": "🔴 [00:45 25/11] Bodø/glimt vs Lask",
       "number": 12
-    },
-    {
-      "key": "25/11_00:45_astonvilla_galatasaray",
-      "match_key": "25/11_00:45_astonvilla_galatasaray",
-      "c_home": "galatasaray",
-      "c_away": "astonvilla",
-      "homeTeam": "Galatasaray",
-      "awayTeam": "Aston Villa",
-      "homeLogo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-      "time": "00:45",
-      "date": "25/11",
-      "timestamp": 1795542300000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray Vs Aston Villa (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:35 25/11] Galatasaray vs Aston Villa (TV360+ 3) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/200/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NTk4NTAsInVyaSI6Ii9icGstdHYvMjAwL291dHB1dC9pbmRleC5tcGQifQ.hfuWCbs-Yr3we1fRFVwdCEeIZ3wvx7a2xW71aSqhMh4&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/08/1795397379594/7de509105bc5_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "32025feb5d1f50fc9b9d3a83b1176670",
-            "key": "75789b2624c58c07385b5a37682c9efc"
-          },
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795544529-0-0-0014e7cda6f60441bdcacfa907c5ef31",
-          "logo": "https://sta.vnres.co/file/common/20261125/11569eb1bdb5548043f4be7c3a43f352.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795544529-0-0-d778d3e2679f7bd7c58da6f2c96a3623",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795544529-0-0-f4f154264b77f830f8e71e3d8b89d21a",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=f818ddd1213cbafadedc747e8a727bcc&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20261125/81bc0c3f5c2fb4d4218980ad425cd79c.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795544529-0-0-45eec9b9e7795f6de15368a25d60ed1e",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795544529-0-0-95b7f7af093a177376b7518d062fe51a",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Chuối Chao) [FHD] [hls] - Chuối Chiên TV",
-          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-          "logo": "https://media.chuoichientv.net/media/uploads/20250623_125652_ed875292.png",
-          "competition": "",
-          "group": "⚡ Chuối Chiên TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV NGƯỜI NẶN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/galata-ast-c1/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/4b96aa28-1c1d-4211-80ed-28fbc8a0336a",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Lưu Bang) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/fbcf002c8d6dd34813fa2b3a4cc9b04c.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV SODA) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/02456966.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c25f0689a67120aa381d434bbc896050.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV SODA) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/02456966_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/c25f0689a67120aa381d434bbc896050.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/d8584289bcbc4b00a69fc4cd8ea6b2f9/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/6d1501db34b081a0f8452cc740633f7c/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        }
-      ],
-      "displayTitle": "⚽ [00:45 25/11] Galatasaray vs Aston Villa",
-      "number": 13
     },
     {
       "key": "25/11_01:15_alnassr_alsaddsportsclub",
@@ -800,8 +777,17 @@
         },
         {
           "name": "⚽ [LIVE 25/11] Al Nassr vs Al-Sadd (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=c2d9c5cbfb241c04623beca09d434325&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=23d6ce92cde19bfb948e69171214f44d&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_01:15_alnassr_alsaddsportsclub"
+        },
+        {
+          "name": "⚽ [01:15 25/11] Al Nassr vs Al-Sadd (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c979aa81a7c5e513fb3ac6a9eb251797&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -854,7 +840,7 @@
         }
       ],
       "displayTitle": "⚽ [01:15 25/11] Al Nassr vs Al Sadd",
-      "number": 14
+      "number": 13
     },
     {
       "key": "25/11_03:00_arsenal_dortmund",
@@ -964,7 +950,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund",
-      "number": 15
+      "number": 14
     },
     {
       "key": "25/11_03:00_aekathens_como",
@@ -995,7 +981,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Como vs Aek Athens",
-      "number": 16
+      "number": 15
     },
     {
       "key": "25/11_03:00_feyenoord_porto",
@@ -1046,7 +1032,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Feyenoord vs Porto",
-      "number": 17
+      "number": 16
     },
     {
       "key": "25/11_03:00_mancity_napoli",
@@ -1147,7 +1133,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Manchester City vs Napoli",
-      "number": 18
+      "number": 17
     },
     {
       "key": "25/11_03:00_leipzig_lens",
@@ -1198,7 +1184,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] RB Leipzig vs Lens",
-      "number": 19
+      "number": 18
     },
     {
       "key": "25/11_03:00_psv_realmadrid",
@@ -1272,7 +1258,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven",
-      "number": 20
+      "number": 19
     },
     {
       "key": "25/11_03:00_betis_slovanbratislava",
@@ -1332,7 +1318,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis",
-      "number": 21
+      "number": 20
     },
     {
       "key": "25/11_03:00_psv_youth_realmadrid_youth",
@@ -1372,7 +1358,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 25/11] Real Madrid U19 vs PSV Eindhoven U19",
-      "number": 22
+      "number": 21
     },
     {
       "key": "25/11_08:00_doibongrobostonceltics_washingtonwizards",
@@ -1412,7 +1398,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 25/11] Washington Wizards vs Doi Bong Ro Boston Celtics",
-      "number": 23
+      "number": 22
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -1463,7 +1449,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 24
+      "number": 23
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -1514,7 +1500,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors",
-      "number": 25
+      "number": 24
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -1545,7 +1531,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 26
+      "number": 25
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -1576,7 +1562,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 27
+      "number": 26
     },
     {
       "key": "26/11_00:00_alnasrdubai_qatar",
@@ -1607,7 +1593,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 26/11] Qatar vs Al Nasr Dubai",
-      "number": 28
+      "number": 27
     },
     {
       "key": "26/11_00:45_barcelona_sabah",
@@ -1638,7 +1624,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Sabah FC vs Barcelona",
-      "number": 29
+      "number": 28
     },
     {
       "key": "26/11_00:45_slavia_villarreal",
@@ -1669,7 +1655,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Slavia Prague vs Villarreal",
-      "number": 30
+      "number": 29
     },
     {
       "key": "26/11_03:00_atleticomadrid_viking",
@@ -1700,7 +1686,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atletico Madrid vs Viking FK",
-      "number": 31
+      "number": 30
     },
     {
       "key": "26/11_03:00_brugge_liverpool",
@@ -1731,7 +1717,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Club Brugge vs Liverpool",
-      "number": 32
+      "number": 31
     },
     {
       "key": "26/11_03:00_intermilan_stuttgart",
@@ -1762,7 +1748,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Inter Milan vs VfB Stuttgart",
-      "number": 33
+      "number": 32
     },
     {
       "key": "26/11_03:00_bayern_losclille",
@@ -1804,7 +1790,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Lille vs Bayern Munich",
-      "number": 34
+      "number": 33
     },
     {
       "key": "26/11_03:00_parissaintgermain_roma",
@@ -1835,7 +1821,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint Germain vs AS Roma",
-      "number": 35
+      "number": 34
     },
     {
       "key": "26/11_03:00_fenerbahce_shakhtardonetsk",
@@ -1866,7 +1852,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Shakhtar Donetsk vs Fenerbahce",
-      "number": 36
+      "number": 35
     },
     {
       "key": "26/11_03:00_manutd_sportingcp",
@@ -1897,7 +1883,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Sporting CP vs Manchester United",
-      "number": 37
+      "number": 36
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -1930,7 +1916,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 38
+      "number": 37
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -1961,7 +1947,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 39
+      "number": 38
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -1992,7 +1978,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 40
+      "number": 39
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -2025,7 +2011,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 41
+      "number": 40
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -2058,7 +2044,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 42
+      "number": 41
     }
   ],
   "source_groups": [
@@ -2703,16 +2689,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BLV Khô Cay) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/215_bod--glimt.jpg",
@@ -2721,6 +2697,16 @@
           "competition": "UEFA Champions League",
           "group": "🍵 Xôi Chè TV",
           "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/192_galatasaray.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+          "competition": "UEFA Champions League",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
         },
         {
           "name": "⚽ [01:15 25/11] Al Nassr vs Al-Sadd (Khầy Lương Khô) - Xôi Chè",
@@ -3039,6 +3025,28 @@
           }
         },
         {
+          "name": "📺 TV360+ 13 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTU1OTg0MX0.wjF4VYWpb08lGUvS8u8B0MYTIZe9dVs10lOimh33xDoBbm_w36z5rLA-11TTnS8Gn3TSXcQmlCP5Y0vuNISv4g&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "41ce0eac12eb58f69607df0d2eaff649",
+            "key": "68c1d283bdd53500336f0db4900e2170"
+          }
+        },
+        {
+          "name": "📺 TV360+ 14 (Trực tiếp) - TV360",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NTk4MzgsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.SQGnblzC6PqQifQZIYUTjAtV7YBif8Fj-E2i_7TGaNk&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "e57b008cedba5d12a192e66152bb61ca",
+            "key": "a4b58d543b1c042f8b399f268040b623"
+          }
+        },
+        {
           "name": "📺 TV360+ 15 (Trực tiếp) - TV360",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/473/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NTk4ODYsInVyaSI6Ii9icGstdHYvNDczL291dHB1dC9pbmRleC5tcGQifQ.qORFAOZhk9VDXNvHqBgpn31lW1LEKJbTaGzoKCqCs5c&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png",
@@ -3071,96 +3079,88 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=e10421b5769259503b883e2ea284e7be&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795544529-0-0-0014e7cda6f60441bdcacfa907c5ef31",
-          "logo": "https://sta.vnres.co/file/common/20261125/11569eb1bdb5548043f4be7c3a43f352.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795544529-0-0-d778d3e2679f7bd7c58da6f2c96a3623",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795544529-0-0-f4f154264b77f830f8e71e3d8b89d21a",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=f818ddd1213cbafadedc747e8a727bcc&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20261125/81bc0c3f5c2fb4d4218980ad425cd79c.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795544529-0-0-45eec9b9e7795f6de15368a25d60ed1e",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_astonvilla_galatasaray"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795544529-0-0-fe785b960990262a36bef97f5a3cd163",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_00:45_bodoglimt_lasklinz"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Honduras U17 vs Colombia U17 (BLV CÒ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1795544549-0-0-4180b7bb76db55634afb623c06643f7a",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_colombia_youth_hondurasu17_youth"
-        },
-        {
           "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=fc780e3ef809b31dadbac6ae04cf8171&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=45aa898e1c4d164bc3bb2749ac540da9&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "UEFA CL",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_00:45_bodoglimt_lasklinz"
         },
         {
-          "name": "⚽ [LIVE 25/11] Algeria U17 vs Montenegro U17 (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=9371ac8a57eedd12ce23b4e350487c1c&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=49fb52dc2ba1e622a52dee2250054d24&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "UEFA CL",
           "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_algeriau17_youth_montenegro_youth"
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795545429-0-0-19b3872a6d4a50de3cc3cae8ee8dfb0b",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CURRY) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=275b07ce08c41f1b497d666c762db455&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20261125/81bc0c3f5c2fb4d4218980ad425cd79c.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV MESSI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795545429-0-0-a80ff9752ab1f175480c2e1fa16b691b",
+          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795545429-0-0-4ae886b6ea65acfd1ac13fdfc0c5c71a",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV THẠCH TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912116_lhd.m3u8?auth_key=1795545429-0-0-dbe85d06cbd35ace59f454393aa59b0c",
+          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
         },
         {
           "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795544529-0-0-9d27e1809551b5e5e66b8de033357e3f",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795545429-0-0-9312f1841688ed4da507e7c7b5627c6c",
           "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
           "competition": "UEFA CL",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_00:45_bodoglimt_lasklinz"
         },
         {
+          "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV CR Bưởi) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1795545429-0-0-bd86c35ca50ec31b8ee3620fe339f069",
+          "logo": "https://sta.vnres.co/file/common/20261125/11569eb1bdb5548043f4be7c3a43f352.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_astonvilla_galatasaray"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV CÒ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-582342_lhd.m3u8?txSecret=822de9343fd5cd11cb207c24e0a31141&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Galatasaray vs Aston Villa (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795544529-0-0-95b7f7af093a177376b7518d062fe51a",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795545429-0-0-73ea65b63079bac2b9e11e60d8b94827",
           "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
           "competition": "UEFA CL",
           "group": "🐿️ SocoLive",
@@ -3168,136 +3168,104 @@
         },
         {
           "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912135_lhd.m3u8?txSecret=a25f8f3d071e225b909c8c005868548c&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-9912135_lhd.m3u8?txSecret=620006a0ab5cfa64e0650f18cfffc48d&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alahli_alqadsiah"
         },
         {
-          "name": "⚽ [LIVE 25/11] Honduras U17 vs Colombia U17 (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795544529-0-0-aa10eeba42370e8d5b5d9a8064ba19cc",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 25/11] FK Bodo/Glimt vs LASK Linz (BLV BÉO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=92d5398003883e56b10195ca37b63e91&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
+          "competition": "UEFA CL",
           "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_colombia_youth_hondurasu17_youth"
+          "match_key": "25/11_00:45_bodoglimt_lasklinz"
         },
         {
           "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912008_lhd.m3u8?txSecret=fe0c1065e609298698da6dc6b5a16a75&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-9912008_lhd.m3u8?txSecret=2556d615aff0b4c84644a232a0a21c40&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alahli_alqadsiah"
         },
         {
-          "name": "⚽ [22:30 25/11] Algeria U17 vs Montenegro U17 (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=1b8f9dd5e5efdd10cd0f47628774c03f&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_algeriau17_youth_montenegro_youth"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-235232_lhd.m3u8?txSecret=e14812cc20807a76eb2c0a9ceed0f26b&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-235232_lhd.m3u8?txSecret=82aa8438269e294f5f6f12f2624f199f&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20261123/c19a27927bb7f807069a643e5accc4a2.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alahli_alqadsiah"
         },
         {
-          "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912143_lhd.m3u8?txSecret=0bb655354d62a746db845dc0ced506fd&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_alahli_alqadsiah"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-304148_lhd.m3u8?txSecret=d9916ef046957385b4234548f2055c2c&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-304148_lhd.m3u8?txSecret=0e126933b7a3ed797a1ba98a51e29a0b&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alahli_alqadsiah"
         },
         {
+          "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912143_lhd.m3u8?txSecret=fc6ae1bee51768419f18ab712d2e80ae&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE_alahli_alqadsiah"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Shabab Al Ahli vs Al Qadsiah (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795544529-0-0-117b98af410d0c85614c669e8a44fd76",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795545429-0-0-a42011862a2c61c162b947654155d13c",
           "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alahli_alqadsiah"
         },
         {
-          "name": "⚽ [LIVE 25/11] Zenit St. Petersburg vs Krylya Sovetov (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=bcad9d89b240ebd6a687aed746436311&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "RUS Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_krylyasovetov_zenitstpetersburg"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Al Seeb SC vs Al Shorta (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795544529-0-0-f6f73546faa37d7a9470e29b16d50fe8",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795545429-0-0-63a0977e3f5cedf759e2b3e47bca7413",
           "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "ACL2",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alseeb_alshorta"
         },
         {
-          "name": "⚽ [LIVE 25/11] Zenit St. Petersburg vs Krylya Sovetov (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=cd169feb8721751bf3fbf475724c4208&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "name": "⚽ [LIVE 25/11] Zenit St. Petersburg vs Krylya Sovetov (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=987a19e5c62233bfaeda0f71b5944af7&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
           "competition": "RUS Cup",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_krylyasovetov_zenitstpetersburg"
         },
         {
-          "name": "⚽ [LIVE 25/11] Honduras U17 vs Colombia U17 (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=78f4b6a11fc7327e4d4981d9bd6a7ada&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_colombia_youth_hondurasu17_youth"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Honduras U17 vs Colombia U17 (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795544545-0-0-b22fd2e8a9818ec1945792657e1d8989",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_colombia_youth_hondurasu17_youth"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Al Seeb SC vs Al Shorta (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795544529-0-0-8cd4a5e0742e2e8746a5b5aab6d9ee0c",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795545429-0-0-140d514cc150192f844413b97719c511",
           "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
           "competition": "ACL2",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_alseeb_alshorta"
         },
         {
-          "name": "⚽ [LIVE 25/11] Algeria U17 vs Montenegro U17 (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912124_lhd.m3u8?txSecret=e00f9e90887f48dae7a8063d1d4fde71&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 25/11] Zenit St. Petersburg vs Krylya Sovetov (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=491505b6994d3441125ee36c2e3c4678&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "RUS Cup",
           "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_algeriau17_youth_montenegro_youth"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Algeria U17 vs Montenegro U17 (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=9e2d3418a207a8d877277ec5de9f50bd&txTime=6b061c21",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_algeriau17_youth_montenegro_youth"
+          "match_key": "25/11_LIVE_krylyasovetov_zenitstpetersburg"
         },
         {
           "name": "⚽ [LIVE 25/11] Al Nassr vs Al-Sadd (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=c2d9c5cbfb241c04623beca09d434325&txTime=6b061c21",
+          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=23d6ce92cde19bfb948e69171214f44d&txTime=6b061fa5",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_01:15_alnassr_alsaddsportsclub"
+        },
+        {
+          "name": "⚽ [01:15 25/11] Al Nassr vs Al-Sadd (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c979aa81a7c5e513fb3ac6a9eb251797&txTime=6b061fa5",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "ACL Elite",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_01:15_alnassr_alsaddsportsclub"
