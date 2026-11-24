@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 07:27:43",
+  "updated_at": "2026-11-24 07:43:45",
   "live_events": [
     {
       "key": "24/11_07:00_philadelphia76ers_portlandtrailblazers",
@@ -21,7 +21,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] Philadelphia 76ers vs Portland Trail Blazers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795483569-0-0-ac7218d9f487613987de3b06e91e1215",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795484529-0-0-97022250c050239afc21a2ab48b5cf66",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -110,7 +110,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] Indiana Pacers vs Oklahoma City Thunder (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795483569-0-0-41c7693d1fae36e682ea2036e88368d6",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795484529-0-0-28c65950b9d7db520af2d18b4807a388",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -119,7 +119,7 @@
         },
         {
           "name": "⚽ [LIVE 24/11] Indiana Pacers vs Oklahoma City Thunder (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795483569-0-0-fd852855357bbdf0d9f46398c3f6b887",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795484529-0-0-ebd7feb9651656e0eb40d08f7dc4f8ee",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -149,6 +149,37 @@
       "number": 3
     },
     {
+      "key": "24/11_07:30_milwaukeebucks_torontoraptors",
+      "match_key": "24/11_07:30_milwaukeebucks_torontoraptors",
+      "c_home": "torontoraptors",
+      "c_away": "milwaukeebucks",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Milwaukee Bucks",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "24/11",
+      "timestamp": 1795480200000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 24/11] Toronto Raptors vs Milwaukee Bucks (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795484529-0-0-cb402ed910be3eae67bdb8e1f4cce74a",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "24/11_07:30_milwaukeebucks_torontoraptors"
+        }
+      ],
+      "displayTitle": "🏀 [07:30 24/11] Toronto Raptors vs Milwaukee Bucks",
+      "number": 4
+    },
+    {
       "key": "24/11_07:30_brooklynnets_minnesotatimberwolves",
       "match_key": "24/11_07:30_brooklynnets_minnesotatimberwolves",
       "c_home": "minnesotatimberwolves",
@@ -168,7 +199,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] Minnesota Timberwolves vs Brooklyn Nets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795483569-0-0-1655eed73d2147eca61bba4c6905146c",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795484529-0-0-50b8f779fda11b47ab8b24bae3bbca84",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -195,37 +226,6 @@
         }
       ],
       "displayTitle": "🏀 [07:30 24/11] Minnesota Timberwolves vs Brooklyn Nets",
-      "number": 4
-    },
-    {
-      "key": "24/11_07:30_milwaukeebucks_torontoraptors",
-      "match_key": "24/11_07:30_milwaukeebucks_torontoraptors",
-      "c_home": "torontoraptors",
-      "c_away": "milwaukeebucks",
-      "homeTeam": "Toronto Raptors",
-      "awayTeam": "Milwaukee Bucks",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "24/11",
-      "timestamp": 1795480200000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 24/11] Toronto Raptors vs Milwaukee Bucks (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795483569-0-0-14f44970bdf502f5138c7302e8a020c7",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "24/11_07:30_milwaukeebucks_torontoraptors"
-        }
-      ],
-      "displayTitle": "🏀 [07:30 24/11] Toronto Raptors vs Milwaukee Bucks",
       "number": 5
     },
     {
@@ -514,7 +514,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 24/11] Chicago Bulls vs Cleveland Cavaliers (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795483569-0-0-c76b841af461bde724562acc645b4bfa",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795484529-0-0-112e3d92c57548c8302115035ec6978a",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -663,15 +663,15 @@
         },
         {
           "name": "⚽ [14:35 24/11] Newcastle Jets vs Kashiwa Reysol (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODM2ODksInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.c5iiNcrTyBOuSe6Ji1xl-mS4F3EE5NDMfmtqT2A4PLQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjA2N30.aFeTWfsleHUykdm-WqZ-UdHZiO0uEpyTfB8zEHoyyV8IsGVd38AfaLpI_238D1X6S-AQAk1H3qyvfuEqh5xKhg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/20/16/1795167468280/491993fa0666_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "ref": "https://film4k.pl/",
           "dash": true,
           "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
           },
           "match_key": "24/11_14:45_kashiwareysol_newcastle"
         },
@@ -987,15 +987,15 @@
         },
         {
           "name": "⚽ [18:35 24/11] Công an Hà Nội vs Vissel Kobe (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODM2ODksInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.c5iiNcrTyBOuSe6Ji1xl-mS4F3EE5NDMfmtqT2A4PLQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjA2N30.aFeTWfsleHUykdm-WqZ-UdHZiO0uEpyTfB8zEHoyyV8IsGVd38AfaLpI_238D1X6S-AQAk1H3qyvfuEqh5xKhg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/20/17/1795170079694/19c4d80bf823_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "ref": "https://film4k.pl/",
           "dash": true,
           "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
           },
           "match_key": "24/11_19:15_cahn_visselkobe"
         },
@@ -1281,7 +1281,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795501593106&sig=1-PDAjnizKsPLnSMX9PDy8",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795502526819&sig=xRLrCx8hlU_iTZ4i1aEjMf",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1290,7 +1290,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795501593106&sig=T4e80v3f_r0oZdbjLs38Bw",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795502526819&sig=Phswlf8xx8cOHeNFA1LFJH",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1368,7 +1368,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795501593121&sig=r23PK0A00fB6CVAgos5hiD",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795502526844&sig=CL7QxWc5g1QJr2WwjAY6j_",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1377,7 +1377,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593121&sig=QJkTdSbQT9jA63h3mBCIcS",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502526844&sig=EVQk3U3OScdTvv2s5fxLjS",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1386,7 +1386,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795501593121&sig=go9Zx2CVJqShA27vo58qtA",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795502526844&sig=LIs_hPYRG6PZ5KMErMg63V",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1413,7 +1413,7 @@
         },
         {
           "name": "⚽ [00:35 25/11] Galatasaray vs Aston Villa (TV360+ 3) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDIzOH0.5Y2DYQinkLlE3W7vnGFaPZ7UL0Ikn723YLjDoQBFgIt22nYkUzg5wa_gWu4ToRCVUtemE2O-eqp2DkBsdl9fCw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjUzOH0.GiIFHE6sbiQwVL1ElumyZ0_1eyL9_FWEyR24s-GxYi229BwowtMzah8MIFbP65MF8r_sDDQep2tMeSg0Qegk6w&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/08/1795397379594/7de509105bc5_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1556,7 +1556,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593512&sig=fZ9-0D3t_Lnd03fq3wXCtK",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502527867&sig=Nq8YgMZg0BFXxJfbouN171",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1565,7 +1565,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795501593512&sig=uB6c-Vad9N9loYB--ghu5I",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795502527867&sig=xzZ1AizminLtZKH-ZfhohJ",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1696,7 +1696,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BEIN ARABIC 6) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795501593110&sig=utK3s00tGeiF3JsH3gekjw",
+          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795502522909&sig=yDmLf09Wfy1jv52Ztuax12",
           "logo": "https://tflix.su/logos/football-v14/team-142.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1736,7 +1736,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795501593093&sig=_whPtkfyTreeN6WlkpFuW1",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795502526820&sig=gN1vIUdK8ep2ImGuIO2YGd",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1745,7 +1745,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593093&sig=omhdlxgTCsiTWwZSPsMa9P",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502526821&sig=WWXBHhYc7M2Yh0NO97P4uH",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1754,7 +1754,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795501593093&sig=thuO560eoIgJy_Jl2DwKx3",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795502526821&sig=cIWuQ-WVuOnKU4VoGAehia",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1843,7 +1843,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795501593915&sig=xWQ8ysg-n71su1muqCWFrp",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795502527877&sig=R0YJw8AAkaVEJtyFMEXtGP",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1852,7 +1852,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795501593915&sig=vjvpfSF5dZOq12J9-4p0B1",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795502527877&sig=bXDlqKl5vS7F5lOP0GAUeA",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -1932,7 +1932,7 @@
       "sources": [
         {
           "name": "⚽ [03:00 25/11] Como vs AEK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795501594013&sig=nwrGUD8dgrv9-cdSL9_L33",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795502528895&sig=WLZAmOtYpOfpxrZysUDbmx",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-2572.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2862,7 +2862,7 @@
       "channels": [
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795501593106&sig=1-PDAjnizKsPLnSMX9PDy8",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795502526819&sig=xRLrCx8hlU_iTZ4i1aEjMf",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2870,7 +2870,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Bodo/Glimt vs LASK (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795501593106&sig=T4e80v3f_r0oZdbjLs38Bw",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795502526819&sig=Phswlf8xx8cOHeNFA1LFJH",
           "logo": "https://tflix.su/logos/football-v14/team-2980.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2886,7 +2886,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795501593121&sig=r23PK0A00fB6CVAgos5hiD",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795502526844&sig=CL7QxWc5g1QJr2WwjAY6j_",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2894,7 +2894,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593121&sig=QJkTdSbQT9jA63h3mBCIcS",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502526844&sig=EVQk3U3OScdTvv2s5fxLjS",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2902,7 +2902,7 @@
         },
         {
           "name": "⚽ [00:45 25/11] Galatasaray vs Aston Villa (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795501593121&sig=go9Zx2CVJqShA27vo58qtA",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795502526844&sig=LIs_hPYRG6PZ5KMErMg63V",
           "logo": "https://tflix.su/logos/football-v14/team-432.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2926,7 +2926,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795501593093&sig=_whPtkfyTreeN6WlkpFuW1",
+          "url": "https://film4k.pl/api/tflix-live/f9df77ee5201fa7a6ab202fbb663b1da/index.m3u8?exp=1795502526820&sig=gN1vIUdK8ep2ImGuIO2YGd",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2934,7 +2934,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593093&sig=omhdlxgTCsiTWwZSPsMa9P",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502526821&sig=WWXBHhYc7M2Yh0NO97P4uH",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2942,7 +2942,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BEIN ARABIC 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795501593093&sig=thuO560eoIgJy_Jl2DwKx3",
+          "url": "https://film4k.pl/api/tflix-live/602656ff2032608e9db006121cd14438/index.m3u8?exp=1795502526821&sig=cIWuQ-WVuOnKU4VoGAehia",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-manchestercity.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2966,7 +2966,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BEIN ARABIC 6) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795501593110&sig=utK3s00tGeiF3JsH3gekjw",
+          "url": "https://film4k.pl/api/tflix-live/c4c0a9ba1f2ceb6889df61771749d10b/index.m3u8?exp=1795502522909&sig=yDmLf09Wfy1jv52Ztuax12",
           "logo": "https://tflix.su/logos/football-v14/team-142.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2974,7 +2974,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (TNT SPORTS 3) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795501593512&sig=fZ9-0D3t_Lnd03fq3wXCtK",
+          "url": "https://film4k.pl/api/tflix-live/8673c9194eb278eafe1391af2594cc41/index.m3u8?exp=1795502527867&sig=Nq8YgMZg0BFXxJfbouN171",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2982,7 +2982,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BEIN ARABIC 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795501593512&sig=uB6c-Vad9N9loYB--ghu5I",
+          "url": "https://film4k.pl/api/tflix-live/dad050505247c2cec52f7a7a0471278b/index.m3u8?exp=1795502527867&sig=xzZ1AizminLtZKH-ZfhohJ",
           "logo": "https://tflix.su/logos/football-refresh-v1/wsl-arsenal.webp",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -2998,7 +2998,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (TNT SPORTS 2 · UK English) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795501593915&sig=xWQ8ysg-n71su1muqCWFrp",
+          "url": "https://film4k.pl/api/tflix-live/f0c1361d752604f5356de41ef22009b0/index.m3u8?exp=1795502527877&sig=R0YJw8AAkaVEJtyFMEXtGP",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -3006,7 +3006,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BEIN ARABIC 1) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795501593915&sig=vjvpfSF5dZOq12J9-4p0B1",
+          "url": "https://film4k.pl/api/tflix-live/16fa1fb7c9c5a80aa3c56437bf7ed14e/index.m3u8?exp=1795502527877&sig=bXDlqKl5vS7F5lOP0GAUeA",
           "logo": "https://tflix.su/logos/football-v14/team-86.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -3022,7 +3022,7 @@
         },
         {
           "name": "⚽ [03:00 25/11] Como vs AEK (TNT SPORTS 4) - F4K Sport",
-          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795501594013&sig=nwrGUD8dgrv9-cdSL9_L33",
+          "url": "https://film4k.pl/api/tflix-live/0fe02417a040b09f432dd11ffcd9b667/index.m3u8?exp=1795502528895&sig=WLZAmOtYpOfpxrZysUDbmx",
           "logo": "https://tflix.su/logos/football-refresh-v1/team-2572.png",
           "competition": "UEFA Champions League",
           "group": "F4K Sport",
@@ -3038,27 +3038,27 @@
         },
         {
           "name": "⚽ [18:35 24/11] Công an Hà Nội vs Vissel Kobe (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODM2ODksInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.c5iiNcrTyBOuSe6Ji1xl-mS4F3EE5NDMfmtqT2A4PLQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjA2N30.aFeTWfsleHUykdm-WqZ-UdHZiO0uEpyTfB8zEHoyyV8IsGVd38AfaLpI_238D1X6S-AQAk1H3qyvfuEqh5xKhg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/20/17/1795170079694/19c4d80bf823_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
           },
           "match_key": "24/11_19:15_cahn_visselkobe"
         },
         {
           "name": "⚽ [19:20 24/11] U17 Venezuela vs U17 Romania (TV360+ 13) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4MzY5Mn0.ttF1ewDe5xGc8K1iHMfdzHsCEltt7IeDa-CjiFYSqBu_4v76G8ry7UUNOVmk7G5kqu1G7T0sKRGrklHkmVT7PQ&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDIyMjMsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.SHcLTRZxUd9SZr25k3Y52wK9bh12lemHp3Mu4arq668&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794903316361/5f155653de83_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "41ce0eac12eb58f69607df0d2eaff649",
-            "key": "68c1d283bdd53500336f0db4900e2170"
+            "keyId": "856f291af35a5db7b7d0c944b32993b9",
+            "key": "aa3547547f084fe4c9ea5206effb6b78"
           },
           "match_key": "24/11_19:20_romania_youth_u17venezuela_youth"
         },
@@ -3073,7 +3073,7 @@
         },
         {
           "name": "⚽ [19:20 24/11] U17 Costa Rica vs U17 Cộng hòa Ireland (TV360+ 14) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODM2OTUsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.p3lup42HFQhhwloXKYsugP5HQHJcfJoQWdj9e9gwhoQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/472/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDIyMjMsInVyaSI6Ii9icGstdHYvNDcyL291dHB1dC9pbmRleC5tcGQifQ.cZrXQkAMS4qN8Tw0y6dDvmjsKMyprC9GLARIMNu4VuU&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794903563893/989dc77c3d55_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3086,7 +3086,7 @@
         },
         {
           "name": "⚽ [19:50 24/11] U17 Nhật Bản vs U17 Serbia (TV360+ 6) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDI0N30.fZy-05PvdyixKrI3K6Zsr5aBVo9gHDkHTdq6-muBGYb_8QBjHZGouGZNl7KMIWevA4j-Vw34e2KuZhaj5Vi_Cg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjUzNX0.bprxSxQnL9QMOwV19NsaKiw6S0UxLOyYSMbtfkTCtRzFfnfEvokktVkTL8-1Wk1s24zzoWXA9nM7Fj7o_f7nUg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794903817813/5608c9949c03_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3099,7 +3099,7 @@
         },
         {
           "name": "⚽ [00:35 25/11] Galatasaray vs Aston Villa (TV360+ 3) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDIzOH0.5Y2DYQinkLlE3W7vnGFaPZ7UL0Ikn723YLjDoQBFgIt22nYkUzg5wa_gWu4ToRCVUtemE2O-eqp2DkBsdl9fCw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/200200/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMDIwMC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjUzOH0.GiIFHE6sbiQwVL1ElumyZ0_1eyL9_FWEyR24s-GxYi229BwowtMzah8MIFbP65MF8r_sDDQep2tMeSg0Qegk6w&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/08/1795397379594/7de509105bc5_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -3112,31 +3112,31 @@
         },
         {
           "name": "⚽ [14:35 24/11] Newcastle Jets vs Kashiwa Reysol (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODM2ODksInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.c5iiNcrTyBOuSe6Ji1xl-mS4F3EE5NDMfmtqT2A4PLQ&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjA2N30.aFeTWfsleHUykdm-WqZ-UdHZiO0uEpyTfB8zEHoyyV8IsGVd38AfaLpI_238D1X6S-AQAk1H3qyvfuEqh5xKhg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/20/16/1795167468280/491993fa0666_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
           },
           "match_key": "24/11_14:45_kashiwareysol_newcastle"
         },
         {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/198198/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5ODE5OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDIyOX0.FonjTCGXmHnL73O1gWtPWuZ4veIE0VfjA3sREWxlD1gOXt4Yp-ZGENygIeTSJSrTyuPWEbnUZjrApNoSS72ALg&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDI1NDQsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.kEA-s7eXn9oEDRd0Yn_iA3qoJSZiJ30FCDCIcKfMH3c&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "47404f622db3536c867b2545581aadb4",
-            "key": "9fbdc12cfe74564fd4329baa6a6d1968"
+            "keyId": "ffb0e442ac9859889ba2d0b25998f4d0",
+            "key": "c00ed704a19ae3c04239ce03348f01f7"
           }
         },
         {
           "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/199/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODQyMzUsInVyaSI6Ii9icGstdHYvMTk5L291dHB1dC9pbmRleC5tcGQifQ.41nNP8_plsADahrr9YNTNwqmTZQTkgGqM6KNlQt3sR0&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/199/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDI1NTAsInVyaSI6Ii9icGstdHYvMTk5L291dHB1dC9pbmRleC5tcGQifQ.XUOqXZNSE9JreAfvX9S0LVB_nx0IWkQYrsXefpQP_sM&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266826697/9647033848f3_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3147,7 +3147,7 @@
         },
         {
           "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODQyNDQsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.4oP-xBhJOTnj320AHwnUnT6AruOZZSDZavduJWxaynI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDI1NTMsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.HXUUyyHcLjSAjEIXewvjVHOXSr2HDXcbJ5C0Ht4QReM&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3158,7 +3158,7 @@
         },
         {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODQyNTAsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.4e1yQgPl6HIdGgP9a5qYH11aOmLUmPnBdqxfMWwPdzg&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDI1NTYsInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.b4Czuml-bl3DyK_F1DC0ql0Nn7WrEXaZ9RaN5O0D9-g&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3169,7 +3169,7 @@
         },
         {
           "name": "📺 TV360+ 8 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/370370/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3MDM3MC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDI1M30.GUagURok_oJmsuKbTuAQnFSyOuOcbl_ePTRlanvfHXcE5se1w-_pSOTZY3iJhTNzpwYxaiGjNtTT0axCCnzQRQ&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/370370/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3MDM3MC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjU1OX0.-EzFpYU16nly2E_6nGOTEZkpl946geAsKLc9P4s_K-0G0X2XTACI0XJ3DO9zdwEP2nerr2MbGgXgpnq2g2fbSA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267211780/516c4028c806_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3180,7 +3180,7 @@
         },
         {
           "name": "📺 TV360+ 9 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODQyNTYsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0._su-x1od_rTJRIaXzH5Ir1f6t2zcj-1QSkMQl5489n0&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTUwMjU2NX0.mBe3StXRayMLBJ8YxzCzzuUEkIysn_AqR9LacASrerqNrFFAA_cgEi4th4u1XbDU-Zz_TsRjczTUwzFl-NOvOA&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267283364/c30a206da84a_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3188,7 +3188,7 @@
         },
         {
           "name": "📺 TV360+ 10 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTQ4NDI1Nn0.Wvgr1m1LbDvL4NgQlUGW42YeuoSqjoiBK1clxMBbHDvpFGtWrpHUsMVaPVKhJ5VFg6Dza11Umak8q3iWhDJk6w&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTUwMjU2NX0.xAhOn8JC9VW6gcM5NDnySVSK2AnbwjzKmO9SgV1RqE7Sq106p3OkED_QBNPv0keUohxKWuJ9eSPE7e2yDT10Ow&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267388401/5f459b37721d_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3196,7 +3196,7 @@
         },
         {
           "name": "📺 TV360+ 11 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTQ4NDI1OX0.rWPutb44Y-3gHxjAOIsUXp__Rgo3w7XAdMUgdHcvNu7SvF1SwB-flDBAWgWKO0Y53hD9F9pkww1Hpevz4OM6QA&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTUwMjU2OH0.XfooJwoDFqLXu_6Baq956DOWvlPpJMMu8VeTsGsdipL9HOWM41CyzU1wBXn7Ohxcwlvci9KTYvD1Ytri17JdhQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267558745/5fc303f5ba08_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3204,7 +3204,7 @@
         },
         {
           "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU0ODQyNTksInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.pzktuRX6_L0m4aPzRicCEGEd0dp01y9NieLO7g3uvXk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1MDI1NjgsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.UBFOtWvjeWK2yAT0n9HByRrmlmi5R330el8QaIJtCwI&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3215,7 +3215,7 @@
         },
         {
           "name": "📺 TV360+ 15 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTQ4NDI2NX0.UKqrkgjlbCan1GYy8ADmkT0M4-1HJ_DV3rk-1v33VVE2MD5fMwwU9BIj0lR9IXROmYZyZhZ0EUu3Yr_GIVzIKg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTUwMjU3MX0.Sl8W9t29BPmyWFCoHt1DCZuIRM-NOsZR_4SeaZqZP2cZ-KyKZw8GiRphrH6oltNMsk1wvGoT6q4GQshYA4dBYw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -3226,7 +3226,7 @@
         },
         {
           "name": "📺 TV360 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTQ4NDI2OH0.exjCTlYTQZIY_otyvbzG7BY9QZZb94DhkGo_lhxJK3OJqMUjfNP3GQYKTDc7m-FVG6czanjjg4fLbDjOLH6JZQ&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTUwMjU3NH0.jqMS92UlOcqZRANpfOD0zsuLT7RRb3xH2JXPlUavkaL2BJCK8WVuUQJTet3Nr7ufhWDgeDRG7rhyyEZCpHMPgg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3234,7 +3234,7 @@
         },
         {
           "name": "📺 Livestream 01 (Trực tiếp) - TV360",
-          "url": "https://livestream-evg8.tv360.vn/K_Y-uBzP70N5R7_Yv-SeEg/1795549068/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "url": "https://livestream-evg8.tv360.vn/7DidzEgij1tR2jQOn7Clew/1795567377/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -3246,48 +3246,88 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795483569-0-0-0b494437c2652f629870e0612cb89cf3",
-          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795483569-0-0-39743177e9b853cf03267aa1fbcd5c51",
-          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=b0ffb148bb61a0b3a14f353cd7270c35&txTime=6b052e01",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_gremiors_sp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795483569-0-0-7b141278bf24779069263d8f6ad9d5f7",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_gremiors_sp"
-        },
-        {
           "name": "⚽ [LIVE 24/11] St. Louis City SC vs Los Angeles FC (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795483569-0-0-a3cb33296071c1b15541d53150aad8bf",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795484529-0-0-58a63415348ca4434b6d7890be51fc58",
           "logo": "https://sta.vnres.co/file/common/20261124/ed78eb2d48f734ba981434739b868b17.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_08:00_losangeles_stlouiscity"
         },
         {
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=b546051f3c1f7f6c82b9eeddcf2054b7&txTime=6b0531c1",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rj_saopaulosp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] St. Louis City SC vs Los Angeles FC (BLV RICKHANTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1795484529-0-0-365d78beca1a0635a887b266504ca509",
+          "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
+          "competition": "USA MLS",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_08:00_losangeles_stlouiscity"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HẢI THANH) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795484529-0-0-10ff3d4ab7167b6ca33cb563d635c40f",
+          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rj_saopaulosp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795484529-0-0-0f976df93ed951a56be6492e5419541a",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_gremiors_sp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV CURRY) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=1c17a01dbf256cdfdc36662c5efc76d0&txTime=6b0531c1",
+          "logo": "https://sta.vnres.co/file/common/20261124/14bc6b77b1c289ef21a35408adf0a286.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_gremiors_sp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795484529-0-0-e348c874c6a65aa8b3fa45a698c0e7bd",
+          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rj_saopaulosp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795484529-0-0-476320ea584e97d3d8696f32bf9455b4",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_gremiors_sp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=030d973b301517479abeb2f890636494&txTime=6b0531c1",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_gremiors_sp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV PEANUT) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795484529-0-0-098ec12d4df68bc5f9e266a0fc1e8889",
+          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_gremiors_sp"
+        },
+        {
           "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=17a83a9b9ed53e25e3557c331e486fb6&txTime=6b052e01",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=f5d1d733dd6cb5901d8e2c7176599daa&txTime=6b0531c1",
           "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -3295,163 +3335,83 @@
         },
         {
           "name": "⚽ [LIVE 24/11] St. Louis City SC vs Los Angeles FC (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795483569-0-0-3b58f7bd737c83325b5854d00df321ab",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795484529-0-0-cef0827da8389ddf964fdb74ae2ded3c",
           "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "USA MLS",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_08:00_losangeles_stlouiscity"
         },
         {
-          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=ef77b6c1819bdf57063b9aaa57ef0198&txTime=6b052e01",
-          "logo": "https://sta.vnres.co/file/common/20261124/14bc6b77b1c289ef21a35408adf0a286.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_gremiors_sp"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795483569-0-0-6c25a0af6afa3f66f6e65f82326f0dc8",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795484529-0-0-f312401cb259731bb83eb245673c6c48",
           "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_rj_saopaulosp"
         },
         {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795483569-0-0-94b9f1fe59de15e51f3eda7e49018241",
-          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795484529-0-0-a587f3a93d38c83c742e802c5feb86bb",
+          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=43b7dc5c12731291bbbe6429339c0f32&txTime=6b052e01",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795483569-0-0-bf1a2efce2ff479e71d02644908b76b0",
-          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_gremiors_sp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795483569-0-0-115b9071e885f7aa9e9c4300950a88a2",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795483569-0-0-34ea184ddddad30a78a01d0e330dbdd4",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
         },
         {
           "name": "⚽ [LIVE 24/11] Philadelphia 76ers vs Portland Trail Blazers (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795483569-0-0-ac7218d9f487613987de3b06e91e1215",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795484529-0-0-97022250c050239afc21a2ab48b5cf66",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_07:00_philadelphia76ers_portlandtrailblazers"
         },
         {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795483569-0-0-205791e414c29745c6e96f7d87db60d5",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795483569-0-0-cb7a45f1346a18fd765d5d35fbbedbd0",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795483569-0-0-1008c51cfb752b0f8cece15cdcf5235a",
-          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Santos FC - SP vs Grêmio - RS (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795483569-0-0-b7f3035e4c18cf3fa79252927634502c",
-          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_gremiors_sp"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Internacional - RS vs Vitória - BA (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795483569-0-0-304885cf60178c548ea79c0a7ef57df3",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rs_vitoriaba"
-        },
-        {
-          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HUCK) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795483569-0-0-75efa191c6f30e9007f63efde0be7a52",
-          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_LIVE_rj_saopaulosp"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Indiana Pacers vs Oklahoma City Thunder (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795483569-0-0-41c7693d1fae36e682ea2036e88368d6",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795484529-0-0-28c65950b9d7db520af2d18b4807a388",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_07:30_indianapacers_oklahomacitythunder"
         },
         {
-          "name": "⚽ [LIVE 24/11] Minnesota Timberwolves vs Brooklyn Nets (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795483569-0-0-1655eed73d2147eca61bba4c6905146c",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_07:30_brooklynnets_minnesotatimberwolves"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Indiana Pacers vs Oklahoma City Thunder (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795483569-0-0-fd852855357bbdf0d9f46398c3f6b887",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795484529-0-0-ebd7feb9651656e0eb40d08f7dc4f8ee",
           "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_07:30_indianapacers_oklahomacitythunder"
         },
         {
-          "name": "⚽ [LIVE 24/11] Chicago Bulls vs Cleveland Cavaliers (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795483569-0-0-c76b841af461bde724562acc645b4bfa",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "24/11_08:00_chicagobulls_clevelandcavaliers"
-        },
-        {
           "name": "⚽ [LIVE 24/11] Toronto Raptors vs Milwaukee Bucks (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795483569-0-0-14f44970bdf502f5138c7302e8a020c7",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795484529-0-0-cb402ed910be3eae67bdb8e1f4cce74a",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "24/11_07:30_milwaukeebucks_torontoraptors"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Botafogo - RJ vs São Paulo - SP (BLV HUCK) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795484529-0-0-2ef4aaffe0bcaa447d30176a8c8bcf41",
+          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_LIVE_rj_saopaulosp"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Minnesota Timberwolves vs Brooklyn Nets (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795484529-0-0-50b8f779fda11b47ab8b24bae3bbca84",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_07:30_brooklynnets_minnesotatimberwolves"
+        },
+        {
+          "name": "⚽ [LIVE 24/11] Chicago Bulls vs Cleveland Cavaliers (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795484529-0-0-112e3d92c57548c8302115035ec6978a",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "24/11_08:00_chicagobulls_clevelandcavaliers"
         }
       ]
     },
@@ -4526,56 +4486,56 @@
     {
       "home_team": "Charlotte Hornets",
       "away_team": "Memphis Grizzlies",
-      "home_score": "24",
-      "away_score": "28",
+      "home_score": "32",
+      "away_score": "39",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "2:54 - 1st",
+      "detail": "9:04 - 2nd",
       "date": "2026-11-24T00:00Z"
     },
     {
       "home_team": "Philadelphia 76ers",
       "away_team": "Portland Trail Blazers",
-      "home_score": "24",
-      "away_score": "21",
+      "home_score": "39",
+      "away_score": "32",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "5:08 - 1st",
+      "detail": "10:36 - 2nd",
       "date": "2026-11-24T00:00Z"
     },
     {
       "home_team": "Indiana Pacers",
       "away_team": "Oklahoma City Thunder",
       "home_score": "0",
-      "away_score": "0",
+      "away_score": "4",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/23 - 7:30 PM EST",
+      "detail": "9:35 - 1st",
       "date": "2026-11-24T00:30Z"
     },
     {
       "home_team": "Toronto Raptors",
       "away_team": "Milwaukee Bucks",
-      "home_score": "0",
+      "home_score": "2",
       "away_score": "0",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/23 - 7:30 PM EST",
+      "detail": "11:28 - 1st",
       "date": "2026-11-24T00:30Z"
     },
     {
       "home_team": "Minnesota Timberwolves",
       "away_team": "Brooklyn Nets",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": "5",
+      "away_score": "5",
       "league": "NBA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "11/23 - 7:30 PM EST",
+      "detail": "10:41 - 1st",
       "date": "2026-11-24T00:30Z"
     },
     {
