@@ -1,734 +1,6 @@
 {
-  "updated_at": "2026-11-25 04:42:27",
+  "updated_at": "2026-11-25 04:57:45",
   "live_events": [
-    {
-      "key": "25/11_03:00_mancity_napoli",
-      "match_key": "25/11_03:00_mancity_napoli",
-      "c_home": "mancity",
-      "c_away": "napoli",
-      "homeTeam": "Manchester City",
-      "awayTeam": "Napoli",
-      "homeLogo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Manchester City Vs Napoli (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CÒ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-582342_lhd.m3u8?txSecret=4d890776fc199c704d38baa511c53513&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=b90e0bbb4d72f20581d07be82a65e582&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV ALEX) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-532081_lhd.m3u8?txSecret=0ee09f0b42d9d0fc0b7c6faf8ef5df1e&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-627718_lhd.m3u8?txSecret=83d2b9b2cecdb3b5e51163cb1a4ffd4e&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=c5ebc18d5222383207cd411df59e4bf5&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261125/ee4206129c965cd77ba34d2124497fb7.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=e90c16bbdc78389fc647351cd62887a7&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [22:00 24/11] 🟡 Manchester City U19 vs Napoli U19 (BLV HỔ VẰN) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/07428422.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/f2c086fbf1d76565658571e7e9bccf2b.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [22:00 24/11] 🟡 Manchester City U19 vs Napoli U19 (BLV HỔ VẰN) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/07428422_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/f2c086fbf1d76565658571e7e9bccf2b.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV NGƯỜI NHỆN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/mnc-napoli-c1/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/178c59d1-e702-4239-9451-186ed2002808",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV Lê Lợi) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Man City vs Napoli (BLV LÝ LONG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/fe38786e3ca5425b96d8b91703489ca9/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_mancity_napoli"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Manchester City vs Napoli",
-      "number": 1
-    },
-    {
-      "key": "25/11_03:00_arsenal_dortmund",
-      "match_key": "25/11_03:00_arsenal_dortmund",
-      "c_home": "arsenal",
-      "c_away": "dortmund",
-      "homeTeam": "Arsenal",
-      "awayTeam": "Borussia Dortmund",
-      "homeLogo": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Arsenal Vs Borussia Dortmund (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Arsenal vs Dortmund (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=c88fdd54ed4c6bb587e2d98d029a5cd9&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=249667ca50be80b86a37e06a5536ca6f&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261125/c856e00e3e4483e1d481cdd7788b772c.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912135_lhd.m3u8?txSecret=21e0914c0bc511df01a69e9f843c4efb&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-304148_lhd.m3u8?txSecret=2d8a2675beecc2f6f619fb178bb64eac&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795560069-0-0-a18939e0ca2d3614effe2e095f5d44e9",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [20:00 24/11] Arsenal U19 vs Borussia Dortmund U19 (BLV Gà Siêu Tồ) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/796315.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/361260e39f38a6fdd23d64eec1530ba1.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [20:00 24/11] Arsenal U19 vs Dortmund U19 (BLV MONSTER) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/75915087.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/361260e39f38a6fdd23d64eec1530ba1.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [20:00 24/11] Arsenal U19 vs Dortmund U19 (BLV MONSTER) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/75915087_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/361260e39f38a6fdd23d64eec1530ba1.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BLV NGƯỜI CÁO) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/ars-dortmund-c1/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/cc8720ad-bed8-4a4a-b194-d167c37e18ac",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BLV Ricky) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Arsenal vs Dortmund (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/5bfdfba9c99f4730a06f62e15c313fe3/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hdd1qo9j/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Arsenal vs Borussia Dortmund",
-      "number": 2
-    },
-    {
-      "key": "25/11_03:00_psv_realmadrid",
-      "match_key": "25/11_03:00_psv_realmadrid",
-      "c_home": "realmadrid",
-      "c_away": "psv",
-      "homeTeam": "Real Madrid",
-      "awayTeam": "PSV Eindhoven",
-      "homeLogo": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/150_psv.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Real Madrid Vs Psv Eindhoven (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Real Madrid vs PSV (BLV Khô Cóc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-          "logo": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/150_psv.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=4001a46fd5f83d85b740d96fd14f24fa&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795560069-0-0-60db1d3822c01bd71a73aed2d7cd4e12",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795560069-0-0-502eb7141252c99ee54ded85b09b5c44",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5ac46c67a4d2a0d59b991ca4d6b96b74&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795560069-0-0-9a0074b2cd14c670b357de9ce05fd69d",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795560069-0-0-663a54b96ad66e3630f4ad621fff5b46",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BLV NGƯỜI CAT) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/real-psv-c1/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/aa8e2eac-2eed-4db3-ba40-88a4c964f6d4",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/3fa9ea2849544efbb130cd5739385777/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4h111q86p/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Real Madrid vs PSV Eindhoven",
-      "number": 3
-    },
-    {
-      "key": "25/11_03:00_feyenoord_porto",
-      "match_key": "25/11_03:00_feyenoord_porto",
-      "c_home": "feyenoord",
-      "c_away": "porto",
-      "homeTeam": "Feyenoord",
-      "awayTeam": "Porto",
-      "homeLogo": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/81_porto.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Feyenoord Vs Fc Porto (BLV Gà Siêu Bệu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BLV Xôi Xoài) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/81_porto.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795560069-0-0-fde5f1ebe6c616c982056b9202af86c7",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=6ec4d88f20d02efe7bf06f98abd0d9d0&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/44073f2d2c979a9388f98505ac3b754d.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Feyenoord vs Porto",
-      "number": 4
-    },
-    {
-      "key": "25/11_03:00_aekathens_como",
-      "match_key": "25/11_03:00_aekathens_como",
-      "c_home": "como",
-      "c_away": "aekathens",
-      "homeTeam": "Como",
-      "awayTeam": "Aek Athens",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Como Vs Aek Athens (BLV Gà Siêu Nhí) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301263.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=4c8a500fe7b91df5317b2c9fd8df7266&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912130_lhd.m3u8?txSecret=ae1aac488b5cec0368f043917ede43cd&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=532bb1e0f735ef43ff522dc1ad1fa721&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=55f04be1c5cfc124b49a2daa406ff716&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_aekathens_como"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Como vs Aek Athens",
-      "number": 5
-    },
-    {
-      "key": "25/11_03:00_leipzig_lens",
-      "match_key": "25/11_03:00_leipzig_lens",
-      "c_home": "leipzig",
-      "c_away": "lens",
-      "homeTeam": "RB Leipzig",
-      "awayTeam": "Lens",
-      "homeLogo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Rb Leipzig Vs Rc Lens (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [03:00 25/11] RB Leipzig vs Lens (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795560069-0-0-8ad96d2a75e79ce85c0156c88d96c59d",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795560069-0-0-f62f52205b79c525a1df49d56199ab90",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795560069-0-0-15f040f91f9e1cbd3440a9ddfb631a6b",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [03:00 25/11] RB Leipzig vs RC Lens (BLV Trần Cảnh) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/c166a220bf20977df2bd82fc067696f5.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_leipzig_lens"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] RB Leipzig vs Lens",
-      "number": 6
-    },
-    {
-      "key": "25/11_03:00_betis_slovanbratislava",
-      "match_key": "25/11_03:00_betis_slovanbratislava",
-      "c_home": "slovanbratislava",
-      "c_away": "betis",
-      "homeTeam": "Slovan Bratislava",
-      "awayTeam": "Real Betis",
-      "homeLogo": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 25/11] Slovan Bratislava Vs Real Betis (BLV Gà Siêu Péo) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
-          "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Slovan Bratislava vs Betis (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Slovan Bratislava vs Real Betis (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=73f0995fd767ff61725a547237d3a6a7&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Slovan Bratislava vs Real Betis (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795560069-0-0-b39ce5a0caa348dde8f51b701d1cf93d",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis (BLV Lê Hoàn) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/8e220a74791be9e0eb13507f0ce444db.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis (BLV LÃM LÀNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/383b9c3ecb4b4bf58c79d80a2df93a91/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhyy4md7o/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Slovan Bratislava vs Real Betis",
-      "number": 7
-    },
-    {
-      "key": "25/11_03:00_psv_youth_realmadrid_youth",
-      "match_key": "25/11_03:00_psv_youth_realmadrid_youth",
-      "c_home": "realmadrid_youth",
-      "c_away": "psv_youth",
-      "homeTeam": "Real Madrid U19",
-      "awayTeam": "PSV Eindhoven U19",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "03:00",
-      "date": "25/11",
-      "timestamp": 1795550400000,
-      "league": "UCL",
-      "leagueName": "Champions League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ucl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [22:00 24/11] 🟡 Real Madrid U19 vs PSV U19 (BLV C2) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/08552895.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/5e754f0f66a62ae8806a63677b45caa4.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_psv_youth_realmadrid_youth"
-        },
-        {
-          "name": "⚽ [22:00 24/11] 🟡 Real Madrid U19 vs PSV U19 (BLV C2) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/08552895_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/5e754f0f66a62ae8806a63677b45caa4.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_03:00_psv_youth_realmadrid_youth"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 25/11] Real Madrid U19 vs PSV Eindhoven U19",
-      "number": 8
-    },
     {
       "key": "25/11_03:00_derbycounty_wolves",
       "match_key": "25/11_03:00_derbycounty_wolves",
@@ -758,7 +30,7 @@
         }
       ],
       "displayTitle": "🔴 [03:00 25/11] Wolves vs Derby County",
-      "number": 9
+      "number": 1
     },
     {
       "key": "25/11_08:00_doibongrobostonceltics_washingtonwizards",
@@ -798,7 +70,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 25/11] Washington Wizards vs Doi Bong Ro Boston Celtics",
-      "number": 10
+      "number": 2
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -849,7 +121,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 11
+      "number": 3
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -900,7 +172,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors",
-      "number": 12
+      "number": 4
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -931,7 +203,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 13
+      "number": 5
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -962,7 +234,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 14
+      "number": 6
     },
     {
       "key": "26/11_00:00_alnasrdubai_qatar",
@@ -993,7 +265,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 26/11] Qatar vs Al Nasr Dubai",
-      "number": 15
+      "number": 7
     },
     {
       "key": "26/11_00:45_barcelona_sabah",
@@ -1035,7 +307,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Sabah FC vs Barcelona",
-      "number": 16
+      "number": 8
     },
     {
       "key": "26/11_00:45_slavia_villarreal",
@@ -1066,7 +338,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Slavia Prague vs Villarreal",
-      "number": 17
+      "number": 9
     },
     {
       "key": "26/11_03:00_atleticomadrid_viking",
@@ -1097,7 +369,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atletico Madrid vs Viking FK",
-      "number": 18
+      "number": 10
     },
     {
       "key": "26/11_03:00_brugge_liverpool",
@@ -1139,7 +411,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Club Brugge vs Liverpool",
-      "number": 19
+      "number": 11
     },
     {
       "key": "26/11_03:00_intermilan_stuttgart",
@@ -1170,7 +442,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Inter Milan vs VfB Stuttgart",
-      "number": 20
+      "number": 12
     },
     {
       "key": "26/11_03:00_bayern_losclille",
@@ -1212,7 +484,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Lille vs Bayern Munich",
-      "number": 21
+      "number": 13
     },
     {
       "key": "26/11_03:00_parissaintgermain_roma",
@@ -1243,7 +515,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint Germain vs AS Roma",
-      "number": 22
+      "number": 14
     },
     {
       "key": "26/11_03:00_fenerbahce_shakhtardonetsk",
@@ -1274,7 +546,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Shakhtar Donetsk vs Fenerbahce",
-      "number": 23
+      "number": 15
     },
     {
       "key": "26/11_03:00_manutd_sportingcp",
@@ -1316,7 +588,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Sporting CP vs Manchester United",
-      "number": 24
+      "number": 16
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -1349,7 +621,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 25
+      "number": 17
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -1380,7 +652,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 26
+      "number": 18
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -1411,7 +683,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 27
+      "number": 19
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -1444,7 +716,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 28
+      "number": 20
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -1477,7 +749,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 29
+      "number": 21
     }
   ],
   "source_groups": [
@@ -1489,56 +761,49 @@
           "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_mancity_napoli"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal Vs Borussia Dortmund (BLV Gà Siêu Ngố) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_arsenal_dortmund"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid Vs Psv Eindhoven (BLV Gà Siêu Gáy) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_psv_realmadrid"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord Vs Fc Porto (BLV Gà Siêu Bệu) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_feyenoord_porto"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Como Vs Aek Athens (BLV Gà Siêu Nhí) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/301263.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_aekathens_como"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Rb Leipzig Vs Rc Lens (BLV Gà Siêu Kiêu) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_leipzig_lens"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 25/11] Slovan Bratislava Vs Real Betis (BLV Gà Siêu Péo) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/631756c938574d2095e62448ec2e741b.png",
           "competition": "UEFA Champions League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [06:20 25/11] Millonarios Vs Atletico Bucaramanga (BLV Gà Siêu Tốc) - Gà Vàng",
@@ -2098,44 +1363,13 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [03:00 25/11] Arsenal vs Dortmund (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/92_borussia-dortmund.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BLV Xôi Xoài) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
           "home_logo": "https://apiv3.apifootball.com/badges/168_feyenoord.jpg",
           "away_logo": "https://apiv3.apifootball.com/badges/81_porto.jpg",
           "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [03:00 25/11] RB Leipzig vs Lens (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3821_lens.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_leipzig_lens"
+          "group": "🍵 Xôi Chè TV"
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV (BLV Khô Cóc) - Xôi Chè",
@@ -2144,18 +1378,7 @@
           "home_logo": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
           "away_logo": "https://apiv3.apifootball.com/badges/150_psv.jpg",
           "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [03:00 25/11] Slovan Bratislava vs Betis (BLV Khô Cay) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/6565_slovan-bratislava.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
+          "group": "🍵 Xôi Chè TV"
         },
         {
           "name": "⚽ [10:00 25/11] San Jose Earthquakes vs Houston Dynamo (BLV Tam Mao) - Xôi Chè",
@@ -2166,6 +1389,16 @@
           "competition": "MLS",
           "group": "🍵 Xôi Chè TV",
           "match_key": "25/11_10:00_houstondynamo_sanjoseearthquakes"
+        },
+        {
+          "name": "⚽ [14:45 25/11] Melbourne Victory vs Viettel (BLV Khô Cay) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/409_th-cong-viettel.jpg",
+          "competition": "AFC Champions League Two",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "25/11_14:45_melbournevictory_viettel"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port MTI FC (BLV Tam Mao) - Xôi Chè",
@@ -2329,17 +1562,6 @@
           "competition": "EFL Championship",
           "group": "F4K Sport",
           "match_key": "25/11_03:00_derbycounty_wolves"
-        },
-        {
-          "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU1NjAyMjUsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.V2qF4fotRvghIf6GF1QAY3LKKaEJoXzAziYQGUA51bE&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "6f6cb5f434e65191842939d8b65b2d47",
-            "key": "a277cb0496f7fb7a7f9e478076d0fb0d"
-          }
         }
       ]
     },
@@ -2347,264 +1569,51 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CÒ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-582342_lhd.m3u8?txSecret=4d890776fc199c704d38baa511c53513&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260911/5092224ec4c96a8b8625005b880ba090.jpg",
+          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=a153a2b6266b08a6433aff60c9b986e8&txTime=6b065c63",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=4001a46fd5f83d85b740d96fd14f24fa&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV MESSI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912141_lhd.m3u8?auth_key=1795560069-0-0-60db1d3822c01bd71a73aed2d7cd4e12",
-          "logo": "https://sta.vnres.co/file/common/20260921/32dab24969cdc56b5a89699f44afb3d6.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV THẠCH TÚ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=c88fdd54ed4c6bb587e2d98d029a5cd9&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260914/f04c175cdb83fc9fca5281ccb9f1a78e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=b90e0bbb4d72f20581d07be82a65e582&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV ALEX) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-532081_lhd.m3u8?txSecret=0ee09f0b42d9d0fc0b7c6faf8ef5df1e&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795560069-0-0-502eb7141252c99ee54ded85b09b5c44",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-627718_lhd.m3u8?txSecret=83d2b9b2cecdb3b5e51163cb1a4ffd4e&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV BÉO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=5ac46c67a4d2a0d59b991ca4d6b96b74&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20251017/95aeab3d0e40306db5109d3e96afb8f4.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=c5ebc18d5222383207cd411df59e4bf5&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261125/ee4206129c965cd77ba34d2124497fb7.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=249667ca50be80b86a37e06a5536ca6f&txTime=6b0658d5",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=46cc9870a20fec482d734d037e652932&txTime=6b065c95",
           "logo": "https://sta.vnres.co/file/common/20261125/c856e00e3e4483e1d481cdd7788b772c.jpg",
           "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795560069-0-0-9a0074b2cd14c670b357de9ce05fd69d",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912135_lhd.m3u8?txSecret=21e0914c0bc511df01a69e9f843c4efb&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=4c8a500fe7b91df5317b2c9fd8df7266&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-304148_lhd.m3u8?txSecret=2d8a2675beecc2f6f619fb178bb64eac&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795560069-0-0-8ad96d2a75e79ce85c0156c88d96c59d",
-          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795560069-0-0-663a54b96ad66e3630f4ad621fff5b46",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_psv_realmadrid"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Arsenal vs Borussia Dortmund (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795560069-0-0-a18939e0ca2d3614effe2e095f5d44e9",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_arsenal_dortmund"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795560069-0-0-fde5f1ebe6c616c982056b9202af86c7",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Manchester City vs Napoli (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=e90c16bbdc78389fc647351cd62887a7&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_mancity_napoli"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Slovan Bratislava vs Real Betis (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=73f0995fd767ff61725a547237d3a6a7&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912130_lhd.m3u8?txSecret=ae1aac488b5cec0368f043917ede43cd&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795560069-0-0-f62f52205b79c525a1df49d56199ab90",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=532bb1e0f735ef43ff522dc1ad1fa721&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_aekathens_como"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=6ec4d88f20d02efe7bf06f98abd0d9d0&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_feyenoord_porto"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795560069-0-0-15f040f91f9e1cbd3440a9ddfb631a6b",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_leipzig_lens"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=55f04be1c5cfc124b49a2daa406ff716&txTime=6b0658d5",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_aekathens_como"
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-511367_lhd.m3u8?txSecret=d45c3745ee0e1119abe89141c423ddd5&txTime=6b0658d5",
+          "url": "https://pull.niur.live/live/stream-511367_lhd.m3u8?txSecret=ad57eac87ad00d9f5966f5a1fe0e033c&txTime=6b065c95",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE__palmeirassp"
         },
         {
-          "name": "⚽ [LIVE 25/11] Slovan Bratislava vs Real Betis (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795560069-0-0-b39ce5a0caa348dde8f51b701d1cf93d",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795561029-0-0-657f369d6e8aac8d02eb6b8792633c7d",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
           "competition": "UEFA CL",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
+          "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795560069-0-0-86d5c5d8a77aeed1a5d9cd952b79a3bf",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE__palmeirassp"
+          "name": "⚽ [LIVE 25/11] Real Madrid vs PSV Eindhoven (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=8f8db99b7a7b803d41eaf79f1eb7ad34&txTime=6b065c95",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795560069-0-0-33f019bdca7752240f69ffc74aca6094",
-          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE__palmeirassp"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Coquimbo Unido vs Union La Calera (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795560069-0-0-38d7ee7496a281f19be4216c4df4ca8e",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "CHI Cup",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_coquimbounido_unionlacalera"
+          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795561029-0-0-4fb9a3543fc13565e1649bb748462752",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV ANH TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795560069-0-0-16c67cd4f8290b1bf38043bfb82c58c1",
+          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1795561029-0-0-8fa01561c8a79d522bfb1e2fd0678ec0",
           "logo": "https://sta.vnres.co/file/common/20241220/6200343fea7ece69d7d92ae718616478.jpg",
           "competition": "BRA D1",
           "group": "🐿️ SocoLive",
@@ -2612,16 +1621,83 @@
         },
         {
           "name": "⚽ [LIVE 25/11] Coquimbo Unido vs Union La Calera (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795560069-0-0-8bc3c0c3fe8958ed1a08f8d4c903f404",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795561029-0-0-8c2ccb90f867f836d5b72f739480741c",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "CHI Cup",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_coquimbounido_unionlacalera"
         },
         {
+          "name": "⚽ [LIVE 25/11] Feyenoord vs FC Porto (BLV XO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=89c456c07fd73841280d98ffc0c6dde6&txTime=6b065c95",
+          "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=601383d602f6fa4cb17f4c1b9e786e2d&txTime=6b065c95",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912130_lhd.m3u8?txSecret=61924caf1a219e50a161919963c62f46&txTime=6b065c0f",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] RB Leipzig vs RC Lens (BLV A WIN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795560875-0-0-e0c0b43f302a3551acf94c094ee27410",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Coquimbo Unido vs Union La Calera (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795561029-0-0-75575f72823caeaed3e00435ea3ab185",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "CHI Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE_coquimbounido_unionlacalera"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Como vs AEK Athens (BLV RYO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=5efe6f9fc70bfa0667397394285915cb&txTime=6b065c95",
+          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
+          "competition": "UEFA CL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795561029-0-0-85752449412e7f9f389c02d1d2ae8e32",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE__palmeirassp"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Chapecoense - SC vs Palmeiras - SP (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795561029-0-0-add018c16693cb7712551c2d5f9e417d",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE__palmeirassp"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Coquimbo Unido vs Union La Calera (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795560069-0-0-75a9b617a11c1ae677968f81be78a735",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795561029-0-0-a6864e779c431304b6c5dda533e2aaa0",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "CHI Cup",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE_coquimbounido_unionlacalera"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Coquimbo Unido vs Unión La Calera (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795561029-0-0-86a608154b01763faee9dfd6ae00a6c1",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "CHI Cup",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_coquimbounido_unionlacalera"
@@ -2767,24 +1843,21 @@
           "url": "https://hls.lauthaitv.cc/live/real-psv-c1/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/aa8e2eac-2eed-4db3-ba40-88a4c964f6d4",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "25/11_03:00_psv_realmadrid"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV NGƯỜI NHỆN) [hls] - S8 TV",
           "url": "https://hls.lauthaitv.cc/live/mnc-napoli-c1/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/178c59d1-e702-4239-9451-186ed2002808",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "25/11_03:00_mancity_napoli"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Borussia Dortmund (BLV NGƯỜI CÁO) [hls] - S8 TV",
           "url": "https://hls.lauthaitv.cc/live/ars-dortmund-c1/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/cc8720ad-bed8-4a4a-b194-d167c37e18ac",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "25/11_03:00_arsenal_dortmund"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [06:20 25/11] Millonarios vs Atletico Bucaramanga (BLV NGƯỜI SÓI) [hls] - S8 TV",
@@ -2826,8 +1899,7 @@
           "url": "https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8",
           "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
           "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "match_key": "25/11_03:00_arsenal_dortmund"
+          "group": "⚡ Sao Kê TV"
         }
       ]
     },
@@ -2860,32 +1932,28 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-5.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/8e220a74791be9e0eb13507f0ce444db.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [03:00 25/11] RB Leipzig vs RC Lens (BLV Trần Cảnh) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-18.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/c166a220bf20977df2bd82fc067696f5.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_03:00_leipzig_lens"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [03:00 25/11] Manchester City vs Napoli (BLV Lê Lợi) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-6.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_03:00_mancity_napoli"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [03:00 25/11] Feyenoord vs FC Porto (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-12.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/44073f2d2c979a9388f98505ac3b754d.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_03:00_feyenoord_porto"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [10:00 25/11] San Jose Earthquakes vs Houston Dynamo (BLV Doanh Chính) - Vua Sân Cỏ TV",
@@ -2963,32 +2031,28 @@
           "url": "https://pull.digitalcdn.net/live/fe38786e3ca5425b96d8b91703489ca9/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_03:00_mancity_napoli"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [03:00 25/11] Slovan Bratislava vs Real Betis (BLV LÃM LÀNG) [geo] - Phá Làng TV",
           "url": "https://pull.digitalcdn.net/live/383b9c3ecb4b4bf58c79d80a2df93a91/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhyy4md7o/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_03:00_betis_slovanbratislava"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [03:00 25/11] Arsenal vs Dortmund (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
           "url": "https://pull.digitalcdn.net/live/5bfdfba9c99f4730a06f62e15c313fe3/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/z318q66hdd1qo9j/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_03:00_arsenal_dortmund"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [03:00 25/11] Real Madrid vs PSV Eindhoven (BLV LÝ LÀNG LÁ) [geo] - Phá Làng TV",
           "url": "https://pull.digitalcdn.net/live/3fa9ea2849544efbb130cd5739385777/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4h111q86p/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_03:00_psv_realmadrid"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [14:45 25/11] Melbourne Victory vs Thể Công Viettel (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
@@ -3100,9 +2164,9 @@
       "home_score": "1",
       "away_score": "1",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "86'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
@@ -3111,9 +2175,9 @@
       "home_score": "1",
       "away_score": "0",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "80'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
@@ -3122,42 +2186,42 @@
       "home_score": "0",
       "away_score": "1",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "81'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
       "home_team": "Manchester City",
       "away_team": "Napoli",
-      "home_score": "1",
+      "home_score": "2",
       "away_score": "2",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "84'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
       "home_team": "RB Leipzig",
       "away_team": "Lens",
-      "home_score": "2",
+      "home_score": "3",
       "away_score": "1",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "85'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
       "home_team": "Real Madrid",
       "away_team": "PSV Eindhoven",
-      "home_score": "3",
+      "home_score": "5",
       "away_score": "1",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "83'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
@@ -3166,9 +2230,9 @@
       "home_score": "0",
       "away_score": "2",
       "league": "UCL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "86'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-24T20:00Z"
     },
     {
