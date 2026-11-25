@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 06:39:37",
+  "updated_at": "2026-11-26 06:54:49",
   "live_events": [
     {
       "key": "26/11_05:00_intermiami_philadelphia76ers",
@@ -51,6 +51,46 @@
       "number": 1
     },
     {
+      "key": "26/11_07:00_charlottehornets_chicagobulls",
+      "match_key": "26/11_07:00_charlottehornets_chicagobulls",
+      "c_home": "charlottehornets",
+      "c_away": "chicagobulls",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Chicago Bulls",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:00",
+      "date": "26/11",
+      "timestamp": 1795651200000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795654449-0-0-b2d3ca15196e5ea92d4255a129111b87",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795654449-0-0-d7c6ec8204d935a92daeabaede2b3a8b",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
+        }
+      ],
+      "displayTitle": "🏀 [07:00 26/11] Charlotte Hornets vs Chicago Bulls",
+      "number": 2
+    },
+    {
       "key": "26/11_06:00_atleticomineiromg_corinthianssp",
       "match_key": "26/11_06:00_atleticomineiromg_corinthianssp",
       "c_home": "atleticomineiromg",
@@ -97,7 +137,7 @@
         }
       ],
       "displayTitle": "🔴 [06:00 26/11] Atletico Mineiro _ Mg vs Corinthians _ Sp",
-      "number": 2
+      "number": 3
     },
     {
       "key": "26/11_06:00_atleticomg_corinthians",
@@ -128,7 +168,7 @@
         }
       ],
       "displayTitle": "🔴 [06:00 26/11] Atletico-mg vs Corinthians",
-      "number": 3
+      "number": 4
     },
     {
       "key": "26/11_06:00_atleticomineiro_corinthianspaulista",
@@ -168,7 +208,7 @@
         }
       ],
       "displayTitle": "🔴 [06:00 26/11] Atletico Mineiro vs Corinthians Paulista",
-      "number": 4
+      "number": 5
     },
     {
       "key": "26/11_06:20_deportivaoncecaldas_independientesantafe",
@@ -199,7 +239,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795653489-0-0-41435e4a22bfa020243d37a83a010acb",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795654449-0-0-a85842578a95826d29edcf7de002b6fb",
           "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -208,7 +248,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795653489-0-0-808d3ac43c102ec01677e2445039543e",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795654449-0-0-4fee7cfc58efccdcfe3851098eea15fd",
           "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -235,20 +275,105 @@
         }
       ],
       "displayTitle": "🔴 [06:20 26/11] Santa Fe vs Once Caldas",
-      "number": 5
+      "number": 6
     },
     {
-      "key": "26/11_07:00_charlottehornets_chicagobulls",
-      "match_key": "26/11_07:00_charlottehornets_chicagobulls",
-      "c_home": "charlottehornets",
-      "c_away": "chicagobulls",
-      "homeTeam": "Charlotte Hornets",
-      "awayTeam": "Chicago Bulls",
+      "key": "26/11_07:00_bocajuniors_independienterivadavia",
+      "match_key": "26/11_07:00_bocajuniors_independienterivadavia",
+      "c_home": "bocajuniors",
+      "c_away": "independienterivadavia",
+      "homeTeam": "Boca Juniors",
+      "awayTeam": "Independiente Rivadavia",
       "homeLogo": "",
       "awayLogo": "",
       "time": "07:00",
       "date": "26/11",
       "timestamp": 1795651200000,
+      "league": "OTHER",
+      "leagueName": "Argentine Division 1",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [07:00 26/11] Boca Juniors Vs Independiente Rivadavia (BLV Gà Siêu Son) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/0276a00c0277c8f1cba7b63bd59e281d.png",
+          "competition": "Argentine Division 1",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=9f3d246c3705649916d59a43eb670d75&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795654449-0-0-5edee23a502735fc5b1644852857a5e8",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=04344163075c138f4b3c8a61e4cadafb&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795654449-0-0-d3f322746802e7a8b091d25fb0bc05e1",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [07:00 26/11] Boca Juniors vs Independiente Rivadavia (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/306290.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [07:00 26/11] Boca Juniors vs Independiente Rivadavia (BLV Doanh Chính) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-2.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        }
+      ],
+      "displayTitle": "🔴 [07:00 26/11] Boca Juniors vs Independiente Rivadavia",
+      "number": 7
+    },
+    {
+      "key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
+      "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
+      "c_home": "newyorkknicks",
+      "c_away": "clevelandcavaliers",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "26/11",
+      "timestamp": 1795653000000,
       "league": "NBA",
       "leagueName": "NBA",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
@@ -256,26 +381,35 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795653489-0-0-9eccacf1458f0f62cbd4b42bc47431ac",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795654449-0-0-4d65b9f23f85c9e76b486bd249248552",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
         },
         {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795653489-0-0-92dac39d6049113ed676287b9571ab0d",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
+          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/82054853.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        },
+        {
+          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
         }
       ],
-      "displayTitle": "🏀 [07:00 26/11] Charlotte Hornets vs Chicago Bulls",
-      "number": 6
+      "displayTitle": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers",
+      "number": 8
     },
     {
       "key": "26/11_07:30_minnesotatimberwolves_oklahomacitythunder",
@@ -324,47 +458,7 @@
         }
       ],
       "displayTitle": "🏀 [07:30 26/11] Oklahoma City Thunder vs Minnesota Timberwolves 24h Tv",
-      "number": 7
-    },
-    {
-      "key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
-      "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
-      "c_home": "newyorkknicks",
-      "c_away": "clevelandcavaliers",
-      "homeTeam": "New York Knicks",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "26/11",
-      "timestamp": 1795653000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/82054853.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        },
-        {
-          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        }
-      ],
-      "displayTitle": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers",
-      "number": 8
+      "number": 9
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -395,7 +489,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 9
+      "number": 10
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -437,7 +531,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby",
-      "number": 10
+      "number": 11
     },
     {
       "key": "27/11_00:45_besiktas_hbeersheva",
@@ -470,7 +564,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Besiktas vs H. Beer Sheva",
-      "number": 11
+      "number": 12
     },
     {
       "key": "27/11_00:45_dinzagreb_leverkusen",
@@ -503,7 +597,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Din. Zagreb vs Bayer Leverkusen",
-      "number": 12
+      "number": 13
     },
     {
       "key": "27/11_00:45_levskisofia_marseille",
@@ -536,7 +630,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Marseille vs Levski Sofia",
-      "number": 13
+      "number": 14
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -569,7 +663,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 14
+      "number": 15
     },
     {
       "key": "27/11_00:45_brighton_univcraiova",
@@ -602,7 +696,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Brighton vs Univ. Craiova",
-      "number": 15
+      "number": 16
     },
     {
       "key": "27/11_03:00_crystalpalace_realsociedad",
@@ -635,7 +729,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Crystal Palace vs Real Sociedad",
-      "number": 16
+      "number": 17
     },
     {
       "key": "27/11_03:00_juventus_omonia",
@@ -668,7 +762,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Juventus vs Omonia",
-      "number": 17
+      "number": 18
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -701,7 +795,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 18
+      "number": 19
     },
     {
       "key": "27/11_03:00_jagiellonia_sunderland",
@@ -734,7 +828,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Sunderland vs Jagiellonia",
-      "number": 19
+      "number": 20
     },
     {
       "key": "28/11_21:30_paderborn_schalke",
@@ -767,7 +861,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 20
+      "number": 21
     }
   ],
   "source_groups": [
@@ -996,15 +1090,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [03:00 26/11] Lille vs Bayern Munich (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/160_lille.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/160_lille.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-          "competition": "UEFA Champions League",
-          "group": "🍵 Xôi Chè TV"
-        },
-        {
           "name": "⚽ [08:00 26/11] Toluca vs Atlas (BLV Tam Mao) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/5347_toluca.jpg",
@@ -1221,7 +1306,7 @@
       "channels": [
         {
           "name": "⚽ [19:50 26/11] U17 New Zealand vs U17 Bỉ (TV360+ 10) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/449/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NTM3OTUsInVyaSI6Ii9icGstdHYvNDQ5L291dHB1dC9pbmRleC5tM3U4In0.rN5yfI7WNPk8jQnF3M9b7Hc4zSTATpJbvnA7xWZbjcY&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/449/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ0OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY3MTgxOX0.GG45Jplg3cN55cD8S0kkPB20h9zXG4d0p81n-s3nqKNqST7cnN87TitzGvZeTB--Z42uHyAhR9JwC8nrInZo2g&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/14/1794986260545/73ee80264bdb_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1231,7 +1316,7 @@
         },
         {
           "name": "⚽ [20:50 26/11] U17 Jamaica vs U17 Bờ Biển Ngà (TV360+ 6) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NTM3ODksInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.Ei9LV7NKMyg2Gl8SBV3NMKCwkRwYhqty0GeE5urETdk&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NzIxMTAsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.lbJAxe1V_mKPAOOYfQsHeIe5Ydlr1M9gGYFuloRWFMg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/10/1794973605782/d98cefe65837_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1244,7 +1329,7 @@
         },
         {
           "name": "⚽ [20:50 26/11] U17 Uzbekistan vs U17 Italy (TV360+ 5) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NTM3ODksInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.1VnDjw3wTP6xlYpvfhAFTyjtQtYswXAp3NBgRkaM5eI&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/367/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NzIxMDEsInVyaSI6Ii9icGstdHYvMzY3L291dHB1dC9pbmRleC5tcGQifQ.I7TxukI6Sp9nUuFWfXNN1TmFu4hExREdWzUgWyCu9Z0&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/14/1794986847380/ae4cf48e6eed_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1257,7 +1342,7 @@
         },
         {
           "name": "⚽ [21:50 26/11] U17 Trung Quốc vs U17 Fiji (TV360+ 8) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/370370/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3MDM3MC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY1Mzc4OX0.cUiJLMECP2H1jqnv1hkh317FuKP2KVQwW6fEvtfoJqvTexWoekznBmdqqdBsdfmJ9O5_ZB3hES8KKg4iziFvaQ&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/370370/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3MDM3MC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY3MjEzNH0.8l5ZqFDXKYydaJ7pVYcT7joYyWqCTARn7AXHUPe_Hj9Wydf0JHgvkOjIgRQFj1vvD15H6d1-YZsWhccL5OHwXQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/14/1794987229224/428f00a88d4d_1280_720.png",
           "competition": "",
           "group": "F4K Sport",
@@ -1267,6 +1352,17 @@
             "key": "d956d96ac3799d42441f582ec12f10df"
           },
           "match_key": "26/11_21:50_china_youth_u17fiji_youth"
+        },
+        {
+          "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/198198/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzE5ODE5OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY3MTc4OX0.BfTx-4ZFF1LfaTY4cDWoYj8xurG_DGazsArkRV29pUguSdvwoXwvAFcOq8rCwXaMGcUgstbtBEbRnVUjdVRSjw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "47404f622db3536c867b2545581aadb4",
+            "key": "9fbdc12cfe74564fd4329baa6a6d1968"
+          }
         },
         {
           "name": "📺 TV360+ 2 (Trực tiếp) - TV360",
@@ -1303,18 +1399,18 @@
         },
         {
           "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY1Mzc4OX0.NPQ8zTAoArH19itx16FgeDVWvusmKKN9HBjr7FkT3RWkecviI-9P-gAMdjhBdTUUBR4dxG04jAr2W5HORnMOKg&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/369/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NzIxMTksInVyaSI6Ii9icGstdHYvMzY5L291dHB1dC9pbmRleC5tcGQifQ.xkNn6IH1A-PZ8jNlVfRKLf8YM23nEPZXNRYC4jiVf7E&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "10244b0b86e45b5fa4d8089b24b5f566",
-            "key": "b7bf64fad4622ec88e429409c2c9997d"
+            "keyId": "23512a8a75505839aa810d79832de351",
+            "key": "9c07b3e707e330a77a4dbf5a63f9306f"
           }
         },
         {
           "name": "📺 TV360+ 9 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY1Mzc5NX0.ynTsDEbCsyKbDGCvKz9hBvM4J6jEaqOFT2sGfTeQiOi_HGG_psCGguARKkVNcpn1J--Za2znkME_a5v-c5KOdg&screen=MHL&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/379/output/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NzIxNDAsInVyaSI6Ii9icGstdHYvMzc5L291dHB1dC9pbmRleC5tM3U4In0.YD-c5BIz_IXKtLywhY1QlccagLdgwUEFgxQo1_gEhYQ&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267283364/c30a206da84a_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -1322,7 +1418,7 @@
         },
         {
           "name": "📺 TV360+ 11 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY1Mzc5NX0.4zNCJT84v-PKO_eupaScKcoGKZa1l2S2JeC-hLokkAj_P_0lKYxdN2Y_A3DHvSlhmmDQ8PgTbi-CFcFF-EDfOg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/450/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ1MC9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY3MjE1Mn0.EjK89GFk3fTAwEwvuD_gdEryNApsAVmNwr3SjxSvXPY-ueMh1LO4MBIkVxtwrgdLiLpAsJUoDo7yzW68HcW4lw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267558745/5fc303f5ba08_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -1330,7 +1426,7 @@
         },
         {
           "name": "📺 TV360+ 12 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NTM3OTUsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.sJNpSCic1EBFuCJb1hgm_T7dwgS_CqA6CXoynCypSzc&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/465/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NzIxNTgsInVyaSI6Ii9icGstdHYvNDY1L291dHB1dC9pbmRleC5tcGQifQ.1sD7REAHO_SKpVXA9YwNtD5LYWHOz31952PxfbuHm38&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267662370/76b4144bff34_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -1352,7 +1448,7 @@
         },
         {
           "name": "📺 TV360+ 14 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY1Mzc5NX0.Hy8PpsPv9hfoUalDTLS-z5bT3B6LdiVQbBvU5RIprPcR2fipD68lwzb6gMHL535b001QZrLA1PvADEvuPHCNpg&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY3MjQ0MH0.9Wi--r4M5H9AqqTbCPTvpRytyOuezTw5jHB_M6pe3QFe8dG3DGqj7ITnhEXwzqGdLJAUNLWBj1sN9TkK34wlNw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_480_270.png",
           "group": "F4K Sport",
           "dash": true,
@@ -1363,18 +1459,18 @@
         },
         {
           "name": "📺 TV360+ 15 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/473/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2NTM3OTUsInVyaSI6Ii9icGstdHYvNDczL291dHB1dC9pbmRleC5tcGQifQ.knF1Eujx9ERAb52cr2Jv3mp3a_9K0Sl8JcDQgOysSd8&minrate=0&maxrate=12000000&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY3MjQ0Nn0.3-ZZBQEtupEuKTQhShfv07eEzXiBC7bJnfMeslHYSf3gEYs6KaKLysMIvTfNMVafYqR-WxAYYCo1wQKxqoUqHQ&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "c305b22dfd6d55e3998ab279cc98e0d3",
-            "key": "12998335c7da89877aa1b1d50f1ec174"
+            "keyId": "fa4033841a70511c84a7fe7e0daf1a6a",
+            "key": "237d5bce065aa40fc4c8839cd8827cd2"
           }
         },
         {
           "name": "📺 TV360 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY1Mzc5NX0.fgzJ3oPH5dJp-Ks9pkP352Ue-n_xD4gEmO878Lgwp_KrRzINLoA5zWZiXNWIhB0bP3ibyVGXp7YYjxD6xIVcuw&screen=MHL&uid=294779473",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY3MjQ0OX0.5KVROB0epQBB9pwk5hV0a3mcEDZIuZ89ZBceKOhEekrxuVJvqDOc0ykWr0g2V2EF0hB7H5mrsuA5dmJ46F034g&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -1382,7 +1478,7 @@
         },
         {
           "name": "📺 Livestream 01 (Trực tiếp) - TV360",
-          "url": "https://livestream-evg8.tv360.vn/KlLrY40lZnq1nevsaUf4aQ/1795718598/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
+          "url": "https://livestream-evg8.tv360.vn/WKlLJjqER6NQ3hf2CoF-MA/1795737252/manifest/livestream-04/master.m3u8?manifestfilter=video_bitrate:1-12767168&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/13/14/1794555156822/96350250891c_480_270.png",
           "group": "F4K Sport",
           "dash": false,
@@ -1394,148 +1490,124 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=9cc37183af7c562f220ad78d7d3f66bc&txTime=6b07c5da",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795653489-0-0-1955c2a4840552c0cdfb7231329ecd95",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_corinthianssp_mg"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795653489-0-0-9eccacf1458f0f62cbd4b42bc47431ac",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795653489-0-0-ecffed4f56b8e26c0f4aed19f23c26ae",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795653489-0-0-e45b0aabf64da4c06a5544a05ced2a55",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_corinthianssp_mg"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=23e760f9822e39e10382821b0fde41b2&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795653489-0-0-29f9ef2a24d95d8a8d0f09e5d8897067",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_corinthianssp_mg"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795653489-0-0-58c01b79be34c54d1c391fece2003216",
-          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
-          "competition": "ARG D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795653489-0-0-9066b579ce655cb17e824d003358e3ca",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "BRA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_corinthianssp_mg"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV ASHAHI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795653489-0-0-41435e4a22bfa020243d37a83a010acb",
-          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_06:20_deportivaoncecaldas_independientesantafe"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795653489-0-0-808d3ac43c102ec01677e2445039543e",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_06:20_deportivaoncecaldas_independientesantafe"
-        },
-        {
           "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795653489-0-0-92dac39d6049113ed676287b9571ab0d",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795654449-0-0-b2d3ca15196e5ea92d4255a129111b87",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_07:00_charlottehornets_chicagobulls"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Galatasaray vs Aston Villa (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=e0ae45f455572c25db16a5d66915ad2c&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/741526c2414c199f6bce5b6a5e115df7.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV ASHAHI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-626841_lhd.m3u8?auth_key=1795654449-0-0-a85842578a95826d29edcf7de002b6fb",
+          "logo": "https://sta.vnres.co/file/common/20261004/9216daa6a451e0195c32ed32619ee7dc.jpg",
+          "competition": "COL D1",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_astonvilla_galatasaray"
+          "match_key": "26/11_06:20_deportivaoncecaldas_independientesantafe"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Arsenal vs Borussia Dortmund (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=eeec52f03c283bfe04a568fe5e9029d9&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/553e8cb7aa14bf44126f44cb94f878c9.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795654449-0-0-d7c6ec8204d935a92daeabaede2b3a8b",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "NBA",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_arsenal_dortmund"
+          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Real Madrid vs PSV Eindhoven (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=4cad0979da538ef2577c077d8376b66e&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/f8924656b0ede0c0c103126f42e25d10.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795654449-0-0-2acf33b50132b8c271cf0f92bfe913d5",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_psv_realmadrid"
+          "match_key": "26/11_LIVE_corinthianssp_mg"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Manchester City vs Napoli (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=59449566730d6dd9ffc76a64cfedc65b&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/3239877f422dd4c87c2ee06251adb00f.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Independiente Santa Fe vs Deportiva Once Caldas (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795654449-0-0-4fee7cfc58efccdcfe3851098eea15fd",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "COL D1",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_mancity_napoli"
+          "match_key": "26/11_06:20_deportivaoncecaldas_independientesantafe"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - FK Bodo/Glimt vs LASK Linz (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=17f64bf704085efdab55f8717edbc682&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/27a188a3b230b6c2e03cfe842412d027.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795654449-0-0-7f73d6925ff62afd7d16f5d6483f678f",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "BRA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_bodoglimt_lasklinz"
+          "match_key": "26/11_LIVE_corinthianssp_mg"
         },
         {
-          "name": "⚽ [LIVE 26/11] ACL Elite - Al Nassr vs Al-Sadd (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=d4bc0ab02e88a22f2c1f1de2e141bbbc&txTime=6b07c5c1",
-          "logo": "https://sta.vnres.co/file/common/20261125/6f5912f69c923fcfe4d0e7eb550f145b.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 26/11] Barcelona SC(ECU) vs Independiente del Valle (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=25f4c0a9f796c09c97a86f067d3d81ef&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "ECU D1",
           "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_alnassr_alsadd"
+          "match_key": "26/11_LIVE_barcelona_independientedelvalle"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV KAN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=9f3d246c3705649916d59a43eb670d75&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795654449-0-0-d985a48db81263f9473393cb6b2a0eac",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_corinthianssp_mg"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795654449-0-0-5edee23a502735fc5b1644852857a5e8",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atlético Mineiro - MG vs Corinthians - SP (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795654449-0-0-316aebc544d7f6d9a9913b9115d14c36",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "competition": "BRA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_corinthianssp_mg"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=04344163075c138f4b3c8a61e4cadafb&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Boca Juniors vs Independiente Rivadavia (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795654449-0-0-d3f322746802e7a8b091d25fb0bc05e1",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "ARG D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795654449-0-0-4d65b9f23f85c9e76b486bd249248552",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Barcelona SC(ECU) vs Independiente del Valle (BLV A WIN) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-536185_lhd.m3u8?txSecret=b24d2e9e823ed9b27eaef9db20bffdb9&txTime=6b07c981",
+          "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
+          "competition": "ECU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_barcelona_independientedelvalle"
         }
       ]
     },
@@ -2286,12 +2358,12 @@
     {
       "home_team": "Philadelphia 76ers",
       "away_team": "Miami Heat",
-      "home_score": "74",
-      "away_score": "60",
+      "home_score": "88",
+      "away_score": "79",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "7:42 - 3rd",
+      "detail": "1:30 - 3rd",
       "date": "2026-11-25T22:00Z"
     },
     {
