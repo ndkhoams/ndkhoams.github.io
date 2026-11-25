@@ -1,37 +1,6 @@
 {
-  "updated_at": "2026-11-25 13:06:19",
+  "updated_at": "2026-11-25 13:22:00",
   "live_events": [
-    {
-      "key": "25/11_11:00_pglmajorstage1_swissround3streama",
-      "match_key": "25/11_11:00_pglmajorstage1_swissround3streama",
-      "c_home": "pglmajorstage1",
-      "c_away": "swissround3streama",
-      "homeTeam": "Pgl Major Stage 1",
-      "awayTeam": "Swiss Round 3-stream A",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "11:00",
-      "date": "25/11",
-      "timestamp": 1795579200000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [11:00 25/11] 🎮 PGL Major Stage 1 vs Swiss Round 3-Stream A (BLV Mickey) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1795530859_hd/1795530859_hd@720p.m3u8",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfHml4Myh82bNrx4YhwcADFf1ElUN4mI2XYYm5WKDLg&s=10",
-          "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_11:00_pglmajorstage1_swissround3streama"
-        }
-      ],
-      "displayTitle": "🔴 [11:00 25/11] Pgl Major Stage 1 vs Swiss Round 3-stream A",
-      "number": 1
-    },
     {
       "key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa",
       "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa",
@@ -51,8 +20,17 @@
       "isCompleted": false,
       "sources": [
         {
+          "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795591269-0-0-98872ec21c6b7003be71da4c7de5c7b6",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "JPN D3",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795590309-0-0-3a6d86dad9b7495dbc56f10c39b07469",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795591269-0-0-b3458abbd5c35f47ca9afff1278653e6",
           "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
@@ -61,7 +39,7 @@
         },
         {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795590309-0-0-f93df38ecd976a180b8df2396d8c0351",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795591269-0-0-e8dd1fcdc199130b2887da968b214129",
           "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
@@ -69,17 +47,8 @@
           "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
         },
         {
-          "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795590309-0-0-a78ae47c6fe79a04d32c5328cb41a370",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "JPN D3",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795590309-0-0-1d3e5e08e980111a2ee8578513bbc30b",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795591269-0-0-79f138293a985c9b81ae114d321b89f5",
           "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
@@ -106,7 +75,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 25/11] Giravanz Kitakyushu vs Kanazawa",
-      "number": 2
+      "number": 1
     },
     {
       "key": "25/11_LIVE_alnassr_alsadd",
@@ -128,7 +97,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 25/11] ACL Elite - Al Nassr vs Al-Sadd (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3c4b8181c8fba0a6711a250ba57a1648&txTime=6b06cef5",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=99477935438e9e0d2adfac40e525f11b&txTime=6b06d2b5",
           "logo": "https://sta.vnres.co/file/common/20261125/6f5912f69c923fcfe4d0e7eb550f145b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -137,7 +106,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 25/11] Al Nassr vs Al-sadd",
-      "number": 3
+      "number": 2
     },
     {
       "key": "25/11_12:30_gonzaga_kansasstate",
@@ -177,7 +146,7 @@
         }
       ],
       "displayTitle": "🏀 [12:30 25/11] Kansas State vs Gonzaga",
-      "number": 4
+      "number": 3
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -300,7 +269,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 5
+      "number": 4
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -414,7 +383,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai",
-      "number": 6
+      "number": 5
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -445,7 +414,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 7
+      "number": 6
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -476,7 +445,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 8
+      "number": 7
     },
     {
       "key": "26/11_00:00_alnasrdubai_qatar",
@@ -507,7 +476,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 26/11] Qatar vs Al Nasr Dubai",
-      "number": 9
+      "number": 8
     },
     {
       "key": "26/11_00:45_barcelona_sabah",
@@ -581,7 +550,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Sabah FC vs Barcelona",
-      "number": 10
+      "number": 9
     },
     {
       "key": "26/11_00:45_slavia_villarreal",
@@ -632,7 +601,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Slavia Prague vs Villarreal",
-      "number": 11
+      "number": 10
     },
     {
       "key": "26/11_03:00_atleticomadrid_viking",
@@ -663,7 +632,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atletico Madrid vs Viking FK",
-      "number": 12
+      "number": 11
     },
     {
       "key": "26/11_03:00_brugge_liverpool",
@@ -723,7 +692,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Club Brugge vs Liverpool",
-      "number": 13
+      "number": 12
     },
     {
       "key": "26/11_03:00_intermilan_stuttgart",
@@ -763,7 +732,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Inter Milan vs VfB Stuttgart",
-      "number": 14
+      "number": 13
     },
     {
       "key": "26/11_03:00_bayern_losclille",
@@ -823,7 +792,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Losc vs Bayern Munich",
-      "number": 15
+      "number": 14
     },
     {
       "key": "26/11_03:00_parissaintgermain_roma",
@@ -863,7 +832,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint Germain vs AS Roma",
-      "number": 16
+      "number": 15
     },
     {
       "key": "26/11_03:00_fenerbahce_shakhtardonetsk",
@@ -894,7 +863,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Shakhtar Donetsk vs Fenerbahce",
-      "number": 17
+      "number": 16
     },
     {
       "key": "26/11_03:00_manutd_sportingcp",
@@ -959,7 +928,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Sporting CP vs Manchester United",
-      "number": 18
+      "number": 17
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -992,7 +961,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 19
+      "number": 18
     },
     {
       "key": "26/11_03:00_psg_roma",
@@ -1034,7 +1003,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint-Germain vs AS Roma",
-      "number": 20
+      "number": 19
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -1065,7 +1034,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 21
+      "number": 20
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -1096,7 +1065,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 22
+      "number": 21
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -1129,7 +1098,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 23
+      "number": 22
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -1162,7 +1131,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 24
+      "number": 23
     }
   ],
   "source_groups": [
@@ -2087,8 +2056,16 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
+          "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795591269-0-0-98872ec21c6b7003be71da4c7de5c7b6",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "JPN D3",
+          "group": "🐿️ SocoLive",
+          "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795590309-0-0-3a6d86dad9b7495dbc56f10c39b07469",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795591269-0-0-b3458abbd5c35f47ca9afff1278653e6",
           "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
@@ -2096,23 +2073,15 @@
         },
         {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795590309-0-0-f93df38ecd976a180b8df2396d8c0351",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795591269-0-0-e8dd1fcdc199130b2887da968b214129",
           "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
         },
         {
-          "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795590309-0-0-a78ae47c6fe79a04d32c5328cb41a370",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "JPN D3",
-          "group": "🐿️ SocoLive",
-          "match_key": "25/11_LIVE_giravanzkitakyushu_zweigenkanazawa"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Giravanz Kitakyushu vs Zweigen Kanazawa FC (BLV ĐỐM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795590309-0-0-1d3e5e08e980111a2ee8578513bbc30b",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795591269-0-0-79f138293a985c9b81ae114d321b89f5",
           "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
           "competition": "JPN D3",
           "group": "🐿️ SocoLive",
@@ -2120,7 +2089,7 @@
         },
         {
           "name": "⚽ [LIVE 25/11] ACL Elite - Al Nassr vs Al-Sadd (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3c4b8181c8fba0a6711a250ba57a1648&txTime=6b06cef5",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=99477935438e9e0d2adfac40e525f11b&txTime=6b06d2b5",
           "logo": "https://sta.vnres.co/file/common/20261125/6f5912f69c923fcfe4d0e7eb550f145b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -2128,29 +2097,29 @@
         },
         {
           "name": "⚽ [LIVE 25/11] UEFA CL - Galatasaray vs Aston Villa (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=e0326ba4e8136333529db10b2638de96&txTime=6b06cef5",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=23aa6970df7d9f8bd3c18354a605503f&txTime=6b06d2b5",
           "logo": "https://sta.vnres.co/file/common/20261125/741526c2414c199f6bce5b6a5e115df7.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] UEFA CL - FK Bodo/Glimt vs LASK Linz (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=fdd7c55eb89b7c89f1384de24482993f&txTime=6b06cef5",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=1c85800a3c3bd2510a184b1ad62389c6&txTime=6b06d2b5",
           "logo": "https://sta.vnres.co/file/common/20261125/27a188a3b230b6c2e03cfe842412d027.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] UEFA CL - Arsenal vs Borussia Dortmund (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=72c4e791ce623dcc16d338cf3f2836ad&txTime=6b06cef5",
-          "logo": "https://sta.vnres.co/file/common/20261125/553e8cb7aa14bf44126f44cb94f878c9.png",
+          "name": "⚽ [LIVE 25/11] UEFA CL - Manchester City vs Napoli (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=0e8e1fb3f3c827f371316fce47cc3993&txTime=6b06d2b5",
+          "logo": "https://sta.vnres.co/file/common/20261125/3239877f422dd4c87c2ee06251adb00f.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] UEFA CL - Manchester City vs Napoli (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=70c8197f07f02a85935c392f65cb77b2&txTime=6b06cef5",
-          "logo": "https://sta.vnres.co/file/common/20261125/3239877f422dd4c87c2ee06251adb00f.png",
+          "name": "⚽ [LIVE 25/11] UEFA CL - Arsenal vs Borussia Dortmund (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=2ee5edd70f38c49536094e31b21d1560&txTime=6b06d2b5",
+          "logo": "https://sta.vnres.co/file/common/20261125/553e8cb7aa14bf44126f44cb94f878c9.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         }
@@ -2275,8 +2244,7 @@
           "url": "https://pzhgifbkllliv.vcdn.cloud/1795530859_hd/1795530859_hd@720p.m3u8",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfHml4Myh82bNrx4YhwcADFf1ElUN4mI2XYYm5WKDLg&s=10",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
-          "match_key": "25/11_11:00_pglmajorstage1_swissround3streama"
+          "group": "⚡ Giờ Vàng TV"
         }
       ]
     },
