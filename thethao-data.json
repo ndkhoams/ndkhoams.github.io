@@ -1,43 +1,32 @@
 {
-  "updated_at": "2026-11-25 18:57:47",
+  "updated_at": "2026-11-25 19:12:59",
   "live_events": [
     {
-      "key": "25/11_17:00_gambaosaka_port",
-      "match_key": "25/11_17:00_gambaosaka_port",
+      "key": "25/11_17:00_gambaosaka_portmti",
+      "match_key": "25/11_17:00_gambaosaka_portmti",
       "c_home": "gambaosaka",
-      "c_away": "port",
+      "c_away": "portmti",
       "homeTeam": "Gamba Osaka",
       "awayTeam": "Port",
-      "homeLogo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/413_port.jpg",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "17:00",
       "date": "25/11",
       "timestamp": 1795600800000,
-      "league": "AFC_CL",
-      "leagueName": "AFC Champions League",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [17:00 25/11] Gamba Osaka Vs Port Fc (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
-          "competition": "AFC Champions League Elite",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_gambaosaka_port"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Gamba Osaka vs Port MTI FC (BLV Tam Mao) - Xôi Chè",
+          "name": "⚽ [17:00 25/11] Gamba Osaka vs Port MTI FC (BLV Tam Mao) [hls] - Khô Gà TV",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/413_port.jpg",
-          "competition": "AFC Champions League Elite",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Bee) [hls] - Giờ Vàng TV",
@@ -46,7 +35,7 @@
           "competition": "",
           "group": "⚡ Giờ Vàng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV NGƯỜI NẶN) [hls] - S8 TV",
@@ -55,16 +44,7 @@
           "competition": "",
           "group": "⚡ S8 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Gà Siêu Quỷ) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/304565.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Ricky) [hls] - Sao Kê TV",
@@ -73,7 +53,7 @@
           "competition": "",
           "group": "⚡ Sao Kê TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
@@ -82,7 +62,7 @@
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV C2) [hls] - Cola TV",
@@ -91,7 +71,7 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV C2) [hls 2] - Cola TV",
@@ -100,7 +80,7 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Hawkeye) - Xôi Gấc TV",
@@ -109,7 +89,7 @@
           "competition": "",
           "group": "⚡ Xôi Gấc TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV LÝ LẮC) [geo] - Phá Làng TV",
@@ -118,7 +98,7 @@
           "competition": "",
           "group": "⚡ Phá Làng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Nhà đài) - Phá Làng TV",
@@ -127,17 +107,17 @@
           "competition": "",
           "group": "⚡ Phá Làng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         }
       ],
       "displayTitle": "🔴 [17:00 25/11] Gamba Osaka vs Port",
       "number": 1
     },
     {
-      "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
-      "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
+      "key": "25/11_17:00_jeonbuk_kashimaantlers",
+      "match_key": "25/11_17:00_jeonbuk_kashimaantlers",
       "c_home": "kashimaantlers",
-      "c_away": "jeonbukhyundaimotors",
+      "c_away": "jeonbuk",
       "homeTeam": "Kashima Antlers",
       "awayTeam": "Jeonbuk Hyundai",
       "homeLogo": "",
@@ -145,21 +125,12 @@
       "time": "17:00",
       "date": "25/11",
       "timestamp": 1795600800000,
-      "league": "AFC_CL",
-      "leagueName": "AFC Champions League",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Kashima Antlers Vs Jeonbuk Hyundai Motors (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
-          "competition": "AFC Champions League Elite",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
-        },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk (BLV Khô Mật) [hls] - Khô Gà TV",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
@@ -167,7 +138,7 @@
           "competition": "",
           "group": "⚡ Khô Gà TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Súp) [hls] - Giờ Vàng TV",
@@ -176,7 +147,7 @@
           "competition": "",
           "group": "⚡ Giờ Vàng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV NGƯỜI CAT) [hls] - S8 TV",
@@ -185,7 +156,7 @@
           "competition": "",
           "group": "⚡ S8 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
@@ -194,7 +165,7 @@
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors FC (BLV Teppy) [hls] - Sao Kê TV",
@@ -203,7 +174,7 @@
           "competition": "",
           "group": "⚡ Sao Kê TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Ngô Quyền) - Vua Sân Cỏ TV",
@@ -212,7 +183,7 @@
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs CLB Jeonbuk Hyundai Motors (BLV MONSTER) [hls] - Cola TV",
@@ -221,7 +192,7 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs CLB Jeonbuk Hyundai Motors (BLV MONSTER) [hls 2] - Cola TV",
@@ -230,7 +201,16 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Kashima vs Jeonbuk Motors (BLV Joker) - Xôi Gấc TV",
+          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.HbmKfeSFcPsI.m3u8?expires=1795616428&signature=xsdfB3ZX7Tanu3p4psWDXhgnY1iNza4x5ChpkPokfnM",
+          "logo": "https://xoigac.top/images/football/teams/290.webp",
+          "competition": "",
+          "group": "⚡ Xôi Gấc TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai (BLV LÝ LẦY LỘI) [geo] - Phá Làng TV",
@@ -239,7 +219,7 @@
           "competition": "",
           "group": "⚡ Phá Làng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai (BLV Nhà đài) - Phá Làng TV",
@@ -248,24 +228,24 @@
           "competition": "",
           "group": "⚡ Phá Làng TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         }
       ],
       "displayTitle": "🔴 [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai",
       "number": 2
     },
     {
-      "key": "25/11_16:50_gambaosaka_thailand",
-      "match_key": "25/11_16:50_gambaosaka_thailand",
+      "key": "25/11_17:00_gambaosaka_port33tv",
+      "match_key": "25/11_17:00_gambaosaka_port33tv",
       "c_home": "gambaosaka",
-      "c_away": "thailand",
+      "c_away": "port33tv",
       "homeTeam": "Gamba Osaka",
-      "awayTeam": "Thailand",
+      "awayTeam": "Port 33 Tv",
       "homeLogo": "",
       "awayLogo": "",
-      "time": "16:50",
+      "time": "17:00",
       "date": "25/11",
-      "timestamp": 1795600200000,
+      "timestamp": 1795600800000,
       "league": "OTHER",
       "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
@@ -273,28 +253,23 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [16:50 25/11] Gamba Osaka vs Cảng Thái Lan (TV360+ 5) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzU2MX0.rXEsO2b03VA9DeaDZM3og0Q2484fMfIJLwBXy0AYYmnYqYeILi7Aohyvp22BYD2Kz2IAHiWRDN0OGhT29dPZMQ&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/14/1795418105549/49ea72740653_1280_720.png",
+          "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Gà Siêu Quỷ) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/304565.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png",
           "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
-            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
-          },
-          "match_key": "25/11_16:50_gambaosaka_thailand"
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_gambaosaka_port33tv"
         }
       ],
-      "displayTitle": "🔴 [16:50 25/11] Gamba Osaka vs Thailand",
+      "displayTitle": "🔴 [17:00 25/11] Gamba Osaka vs Port 33 Tv",
       "number": 3
     },
     {
-      "key": "25/11_17:00_mitohollyhock_tokyoverdy",
-      "match_key": "25/11_17:00_mitohollyhock_tokyoverdy",
+      "key": "25/11_17:00_mitohollyhock_tokyoverdy33tv",
+      "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv",
       "c_home": "mitohollyhock",
-      "c_away": "tokyoverdy",
+      "c_away": "tokyoverdy33tv",
       "homeTeam": "Mito Hollyhock",
       "awayTeam": "Tokyo Verdy",
       "homeLogo": "",
@@ -303,20 +278,11 @@
       "date": "25/11",
       "timestamp": 1795600800000,
       "league": "OTHER",
-      "leagueName": "Japanese J1 League",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Mito Hollyhock Vs Tokyo Verdy (BLV Gà Siêu Bệu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
-        },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV Gà Siêu Bệu) [hls] - Gà Vàng 33 TV",
           "url": "https://live2.zktsva.app/live/289650.m3u8",
@@ -324,7 +290,7 @@
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV STING) [hls] - Cola TV",
@@ -333,7 +299,7 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV STING) [hls 2] - Cola TV",
@@ -342,327 +308,19 @@
           "competition": "",
           "group": "⚡ Cola TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         }
       ],
       "displayTitle": "🔴 [17:00 25/11] Mito Hollyhock vs Tokyo Verdy",
       "number": 4
     },
     {
-      "key": "25/11_17:00_sanfreccehiroshima_tokyo",
-      "match_key": "25/11_17:00_sanfreccehiroshima_tokyo",
+      "key": "25/11_17:00_sanfreccehiroshima33tv_tokyo",
+      "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo",
       "c_home": "tokyo",
-      "c_away": "sanfreccehiroshima",
+      "c_away": "sanfreccehiroshima33tv",
       "homeTeam": "Tokyo",
       "awayTeam": "Sanfrecce Hiroshima",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
-      "date": "25/11",
-      "timestamp": 1795600800000,
-      "league": "OTHER",
-      "leagueName": "Japanese J1 League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Fc Tokyo Vs Sanfrecce Hiroshima (BLV Gà Siêu Péo) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        },
-        {
-          "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/303098.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        },
-        {
-          "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Nguyễn Ánh) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/333df39860930a21cf72b4e9664723ab.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        },
-        {
-          "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/88508431.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        },
-        {
-          "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/88508431_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        }
-      ],
-      "displayTitle": "🔴 [17:00 25/11] Tokyo vs Sanfrecce Hiroshima",
-      "number": 5
-    },
-    {
-      "key": "25/11_17:00_okayama_shimizuspulse",
-      "match_key": "25/11_17:00_okayama_shimizuspulse",
-      "c_home": "okayama",
-      "c_away": "shimizuspulse",
-      "homeTeam": "Fagiano Okayama",
-      "awayTeam": "Shimizu S-pulse",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
-      "date": "25/11",
-      "timestamp": 1795600800000,
-      "league": "OTHER",
-      "leagueName": "Japanese J1 League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Okayama Vs Shimizu S Pulse (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Okayama vs Shimizu S-Pulse (BLV Gà Siêu Mõm) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/300523.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/90865415.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/90865415_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
-        }
-      ],
-      "displayTitle": "🔴 [17:00 25/11] Fagiano Okayama vs Shimizu S-pulse",
-      "number": 6
-    },
-    {
-      "key": "25/11_17:00_avispafukuoka_yokohamafmarinos",
-      "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos",
-      "c_home": "avispafukuoka",
-      "c_away": "yokohamafmarinos",
-      "homeTeam": "Avispa Fukuoka",
-      "awayTeam": "Yokohama F. Marinos",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
-      "date": "25/11",
-      "timestamp": 1795600800000,
-      "league": "OTHER",
-      "leagueName": "Japanese J1 League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka Vs Yokohama F Marinos (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/306290.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV Trần Hoàng) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/59444581.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/59444581_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        }
-      ],
-      "displayTitle": "🔴 [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos",
-      "number": 7
-    },
-    {
-      "key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus",
-      "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus",
-      "c_home": "jefunitedichiharachiba",
-      "c_away": "nagoyagrampus",
-      "homeTeam": "Chiba",
-      "awayTeam": "Nagoya Grampus",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
-      "date": "25/11",
-      "timestamp": 1795600800000,
-      "league": "OTHER",
-      "leagueName": "Japanese J1 League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [17:00 25/11] Jef United Ichihara Chiba Vs Nagoya Grampus (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
-        },
-        {
-          "name": "⚽ [17:00 25/11] JEF United Ichihara Chiba vs Nagoya Grampus (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/741294.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/18812304.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/18812304_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
-        }
-      ],
-      "displayTitle": "🔴 [17:00 25/11] Chiba vs Nagoya Grampus",
-      "number": 8
-    },
-    {
-      "key": "25/11_17:00_kawasakifrontale_vvarennagasaki",
-      "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki",
-      "c_home": "vvarennagasaki",
-      "c_away": "kawasakifrontale",
-      "homeTeam": "V Varen Nagasaki",
-      "awayTeam": "Kawasaki Frontale",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "17:00",
-      "date": "25/11",
-      "timestamp": 1795600800000,
-      "league": "OTHER",
-      "leagueName": "Japanese J1 League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [17:00 25/11] V Varen Nagasaki Vs Kawasaki Frontale (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
-        },
-        {
-          "name": "⚽ [17:00 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV Gà Ô Long) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/432017.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
-        },
-        {
-          "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/87379114.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
-        },
-        {
-          "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/87379114_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
-        }
-      ],
-      "displayTitle": "🔴 [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale",
-      "number": 9
-    },
-    {
-      "key": "25/11_17:00_jeonbukmotors_kashima",
-      "match_key": "25/11_17:00_jeonbukmotors_kashima",
-      "c_home": "kashima",
-      "c_away": "jeonbukmotors",
-      "homeTeam": "Kashima",
-      "awayTeam": "Jeonbuk Motors",
       "homeLogo": "",
       "awayLogo": "",
       "time": "17:00",
@@ -675,17 +333,249 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [17:00 25/11] Kashima vs Jeonbuk Motors (BLV Joker) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.HbmKfeSFcPsI.m3u8?expires=1795616428&signature=xsdfB3ZX7Tanu3p4psWDXhgnY1iNza4x5ChpkPokfnM",
-          "logo": "https://xoigac.top/images/football/teams/290.webp",
+          "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/303098.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png",
           "competition": "",
-          "group": "⚡ Xôi Gấc TV",
+          "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "25/11_17:00_jeonbukmotors_kashima"
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
+        },
+        {
+          "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Nguyễn Ánh) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-11.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/333df39860930a21cf72b4e9664723ab.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
+        },
+        {
+          "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/88508431.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
+        },
+        {
+          "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/88508431_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
         }
       ],
-      "displayTitle": "🔴 [17:00 25/11] Kashima vs Jeonbuk Motors",
-      "number": 10
+      "displayTitle": "🔴 [17:00 25/11] Tokyo vs Sanfrecce Hiroshima",
+      "number": 5
+    },
+    {
+      "key": "25/11_17:00_okayama_shimizuspulse33tv",
+      "match_key": "25/11_17:00_okayama_shimizuspulse33tv",
+      "c_home": "okayama",
+      "c_away": "shimizuspulse33tv",
+      "homeTeam": "Fagiano Okayama",
+      "awayTeam": "Shimizu S-pulse",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "17:00",
+      "date": "25/11",
+      "timestamp": 1795600800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 25/11] Okayama vs Shimizu S-Pulse (BLV Gà Siêu Mõm) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/300523.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/90865415.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/90865415_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
+        }
+      ],
+      "displayTitle": "🔴 [17:00 25/11] Fagiano Okayama vs Shimizu S-pulse",
+      "number": 6
+    },
+    {
+      "key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv",
+      "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv",
+      "c_home": "avispafukuoka",
+      "c_away": "yokohamafmarinos33tv",
+      "homeTeam": "Avispa Fukuoka",
+      "awayTeam": "Yokohama F. Marinos",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "17:00",
+      "date": "25/11",
+      "timestamp": 1795600800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/306290.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV Trần Hoàng) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/59444581.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/59444581_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
+        }
+      ],
+      "displayTitle": "🔴 [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos",
+      "number": 7
+    },
+    {
+      "key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv",
+      "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv",
+      "c_home": "jefunitedichiharachiba",
+      "c_away": "nagoyagrampus33tv",
+      "homeTeam": "Chiba",
+      "awayTeam": "Nagoya Grampus",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "17:00",
+      "date": "25/11",
+      "timestamp": 1795600800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 25/11] JEF United Ichihara Chiba vs Nagoya Grampus (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/741294.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/18812304.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
+        },
+        {
+          "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/18812304_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
+        }
+      ],
+      "displayTitle": "🔴 [17:00 25/11] Chiba vs Nagoya Grampus",
+      "number": 8
+    },
+    {
+      "key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki",
+      "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki",
+      "c_home": "vvarennagasaki",
+      "c_away": "kawasakifrontale33tv",
+      "homeTeam": "V Varen Nagasaki",
+      "awayTeam": "Kawasaki Frontale",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "17:00",
+      "date": "25/11",
+      "timestamp": 1795600800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [17:00 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV Gà Ô Long) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/432017.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
+        },
+        {
+          "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/87379114.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
+        },
+        {
+          "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/87379114_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
+        }
+      ],
+      "displayTitle": "🔴 [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale",
+      "number": 9
     },
     {
       "key": "25/11_17:30_cerezoosaka_urawareddiamonds",
@@ -716,7 +606,7 @@
         },
         {
           "name": "⚽ [17:30 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=412fbd543b75d589001768b219ca4669&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=ab10c7ff057fae4f0ebfc53440ded57a&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
@@ -761,7 +651,7 @@
         }
       ],
       "displayTitle": "🔴 [17:30 25/11] Urawa vs Cerezo Osaka",
-      "number": 11
+      "number": 10
     },
     {
       "key": "25/11_17:30_cerezoosaka_urawareds",
@@ -801,162 +691,7 @@
         }
       ],
       "displayTitle": "🔴 [17:30 25/11] Urawa Reds vs Cerezo Osaka",
-      "number": 12
-    },
-    {
-      "key": "25/11_18:00_chiangmaiunited_mahasarakhamcc",
-      "match_key": "25/11_18:00_chiangmaiunited_mahasarakhamcc",
-      "c_home": "chiangmaiunited",
-      "c_away": "mahasarakhamcc",
-      "homeTeam": "Chiangmai United",
-      "awayTeam": "Mahasarakham Cc",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "18:00",
-      "date": "25/11",
-      "timestamp": 1795604400000,
-      "league": "OTHER",
-      "leagueName": "BYD Seal 5 League II",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [18:00 25/11] Chiangmai United vs Mahasarakham CC FC (Chiangmai United vs Mahasarakham CC FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel6/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_18:00_chiangmaiunited_mahasarakhamcc"
-        }
-      ],
-      "displayTitle": "🔴 [18:00 25/11] Chiangmai United vs Mahasarakham Cc",
-      "number": 13
-    },
-    {
-      "key": "25/11_18:00_kasetsart_phraeunited",
-      "match_key": "25/11_18:00_kasetsart_phraeunited",
-      "c_home": "kasetsart",
-      "c_away": "phraeunited",
-      "homeTeam": "Kasetsart",
-      "awayTeam": "Phrae United",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "18:00",
-      "date": "25/11",
-      "timestamp": 1795604400000,
-      "league": "OTHER",
-      "leagueName": "BYD Seal 5 League II",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [18:00 25/11] Kasetsart FC vs Phrae United (Kasetsart FC vs Phrae United) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel7/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_18:00_kasetsart_phraeunited"
-        }
-      ],
-      "displayTitle": "🔴 [18:00 25/11] Kasetsart vs Phrae United",
-      "number": 14
-    },
-    {
-      "key": "25/11_18:30_policetero_ptsatun",
-      "match_key": "25/11_18:30_policetero_ptsatun",
-      "c_home": "ptsatun",
-      "c_away": "policetero",
-      "homeTeam": "Pt Satun",
-      "awayTeam": "Police Tero",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "18:30",
-      "date": "25/11",
-      "timestamp": 1795606200000,
-      "league": "OTHER",
-      "leagueName": "BYD Seal 5 League II",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [18:30 25/11] PT Satun FC vs Police Tero FC (PT Satun FC vs Police Tero FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel8/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_18:30_policetero_ptsatun"
-        }
-      ],
-      "displayTitle": "🔴 [18:30 25/11] Pt Satun vs Police Tero",
-      "number": 15
-    },
-    {
-      "key": "25/11_18:30_muangthongunited_nakhonratchasimamazda",
-      "match_key": "25/11_18:30_muangthongunited_nakhonratchasimamazda",
-      "c_home": "muangthongunited",
-      "c_away": "nakhonratchasimamazda",
-      "homeTeam": "Muangthong United",
-      "awayTeam": "Nakhonratchasima Mazda",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "18:30",
-      "date": "25/11",
-      "timestamp": 1795606200000,
-      "league": "OTHER",
-      "leagueName": "BYD Seal 5 League II",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [18:30 25/11] Muangthong United vs Nakhonratchasima Mazda FC (Muangthong United vs  Nakhonratchasima Mazda FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel9/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_18:30_muangthongunited_nakhonratchasimamazda"
-        }
-      ],
-      "displayTitle": "🔴 [18:30 25/11] Muangthong United vs Nakhonratchasima Mazda",
-      "number": 16
-    },
-    {
-      "key": "25/11_18:30_bangkok_samutsakhoncity",
-      "match_key": "25/11_18:30_bangkok_samutsakhoncity",
-      "c_home": "bangkok",
-      "c_away": "samutsakhoncity",
-      "homeTeam": "Bangkok",
-      "awayTeam": "Samutsakhon City",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "18:30",
-      "date": "25/11",
-      "timestamp": 1795606200000,
-      "league": "OTHER",
-      "leagueName": "BYD Dolphin League III",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [18:30 25/11] Bangkok FC vs Samutsakhon City (Bangkok FC vs Samutsakhon City) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel14/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Dolphin League III",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_18:30_bangkok_samutsakhoncity"
-        }
-      ],
-      "displayTitle": "🔴 [18:30 25/11] Bangkok vs Samutsakhon City",
-      "number": 17
+      "number": 11
     },
     {
       "key": "25/11_19:00_radnickinis_zeleznicarpancevo",
@@ -1014,7 +749,7 @@
         }
       ],
       "displayTitle": "🔴 [19:00 25/11] Radnicki Nis vs Zeleznicar Pancevo",
-      "number": 18
+      "number": 12
     },
     {
       "key": "25/11_19:00_baliunited_baritoputera",
@@ -1072,38 +807,7 @@
         }
       ],
       "displayTitle": "🔴 [19:00 25/11] Bali United vs Barito Putera",
-      "number": 19
-    },
-    {
-      "key": "25/11_19:00_kanchanaburipower_khonkaenunited",
-      "match_key": "25/11_19:00_kanchanaburipower_khonkaenunited",
-      "c_home": "khonkaenunited",
-      "c_away": "kanchanaburipower",
-      "homeTeam": "Khon Kaen United",
-      "awayTeam": "Kanchanaburi Power",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "19:00",
-      "date": "25/11",
-      "timestamp": 1795608000000,
-      "league": "OTHER",
-      "leagueName": "BYD Seal 5 League II",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [19:00 25/11] Khon Kaen United vs Kanchanaburi Power FC (Khon Kaen United vs Kanchanaburi Power FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel10/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "25/11_19:00_kanchanaburipower_khonkaenunited"
-        }
-      ],
-      "displayTitle": "🔴 [19:00 25/11] Khon Kaen United vs Kanchanaburi Power",
-      "number": 20
+      "number": 13
     },
     {
       "key": "25/11_19:00_adhyaksabanten_aremamalang",
@@ -1143,7 +847,202 @@
         }
       ],
       "displayTitle": "🔴 [19:00 25/11] Arema Malang vs Adhyaksa Banten",
-      "number": 21
+      "number": 14
+    },
+    {
+      "key": "25/11_19:15_persibbandung_seoul",
+      "match_key": "25/11_19:15_persibbandung_seoul",
+      "c_home": "persibbandung",
+      "c_away": "seoul",
+      "homeTeam": "Persib Bandung",
+      "awayTeam": "Seoul",
+      "homeLogo": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/377_seoul.jpg",
+      "time": "19:15",
+      "date": "25/11",
+      "timestamp": 1795608900000,
+      "league": "LEAGUE_TWO",
+      "leagueName": "League Two",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung Vs Fc Seoul (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/9a22d840df32761c127c5cd106203ccf.png",
+          "competition": "AFC Champions League Two",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs Seoul (BLV Khô Cóc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+          "logo": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/377_seoul.jpg",
+          "competition": "AFC Champions League Two",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV Chuối Nhỏ) [FHD] [hls] - Chuối Chiên TV",
+          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+          "logo": "https://media.chuoichientv.net/media/uploads/20250623_134451_f0892f53.png",
+          "competition": "",
+          "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV NGƯỜI BẠC) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/persib-seoul-afcc2/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/4db2b60b-9d62-46c3-9cdd-ba46c1ccfa00",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV Gà Siêu Gáy) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/294335.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV Nếp Cẩm) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x4-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV Lưu Bang) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/b2004093bf25a5a8d1768970d6e49d71.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] CLB Persib Bandung vs CLB Seoul (BLV REVIVE) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/33982309.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] CLB Persib Bandung vs CLB Seoul (BLV REVIVE) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/33982309_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs Seoul FC (BLV LÃM LÀNG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/3a86312f4be9489eae2098cc9c6201a3/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4z7xr6od/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        },
+        {
+          "name": "⚽ [19:15 25/11] Persib Bandung vs Seoul FC (BLV Nhà đài) - Phá Làng TV",
+          "url": "https://lilive1.eu.cc/live/5b3d3bfe24dceeee36c7ac1fdfb7033a/playlist.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/vjxm8gh4z7xr6od/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "25/11_19:15_persibbandung_seoul"
+        }
+      ],
+      "displayTitle": "🔴 [19:15 25/11] Persib Bandung vs Seoul",
+      "number": 15
+    },
+    {
+      "key": "25/11_19:20_korea_youth_u17ecuador_youth",
+      "match_key": "25/11_19:20_korea_youth_u17ecuador_youth",
+      "c_home": "u17ecuador_youth",
+      "c_away": "korea_youth",
+      "homeTeam": "U17 Ecuador",
+      "awayTeam": "South Korea U17",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "19:20",
+      "date": "25/11",
+      "timestamp": 1795609200000,
+      "league": "OTHER",
+      "leagueName": "U17 Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:20 25/11] U17 Ecuador vs U17 Hàn Quốc (TV360+ 13) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzI3MH0.sivSFbuKdBKgVbTm4z5ApnShjNxjm9AGQMWIhOCEfyiZ7FF-DW53lGboFEpMBk8u9dZZ-bPba0Cj52HJ1cvpFw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794905858651/0156eeafce96_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "41ce0eac12eb58f69607df0d2eaff649",
+            "key": "68c1d283bdd53500336f0db4900e2170"
+          },
+          "match_key": "25/11_19:20_korea_youth_u17ecuador_youth"
+        }
+      ],
+      "displayTitle": "🔴 [19:20 25/11] U17 Ecuador vs South Korea U17",
+      "number": 16
+    },
+    {
+      "key": "25/11_19:20_u17newcaledonia_youth_u17uganda_youth",
+      "match_key": "25/11_19:20_u17newcaledonia_youth_u17uganda_youth",
+      "c_home": "u17uganda_youth",
+      "c_away": "u17newcaledonia_youth",
+      "homeTeam": "U17 Uganda",
+      "awayTeam": "U17 New Caledonia",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "19:20",
+      "date": "25/11",
+      "timestamp": 1795609200000,
+      "league": "OTHER",
+      "leagueName": "U17 Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [19:20 25/11] U17 Uganda vs U17 New Caledonia (TV360+ 14) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/472472/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MjQ3Mi9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzU0OX0.w9kOU6bCktdy3UosYsqDVNYl_wsrHjmllychh9xcuyDwnvGvFOc-jDPdGlbBEuUxKrm4t6m6TVAb6zlfRr4fzA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/16/1794906575278/2346b0691cce_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "807890b3dba7517b90e568e8be4ddaa4",
+            "key": "bb89427403116b132f9fbb34cd616347"
+          },
+          "match_key": "25/11_19:20_u17newcaledonia_youth_u17uganda_youth"
+        }
+      ],
+      "displayTitle": "🔴 [19:20 25/11] U17 Uganda vs U17 New Caledonia",
+      "number": 17
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -1174,7 +1073,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 22
+      "number": 18
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -1205,7 +1104,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 23
+      "number": 19
     },
     {
       "key": "26/11_00:00_alnasrdubai_qatar",
@@ -1254,7 +1153,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 26/11] Qatar vs Al Nasr Dubai",
-      "number": 24
+      "number": 20
     },
     {
       "key": "26/11_00:45_barcelona_sabah",
@@ -1355,7 +1254,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Sabah FC vs Barcelona",
-      "number": 25
+      "number": 21
     },
     {
       "key": "26/11_00:45_slavia_villarreal",
@@ -1406,7 +1305,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Slavia Prague vs Villarreal",
-      "number": 26
+      "number": 22
     },
     {
       "key": "26/11_03:00_manutd_youth_sportingcp_youth",
@@ -1470,6 +1369,15 @@
           "match_key": "26/11_03:00_manutd_youth_sportingcp_youth"
         },
         {
+          "name": "⚽ [LIVE 25/11] Sporting CP U19 vs Manchester United U19 (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=443c67228b8efe98d94e2dd3df633c33&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "UEFA YL",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_03:00_manutd_youth_sportingcp_youth"
+        },
+        {
           "name": "⚽ [20:00 25/11] Sporting CP U19 vs Manchester United U19 (BLV Chuối Lá) [FHD] [hls] - Chuối Chiên TV",
           "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
           "logo": "https://media.chuoichientv.net/media/uploads/20250623_134424_7eae2211.png",
@@ -1525,7 +1433,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Sporting CP U23 vs Manchester United U23",
-      "number": 27
+      "number": 23
     },
     {
       "key": "26/11_03:00_atleticomadrid_viking",
@@ -1556,7 +1464,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atletico Madrid vs Viking FK",
-      "number": 28
+      "number": 24
     },
     {
       "key": "26/11_03:00_brugge_liverpool",
@@ -1634,7 +1542,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Club Brugge vs Liverpool",
-      "number": 29
+      "number": 25
     },
     {
       "key": "26/11_03:00_intermilan_stuttgart",
@@ -1683,7 +1591,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Inter Milan vs VfB Stuttgart",
-      "number": 30
+      "number": 26
     },
     {
       "key": "26/11_03:00_bayern_losclille",
@@ -1743,7 +1651,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Losc vs Bayern Munich",
-      "number": 31
+      "number": 27
     },
     {
       "key": "26/11_03:00_parissaintgermain_roma",
@@ -1783,7 +1691,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint Germain vs AS Roma",
-      "number": 32
+      "number": 28
     },
     {
       "key": "26/11_03:00_fenerbahce_shakhtardonetsk",
@@ -1814,7 +1722,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Shakhtar Donetsk vs Fenerbahce",
-      "number": 33
+      "number": 29
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -1847,7 +1755,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 34
+      "number": 30
     },
     {
       "key": "26/11_03:00_psg_roma",
@@ -1889,7 +1797,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint-Germain vs AS Roma",
-      "number": 35
+      "number": 31
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -1920,7 +1828,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 36
+      "number": 32
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -1951,7 +1859,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 37
+      "number": 33
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -1984,7 +1892,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 38
+      "number": 34
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -2017,77 +1925,13 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 39
+      "number": 35
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
-        {
-          "name": "⚽ [17:00 25/11] Gamba Osaka Vs Port Fc (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
-          "competition": "AFC Champions League Elite",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_gambaosaka_port"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Kashima Antlers Vs Jeonbuk Hyundai Motors (BLV Gà Siêu Ngố) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
-          "competition": "AFC Champions League Elite",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Mito Hollyhock Vs Tokyo Verdy (BLV Gà Siêu Bệu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/289650.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Fc Tokyo Vs Sanfrecce Hiroshima (BLV Gà Siêu Péo) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/303098.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Okayama Vs Shimizu S Pulse (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Avispa Fukuoka Vs Yokohama F Marinos (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
-        },
-        {
-          "name": "⚽ [17:00 25/11] Jef United Ichihara Chiba Vs Nagoya Grampus (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
-        },
-        {
-          "name": "⚽ [17:00 25/11] V Varen Nagasaki Vs Kawasaki Frontale (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/aad52ee6d650628d65f1cc2b5cda10ab.png",
-          "competition": "Japanese J1 League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
-        },
         {
           "name": "⚽ [17:30 25/11] Urawa Red Diamonds Vs Cerezo Osaka (BLV Gà Siêu Tồ) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -2550,16 +2394,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [17:00 25/11] Gamba Osaka vs Port MTI FC (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/413_port.jpg",
-          "competition": "AFC Champions League Elite",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
-        },
-        {
           "name": "⚽ [19:15 25/11] Persib Bandung vs Seoul (BLV Khô Cóc) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
           "logo": "https://apiv3.apifootball.com/badges/4715_persib-bandung.jpg",
@@ -2735,54 +2569,6 @@
       "name": "F4K Sport",
       "channels": [
         {
-          "name": "⚽ [18:00 25/11] Chiangmai United vs Mahasarakham CC FC (Chiangmai United vs Mahasarakham CC FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel6/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "match_key": "25/11_18:00_chiangmaiunited_mahasarakhamcc"
-        },
-        {
-          "name": "⚽ [18:00 25/11] Kasetsart FC vs Phrae United (Kasetsart FC vs Phrae United) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel7/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "match_key": "25/11_18:00_kasetsart_phraeunited"
-        },
-        {
-          "name": "⚽ [18:30 25/11] PT Satun FC vs Police Tero FC (PT Satun FC vs Police Tero FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel8/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "match_key": "25/11_18:30_policetero_ptsatun"
-        },
-        {
-          "name": "⚽ [18:30 25/11] Muangthong United vs Nakhonratchasima Mazda FC (Muangthong United vs  Nakhonratchasima Mazda FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel9/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "match_key": "25/11_18:30_muangthongunited_nakhonratchasimamazda"
-        },
-        {
-          "name": "⚽ [18:30 25/11] Bangkok FC vs Samutsakhon City (Bangkok FC vs Samutsakhon City) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel14/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Dolphin League III",
-          "group": "F4K Sport",
-          "match_key": "25/11_18:30_bangkok_samutsakhoncity"
-        },
-        {
-          "name": "⚽ [19:00 25/11] Khon Kaen United vs Kanchanaburi Power FC (Khon Kaen United vs Kanchanaburi Power FC) - F4K Sport",
-          "url": "https://live-thaileague.monomax.me/channel10/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "BYD Seal 5 League II",
-          "group": "F4K Sport",
-          "match_key": "25/11_19:00_kanchanaburipower_khonkaenunited"
-        },
-        {
           "name": "⚽ [19:20 25/11] U17 Ecuador vs U17 Hàn Quốc (TV360+ 13) - F4K Sport",
           "url": "https://rr1-ateme.tv360.vn/live/eds/471471/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MTQ3MS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzI3MH0.sivSFbuKdBKgVbTm4z5ApnShjNxjm9AGQMWIhOCEfyiZ7FF-DW53lGboFEpMBk8u9dZZ-bPba0Cj52HJ1cvpFw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/17/15/1794905858651/0156eeafce96_1280_720.png",
@@ -2794,19 +2580,6 @@
             "key": "68c1d283bdd53500336f0db4900e2170"
           },
           "match_key": "25/11_19:20_korea_youth_u17ecuador_youth"
-        },
-        {
-          "name": "⚽ [16:50 25/11] Gamba Osaka vs Cảng Thái Lan (TV360+ 5) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzU2MX0.rXEsO2b03VA9DeaDZM3og0Q2484fMfIJLwBXy0AYYmnYqYeILi7Aohyvp22BYD2Kz2IAHiWRDN0OGhT29dPZMQ&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/14/1795418105549/49ea72740653_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
-            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
-          },
-          "match_key": "25/11_16:50_gambaosaka_thailand"
         },
         {
           "name": "⚽ [19:20 25/11] U17 Uganda vs U17 New Caledonia (TV360+ 14) - F4K Sport",
@@ -2893,6 +2666,17 @@
           }
         },
         {
+          "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTYxNzU2MX0.rXEsO2b03VA9DeaDZM3og0Q2484fMfIJLwBXy0AYYmnYqYeILi7Aohyvp22BYD2Kz2IAHiWRDN0OGhT29dPZMQ&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
+          }
+        },
+        {
           "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2MTc1NjQsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.NWyJV9IXeL13OyYecfJlEIUQ2zd0ME3Z8FDEkinJEPg&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
@@ -2974,235 +2758,187 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV ALEX) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-532081_lhd.m3u8?txSecret=dfd3fc271abf607be83a7573fb1affba&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795611429-0-0-15d9d9be1efa6cdc034f1d29305740d1",
-          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
-          "competition": "ACL2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Gamba Osaka vs Port FC (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795611429-0-0-fb2b89c606057957fadbf6b416ab57b8",
-          "logo": "https://sta.vnres.co/file/common/20261125/5b15d256b40c754e0e0efec679321eeb.jpg",
-          "competition": "ACL Elite",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=140c05b7f30556c251c2cde72f531fd1&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795611429-0-0-dfaee338d940ebb3a694c07443576f40",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795611429-0-0-5556a95d5476c19fb04822e1291d8dd1",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "JPN D1",
+          "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795612329-0-0-051c6287b1d899ed5440ff2a76d605c5",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912146_lhd.m3u8?txSecret=95cbd45f387d890daf30f58d985a662c&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-9912146_lhd.m3u8?txSecret=d516b7554fc96637704ef4540aa7159b&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20261125/d7e123aad69badb6c331ff288c8962e3.png",
           "competition": "ACL2",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=f903b80a76c4037a448ea38456fc6184&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "ACL2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795611429-0-0-51e27e83d1ccdff8c4b594682f896ac9",
-          "logo": "https://sta.vnres.co/file/common/20261125/d6e0da4b5101c3083d3c27148fcd7263.jpg",
+          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV ALEX) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-532081_lhd.m3u8?txSecret=4f7509bc645d62c3c4065bc98914b14d&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Gamba Osaka vs Port FC (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=0d50e766e4c9dedd552e157c460f6e22&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "ACL Elite",
+          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795612329-0-0-12414d6a5efb1cd4dbec2b25236fade7",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "competition": "JPN D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV LOKA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912133_lhd.m3u8?txSecret=e4d8de5888c3eb7e899896d90cb6b2d8&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-9912133_lhd.m3u8?txSecret=463815534c914a2c02c8969636556a56&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
           "competition": "ACL2",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV HẢI THANH) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1795611429-0-0-8489f7742b942a8335fff835cf98d22a",
-          "logo": "https://sta.vnres.co/file/common/20261113/20153db98a8e615115345693a06334a0.jpg",
+          "name": "⚽ [LIVE 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795612329-0-0-344d4783339f90da3b32a7e89fd12fd7",
+          "logo": "https://sta.vnres.co/file/common/20261125/d6e0da4b5101c3083d3c27148fcd7263.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV ENZO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-380460_lhd.m3u8?txSecret=a979e05258a077e2d7094ce4d100e913&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
-          "competition": "ACL2",
+          "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795612329-0-0-3944f97a9ecefed63379f8ac0909e138",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795611429-0-0-960110b49ce793bdbbd2da58088a910b",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795612329-0-0-38e0c8b0e953ce5bc40f3f0dc163fcaa",
           "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
           "competition": "ACL2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=8f152d06625333cda3547e701cc60968&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=c8eaf04a29079e6f04057856423f755d&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV ENZO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-380460_lhd.m3u8?txSecret=323bf9926304a76ff01c61c83393da74&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Persib Bandung vs FC Seoul (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795612329-0-0-6ea6f76686684885a987421ebd4a923e",
+          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795612329-0-0-bb0586a8f577c239804f9f3de6d4eca9",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=c0c7fa3bc1732cc368244e10e68b0546&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-9912142_lhd.m3u8?txSecret=4f8f209749f204d31c1c4d1cc3fdd535&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV TUẤN CÙI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1795611429-0-0-4585ca83bcf89dbb10d99942a3250959",
-          "logo": "https://sta.vnres.co/file/common/20260710/2986a2ea0d4ca6c5c2462ea5eca7ae73.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=166e5f06fc06c1d84fb46946a0c54a1e&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Mito Hollyhock vs Tokyo Verdy (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795611429-0-0-11c8440a672edd650b64ffa96bd5e270",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795611429-0-0-0d0b09ed482e58a7574e57b5a7830927",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Mito Hollyhock vs Tokyo Verdy (BLV VIP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-491873_lhd.m3u8?auth_key=1795611429-0-0-a289634b4ce3abe0621cc32a93e3ccd3",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "JPN D1",
+          "name": "⚽ [LIVE 25/11] Bali United vs Barito Putera (BLV GIÓ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=274fb06df725fd57e31f20a7578d6f17&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
+          "competition": "IDN PL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [17:30 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=412fbd543b75d589001768b219ca4669&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=ab10c7ff057fae4f0ebfc53440ded57a&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "JPN D1",
           "group": "🐿️ SocoLive",
           "match_key": "25/11_17:30_cerezoosaka_urawareddiamonds"
         },
         {
-          "name": "⚽ [LIVE 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795611429-0-0-f978036cc7550524f3e7c3f8121a767a",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795611429-0-0-2e2e6cd1cd3f859da74dabd5b55c3bc7",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Bali United vs Barito Putera (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=bec066d22666586ad5dca68e2dfabf7e&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "IDN PL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=7be48056328b585189a2800a0729248e&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Bali United vs Barito Putera (BLV VOI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=0c9384571fa1a889b3a844d5eb71e854&txTime=6b072175",
-          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
-          "competition": "IDN PL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Woori WON W vs KB Stars W (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795611429-0-0-4eef9c98b3aa7fa24411342dac8ba9c9",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "WKBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795611429-0-0-d8971c7e287e7ec948735666c0f0ef72",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "JPN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Novosibirsk W vs Neftyanik Omsk W (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795611429-0-0-ecf03f7f3cdb4995b1f8f31c41fb7833",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "RWBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 25/11] Arema FC vs Isenmulang Kalteng (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795611429-0-0-6be415475287cf63bfee63b1caa05144",
+          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795612329-0-0-0f1d45b1f2a08c9d68bca9f91fc5be89",
           "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "IDN PL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] Uganda U17 vs New Caledonia U17 (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795611429-0-0-6994c6e2fea2bce206499f1c45ba7a6c",
-          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 25/11] Bali United vs Barito Putera (BLV VOI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=5e6ee3de6d1d728077751146e1aeaa22&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
+          "competition": "IDN PL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Novosibirsk W vs Neftyanik Omsk W (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795612329-0-0-8b26456eabbb28494b856cbed0465a4c",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "RWBL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Persatuan Sepakbola Makassar vs Persipura Jayapura (BLV JINWOO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-603255_lhd.m3u8?txSecret=b00a867dcc6e35bc27c9b77d7a1ce9f1&txTime=6b072175",
+          "url": "https://pull.niur.live/live/stream-603255_lhd.m3u8?txSecret=41b2cafcf642ae97bce09e15e63c6b7f&txTime=6b0724f9",
           "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
           "competition": "IDN PL",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 25/11] Ecuador U17 vs South Korea U17 (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795612329-0-0-0fb372b7f9996d9139ba238d48898fd7",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Nasaf Qarshi vs Al Khaldiya (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795611429-0-0-674c7022799992f22e7dea7372b23c44",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795612329-0-0-657014986b95599019fe72efbf7bb74f",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Uganda U17 vs New Caledonia U17 (BLV HUCK) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623653_lhd.m3u8?auth_key=1795612329-0-0-ff379087767db4901a01eca3fa1b5d44",
+          "logo": "https://sta.vnres.co/file/common/20261009/92a8fcacc2a1fc05c8f139e677f3b11b.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Persatuan Sepakbola Makassar vs Persipura Jayapura (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=d7efa5cd50d33aad2eda44311d412528&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "IDN PL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Sporting CP U19 vs Manchester United U19 (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=443c67228b8efe98d94e2dd3df633c33&txTime=6b0724f9",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "UEFA YL",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_03:00_manutd_youth_sportingcp_youth"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Uganda U17 vs New Caledonia U17 (BLV PEANUT) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1795612329-0-0-58385bd63cc801bb761e8d257bb5a988",
+          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         }
       ]
@@ -3216,7 +2952,7 @@
           "logo": "https://apiv3.apifootball.com/badges/411_gamba-osaka.jpg",
           "competition": "",
           "group": "⚡ Khô Gà TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk (BLV Khô Mật) [hls] - Khô Gà TV",
@@ -3224,7 +2960,7 @@
           "logo": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
           "competition": "",
           "group": "⚡ Khô Gà TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [19:15 25/11] Persib Bandung vs Seoul (BLV Khô Cóc) [hls] - Khô Gà TV",
@@ -3261,7 +2997,7 @@
           "logo": "https://images.keovip88.net/images/teams/gamba-osaka.png",
           "competition": "",
           "group": "⚡ Giờ Vàng TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Súp) [hls] - Giờ Vàng TV",
@@ -3269,7 +3005,7 @@
           "logo": "https://images.keovip88.net/images/teams/kashima-antlers.png",
           "competition": "",
           "group": "⚡ Giờ Vàng TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "🏐 [17:00 25/11] IBK Nữ vs Expressway Co Nữ (BLV Sún) [hls] - Giờ Vàng TV",
@@ -3297,7 +3033,7 @@
           "logo": "https://s8tvkc.top/wp-json/s8-image/c9f42855-6fcb-4490-bb33-5cad597d55e0",
           "competition": "",
           "group": "⚡ S8 TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV NGƯỜI NẶN) [hls] - S8 TV",
@@ -3305,7 +3041,7 @@
           "logo": "https://s8tvkc.top/wp-json/s8-image/03d53f35-852f-45f4-ac4c-4d6656c04d8f",
           "competition": "",
           "group": "⚡ S8 TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [19:15 25/11] Persib Bandung vs FC Seoul (BLV NGƯỜI BẠC) [hls] - S8 TV",
@@ -3430,7 +3166,7 @@
           "logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_port33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Gà Siêu Ngố) [hls] - Gà Vàng 33 TV",
@@ -3438,7 +3174,7 @@
           "logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV Gà Siêu Bệu) [hls] - Gà Vàng 33 TV",
@@ -3446,7 +3182,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ead844240532c4e12d3eb45d2087924.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         },
         {
           "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Gà Siêu Péo) [hls] - Gà Vàng 33 TV",
@@ -3454,7 +3190,7 @@
           "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
         },
         {
           "name": "⚽ [17:00 25/11] Okayama vs Shimizu S-Pulse (BLV Gà Siêu Mõm) [hls] - Gà Vàng 33 TV",
@@ -3462,7 +3198,7 @@
           "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
@@ -3470,7 +3206,7 @@
           "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
         },
         {
           "name": "⚽ [17:00 25/11] JEF United Ichihara Chiba vs Nagoya Grampus (BLV Gà Siêu Kiêu) [hls] - Gà Vàng 33 TV",
@@ -3478,7 +3214,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
         },
         {
           "name": "⚽ [17:00 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV Gà Ô Long) [hls] - Gà Vàng 33 TV",
@@ -3486,7 +3222,7 @@
           "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png",
           "competition": "",
           "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
         },
         {
           "name": "⚽ [17:30 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV Gà Siêu Tồ) [hls] - Gà Vàng 33 TV",
@@ -3531,7 +3267,7 @@
           "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6582.png",
           "competition": "",
           "group": "⚡ Sao Kê TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors FC (BLV Teppy) [hls] - Sao Kê TV",
@@ -3539,7 +3275,7 @@
           "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/4397.png",
           "competition": "",
           "group": "⚡ Sao Kê TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [18:00 25/11] 🟡 Sabah FK U19 vs Barcelona U19 (BLV Tít) [hls] - Sao Kê TV",
@@ -3592,7 +3328,7 @@
           "logo": "https://global-cdn.cdnx.tech/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Nguyễn Đảm) - Vua Sân Cỏ TV",
@@ -3600,7 +3336,7 @@
           "logo": "https://global-cdn.cdnx.tech/football/team/91008a96b5de8c75376d17057f89890e.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV Ngô Quyền) - Vua Sân Cỏ TV",
@@ -3608,7 +3344,7 @@
           "logo": "https://global-cdn.cdnx.tech/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] FC Tokyo vs Sanfrecce Hiroshima (BLV Nguyễn Ánh) - Vua Sân Cỏ TV",
@@ -3616,7 +3352,7 @@
           "logo": "https://global-cdn.cdnx.tech/football/team/333df39860930a21cf72b4e9664723ab.png",
           "competition": "",
           "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
         },
         {
           "name": "⚽ [17:30 25/11] Urawa Red Diamonds vs Cerezo Osaka (BLV Lê Lợi) - Vua Sân Cỏ TV",
@@ -3701,7 +3437,7 @@
           "logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV C2) [hls 2] - Cola TV",
@@ -3709,7 +3445,7 @@
           "logo": "https://img.cltvap.cc/football/team/91008a96b5de8c75376d17057f89890e.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs CLB Jeonbuk Hyundai Motors (BLV MONSTER) [hls] - Cola TV",
@@ -3717,7 +3453,7 @@
           "logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs CLB Jeonbuk Hyundai Motors (BLV MONSTER) [hls 2] - Cola TV",
@@ -3725,7 +3461,7 @@
           "logo": "https://img.cltvap.cc/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls] - Cola TV",
@@ -3733,7 +3469,7 @@
           "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV 247) [hls 2] - Cola TV",
@@ -3741,7 +3477,7 @@
           "logo": "https://img.cltvap.cc/football/team/fb5c6121bf5b351f60ebf8ffd5b9d887.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_okayama_shimizuspulse"
+          "match_key": "25/11_17:00_okayama_shimizuspulse33tv"
         },
         {
           "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls] - Cola TV",
@@ -3749,7 +3485,7 @@
           "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
         },
         {
           "name": "⚽ [17:00 25/11] V Varen Nagasaki vs Kawasaki Frontale (BLV Cozy) [hls 2] - Cola TV",
@@ -3757,7 +3493,7 @@
           "logo": "https://img.cltvap.cc/football/team/b28ace839956d8eacce11926ea5e43b3.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_kawasakifrontale_vvarennagasaki"
+          "match_key": "25/11_17:00_kawasakifrontale33tv_vvarennagasaki"
         },
         {
           "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls] - Cola TV",
@@ -3765,7 +3501,7 @@
           "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Avispa Fukuoka vs Yokohama F. Marinos (BLV PEPSI) [hls 2] - Cola TV",
@@ -3773,7 +3509,7 @@
           "logo": "https://img.cltvap.cc/football/team/bf0e2229b39b6cb6fd17e9d0f3fb747e.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos"
+          "match_key": "25/11_17:00_avispafukuoka_yokohamafmarinos33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls] - Cola TV",
@@ -3781,7 +3517,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Chiba vs Nagoya Grampus (BLV AQUA) [hls 2] - Cola TV",
@@ -3789,7 +3525,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ce2dfe0c36e6a9774eaecf9731375b6.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus"
+          "match_key": "25/11_17:00_jefunitedichiharachiba_nagoyagrampus33tv"
         },
         {
           "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls] - Cola TV",
@@ -3797,7 +3533,7 @@
           "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
         },
         {
           "name": "⚽ [17:00 25/11] CLB Tokyo vs Sanfrecce Hiroshima (BLV RỒNG ĐỎ) [hls 2] - Cola TV",
@@ -3805,7 +3541,7 @@
           "logo": "https://img.cltvap.cc/football/team/333df39860930a21cf72b4e9664723ab.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_sanfreccehiroshima_tokyo"
+          "match_key": "25/11_17:00_sanfreccehiroshima33tv_tokyo"
         },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV STING) [hls] - Cola TV",
@@ -3813,7 +3549,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ead844240532c4e12d3eb45d2087924.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         },
         {
           "name": "⚽ [17:00 25/11] Mito Hollyhock vs Tokyo Verdy (BLV STING) [hls 2] - Cola TV",
@@ -3821,7 +3557,7 @@
           "logo": "https://img.cltvap.cc/football/team/9ead844240532c4e12d3eb45d2087924.png!w80",
           "competition": "",
           "group": "⚡ Cola TV",
-          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy"
+          "match_key": "25/11_17:00_mitohollyhock_tokyoverdy33tv"
         },
         {
           "name": "⚽ [17:30 25/11] Urawa Reds vs Cerezo Osaka (BLV 7UP) [hls] - Cola TV",
@@ -4058,7 +3794,7 @@
           "logo": "https://xoigac.top/images/football/teams/290.webp",
           "competition": "",
           "group": "⚡ Xôi Gấc TV",
-          "match_key": "25/11_17:00_jeonbukmotors_kashima"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Hawkeye) - Xôi Gấc TV",
@@ -4066,7 +3802,7 @@
           "logo": "https://xoigac.top/images/football/teams/293.webp",
           "competition": "",
           "group": "⚡ Xôi Gấc TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:30 25/11] Urawa vs Cerezo Osaka (BLV Thanos) - Xôi Gấc TV",
@@ -4087,7 +3823,7 @@
           "logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwxnryk0/image/small",
           "competition": "",
           "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "⚽ [17:00 25/11] Gamba Osaka vs Port FC (BLV Nhà đài) - Phá Làng TV",
@@ -4095,7 +3831,7 @@
           "logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhwxnryk0/image/small",
           "competition": "",
           "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_17:00_gambaosaka_port"
+          "match_key": "25/11_17:00_gambaosaka_portmti"
         },
         {
           "name": "🏐 [17:00 25/11] IBK Women vs Expressway Co Women (BLV LÝ LIỀU LĨNH) [geo] - Phá Làng TV",
@@ -4110,7 +3846,7 @@
           "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhp8nm7vx/image/small",
           "competition": "",
           "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai (BLV Nhà đài) - Phá Làng TV",
@@ -4118,7 +3854,7 @@
           "logo": "https://imgts.sportpulseapiz.com/football/team/j1l4rjnhp8nm7vx/image/small",
           "competition": "",
           "group": "⚡ Phá Làng TV",
-          "match_key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers"
+          "match_key": "25/11_17:00_jeonbuk_kashimaantlers"
         },
         {
           "name": "⚽ [18:00 25/11] 🟡 Sabah Baku U19 vs Barcelona U19 (BLV LÝ LONG) [geo] - Phá Làng TV",
