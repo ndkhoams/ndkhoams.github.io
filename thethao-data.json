@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 16:11:06",
+  "updated_at": "2026-11-25 16:25:52",
   "live_events": [
     {
       "key": "25/11_14:45_melbournevictory_viettel",
@@ -37,20 +37,6 @@
           "competition": "AFC Champions League Two",
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
-          "match_key": "25/11_14:45_melbournevictory_viettel"
-        },
-        {
-          "name": "⚽ [14:00 25/11] Melbourne Victory vs Thể Công - Viettel (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2MTY4MDUsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.Y-PlQbSemXxt02vseYlJ_TAb-MQeEUnW6TllBQRPub0&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/13/1795415988334/3207607767de_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
-          },
           "match_key": "25/11_14:45_melbournevictory_viettel"
         },
         {
@@ -139,6 +125,37 @@
       "number": 1
     },
     {
+      "key": "25/11_15:30_chamchuriunited_pathumthaniuniversity",
+      "match_key": "25/11_15:30_chamchuriunited_pathumthaniuniversity",
+      "c_home": "pathumthaniuniversity",
+      "c_away": "chamchuriunited",
+      "homeTeam": "Pathumthani University",
+      "awayTeam": "Chamchuri United",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "15:30",
+      "date": "25/11",
+      "timestamp": 1795595400000,
+      "league": "OTHER",
+      "leagueName": "BYD Dolphin League III",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [15:30 25/11] Pathumthani University vs Chamchuri United (Pathumthani University vs Chamchuri United) - F4K Sport",
+          "url": "https://live-thaileague.monomax.me/channel13/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "BYD Dolphin League III",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "25/11_15:30_chamchuriunited_pathumthaniuniversity"
+        }
+      ],
+      "displayTitle": "🔴 [15:30 25/11] Pathumthani University vs Chamchuri United",
+      "number": 2
+    },
+    {
       "key": "25/11_15:30_persikukudus_psimyogyakarta",
       "match_key": "25/11_15:30_persikukudus_psimyogyakarta",
       "c_home": "persikukudus",
@@ -176,7 +193,7 @@
         }
       ],
       "displayTitle": "🔴 [15:30 25/11] Persiku Kudus vs Psim Yogyakarta",
-      "number": 2
+      "number": 3
     },
     {
       "key": "25/11_16:00_shanunited_thitsararman",
@@ -207,7 +224,7 @@
         }
       ],
       "displayTitle": "🔴 [16:00 25/11] Shan United vs Thitsar Arman",
-      "number": 3
+      "number": 4
     },
     {
       "key": "25/11_17:00_gambaosaka_port",
@@ -330,7 +347,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Gamba Osaka vs Port",
-      "number": 4
+      "number": 5
     },
     {
       "key": "25/11_17:00_jeonbukhyundaimotors_kashimaantlers",
@@ -444,7 +461,7 @@
         }
       ],
       "displayTitle": "⚽ [17:00 25/11] Kashima Antlers vs Jeonbuk Hyundai",
-      "number": 5
+      "number": 6
     },
     {
       "key": "25/11_21:00_erbil_kazma",
@@ -475,7 +492,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 25/11] Kazma vs Erbil Sc",
-      "number": 6
+      "number": 7
     },
     {
       "key": "25/11_23:00_alfaisalyamman_alrayyansportsclub",
@@ -506,7 +523,7 @@
         }
       ],
       "displayTitle": "🥊 [23:00 25/11] Al Faisaly Amman vs Al Rayyan Sports Club",
-      "number": 7
+      "number": 8
     },
     {
       "key": "26/11_00:00_alnasrdubai_qatar",
@@ -555,7 +572,7 @@
         }
       ],
       "displayTitle": "⚽ [00:00 26/11] Qatar vs Al Nasr Dubai",
-      "number": 8
+      "number": 9
     },
     {
       "key": "26/11_00:45_barcelona_sabah",
@@ -656,7 +673,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Sabah FC vs Barcelona",
-      "number": 9
+      "number": 10
     },
     {
       "key": "26/11_00:45_slavia_villarreal",
@@ -707,7 +724,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 26/11] Slavia Prague vs Villarreal",
-      "number": 10
+      "number": 11
     },
     {
       "key": "26/11_03:00_manutd_youth_sportingcp_youth",
@@ -826,7 +843,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Sporting CP U23 vs Manchester United U23",
-      "number": 11
+      "number": 12
     },
     {
       "key": "26/11_03:00_atleticomadrid_viking",
@@ -857,7 +874,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atletico Madrid vs Viking FK",
-      "number": 12
+      "number": 13
     },
     {
       "key": "26/11_03:00_brugge_liverpool",
@@ -935,7 +952,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Club Brugge vs Liverpool",
-      "number": 13
+      "number": 14
     },
     {
       "key": "26/11_03:00_intermilan_stuttgart",
@@ -975,7 +992,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Inter Milan vs VfB Stuttgart",
-      "number": 14
+      "number": 15
     },
     {
       "key": "26/11_03:00_bayern_losclille",
@@ -1035,7 +1052,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Losc vs Bayern Munich",
-      "number": 15
+      "number": 16
     },
     {
       "key": "26/11_03:00_parissaintgermain_roma",
@@ -1075,7 +1092,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint Germain vs AS Roma",
-      "number": 16
+      "number": 17
     },
     {
       "key": "26/11_03:00_fenerbahce_shakhtardonetsk",
@@ -1106,7 +1123,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Shakhtar Donetsk vs Fenerbahce",
-      "number": 17
+      "number": 18
     },
     {
       "key": "26/11_03:00_atlmadrid_viking",
@@ -1139,7 +1156,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Atl. Madrid vs Viking FK",
-      "number": 18
+      "number": 19
     },
     {
       "key": "26/11_03:00_psg_roma",
@@ -1181,7 +1198,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 26/11] Paris Saint-Germain vs AS Roma",
-      "number": 19
+      "number": 20
     },
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -1212,7 +1229,7 @@
         }
       ],
       "displayTitle": "⚽ [09:00 26/11] Csd Municipal vs Aurora",
-      "number": 20
+      "number": 21
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -1243,7 +1260,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 21
+      "number": 22
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -1276,7 +1293,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 22
+      "number": 23
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -1309,7 +1326,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 23
+      "number": 24
     }
   ],
   "source_groups": [
@@ -2045,6 +2062,22 @@
       "name": "F4K Sport",
       "channels": [
         {
+          "name": "⚽ [15:30 25/11] Pathumthani University vs Chamchuri United (Pathumthani University vs Chamchuri United) - F4K Sport",
+          "url": "https://live-thaileague.monomax.me/channel13/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "BYD Dolphin League III",
+          "group": "F4K Sport",
+          "match_key": "25/11_15:30_chamchuriunited_pathumthaniuniversity"
+        },
+        {
+          "name": "⚽ [18:00 25/11] Kasetsart FC vs Phrae United (Kasetsart FC vs Phrae United) - F4K Sport",
+          "url": "https://live-thaileague.monomax.me/channel7/dash/index.mpd?aws.manifestfilter=video_codec:h264&manifest_filter=video_codec:H264",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "BYD Seal 5 League II",
+          "group": "F4K Sport",
+          "match_key": "25/11_18:00_kasetsart_phraeunited"
+        },
+        {
           "name": "⚽ [14:00 25/11] Melbourne Victory vs Thể Công - Viettel (TV360+ 4) - F4K Sport",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2MTY4MDUsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.Y-PlQbSemXxt02vseYlJ_TAb-MQeEUnW6TllBQRPub0&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/23/13/1795415988334/3207607767de_1280_720.png",
@@ -2054,8 +2087,7 @@
           "clearKey": {
             "keyId": "70d033252d025d719ba70a37acc0f5c8",
             "key": "6ca465d8b3018f1604da6d43d3395a6d"
-          },
-          "match_key": "25/11_14:45_melbournevictory_viettel"
+          }
         },
         {
           "name": "⚽ [19:20 25/11] U17 Ecuador vs U17 Hàn Quốc (TV360+ 13) - F4K Sport",
@@ -2234,79 +2266,135 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795601409-0-0-09436eb55159c1d96c1278d6c7199ef1",
-          "logo": "https://sta.vnres.co/file/common/20261125/4971838265f0644750aa6e728369c844.jpg",
-          "competition": "ACL2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795601409-0-0-bf175af42153f9fde486e345ccf79493",
-          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
-          "competition": "ACL2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795601409-0-0-9dcc455154afe86b2448eaca4b3b6d76",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "ACL2",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795601409-0-0-6e32cd03e7d0afd7b6083d364ce6827f",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "ACL2",
+          "name": "⚽ [LIVE 25/11] Gamba Osaka vs Port FC (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=fdeafcc5e447225a89295af01d729e75&txTime=6b06fdd5",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "ACL Elite",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=bc5b9ff0f9c0e9c039cb18734b02b927&txTime=6b06fa51",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=3a65edf6f3348e069d1629693a33bdbb&txTime=6b06fdd5",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "ACL2",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 25/11] V-Varen Nagasaki vs Kawasaki Frontale (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795602309-0-0-680624c04bc2c6fa3be9b3637a63bb25",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV TAP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8?auth_key=1795602309-0-0-cf5c0c3d4b5255b8b7d002eebe1649be",
+          "logo": "https://sta.vnres.co/file/common/20260121/079db710976b60b0787b1e2729b56e56.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795602309-0-0-793b96d39b6ec934d2d07b84249dbd10",
+          "logo": "https://sta.vnres.co/file/common/20261109/798ebb80bbfce13970979b67e095c8a1.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795602309-0-0-73fa0fbe9992a3a928a60b56fb395143",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795602309-0-0-87947bd9e62b54d5352d8cf7d5ca1c26",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795602309-0-0-e3dadcff7667b4c1daab9261fa371e78",
+          "logo": "https://sta.vnres.co/file/common/20261125/4971838265f0644750aa6e728369c844.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Mito Hollyhock vs Tokyo Verdy (BLV YONE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795602309-0-0-2bdaac8e26d598188be7411d04446dfa",
+          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Kashima Antlers vs Jeonbuk Hyundai Motors (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795602309-0-0-0b8eb91145dba0cd67dd92495fa38b7f",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ACL Elite",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795602309-0-0-4145fe43d2f1fb7d9f4056698d221d2a",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 25/11] Melbourne Victory vs The Cong-Viettel (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795601409-0-0-4554d62ddb87d1a410055715db5c4058",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795602309-0-0-3a04d0a6fc0639aed751c81a21e6ed56",
           "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
           "competition": "ACL2",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] ACL Elite - Al Nassr vs Al-Sadd (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=bfab1ff8bd3de83a6354dfb499c558f4&txTime=6b06fa51",
-          "logo": "https://sta.vnres.co/file/common/20261125/6f5912f69c923fcfe4d0e7eb550f145b.png",
-          "competition": "Tường thuật",
+          "name": "⚽ [LIVE 25/11] Fagiano Okayama vs Shimizu S-Pulse (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795602309-0-0-cc05c3dcf06c586bd07a01fd779e14c4",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "JPN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] Japan U17 vs Serbia U17 (BLV JINWOO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-603255_lhd.m3u8?auth_key=1795602309-0-0-2b977fdcd5e4ff32665c92d4ce69736e",
+          "logo": "https://sta.vnres.co/file/common/20261116/12995c79c2ef5d59c5f1eb49d49eb1b0.png",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] UEFA CL - Arsenal vs Borussia Dortmund (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=387f0cbb6b11e12c488ac2a1c6198aa8&txTime=6b06fa51",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=62492e5176b8190db37f7dc125f4fb3a&txTime=6b06fdd5",
           "logo": "https://sta.vnres.co/file/common/20261125/553e8cb7aa14bf44126f44cb94f878c9.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 25/11] UEFA CL - Manchester City vs Napoli (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=ad5e995b0073ad04fb609d70f4d9f9e8&txTime=6b06fa51",
-          "logo": "https://sta.vnres.co/file/common/20261125/3239877f422dd4c87c2ee06251adb00f.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 25/11] UEFA CL - FK Bodo/Glimt vs LASK Linz (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=526633edd0742dd24c865545374a9f97&txTime=6b06fa51",
-          "logo": "https://sta.vnres.co/file/common/20261125/27a188a3b230b6c2e03cfe842412d027.png",
+          "name": "⚽ [LIVE 25/11] ACL Elite - Al Nassr vs Al-Sadd (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b010932cce210e2b73324e9d81eda3c6&txTime=6b06fdd5",
+          "logo": "https://sta.vnres.co/file/common/20261125/6f5912f69c923fcfe4d0e7eb550f145b.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 25/11] UEFA CL - Galatasaray vs Aston Villa (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=07f213f213d72d7aca19065a320eb4bd&txTime=6b06fa51",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=f410e873d4209a4abdfa8e4cc8acf8b6&txTime=6b06fdd5",
           "logo": "https://sta.vnres.co/file/common/20261125/741526c2414c199f6bce5b6a5e115df7.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] UEFA CL - FK Bodo/Glimt vs LASK Linz (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=e10179d3fb7672e78f6e8590cfc6c0b0&txTime=6b06fdd5",
+          "logo": "https://sta.vnres.co/file/common/20261125/27a188a3b230b6c2e03cfe842412d027.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 25/11] UEFA CL - Manchester City vs Napoli (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=278b0702340e8d8750928d8d349ba91f&txTime=6b06fdd5",
+          "logo": "https://sta.vnres.co/file/common/20261125/3239877f422dd4c87c2ee06251adb00f.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         }
