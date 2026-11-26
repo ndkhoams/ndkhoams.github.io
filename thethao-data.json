@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 13:31:59",
+  "updated_at": "2026-11-26 13:47:21",
   "live_events": [
     {
       "key": "26/11_LIVE_fiji_hongkong",
@@ -21,7 +21,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795678269-0-0-9a728d145e5448db60451a522302efb1",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795679169-0-0-9894de715cf0b69738ea1f7ec860a4ef",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "ACQ",
           "group": "🐿️ SocoLive",
@@ -30,7 +30,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795678269-0-0-bad095d86cf538ed82452f680acf34eb",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795679169-0-0-a17a0abb0468c3154692b1c330cbdb98",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "ACQ",
           "group": "🐿️ SocoLive",
@@ -79,7 +79,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=a6f3ac69183269098fa17754abce905f&txTime=6b08268d",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=948c7e1a9b3722eff4b5c7306b8603bc&txTime=6b082a11",
           "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -1209,6 +1209,19 @@
           "match_key": "26/11_21:50_china_youth_u17fiji_youth"
         },
         {
+          "name": "⚽ [21:50 26/11] U17 Ma Rốc vs U17 Tây Ban Nha (TV360+ 7) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY5MDY3NH0.D1A6dmNgFPqNfic4a7f0DdT1SZ65Y_0ftVE4Cy2DtRkZOS2RHXIs1wduRk8eMGHhWJOav48nyfuVYym6zt6H0A&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/11/179497440893/c96081d27daf_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "10244b0b86e45b5fa4d8089b24b5f566",
+            "key": "b7bf64fad4622ec88e429409c2c9997d"
+          },
+          "match_key": "26/11_22:00_morocco_youth_spain_youth"
+        },
+        {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
           "url": "https://fo-hlc.tv360.vn/bpk-tv/198/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU2ODk4NjQsInVyaSI6Ii9icGstdHYvMTk4L291dHB1dC9pbmRleC5tcGQifQ.dkU7v6xr0CdkXO3ycprWx_2Xd8Jz9QWVq2SJTaNyeX8&minrate=0&maxrate=12000000&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png",
@@ -1250,17 +1263,6 @@
           "clearKey": {
             "keyId": "70d033252d025d719ba70a37acc0f5c8",
             "key": "6ca465d8b3018f1604da6d43d3395a6d"
-          }
-        },
-        {
-          "name": "📺 TV360+ 7 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTY5MDY3NH0.D1A6dmNgFPqNfic4a7f0DdT1SZ65Y_0ftVE4Cy2DtRkZOS2RHXIs1wduRk8eMGHhWJOav48nyfuVYym6zt6H0A&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/177626714329/4631db40bb03_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "10244b0b86e45b5fa4d8089b24b5f566",
-            "key": "b7bf64fad4622ec88e429409c2c9997d"
           }
         },
         {
@@ -1338,7 +1340,7 @@
       "channels": [
         {
           "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795678269-0-0-9a728d145e5448db60451a522302efb1",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795679169-0-0-9894de715cf0b69738ea1f7ec860a4ef",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "ACQ",
           "group": "🐿️ SocoLive",
@@ -1346,7 +1348,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795678269-0-0-bad095d86cf538ed82452f680acf34eb",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795679169-0-0-a17a0abb0468c3154692b1c330cbdb98",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "ACQ",
           "group": "🐿️ SocoLive",
@@ -1354,46 +1356,46 @@
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sporting CP vs Manchester United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=74a823e5d43fac5871e1f30e50253a20&txTime=6b08268d",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=d89b506478d8af6a6d4a10908b1e34b9&txTime=6b082a11",
           "logo": "https://sta.vnres.co/file/common/20261126/62541673cf03ff2ac653f17187a46d5e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=a6f3ac69183269098fa17754abce905f&txTime=6b08268d",
-          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_parissaintgermain_roma"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Atletico Madrid vs Viking (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=387881fa4d85b1a831905969727c72f2&txTime=6b08268d",
-          "logo": "https://sta.vnres.co/file/common/20261126/30aec1ba55ba486909866a6f0c66bbcd.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] UEFA CL - SK Slavia Praha vs Villarreal CF (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=c30b8a22b5140219fd7d7c2c5ef4e103&txTime=6b08268d",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=d89224a01b8096979ac64ef3d1d86022&txTime=6b082a11",
           "logo": "https://sta.vnres.co/file/common/20261126/40ea09baf9291b916f924a88c3f9f1d3.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Club Brugge vs Liverpool (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=4e68424c41f3d5adc2f4dfb6d1b8ff48&txTime=6b08268d",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=53d1e73a2e0ecd856801e15be8afc6c3&txTime=6b082a11",
           "logo": "https://sta.vnres.co/file/common/20261126/18c8394b0caac45f2b035bf5de1222d1.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] UEFA CL - Atletico Madrid vs Viking (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=1ae7c3091b1ebaac395d4f748c9f25ef&txTime=6b082a11",
+          "logo": "https://sta.vnres.co/file/common/20261126/30aec1ba55ba486909866a6f0c66bbcd.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sabah Baku vs FC Barcelona (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8370b1afaba799b6caee8040021f4afc&txTime=6b08268d",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=4e7c4220703658089a4d5b35668cf38b&txTime=6b082a11",
           "logo": "https://sta.vnres.co/file/common/20261126/70fb4ffa6509ead6b769f747c97ea8dd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=948c7e1a9b3722eff4b5c7306b8603bc&txTime=6b082a11",
+          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_parissaintgermain_roma"
         }
       ]
     },
