@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 16:04:30",
+  "updated_at": "2026-11-26 16:20:29",
   "live_events": [
     {
       "key": "26/11_15:00_malaysia_thailand",
@@ -139,7 +139,7 @@
       "sources": [
         {
           "name": "⚽ [15:30 26/11] South Melbourne vs Oakleigh Cannons (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=0b8ee45262dc689307e630116fb760c2&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=bb4f396e13e19236167a82bd41bc8672&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "AUS CH",
           "group": "🐿️ SocoLive",
@@ -209,6 +209,37 @@
       "number": 4
     },
     {
+      "key": "26/11_16:35_nipponsteelsakaiblazers_tokyogreatbears",
+      "match_key": "26/11_16:35_nipponsteelsakaiblazers_tokyogreatbears",
+      "c_home": "nipponsteelsakaiblazers",
+      "c_away": "tokyogreatbears",
+      "homeTeam": "Nippon Steel Sakai Blazers",
+      "awayTeam": "Tokyo Great Bears",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "16:35",
+      "date": "26/11",
+      "timestamp": 1795685700000,
+      "league": "OTHER",
+      "leagueName": "SV.League Men",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [16:35 26/11] NIPPON STEEL SAKAI BLAZERS vs Tokyo Great Bears (NIPPON STEEL SAKAI BLAZERS vs Tokyo Great Bears) - F4K Sport",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-5.monomax.me%2Fsports5%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=625da629d4979f37f677d945b4220231,719ead7a1aa06e576d8e2dcb32590e9b,9c70a8ce02b7fea50e999e70170ef125&exp=1795706357674&sig=D2dJA7ReJEwGXmEJw0mtFS",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "SV.League Men",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "match_key": "26/11_16:35_nipponsteelsakaiblazers_tokyogreatbears"
+        }
+      ],
+      "displayTitle": "🔴 [16:35 26/11] Nippon Steel Sakai Blazers vs Tokyo Great Bears",
+      "number": 5
+    },
+    {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
       "match_key": "26/11_22:30_kairatalmaty_mjallbyaif",
       "c_home": "kairatalmaty",
@@ -266,7 +297,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby Aif",
-      "number": 5
+      "number": 6
     },
     {
       "key": "26/11_23:00_korea_qatar",
@@ -306,7 +337,7 @@
         }
       ],
       "displayTitle": "🏀 [23:00 26/11] Qatar vs South Korea",
-      "number": 6
+      "number": 7
     },
     {
       "key": "27/11_00:45_brighton_csuniversitateacraiova",
@@ -346,7 +377,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Brighton vs Cs Universitatea Craiova",
-      "number": 7
+      "number": 8
     },
     {
       "key": "27/11_00:45_bournemouthafc_celtavigo",
@@ -386,7 +417,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Celta Vigo vs Bournemouth Afc",
-      "number": 8
+      "number": 9
     },
     {
       "key": "27/11_00:45_dinamozagreb_leverkusen",
@@ -426,7 +457,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Dinamo Zagreb vs Bayer Leverkusen",
-      "number": 9
+      "number": 10
     },
     {
       "key": "27/11_00:45_levskisofia_marseille",
@@ -468,7 +499,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Marseille vs Levski Sofia",
-      "number": 10
+      "number": 11
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -519,7 +550,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 11
+      "number": 12
     },
     {
       "key": "27/11_00:45_lechpoznan_unionsaintgilloise",
@@ -550,7 +581,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Union Saint Gilloise vs Lech Poznan",
-      "number": 12
+      "number": 13
     },
     {
       "key": "27/11_00:45_armenia_redbullsalzburg",
@@ -581,7 +612,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Red Bull Salzburg vs Armenia",
-      "number": 13
+      "number": 14
     },
     {
       "key": "27/11_00:45_besiktas_hbeersheva",
@@ -614,7 +645,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Besiktas vs H. Beer Sheva",
-      "number": 14
+      "number": 15
     },
     {
       "key": "27/11_00:45_dinzagreb_leverkusen",
@@ -647,7 +678,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Din. Zagreb vs Bayer Leverkusen",
-      "number": 15
+      "number": 16
     },
     {
       "key": "27/11_00:45_benfica_plzen",
@@ -680,7 +711,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Plzen vs Benfica",
-      "number": 16
+      "number": 17
     },
     {
       "key": "27/11_00:45_brighton_univcraiova",
@@ -713,7 +744,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Brighton vs Univ. Craiova",
-      "number": 17
+      "number": 18
     },
     {
       "key": "27/11_03:00_atalanta_boracbanjaluka",
@@ -744,7 +775,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Borac Banja Luka vs Atalanta",
-      "number": 18
+      "number": 19
     },
     {
       "key": "27/11_03:00_crystalpalace_realsociedad",
@@ -804,7 +835,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Crystal Palace vs Real Sociedad",
-      "number": 19
+      "number": 20
     },
     {
       "key": "27/11_03:00_ferencvarositc_nkpublikumcelje",
@@ -835,7 +866,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Ferencvarosi Tc vs Nk Publikum Celje",
-      "number": 20
+      "number": 21
     },
     {
       "key": "27/11_03:00_sturmgraz_tsghoffenheim",
@@ -866,7 +897,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Tsg Hoffenheim vs Sturm Graz",
-      "number": 21
+      "number": 22
     },
     {
       "key": "27/11_03:00_juventus_omonianicosia",
@@ -926,7 +957,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Juventus vs Omonia",
-      "number": 22
+      "number": 23
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -977,7 +1008,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 23
+      "number": 24
     },
     {
       "key": "27/11_03:00_necnijmegen_rennais",
@@ -1008,7 +1039,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Nec Nijmegen vs Rennais",
-      "number": 24
+      "number": 25
     },
     {
       "key": "27/11_03:00_azalkmaar_sparta",
@@ -1039,7 +1070,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Sparta Prague vs Az Alkmaar",
-      "number": 25
+      "number": 26
     },
     {
       "key": "27/11_03:00_jagielloniabialystok_sunderland",
@@ -1081,7 +1112,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Sunderland vs Jagiellonia",
-      "number": 26
+      "number": 27
     },
     {
       "key": "27/11_03:00_celtic_scutorreense",
@@ -1112,7 +1143,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Scu Torreense vs Celtic",
-      "number": 27
+      "number": 28
     },
     {
       "key": "27/11_17:30_imili_safabaku",
@@ -1143,7 +1174,7 @@
         }
       ],
       "displayTitle": "⚽ [17:30 27/11] Imili vs Safa Baku",
-      "number": 28
+      "number": 29
     },
     {
       "key": "27/11_18:00_cahn_namdinh",
@@ -1174,7 +1205,7 @@
         }
       ],
       "displayTitle": "⚽ [18:00 27/11] Nam Dinh vs CAHN",
-      "number": 29
+      "number": 30
     },
     {
       "key": "27/11_22:00_neftcibaku_zira",
@@ -1205,7 +1236,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 27/11] Neftci Baku vs Zira",
-      "number": 30
+      "number": 31
     },
     {
       "key": "28/11_02:30_bremen_monchengladbach",
@@ -1236,7 +1267,7 @@
         }
       ],
       "displayTitle": "⚽ [02:30 28/11] Werder Bremen vs Borussia Monchengladbach",
-      "number": 31
+      "number": 32
     },
     {
       "key": "28/11_02:45_bologna_venezia",
@@ -1267,7 +1298,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 28/11] Venezia vs Bologna",
-      "number": 32
+      "number": 33
     },
     {
       "key": "28/11_02:45_brest_paris",
@@ -1298,7 +1329,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 28/11] Brest vs Paris",
-      "number": 33
+      "number": 34
     },
     {
       "key": "28/11_03:00_chelsea_nottingham",
@@ -1329,7 +1360,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea",
-      "number": 34
+      "number": 35
     },
     {
       "key": "28/11_03:00_levante_santander",
@@ -1360,7 +1391,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 28/11] Levante vs Racing Santander",
-      "number": 35
+      "number": 36
     },
     {
       "key": "28/11_20:00_betis_rayovallecano",
@@ -1391,7 +1422,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 28/11] Real Betis vs Rayo Vallecano",
-      "number": 36
+      "number": 37
     },
     {
       "key": "28/11_21:00_frosinone_parma",
@@ -1422,7 +1453,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 28/11] Frosinone vs Parma",
-      "number": 37
+      "number": 38
     },
     {
       "key": "28/11_21:30_1fsvmainz05_unionberlin",
@@ -1453,7 +1484,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] 1 Fsv Mainz 05 vs Union Berlin",
-      "number": 38
+      "number": 39
     },
     {
       "key": "28/11_21:30_bayern_hamburgersv",
@@ -1484,7 +1515,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Hamburger Sv vs Bayern Munich",
-      "number": 39
+      "number": 40
     },
     {
       "key": "28/11_21:30_kln_sv07elversberg",
@@ -1515,7 +1546,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Kln vs Sv 07 Elversberg",
-      "number": 40
+      "number": 41
     },
     {
       "key": "28/11_21:30_paderborn07_schalke04",
@@ -1557,7 +1588,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 41
+      "number": 42
     },
     {
       "key": "28/11_22:00_coventrycity_leedsunited",
@@ -1588,7 +1619,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Leeds United vs Coventry City",
-      "number": 42
+      "number": 43
     },
     {
       "key": "28/11_22:00_brentford_manutd",
@@ -1619,7 +1650,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Manchester United vs Brentford",
-      "number": 43
+      "number": 44
     },
     {
       "key": "28/11_22:15_bilbao_malaga",
@@ -1650,7 +1681,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 28/11] Malaga vs Athletic Bilbao",
-      "number": 44
+      "number": 45
     },
     {
       "key": "28/11_23:15_angerssco_lens",
@@ -1681,7 +1712,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 28/11] Angers Sco vs Lens",
-      "number": 45
+      "number": 46
     }
   ],
   "source_groups": [
@@ -2427,6 +2458,14 @@
       "name": "F4K Sport",
       "channels": [
         {
+          "name": "⚽ [16:35 26/11] NIPPON STEEL SAKAI BLAZERS vs Tokyo Great Bears (NIPPON STEEL SAKAI BLAZERS vs Tokyo Great Bears) - F4K Sport",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-5.monomax.me%2Fsports5%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=625da629d4979f37f677d945b4220231,719ead7a1aa06e576d8e2dcb32590e9b,9c70a8ce02b7fea50e999e70170ef125&exp=1795706357674&sig=D2dJA7ReJEwGXmEJw0mtFS",
+          "logo": "https://film4k.pl/icon.png",
+          "competition": "SV.League Men",
+          "group": "F4K Sport",
+          "match_key": "26/11_16:35_nipponsteelsakaiblazers_tokyogreatbears"
+        },
+        {
           "name": "⚽ [19:20 26/11] U17 Việt Nam vs U17 Mali (TV360+ 9) - F4K Sport",
           "url": "https://rr1-ateme.tv360.vn/live/eds/379/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM3OS9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTY5MDY4MH0.epj-0DTxtRYzNNTZ5O4DUEe7ut_3eQICb54Km_RNc_nPA1RDoxRk6Q37lG80cIIpiex607fBLZVrz1OhXsmetw&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/16/09/1794795935180/2f64c2981235_1280_720.png",
@@ -2616,136 +2655,143 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 26/11] Bendigo W vs Tasmania Jewels W (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795687389-0-0-cbbd674bc1a8819f6c2fdb2d791bd85a",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "WNBL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795687389-0-0-14fc2146a0603926e1d5795596fee265",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795687389-0-0-84ace0983b76bec7d3f89f5b9a9f8573",
-          "logo": "https://sta.vnres.co/file/common/20261126/e0fa1c624cb378d06dfd3fc476b27b48.png",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Thailand vs Malaysia (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795687389-0-0-92994ce07c0390686ab25132d745f350",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "name": "⚽ [LIVE 26/11] Thailand vs Malaysia (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795688349-0-0-d6f00c750c11ec44679234bc58ae16f5",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
           "competition": "ACQ",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795687389-0-0-45334a623b2615b9304ad443e25adeb7",
-          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV TẠ BIÊN GIỚI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795687389-0-0-ae15987145ea9ab97afff8b518785e9f",
-          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
-          "competition": "IDN D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] South Melbourne vs Oakleigh Cannons (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=7038d019917427b5c592e36929838841&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=9de609adf9854e2e3d5e169537014580&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "AUS CH",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=162f90d033a797314d6893c7ab80a5ae&txTime=6b084a2d",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795688349-0-0-49e59eed0a86b999395734cd559bccb2",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] Thailand vs Malaysia (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795688349-0-0-85c781275e9f6bc7c857df976077a0d3",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "ACQ",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV RICKHANTER) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=8451c013afe9b49238778315035ce427&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=3ae45f3956aab7e0607fe754deaf267b&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20260620/4cbae14a2d06d1635a160fc8c2beb182.jpg",
           "competition": "IDN D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] South Melbourne vs Oakleigh Cannons (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=18094054cd10eee19097f0497e9ff1d8&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=e6b946b6f4c1de094ad003f4b708622d&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "AUS CH",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] Tampines Rovers FC vs Shanghai Shenhua (BLV ĐỐM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1795688349-0-0-a1f71d3590a0d3664a109077c3b2c41e",
+          "logo": "https://sta.vnres.co/file/common/20260920/a85d24f44ac3ce0cffc3c1c03a4d1947.png",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=8a68e23c31d90ea710374163fa205be2&txTime=6b084ded",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [15:30 26/11] South Melbourne vs Oakleigh Cannons (BLV RAMBO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=0b8ee45262dc689307e630116fb760c2&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-534055_lhd.m3u8?txSecret=bb4f396e13e19236167a82bd41bc8672&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20260531/a44085bd0a0451b447f24abf420bc722.jpg",
           "competition": "AUS CH",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_15:30_oakleighcannons_southmelbourne"
         },
         {
-          "name": "⚽ [LIVE 26/11] Thailand vs Malaysia (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795687389-0-0-7eee19779f999aa06580edae377ece42",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "ACQ",
+          "name": "⚽ [LIVE 26/11] Gangwon FC vs Kitchee (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795688349-0-0-63eb75e8278e97fff63b278833179e7c",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "ACL2",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV TẠ BIÊN GIỚI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1795688349-0-0-e6303116367aa4fa1bbe8281eb30852b",
+          "logo": "https://sta.vnres.co/file/common/20261007/5168b7f7556098f553cae4e9d4ba2527.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Borneo FC Samarinda vs Persita Tangerang (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795688349-0-0-3fbc5119035bdaa2725f959e1981ce3f",
+          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "competition": "IDN D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Bendigo W vs Tasmania Jewels W (BLV ZERO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795688349-0-0-919109b55af9b0113dd857af2fbff467",
+          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
+          "competition": "WNBL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Bendigo W vs Tasmania Jewels W (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795687389-0-0-b7e2aeeb0129f0f1e68ca27c5a634060",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795688349-0-0-6a39651dc277a20f70d6a7e4a640baca",
           "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
           "competition": "WNBL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sporting CP vs Manchester United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=28d3af7c9059479a48754d6ed9deb127&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=b70161d190d6e6b30784a4fde13ee2c8&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20261126/62541673cf03ff2ac653f17187a46d5e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - SK Slavia Praha vs Villarreal CF (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=578eda281b250f353cd7b1fa9e561abe&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=ecde14ddd7f7a4c7d111d8f6c5d1eb7f&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20261126/40ea09baf9291b916f924a88c3f9f1d3.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=b11354923b0e05716bd942da7df42ae0&txTime=6b084a2d",
-          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Atletico Madrid vs Viking (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=060e8f2c50861e161ba4df262cf57d7c&txTime=6b084a2d",
-          "logo": "https://sta.vnres.co/file/common/20261126/30aec1ba55ba486909866a6f0c66bbcd.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] UEFA CL - Club Brugge vs Liverpool (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=32142ba70f2021822ff455b2fdee7bec&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=1d4c33f33df1075807d2ab39412214c0&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20261126/18c8394b0caac45f2b035bf5de1222d1.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] UEFA CL - Atletico Madrid vs Viking (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=4320e80317d7cd5b82c017f3fbb11ce5&txTime=6b084ded",
+          "logo": "https://sta.vnres.co/file/common/20261126/30aec1ba55ba486909866a6f0c66bbcd.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sabah Baku vs FC Barcelona (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=b05fdffb712bb221c493e4426c14eb48&txTime=6b084a2d",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=8081c81d91cbab56ab64f3d015ecbb25&txTime=6b084ded",
           "logo": "https://sta.vnres.co/file/common/20261126/70fb4ffa6509ead6b769f747c97ea8dd.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=4d921aa812ebdf4a72edf54bd1c08a39&txTime=6b084ded",
+          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         }
