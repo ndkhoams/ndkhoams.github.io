@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 23:27:43",
+  "updated_at": "2026-11-26 23:42:40",
   "live_events": [
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -216,21 +216,12 @@
       "time": "21:25",
       "date": "26/11",
       "timestamp": 1795703100000,
-      "league": "SAUDI_LEAGUE",
-      "leagueName": "Saudi Pro League",
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
-        {
-          "name": "⚽ [21:25 26/11] Al Fateh Vs Al Riyadh (BLV Gà Siêu Tồ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/9115e93d22380b87e231573b0a796f27.png",
-          "competition": "Saudi Professional League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "26/11_21:25_alfateh_alriyadh"
-        },
         {
           "name": "⚽ [21:25 26/11] Al Fateh vs Al Riyadh (BLV Khô Cay) [hls] - Khô Gà TV",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
@@ -845,7 +836,7 @@
         },
         {
           "name": "⚽ [23:00 26/11] Croatia U17 vs Cuba U17 (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=d432c0d5e19e93e61402b60d8e26127d&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=41d854168fe3905278f61cc5514f4929&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
@@ -2578,8 +2569,8 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [22:00 28/11] Manchester United Vs Brentford (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "name": "⚽ [22:00 28/11] Manchester United Vs Brentford (BLV Gà Siêu Phệ + Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/126492.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
           "competition": "English Premier League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
@@ -2666,20 +2657,20 @@
           "match_key": "26/11_22:05_abha_alshabab"
         },
         {
-          "name": "⚽ [21:25 26/11] Al Fateh Vs Al Riyadh (BLV Gà Siêu Tồ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/9115e93d22380b87e231573b0a796f27.png",
-          "competition": "Saudi Professional League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "26/11_21:25_alfateh_alriyadh"
-        },
-        {
           "name": "⚽ [22:30 26/11] Fc Kairat Almaty Vs Mjallby Aif (BLV Gà Ô Long) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
           "logo": "https://img.cltvap.cc/football/competition/bac4ad312be54f50bffae58c25318e38.png",
           "competition": "UEFA Champions League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "26/11_22:30_kairatalmaty_mjallbyaif"
+        },
+        {
+          "name": "⚽ [23:30 26/11] Dynamo Moscow Vs Fakel Voronezh (BLV Gà Siêu Mõm) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/f5470371fbfd2700042bdc9801f08bab.png",
+          "competition": "Russian Cup",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "26/11_23:30_dynamomoscow_fakelvoronezh"
         },
         {
           "name": "⚽ [22:00 26/11] China U17 Vs Fiji U17 (BLV Gà Siêu Tốc) - Gà Vàng",
@@ -2712,14 +2703,6 @@
           "competition": "FIFA U17 World Cup",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "26/11_23:00_croatia_youth_cubau17_youth"
-        },
-        {
-          "name": "⚽ [23:30 26/11] Dynamo Moscow Vs Fakel Voronezh (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/f5470371fbfd2700042bdc9801f08bab.png",
-          "competition": "Russian Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "26/11_23:30_dynamomoscow_fakelvoronezh"
         },
         {
           "name": "⚽ [00:45 27/11] Rc Celta Vs Bournemouth Afc (BLV Gà Siêu Tốc) - Gà Vàng",
@@ -3449,212 +3432,212 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795713969-0-0-e49332d8b1afb69c4ad50a0e285b3d44",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795713969-0-0-e9b88f138ec7b23caaff4d4ba930755e",
-          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795713969-0-0-72ba585d677e5310ea70d24327f7d100",
-          "logo": "https://sta.vnres.co/file/common/20261125/d7e123aad69badb6c331ff288c8962e3.png",
-          "competition": "UEFA ECL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=fa1bd3fee4a1dca2c4fd003dadef7635&txTime=6b08b201",
-          "logo": "https://sta.vnres.co/file/common/20261126/d7d1b1ae24e3c48aee0879a95b1a02b2.png",
-          "competition": "UEFA ECL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV LOKA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795713969-0-0-212dfa01d8c60c27f2de849a3a116c7d",
-          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795713969-0-0-b7579cd3d942881208f2a573f493b1a8",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "UEFA ECL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795713969-0-0-4b13c3e7b32092a77976331c8a67ce85",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795713969-0-0-65dcbcec395ccf76cd071332a0b1a075",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795714869-0-0-0a38cb19d3fb12c079b382760650bcec",
           "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
           "competition": "UEFA ECL",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795713969-0-0-16c3709b719a920731d1358040375b94",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795713969-0-0-66162a2e63ce3412fc5177b26439579a",
-          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795713969-0-0-0eaef8b2f4acc1d425156a714f7ea1bb",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] Tajikistan U17 vs Senegal U17 (BLV ALEX) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795713969-0-0-579c1bc3d45c9d36d7fcf73b4461818c",
+          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1795714869-0-0-82836bb320bc22b1d2e958e14cda1722",
           "logo": "https://sta.vnres.co/file/common/20260729/32864b982ba0170f6ed062af85514671.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV ENZO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795714869-0-0-ac3fb725e0348c0c2d2c290d6622c648",
+          "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV LOKA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1795714869-0-0-7b184ba087d9a4ad655c81903597ab2c",
+          "logo": "https://sta.vnres.co/file/common/20260411/c1490960e7f4b63fdc78206c576d2da8.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795714869-0-0-261be222751a30b63fcf8d741ab930f7",
+          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV CUỘI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1795714869-0-0-ab42270acc07c294eba42a39b871d6eb",
+          "logo": "https://sta.vnres.co/file/common/20261125/d7e123aad69badb6c331ff288c8962e3.png",
+          "competition": "UEFA ECL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795714869-0-0-ef578496735f8293ba9e6cfaae44d853",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795714869-0-0-b46e2168f7d1ecf852a14f43b0e344ed",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795714869-0-0-e4dabb5d8f7d22b84b2292b4bae77c9e",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795714869-0-0-543e410f7506d94af1ba0dbbbb176602",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "UEFA ECL",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Morocco U17 vs Spain U17 (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795714869-0-0-0072afd86bb56ceba26f222f47f8a512",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV CURRY) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=09c367c51dcd6c1e03cf36fabcc4bf93&txTime=6b08b585",
+          "logo": "https://sta.vnres.co/file/common/20261126/d7d1b1ae24e3c48aee0879a95b1a02b2.png",
+          "competition": "UEFA ECL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=32788edb7525e70441ae666407ec1c95&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-291277_lhd.m3u8?txSecret=332834fcdaf9cb0eed6e9af96e665116&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "UEFA ECL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] FC Kairat Almaty vs Mjallby AIF (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795713969-0-0-47dcba8c950286e4a7e4cc6a585e4347",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795714869-0-0-f0cf5a5c1090e82d0d3f30576bdbd369",
           "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
           "competition": "UEFA ECL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV XO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=67eecd654e8d8d358b5e9a62dc2cdfe7&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=1c82afdcf1cf49ae5aea0f953a0fa7fe&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20260613/cc7eb6fb9d74dfa083a48c861b135ae8.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795714869-0-0-fecf9e22520ff9369f47ac7d24987d99",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [23:00 26/11] Croatia U17 vs Cuba U17 (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=d432c0d5e19e93e61402b60d8e26127d&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=41d854168fe3905278f61cc5514f4929&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_23:00_croatia_youth_cubau17_youth"
         },
         {
-          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795713969-0-0-1fa84780a6b97a1f440c2eff8554ac0d",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=c01afa2179b361b4e3757bc0fd6d9539&txTime=6b08b201",
-          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] Abha vs Al Shabab (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=85bfce48d16116867c9dc871ae9cad38&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=853dd62c26d95e992540c7b89ea888b2&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Qatar vs South Korea (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795713969-0-0-31200c3d50c746b52bba167db90165d1",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "FIBA WCQL",
+          "name": "⚽ [LIVE 26/11] China U17 vs Fiji U17 (BLV RYO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=f9e7d13d18c300b10bced8dcd511ab72&txTime=6b08b585",
+          "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Abha vs Al Shabab (BLV A WIN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795713969-0-0-00fece36c4226bbfcc8bbe95898d1a93",
+          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1795714869-0-0-ec6cd557f2794863dead3520b50aee1a",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] Qatar vs South Korea (BLV BRIAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795714869-0-0-3ea0bb538176c9609404e36dcfd9675c",
+          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
+          "competition": "FIBA WCQL",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Abha vs Al Shabab (BLV WUKONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-511367_lhd.m3u8?txSecret=985cf199fbf525aed27efe185f50f862&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-511367_lhd.m3u8?txSecret=7be486c8669c607bc864aaa415897345&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20251121/6d691b0b9dfd9eeb599401a2499400f0.png",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Tajikistan U17 vs Senegal U17 (BLV TRÀ ĐÁ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=93f585cdedf0d49151cc8dbb02c62df5&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-603914_lhd.m3u8?txSecret=5836aa2ed96b603bc2004995d2cffb83&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20261106/09988a4c74a85b372772dfa26b5ac348.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Croatia U17 vs Cuba U17 (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795713969-0-0-810718b643abd33643437d5f8bbaaf3b",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 26/11] Croatia U17 vs Cuba U17 (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=b8bb01d8bd94d1cb916745f813ca6b72&txTime=6b08b201",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=17b281590771e942e4d8f6aacdfdfc9f&txTime=6b08b585",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 26/11] Croatia U17 vs Cuba U17 (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795713969-0-0-2f375feb13b5d5b45d4dd27e0f9e8209",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "name": "⚽ [LIVE 26/11] Croatia U17 vs Cuba U17 (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1795714869-0-0-d42bfcf811ded9199b72c618515fe539",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Abha vs Al Shabab (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795713969-0-0-ea4ecd18db871bc5dc20ac97a992024c",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795714869-0-0-d5bb84e1dbfc0645b62b864755081e51",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] Croatia U17 vs Cuba U17 (BLV BẢY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795714869-0-0-413ae32d2282b80038988654d6ee64bd",
+          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Tajikistan U17 vs Senegal U17 (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795713969-0-0-381db26b9fc1b87f96878d9f51079536",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795714869-0-0-b48d91cffed0af8ee8ceb001e1fb6166",
           "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Qatar vs South Korea (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795713969-0-0-7ef203f483654e739f52eb165717ed21",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795714869-0-0-e1508fd72d917768ea4aad28252118d4",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "FIBA WCQL",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] Tajikistan U17 vs Senegal U17 (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795713969-0-0-d4e252fdafc78e7df3b758cd14c6992e",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795714869-0-0-814b716eb196349a7ec717ceae27d15e",
           "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
