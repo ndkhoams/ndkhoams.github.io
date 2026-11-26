@@ -1,64 +1,6 @@
 {
-  "updated_at": "2026-11-26 13:47:21",
+  "updated_at": "2026-11-26 14:02:18",
   "live_events": [
-    {
-      "key": "26/11_LIVE_fiji_hongkong",
-      "match_key": "26/11_LIVE_fiji_hongkong",
-      "c_home": "fiji",
-      "c_away": "hongkong",
-      "homeTeam": "Fiji",
-      "awayTeam": "Hong Kong",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "LIVE",
-      "date": "26/11",
-      "timestamp": 1795669200000,
-      "league": "OTHER",
-      "leagueName": "ACQ",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795679169-0-0-9894de715cf0b69738ea1f7ec860a4ef",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "ACQ",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795679169-0-0-a17a0abb0468c3154692b1c330cbdb98",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "ACQ",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        },
-        {
-          "name": "🏀 [12:00 26/11] Fiji vs Hồng Kông (BLV The Flash) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.nuBZxO1vnenp.m3u8?expires=1795686625&signature=YI8fDB-supzB2wjIx5KLVHRi0kLnfBcDAtnI9wgR17A",
-          "logo": "https://xoigac.top/images/placeholder-team.svg",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        },
-        {
-          "name": "🏀 [12:00 26/11] Fiji vs Hồng Kông (BLV Doctor Strange) - Xôi Gấc TV",
-          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.wtLxE5tDZrRE.m3u8?expires=1795686627&signature=V3n5Ur5DeyN3yacymXUT-TcW4UBjrnT9AIZDyp91k9I",
-          "logo": "https://xoigac.top/images/placeholder-team.svg",
-          "competition": "",
-          "group": "⚡ Xôi Gấc TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        }
-      ],
-      "displayTitle": "🏀 [LIVE 26/11] Fiji vs Hong Kong",
-      "number": 1
-    },
     {
       "key": "26/11_LIVE_parissaintgermain_roma",
       "match_key": "26/11_LIVE_parissaintgermain_roma",
@@ -79,7 +21,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=948c7e1a9b3722eff4b5c7306b8603bc&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3484cf40ad6bcf819359becea9ad9817&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
@@ -88,7 +30,7 @@
         }
       ],
       "displayTitle": "🔴 [LIVE 26/11] Paris Saint Germain vs AS Roma",
-      "number": 2
+      "number": 1
     },
     {
       "key": "26/11_12:00_china_fiji",
@@ -137,6 +79,46 @@
         }
       ],
       "displayTitle": "🏀 [12:00 26/11] Fiji vs China",
+      "number": 2
+    },
+    {
+      "key": "26/11_12:00_fiji_hongkong",
+      "match_key": "26/11_12:00_fiji_hongkong",
+      "c_home": "fiji",
+      "c_away": "hongkong",
+      "homeTeam": "Fiji",
+      "awayTeam": "Hong Kong",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "12:00",
+      "date": "26/11",
+      "timestamp": 1795669200000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [12:00 26/11] Fiji vs Hồng Kông (BLV The Flash) - Xôi Gấc TV",
+          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.nuBZxO1vnenp.m3u8?expires=1795686625&signature=YI8fDB-supzB2wjIx5KLVHRi0kLnfBcDAtnI9wgR17A",
+          "logo": "https://xoigac.top/images/placeholder-team.svg",
+          "competition": "",
+          "group": "⚡ Xôi Gấc TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_12:00_fiji_hongkong"
+        },
+        {
+          "name": "🏀 [12:00 26/11] Fiji vs Hồng Kông (BLV Doctor Strange) - Xôi Gấc TV",
+          "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.wtLxE5tDZrRE.m3u8?expires=1795686627&signature=V3n5Ur5DeyN3yacymXUT-TcW4UBjrnT9AIZDyp91k9I",
+          "logo": "https://xoigac.top/images/placeholder-team.svg",
+          "competition": "",
+          "group": "⚡ Xôi Gấc TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_12:00_fiji_hongkong"
+        }
+      ],
+      "displayTitle": "🏀 [12:00 26/11] Fiji vs Hong Kong",
       "number": 3
     },
     {
@@ -342,6 +324,97 @@
       "number": 8
     },
     {
+      "key": "27/11_00:45_dinamozagreb_leverkusen",
+      "match_key": "27/11_00:45_dinamozagreb_leverkusen",
+      "c_home": "dinamozagreb",
+      "c_away": "leverkusen",
+      "homeTeam": "Dinamo Zagreb",
+      "awayTeam": "Bayer Leverkusen",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "00:45",
+      "date": "27/11",
+      "timestamp": 1795715100000,
+      "league": "UEL",
+      "leagueName": "Europa League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:45 27/11] Dinamo Zagreb Vs Bayer 04 Leverkusen (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_00:45_dinamozagreb_leverkusen"
+        },
+        {
+          "name": "⚽ [00:45 27/11] Dinamo Zagreb vs Bayer Leverkusen (BLV LÝ LẦY LỘI) [geo] - Phá Làng TV",
+          "url": "https://pull1.digitalcdn.net/live/68e37a4273c04cd1a68a8e35a1fb44d5/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghdwwmoep/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_00:45_dinamozagreb_leverkusen"
+        }
+      ],
+      "displayTitle": "⚽ [00:45 27/11] Dinamo Zagreb vs Bayer Leverkusen",
+      "number": 9
+    },
+    {
+      "key": "27/11_00:45_acmilan_olympiacospiraeus",
+      "match_key": "27/11_00:45_acmilan_olympiacospiraeus",
+      "c_home": "olympiacospiraeus",
+      "c_away": "acmilan",
+      "homeTeam": "Olympiacos Piraeus",
+      "awayTeam": "AC Milan",
+      "homeLogo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+      "time": "00:45",
+      "date": "27/11",
+      "timestamp": 1795715100000,
+      "league": "UEL",
+      "leagueName": "Europa League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:45 27/11] Olympiacos Piraeus Vs Ac Milan (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
+        },
+        {
+          "name": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+          "competition": "UEFA Europa League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
+        },
+        {
+          "name": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan (BLV NGƯỜI NHỆN) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/piraeus-milan-c2/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/697a146e-92f2-42a4-8e9f-94d94eadc590",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
+        }
+      ],
+      "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
+      "number": 10
+    },
+    {
       "key": "27/11_00:45_besiktas_hbeersheva",
       "match_key": "27/11_00:45_besiktas_hbeersheva",
       "c_home": "besiktas",
@@ -372,7 +445,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Besiktas vs H. Beer Sheva",
-      "number": 9
+      "number": 11
     },
     {
       "key": "27/11_00:45_dinzagreb_leverkusen",
@@ -405,7 +478,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Din. Zagreb vs Bayer Leverkusen",
-      "number": 10
+      "number": 12
     },
     {
       "key": "27/11_00:45_levskisofia_marseille",
@@ -438,49 +511,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Marseille vs Levski Sofia",
-      "number": 11
-    },
-    {
-      "key": "27/11_00:45_acmilan_olympiacospiraeus",
-      "match_key": "27/11_00:45_acmilan_olympiacospiraeus",
-      "c_home": "olympiacospiraeus",
-      "c_away": "acmilan",
-      "homeTeam": "Olympiacos Piraeus",
-      "awayTeam": "AC Milan",
-      "homeLogo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/159_milan.jpg",
-      "time": "00:45",
-      "date": "27/11",
-      "timestamp": 1795715100000,
-      "league": "UEL",
-      "leagueName": "Europa League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": false,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/82_olympiakos-piraeus.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/159_milan.jpg",
-          "competition": "UEFA Europa League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
-        },
-        {
-          "name": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan (BLV NGƯỜI NHỆN) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/piraeus-milan-c2/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/697a146e-92f2-42a4-8e9f-94d94eadc590",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
-        }
-      ],
-      "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 12
+      "number": 13
     },
     {
       "key": "27/11_00:45_benfica_plzen",
@@ -513,7 +544,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Plzen vs Benfica",
-      "number": 13
+      "number": 14
     },
     {
       "key": "27/11_00:45_brighton_univcraiova",
@@ -546,7 +577,80 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Brighton vs Univ. Craiova",
-      "number": 14
+      "number": 15
+    },
+    {
+      "key": "27/11_03:00_sturmgraz_tsghoffenheim",
+      "match_key": "27/11_03:00_sturmgraz_tsghoffenheim",
+      "c_home": "tsghoffenheim",
+      "c_away": "sturmgraz",
+      "homeTeam": "Tsg Hoffenheim",
+      "awayTeam": "Sturm Graz",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "03:00",
+      "date": "27/11",
+      "timestamp": 1795723200000,
+      "league": "UEL",
+      "leagueName": "Europa League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 27/11] Tsg Hoffenheim Vs Sturm Graz (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_03:00_sturmgraz_tsghoffenheim"
+        }
+      ],
+      "displayTitle": "⚽ [03:00 27/11] Tsg Hoffenheim vs Sturm Graz",
+      "number": 16
+    },
+    {
+      "key": "27/11_03:00_jagielloniabialystok_sunderland",
+      "match_key": "27/11_03:00_jagielloniabialystok_sunderland",
+      "c_home": "sunderland",
+      "c_away": "jagielloniabialystok",
+      "homeTeam": "Sunderland",
+      "awayTeam": "Jagiellonia",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
+      "time": "03:00",
+      "date": "27/11",
+      "timestamp": 1795723200000,
+      "league": "UEL",
+      "leagueName": "Europa League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 27/11] Sunderland Vs Jagiellonia Bialystok (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_03:00_jagielloniabialystok_sunderland"
+        },
+        {
+          "name": "⚽ [03:00 27/11] Sunderland vs Jagiellonia (BLV Xôi Xoài) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
+          "competition": "UEFA Europa League",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "27/11_03:00_jagielloniabialystok_sunderland"
+        }
+      ],
+      "displayTitle": "⚽ [03:00 27/11] Sunderland vs Jagiellonia",
+      "number": 17
     },
     {
       "key": "27/11_03:00_crystalpalace_realsociedad",
@@ -597,7 +701,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Crystal Palace vs Real Sociedad",
-      "number": 15
+      "number": 18
     },
     {
       "key": "27/11_03:00_juventus_omonia",
@@ -648,7 +752,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Juventus vs Omonia",
-      "number": 16
+      "number": 19
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -690,40 +794,100 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 17
+      "number": 20
     },
     {
-      "key": "27/11_03:00_jagiellonia_sunderland",
-      "match_key": "27/11_03:00_jagiellonia_sunderland",
-      "c_home": "sunderland",
-      "c_away": "jagiellonia",
-      "homeTeam": "Sunderland",
-      "awayTeam": "Jagiellonia",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
-      "time": "03:00",
+      "key": "27/11_18:00_cahn_namdinh",
+      "match_key": "27/11_18:00_cahn_namdinh",
+      "c_home": "namdinh",
+      "c_away": "cahn",
+      "homeTeam": "Nam Dinh",
+      "awayTeam": "CAHN",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "18:00",
       "date": "27/11",
-      "timestamp": 1795723200000,
-      "league": "UEL",
-      "leagueName": "Europa League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "timestamp": 1795777200000,
+      "league": "VLEAGUE",
+      "leagueName": "V-League 1",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_vleague",
       "isOngoing": false,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [03:00 27/11] Sunderland vs Jagiellonia (BLV Xôi Xoài) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
-          "competition": "UEFA Europa League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "27/11_03:00_jagiellonia_sunderland"
+          "name": "⚽ [18:00 27/11] Thep Xanh Nam Dinh Fc Vs Cong An Ha Noi Fc (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/0402fbeb5c375de21ee74f868d2b5f0b.png",
+          "competition": "Vietnam National Champion League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_18:00_cahn_namdinh"
         }
       ],
-      "displayTitle": "⚽ [03:00 27/11] Sunderland vs Jagiellonia",
-      "number": 18
+      "displayTitle": "⚽ [18:00 27/11] Nam Dinh vs CAHN",
+      "number": 21
+    },
+    {
+      "key": "28/11_03:00_chelsea_nottingham",
+      "match_key": "28/11_03:00_chelsea_nottingham",
+      "c_home": "nottingham",
+      "c_away": "chelsea",
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Chelsea",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "03:00",
+      "date": "28/11",
+      "timestamp": 1795809600000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [03:00 28/11] Nottingham Forest Vs Chelsea (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_03:00_chelsea_nottingham"
+        }
+      ],
+      "displayTitle": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea",
+      "number": 22
+    },
+    {
+      "key": "28/11_21:00_frosinone_parma",
+      "match_key": "28/11_21:00_frosinone_parma",
+      "c_home": "frosinone",
+      "c_away": "parma",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Parma",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "21:00",
+      "date": "28/11",
+      "timestamp": 1795874400000,
+      "league": "SERIE_A",
+      "leagueName": "Serie A",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_seriea",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [21:00 28/11] Frosinone Vs Parma (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/9fb71d5c81624eed8c9a3cfa301fc19a.png",
+          "competition": "Italian Serie A",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_21:00_frosinone_parma"
+        }
+      ],
+      "displayTitle": "⚽ [21:00 28/11] Frosinone vs Parma",
+      "number": 23
     },
     {
       "key": "28/11_21:30_paderborn_schalke",
@@ -756,7 +920,69 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 19
+      "number": 24
+    },
+    {
+      "key": "28/11_22:00_brentford_manutd",
+      "match_key": "28/11_22:00_brentford_manutd",
+      "c_home": "manutd",
+      "c_away": "brentford",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Brentford",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "22:00",
+      "date": "28/11",
+      "timestamp": 1795878000000,
+      "league": "EPL",
+      "leagueName": "EPL",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:00 28/11] Manchester United Vs Brentford (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
+          "competition": "English Premier League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_22:00_brentford_manutd"
+        }
+      ],
+      "displayTitle": "⚽ [22:00 28/11] Manchester United vs Brentford",
+      "number": 25
+    },
+    {
+      "key": "28/11_23:15_angerssco_lens",
+      "match_key": "28/11_23:15_angerssco_lens",
+      "c_home": "angerssco",
+      "c_away": "lens",
+      "homeTeam": "Angers Sco",
+      "awayTeam": "Lens",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "23:15",
+      "date": "28/11",
+      "timestamp": 1795882500000,
+      "league": "LIGUE1",
+      "leagueName": "Ligue 1",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ligue1",
+      "isOngoing": false,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [23:15 28/11] Angers Sco Vs Rc Lens (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/cf612a87b09f469ebb367da53e07a45f.png",
+          "competition": "French Ligue 1",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_23:15_angerssco_lens"
+        }
+      ],
+      "displayTitle": "⚽ [23:15 28/11] Angers Sco vs Lens",
+      "number": 26
     }
   ],
   "source_groups": [
@@ -938,6 +1164,70 @@
           "competition": "Russian Cup",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "26/11_23:30_dynamomoscow_fakelvoronezh"
+        },
+        {
+          "name": "⚽ [00:45 27/11] Dinamo Zagreb Vs Bayer 04 Leverkusen (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_00:45_dinamozagreb_leverkusen"
+        },
+        {
+          "name": "⚽ [00:45 27/11] Olympiacos Piraeus Vs Ac Milan (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_00:45_acmilan_olympiacospiraeus"
+        },
+        {
+          "name": "⚽ [03:00 27/11] Tsg Hoffenheim Vs Sturm Graz (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_03:00_sturmgraz_tsghoffenheim"
+        },
+        {
+          "name": "⚽ [03:00 27/11] Sunderland Vs Jagiellonia Bialystok (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/5f804c12df1e4a6ea450e60d93617d5c.png",
+          "competition": "UEFA Europa League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_03:00_jagielloniabialystok_sunderland"
+        },
+        {
+          "name": "⚽ [18:00 27/11] Thep Xanh Nam Dinh Fc Vs Cong An Ha Noi Fc (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/0402fbeb5c375de21ee74f868d2b5f0b.png",
+          "competition": "Vietnam National Champion League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_18:00_cahn_namdinh"
+        },
+        {
+          "name": "⚽ [18:00 27/11] Thai Nguyen Vs Hung Yen (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/0edff1472edca4aeeec7534f0bceb230.png",
+          "competition": "Vietnam National First Class League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_18:00_hungyen_thainguyen"
+        },
+        {
+          "name": "⚽ [21:00 27/11] Ireland U17 Vs Tanzania U17 (BLV Gà Siêu Gáy) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
+          "competition": "FIFA U17 World Cup",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_21:00_ireland_youth_tanzaniau17_youth"
+        },
+        {
+          "name": "⚽ [22:00 27/11] Algeria U17 Vs Dominican Republic U17 (BLV Gà Siêu Tồ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/796315.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
+          "competition": "FIFA U17 World Cup",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "match_key": "27/11_22:00_algeriau17_youth_dominicanrepublicu17_youth"
         }
       ]
     },
@@ -1112,7 +1402,7 @@
           "away_logo": "https://apiv3.apifootball.com/badges/5770_jagiellonia-biaystok.jpg",
           "competition": "UEFA Europa League",
           "group": "🍵 Xôi Chè TV",
-          "match_key": "27/11_03:00_jagiellonia_sunderland"
+          "match_key": "27/11_03:00_jagielloniabialystok_sunderland"
         },
         {
           "name": "⚽ [15:40 27/11] Macarthur FC vs Melbourne City (BLV Tam Mao) - Xôi Chè",
@@ -1339,63 +1629,47 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795679169-0-0-9894de715cf0b69738ea1f7ec860a4ef",
-          "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
-          "competition": "ACQ",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Fiji vs Hong Kong (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795679169-0-0-a17a0abb0468c3154692b1c330cbdb98",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "ACQ",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_fiji_hongkong"
-        },
-        {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sporting CP vs Manchester United (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=d89b506478d8af6a6d4a10908b1e34b9&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=6b8777c068b5b771127d02dbf9dea2bd&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/62541673cf03ff2ac653f17187a46d5e.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - SK Slavia Praha vs Villarreal CF (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=d89224a01b8096979ac64ef3d1d86022&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=7add5c0bfb6269ede076688c9ca6f5b0&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/40ea09baf9291b916f924a88c3f9f1d3.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Club Brugge vs Liverpool (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=53d1e73a2e0ecd856801e15be8afc6c3&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=8dc6c5e58eac707633741f482d3f32cc&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/18c8394b0caac45f2b035bf5de1222d1.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=3484cf40ad6bcf819359becea9ad9817&txTime=6b082d95",
+          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_parissaintgermain_roma"
+        },
+        {
           "name": "⚽ [LIVE 26/11] UEFA CL - Atletico Madrid vs Viking (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=1ae7c3091b1ebaac395d4f748c9f25ef&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=67c6c0fb7ad2a1c0560e1181e5dfbbb7&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/30aec1ba55ba486909866a6f0c66bbcd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] UEFA CL - Sabah Baku vs FC Barcelona (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=4e7c4220703658089a4d5b35668cf38b&txTime=6b082a11",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=9f58b53563969abd7234b62a0f8ba179&txTime=6b082d95",
           "logo": "https://sta.vnres.co/file/common/20261126/70fb4ffa6509ead6b769f747c97ea8dd.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] UEFA CL - Paris Saint Germain vs AS Roma (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=948c7e1a9b3722eff4b5c7306b8603bc&txTime=6b082a11",
-          "logo": "https://sta.vnres.co/file/common/20261126/3cae1ccd0388269664b5badebde16aaf.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_parissaintgermain_roma"
         }
       ]
     },
@@ -1799,7 +2073,7 @@
           "logo": "https://xoigac.top/images/placeholder-team.svg",
           "competition": "",
           "group": "⚡ Xôi Gấc TV",
-          "match_key": "26/11_LIVE_fiji_hongkong"
+          "match_key": "26/11_12:00_fiji_hongkong"
         },
         {
           "name": "🏀 [12:00 26/11] Fiji vs Hồng Kông (BLV Doctor Strange) - Xôi Gấc TV",
@@ -1807,7 +2081,7 @@
           "logo": "https://xoigac.top/images/placeholder-team.svg",
           "competition": "",
           "group": "⚡ Xôi Gấc TV",
-          "match_key": "26/11_LIVE_fiji_hongkong"
+          "match_key": "26/11_12:00_fiji_hongkong"
         }
       ]
     },
