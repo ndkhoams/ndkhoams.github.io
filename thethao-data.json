@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 09:12:15",
+  "updated_at": "2026-11-26 09:27:21",
   "live_events": [
     {
       "key": "26/11_09:00_aurora_csdmunicipal",
@@ -30,8 +30,17 @@
         },
         {
           "name": "⚽ [LIVE 26/11] CSD Municipal vs Aurora F.C. (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795662669-0-0-bf9d263aa97904af928c0f8c093a72a1",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795663569-0-0-8f3281541acc76ce968d3ccc21332adc",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "GUA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_09:00_aurora_csdmunicipal"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] CSD Municipal vs Aurora F.C. (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795663569-0-0-067d6f2db32180dd87853bc0f753761f",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
           "competition": "GUA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -40,95 +49,6 @@
       ],
       "displayTitle": "🔴 [09:00 26/11] Csd Municipal vs Aurora F.c",
       "number": 1
-    },
-    {
-      "key": "26/11_07:00_charlottehornets_chicagobulls",
-      "match_key": "26/11_07:00_charlottehornets_chicagobulls",
-      "c_home": "charlottehornets",
-      "c_away": "chicagobulls",
-      "homeTeam": "Charlotte Hornets",
-      "awayTeam": "Chicago Bulls",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "26/11",
-      "timestamp": 1795651200000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795662669-0-0-4d32771d6225056bcefdcb442a38d3b2",
-          "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795662669-0-0-7d48b5b461a0ffeb20dd8fcce48c4ec7",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
-        }
-      ],
-      "displayTitle": "🏀 [07:00 26/11] Charlotte Hornets vs Chicago Bulls",
-      "number": 2
-    },
-    {
-      "key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
-      "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
-      "c_home": "newyorkknicks",
-      "c_away": "clevelandcavaliers",
-      "homeTeam": "New York Knicks",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:30",
-      "date": "26/11",
-      "timestamp": 1795653000000,
-      "league": "NBA",
-      "leagueName": "NBA",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795662669-0-0-8e722dc8c0dec06112f6f420acfe3b38",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        },
-        {
-          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/82054853.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        },
-        {
-          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        }
-      ],
-      "displayTitle": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers",
-      "number": 3
     },
     {
       "key": "26/11_07:30_minnesotatimberwolves_oklahomacitythunder",
@@ -150,7 +70,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 26/11] Oklahoma City Thunder vs Minnesota Timberwolves (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795662669-0-0-9879e7c4c57481595ca427ad1502332e",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795663569-0-0-ea258d97991ba4f602d0fbc7dda9bcec",
           "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -186,7 +106,56 @@
         }
       ],
       "displayTitle": "🏀 [07:30 26/11] Oklahoma City Thunder vs Minnesota Timberwolves 24h Tv",
-      "number": 4
+      "number": 2
+    },
+    {
+      "key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
+      "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks",
+      "c_home": "newyorkknicks",
+      "c_away": "clevelandcavaliers",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "07:30",
+      "date": "26/11",
+      "timestamp": 1795653000000,
+      "league": "NBA",
+      "leagueName": "NBA",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_nba",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795663569-0-0-27c78c715518add20dfe90780d2cacb4",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        },
+        {
+          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/82054853.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        },
+        {
+          "name": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers (BLV ROCKSTAR) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/82054853_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/49f8b0ef2ed529b44dba6ebb99a0d5ff.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        }
+      ],
+      "displayTitle": "🏀 [07:30 26/11] New York Knicks vs Cleveland Cavaliers",
+      "number": 3
     },
     {
       "key": "26/11_08:30_houstonrockets_phoenixsuns",
@@ -208,7 +177,7 @@
       "sources": [
         {
           "name": "⚽ [LIVE 26/11] Houston Rockets vs Phoenix Suns (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795662669-0-0-3e9769861f80b1ad60fda7e93b3022b4",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795663569-0-0-3c8a97f449d129d044b7b6637d6ec520",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -217,7 +186,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Houston Rockets vs Phoenix Suns (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795662669-0-0-56ad95dc11ecedd8d3e6b57e21e91f07",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795663569-0-0-9ee1013a27cb6b850090b4909460b5b8",
           "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
@@ -226,56 +195,7 @@
         }
       ],
       "displayTitle": "🏀 [08:30 26/11] Houston Rockets vs Phoenix Suns",
-      "number": 5
-    },
-    {
-      "key": "26/11_07:00_bocajuniors_independienterivadavia",
-      "match_key": "26/11_07:00_bocajuniors_independienterivadavia",
-      "c_home": "bocajuniors",
-      "c_away": "independienterivadavia",
-      "homeTeam": "Boca Juniors",
-      "awayTeam": "Independiente Rivadavia",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "07:00",
-      "date": "26/11",
-      "timestamp": 1795651200000,
-      "league": "OTHER",
-      "leagueName": "Argentine Division 1",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [07:00 26/11] Boca Juniors Vs Independiente Rivadavia (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/0276a00c0277c8f1cba7b63bd59e281d.png",
-          "competition": "Argentine Division 1",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [07:00 26/11] Boca Juniors vs Independiente Rivadavia (BLV Gà Siêu Son) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/306290.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
-        {
-          "name": "⚽ [07:00 26/11] Boca Juniors vs Independiente Rivadavia (BLV Doanh Chính) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-2.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        }
-      ],
-      "displayTitle": "🔴 [07:00 26/11] Boca Juniors vs Independiente Rivadavia",
-      "number": 6
+      "number": 4
     },
     {
       "key": "26/11_08:00_atlas_toluca",
@@ -307,36 +227,9 @@
           "match_key": "26/11_08:00_atlas_toluca"
         },
         {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795662669-0-0-b6bbfa7109feaf549548a24367b934ec",
-          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795662669-0-0-eea9a6238a750c5eaa24ac7bb90655b2",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795662669-0-0-130c673f06cf03ecec8d575f021eb75e",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795662669-0-0-6b3e411ebfb8b454dd5c779e4367a1a8",
-          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV PEWPEW) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795663569-0-0-aa36a2d18b67d9f08b99c4e85a5d93ea",
+          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -344,7 +237,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795662669-0-0-595ae9ed05aaf1280595503bf0c44db3",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795663569-0-0-826d72b76b40240844fd8d0d9c5b6724",
           "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
@@ -352,9 +245,36 @@
           "match_key": "26/11_08:00_atlas_toluca"
         },
         {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795662669-0-0-7f7b13160eed100c2c6bc5048cb0160a",
-          "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795663569-0-0-29a309e7b014f4a7e3dec6ae5c484617",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795663569-0-0-b4b563adf318fb0df901cc3058f4e07b",
+          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795663569-0-0-8e1343b7ab3c8ef62b16e1d0b3a05ca1",
+          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795663569-0-0-f972549658f22bc0f8d93f7fd9c620f3",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -362,7 +282,7 @@
         }
       ],
       "displayTitle": "🔴 [08:00 26/11] Toluca vs Atlas",
-      "number": 7
+      "number": 5
     },
     {
       "key": "26/11_08:00_losangelesclippers_memphisgrizzlies",
@@ -402,7 +322,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 26/11] Memphis Grizzlies vs Los Angeles Clippers",
-      "number": 8
+      "number": 6
     },
     {
       "key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin",
@@ -433,7 +353,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795662669-0-0-e12cba0b06b1270b3bc55c37c80382f2",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795663569-0-0-14369bb5d87c14ca59f35db7b75fddd1",
           "logo": "https://sta.vnres.co/file/common/20261125/d6e0da4b5101c3083d3c27148fcd7263.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -442,7 +362,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795662669-0-0-4fe8e899bdf97f734c12e3928cbf7ed4",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795663569-0-0-36ef94f33174e36d0c987d7bdcea0471",
           "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -451,7 +371,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795662669-0-0-05b61683e10d8c30b5d80be0f16f0573",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795663569-0-0-236dbda89ba502cf2f361becc821d869",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -460,7 +380,7 @@
         },
         {
           "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795662669-0-0-f8f2e64d42579c73a4c213df2438743e",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795663569-0-0-48fe05b995f18cac5d10f397f37cd3be",
           "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
           "competition": "COL D1",
           "group": "🐿️ SocoLive",
@@ -478,7 +398,7 @@
         }
       ],
       "displayTitle": "🔴 [08:30 26/11] Atletico Nacional Medellin vs Dep Independiente Medellin",
-      "number": 9
+      "number": 7
     },
     {
       "key": "26/11_22:30_kairatalmaty_mjallbyaif",
@@ -520,7 +440,7 @@
         }
       ],
       "displayTitle": "⚽ [22:30 26/11] Kairat Almaty vs Mjallby",
-      "number": 10
+      "number": 8
     },
     {
       "key": "27/11_00:45_besiktas_hbeersheva",
@@ -553,7 +473,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Besiktas vs H. Beer Sheva",
-      "number": 11
+      "number": 9
     },
     {
       "key": "27/11_00:45_dinzagreb_leverkusen",
@@ -586,7 +506,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Din. Zagreb vs Bayer Leverkusen",
-      "number": 12
+      "number": 10
     },
     {
       "key": "27/11_00:45_levskisofia_marseille",
@@ -619,7 +539,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Marseille vs Levski Sofia",
-      "number": 13
+      "number": 11
     },
     {
       "key": "27/11_00:45_acmilan_olympiacospiraeus",
@@ -652,7 +572,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Olympiacos Piraeus vs AC Milan",
-      "number": 14
+      "number": 12
     },
     {
       "key": "27/11_00:45_brighton_univcraiova",
@@ -685,7 +605,7 @@
         }
       ],
       "displayTitle": "⚽ [00:45 27/11] Brighton vs Univ. Craiova",
-      "number": 15
+      "number": 13
     },
     {
       "key": "27/11_03:00_crystalpalace_realsociedad",
@@ -718,7 +638,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Crystal Palace vs Real Sociedad",
-      "number": 16
+      "number": 14
     },
     {
       "key": "27/11_03:00_juventus_omonia",
@@ -751,7 +671,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Juventus vs Omonia",
-      "number": 17
+      "number": 15
     },
     {
       "key": "27/11_03:00_lillestrom_lyon",
@@ -784,7 +704,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Lyon vs Lillestrom",
-      "number": 18
+      "number": 16
     },
     {
       "key": "27/11_03:00_jagiellonia_sunderland",
@@ -817,7 +737,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 27/11] Sunderland vs Jagiellonia",
-      "number": 19
+      "number": 17
     },
     {
       "key": "28/11_21:30_paderborn_schalke",
@@ -850,21 +770,13 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 20
+      "number": 18
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
-        {
-          "name": "⚽ [07:00 26/11] Boca Juniors Vs Independiente Rivadavia (BLV Gà Siêu Son) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/306290.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/0276a00c0277c8f1cba7b63bd59e281d.png",
-          "competition": "Argentine Division 1",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
-        },
         {
           "name": "⚽ [08:30 26/11] Atletico Nacional Medellin Vs Depindependiente Medellin (BLV Gà Siêu Tốc) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -1474,156 +1386,170 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 26/11] Barcelona SC(ECU) vs Independiente del Valle (BLV VIP) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=d4f1e3ffce62d2df285016f6bdd293ed&txTime=6b07e99d",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "ECU D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_LIVE_barcelona_independientedelvalle"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795662669-0-0-b6bbfa7109feaf549548a24367b934ec",
-          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795662669-0-0-eea9a6238a750c5eaa24ac7bb90655b2",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV A PÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795662669-0-0-e12cba0b06b1270b3bc55c37c80382f2",
-          "logo": "https://sta.vnres.co/file/common/20261125/d6e0da4b5101c3083d3c27148fcd7263.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV A MÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795662669-0-0-130c673f06cf03ecec8d575f021eb75e",
-          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV CHAN ĐÊ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795662669-0-0-4fe8e899bdf97f734c12e3928cbf7ed4",
-          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795662669-0-0-8e722dc8c0dec06112f6f420acfe3b38",
-          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Oklahoma City Thunder vs Minnesota Timberwolves (BLV HENRY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795662669-0-0-9879e7c4c57481595ca427ad1502332e",
-          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:30_minnesotatimberwolves_oklahomacitythunder"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795662669-0-0-6b3e411ebfb8b454dd5c779e4367a1a8",
-          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795662669-0-0-595ae9ed05aaf1280595503bf0c44db3",
-          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
-          "competition": "MEX D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:00_atlas_toluca"
-        },
-        {
           "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV PEWPEW) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795662669-0-0-7f7b13160eed100c2c6bc5048cb0160a",
+          "url": "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1795663569-0-0-aa36a2d18b67d9f08b99c4e85a5d93ea",
           "logo": "https://sta.vnres.co/file/common/20261010/6afa59cfe8ca9a57d45499933cb50376.jpg",
           "competition": "MEX D1",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_08:00_atlas_toluca"
         },
         {
+          "name": "⚽ [LIVE 26/11] Oklahoma City Thunder vs Minnesota Timberwolves (BLV HENRY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1795663569-0-0-ea258d97991ba4f602d0fbc7dda9bcec",
+          "logo": "https://sta.vnres.co/file/common/20260527/86e2d6082d35b8c905da5b66c29d4e3d.jpeg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:30_minnesotatimberwolves_oklahomacitythunder"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Houston Rockets vs Phoenix Suns (BLV BRIAN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795662669-0-0-3e9769861f80b1ad60fda7e93b3022b4",
+          "url": "https://pull.niues.live/live/stream-9912106_lhd.m3u8?auth_key=1795663569-0-0-3c8a97f449d129d044b7b6637d6ec520",
           "logo": "https://sta.vnres.co/file/common/20261012/c2d57a4efab80fb560f4867910dadbf7.jpg",
           "competition": "NBA",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_08:30_houstonrockets_phoenixsuns"
         },
         {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV TYPN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795663569-0-0-826d72b76b40240844fd8d0d9c5b6724",
+          "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795663569-0-0-29a309e7b014f4a7e3dec6ae5c484617",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Rayados de Monterrey vs Club America (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1795663569-0-0-ce1a2b9ce7c2b06f1e3f777bea4dbfbd",
+          "logo": "https://sta.vnres.co/file/common/20261126/57a78e07936369df33bb0a998a304e35.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_10:10_clubamerica_monterrey"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV ZIZOU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795663569-0-0-b4b563adf318fb0df901cc3058f4e07b",
+          "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795663569-0-0-8e1343b7ab3c8ef62b16e1d0b3a05ca1",
+          "logo": "https://sta.vnres.co/file/common/20261123/594e26f7b42857a7409e305a819a6606.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Barcelona SC(ECU) vs Independiente del Valle (BLV VIP) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-491873_lhd.m3u8?txSecret=9fe09db8c4c40f1ad0b412e8e00024e5&txTime=6b07ed21",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
+          "competition": "ECU D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_LIVE_barcelona_independientedelvalle"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Toluca vs Atlas (BLV A MÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627718_lhd.m3u8?auth_key=1795663569-0-0-f972549658f22bc0f8d93f7fd9c620f3",
+          "logo": "https://sta.vnres.co/file/common/20260831/8c106fa0fe146cf7929663e53e921ba0.jpg",
+          "competition": "MEX D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:00_atlas_toluca"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] New York Knicks vs Cleveland Cavaliers (BLV CHAN SENA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1795663569-0-0-27c78c715518add20dfe90780d2cacb4",
+          "logo": "https://sta.vnres.co/file/common/20250309/327aeb19e28284f148ce2d4cd8b30472.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_07:30_clevelandcavaliers_newyorkknicks"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV A PÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1795663569-0-0-14369bb5d87c14ca59f35db7b75fddd1",
+          "logo": "https://sta.vnres.co/file/common/20261125/d6e0da4b5101c3083d3c27148fcd7263.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV CHAN ĐÊ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621887_lhd.m3u8?auth_key=1795663569-0-0-36ef94f33174e36d0c987d7bdcea0471",
+          "logo": "https://sta.vnres.co/file/common/20260728/c2935ca02d759ee77531ff32719f1b21.png",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV ZERO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795662669-0-0-4d32771d6225056bcefdcb442a38d3b2",
+          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8?auth_key=1795663569-0-0-2aecae65175629b9f713a926b53d71c1",
           "logo": "https://sta.vnres.co/file/common/20261107/6a918eae054d1080f2ee99f4fa1a8da6.jpg",
           "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795662669-0-0-05b61683e10d8c30b5d80be0f16f0573",
-          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795662669-0-0-7d48b5b461a0ffeb20dd8fcce48c4ec7",
-          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_07:00_charlottehornets_chicagobulls"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV SẾU ĐẦU ĐỎ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795662669-0-0-f8f2e64d42579c73a4c213df2438743e",
-          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
-          "competition": "COL D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
-        },
-        {
-          "name": "⚽ [LIVE 26/11] Houston Rockets vs Phoenix Suns (BLV HUNTER) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795662669-0-0-56ad95dc11ecedd8d3e6b57e21e91f07",
-          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
-          "competition": "NBA",
-          "group": "🐿️ SocoLive",
-          "match_key": "26/11_08:30_houstonrockets_phoenixsuns"
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 26/11] CSD Municipal vs Aurora F.C. (BLV CÁO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795662669-0-0-bf9d263aa97904af928c0f8c093a72a1",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795663569-0-0-8f3281541acc76ce968d3ccc21332adc",
           "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
           "competition": "GUA D1",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_09:00_aurora_csdmunicipal"
         },
         {
+          "name": "⚽ [LIVE 26/11] Charlotte Hornets vs Chicago Bulls (BLV A CHÈ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-356042_lhd.m3u8?auth_key=1795663569-0-0-e8ad7bd2b9f7d6b2c2918b9a48229353",
+          "logo": "https://sta.vnres.co/file/common/20260729/9d1142c80b552213b4765003753c881b.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795663569-0-0-236dbda89ba502cf2f361becc821d869",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
+        },
+        {
           "name": "⚽ [LIVE 26/11] Barcelona SC(ECU) vs Independiente del Valle (BLV A WIN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-536185_lhd.m3u8?txSecret=d6805fa2f7ec5ab69f36722a9615e2b0&txTime=6b07e99d",
+          "url": "https://pull.niur.live/live/stream-536185_lhd.m3u8?txSecret=a5b3887137d5105ddaebea5be8093911&txTime=6b07ed21",
           "logo": "https://sta.vnres.co/file/common/20250821/4599267bc7061b982db36b4dded95de2.jpg",
           "competition": "ECU D1",
           "group": "🐿️ SocoLive",
           "match_key": "26/11_LIVE_barcelona_independientedelvalle"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Houston Rockets vs Phoenix Suns (BLV HUNTER) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-558264_lhd.m3u8?auth_key=1795663569-0-0-9ee1013a27cb6b850090b4909460b5b8",
+          "logo": "https://sta.vnres.co/file/common/20260409/4bef5dd60673df0e61ac91db803e1191.jpg",
+          "competition": "NBA",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:30_houstonrockets_phoenixsuns"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] Atletico Nacional Medellin vs Dep.Independiente Medellin (BLV SẾU ĐẦU ĐỎ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-627318_lhd.m3u8?auth_key=1795663569-0-0-48fe05b995f18cac5d10f397f37cd3be",
+          "logo": "https://sta.vnres.co/file/common/20261004/13267c0853ef192c3aa74db8f5027e16.jpg",
+          "competition": "COL D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_08:30_atleticonacionalmedellin_depindependientemedellin"
+        },
+        {
+          "name": "⚽ [LIVE 26/11] CSD Municipal vs Aurora F.C. (BLV BÚN ĐẬU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-619561_lhd.m3u8?auth_key=1795663569-0-0-067d6f2db32180dd87853bc0f753761f",
+          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
+          "competition": "GUA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "26/11_09:00_aurora_csdmunicipal"
         }
       ]
     },
@@ -1916,8 +1842,7 @@
           "url": "https://live2.zktsva.app/live/306290.m3u8",
           "logo": "https://img.cltvap.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png",
           "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+          "group": "⚡ Gà Vàng 33 TV"
         }
       ]
     },
@@ -2018,8 +1943,7 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-2.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "26/11_07:00_bocajuniors_independienterivadavia"
+          "group": "⚡ Vua Sân Cỏ TV"
         }
       ]
     },
@@ -2375,67 +2299,67 @@
     {
       "home_team": "Charlotte Hornets",
       "away_team": "Chicago Bulls",
-      "home_score": "97",
-      "away_score": "98",
+      "home_score": "105",
+      "away_score": "107",
       "league": "NBA",
-      "state": "in",
-      "is_completed": false,
-      "detail": "1:40 - 4th",
+      "state": "post",
+      "is_completed": true,
+      "detail": "Final",
       "date": "2026-11-26T00:00Z"
     },
     {
       "home_team": "New York Knicks",
       "away_team": "Cleveland Cavaliers",
-      "home_score": "65",
-      "away_score": "73",
+      "home_score": "82",
+      "away_score": "85",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "5:58 - 3rd",
+      "detail": "End of 3rd",
       "date": "2026-11-26T00:30Z"
     },
     {
       "home_team": "Oklahoma City Thunder",
       "away_team": "Minnesota Timberwolves",
-      "home_score": "69",
-      "away_score": "61",
+      "home_score": "83",
+      "away_score": "87",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "6:26 - 3rd",
+      "detail": "0.0 - 3rd",
       "date": "2026-11-26T00:30Z"
     },
     {
       "home_team": "Memphis Grizzlies",
       "away_team": "LA Clippers",
-      "home_score": "50",
-      "away_score": "43",
+      "home_score": "57",
+      "away_score": "48",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "Halftime",
+      "detail": "8:41 - 3rd",
       "date": "2026-11-26T01:00Z"
     },
     {
       "home_team": "Milwaukee Bucks",
       "away_team": "Brooklyn Nets",
-      "home_score": "47",
-      "away_score": "51",
+      "home_score": "53",
+      "away_score": "55",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "Halftime",
+      "detail": "8:36 - 3rd",
       "date": "2026-11-26T01:00Z"
     },
     {
       "home_team": "Houston Rockets",
       "away_team": "Phoenix Suns",
-      "home_score": "25",
-      "away_score": "26",
+      "home_score": "42",
+      "away_score": "43",
       "league": "NBA",
       "state": "in",
       "is_completed": false,
-      "detail": "2:02 - 1st",
+      "detail": "7:40 - 2nd",
       "date": "2026-11-26T01:30Z"
     },
     {
