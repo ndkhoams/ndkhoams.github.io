@@ -1,514 +1,6 @@
 {
-  "updated_at": "2026-11-28 02:22:21",
+  "updated_at": "2026-11-28 02:37:21",
   "live_events": [
-    {
-      "key": "28/11_02:30_bremen_monchengladbach",
-      "match_key": "28/11_02:30_bremen_monchengladbach",
-      "c_home": "bremen",
-      "c_away": "monchengladbach",
-      "homeTeam": "Werder Bremen",
-      "awayTeam": "Borussia Monchengladbach",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-      "time": "02:30",
-      "date": "28/11",
-      "timestamp": 1795807800000,
-      "league": "BUNDESLIGA",
-      "leagueName": "Bundesliga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_bundesliga",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [02:30 28/11] Sv Werder Bremen Vs Borussia Monchengladbach (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/94e565f0182c459ab1d76bc2c67ba277.png",
-          "home_logo": "https://img.cltvap.cc/football/team/54a9f7be8dcf4bbdb76187f4f8e6400d.png",
-          "away_logo": "https://img.cltvap.cc/football/team/999c033d7cd14dc38d05a0957f3230b4.png",
-          "competition": "Bundesliga",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (Khầy Lương Khô Antifan Mân Đàn) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-          "competition": "Bundesliga",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:20 28/11] Werder Bremen vs Monchengladbach (TV360+ 4) - F4K Sport",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MjYxMjcsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.thbvV2WOBjg6L1os4eKjP-amSAAUARl1DCesGffjE3A&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/26/14/1795679351584/d6bea4f7efed_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "70d033252d025d719ba70a37acc0f5c8",
-            "key": "6ca465d8b3018f1604da6d43d3395a6d"
-          },
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795810869-0-0-8d6f0437e9f4b20bac36fbfeec1e6ce3",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795810869-0-0-65763caaaeafbba2d2eb22cde12ad24f",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795810869-0-0-cf4ab19bebe5140f68546849f4dc471a",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795810869-0-0-9dead2e41c941fd05696f73bf8aed5fa",
-          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV NGƯỜI THỎ) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/werder-monche-bun/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/ea0f6cec-d730-4a37-ab86-7eaf969b9f53",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] Werder Bremen vs Borussia Mönchengladbach (BLV Long Ruồi) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8697.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV Dương Kiên) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/add8f9d537cf4895b1420c60195994b4/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhdxorepz/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/6e656c20fb3f8069459a3f666f50ce78/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhdxorepz/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        }
-      ],
-      "displayTitle": "🔴 [02:30 28/11] Werder Bremen vs Borussia Monchengladbach",
-      "number": 1
-    },
-    {
-      "key": "28/11_00:30_alittihad_neom",
-      "match_key": "28/11_00:30_alittihad_neom",
-      "c_home": "alittihad",
-      "c_away": "neom",
-      "homeTeam": "Al Ittihad",
-      "awayTeam": "Neom Sc",
-      "homeLogo": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-      "time": "00:30",
-      "date": "28/11",
-      "timestamp": 1795800600000,
-      "league": "SAUDI_LEAGUE",
-      "leagueName": "Saudi Pro League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad Vs Neom Sc (BLV Gà Ô Long) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/9115e93d22380b87e231573b0a796f27.png",
-          "home_logo": "https://img.cltvap.cc/football/team/dea986d20115216c05d1a45ba9a6162e.png",
-          "away_logo": "https://img.cltvap.cc/football/team/e5516d35314acec9169f33834a199842.png",
-          "competition": "Saudi Professional League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad vs Neom SC (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-          "competition": "Saudi League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795810869-0-0-12278ef0dbe4ac00c67dc122e7a7b858",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795810869-0-0-280ec69e058ed257a06ed9ab8b3e9ebe",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV VOI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=94278c57adfad1e503a54394ba3ff506&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad Club vs NEOM Sports Club (BLV NGƯỜI THỎ) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/ittihad-neom-ksapro/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/5a1ede96-098b-40db-96d3-c24f5ecbe50b",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad vs Neom SC (BLV Tít) [hls] - Sao Kê TV",
-          "url": "https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8",
-          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8577.png",
-          "competition": "",
-          "group": "⚡ Sao Kê TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad Club vs Neom SC (BLV Huyền Diệp) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/dea986d20115216c05d1a45ba9a6162e.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [00:30 28/11] Al Ittihad(KSA) vs Neom SC (BLV LÝ LẦY LỘI) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/d04ae76015454357a52c1c4c1196b3e8/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghyv3r6od/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_alittihad_neom"
-        }
-      ],
-      "displayTitle": "🔴 [00:30 28/11] Al Ittihad vs Neom Sc",
-      "number": 2
-    },
-    {
-      "key": "28/11_00:30_svdarmstadt98_vflbochum1848",
-      "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848",
-      "c_home": "vflbochum1848",
-      "c_away": "svdarmstadt98",
-      "homeTeam": "Vfl Bochum 1848",
-      "awayTeam": "Sv Darmstadt 98",
-      "homeLogo": "https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/da5997a60373a56628e684ae3c16f2c8.png",
-      "time": "00:30",
-      "date": "28/11",
-      "timestamp": 1795800600000,
-      "league": "BUNDESLIGA_2",
-      "leagueName": "2. Bundesliga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:30 28/11] Vfl Bochum 1848 Vs Sv Darmstadt 98 (BLV Gà Siêu Mõm) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/eab6e349cf5811408c0628a774724869.png",
-          "home_logo": "https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png",
-          "away_logo": "https://img.cltvap.cc/football/team/da5997a60373a56628e684ae3c16f2c8.png",
-          "competition": "German Bundesliga 2",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=80b60ba07d8da1dd4d0c518381f08af4&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795810869-0-0-0467ce552e9d2ba5157d41447631d46d",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=8a15432f4c9812f3ad247902c731a511&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
-        }
-      ],
-      "displayTitle": "🔴 [00:30 28/11] Vfl Bochum 1848 vs Sv Darmstadt 98",
-      "number": 3
-    },
-    {
-      "key": "28/11_00:30_1heidenheim1846_1nrnberg",
-      "match_key": "28/11_00:30_1heidenheim1846_1nrnberg",
-      "c_home": "1heidenheim1846",
-      "c_away": "1nrnberg",
-      "homeTeam": "1 Heidenheim 1846",
-      "awayTeam": "1 Nrnberg",
-      "homeLogo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png",
-      "time": "00:30",
-      "date": "28/11",
-      "timestamp": 1795800600000,
-      "league": "BUNDESLIGA_2",
-      "leagueName": "2. Bundesliga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:30 28/11] 1 Fc Heidenheim 1846 Vs 1 Fc Nrnberg (BLV Gà Siêu Nhí) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/301263.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/eab6e349cf5811408c0628a774724869.png",
-          "home_logo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-          "away_logo": "https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png",
-          "competition": "German Bundesliga 2",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_00:30_1heidenheim1846_1nrnberg"
-        }
-      ],
-      "displayTitle": "🔴 [00:30 28/11] 1 Heidenheim 1846 vs 1 Nrnberg",
-      "number": 4
-    },
-    {
-      "key": "28/11_00:30_heidenheim_nurnberg",
-      "match_key": "28/11_00:30_heidenheim_nurnberg",
-      "c_home": "heidenheim",
-      "c_away": "nurnberg",
-      "homeTeam": "1. Heidenheim 1846",
-      "awayTeam": "1. Nurnberg",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/3924_nurnberg.jpg",
-      "time": "00:30",
-      "date": "28/11",
-      "timestamp": 1795800600000,
-      "league": "BUNDESLIGA_2",
-      "leagueName": "2. Bundesliga",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [00:30 28/11] Heidenheim vs Nurnberg (BLV Khô Cá) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3924_nurnberg.jpg",
-          "competition": "2. Bundesliga",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=bdc9d5b4c6b0cc2f72f5ca8b1b044cd5&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=e5f02de3a195a08db06f2bbf84a57ee6&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795810869-0-0-120d7def5d4f439a18adf2be965eabe7",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795810869-0-0-1fca8f1645b0759dc91c69e7abb2fbb5",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [00:30 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV Gà Siêu Nhí) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/301263.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [00:30 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV Tào Duệ) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        }
-      ],
-      "displayTitle": "🔴 [00:30 28/11] 1. Heidenheim 1846 vs 1. Nurnberg",
-      "number": 5
-    },
-    {
-      "key": "28/11_01:00_brondbyif_sonderjyske",
-      "match_key": "28/11_01:00_brondbyif_sonderjyske",
-      "c_home": "sonderjyske",
-      "c_away": "brondbyif",
-      "homeTeam": "Sonderjyske",
-      "awayTeam": "Brondby If",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "01:00",
-      "date": "28/11",
-      "timestamp": 1795802400000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [01:00 28/11] Sonderjyske vs Brondby IF (BLV NGƯỜI CÁO) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/sonder-brondby-denliga/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/ffcc6ab1-159d-4025-b971-a3f049b20e31",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_01:00_brondbyif_sonderjyske"
-        }
-      ],
-      "displayTitle": "🔴 [01:00 28/11] Sonderjyske vs Brondby If",
-      "number": 6
-    },
-    {
-      "key": "28/11_02:00_groningen_willemii",
-      "match_key": "28/11_02:00_groningen_willemii",
-      "c_home": "groningen",
-      "c_away": "willemii",
-      "homeTeam": "Groningen",
-      "awayTeam": "Willem Ii",
-      "homeLogo": "https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
-      "time": "02:00",
-      "date": "28/11",
-      "timestamp": 1795806000000,
-      "league": "EREDIVISIE",
-      "leagueName": "Eredivisie",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [02:00 28/11] Groningen Vs Willem Ii (BLV Gà Siêu Kiêu) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/280e7df640872c99064a56a3361450a9.png",
-          "home_logo": "https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
-          "away_logo": "https://img.cltvap.cc/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
-          "competition": "Netherlands Eredivisie",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_02:00_groningen_willemii"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=9fb6e2470fb641d5d31ad7bd0b9ca96c&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
-          "competition": "HOL D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:00_groningen_willemii"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795810869-0-0-f7a1d748221155d51e78bd3f364212ee",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "HOL D1",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_02:00_groningen_willemii"
-        }
-      ],
-      "displayTitle": "🔴 [02:00 28/11] Groningen vs Willem Ii",
-      "number": 7
-    },
     {
       "key": "28/11_02:45_bologna_venezia",
       "match_key": "28/11_02:45_bologna_venezia",
@@ -524,7 +16,7 @@
       "league": "SERIE_A",
       "leagueName": "Serie A",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_seriea",
-      "isOngoing": false,
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
@@ -551,7 +43,7 @@
         },
         {
           "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=d0754d15c681ad80cc0fe0303f2bc83f&txTime=6b0a2c85",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=3e05cc6166a21d81d02157d5f7a46fd6&txTime=6b0a3009",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
@@ -560,8 +52,26 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795810869-0-0-12e7abf3e285049568131f8240d10bb4",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795811769-0-0-cb7b9dbfcaf5e9259316cfdfb723be00",
           "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:45_bologna_venezia"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=d2012bcb12b89fb4cc6336fcf3dd0efa&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:45_bologna_venezia"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV VOI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=988d63226fde0ace5e8b9dd6e044460e&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -631,8 +141,165 @@
           "match_key": "28/11_02:45_bologna_venezia"
         }
       ],
-      "displayTitle": "⚽ [02:45 28/11] Venezia vs Bologna",
-      "number": 8
+      "displayTitle": "🔴 [02:45 28/11] Venezia vs Bologna",
+      "number": 1
+    },
+    {
+      "key": "28/11_02:30_bremen_monchengladbach",
+      "match_key": "28/11_02:30_bremen_monchengladbach",
+      "c_home": "bremen",
+      "c_away": "monchengladbach",
+      "homeTeam": "Werder Bremen",
+      "awayTeam": "Borussia Monchengladbach",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
+      "time": "02:30",
+      "date": "28/11",
+      "timestamp": 1795807800000,
+      "league": "BUNDESLIGA",
+      "leagueName": "Bundesliga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_bundesliga",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [02:30 28/11] Sv Werder Bremen Vs Borussia Monchengladbach (BLV Gà Siêu Quỷ) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/94e565f0182c459ab1d76bc2c67ba277.png",
+          "home_logo": "https://img.cltvap.cc/football/team/54a9f7be8dcf4bbdb76187f4f8e6400d.png",
+          "away_logo": "https://img.cltvap.cc/football/team/999c033d7cd14dc38d05a0957f3230b4.png",
+          "competition": "Bundesliga",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (Khầy Lương Khô Antifan Mân Đàn) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
+          "competition": "Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:20 28/11] Werder Bremen vs Monchengladbach (TV360+ 4) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/201/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MjYxMjcsInVyaSI6Ii9icGstdHYvMjAxL291dHB1dC9pbmRleC5tcGQifQ.thbvV2WOBjg6L1os4eKjP-amSAAUARl1DCesGffjE3A&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/26/14/1795679351584/d6bea4f7efed_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "70d033252d025d719ba70a37acc0f5c8",
+            "key": "6ca465d8b3018f1604da6d43d3395a6d"
+          },
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795811769-0-0-dcab82ddea3e8cc8db27f23f300eb0c5",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795811769-0-0-0499197627b857764811e9a894b52e63",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV LUCAS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795811769-0-0-d41793f2d7a9d1991bf2d78fa32c7e71",
+          "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795811769-0-0-23cd093b0980e1c0ec7233e4dd78d106",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-501412_lhd.m3u8?auth_key=1795811769-0-0-724838706cb23919a905c292fa20ea56",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795811769-0-0-4354e55a3c8bcbb0c24f9d389dd569ae",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV NGƯỜI THỎ) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/werder-monche-bun/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/ea0f6cec-d730-4a37-ab86-7eaf969b9f53",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] Werder Bremen vs Borussia Mönchengladbach (BLV Long Ruồi) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8697.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV Dương Kiên) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-3.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (BLV LÝ LẠNH LÙNG) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/add8f9d537cf4895b1420c60195994b4/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhdxorepz/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:30 28/11] Werder Bremen vs B. Monchengladbach (BLV Nhà đài) - Phá Làng TV",
+          "url": "https://lilive1.eu.cc/live/6e656c20fb3f8069459a3f666f50ce78/playlist.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/9k82rekhdxorepz/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        }
+      ],
+      "displayTitle": "🔴 [02:30 28/11] Werder Bremen vs Borussia Monchengladbach",
+      "number": 2
     },
     {
       "key": "28/11_02:45_brest_paris",
@@ -649,7 +316,7 @@
       "league": "LIGUE1",
       "leagueName": "Ligue 1",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_ligue1",
-      "isOngoing": false,
+      "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
@@ -676,7 +343,7 @@
         },
         {
           "name": "⚽ [02:45 28/11] Stade Brestois 29 vs Paris FC (Stade Brestois 29 vs Paris FC) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795828877967&sig=jBZJ7M1p8dj0lNcHd1yNGt",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795829779954&sig=8ZpzFJmJaEuO2_GrDjPt-O",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -685,7 +352,7 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Stade Brestois 29 vs Paris FC (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795810869-0-0-7eb6972d24858eb5e10dcf68231e4f9e",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795811769-0-0-bb965fc242cb25682361c8cfe1a03992",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -694,7 +361,7 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Stade Brestois 29 vs Paris FC (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=91f720d736c6bc12f1dea66d19892e7e&txTime=6b0a2c85",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7601afb4e022a094d645b8dd737f59ce&txTime=6b0a3009",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -711,7 +378,275 @@
           "match_key": "28/11_02:45_brest_paris"
         }
       ],
-      "displayTitle": "⚽ [02:45 28/11] Brest vs Paris",
+      "displayTitle": "🔴 [02:45 28/11] Brest vs Paris",
+      "number": 3
+    },
+    {
+      "key": "28/11_00:30_alittihad_neom",
+      "match_key": "28/11_00:30_alittihad_neom",
+      "c_home": "alittihad",
+      "c_away": "neom",
+      "homeTeam": "Al Ittihad",
+      "awayTeam": "Neom Sc",
+      "homeLogo": "https://img.cltvap.cc/football/team/dea986d20115216c05d1a45ba9a6162e.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/e5516d35314acec9169f33834a199842.png",
+      "time": "00:30",
+      "date": "28/11",
+      "timestamp": 1795800600000,
+      "league": "SAUDI_LEAGUE",
+      "leagueName": "Saudi Pro League",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:30 28/11] Al Ittihad Vs Neom Sc (BLV Gà Ô Long) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/432017.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/9115e93d22380b87e231573b0a796f27.png",
+          "home_logo": "https://img.cltvap.cc/football/team/dea986d20115216c05d1a45ba9a6162e.png",
+          "away_logo": "https://img.cltvap.cc/football/team/e5516d35314acec9169f33834a199842.png",
+          "competition": "Saudi Professional League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_00:30_alittihad_neom"
+        },
+        {
+          "name": "⚽ [00:30 28/11] Al Ittihad Club vs NEOM Sports Club (BLV NGƯỜI THỎ) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/ittihad-neom-ksapro/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/5a1ede96-098b-40db-96d3-c24f5ecbe50b",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_alittihad_neom"
+        },
+        {
+          "name": "⚽ [00:30 28/11] Al Ittihad vs Neom SC (BLV Tít) [hls] - Sao Kê TV",
+          "url": "https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8",
+          "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8577.png",
+          "competition": "",
+          "group": "⚡ Sao Kê TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_alittihad_neom"
+        },
+        {
+          "name": "⚽ [00:30 28/11] Al Ittihad Club vs Neom SC (BLV Huyền Diệp) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-4.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/dea986d20115216c05d1a45ba9a6162e.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_alittihad_neom"
+        },
+        {
+          "name": "⚽ [00:30 28/11] Al Ittihad(KSA) vs Neom SC (BLV LÝ LẦY LỘI) [geo] - Phá Làng TV",
+          "url": "https://pull.digitalcdn.net/live/d04ae76015454357a52c1c4c1196b3e8/index.m3u8",
+          "logo": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghyv3r6od/image/small",
+          "competition": "",
+          "group": "⚡ Phá Làng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_alittihad_neom"
+        }
+      ],
+      "displayTitle": "🔴 [00:30 28/11] Al Ittihad vs Neom Sc",
+      "number": 4
+    },
+    {
+      "key": "28/11_00:30_svdarmstadt98_vflbochum1848",
+      "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848",
+      "c_home": "vflbochum1848",
+      "c_away": "svdarmstadt98",
+      "homeTeam": "Vfl Bochum 1848",
+      "awayTeam": "Sv Darmstadt 98",
+      "homeLogo": "https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/da5997a60373a56628e684ae3c16f2c8.png",
+      "time": "00:30",
+      "date": "28/11",
+      "timestamp": 1795800600000,
+      "league": "BUNDESLIGA_2",
+      "leagueName": "2. Bundesliga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:30 28/11] Vfl Bochum 1848 Vs Sv Darmstadt 98 (BLV Gà Siêu Mõm) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/300523.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/eab6e349cf5811408c0628a774724869.png",
+          "home_logo": "https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png",
+          "away_logo": "https://img.cltvap.cc/football/team/da5997a60373a56628e684ae3c16f2c8.png",
+          "competition": "German Bundesliga 2",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
+        }
+      ],
+      "displayTitle": "🔴 [00:30 28/11] Vfl Bochum 1848 vs Sv Darmstadt 98",
+      "number": 5
+    },
+    {
+      "key": "28/11_00:30_1heidenheim1846_1nrnberg",
+      "match_key": "28/11_00:30_1heidenheim1846_1nrnberg",
+      "c_home": "1heidenheim1846",
+      "c_away": "1nrnberg",
+      "homeTeam": "1 Heidenheim 1846",
+      "awayTeam": "1 Nrnberg",
+      "homeLogo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png",
+      "time": "00:30",
+      "date": "28/11",
+      "timestamp": 1795800600000,
+      "league": "BUNDESLIGA_2",
+      "leagueName": "2. Bundesliga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:30 28/11] 1 Fc Heidenheim 1846 Vs 1 Fc Nrnberg (BLV Gà Siêu Nhí) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/301263.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/eab6e349cf5811408c0628a774724869.png",
+          "home_logo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+          "away_logo": "https://img.cltvap.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png",
+          "competition": "German Bundesliga 2",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_00:30_1heidenheim1846_1nrnberg"
+        }
+      ],
+      "displayTitle": "🔴 [00:30 28/11] 1 Heidenheim 1846 vs 1 Nrnberg",
+      "number": 6
+    },
+    {
+      "key": "28/11_00:30_heidenheim_nurnberg",
+      "match_key": "28/11_00:30_heidenheim_nurnberg",
+      "c_home": "heidenheim",
+      "c_away": "nurnberg",
+      "homeTeam": "1. Heidenheim 1846",
+      "awayTeam": "1. Nurnberg",
+      "homeLogo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/3924_nurnberg.jpg",
+      "time": "00:30",
+      "date": "28/11",
+      "timestamp": 1795800600000,
+      "league": "BUNDESLIGA_2",
+      "leagueName": "2. Bundesliga",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [00:30 28/11] Heidenheim vs Nurnberg (BLV Khô Cá) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3924_nurnberg.jpg",
+          "competition": "2. Bundesliga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "28/11_00:30_heidenheim_nurnberg"
+        },
+        {
+          "name": "⚽ [00:30 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV Gà Siêu Nhí) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/301263.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+          "competition": "",
+          "group": "⚡ Gà Vàng 33 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_heidenheim_nurnberg"
+        },
+        {
+          "name": "⚽ [00:30 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV Tào Duệ) - Vua Sân Cỏ TV",
+          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-15.m3u8",
+          "logo": "https://global-cdn.cdnx.tech/football/team/65ee743f20fa7db286fdeda4d33c6980.png",
+          "competition": "",
+          "group": "⚡ Vua Sân Cỏ TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_00:30_heidenheim_nurnberg"
+        }
+      ],
+      "displayTitle": "🔴 [00:30 28/11] 1. Heidenheim 1846 vs 1. Nurnberg",
+      "number": 7
+    },
+    {
+      "key": "28/11_01:00_brondbyif_sonderjyske",
+      "match_key": "28/11_01:00_brondbyif_sonderjyske",
+      "c_home": "sonderjyske",
+      "c_away": "brondbyif",
+      "homeTeam": "Sonderjyske",
+      "awayTeam": "Brondby If",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "01:00",
+      "date": "28/11",
+      "timestamp": 1795802400000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [01:00 28/11] Sonderjyske vs Brondby IF (BLV NGƯỜI CÁO) [hls] - S8 TV",
+          "url": "https://hls.lauthaitv.cc/live/sonder-brondby-denliga/index.m3u8",
+          "logo": "https://s8tvkc.top/wp-json/s8-image/ffcc6ab1-159d-4025-b971-a3f049b20e31",
+          "competition": "",
+          "group": "⚡ S8 TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_01:00_brondbyif_sonderjyske"
+        }
+      ],
+      "displayTitle": "🔴 [01:00 28/11] Sonderjyske vs Brondby If",
+      "number": 8
+    },
+    {
+      "key": "28/11_02:00_groningen_willemii",
+      "match_key": "28/11_02:00_groningen_willemii",
+      "c_home": "groningen",
+      "c_away": "willemii",
+      "homeTeam": "Groningen",
+      "awayTeam": "Willem Ii",
+      "homeLogo": "https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
+      "time": "02:00",
+      "date": "28/11",
+      "timestamp": 1795806000000,
+      "league": "EREDIVISIE",
+      "leagueName": "Eredivisie",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [02:00 28/11] Groningen Vs Willem Ii (BLV Gà Siêu Kiêu) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/741294.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/280e7df640872c99064a56a3361450a9.png",
+          "home_logo": "https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png",
+          "away_logo": "https://img.cltvap.cc/football/team/7b10a020a3acd1ed95d783a1dfa3498e.png",
+          "competition": "Netherlands Eredivisie",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "28/11_02:00_groningen_willemii"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV MP3) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=21547967cb751a606ef3b200f169dfea&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
+          "competition": "HOL D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:00_groningen_willemii"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795811769-0-0-79651c3e103b63c2de6a7884442cb332",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
+          "competition": "HOL D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_02:00_groningen_willemii"
+        }
+      ],
+      "displayTitle": "🔴 [02:00 28/11] Groningen vs Willem Ii",
       "number": 9
     },
     {
@@ -756,7 +691,7 @@
         },
         {
           "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795828878040&sig=3PvUueMFIy5m7cG-JB4St0",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795829780041&sig=OsdnOZWt3PM7d_PSBjK742",
           "logo": "https://film4k.pl/icon.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -765,8 +700,35 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795810869-0-0-abc7a7b16a1de8de3e8853a332fab921",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795811769-0-0-81cb37ed03610a41ed71806d864b766a",
           "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_03:00_chelsea_nottingham"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=cb7533117843868bf66f99dc33540ac7&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_03:00_chelsea_nottingham"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795811769-0-0-71b7813c377fe94fbaf278e4903e4e6b",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_03:00_chelsea_nottingham"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795811769-0-0-371516ba3dfb1741722e45f63cb7d886",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -801,8 +763,8 @@
       "c_away": "santander",
       "homeTeam": "Levante",
       "awayTeam": "Racing Santander",
-      "homeLogo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
+      "homeLogo": "https://img.cltvap.cc/football/team/2728d4cb86a245d6835a6d2fdbbd3baa.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/0747bed6010b493bbb243d7aaeb7e4a0.png",
       "time": "03:00",
       "date": "28/11",
       "timestamp": 1795809600000,
@@ -824,20 +786,27 @@
           "match_key": "28/11_03:00_levante_santander"
         },
         {
-          "name": "⚽ [03:00 28/11] Levante vs Racing Santander (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
-          "competition": "La Liga",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795811769-0-0-a652c6791ee3656acdc5a30cc8da389c",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
           "match_key": "28/11_03:00_levante_santander"
         },
         {
-          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795810869-0-0-7d1430de4f8c845e2607f34ca5683dfb",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=0b69b719a3c70781acf13bf8e6db0f41&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "ref": "https://socolive.pro/",
+          "match_key": "28/11_03:00_levante_santander"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795811769-0-0-28e71fae30650ff5c7a144415d17350b",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -1945,16 +1914,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [00:30 28/11] Al Ittihad vs Neom SC (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
-          "competition": "Saudi League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
           "name": "⚽ [00:30 28/11] Heidenheim vs Nurnberg (BLV Khô Cá) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
@@ -1975,16 +1934,6 @@
           "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
-          "name": "⚽ [02:45 28/11] Brest vs Paris FC (BLV Khô Cóc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-          "logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/3796_paris-fc.jpg",
-          "competition": "Ligue 1",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "28/11_02:45_brest_paris"
-        },
-        {
           "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV Xôi Gấc) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
@@ -1995,14 +1944,14 @@
           "match_key": "28/11_02:45_bologna_venezia"
         },
         {
-          "name": "⚽ [03:00 28/11] Levante vs Racing Santander (BLV Tam Mao) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/7220_racing-de-santander.jpg",
-          "competition": "La Liga",
+          "name": "⚽ [02:45 28/11] Brest vs Paris FC (BLV Khô Cóc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+          "logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3796_paris-fc.jpg",
+          "competition": "Ligue 1",
           "group": "🍵 Xôi Chè TV",
-          "match_key": "28/11_03:00_levante_santander"
+          "match_key": "28/11_02:45_brest_paris"
         },
         {
           "name": "⚽ [03:00 28/11] Nottingham vs Chelsea (BLV Khô Chè) - Xôi Chè",
@@ -2161,7 +2110,7 @@
       "channels": [
         {
           "name": "⚽ [02:45 28/11] Stade Brestois 29 vs Paris FC (Stade Brestois 29 vs Paris FC) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795828877967&sig=jBZJ7M1p8dj0lNcHd1yNGt",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795829779954&sig=8ZpzFJmJaEuO2_GrDjPt-O",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Ligue 1",
           "group": "F4K Sport",
@@ -2169,7 +2118,7 @@
         },
         {
           "name": "⚽ [03:00 28/11] Southampton vs Middlesbrough (Southampton vs Middlesbrough) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795828878137&sig=SSDzXxtS8irLFjxTRr23sQ",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795829779937&sig=SN4WIbGYZq_cOCOJb38M0Q",
           "logo": "https://film4k.pl/icon.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -2177,7 +2126,7 @@
         },
         {
           "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795828878040&sig=3PvUueMFIy5m7cG-JB4St0",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795829780041&sig=OsdnOZWt3PM7d_PSBjK742",
           "logo": "https://film4k.pl/icon.png",
           "competition": "English Premier League",
           "group": "F4K Sport",
@@ -2185,7 +2134,7 @@
         },
         {
           "name": "⚽ [03:00 28/11] Chasen Blair vs Nathan Jones (Chasen Blair vs Nathan Jones) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795828877926&sig=rCyhE60enyqZNmJ-TTyWxl",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795829780089&sig=egsnck1rYJhdIeD6ntWmXl",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Cage Warriors",
           "group": "F4K Sport",
@@ -2372,48 +2321,8 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV LOGAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-552832_lhd.m3u8?txSecret=bdc9d5b4c6b0cc2f72f5ca8b1b044cd5&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795810869-0-0-8d6f0437e9f4b20bac36fbfeec1e6ce3",
-          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
-          "competition": "GER D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_02:30_bremen_monchengladbach"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912140_lhd.m3u8?txSecret=80b60ba07d8da1dd4d0c518381f08af4&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
-        },
-        {
-          "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=d0754d15c681ad80cc0fe0303f2bc83f&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_02:45_bologna_venezia"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV XUÂN SON) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=e5f02de3a195a08db06f2bbf84a57ee6&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
           "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795810869-0-0-65763caaaeafbba2d2eb22cde12ad24f",
+          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795811769-0-0-dcab82ddea3e8cc8db27f23f300eb0c5",
           "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
@@ -2421,103 +2330,95 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795810869-0-0-abc7a7b16a1de8de3e8853a332fab921",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795811769-0-0-81cb37ed03610a41ed71806d864b766a",
           "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
           "competition": "ENG PR",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_03:00_chelsea_nottingham"
         },
         {
-          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CACAO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795810869-0-0-cf4ab19bebe5140f68546849f4dc471a",
-          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV LOGAN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8?auth_key=1795811769-0-0-0499197627b857764811e9a894b52e63",
+          "logo": "https://sta.vnres.co/file/common/20251111/6a43978efb637082f6eb906c1e7f1621.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795810869-0-0-120d7def5d4f439a18adf2be965eabe7",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "GER D2",
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=cb7533117843868bf66f99dc33540ac7&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
+          "match_key": "28/11_03:00_chelsea_nottingham"
         },
         {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795810869-0-0-0467ce552e9d2ba5157d41447631d46d",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "GER D2",
+          "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV LONG) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=3e05cc6166a21d81d02157d5f7a46fd6&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
+          "competition": "ITA D1",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
+          "match_key": "28/11_02:45_bologna_venezia"
         },
         {
           "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV LUCAS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795810869-0-0-9dead2e41c941fd05696f73bf8aed5fa",
+          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1795811769-0-0-d41793f2d7a9d1991bf2d78fa32c7e71",
           "logo": "https://sta.vnres.co/file/common/20240921/29f418af36dd0862deb5b7daef605d6e.jpg",
           "competition": "GER D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
-          "name": "⚽ [LIVE 28/11] Algeria U17 vs Dominican Republic U17 (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795810869-0-0-7a7d64cba49f26d59ce1da811551cfc2",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795811769-0-0-71b7813c377fe94fbaf278e4903e4e6b",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_LIVE_algeriau17_youth_dominicanrepublicu17_youth"
+          "match_key": "28/11_03:00_chelsea_nottingham"
         },
         {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795810869-0-0-12278ef0dbe4ac00c67dc122e7a7b858",
-          "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
-          "competition": "KSA PR",
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795811769-0-0-371516ba3dfb1741722e45f63cb7d886",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_alittihad_neom"
+          "match_key": "28/11_03:00_chelsea_nottingham"
         },
         {
-          "name": "⚽ [LIVE 28/11] 1. FC Heidenheim 1846 vs 1. FC Nürnberg (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795810869-0-0-1fca8f1645b0759dc91c69e7abb2fbb5",
-          "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
-          "competition": "GER D2",
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV KINH VÂN) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795811769-0-0-23cd093b0980e1c0ec7233e4dd78d106",
+          "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
+          "competition": "GER D1",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_heidenheim_nurnberg"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV VINFAST) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1795810869-0-0-280ec69e058ed257a06ed9ab8b3e9ebe",
-          "logo": "https://sta.vnres.co/file/common/20261105/d7bbfd8440fc2b23e06f9de4ee686ac6.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Al Ittihad vs Neom SC (BLV VOI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=94278c57adfad1e503a54394ba3ff506&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_alittihad_neom"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] VfL Bochum 1848 vs SV Darmstadt 98 (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=8a15432f4c9812f3ad247902c731a511&txTime=6b0a2c85",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "GER D2",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_00:30_svdarmstadt98_vflbochum1848"
+          "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
           "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV MP3) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=9fb6e2470fb641d5d31ad7bd0b9ca96c&txTime=6b0a2c85",
+          "url": "https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=21547967cb751a606ef3b200f169dfea&txTime=6b0a3009",
           "logo": "https://sta.vnres.co/file/common/20261114/425c1c4d5d6cffee96cf78a1b1071d35.png",
           "competition": "HOL D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_02:00_groningen_willemii"
         },
         {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV XUÂN SON) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-501412_lhd.m3u8?auth_key=1795811769-0-0-724838706cb23919a905c292fa20ea56",
+          "logo": "https://sta.vnres.co/file/common/20251230/ed05555c76c867229b3ced63a841aae2.png",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] SV Werder Bremen vs Borussia Monchengladbach (BLV CACAO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912128_lhd.m3u8?auth_key=1795811769-0-0-4354e55a3c8bcbb0c24f9d389dd569ae",
+          "logo": "https://sta.vnres.co/file/common/20261120/5f3d8de95e5a8f2e5b3032d4e46a1c7a.jpg",
+          "competition": "GER D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
           "name": "⚽ [LIVE 28/11] Groningen vs Willem II (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795810869-0-0-f7a1d748221155d51e78bd3f364212ee",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795811769-0-0-79651c3e103b63c2de6a7884442cb332",
           "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "HOL D1",
           "group": "🐿️ SocoLive",
@@ -2525,7 +2426,7 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795810869-0-0-7d1430de4f8c845e2607f34ca5683dfb",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795811769-0-0-a652c6791ee3656acdc5a30cc8da389c",
           "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
@@ -2533,7 +2434,7 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Stade Brestois 29 vs Paris FC (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795810869-0-0-7eb6972d24858eb5e10dcf68231e4f9e",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795811769-0-0-bb965fc242cb25682361c8cfe1a03992",
           "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
@@ -2541,19 +2442,51 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795810869-0-0-12e7abf3e285049568131f8240d10bb4",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795811769-0-0-cb7b9dbfcaf5e9259316cfdfb723be00",
           "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
           "competition": "ITA D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_02:45_bologna_venezia"
         },
         {
+          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV 5 LỬA) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=d2012bcb12b89fb4cc6336fcf3dd0efa&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_02:45_bologna_venezia"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV VOI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=988d63226fde0ace5e8b9dd6e044460e&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
+          "competition": "ITA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_02:45_bologna_venezia"
+        },
+        {
           "name": "⚽ [LIVE 28/11] Stade Brestois 29 vs Paris FC (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=91f720d736c6bc12f1dea66d19892e7e&txTime=6b0a2c85",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=7601afb4e022a094d645b8dd737f59ce&txTime=6b0a3009",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
           "competition": "FRA D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_02:45_brest_paris"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=0b69b719a3c70781acf13bf8e6db0f41&txTime=6b0a3009",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_03:00_levante_santander"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795811769-0-0-28e71fae30650ff5c7a144415d17350b",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_03:00_levante_santander"
         }
       ]
     },
@@ -3160,9 +3093,9 @@
       "home_score": "0",
       "away_score": "0",
       "league": "BUNDESLIGA",
-      "state": "pre",
+      "state": "in",
       "is_completed": false,
-      "detail": "Scheduled",
+      "detail": "6'",
       "date": "2026-11-27T19:30Z"
     },
     {
