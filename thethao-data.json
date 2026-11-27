@@ -1,162 +1,6 @@
 {
-  "updated_at": "2026-11-28 04:40:24",
+  "updated_at": "2026-11-28 04:55:20",
   "live_events": [
-    {
-      "key": "28/11_03:00_chelsea_nottingham",
-      "match_key": "28/11_03:00_chelsea_nottingham",
-      "c_home": "nottingham",
-      "c_away": "chelsea",
-      "homeTeam": "Nottingham Forest",
-      "awayTeam": "Chelsea",
-      "homeLogo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-      "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-      "time": "03:00",
-      "date": "28/11",
-      "timestamp": 1795809600000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 28/11] Nottingham Forest Vs Chelsea (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/ec6a685bcbc7413d9165918787e889fd.png",
-          "home_logo": "https://img.cltvap.cc/football/team/8f05da8e406345e0a12aa11ea8ce6506.png",
-          "away_logo": "https://img.cltvap.cc/football/team/e498984443da45129524c96731153e82.png",
-          "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [03:00 28/11] Nottingham vs Chelsea (BLV Khô Chè) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
-          "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795837160735&sig=YqTpiJ8hB0gj81ClmpFcSi",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795819149-0-0-ef7a9678c754411e6e847733ce2d4710",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795819149-0-0-cc68bfe8b0b540e782587aa7e8eb2fb7",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795819149-0-0-f0f62f100d5980d822208535b65b0c79",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=04a1c224278f2a8d2451996f90ac0854&txTime=6b0a4cdd",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795819149-0-0-95b1c0d946e3ab66333de132b8ccc53d",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795819149-0-0-37f87544c21e32f07d247f9b433d7bef",
-          "logo": "https://sta.vnres.co/file/common/20261128/d48f9cb62a9ee7bf24b2437c010b2a73.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "ref": "https://socolive.pro/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CAT) [hls] - S8 TV",
-          "url": "https://hls.lauthaitv.cc/live/not-che-prem/index.m3u8",
-          "logo": "https://s8tvkc.top/wp-json/s8-image/67b9b299-c39c-485c-b901-2b8d1d580b2f",
-          "competition": "",
-          "group": "⚡ S8 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (BLV Lưu Bang) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/62572999d107f777efa4aeb907443527.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 28/11] Nottingham Forest vs Chelsea",
-      "number": 1
-    },
-    {
-      "key": "28/11_03:00_nottingham_nottingham",
-      "match_key": "28/11_03:00_nottingham_nottingham",
-      "c_home": "nottingham",
-      "c_away": "nottingham",
-      "homeTeam": "Nottingham Forest",
-      "awayTeam": "Nottingham Forest",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "03:00",
-      "date": "28/11",
-      "timestamp": 1795809600000,
-      "league": "EPL",
-      "leagueName": "EPL",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_league_epl",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 28/11] (4K) Nottingham Forest vs Chelsea ((4K) Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fak-live-sport-14.monomax.me%2Fsports14%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah265%26manifest_filter%3Dvideo_codec%3AH265&kids=cf9cd2687e6581bab2a762d55c13be05,c9c804196ed8d12bceaabf9d2a299fcf,49ac230f43b5142e78d6d676b46d1a59&exp=1795837162896&sig=jS2QDT9NE_QuHrGNLPzat4",
-          "logo": "https://film4k.pl/icon.png",
-          "competition": "English Premier League",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "match_key": "28/11_03:00_nottingham_nottingham"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 28/11] Nottingham Forest vs Nottingham Forest",
-      "number": 2
-    },
     {
       "key": "28/11_03:00_levante_santander",
       "match_key": "28/11_03:00_levante_santander",
@@ -188,7 +32,7 @@
         },
         {
           "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=554aaf90d1d05abd544a52db288949f6&txTime=6b0a4cdd",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=2a39b029ccc6e243f00ae3a519121931&txTime=6b0a5061",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
@@ -196,18 +40,18 @@
           "match_key": "28/11_03:00_levante_santander"
         },
         {
-          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795819149-0-0-573db451b714b84d9012daf2339db9a0",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CANDY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795820049-0-0-29121bed20a026b062ff742687b2e061",
+          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
           "match_key": "28/11_03:00_levante_santander"
         },
         {
-          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795819149-0-0-b93793b5ccfc832d1736c287b884b2de",
-          "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795820049-0-0-cef218a2eacc69bcbe14063c03dc9cd8",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "ref": "https://socolive.pro/",
@@ -242,7 +86,7 @@
         }
       ],
       "displayTitle": "🔴 [03:00 28/11] Levante vs Racing Santander",
-      "number": 3
+      "number": 1
     },
     {
       "key": "28/11_03:00_middlesbrough_southampton",
@@ -264,7 +108,7 @@
       "sources": [
         {
           "name": "⚽ [03:00 28/11] Southampton vs Middlesbrough (Southampton vs Middlesbrough) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795837160672&sig=mavrFxK0UL_W5pfdGo6peT",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795838057841&sig=GdMxSB8r7RooFq1gxqVkKs",
           "logo": "https://film4k.pl/icon.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -282,7 +126,7 @@
         }
       ],
       "displayTitle": "🔴 [03:00 28/11] Southampton vs Middlesbrough",
-      "number": 4
+      "number": 2
     },
     {
       "key": "28/11_03:00_chasenblair_nathanjones",
@@ -304,7 +148,7 @@
       "sources": [
         {
           "name": "⚽ [03:00 28/11] Chasen Blair vs Nathan Jones (Chasen Blair vs Nathan Jones) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795837160370&sig=0M_AIISAx1h5gerqzfP2i7",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795838058291&sig=thAkUIjYh90eL8TcEXSiIz",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Cage Warriors",
           "group": "F4K Sport",
@@ -313,7 +157,7 @@
         }
       ],
       "displayTitle": "🔴 [03:00 28/11] Chasen Blair vs Nathan Jones",
-      "number": 5
+      "number": 3
     },
     {
       "key": "28/11_03:00_chelsea_nottmforest",
@@ -353,7 +197,47 @@
         }
       ],
       "displayTitle": "🔴 [03:00 28/11] Nott'm Forest vs Chelsea",
-      "number": 6
+      "number": 4
+    },
+    {
+      "key": "28/11_05:00_kansas_villanova",
+      "match_key": "28/11_05:00_kansas_villanova",
+      "c_home": "kansas",
+      "c_away": "villanova",
+      "homeTeam": "Kansas",
+      "awayTeam": "Villanova",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "05:00",
+      "date": "28/11",
+      "timestamp": 1795816800000,
+      "league": "OTHER",
+      "leagueName": "Bóng đá Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "🏀 [05:00 28/11] Kansas vs Villanova (BLV TARZAAN) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/56998120.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/e37875b00a57abec6aaeff5b98f89971.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_05:00_kansas_villanova"
+        },
+        {
+          "name": "🏀 [05:00 28/11] Kansas vs Villanova (BLV TARZAAN) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/56998120_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/basketball/team/e37875b00a57abec6aaeff5b98f89971.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "28/11_05:00_kansas_villanova"
+        }
+      ],
+      "displayTitle": "🏀 [05:00 28/11] Kansas vs Villanova",
+      "number": 5
     },
     {
       "key": "28/11_07:00_intermiami_newyorkknicks",
@@ -393,7 +277,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 28/11] New York Knicks vs Inter Miami",
-      "number": 7
+      "number": 6
     },
     {
       "key": "28/11_08:00_atlantahawks_doibongrobostonceltics",
@@ -433,7 +317,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 28/11] Doi Bong Ro Boston Celtics vs Atlanta Hawks",
-      "number": 8
+      "number": 7
     },
     {
       "key": "28/11_09:30_losangeleslakers_tottenham",
@@ -473,7 +357,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Tottenham Hotspur vs Los Angeles Lakers",
-      "number": 9
+      "number": 8
     },
     {
       "key": "28/11_09:30_goldenstatewarriors_portlandtrailblazers",
@@ -513,7 +397,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Portland Trail Blazers vs Golden State Warriors",
-      "number": 10
+      "number": 9
     },
     {
       "key": "28/11_20:00_betis_rayovallecano",
@@ -557,7 +441,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 28/11] Real Betis vs Rayo Vallecano",
-      "number": 11
+      "number": 10
     },
     {
       "key": "28/11_21:00_frosinone_parma",
@@ -590,7 +474,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 28/11] Frosinone vs Parma",
-      "number": 12
+      "number": 11
     },
     {
       "key": "28/11_21:30_1fsvmainz05_unionberlin",
@@ -632,7 +516,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] 1. Fsv Mainz 05 vs Union Berlin",
-      "number": 13
+      "number": 12
     },
     {
       "key": "28/11_21:30_bayern_hamburgersv",
@@ -665,7 +549,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Hamburger Sv vs Bayern Munich",
-      "number": 14
+      "number": 13
     },
     {
       "key": "28/11_21:30_kln_sv07elversberg",
@@ -698,7 +582,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Kln vs Sv 07 Elversberg",
-      "number": 15
+      "number": 14
     },
     {
       "key": "28/11_21:30_paderborn07_schalke04",
@@ -742,7 +626,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 16
+      "number": 15
     },
     {
       "key": "28/11_22:00_coventrycity_leedsunited",
@@ -786,7 +670,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Leeds vs Coventry",
-      "number": 17
+      "number": 16
     },
     {
       "key": "28/11_22:00_brentford_manutd",
@@ -841,7 +725,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Manchester United vs Brentford",
-      "number": 18
+      "number": 17
     },
     {
       "key": "28/11_22:15_bilbao_malaga",
@@ -850,8 +734,8 @@
       "c_away": "bilbao",
       "homeTeam": "Malaga",
       "awayTeam": "Athletic Bilbao",
-      "homeLogo": "https://img.cltvap.cc/football/team/57c2f658f8e348b985018c6d65c8caa0.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/4d118a2f138945929c2fef855f5ef10d.png",
+      "homeLogo": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+      "awayLogo": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
       "time": "22:15",
       "date": "28/11",
       "timestamp": 1795878900000,
@@ -871,10 +755,21 @@
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "ref": "https://gavangtvttbdo.tv/",
           "match_key": "28/11_22:15_bilbao_malaga"
+        },
+        {
+          "name": "⚽ [22:15 28/11] Malaga vs Ath Bilbao (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+          "competition": "La Liga",
+          "group": "🍵 Xôi Chè TV",
+          "ref": "https://xoiche.live/",
+          "match_key": "28/11_22:15_bilbao_malaga"
         }
       ],
       "displayTitle": "⚽ [22:15 28/11] Malaga vs Athletic Bilbao",
-      "number": 19
+      "number": 18
     },
     {
       "key": "28/11_23:15_angerssco_lens",
@@ -907,7 +802,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 28/11] Angers Sco vs Lens",
-      "number": 20
+      "number": 19
     },
     {
       "key": "29/11_02:45_genoa_intermilan",
@@ -940,7 +835,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 29/11] Inter Milan vs Genoa",
-      "number": 21
+      "number": 20
     },
     {
       "key": "29/11_03:00_alaves_realmadrid",
@@ -973,7 +868,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 29/11] Real Madrid vs Alaves",
-      "number": 22
+      "number": 21
     },
     {
       "key": "30/11_00:30_celtavigo_villarreal",
@@ -1006,7 +901,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 30/11] Celta Vigo vs Villarreal",
-      "number": 23
+      "number": 22
     }
   ],
   "source_groups": [
@@ -1020,8 +915,7 @@
           "home_logo": "https://img.cltvap.cc/football/team/8f05da8e406345e0a12aa11ea8ce6506.png",
           "away_logo": "https://img.cltvap.cc/football/team/e498984443da45129524c96731153e82.png",
           "competition": "English Premier League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "🐔 Gà Vàng / Tiếu Lâm"
         },
         {
           "name": "⚽ [03:00 28/11] Levante Vs Racing Santander (BLV Gà Siêu Péo) - Gà Vàng",
@@ -1425,12 +1319,12 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV Xôi Gấc) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/4983_bologna.jpg",
-          "competition": "Serie A",
+          "name": "⚽ [02:45 28/11] Brest vs Paris FC (BLV Khô Cóc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+          "logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/3796_paris-fc.jpg",
+          "competition": "Ligue 1",
           "group": "🍵 Xôi Chè TV"
         },
         {
@@ -1440,8 +1334,7 @@
           "home_logo": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
           "away_logo": "https://apiv3.apifootball.com/badges/88_chelsea.jpg",
           "competition": "Premier League",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "🍵 Xôi Chè TV"
         },
         {
           "name": "⚽ [08:00 28/11] Columbus Crew vs Inter Miami (BLV Khô Mật) - Xôi Chè",
@@ -1564,6 +1457,16 @@
           "match_key": "28/11_22:00_brentford_manutd"
         },
         {
+          "name": "⚽ [22:15 28/11] Malaga vs Ath Bilbao (BLV Xôi Gấc) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+          "competition": "La Liga",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "28/11_22:15_bilbao_malaga"
+        },
+        {
           "name": "⚽ [02:45 29/11] Inter vs Genoa (Khầy Lương Khô Antifan Mân Đàn) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
@@ -1600,14 +1503,14 @@
       "channels": [
         {
           "name": "⚽ [02:45 28/11] Stade Brestois 29 vs Paris FC (Stade Brestois 29 vs Paris FC) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795837160868&sig=dzdF8FQnQTpMFsRVl-wgub",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-8.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=96031f41ce6b5d7c30fd16cb83dd7a69,1779b7b54bc509145d97b95a8fe3ce4f,53561cb6bcd68825608d0c0a9d01aaee&exp=1795838057688&sig=O53w7MdZeJBgR5s4ZvFZlE",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Ligue 1",
           "group": "F4K Sport"
         },
         {
           "name": "⚽ [03:00 28/11] Southampton vs Middlesbrough (Southampton vs Middlesbrough) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795837160672&sig=mavrFxK0UL_W5pfdGo6peT",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-9.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=53f118e753bd345c724309108103b503,ddbe040a85581f68e5ba99c92ec58135,513150088ce9257e99a7ed94bcf80c63&exp=1795838057841&sig=GdMxSB8r7RooFq1gxqVkKs",
           "logo": "https://film4k.pl/icon.png",
           "competition": "EFL Championship",
           "group": "F4K Sport",
@@ -1615,23 +1518,21 @@
         },
         {
           "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795837160735&sig=YqTpiJ8hB0gj81ClmpFcSi",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fabjp4cyaaaaaaaamaaaaaaaaaaaaa.live-sport-3.monomax.me%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=e953a958e0166d98c478c969ca3e6d31,973246484ae77a2363c20795f015de91,72b0748a966e8490ccd881b455c0dbe9&exp=1795838057794&sig=lDlwhyPwQ-mx4ldNJdSfe2",
           "logo": "https://film4k.pl/icon.png",
           "competition": "English Premier League",
-          "group": "F4K Sport",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "F4K Sport"
         },
         {
           "name": "⚽ [03:00 28/11] (4K) Nottingham Forest vs Chelsea ((4K) Nottingham Forest vs Chelsea) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fak-live-sport-14.monomax.me%2Fsports14%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah265%26manifest_filter%3Dvideo_codec%3AH265&kids=cf9cd2687e6581bab2a762d55c13be05,c9c804196ed8d12bceaabf9d2a299fcf,49ac230f43b5142e78d6d676b46d1a59&exp=1795837162896&sig=jS2QDT9NE_QuHrGNLPzat4",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Fak-live-sport-14.monomax.me%2Fsports14%2Fdash%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah265%26manifest_filter%3Dvideo_codec%3AH265&kids=cf9cd2687e6581bab2a762d55c13be05,c9c804196ed8d12bceaabf9d2a299fcf,49ac230f43b5142e78d6d676b46d1a59&exp=1795838061710&sig=1kKmhFcVKcp4yp0fWboKlT",
           "logo": "https://film4k.pl/icon.png",
           "competition": "English Premier League",
-          "group": "F4K Sport",
-          "match_key": "28/11_03:00_nottingham_nottingham"
+          "group": "F4K Sport"
         },
         {
           "name": "⚽ [03:00 28/11] Chasen Blair vs Nathan Jones (Chasen Blair vs Nathan Jones) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795837160370&sig=0M_AIISAx1h5gerqzfP2i7",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01992c9b4ec7150b5c7326e61cf654%2F01992c9d54a6150b585a26647ab722%2Fmain.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=1b7d1caa10997ff95da63cbab5bf83e9,d12e2a0b01c91598f3e42ba61e2e6973,4967907faf8de03d540298d452ba6ee9&exp=1795838058291&sig=thAkUIjYh90eL8TcEXSiIz",
           "logo": "https://film4k.pl/icon.png",
           "competition": "Cage Warriors",
           "group": "F4K Sport",
@@ -1816,111 +1717,101 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795819149-0-0-ef7a9678c754411e6e847733ce2d4710",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795820049-0-0-cc689a725480c23352293f3a28ef4f20",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
           "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV VOI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912114_lhd.m3u8?txSecret=50018df2a50ac323a0c52169f4190335&txTime=6b0a4cdd",
-          "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
-          "competition": "ITA D1",
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV COCA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795820049-0-0-a04d846e513731c3191ef767a7366fff",
+          "logo": "https://sta.vnres.co/file/common/20261128/d48f9cb62a9ee7bf24b2437c010b2a73.jpg",
+          "competition": "ENG PR",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=554aaf90d1d05abd544a52db288949f6&txTime=6b0a4cdd",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=2a39b029ccc6e243f00ae3a519121931&txTime=6b0a5061",
           "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_03:00_levante_santander"
         },
         {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795819149-0-0-cc68bfe8b0b540e782587aa7e8eb2fb7",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795819149-0-0-f0f62f100d5980d822208535b65b0c79",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV 5 LỬA) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-991140_lhd.m3u8?txSecret=3ca943d543a3ccb2d69e3f3ff79f0a3c&txTime=6b0a4cdd",
-          "logo": "https://sta.vnres.co/file/common/20240614/d900dd8841b1223c7b58554cde34df75.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=04a1c224278f2a8d2451996f90ac0854&txTime=6b0a4cdd",
-          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [02:45 28/11] Venezia vs Bologna (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=cfd1ef50f1bc83edbce939d1daa0cb39&txTime=6b0a4cdd",
-          "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Venezia vs Bologna (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795819170-0-0-979ddf14e7371efdf2f93b992de4ee91",
-          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
-          "competition": "ITA D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795819149-0-0-95b1c0d946e3ab66333de132b8ccc53d",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV COCA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-327159_lhd.m3u8?auth_key=1795819149-0-0-37f87544c21e32f07d247f9b433d7bef",
-          "logo": "https://sta.vnres.co/file/common/20261128/d48f9cb62a9ee7bf24b2437c010b2a73.jpg",
-          "competition": "ENG PR",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_chelsea_nottingham"
-        },
-        {
-          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795819149-0-0-573db451b714b84d9012daf2339db9a0",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "SPA D1",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_03:00_levante_santander"
-        },
-        {
           "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795819149-0-0-b93793b5ccfc832d1736c287b884b2de",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795820049-0-0-29121bed20a026b062ff742687b2e061",
           "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "SPA D1",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_03:00_levante_santander"
         },
         {
+          "name": "⚽ [LIVE 28/11] Levante vs Racing Santander (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795820049-0-0-cef218a2eacc69bcbe14063c03dc9cd8",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "SPA D1",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_03:00_levante_santander"
+        },
+        {
           "name": "⚽ [LIVE 28/11] Jamaica Women vs Costa Rica Women (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=b911544366dbdd8a67018f3b4cbbef32&txTime=6b0a4cdd",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=ca4f8c6eff2e4a0f7986883c94e1fa4c&txTime=6b0a5061",
           "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
           "competition": "WWCQ CONC",
           "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795820076-0-0-074eda0956d2f53a953102cab488f49b",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV A BỆU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795820049-0-0-ba16b7fb3a5e910507a2cd274b6c0676",
+          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV PIRLO) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=d902b25d3e3255cfd12adccb3919d007&txTime=6b0a5061",
+          "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] Nottingham Forest vs Chelsea (BLV NGƯỜI CÁ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795820049-0-0-634d67cb755ae4d4c7fc53c22c7d5ea2",
+          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
+          "competition": "ENG PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] UEFA EL - Crystal Palace vs Real Sociedad (BLV Hươu đau cổ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=f53332a15430e5702e5a282eaafec4e8&txTime=6b0a5061",
+          "logo": "https://sta.vnres.co/file/common/20261127/02506faf88356f300df5253883580d57.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_crystalpalace_realsociedad"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] UEFA ECL - Brighton Hove Albion vs CS Universitatea Craiova (BLV Thỏ giang hồ) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=fc4e44b40a1339ff95bf71eaa2df0a43&txTime=6b0a5061",
+          "logo": "https://sta.vnres.co/file/common/20261127/be3bdf6c86f4b5dfbbcf1a2a81620fe1.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_brighton_csuniversitateacraiova"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] UEFA EL - RC Celta vs Bournemouth AFC (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=5a237d2e686fff96512a87c5f8cf175d&txTime=6b0a5061",
+          "logo": "https://sta.vnres.co/file/common/20261127/fb156eb43a0b0b9ab687487b141d01ba.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_bournemouthafc_celtavigo"
         }
       ]
     },
@@ -1967,8 +1858,7 @@
           "url": "https://hls.lauthaitv.cc/live/not-che-prem/index.m3u8",
           "logo": "https://s8tvkc.top/wp-json/s8-image/67b9b299-c39c-485c-b901-2b8d1d580b2f",
           "competition": "",
-          "group": "⚡ S8 TV",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "⚡ S8 TV"
         },
         {
           "name": "⚽ [03:00 28/11] Levante vs Racing Santander (BLV NGƯỜI CÁO) [hls] - S8 TV",
@@ -2062,8 +1952,7 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-7.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/62572999d107f777efa4aeb907443527.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "28/11_03:00_chelsea_nottingham"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [03:00 28/11] Levante vs Racing Santander (BLV Ngô Quyền) - Vua Sân Cỏ TV",
@@ -2472,22 +2361,22 @@
       "home_team": "Nottingham Forest",
       "away_team": "Chelsea",
       "home_score": "3",
-      "away_score": "1",
+      "away_score": "2",
       "league": "EPL",
-      "state": "in",
-      "is_completed": false,
-      "detail": "81'",
+      "state": "post",
+      "is_completed": true,
+      "detail": "FT",
       "date": "2026-11-27T20:00Z"
     },
     {
       "home_team": "Levante",
       "away_team": "Racing Santander",
       "home_score": "1",
-      "away_score": "1",
+      "away_score": "3",
       "league": "LALIGA",
       "state": "in",
       "is_completed": false,
-      "detail": "81'",
+      "detail": "90'+6'",
       "date": "2026-11-27T20:00Z"
     },
     {
