@@ -193,6 +193,31 @@ class SportsManager {
 
   initPremappedClubs() {
     this.premappedClubs = {
+      // V-League & CLB Việt Nam (Official verified high-res logos)
+      thepxanhnamdinh: 'https://img.cltvap.cc/football/team/bc5db4dd418cb566a4475649876b55bb.png',
+      namdinh: 'https://img.cltvap.cc/football/team/bc5db4dd418cb566a4475649876b55bb.png',
+      conganhanoi: 'https://img.cltvap.cc/football/team/9882bbda1cd86a2af4e724f399d1a1c8.png',
+      cahn: 'https://img.cltvap.cc/football/team/9882bbda1cd86a2af4e724f399d1a1c8.png',
+      hanoi: 'https://img.cltvap.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png',
+      hanoifc: 'https://img.cltvap.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png',
+      thecongviettel: 'https://assets.football-logos.cc/logos/vietnam/700x700/the-cong-viettel.ce5afe8a.png',
+      viettel: 'https://assets.football-logos.cc/logos/vietnam/700x700/the-cong-viettel.ce5afe8a.png',
+      hoanganhgialai: 'https://img.cltvap.cc/football/team/df2ae58b9e658494b940b0bd782901b8.png',
+      hagl: 'https://img.cltvap.cc/football/team/df2ae58b9e658494b940b0bd782901b8.png',
+      songlamnghean: 'https://img.cltvap.cc/football/team/7f95b001711ce3978d498602e1d2c9fd.png',
+      slna: 'https://img.cltvap.cc/football/team/7f95b001711ce3978d498602e1d2c9fd.png',
+      haiphong: 'https://assets.football-logos.cc/logos/vietnam/700x700/hai-phong.89943111.png',
+      binhduong: 'https://assets.football-logos.cc/logos/vietnam/700x700/becamex-tp-ho-chi-minh.e1813f36.png',
+      becamexbinhduong: 'https://assets.football-logos.cc/logos/vietnam/700x700/becamex-tp-ho-chi-minh.e1813f36.png',
+      thanhhoa: 'https://assets.football-logos.cc/logos/vietnam/700x700/thanh-hoa.0708698c.png',
+      binhdinh: 'https://assets.football-logos.cc/logos/vietnam/700x700/quy-nhon-united.9a9b4368.png',
+      danang: 'https://img.cltvap.cc/football/team/9eec5ce9b0aa3a7010cf0de17509948a.png',
+      shbdanang: 'https://img.cltvap.cc/football/team/9eec5ce9b0aa3a7010cf0de17509948a.png',
+      hatinh: 'https://img.cltvap.cc/football/team/83dd94c5ca68e8f9a3980f036afcb511.png',
+      tphochiminh: 'https://assets.football-logos.cc/logos/vietnam/700x700/tp-ho-chi-minh.6a41e4cf.png',
+      tphcm: 'https://assets.football-logos.cc/logos/vietnam/700x700/tp-ho-chi-minh.6a41e4cf.png',
+      ninhbinh: 'https://img.cltvap.cc/football/team/5452226660be0829fdb40967dd4b0b77.png',
+
       // English Football
       leicester: 'https://a.espncdn.com/i/teamlogos/soccer/500/375.png',
       leicestercity: 'https://a.espncdn.com/i/teamlogos/soccer/500/375.png',
@@ -313,14 +338,19 @@ class SportsManager {
     const norm = this.normalizeName(teamName);
     const cNorm = this.normalizeName(side === 'home' ? evt.c_home : evt.c_away);
 
-    // 1. Check direct event logo properties
-    if (side === 'home' && evt.homeLogo) return evt.homeLogo;
-    if (side === 'away' && evt.awayLogo) return evt.awayLogo;
+    // 1. Check Pre-mapped Clubs first (Official verified crests)
+    if (this.premappedClubs[norm]) return this.premappedClubs[norm];
+    if (cNorm && this.premappedClubs[cNorm]) return this.premappedClubs[cNorm];
 
-    // 2. Check source item logos if source contains team logo
+    // 2. Check direct event logo properties (ignore apiv3.apifootball.com / favicon)
+    const directLogo = (side === 'home' ? evt.homeLogo : evt.awayLogo) || '';
+    const isBad = !directLogo || directLogo.includes('apiv3.apifootball.com/badges') || directLogo.includes('favicon');
+    if (directLogo && !isBad) return directLogo;
+
+    // 3. Check source item logos if source contains team logo
     if (side === 'home' && evt.sources && evt.sources.length > 0) {
       const srcLogo = evt.sources[0]?.logo;
-      if (srcLogo && (srcLogo.includes('/team/') || srcLogo.includes('/teams/') || srcLogo.includes('badges/') || srcLogo.includes('teamlogos'))) {
+      if (srcLogo && (srcLogo.includes('/team/') || srcLogo.includes('/teams/') || srcLogo.includes('teamlogos')) && !srcLogo.includes('apiv3')) {
         return srcLogo;
       }
     }
