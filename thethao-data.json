@@ -1,77 +1,6 @@
 {
-  "updated_at": "2026-11-28 05:11:12",
+  "updated_at": "2026-11-28 05:26:51",
   "live_events": [
-    {
-      "key": "28/11_03:00_middlesbrough_southampton",
-      "match_key": "28/11_03:00_middlesbrough_southampton",
-      "c_home": "southampton",
-      "c_away": "middlesbrough",
-      "homeTeam": "Southampton",
-      "awayTeam": "Middlesbrough",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "03:00",
-      "date": "28/11",
-      "timestamp": 1795809600000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 28/11] Southampton vs Middlesbrough (BLV Trần Hoàng) - Vua Sân Cỏ TV",
-          "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8",
-          "logo": "https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
-          "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_03:00_middlesbrough_southampton"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 28/11] Southampton vs Middlesbrough",
-      "number": 1
-    },
-    {
-      "key": "28/11_03:00_chelsea_nottmforest",
-      "match_key": "28/11_03:00_chelsea_nottmforest",
-      "c_home": "nottmforest",
-      "c_away": "chelsea",
-      "homeTeam": "Nott'm Forest",
-      "awayTeam": "Chelsea",
-      "homeLogo": "",
-      "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-      "time": "03:00",
-      "date": "28/11",
-      "timestamp": 1795809600000,
-      "league": "OTHER",
-      "leagueName": "Bóng đá Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [03:00 28/11] Nott'm Forest vs Chelsea (BLV LÝ LONG) [geo] - Phá Làng TV",
-          "url": "https://pull.digitalcdn.net/live/d61dfdeaa8a54e3f8777b72c92b348de/index.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhdx6ql07/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_03:00_chelsea_nottmforest"
-        },
-        {
-          "name": "⚽ [03:00 28/11] Nott'm Forest vs Chelsea (BLV Nhà đài) - Phá Làng TV",
-          "url": "https://lilive1.eu.cc/live/05afa061a7d8d47657b83b7e48f0698a/playlist.m3u8",
-          "logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhdx6ql07/image/small",
-          "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "28/11_03:00_chelsea_nottmforest"
-        }
-      ],
-      "displayTitle": "🔴 [03:00 28/11] Nott'm Forest vs Chelsea",
-      "number": 2
-    },
     {
       "key": "28/11_05:00_kansas_villanova",
       "match_key": "28/11_05:00_kansas_villanova",
@@ -110,7 +39,7 @@
         }
       ],
       "displayTitle": "🏀 [05:00 28/11] Kansas vs Villanova",
-      "number": 3
+      "number": 1
     },
     {
       "key": "28/11_07:00_intermiami_newyorkknicks",
@@ -150,7 +79,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 28/11] New York Knicks vs Inter Miami",
-      "number": 4
+      "number": 2
     },
     {
       "key": "28/11_08:00_atlantahawks_doibongrobostonceltics",
@@ -190,7 +119,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 28/11] Doi Bong Ro Boston Celtics vs Atlanta Hawks",
-      "number": 5
+      "number": 3
     },
     {
       "key": "28/11_09:30_losangeleslakers_tottenham",
@@ -230,7 +159,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Tottenham Hotspur vs Los Angeles Lakers",
-      "number": 6
+      "number": 4
     },
     {
       "key": "28/11_09:30_goldenstatewarriors_portlandtrailblazers",
@@ -270,7 +199,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Portland Trail Blazers vs Golden State Warriors",
-      "number": 7
+      "number": 5
     },
     {
       "key": "28/11_20:00_betis_rayovallecano",
@@ -314,7 +243,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 28/11] Real Betis vs Rayo Vallecano",
-      "number": 8
+      "number": 6
     },
     {
       "key": "28/11_21:00_frosinone_parma",
@@ -347,7 +276,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 28/11] Frosinone vs Parma",
-      "number": 9
+      "number": 7
     },
     {
       "key": "28/11_21:30_1fsvmainz05_unionberlin",
@@ -389,7 +318,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] 1. Fsv Mainz 05 vs Union Berlin",
-      "number": 10
+      "number": 8
     },
     {
       "key": "28/11_21:30_bayern_hamburgersv",
@@ -422,7 +351,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Hamburger Sv vs Bayern Munich",
-      "number": 11
+      "number": 9
     },
     {
       "key": "28/11_21:30_kln_sv07elversberg",
@@ -455,7 +384,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Kln vs Sv 07 Elversberg",
-      "number": 12
+      "number": 10
     },
     {
       "key": "28/11_21:30_paderborn07_schalke04",
@@ -499,7 +428,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 13
+      "number": 11
     },
     {
       "key": "28/11_22:00_coventrycity_leedsunited",
@@ -543,7 +472,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Leeds vs Coventry",
-      "number": 14
+      "number": 12
     },
     {
       "key": "28/11_22:00_brentford_manutd",
@@ -598,7 +527,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Manchester United vs Brentford",
-      "number": 15
+      "number": 13
     },
     {
       "key": "28/11_22:15_bilbao_malaga",
@@ -642,7 +571,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 28/11] Malaga vs Athletic Bilbao",
-      "number": 16
+      "number": 14
     },
     {
       "key": "28/11_23:15_angerssco_lens",
@@ -675,7 +604,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 28/11] Angers Sco vs Lens",
-      "number": 17
+      "number": 15
     },
     {
       "key": "29/11_02:45_genoa_intermilan",
@@ -708,7 +637,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 29/11] Inter Milan vs Genoa",
-      "number": 18
+      "number": 16
     },
     {
       "key": "29/11_03:00_alaves_realmadrid",
@@ -741,7 +670,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 29/11] Real Madrid vs Alaves",
-      "number": 19
+      "number": 17
     },
     {
       "key": "30/11_00:30_celtavigo_villarreal",
@@ -774,7 +703,7 @@
         }
       ],
       "displayTitle": "⚽ [00:30 30/11] Celta Vigo vs Villarreal",
-      "number": 20
+      "number": 18
     }
   ],
   "source_groups": [
@@ -1302,6 +1231,18 @@
       "name": "F4K Sport",
       "channels": [
         {
+          "name": "⚽ [05:00 28/11] Golf: Dp World Tour 2027 Bmw Australian Pga Championship, Ngày 3, 5 giờ, ngày 28/11, kênh TV360 +6 (TV360) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MjYxNDgsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.SJ0YdX7HiHiPv3R92Ie8FDyYRuff4vSmCRm2JFav5Pc&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/27/14/1795763228331/5cac4f047f9a_1280_720.jpg",
+          "competition": "Golf",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
+            "key": "b1e8e45770999a9207e2dbd69c71e653"
+          }
+        },
+        {
           "name": "⚽ [00:50 28/11] Bi-a: Mosconi Cup 2026: Ngày 1, 1 giờ, ngày 28/11, kênh TV360+ 15 (TV360+ 15) - F4K Sport",
           "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgyNjQ5OX0.BEzDhiI5FJ8c_XYXOYUmuXiizGf9LnUQgcYbwKQCWQZTG93Pi1_hPUpBLEU7cHG88jmBPaTyBNZZvKAnPmDf5g&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/25/08/1795571226110/caf7334adc75_1280_720.png",
@@ -1366,17 +1307,6 @@
           "clearKey": {
             "keyId": "edfa094d8ac55cf98f5867128a926aa7",
             "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
-          }
-        },
-        {
-          "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/368/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MjYxNDgsInVyaSI6Ii9icGstdHYvMzY4L291dHB1dC9pbmRleC5tcGQifQ.SJ0YdX7HiHiPv3R92Ie8FDyYRuff4vSmCRm2JFav5Pc&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "16ad8e2bda9c57e69e6eb115c92d7d0d",
-            "key": "b1e8e45770999a9207e2dbd69c71e653"
           }
         },
         {
@@ -1480,66 +1410,74 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 28/11] Jamaica Women vs Costa Rica Women (BLV QUỐC KHÁNH) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=40a93afe3db8fb70ef44b312be267536&txTime=6b0a5421",
-          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
-          "competition": "WWCQ CONC",
-          "group": "🐿️ SocoLive"
+          "name": "⚽ [LIVE 28/11] Vila Nova vs Atletico Clube Goianiense (BLV KENCHU) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795821969-0-0-4597a8620e786e776bff193bcceda03c",
+          "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
+          "competition": "BRA D2",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_atleticoclubegoianiense_vilanova"
         },
         {
           "name": "⚽ [LIVE 28/11] Jamaica Women vs Costa Rica Women (BLV CANDY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795821009-0-0-bb712b34f6eaf98168f185a678938bab",
+          "url": "https://pull.niues.live/live/stream-632877_lhd.m3u8?auth_key=1795821969-0-0-31c112864906d0e91da3fcae3920235d",
           "logo": "https://sta.vnres.co/file/common/20261124/c51895969b4cb8ca484208647bc58672.jpg",
           "competition": "WWCQ CONC",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 28/11] UEFA EL - Olympiacos Piraeus vs AC Milan (BLV Rắn ở đáy sông) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=ab00ca7fcbe0f5610ab9122d5edb2972&txTime=6b0a5421",
-          "logo": "https://sta.vnres.co/file/common/20261127/1c83b66adc4f05116c62300ce81d68a4.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_LIVE_acmilan_olympiacospiraeus"
+          "name": "⚽ [LIVE 28/11] Jamaica Women vs Costa Rica Women (BLV QUỐC KHÁNH) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=819c1be3952eac14ad55d16cb9c424bc&txTime=6b0a57e1",
+          "logo": "https://sta.vnres.co/file/common/20261022/110d1ff464d53729fa1afc1904891a38.jpg",
+          "competition": "WWCQ CONC",
+          "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 28/11] UEFA EL - Dinamo Zagreb vs Bayer 04 Leverkusen (BLV Gà xào sả ớt) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=675683a703981c018d01d290c402e898&txTime=6b0a5421",
+          "url": "https://pull.niur.live/live/stream-133277_lhd.m3u8?txSecret=4f889715a6713ff763afb3726c3f2afb&txTime=6b0a57e1",
           "logo": "https://sta.vnres.co/file/common/20261127/8c9df4402e25b94ed2f8a209feadf51d.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_LIVE_dinamozagreb_leverkusen"
         },
         {
-          "name": "⚽ [LIVE 28/11] UEFA EL - Juventus vs Omonia Nicosia FC (BLV Mèo méo meo) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=4df8392f4dfdf27f399f3cdfe580b760&txTime=6b0a5421",
-          "logo": "https://sta.vnres.co/file/common/20261127/296845afd2f65ada61e77dff312543ef.png",
+          "name": "⚽ [LIVE 28/11] UEFA EL - Olympiacos Piraeus vs AC Milan (BLV Rắn ở đáy sông) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912079_lhd.m3u8?txSecret=5e041e87b738b9b560f2cbdfb6f40e97&txTime=6b0a57e1",
+          "logo": "https://sta.vnres.co/file/common/20261127/1c83b66adc4f05116c62300ce81d68a4.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
-          "match_key": "28/11_LIVE_juventus_omonianicosia"
+          "match_key": "28/11_LIVE_acmilan_olympiacospiraeus"
         },
         {
           "name": "⚽ [LIVE 28/11] UEFA EL - Crystal Palace vs Real Sociedad (BLV Hươu đau cổ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=d6b4b4938ed090e6b1d7c365289466a8&txTime=6b0a5421",
+          "url": "https://pull.niur.live/live/stream-179093_lhd.m3u8?txSecret=ad72ae06c43f2fd2ac926c0d300d4365&txTime=6b0a57e1",
           "logo": "https://sta.vnres.co/file/common/20261127/02506faf88356f300df5253883580d57.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_LIVE_crystalpalace_realsociedad"
         },
         {
-          "name": "⚽ [LIVE 28/11] UEFA EL - RC Celta vs Bournemouth AFC (BLV Bò leo rào) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=bd13e421d0e963a8b767046e77fdb6cb&txTime=6b0a5421",
-          "logo": "https://sta.vnres.co/file/common/20261127/fb156eb43a0b0b9ab687487b141d01ba.png",
-          "competition": "Tường thuật",
-          "group": "🐿️ SocoLive",
-          "match_key": "28/11_LIVE_bournemouthafc_celtavigo"
-        },
-        {
           "name": "⚽ [LIVE 28/11] UEFA ECL - Brighton Hove Albion vs CS Universitatea Craiova (BLV Thỏ giang hồ) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=978c6caba8a925f388243ee44cdcd99a&txTime=6b0a5421",
+          "url": "https://pull.niur.live/live/stream-152898_lhd.m3u8?txSecret=f9d12e3b807aa42b316d05d75793f837&txTime=6b0a57e1",
           "logo": "https://sta.vnres.co/file/common/20261127/be3bdf6c86f4b5dfbbcf1a2a81620fe1.png",
           "competition": "Tường thuật",
           "group": "🐿️ SocoLive",
           "match_key": "28/11_LIVE_brighton_csuniversitateacraiova"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] UEFA EL - Juventus vs Omonia Nicosia FC (BLV Mèo méo meo) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-343500_lhd.m3u8?txSecret=d5163bb40375c29fb09cb5db961b8afc&txTime=6b0a57e1",
+          "logo": "https://sta.vnres.co/file/common/20261127/296845afd2f65ada61e77dff312543ef.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_juventus_omonianicosia"
+        },
+        {
+          "name": "⚽ [LIVE 28/11] UEFA EL - RC Celta vs Bournemouth AFC (BLV Bò leo rào) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-133824_lhd.m3u8?txSecret=be4aaf379b24f055b8add2b301d758da&txTime=6b0a57e1",
+          "logo": "https://sta.vnres.co/file/common/20261127/fb156eb43a0b0b9ab687487b141d01ba.png",
+          "competition": "Tường thuật",
+          "group": "🐿️ SocoLive",
+          "match_key": "28/11_LIVE_bournemouthafc_celtavigo"
         }
       ]
     },
@@ -1671,8 +1609,7 @@
           "url": "https://wncdnhls-global.losartang.org/live/vsc-channel-19.m3u8",
           "logo": "https://global-cdn.cdnx.tech/football/team/4623d3fa1cda20d1f289dce9dc803527.png",
           "competition": "",
-          "group": "⚡ Vua Sân Cỏ TV",
-          "match_key": "28/11_03:00_middlesbrough_southampton"
+          "group": "⚡ Vua Sân Cỏ TV"
         },
         {
           "name": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea (BLV Lưu Bang) - Vua Sân Cỏ TV",
@@ -1963,16 +1900,14 @@
           "url": "https://pull.digitalcdn.net/live/d61dfdeaa8a54e3f8777b72c92b348de/index.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhdx6ql07/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "28/11_03:00_chelsea_nottmforest"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [03:00 28/11] Nott'm Forest vs Chelsea (BLV Nhà đài) - Phá Làng TV",
           "url": "https://lilive1.eu.cc/live/05afa061a7d8d47657b83b7e48f0698a/playlist.m3u8",
           "logo": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhdx6ql07/image/small",
           "competition": "",
-          "group": "⚡ Phá Làng TV",
-          "match_key": "28/11_03:00_chelsea_nottmforest"
+          "group": "⚡ Phá Làng TV"
         },
         {
           "name": "⚽ [08:00 28/11] Columbus Crew vs Inter Miami (BLV LÝ LA LÀNG) [geo] - Phá Làng TV",
