@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 22:48:40",
+  "updated_at": "2026-11-27 23:03:28",
   "live_events": [
     {
       "key": "27/11_22:00_neftcibaku_zira",
@@ -106,85 +106,64 @@
       "number": 3
     },
     {
-      "key": "27/11_20:50_brazil_youth_u17costarica_youth",
-      "match_key": "27/11_20:50_brazil_youth_u17costarica_youth",
-      "c_home": "u17costarica_youth",
-      "c_away": "brazil_youth",
-      "homeTeam": "U17 Costa Rica",
-      "awayTeam": "Brazil U17",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "20:50",
+      "key": "27/11_21:00_churchillbrothers_intermilan",
+      "match_key": "27/11_21:00_churchillbrothers_intermilan",
+      "c_home": "intermilan",
+      "c_away": "churchillbrothers",
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Churchill Brothers",
+      "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "awayLogo": "https://img.cltvap.cc/football/team/0be01f850871a2273ca03ce2d085ab47.png",
+      "time": "21:00",
       "date": "27/11",
-      "timestamp": 1795787400000,
+      "timestamp": 1795788000000,
       "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
+      "leagueName": "Indian Super League",
       "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
       "isOngoing": true,
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [20:50 27/11] U17 Costa Rica vs U17 Brazil (TV360+ 5) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc1OH0.REeFvFlQbioApbvwlyy3eP7Z2ORI7aQO8t1n8XTpTNuBcf9tPMm8tppeXFQ1YdCdVJdcfAk8XkqPeKU-HDjLFA&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794990101325/0c6733ab223a_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
-            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
-          },
-          "match_key": "27/11_20:50_brazil_youth_u17costarica_youth"
+          "name": "⚽ [21:00 27/11] Inter Kashi Vs Churchill Brothers (BLV Gà Siêu Tốc) - Gà Vàng",
+          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
+          "logo": "https://img.cltvap.cc/football/competition/05ea1c39d93c06d82aca0c3b95f8b49c.png",
+          "home_logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png",
+          "away_logo": "https://img.cltvap.cc/football/team/0be01f850871a2273ca03ce2d085ab47.png",
+          "competition": "Indian Super League",
+          "group": "🐔 Gà Vàng / Tiếu Lâm",
+          "ref": "https://gavangtvttbdo.tv/",
+          "match_key": "27/11_21:00_churchillbrothers_intermilan"
         },
         {
-          "name": "⚽ [21:00 27/11] U17 Costa Rica vs Brazil U17 (BLV Súp) [hls] - Giờ Vàng TV",
-          "url": "https://pzhgifbkllliv.vcdn.cloud/1795573828_hd/1795573828_hd@720p.m3u8",
-          "logo": "https://images.keovip88.net/images/teams/costa-rica-u17.png",
+          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV Gà Siêu Tốc) [hls] - Gà Vàng 33 TV",
+          "url": "https://live2.zktsva.app/live/307240.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png",
           "competition": "",
-          "group": "⚡ Giờ Vàng TV",
+          "group": "⚡ Gà Vàng 33 TV",
           "ref": "https://tqm-mos.com/",
-          "match_key": "27/11_20:50_brazil_youth_u17costarica_youth"
-        }
-      ],
-      "displayTitle": "🔴 [20:50 27/11] U17 Costa Rica vs Brazil U17",
-      "number": 4
-    },
-    {
-      "key": "27/11_20:50_ireland_youth_u17tanzania_youth",
-      "match_key": "27/11_20:50_ireland_youth_u17tanzania_youth",
-      "c_home": "ireland_youth",
-      "c_away": "u17tanzania_youth",
-      "homeTeam": "Ireland U17",
-      "awayTeam": "U17 Tanzania",
-      "homeLogo": "",
-      "awayLogo": "",
-      "time": "20:50",
-      "date": "27/11",
-      "timestamp": 1795787400000,
-      "league": "OTHER",
-      "leagueName": "U17 Quốc tế",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
+          "match_key": "27/11_21:00_churchillbrothers_intermilan"
+        },
         {
-          "name": "⚽ [20:50 27/11] U17 Cộng hòa Ireland vs U17 Tanzania (TV360+ 6) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc2N30.Z6ORlj03mvsy4t0do_L5GT88E5lZOv22xSCP9lsnciaNADueFC5e80hzOLpEJCB3EgOsBUr4zxP-70SIxHo3Qw&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794991825844/883432c4df73_1280_720.png",
+          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV MOUNTAIN DEW) [hls] - Cola TV",
+          "url": "https://live05.wecile.app/live/87547578.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80",
           "competition": "",
-          "group": "F4K Sport",
-          "ref": "https://film4k.pl/",
-          "dash": true,
-          "clearKey": {
-            "keyId": "e1389121e18651169badabee05aef5ba",
-            "key": "0b65b7091cd1474160e0de4ef106ac5d"
-          },
-          "match_key": "27/11_20:50_ireland_youth_u17tanzania_youth"
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_21:00_churchillbrothers_intermilan"
+        },
+        {
+          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV MOUNTAIN DEW) [hls 2] - Cola TV",
+          "url": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
+          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80",
+          "competition": "",
+          "group": "⚡ Cola TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_21:00_churchillbrothers_intermilan"
         }
       ],
-      "displayTitle": "🔴 [20:50 27/11] Ireland U17 vs U17 Tanzania",
-      "number": 5
+      "displayTitle": "🔴 [21:00 27/11] Inter Milan vs Churchill Brothers",
+      "number": 4
     },
     {
       "key": "27/11_21:00_brazil_youth_costaricau17_youth",
@@ -193,8 +172,8 @@
       "c_away": "brazil_youth",
       "homeTeam": "Costa Rica U17",
       "awayTeam": "Brazil U17",
-      "homeLogo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
-      "awayLogo": "https://apiv3.apifootball.com/badges/31334_brazil-u17.jpg",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "21:00",
       "date": "27/11",
       "timestamp": 1795788000000,
@@ -205,33 +184,20 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [21:00 27/11] Costa Rica U17 Vs Brazil U17 (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
-          "home_logo": "https://img.cltvap.cc/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
-          "away_logo": "https://img.cltvap.cc/football/team/99bf3d153d4bf67d640051a1af322505.png",
-          "competition": "FIFA U17 World Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
-        },
-        {
-          "name": "⚽ [21:00 27/11] Costa Rica U17 vs Brazil U17 (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/31334_brazil-u17.jpg",
-          "competition": "FIFA U17 World Cup",
-          "group": "🍵 Xôi Chè TV",
-          "ref": "https://xoiche.live/",
-          "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
-        },
-        {
           "name": "⚽ [21:00 27/11] Costa Rica U17 vs Brazil U17 (BLV Chuối Nhỏ) [FHD] [hls] - Chuối Chiên TV",
           "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
           "logo": "https://media.chuoichientv.net/media/uploads/20250623_144936_80ee8c4e.png",
           "competition": "",
           "group": "⚡ Chuối Chiên TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
+        },
+        {
+          "name": "⚽ [21:00 27/11] Costa Rica U17 vs Brazil U17 (BLV Khô Mật) [hls] - Khô Gà TV",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
+          "competition": "",
+          "group": "⚡ Khô Gà TV",
           "ref": "https://tqm-mos.com/",
           "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
         },
@@ -300,77 +266,17 @@
         }
       ],
       "displayTitle": "🔴 [21:00 27/11] Costa Rica U17 vs Brazil U17",
-      "number": 6
+      "number": 5
     },
     {
-      "key": "27/11_21:00_churchillbrothers_intermilan",
-      "match_key": "27/11_21:00_churchillbrothers_intermilan",
-      "c_home": "intermilan",
-      "c_away": "churchillbrothers",
-      "homeTeam": "Inter Milan",
-      "awayTeam": "Churchill Brothers",
-      "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/0be01f850871a2273ca03ce2d085ab47.png",
-      "time": "21:00",
-      "date": "27/11",
-      "timestamp": 1795788000000,
-      "league": "OTHER",
-      "leagueName": "Indian Super League",
-      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
-      "isOngoing": true,
-      "isCompleted": false,
-      "sources": [
-        {
-          "name": "⚽ [21:00 27/11] Inter Kashi Vs Churchill Brothers (BLV Gà Siêu Tốc) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/307240.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/05ea1c39d93c06d82aca0c3b95f8b49c.png",
-          "home_logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png",
-          "away_logo": "https://img.cltvap.cc/football/team/0be01f850871a2273ca03ce2d085ab47.png",
-          "competition": "Indian Super League",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "27/11_21:00_churchillbrothers_intermilan"
-        },
-        {
-          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV Gà Siêu Tốc) [hls] - Gà Vàng 33 TV",
-          "url": "https://live2.zktsva.app/live/307240.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png",
-          "competition": "",
-          "group": "⚡ Gà Vàng 33 TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "27/11_21:00_churchillbrothers_intermilan"
-        },
-        {
-          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV MOUNTAIN DEW) [hls] - Cola TV",
-          "url": "https://live05.wecile.app/live/87547578.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "27/11_21:00_churchillbrothers_intermilan"
-        },
-        {
-          "name": "⚽ [21:00 27/11] Inter Kashi vs Churchill Brothers (BLV MOUNTAIN DEW) [hls 2] - Cola TV",
-          "url": "https://live05.yefpwmc.app/live/87547578_tsc.m3u8",
-          "logo": "https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80",
-          "competition": "",
-          "group": "⚡ Cola TV",
-          "ref": "https://tqm-mos.com/",
-          "match_key": "27/11_21:00_churchillbrothers_intermilan"
-        }
-      ],
-      "displayTitle": "🔴 [21:00 27/11] Inter Milan vs Churchill Brothers",
-      "number": 7
-    },
-    {
-      "key": "27/11_21:00_ireland_youth_tanzaniau17_youth",
-      "match_key": "27/11_21:00_ireland_youth_tanzaniau17_youth",
-      "c_home": "ireland_youth",
-      "c_away": "tanzaniau17_youth",
-      "homeTeam": "Ireland U17",
-      "awayTeam": "Tanzania U17",
-      "homeLogo": "https://img.cltvap.cc/football/team/c940e50f90b9e73f42045c05d49c6e17.png",
-      "awayLogo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png",
+      "key": "27/11_21:00_brazil_youth_u17costarica_youth",
+      "match_key": "27/11_21:00_brazil_youth_u17costarica_youth",
+      "c_home": "u17costarica_youth",
+      "c_away": "brazil_youth",
+      "homeTeam": "U17 Costa Rica",
+      "awayTeam": "Brazil U17",
+      "homeLogo": "",
+      "awayLogo": "",
       "time": "21:00",
       "date": "27/11",
       "timestamp": 1795788000000,
@@ -381,19 +287,17 @@
       "isCompleted": false,
       "sources": [
         {
-          "name": "⚽ [21:00 27/11] Ireland U17 Vs Tanzania U17 (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
-          "home_logo": "https://img.cltvap.cc/football/team/c940e50f90b9e73f42045c05d49c6e17.png",
-          "away_logo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png",
-          "competition": "FIFA U17 World Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "ref": "https://gavangtvttbdo.tv/",
-          "match_key": "27/11_21:00_ireland_youth_tanzaniau17_youth"
+          "name": "⚽ [21:00 27/11] U17 Costa Rica vs Brazil U17 (BLV Súp) [hls] - Giờ Vàng TV",
+          "url": "https://pzhgifbkllliv.vcdn.cloud/1795573828_hd/1795573828_hd@720p.m3u8",
+          "logo": "https://images.keovip88.net/images/teams/costa-rica-u17.png",
+          "competition": "",
+          "group": "⚡ Giờ Vàng TV",
+          "ref": "https://tqm-mos.com/",
+          "match_key": "27/11_21:00_brazil_youth_u17costarica_youth"
         }
       ],
-      "displayTitle": "🔴 [21:00 27/11] Ireland U17 vs Tanzania U17",
-      "number": 8
+      "displayTitle": "🔴 [21:00 27/11] U17 Costa Rica vs Brazil U17",
+      "number": 6
     },
     {
       "key": "27/11_21:00_ireland_youth_tanzaniau1733tv_youth",
@@ -424,7 +328,7 @@
         }
       ],
       "displayTitle": "🔴 [21:00 27/11] Ireland U17 vs Tanzania U17 33 Tv",
-      "number": 9
+      "number": 7
     },
     {
       "key": "27/11_21:20_alfayha_alqadsiah",
@@ -504,7 +408,7 @@
         }
       ],
       "displayTitle": "🔴 [21:20 27/11] Al Qadsiah vs Al Fayha",
-      "number": 10
+      "number": 8
     },
     {
       "key": "27/11_21:20_alfayha_alqadisiyah",
@@ -562,7 +466,7 @@
         }
       ],
       "displayTitle": "🔴 [21:20 27/11] Al-qadisiyah vs Al-fayha",
-      "number": 11
+      "number": 9
     },
     {
       "key": "27/11_21:50_u17algeria_youth_u17conghoadominica_youth",
@@ -598,7 +502,7 @@
         }
       ],
       "displayTitle": "🔴 [21:50 27/11] U17 Algeria vs U17 Cong Hoa Dominica",
-      "number": 12
+      "number": 10
     },
     {
       "key": "27/11_21:50_montenegro_youth_u17chile_youth",
@@ -634,7 +538,7 @@
         }
       ],
       "displayTitle": "🔴 [21:50 27/11] Montenegro U17 vs U17 Chile",
-      "number": 13
+      "number": 11
     },
     {
       "key": "27/11_22:00_algeriau17_youth_dominicanrepublicu17_youth",
@@ -676,7 +580,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 27/11] Algeria U17 vs Dominican Republic U17",
-      "number": 14
+      "number": 12
     },
     {
       "key": "27/11_22:00_chileu17_youth_montenegro_youth",
@@ -709,7 +613,7 @@
         },
         {
           "name": "⚽ [22:00 27/11] Montenegro U17 vs Chile U17 (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=18605bcf78ab83f2a0e03e43399cb946&txTime=6b09fa5d",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c7b8491ecf4e1bdfcb5f97b574d818a5&txTime=6b09fde1",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
@@ -754,7 +658,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 27/11] Montenegro U17 vs Chile U17",
-      "number": 15
+      "number": 13
     },
     {
       "key": "27/11_22:00_algeriau17_youth_dominicanrepublicu1733tv_youth",
@@ -785,7 +689,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 27/11] Algeria U17 vs Dominican Republic U17 33 Tv",
-      "number": 16
+      "number": 14
     },
     {
       "key": "27/11_22:00_chileu1733tv_youth_montenegro_youth",
@@ -816,7 +720,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 27/11] Montenegro U17 vs Chile U17 33 Tv",
-      "number": 17
+      "number": 15
     },
     {
       "key": "27/11_22:00_algeriau17_youth_conghoadominicanu17_youth",
@@ -856,7 +760,7 @@
         }
       ],
       "displayTitle": "🔴 [22:00 27/11] Algeria U17 vs Cong Hoa Dominican U17",
-      "number": 18
+      "number": 16
     },
     {
       "key": "27/11_22:30_sepsiosksfantulgheorghe_universitateacluj",
@@ -898,7 +802,7 @@
         }
       ],
       "displayTitle": "🔴 [22:30 27/11] Universitatea Cluj vs Sepsi Osk Sfantul Gheorghe 33 Tv",
-      "number": 19
+      "number": 17
     },
     {
       "key": "27/11_22:30_alarabisportsclub_lusailsportsclub",
@@ -960,7 +864,7 @@
         }
       ],
       "displayTitle": "🔴 [22:30 27/11] Lusail Sports Club vs Al-arabi Sc",
-      "number": 20
+      "number": 18
     },
     {
       "key": "27/11_22:30_alarabi_lusailcity",
@@ -1009,7 +913,7 @@
         }
       ],
       "displayTitle": "🔴 [22:30 27/11] Lusail City vs Al-arabi Sc",
-      "number": 21
+      "number": 19
     },
     {
       "key": "27/11_22:30_sepsi_universitaeacluj",
@@ -1049,7 +953,7 @@
         }
       ],
       "displayTitle": "🔴 [22:30 27/11] Universitaea Cluj vs Sepsi",
-      "number": 22
+      "number": 20
     },
     {
       "key": "27/11_22:30_sepsiosksfantugheorghe_universitateacluj",
@@ -1080,7 +984,43 @@
         }
       ],
       "displayTitle": "🔴 [22:30 27/11] Universitatea Cluj vs Sepsi Osk Sfantu Gheorghe",
-      "number": 23
+      "number": 21
+    },
+    {
+      "key": "27/11_22:50_mexico_youth_u17venezuela_youth",
+      "match_key": "27/11_22:50_mexico_youth_u17venezuela_youth",
+      "c_home": "u17venezuela_youth",
+      "c_away": "mexico_youth",
+      "homeTeam": "Venezuela U23",
+      "awayTeam": "Mexico U17",
+      "homeLogo": "",
+      "awayLogo": "",
+      "time": "22:50",
+      "date": "27/11",
+      "timestamp": 1795794600000,
+      "league": "OTHER",
+      "leagueName": "U17 Quốc tế",
+      "logo": "android.resource://com.iptv.tvapp/drawable/ic_nav_sports",
+      "isOngoing": true,
+      "isCompleted": false,
+      "sources": [
+        {
+          "name": "⚽ [22:50 27/11] U17 Venezuela vs U17 Mexico (TV360+ 13) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MDc3NTUsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.vg36zXzBCcjjAVI0g7A76QvPAgT-2110fyBjPD4facI&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794990913723/31d3bbbde767_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "856f291af35a5db7b7d0c944b32993b9",
+            "key": "aa3547547f084fe4c9ea5206effb6b78"
+          },
+          "match_key": "27/11_22:50_mexico_youth_u17venezuela_youth"
+        }
+      ],
+      "displayTitle": "🔴 [22:50 27/11] Venezuela U23 vs Mexico U17",
+      "number": 22
     },
     {
       "key": "27/11_23:00_cameroon_youth_romania_youth",
@@ -1190,7 +1130,7 @@
         }
       ],
       "displayTitle": "🔴 [23:00 27/11] Romania U17 vs Cameroon U17",
-      "number": 24
+      "number": 23
     },
     {
       "key": "27/11_23:00_mexico_youth_venezuelau17_youth",
@@ -1288,7 +1228,7 @@
         }
       ],
       "displayTitle": "🔴 [23:00 27/11] Venezuela U23 vs Mexico U17",
-      "number": 25
+      "number": 24
     },
     {
       "key": "27/11_23:00_imtnovibeograd_macvasabac",
@@ -1328,7 +1268,7 @@
         }
       ],
       "displayTitle": "🔴 [23:00 27/11] Imt Novi Beograd vs Macva Sabac",
-      "number": 26
+      "number": 25
     },
     {
       "key": "28/11_02:30_bremen_monchengladbach",
@@ -1368,6 +1308,20 @@
           "competition": "Bundesliga",
           "group": "🍵 Xôi Chè TV",
           "ref": "https://xoiche.live/",
+          "match_key": "28/11_02:30_bremen_monchengladbach"
+        },
+        {
+          "name": "⚽ [02:20 28/11] Werder Bremen vs Monchengladbach (TV360+ 4) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc4Mn0.5WNSbWMdUBeUojluRdRe1TtYaMW6U2GcYEtnkXdw6YF5sD7qI1KFBBkeUOvzjEHHvx9UW_CQZTD1jVN_vEK6LA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/26/14/1795679351584/d6bea4f7efed_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "ref": "https://film4k.pl/",
+          "dash": true,
+          "clearKey": {
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
+          },
           "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
@@ -1417,7 +1371,7 @@
         }
       ],
       "displayTitle": "⚽ [02:30 28/11] Werder Bremen vs Borussia Monchengladbach",
-      "number": 27
+      "number": 26
     },
     {
       "key": "28/11_02:45_bologna_venezia",
@@ -1524,7 +1478,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 28/11] Venezia vs Bologna",
-      "number": 28
+      "number": 27
     },
     {
       "key": "28/11_02:45_brest_paris",
@@ -1577,7 +1531,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 28/11] Brest vs Paris",
-      "number": 29
+      "number": 28
     },
     {
       "key": "28/11_03:00_chelsea_nottingham",
@@ -1639,7 +1593,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 28/11] Nottingham Forest vs Chelsea",
-      "number": 30
+      "number": 29
     },
     {
       "key": "28/11_03:00_levante_santander",
@@ -1710,7 +1664,7 @@
         }
       ],
       "displayTitle": "⚽ [03:00 28/11] Levante vs Racing Santander",
-      "number": 31
+      "number": 30
     },
     {
       "key": "28/11_07:00_intermiami_newyorkknicks",
@@ -1750,7 +1704,7 @@
         }
       ],
       "displayTitle": "🏀 [07:00 28/11] New York Knicks vs Inter Miami",
-      "number": 32
+      "number": 31
     },
     {
       "key": "28/11_08:00_atlantahawks_doibongrobostonceltics",
@@ -1790,7 +1744,7 @@
         }
       ],
       "displayTitle": "🏀 [08:00 28/11] Doi Bong Ro Boston Celtics vs Atlanta Hawks",
-      "number": 33
+      "number": 32
     },
     {
       "key": "28/11_09:30_losangeleslakers_tottenham",
@@ -1830,7 +1784,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Tottenham Hotspur vs Los Angeles Lakers",
-      "number": 34
+      "number": 33
     },
     {
       "key": "28/11_09:30_goldenstatewarriors_portlandtrailblazers",
@@ -1870,7 +1824,7 @@
         }
       ],
       "displayTitle": "🏀 [09:30 28/11] Portland Trail Blazers vs Golden State Warriors",
-      "number": 35
+      "number": 34
     },
     {
       "key": "28/11_20:00_betis_rayovallecano",
@@ -1903,7 +1857,7 @@
         }
       ],
       "displayTitle": "⚽ [20:00 28/11] Real Betis vs Rayo Vallecano",
-      "number": 36
+      "number": 35
     },
     {
       "key": "28/11_21:00_frosinone_parma",
@@ -1936,7 +1890,7 @@
         }
       ],
       "displayTitle": "⚽ [21:00 28/11] Frosinone vs Parma",
-      "number": 37
+      "number": 36
     },
     {
       "key": "28/11_21:30_1fsvmainz05_unionberlin",
@@ -1978,7 +1932,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] 1. Fsv Mainz 05 vs Union Berlin",
-      "number": 38
+      "number": 37
     },
     {
       "key": "28/11_21:30_bayern_hamburgersv",
@@ -2011,7 +1965,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Hamburger Sv vs Bayern Munich",
-      "number": 39
+      "number": 38
     },
     {
       "key": "28/11_21:30_kln_sv07elversberg",
@@ -2044,7 +1998,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Kln vs Sv 07 Elversberg",
-      "number": 40
+      "number": 39
     },
     {
       "key": "28/11_21:30_paderborn07_schalke04",
@@ -2088,7 +2042,7 @@
         }
       ],
       "displayTitle": "⚽ [21:30 28/11] Paderborn vs Schalke",
-      "number": 41
+      "number": 40
     },
     {
       "key": "28/11_22:00_coventrycity_leedsunited",
@@ -2132,7 +2086,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Leeds vs Coventry",
-      "number": 42
+      "number": 41
     },
     {
       "key": "28/11_22:00_brentford_manutd",
@@ -2187,7 +2141,7 @@
         }
       ],
       "displayTitle": "⚽ [22:00 28/11] Manchester United vs Brentford",
-      "number": 43
+      "number": 42
     },
     {
       "key": "28/11_22:15_bilbao_malaga",
@@ -2220,7 +2174,7 @@
         }
       ],
       "displayTitle": "⚽ [22:15 28/11] Malaga vs Athletic Bilbao",
-      "number": 44
+      "number": 43
     },
     {
       "key": "28/11_23:15_angerssco_lens",
@@ -2253,7 +2207,7 @@
         }
       ],
       "displayTitle": "⚽ [23:15 28/11] Angers Sco vs Lens",
-      "number": 45
+      "number": 44
     },
     {
       "key": "29/11_02:45_genoa_intermilan",
@@ -2286,7 +2240,7 @@
         }
       ],
       "displayTitle": "⚽ [02:45 29/11] Inter Milan vs Genoa",
-      "number": 46
+      "number": 45
     },
     {
       "key": "29/11_03:00_alaves_realmadrid",
@@ -2319,23 +2273,13 @@
         }
       ],
       "displayTitle": "⚽ [03:00 29/11] Real Madrid vs Alaves",
-      "number": 47
+      "number": 46
     }
   ],
   "source_groups": [
     {
       "name": "🐔 Gà Vàng / Tiếu Lâm",
       "channels": [
-        {
-          "name": "⚽ [21:00 27/11] Costa Rica U17 Vs Brazil U17 (BLV Gà Siêu Quỷ) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/304565.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
-          "home_logo": "https://img.cltvap.cc/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
-          "away_logo": "https://img.cltvap.cc/football/team/99bf3d153d4bf67d640051a1af322505.png",
-          "competition": "FIFA U17 World Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
-        },
         {
           "name": "⚽ [21:20 27/11] Al Qadsiah Vs Al Fayha (BLV Gà Siêu Ngố) - Gà Vàng",
           "url": "https://live2.zktsva.app/live/301238.m3u8|Referer=https://gavangtvttbdo.tv/",
@@ -2355,16 +2299,6 @@
           "competition": "Indian Super League",
           "group": "🐔 Gà Vàng / Tiếu Lâm",
           "match_key": "27/11_21:00_churchillbrothers_intermilan"
-        },
-        {
-          "name": "⚽ [21:00 27/11] Ireland U17 Vs Tanzania U17 (BLV Gà Siêu Gáy) - Gà Vàng",
-          "url": "https://live2.zktsva.app/live/294335.m3u8|Referer=https://gavangtvttbdo.tv/",
-          "logo": "https://img.cltvap.cc/football/competition/8f1cede667dd40babe801d43821420aa.png",
-          "home_logo": "https://img.cltvap.cc/football/team/c940e50f90b9e73f42045c05d49c6e17.png",
-          "away_logo": "https://img.cltvap.cc/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png",
-          "competition": "FIFA U17 World Cup",
-          "group": "🐔 Gà Vàng / Tiếu Lâm",
-          "match_key": "27/11_21:00_ireland_youth_tanzaniau17_youth"
         },
         {
           "name": "⚽ [22:00 27/11] Algeria U17 Vs Dominican Republic U17 (BLV Gà Siêu Tồ) - Gà Vàng",
@@ -2892,16 +2826,6 @@
       "name": "🍵 Xôi Chè TV",
       "channels": [
         {
-          "name": "⚽ [21:00 27/11] Costa Rica U17 vs Brazil U17 (BLV Khô Mật) - Xôi Chè",
-          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-          "logo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
-          "home_logo": "https://apiv3.apifootball.com/badges/29868_costa-rica-u17.jpg",
-          "away_logo": "https://apiv3.apifootball.com/badges/31334_brazil-u17.jpg",
-          "competition": "FIFA U17 World Cup",
-          "group": "🍵 Xôi Chè TV",
-          "match_key": "27/11_21:00_brazil_youth_costaricau17_youth"
-        },
-        {
           "name": "⚽ [21:20 27/11] Al Qadsiah vs Al Fayha (BLV Xôi Gấc) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
@@ -3052,6 +2976,16 @@
           "match_key": "28/11_19:15_alhazem_alnassr"
         },
         {
+          "name": "⚽ [19:15 28/11] Hanoi FC vs Hong Linh Ha Tinh (BLV Khô Mật) - Xôi Chè",
+          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+          "logo": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
+          "home_logo": "https://apiv3.apifootball.com/badges/473_ha-ni.jpg",
+          "away_logo": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
+          "competition": "V.League 1",
+          "group": "🍵 Xôi Chè TV",
+          "match_key": "28/11_19:15_hanoi_hatinh"
+        },
+        {
           "name": "⚽ [21:30 28/11] Paderborn vs Schalke (BLV Khô Cá) - Xôi Chè",
           "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
           "logo": "https://apiv3.apifootball.com/badges/3920_paderborn.jpg",
@@ -3098,7 +3032,7 @@
       "channels": [
         {
           "name": "⚽ [23:30 27/11] ITA TOOLS STAL Mielec vs NETLAND MKS Kalisz (ITA TOOLS STAL Mielec vs NETLAND MKS Kalisz) - F4K Sport",
-          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01986500fe6b150b585a0500da85%2F019865170023150b5c730395d82f%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=9dbaa2d12c5c87111b7aec79be9b03bd,c4b263a87fa7fea85dfc59d51af5fd51,1d51fbb59584d650183dd7fa67361fd2&exp=1795816052997&sig=8V326_gGoNDK0pf0oejqNp",
+          "url": "https://film4k.pl/api/dash/mpd?url=https%3A%2F%2Flive-sport-t.monomax.me%2Fv1%2F01986500fe6b150b585a0500da85%2F019865170023150b5c730395d82f%2Findex.mpd%3Faws.manifestfilter%3Dvideo_codec%3Ah264%26manifest_filter%3Dvideo_codec%3AH264&kids=9dbaa2d12c5c87111b7aec79be9b03bd,c4b263a87fa7fea85dfc59d51af5fd51,1d51fbb59584d650183dd7fa67361fd2&exp=1795816946265&sig=Onb32aTW8pw73Zp08402-Y",
           "logo": "https://film4k.pl/icon.png",
           "competition": "TAURON Liga Kobiet",
           "group": "F4K Sport",
@@ -3117,32 +3051,6 @@
           }
         },
         {
-          "name": "⚽ [20:50 27/11] U17 Costa Rica vs U17 Brazil (TV360+ 5) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc1OH0.REeFvFlQbioApbvwlyy3eP7Z2ORI7aQO8t1n8XTpTNuBcf9tPMm8tppeXFQ1YdCdVJdcfAk8XkqPeKU-HDjLFA&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794990101325/0c6733ab223a_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
-            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
-          },
-          "match_key": "27/11_20:50_brazil_youth_u17costarica_youth"
-        },
-        {
-          "name": "⚽ [20:50 27/11] U17 Cộng hòa Ireland vs U17 Tanzania (TV360+ 6) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc2N30.Z6ORlj03mvsy4t0do_L5GT88E5lZOv22xSCP9lsnciaNADueFC5e80hzOLpEJCB3EgOsBUr4zxP-70SIxHo3Qw&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794991825844/883432c4df73_1280_720.png",
-          "competition": "",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "e1389121e18651169badabee05aef5ba",
-            "key": "0b65b7091cd1474160e0de4ef106ac5d"
-          },
-          "match_key": "27/11_20:50_ireland_youth_u17tanzania_youth"
-        },
-        {
           "name": "⚽ [21:50 27/11] U17 Algeria vs U17 Cộng hòa Dominica (TV360+ 7) - F4K Sport",
           "url": "https://rr1-ateme.tv360.vn/live/eds/369369/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2OTM2OS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc4NX0.FQNguClU0p18hzuT1hyfVv1fWb3JOnkoZH1jZJJ7XC_WJgxJFzTl-qG4yUA4jamKkxYdR6kFA26kAZSDIvTWyg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794991410961/394eddddba4f_1280_720.png",
@@ -3154,18 +3062,6 @@
             "key": "b7bf64fad4622ec88e429409c2c9997d"
           },
           "match_key": "27/11_21:50_u17algeria_youth_u17conghoadominica_youth"
-        },
-        {
-          "name": "⚽ [00:50 28/11] Bi-a: Mosconi Cup 2026: Ngày 1, 1 giờ, ngày 28/11, kênh TV360+ 15 (TV360+ 15) - F4K Sport",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc2NH0.r54a33Mbk221lqi7ITgtO37uhM7cyipJyc2x7YOZrxfDfWuBkltItvjF4VJ1lL7eZcB0W4obFqd9y37qhS-7Ng&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/11/25/08/1795571226110/caf7334adc75_1280_720.png",
-          "competition": "Bi-a",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "fa4033841a70511c84a7fe7e0daf1a6a",
-            "key": "237d5bce065aa40fc4c8839cd8827cd2"
-          }
         },
         {
           "name": "⚽ [21:50 27/11] U17 Montenegro vs U17 Chile (TV360+ 8) - F4K Sport",
@@ -3192,6 +3088,44 @@
             "key": "bb89427403116b132f9fbb34cd616347"
           },
           "match_key": "27/11_23:00_cameroon_youth_romania_youth"
+        },
+        {
+          "name": "⚽ [22:50 27/11] U17 Venezuela vs U17 Mexico (TV360+ 13) - F4K Sport",
+          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MDc3NTUsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.vg36zXzBCcjjAVI0g7A76QvPAgT-2110fyBjPD4facI&minrate=0&maxrate=12000000&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/18/15/1794990913723/31d3bbbde767_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "856f291af35a5db7b7d0c944b32993b9",
+            "key": "aa3547547f084fe4c9ea5206effb6b78"
+          },
+          "match_key": "27/11_22:50_mexico_youth_u17venezuela_youth"
+        },
+        {
+          "name": "⚽ [00:50 28/11] Bi-a: Mosconi Cup 2026: Ngày 1, 1 giờ, ngày 28/11, kênh TV360+ 15 (TV360+ 15) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/473473/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQ3MzQ3My9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc2NH0.r54a33Mbk221lqi7ITgtO37uhM7cyipJyc2x7YOZrxfDfWuBkltItvjF4VJ1lL7eZcB0W4obFqd9y37qhS-7Ng&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/25/08/1795571226110/caf7334adc75_1280_720.png",
+          "competition": "Bi-a",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "fa4033841a70511c84a7fe7e0daf1a6a",
+            "key": "237d5bce065aa40fc4c8839cd8827cd2"
+          }
+        },
+        {
+          "name": "⚽ [02:20 28/11] Werder Bremen vs Monchengladbach (TV360+ 4) - F4K Sport",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc4Mn0.5WNSbWMdUBeUojluRdRe1TtYaMW6U2GcYEtnkXdw6YF5sD7qI1KFBBkeUOvzjEHHvx9UW_CQZTD1jVN_vEK6LA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/11/26/14/1795679351584/d6bea4f7efed_1280_720.png",
+          "competition": "",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
+            "key": "9e1eda8e6c4405c3751300309eb5822c"
+          },
+          "match_key": "28/11_02:30_bremen_monchengladbach"
         },
         {
           "name": "📺 TV360+ 1 (Trực tiếp) - TV360",
@@ -3227,14 +3161,25 @@
           }
         },
         {
-          "name": "📺 TV360+ 4 (Trực tiếp) - TV360",
-          "url": "https://rr1-ateme.tv360.vn/live/eds/201201/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzIwMTIwMS9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc4Mn0.5WNSbWMdUBeUojluRdRe1TtYaMW6U2GcYEtnkXdw6YF5sD7qI1KFBBkeUOvzjEHHvx9UW_CQZTD1jVN_vEK6LA&screen=MHL&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776266956801/9a85754a5bd9_480_270.png",
+          "name": "📺 TV360+ 5 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/367367/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2NzM2Ny9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc1OH0.REeFvFlQbioApbvwlyy3eP7Z2ORI7aQO8t1n8XTpTNuBcf9tPMm8tppeXFQ1YdCdVJdcfAk8XkqPeKU-HDjLFA&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267019948/634cdb439c75_480_270.png",
           "group": "F4K Sport",
           "dash": true,
           "clearKey": {
-            "keyId": "f6ae18fbe05a596da5c9ea312d3257e2",
-            "key": "9e1eda8e6c4405c3751300309eb5822c"
+            "keyId": "edfa094d8ac55cf98f5867128a926aa7",
+            "key": "0e10fa6099105e2e0a7ce1e34e9c0230"
+          }
+        },
+        {
+          "name": "📺 TV360+ 6 (Trực tiếp) - TV360",
+          "url": "https://rr1-ateme.tv360.vn/live/eds/368368/DASH_DRM_MHL_2s_event2/index.mpd?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzM2ODM2OC9EQVNIX0RSTV9NSExfMnNfZXZlbnQyLyIsImV4cCI6MTc5NTgwNzc2N30.Z6ORlj03mvsy4t0do_L5GT88E5lZOv22xSCP9lsnciaNADueFC5e80hzOLpEJCB3EgOsBUr4zxP-70SIxHo3Qw&screen=MHL&uid=294779473",
+          "logo": "https://img-evg1.tv360.vn/image1/2026/04/15/22/1776267080314/d06a99b5bd9c_480_270.png",
+          "group": "F4K Sport",
+          "dash": true,
+          "clearKey": {
+            "keyId": "e1389121e18651169badabee05aef5ba",
+            "key": "0b65b7091cd1474160e0de4ef106ac5d"
           }
         },
         {
@@ -3262,17 +3207,6 @@
           "clearKey": null
         },
         {
-          "name": "📺 TV360+ 13 (Trực tiếp) - TV360",
-          "url": "https://fo-hlc.tv360.vn/bpk-tv/471/output/index.mpd?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXRob2QiOiJHRVQiLCJleHAiOjE3OTU4MDc3NTUsInVyaSI6Ii9icGstdHYvNDcxL291dHB1dC9pbmRleC5tcGQifQ.vg36zXzBCcjjAVI0g7A76QvPAgT-2110fyBjPD4facI&minrate=0&maxrate=12000000&uid=294779473",
-          "logo": "https://img-evg1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png",
-          "group": "F4K Sport",
-          "dash": true,
-          "clearKey": {
-            "keyId": "856f291af35a5db7b7d0c944b32993b9",
-            "key": "aa3547547f084fe4c9ea5206effb6b78"
-          }
-        },
-        {
           "name": "📺 TV360 (Trực tiếp) - TV360",
           "url": "https://rr1-ateme.tv360.vn/live/eds/427/HLS_Clean_MHL_2s/index.m3u8?cdntoken=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXRoIjoiL2xpdmUvZWRzLzQyNy9ITFNfQ2xlYW5fTUhMXzJzLyIsImV4cCI6MTc5NTgwNzMxNH0.aO9aI-JMBThUdjfgi709JaVYjo8D905z8UGiIYPnWwZsuX0iZm6D9j84oR3lnNjoIh0dV7FrzmRiqda4NB5spg&screen=MHL&uid=294779473",
           "logo": "https://img-evg1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_480_270.png",
@@ -3294,248 +3228,199 @@
       "name": "🐿️ SocoLive",
       "channels": [
         {
-          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV Củ Cải) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912091_lhd.m3u8?txSecret=232881b41a1504d7348a876f6b5f57af&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20261126/3d05cc993d3610b815a30583ed64415a.png",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV LÃO LÂM) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795798029-0-0-9467a91b74216536902d47406ee8d9aa",
-          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV TYPN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795798029-0-0-5a810c3a8ecd9925bf80fdbe479e3e16",
+          "url": "https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1795798929-0-0-2370769a7eeedb4db0d42d1d7a3c1499",
           "logo": "https://sta.vnres.co/file/common/20261122/e3ef98fd52df7beafd30997ac8e16b7c.png",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV SAO LA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795798029-0-0-4568b0789d5ffa987c850274890213b0",
-          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Costa Rica U17 vs Brazil U17 (BLV A BỆU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1795798029-0-0-c7a5a8546baf365e852d978b2e389a9d",
-          "logo": "https://sta.vnres.co/file/common/20260830/683bbb96de277e28f88b1d08678ac124.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV RÔSI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=388c6b1f56240fa3eb17aee4d223ea9d&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
-          "competition": "KSA PR",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Costa Rica U17 vs Brazil U17 (BLV NGƯỜI CÁ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1795798029-0-0-ccdd52277f78f662a22d5ed3fd119e6c",
-          "logo": "https://sta.vnres.co/file/common/20260908/25a8cd45f3d227a96b46e77ba0d942c2.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Costa Rica U17 vs Brazil U17 (BLV CURRY) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-622240_lhd.m3u8?txSecret=72c4dcddbedfdd5b08033ceb70dbb328&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20261127/d458c682c9784bb171450dfd9fbc5673.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Costa Rica U17 vs Brazil U17 (BLV CR Bưởi) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=5c2109a5ebfb60ba0a32b337bd70670d&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20261127/dd323065f7094b100d9bc1ad312c1f58.png",
-          "competition": "WCU17",
+          "name": "⚽ [LIVE 27/11] FC Universitatea Cluj vs Sepsi OSK Sfantul Gheorghe (BLV CÔNG CHẤT) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795798929-0-0-c31168e610bb616376a9d960df973e04",
+          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
+          "competition": "ROM D1",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV ZIZOU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795798029-0-0-567edd63a9158981c74114a47bfea95d",
+          "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1795798929-0-0-ccf7b91513715752d0136d92a23dcf12",
           "logo": "https://sta.vnres.co/file/common/20261123/90ba98808353b207cc2bc6072fca6cd1.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV ENZO) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795798029-0-0-52885c7c5b98461099c7cf3cf895472b",
+          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1795798929-0-0-775b82aba3b2846164cb36b3ffab69fb",
           "logo": "https://sta.vnres.co/file/common/20260827/1d4f9eca02a381435aaec138589dd9ef.jpg",
           "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV HEHE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795798029-0-0-1e8c964c1142ba4e163e69e65b93d578",
-          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
-          "competition": "QAT D1",
+          "name": "⚽ [LIVE 27/11] Romania U17 vs Cameroon U17 (BLV ĐỖ TÚ TÀI) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795798929-0-0-eb4b1d3281590eb942acd42bd9b2c01a",
+          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV TOMIA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795798029-0-0-94a6bedc1c4373d5549c4767153acfea",
-          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
-          "competition": "QAT D1",
+          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV RÔSI) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=37243a770ae26f72db6f9372656aa993&txTime=6b09fde1",
+          "logo": "https://sta.vnres.co/file/common/20260729/d292f50748708d6c5531fc4adc41b139.jpg",
+          "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] FC Universitatea Cluj vs Sepsi OSK Sfantul Gheorghe (BLV CÔNG CHẤT) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-291277_lhd.m3u8?auth_key=1795798029-0-0-6663e1a7166b4fbf331c872b0a6e503a",
-          "logo": "https://sta.vnres.co/file/common/20260507/f27519c438dedfaf3e72c09e21b66880.jpg",
-          "competition": "ROM D1",
+          "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV LÃO LÂM) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1795798929-0-0-8dd07204d49cd696a07c6cada1b31397",
+          "logo": "https://sta.vnres.co/file/common/20250723/92e3a983ca9ebf07e2630a12672018ca.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV Củ Cải) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-9912091_lhd.m3u8?txSecret=2ca43ff9d0915daca831e9100cf2c595&txTime=6b09fde1",
+          "logo": "https://sta.vnres.co/file/common/20261126/3d05cc993d3610b815a30583ed64415a.png",
+          "competition": "KSA PR",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV CUỘI) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912146_lhd.m3u8?txSecret=9f82824867fb65f5e22a53412dcf63d6&txTime=6b09fa5d",
+          "url": "https://pull.niur.live/live/stream-9912146_lhd.m3u8?txSecret=52fffbfcc1e085f35ecb0d8796600906&txTime=6b09fde1",
           "logo": "https://sta.vnres.co/file/common/20261125/d7e123aad69badb6c331ff288c8962e3.png",
           "competition": "QAT D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 27/11] Al Qadsiah vs Al Fayha (BLV SAO LA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912140_lhd.m3u8?auth_key=1795798929-0-0-011d75dcea2212583ff2f44f1b12f92c",
+          "logo": "https://sta.vnres.co/file/common/20261005/2b72a0469f61591dc16676f4ff5d1c78.jpg",
+          "competition": "KSA PR",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV TOMIA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1795798929-0-0-9177af331e0a61bfab7b8d02ad6a6dc9",
+          "logo": "https://sta.vnres.co/file/common/20260930/5aa7f6299a4734f2756322a13c09e2fe.png",
+          "competition": "QAT D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV HEHE) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1795798929-0-0-adf0a955322da768998d69db9b34fbcd",
+          "logo": "https://sta.vnres.co/file/common/20261123/bd7eb6e3f62360d6389fde8c0eb726f2.jpg",
+          "competition": "QAT D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 27/11] Venezuela U17 vs Mexico U17 (BLV KINH VÂN) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795798029-0-0-2ce1609fff45579f3ce0fbf3a9ce3e26",
+          "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1795798929-0-0-6b5f9b2f6ca3ae38fbdb044a6d87953e",
           "logo": "https://sta.vnres.co/file/common/20261119/00bb892d622aebb72ec5b9d356b065a7.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 27/11] Romania U17 vs Cameroon U17 (BLV PIRLO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=b98be623c6388db3598484c2e52fd505&txTime=6b09fa5d",
+          "url": "https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=ecc55f0e6e9f516d98ee7f85d15adb6f&txTime=6b09fde1",
           "logo": "https://sta.vnres.co/file/common/20250320/efe293015c817dee46ccc81fa5e934d7.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [22:00 27/11] Montenegro U17 vs Chile U17 (BLV LONG) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=18605bcf78ab83f2a0e03e43399cb946&txTime=6b09fa5d",
+          "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=c7b8491ecf4e1bdfcb5f97b574d818a5&txTime=6b09fde1",
           "logo": "https://sta.vnres.co/file/common/20261012/30e5b59bd6dc3e385012f73336e07bd5.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive",
           "match_key": "27/11_22:00_chileu17_youth_montenegro_youth"
         },
         {
-          "name": "⚽ [LIVE 27/11] Ireland U17 vs Tanzania U17 (BLV KAN) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=3ef972d63e55132188d2c946e66cead0&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20260930/a352002c4e633530ce9c667ce8bfef75.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Inter Kashi vs Churchill Brothers (BLV CÁO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-597929_lhd.m3u8?txSecret=f4c19d82759df68448d30731cb11a09e&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
-          "competition": "IND SL",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV GIÓ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795798029-0-0-50c604c6397f672f30ef3ec61b3894a4",
+          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8?auth_key=1795798929-0-0-58a39bfddd899b1f9ac2f87019c357b2",
           "logo": "https://sta.vnres.co/file/common/20260603/54289b9ef989aba74cff5bfdee1d4656.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Montenegro U17 vs Chile U17 (BLV BẢY) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795798029-0-0-0365d62c8ba6a4473c97638e77537645",
-          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Montenegro U17 vs Chile U17 (BLV CHIVAS) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=4a8b670f1d7311f78f24f219f61994a4&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Inter Kashi vs Churchill Brothers (BLV BÚN ĐẬU) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-619561_lhd.m3u8?txSecret=8455bc9c103e7f66538b9067347e0c91&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20261121/19f7690b25afd63542547418503faad2.jpg",
-          "competition": "IND SL",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Ireland U17 vs Tanzania U17 (BLV A TÚ) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795798029-0-0-6f5f9e4edc9332c3a5768d8d2b192249",
-          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Ireland U17 vs Tanzania U17 (BLV NHỊ CA) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795798029-0-0-e56043edac718786c3aa9f6b88e228aa",
-          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Ireland U17 vs Tanzania U17 (BLV YONE) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1795798029-0-0-a8ce5babc26caac62790e3a345362833",
-          "logo": "https://sta.vnres.co/file/common/20260924/a91b676f0c0421c21f0736714a9a8ecd.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV VIP) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-491873_lhd.m3u8?auth_key=1795798029-0-0-b8c231a729f32f3579b0cc27b259cfae",
-          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
-          "competition": "WCU17",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 27/11] FC Universitatea Cluj vs Sepsi OSK Sfantul Gheorghe (BLV KENCHU) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795798029-0-0-7628696c3a29b0b6f0f63a07fca40b91",
+          "url": "https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1795798929-0-0-da2e0af8881e445fb25ba3719c5ded69",
           "logo": "https://sta.vnres.co/file/common/20260817/eeaf8e9a562009c633db883c389eb16b.jpg",
           "competition": "ROM D1",
           "group": "🐿️ SocoLive"
         },
         {
+          "name": "⚽ [LIVE 27/11] Montenegro U17 vs Chile U17 (BLV BẢY) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1795798929-0-0-92b4ace58945d33be2806c42dc978fb1",
+          "logo": "https://sta.vnres.co/file/common/20261106/f26e7fa26c0409958b3f3ebac3befe71.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV PEANUT) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-620084_lhd.m3u8?txSecret=971f0c73e3747bb330d310b1ca43c547&txTime=6b09fde1",
+          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
+          "competition": "QAT D1",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Montenegro U17 vs Chile U17 (BLV CHIVAS) - SocoLive",
+          "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=538e0226da92bb1207af8923caf99d87&txTime=6b09fde1",
+          "logo": "https://sta.vnres.co/file/common/20241227/06e62c7bc4b2aa3e64a76a1b5af96d0b.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
           "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV VOI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795798029-0-0-b970d0a868efa1041346db7c53eeb491",
+          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1795798929-0-0-c393ff046925a8207fc6aa18770ba436",
           "logo": "https://sta.vnres.co/file/common/20261123/ad660ffd78e39f5cc3d614ea5b88fd25.png",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
           "name": "⚽ [LIVE 27/11] Montenegro U17 vs Chile U17 (BLV REDBULL) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795798029-0-0-ce533f78ace812efff9a1e97a92eb852",
+          "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1795798929-0-0-4ebe86006da9d8048f6b1ea383364d52",
           "logo": "https://sta.vnres.co/file/common/20261031/6106c385532b3759581cc70e19003623.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Romania U17 vs Cameroon U17 (BLV ĐỖ TÚ TÀI) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1795798029-0-0-7ae8fc74533d1e4ecb9373ae87678c6e",
-          "logo": "https://sta.vnres.co/file/common/20260522/f2b4ef051d1e02300d2d5bf24f3828f0.png",
+          "name": "⚽ [LIVE 27/11] Algeria U17 vs Dominican Republic U17 (BLV VIP) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-491873_lhd.m3u8?auth_key=1795798929-0-0-176bed833a693a88e045641a2e405221",
+          "logo": "https://sta.vnres.co/file/common/20250723/6b83b847d8944b57cc13043bae9fa7a8.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         },
         {
-          "name": "⚽ [LIVE 27/11] Lusail SC vs Al-Arabi SC (BLV PEANUT) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-620084_lhd.m3u8?txSecret=98bd661fc2092217cb3b844bbcb54658&txTime=6b09fa5d",
-          "logo": "https://sta.vnres.co/file/common/20260713/cbd81ea71d49b5b5f074a5f56678a9b6.png",
-          "competition": "QAT D1",
-          "group": "🐿️ SocoLive"
-        },
-        {
-          "name": "⚽ [LIVE 27/11] Thai Nguyen vs Hung Yen (BLV BOSS) - SocoLive",
-          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795798029-0-0-d739c53239d6821a77cad03bc1edcdb9",
-          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
-          "competition": "VIE D2",
-          "group": "🐿️ SocoLive"
-        },
-        {
           "name": "⚽ [LIVE 27/11] Venezuela U17 vs Mexico U17 (BLV RYO) - SocoLive",
-          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=3eda59a3df9aa899b17cc786716668a0&txTime=6b09fa5d",
+          "url": "https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=f5a8043f60a5ead64445447254c7d568&txTime=6b09fde1",
           "logo": "https://sta.vnres.co/file/common/20260928/5f69ae469bdad805c99d02052617d937.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Romania U17 vs Cameroon U17 (BLV BOSS) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-620504_lhd.m3u8?auth_key=1795798929-0-0-cbaaf4bebae29c94b330807b7d905efe",
+          "logo": "https://sta.vnres.co/file/common/20260802/d0b756ac34b8f00d22a6d687f86fe8b2.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Venezuela U17 vs Mexico U17 (BLV A TÚ) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1795798929-0-0-33017915dfa8b9484b1696e41c9b2207",
+          "logo": "https://sta.vnres.co/file/common/20260607/678f6480ad0d1ca70b81555c3f8eed28.png",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Venezuela U17 vs Mexico U17 (BLV CÁO) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8?auth_key=1795798929-0-0-9ae7ec225c2f32a4b46d3f6b03502138",
+          "logo": "https://sta.vnres.co/file/common/20260312/cb002ebc914e9240a9242c43ec27aacb.jpg",
+          "competition": "WCU17",
+          "group": "🐿️ SocoLive"
+        },
+        {
+          "name": "⚽ [LIVE 27/11] Romania U17 vs Cameroon U17 (BLV NHỊ CA) - SocoLive",
+          "url": "https://pull.niues.live/live/stream-633416_lhd.m3u8?auth_key=1795798929-0-0-38304d6a662ada2474f915cb22de3ec6",
+          "logo": "https://sta.vnres.co/file/common/20261108/b7e05d79fe04e3753ab130c6c4f57881.jpg",
           "competition": "WCU17",
           "group": "🐿️ SocoLive"
         }
@@ -3557,7 +3442,7 @@
           "logo": "https://images.keovip88.net/images/teams/costa-rica-u17.png",
           "competition": "",
           "group": "⚡ Giờ Vàng TV",
-          "match_key": "27/11_20:50_brazil_youth_u17costarica_youth"
+          "match_key": "27/11_21:00_brazil_youth_u17costarica_youth"
         },
         {
           "name": "⚽ [22:00 27/11] 🥎 Italy vs Czechia (BLV Mù) [hls] - Giờ Vàng TV",
